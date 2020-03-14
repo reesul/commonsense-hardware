@@ -2794,54 +2794,6 @@ JST PH 2-pin thru-home side entry</description>
 <text x="-3.175" y="-1.905" size="1.27" layer="25" rot="R90">&gt;NAME</text>
 <text x="4.445" y="-1.905" size="1.27" layer="27" rot="R90">&gt;VALUE</text>
 </package>
-<package name="CONN_30DS-0.4V(51)">
-<smd name="1" x="0" y="0" dx="0.2286" dy="1.4478" layer="1"/>
-<smd name="2" x="0.4" y="0" dx="0.2286" dy="1.4478" layer="1"/>
-<smd name="3" x="0.799996875" y="0" dx="0.2286" dy="1.4478" layer="1"/>
-<smd name="4" x="1.2" y="0" dx="0.2286" dy="1.4478" layer="1"/>
-<smd name="5" x="1.6" y="0" dx="0.2286" dy="1.4478" layer="1"/>
-<smd name="6" x="2" y="0" dx="0.2286" dy="1.4478" layer="1"/>
-<smd name="7" x="2.4" y="0" dx="0.2286" dy="1.4478" layer="1"/>
-<smd name="8" x="2.8" y="0" dx="0.2286" dy="1.4478" layer="1"/>
-<smd name="9" x="3.2" y="0" dx="0.2286" dy="1.4478" layer="1"/>
-<smd name="10" x="3.6" y="0" dx="0.2286" dy="1.4478" layer="1"/>
-<smd name="11" x="4" y="0" dx="0.2286" dy="1.4478" layer="1"/>
-<smd name="12" x="4.4" y="0" dx="0.2286" dy="1.4478" layer="1"/>
-<smd name="13" x="4.799996875" y="0" dx="0.2286" dy="1.4478" layer="1"/>
-<smd name="14" x="5.2" y="0" dx="0.2286" dy="1.4478" layer="1"/>
-<smd name="15" x="5.6" y="0" dx="0.2286" dy="1.4478" layer="1"/>
-<smd name="30" x="5.6" y="-2.38" dx="0.2286" dy="1.4478" layer="1"/>
-<smd name="29" x="5.2" y="-2.38" dx="0.2286" dy="1.4478" layer="1"/>
-<smd name="28" x="4.8" y="-2.38" dx="0.2286" dy="1.4478" layer="1"/>
-<smd name="27" x="4.4" y="-2.38" dx="0.2286" dy="1.4478" layer="1"/>
-<smd name="26" x="4" y="-2.38" dx="0.2286" dy="1.4478" layer="1"/>
-<smd name="25" x="3.6" y="-2.38" dx="0.2286" dy="1.4478" layer="1"/>
-<smd name="24" x="3.2" y="-2.38" dx="0.2286" dy="1.4478" layer="1"/>
-<smd name="23" x="2.8" y="-2.38" dx="0.2286" dy="1.4478" layer="1"/>
-<smd name="22" x="2.4" y="-2.38" dx="0.2286" dy="1.4478" layer="1"/>
-<smd name="21" x="2" y="-2.38" dx="0.2286" dy="1.4478" layer="1"/>
-<smd name="20" x="1.6" y="-2.38" dx="0.2286" dy="1.4478" layer="1"/>
-<smd name="19" x="1.2" y="-2.38" dx="0.2286" dy="1.4478" layer="1"/>
-<smd name="18" x="0.8" y="-2.38" dx="0.2286" dy="1.4478" layer="1"/>
-<smd name="17" x="0.4" y="-2.38" dx="0.2286" dy="1.4478" layer="1"/>
-<smd name="16" x="0" y="-2.38" dx="0.2286" dy="1.4478" layer="1"/>
-<wire x1="-0.4572" y1="0.508" x2="-1.6256" y2="0.508" width="0.1524" layer="21"/>
-<wire x1="6.0452" y1="-2.8956" x2="7.239" y2="-2.8956" width="0.1524" layer="21"/>
-<wire x1="-1.6256" y1="-2.8956" x2="-0.4572" y2="-2.8956" width="0.1524" layer="21"/>
-<wire x1="7.239" y1="-2.8956" x2="7.239" y2="0.508" width="0.1524" layer="21"/>
-<wire x1="7.239" y1="0.508" x2="6.0452" y2="0.508" width="0.1524" layer="21"/>
-<wire x1="-1.6256" y1="0.508" x2="-1.6256" y2="-2.8956" width="0.1524" layer="21"/>
-<wire x1="-1.8796" y1="0" x2="-2.6416" y2="0" width="0.508" layer="21" curve="-180"/>
-<wire x1="-2.6416" y1="0" x2="-1.8796" y2="0" width="0.508" layer="21" curve="-180"/>
-<text x="1.0668" y="-1.8288" size="1.27" layer="21" ratio="6" rot="SR0">&gt;Value</text>
-<wire x1="-1.4986" y1="-2.7686" x2="7.112" y2="-2.7686" width="0.1524" layer="51"/>
-<wire x1="7.112" y1="-2.7686" x2="7.112" y2="0.381" width="0.1524" layer="51"/>
-<wire x1="7.112" y1="0.381" x2="-1.4986" y2="0.381" width="0.1524" layer="51"/>
-<wire x1="-1.4986" y1="0.381" x2="-1.4986" y2="-2.7686" width="0.1524" layer="51"/>
-<wire x1="0.381" y1="1.905" x2="-0.381" y2="1.905" width="0.508" layer="51" curve="-180"/>
-<wire x1="-0.381" y1="1.905" x2="0.381" y2="1.905" width="0.508" layer="51" curve="-180"/>
-<text x="-0.4826" y="-1.8288" size="1.27" layer="25" ratio="6" rot="SR0">&gt;Name</text>
-</package>
 <package name="HRS_DF40HC(4.0)-80DS-0.4V(51)">
 <polygon width="0" layer="41">
 <vertex x="-7.9" y="1.19"/>
@@ -3936,43 +3888,6 @@ JST PH 2-pin thru-home side entry</description>
 <pin name="1" x="-2.54" y="2.54" visible="pad" length="short" direction="pas" function="dot"/>
 <pin name="2" x="-2.54" y="0" visible="pad" length="short" direction="pas" function="dot"/>
 </symbol>
-<symbol name="DF40_30DS-0.4V(51)">
-<pin name="1" x="2.54" y="0" visible="pin" length="short" direction="pas"/>
-<pin name="2" x="22.86" y="0" visible="pin" length="short" direction="pas" rot="R180"/>
-<pin name="3" x="2.54" y="-2.54" visible="pin" length="short" direction="pas"/>
-<pin name="4" x="22.86" y="-2.54" visible="pin" length="short" direction="pas" rot="R180"/>
-<pin name="5" x="2.54" y="-5.08" visible="pin" length="short" direction="pas"/>
-<pin name="6" x="22.86" y="-5.08" visible="pin" length="short" direction="pas" rot="R180"/>
-<pin name="7" x="2.54" y="-7.62" visible="pin" length="short" direction="pas"/>
-<pin name="8" x="22.86" y="-7.62" visible="pin" length="short" direction="pas" rot="R180"/>
-<pin name="9" x="2.54" y="-10.16" visible="pin" length="short" direction="pas"/>
-<pin name="10" x="22.86" y="-10.16" visible="pin" length="short" direction="pas" rot="R180"/>
-<pin name="11" x="2.54" y="-12.7" visible="pin" length="short" direction="pas"/>
-<pin name="12" x="22.86" y="-12.7" visible="pin" length="short" direction="pas" rot="R180"/>
-<pin name="13" x="2.54" y="-15.24" visible="pin" length="short" direction="pas"/>
-<pin name="14" x="22.86" y="-15.24" visible="pin" length="short" direction="pas" rot="R180"/>
-<pin name="15" x="2.54" y="-17.78" visible="pin" length="short" direction="pas"/>
-<pin name="30" x="22.86" y="-35.56" visible="pin" length="short" direction="pas" rot="R180"/>
-<pin name="29" x="2.54" y="-35.56" visible="pin" length="short" direction="pas"/>
-<pin name="28" x="22.86" y="-33.02" visible="pin" length="short" direction="pas" rot="R180"/>
-<pin name="27" x="2.54" y="-33.02" visible="pin" length="short" direction="pas"/>
-<pin name="26" x="22.86" y="-30.48" visible="pin" length="short" direction="pas" rot="R180"/>
-<pin name="25" x="2.54" y="-30.48" visible="pin" length="short" direction="pas"/>
-<pin name="24" x="22.86" y="-27.94" visible="pin" length="short" direction="pas" rot="R180"/>
-<pin name="23" x="2.54" y="-27.94" visible="pin" length="short" direction="pas"/>
-<pin name="22" x="22.86" y="-25.4" visible="pin" length="short" direction="pas" rot="R180"/>
-<pin name="21" x="2.54" y="-25.4" visible="pin" length="short" direction="pas"/>
-<pin name="20" x="22.86" y="-22.86" visible="pin" length="short" direction="pas" rot="R180"/>
-<pin name="19" x="2.54" y="-22.86" visible="pin" length="short" direction="pas"/>
-<pin name="18" x="22.86" y="-20.32" visible="pin" length="short" direction="pas" rot="R180"/>
-<pin name="17" x="2.54" y="-20.32" visible="pin" length="short" direction="pas"/>
-<pin name="16" x="22.86" y="-17.78" visible="pin" length="short" direction="pas" rot="R180"/>
-<wire x1="5.08" y1="2.54" x2="5.08" y2="-38.1" width="0.254" layer="94"/>
-<wire x1="5.08" y1="-38.1" x2="20.32" y2="-38.1" width="0.254" layer="94"/>
-<wire x1="20.32" y1="-38.1" x2="20.32" y2="2.54" width="0.254" layer="94"/>
-<wire x1="20.32" y1="2.54" x2="5.08" y2="2.54" width="0.254" layer="94"/>
-<text x="4.1656" y="5.3086" size="2.0828" layer="95" ratio="6" rot="SR0">&gt;Name</text>
-</symbol>
 <symbol name="DF40-80DS-0.4V(51)">
 <wire x1="-7.62" y1="50.8" x2="7.62" y2="50.8" width="0.254" layer="94"/>
 <wire x1="7.62" y1="50.8" x2="7.62" y2="-53.34" width="0.254" layer="94"/>
@@ -4134,58 +4049,6 @@ JST PH 2-pin thru-home side entry</description>
 </connects>
 <technologies>
 <technology name=""/>
-</technologies>
-</device>
-</devices>
-</deviceset>
-<deviceset name="HIROSE_DF40_30-PIN_CONNECTORS" prefix="J">
-<description>DF40 Series 30-Position 2-Row Receptacle
-&lt;p&gt;
-Height may vary from 1.5-4mm; select the one most appropriate for the application. Footprint will remain unchanged.</description>
-<gates>
-<gate name="A" symbol="DF40_30DS-0.4V(51)" x="0" y="0"/>
-</gates>
-<devices>
-<device name="" package="CONN_30DS-0.4V(51)">
-<connects>
-<connect gate="A" pin="1" pad="1"/>
-<connect gate="A" pin="10" pad="10"/>
-<connect gate="A" pin="11" pad="11"/>
-<connect gate="A" pin="12" pad="12"/>
-<connect gate="A" pin="13" pad="13"/>
-<connect gate="A" pin="14" pad="14"/>
-<connect gate="A" pin="15" pad="15"/>
-<connect gate="A" pin="16" pad="16"/>
-<connect gate="A" pin="17" pad="17"/>
-<connect gate="A" pin="18" pad="18"/>
-<connect gate="A" pin="19" pad="19"/>
-<connect gate="A" pin="2" pad="2"/>
-<connect gate="A" pin="20" pad="20"/>
-<connect gate="A" pin="21" pad="21"/>
-<connect gate="A" pin="22" pad="22"/>
-<connect gate="A" pin="23" pad="23"/>
-<connect gate="A" pin="24" pad="24"/>
-<connect gate="A" pin="25" pad="25"/>
-<connect gate="A" pin="26" pad="26"/>
-<connect gate="A" pin="27" pad="27"/>
-<connect gate="A" pin="28" pad="28"/>
-<connect gate="A" pin="29" pad="29"/>
-<connect gate="A" pin="3" pad="3"/>
-<connect gate="A" pin="30" pad="30"/>
-<connect gate="A" pin="4" pad="4"/>
-<connect gate="A" pin="5" pad="5"/>
-<connect gate="A" pin="6" pad="6"/>
-<connect gate="A" pin="7" pad="7"/>
-<connect gate="A" pin="8" pad="8"/>
-<connect gate="A" pin="9" pad="9"/>
-</connects>
-<technologies>
-<technology name="">
-<attribute name="BUILT_BY" value="EMA_Matt" constant="no"/>
-<attribute name="COPYRIGHT" value="Copyright (C) 2018 Accelerated Designs. All rights reserved" constant="no"/>
-<attribute name="MANUFACTURER_PART_NUMBER" value="DF40HC(3.0)-30DS-0.4V(51)" constant="no"/>
-<attribute name="VENDOR" value="Hirose" constant="no"/>
-</technology>
 </technologies>
 </device>
 </devices>
@@ -4846,7 +4709,6 @@ In this library the device names are the same as the pin names of the symbols, t
 <attribute name="TOL" value="1%"/>
 </part>
 <part name="BORDER4" library="Graphics" deviceset="BORDER-CMU" device=""/>
-<part name="J_DBG" library="Connectors" deviceset="HIROSE_DF40_30-PIN_CONNECTORS" device=""/>
 <part name="J_DTR" library="Connectors" deviceset="HIROSE-DF40_80-PIN_CONNECTORS" device=""/>
 </parts>
 <sheets>
@@ -5969,9 +5831,6 @@ Switch enabled by that votlage from charger</text>
 <attribute name="DRAWING_NAME" x="353.06" y="42.2656" size="1.905" layer="94"/>
 <attribute name="LAST_DATE_TIME" x="353.06" y="4.191" size="1.778" layer="94"/>
 <attribute name="SHEET" x="337.82" y="4.2672" size="1.778" layer="94"/>
-</instance>
-<instance part="J_DBG" gate="A" x="294.64" y="137.16" smashed="yes" rot="R90">
-<attribute name="NAME" x="289.3314" y="141.3256" size="2.0828" layer="95" ratio="6" rot="SR90"/>
 </instance>
 <instance part="J_DTR" gate="G$1" x="132.08" y="149.86" smashed="yes" rot="R90">
 <attribute name="NAME" x="80.4966" y="142.21801875" size="1.273659375" layer="95" rot="R90"/>
