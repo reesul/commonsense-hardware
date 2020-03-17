@@ -4214,6 +4214,22 @@ Height may vary from 1.5-4mm; select the one most appropriate for the applicatio
 <wire x1="-0.75" y1="0.4" x2="-0.75" y2="0.6" width="0.1016" layer="21" style="shortdash"/>
 <wire x1="-0.75" y1="0.6" x2="-0.55" y2="0.5" width="0.1016" layer="21" style="shortdash"/>
 </package>
+<package name="SOT23-3">
+<wire x1="-1.5455" y1="-1.67" x2="-1.5455" y2="1.638" width="0.05" layer="39"/>
+<wire x1="-1.5455" y1="1.638" x2="1.5455" y2="1.638" width="0.05" layer="39"/>
+<wire x1="1.5455" y1="1.638" x2="1.5455" y2="-1.67" width="0.05" layer="39"/>
+<wire x1="1.5455" y1="-1.67" x2="-1.5455" y2="-1.67" width="0.05" layer="39"/>
+<text x="-2.27" y="2" size="1.778" layer="25">&gt;NAME</text>
+<smd name="1" x="-0.95" y="-1" dx="0.797459375" dy="0.9" layer="1"/>
+<smd name="3" x="0" y="1" dx="0.797459375" dy="0.9" layer="1"/>
+<smd name="2" x="0.95" y="-1" dx="0.797459375" dy="0.9" layer="1"/>
+</package>
+<package name="SSSMINI3">
+<smd name="3" x="0" y="0" dx="0.45" dy="0.35" layer="1"/>
+<smd name="1" x="-0.4" y="-0.75" dx="0.35" dy="0.35" layer="1"/>
+<smd name="2" x="0.4" y="-0.75" dx="0.35" dy="0.35" layer="1"/>
+<text x="-3.2766" y="1.905" size="1.27" layer="25" ratio="6" rot="SR0">&gt;Name</text>
+</package>
 </packages>
 <symbols>
 <symbol name="TOGGLE">
@@ -4265,6 +4281,97 @@ Height may vary from 1.5-4mm; select the one most appropriate for the applicatio
 <text x="2.794" y="-6.858" size="1.778" layer="97">Gnd</text>
 <text x="-7.62" y="8.89" size="1.778" layer="95">&gt;NAME</text>
 <text x="-7.62" y="-13.462" size="1.778" layer="96">&gt;PARTNO</text>
+</symbol>
+<symbol name="P-CH_MOSFET">
+<wire x1="0.762" y1="-0.762" x2="0.762" y2="0" width="0.254" layer="94"/>
+<wire x1="0.762" y1="0" x2="0.762" y2="0.762" width="0.254" layer="94"/>
+<wire x1="0.762" y1="-3.175" x2="0.762" y2="-2.54" width="0.254" layer="94"/>
+<wire x1="0.762" y1="-2.54" x2="0.762" y2="-1.905" width="0.254" layer="94"/>
+<wire x1="0.762" y1="0" x2="2.54" y2="0" width="0.1524" layer="94"/>
+<wire x1="0.762" y1="1.905" x2="0.762" y2="2.54" width="0.254" layer="94"/>
+<wire x1="0.762" y1="2.54" x2="0.762" y2="3.175" width="0.254" layer="94"/>
+<wire x1="0" y1="-2.54" x2="0" y2="2.54" width="0.254" layer="94"/>
+<wire x1="3.81" y1="2.54" x2="0.762" y2="2.54" width="0.1524" layer="94"/>
+<wire x1="0.762" y1="-2.54" x2="2.54" y2="-2.54" width="0.1524" layer="94"/>
+<circle x="2.54" y="2.54" radius="0.3592" width="0" layer="94"/>
+<circle x="2.54" y="-2.54" radius="0.3592" width="0" layer="94"/>
+<text x="-8.89" y="-8.89" size="1.778" layer="96">&gt;VALUE</text>
+<text x="-8.89" y="3.81" size="1.778" layer="95">&gt;NAME</text>
+<polygon width="0.1524" layer="94">
+<vertex x="2.54" y="0"/>
+<vertex x="1.524" y="0.762"/>
+<vertex x="1.524" y="-0.762"/>
+</polygon>
+<wire x1="2.54" y1="-2.54" x2="3.81" y2="-2.54" width="0.1524" layer="94"/>
+<wire x1="3.81" y1="2.54" x2="3.81" y2="-0.508" width="0.1524" layer="94"/>
+<wire x1="3.81" y1="-0.508" x2="3.81" y2="-2.54" width="0.1524" layer="94"/>
+<wire x1="4.318" y1="-0.508" x2="3.81" y2="-0.508" width="0.1524" layer="94"/>
+<wire x1="3.81" y1="-0.508" x2="3.302" y2="-0.508" width="0.1524" layer="94"/>
+<polygon width="0.1524" layer="94">
+<vertex x="3.81" y="-0.508"/>
+<vertex x="3.302" y="0.254"/>
+<vertex x="4.318" y="0.254"/>
+</polygon>
+<wire x1="2.54" y1="-2.54" x2="2.54" y2="0" width="0.1524" layer="94"/>
+<wire x1="2.54" y1="-2.54" x2="2.54" y2="-5.08" width="0.1524" layer="94"/>
+<wire x1="2.54" y1="-5.08" x2="-2.54" y2="-5.08" width="0.1524" layer="94"/>
+<wire x1="-2.54" y1="-5.08" x2="-2.54" y2="-2.54" width="0.1524" layer="94"/>
+<wire x1="-2.54" y1="-2.54" x2="0" y2="-2.54" width="0.1524" layer="94"/>
+<polygon width="0.1524" layer="94">
+<vertex x="0" y="-5.08"/>
+<vertex x="-0.762" y="-5.588"/>
+<vertex x="-0.762" y="-4.572"/>
+</polygon>
+<polygon width="0.1524" layer="94">
+<vertex x="0" y="-5.08"/>
+<vertex x="0.762" y="-4.572"/>
+<vertex x="0.762" y="-5.588"/>
+</polygon>
+<wire x1="0" y1="-4.572" x2="0" y2="-5.588" width="0.1524" layer="94"/>
+<wire x1="0" y1="-5.588" x2="0.254" y2="-5.842" width="0.1524" layer="94"/>
+<wire x1="-0.254" y1="-4.318" x2="0" y2="-4.572" width="0.1524" layer="94"/>
+<circle x="-2.54" y="-2.54" radius="0.3592" width="0" layer="94"/>
+<circle x="2.54" y="-5.08" radius="0.3592" width="0" layer="94"/>
+<pin name="D" x="2.54" y="5.08" visible="off" length="short" direction="pas" rot="R270"/>
+<pin name="S" x="2.54" y="-7.62" visible="off" length="short" direction="pas" rot="R90"/>
+<pin name="G" x="-5.08" y="-2.54" visible="off" length="short" direction="pas"/>
+</symbol>
+<symbol name="N-CH_MOSFET">
+<wire x1="0.762" y1="0.762" x2="0.762" y2="0" width="0.254" layer="94"/>
+<wire x1="0.762" y1="0" x2="0.762" y2="-0.762" width="0.254" layer="94"/>
+<wire x1="0.762" y1="3.175" x2="0.762" y2="2.54" width="0.254" layer="94"/>
+<wire x1="0.762" y1="2.54" x2="0.762" y2="1.905" width="0.254" layer="94"/>
+<wire x1="0.762" y1="0" x2="2.54" y2="0" width="0.1524" layer="94"/>
+<wire x1="2.54" y1="0" x2="2.54" y2="-2.54" width="0.1524" layer="94"/>
+<wire x1="0.762" y1="-1.905" x2="0.762" y2="-2.54" width="0.254" layer="94"/>
+<wire x1="0.762" y1="-2.54" x2="0.762" y2="-3.175" width="0.254" layer="94"/>
+<wire x1="0" y1="2.54" x2="0" y2="-2.54" width="0.254" layer="94"/>
+<wire x1="2.54" y1="-2.54" x2="0.762" y2="-2.54" width="0.1524" layer="94"/>
+<wire x1="3.81" y1="2.54" x2="3.81" y2="0.508" width="0.1524" layer="94"/>
+<wire x1="3.81" y1="0.508" x2="3.81" y2="-2.54" width="0.1524" layer="94"/>
+<wire x1="2.54" y1="-2.54" x2="3.81" y2="-2.54" width="0.1524" layer="94"/>
+<wire x1="0.762" y1="2.54" x2="3.81" y2="2.54" width="0.1524" layer="94"/>
+<wire x1="4.572" y1="0.762" x2="4.318" y2="0.508" width="0.1524" layer="94"/>
+<wire x1="4.318" y1="0.508" x2="3.81" y2="0.508" width="0.1524" layer="94"/>
+<wire x1="3.81" y1="0.508" x2="3.302" y2="0.508" width="0.1524" layer="94"/>
+<wire x1="3.302" y1="0.508" x2="3.048" y2="0.254" width="0.1524" layer="94"/>
+<circle x="2.54" y="-2.54" radius="0.3592" width="0" layer="94"/>
+<circle x="2.54" y="2.54" radius="0.3592" width="0" layer="94"/>
+<text x="-8.89" y="-7.62" size="1.778" layer="96">&gt;VALUE</text>
+<text x="-8.89" y="2.54" size="1.778" layer="95">&gt;NAME</text>
+<polygon width="0.1524" layer="94">
+<vertex x="3.81" y="0.508"/>
+<vertex x="3.302" y="-0.254"/>
+<vertex x="4.318" y="-0.254"/>
+</polygon>
+<polygon width="0.1524" layer="94">
+<vertex x="1.016" y="0"/>
+<vertex x="2.032" y="0.762"/>
+<vertex x="2.032" y="-0.762"/>
+</polygon>
+<pin name="S" x="2.54" y="-5.08" visible="off" length="short" direction="pas" rot="R90"/>
+<pin name="G" x="-2.54" y="-2.54" visible="off" length="short" direction="pas"/>
+<pin name="D" x="2.54" y="5.08" visible="off" length="short" direction="pas" rot="R270"/>
 </symbol>
 </symbols>
 <devicesets>
@@ -4366,6 +4473,57 @@ https://www.digikey.com/product-detail/en/microchip-technology/MIC94162YCS-TR/57
 <attribute name="PARTNO" value="MIC94164"/>
 <attribute name="QUENCH" value="YES"/>
 <attribute name="SOFTSTART" value="YES"/>
+</technology>
+</technologies>
+</device>
+</devices>
+</deviceset>
+<deviceset name="DMG3415UFY4Q-7" prefix="Q">
+<description>P-Channel MOSFET from Diodes Inc. &lt;p&gt;
+
+Design verified by Reese</description>
+<gates>
+<gate name="G$1" symbol="P-CH_MOSFET" x="0" y="0"/>
+</gates>
+<devices>
+<device name="" package="SOT23-3">
+<connects>
+<connect gate="G$1" pin="D" pad="3"/>
+<connect gate="G$1" pin="G" pad="1"/>
+<connect gate="G$1" pin="S" pad="2"/>
+</connects>
+<technologies>
+<technology name="">
+<attribute name="DESCRIPTION" value=" P-Channel 16V 2.5A _Ta_ 650mW _Ta_ Surface Mount X2-DFN2015-3 "/>
+<attribute name="DIGI-KEY_PART_NUMBER" value="DMG3415UFY4Q-7DICT-ND"/>
+<attribute name="DIGI-KEY_PURCHASE_URL" value="https://www.digikey.com/product-detail/en/diodes-incorporated/DMG3415UFY4Q-7/DMG3415UFY4Q-7DICT-ND/5970446?utm_source=snapeda&amp;utm_medium=aggregator&amp;utm_campaign=symbol"/>
+<attribute name="MF" value="Diodes Inc."/>
+<attribute name="MP" value="DMG3415UFY4Q-7"/>
+<attribute name="PACKAGE" value="DFN-2 Diodes Inc."/>
+</technology>
+</technologies>
+</device>
+</devices>
+</deviceset>
+<deviceset name="FK3303010L" prefix="Q">
+<description>N-Channel MOSFET from Panasonic. &lt;p&gt;
+
+Design verified by Reese</description>
+<gates>
+<gate name="A" symbol="N-CH_MOSFET" x="0" y="0"/>
+</gates>
+<devices>
+<device name="" package="SSSMINI3">
+<connects>
+<connect gate="A" pin="D" pad="2"/>
+<connect gate="A" pin="G" pad="3"/>
+<connect gate="A" pin="S" pad="1"/>
+</connects>
+<technologies>
+<technology name="">
+<attribute name="MANUFACTURER_PART_NUMBER" value="FK3303010L" constant="no"/>
+<attribute name="PART_NO" value="FK3303010L" constant="no"/>
+<attribute name="VENDOR" value="Panasonic" constant="no"/>
 </technology>
 </technologies>
 </device>
@@ -4513,39 +4671,6 @@ In this library the device names are the same as the pin names of the symbols, t
 <library name="Diodes">
 <description>CCSG Eagle Library</description>
 <packages>
-<package name="TRANS_DMG3415UFY4Q-7">
-<polygon width="0.01" layer="1">
-<vertex x="-0.5" y="0.65"/>
-<vertex x="0.5" y="0.65"/>
-<vertex x="0.5" y="0.155"/>
-<vertex x="1.15" y="0.155"/>
-<vertex x="1.15" y="-0.155" curve="100"/>
-<vertex x="0.5" y="-0.155"/>
-<vertex x="0.5" y="-0.65"/>
-<vertex x="-0.5" y="-0.65"/>
-</polygon>
-<rectangle x1="-0.411" y1="-0.3162" x2="0.411" y2="0.3162" layer="31" rot="R270"/>
-<wire x1="0.82" y1="0.7875" x2="1.0375" y2="0.7875" width="0.127" layer="21"/>
-<wire x1="1.0375" y1="0.7875" x2="1.0375" y2="0.475" width="0.127" layer="21"/>
-<wire x1="1.0375" y1="-0.7875" x2="0.82" y2="-0.7875" width="0.127" layer="21"/>
-<rectangle x1="-0.75" y1="-0.6" x2="0.75" y2="0.6" layer="29" rot="R270"/>
-<circle x="-1.6" y="0.5" radius="0.1" width="0.2" layer="21"/>
-<wire x1="-1.4" y1="1.0375" x2="1.4" y2="1.0375" width="0.05" layer="39"/>
-<wire x1="1.4" y1="1.0375" x2="1.4" y2="-1.0375" width="0.05" layer="39"/>
-<wire x1="1.4" y1="-1.0375" x2="-1.4" y2="-1.0375" width="0.05" layer="39"/>
-<wire x1="-1.4" y1="-1.0375" x2="-1.4" y2="1.0375" width="0.05" layer="39"/>
-<wire x1="-1.0375" y1="0.7875" x2="1.0375" y2="0.7875" width="0.127" layer="51"/>
-<wire x1="1.0375" y1="0.7875" x2="1.0375" y2="-0.7875" width="0.127" layer="51"/>
-<wire x1="1.0375" y1="-0.7875" x2="-1.0375" y2="-0.7875" width="0.127" layer="51"/>
-<wire x1="1.0375" y1="-0.475" x2="1.0375" y2="-0.7875" width="0.127" layer="21"/>
-<wire x1="-1.0375" y1="-0.7875" x2="-1.0375" y2="0.7875" width="0.127" layer="51"/>
-<circle x="-1.6" y="0.5" radius="0.1" width="0.2" layer="51"/>
-<text x="-1" y="2" size="1.778" layer="25">&gt;NAME</text>
-<text x="-1" y="-4" size="1.778" layer="27">&gt;VALUE</text>
-<smd name="1" x="-0.9" y="0.5" dx="0.31" dy="0.5" layer="1" rot="R270"/>
-<smd name="3" x="0.825" y="0" dx="0.31" dy="0.65" layer="1" rot="R270"/>
-<smd name="2" x="-0.9" y="-0.5" dx="0.31" dy="0.5" layer="1" rot="R270"/>
-</package>
 <package name="POWERDI323">
 <description>PowerDi323 SMD package for Diodes Inc.</description>
 <smd name="1" x="-1.249984375" y="0" dx="2" dy="1.1" layer="1"/>
@@ -4593,60 +4718,6 @@ In this library the device names are the same as the pin names of the symbols, t
 </package>
 </packages>
 <symbols>
-<symbol name="P-CH_MOSFET">
-<wire x1="0.762" y1="-0.762" x2="0.762" y2="0" width="0.254" layer="94"/>
-<wire x1="0.762" y1="0" x2="0.762" y2="0.762" width="0.254" layer="94"/>
-<wire x1="0.762" y1="-3.175" x2="0.762" y2="-2.54" width="0.254" layer="94"/>
-<wire x1="0.762" y1="-2.54" x2="0.762" y2="-1.905" width="0.254" layer="94"/>
-<wire x1="0.762" y1="0" x2="2.54" y2="0" width="0.1524" layer="94"/>
-<wire x1="0.762" y1="1.905" x2="0.762" y2="2.54" width="0.254" layer="94"/>
-<wire x1="0.762" y1="2.54" x2="0.762" y2="3.175" width="0.254" layer="94"/>
-<wire x1="0" y1="-2.54" x2="0" y2="2.54" width="0.254" layer="94"/>
-<wire x1="3.81" y1="2.54" x2="0.762" y2="2.54" width="0.1524" layer="94"/>
-<wire x1="0.762" y1="-2.54" x2="2.54" y2="-2.54" width="0.1524" layer="94"/>
-<circle x="2.54" y="2.54" radius="0.3592" width="0" layer="94"/>
-<circle x="2.54" y="-2.54" radius="0.3592" width="0" layer="94"/>
-<text x="-8.89" y="-8.89" size="1.778" layer="96">&gt;VALUE</text>
-<text x="-8.89" y="3.81" size="1.778" layer="95">&gt;NAME</text>
-<polygon width="0.1524" layer="94">
-<vertex x="2.54" y="0"/>
-<vertex x="1.524" y="0.762"/>
-<vertex x="1.524" y="-0.762"/>
-</polygon>
-<wire x1="2.54" y1="-2.54" x2="3.81" y2="-2.54" width="0.1524" layer="94"/>
-<wire x1="3.81" y1="2.54" x2="3.81" y2="-0.508" width="0.1524" layer="94"/>
-<wire x1="3.81" y1="-0.508" x2="3.81" y2="-2.54" width="0.1524" layer="94"/>
-<wire x1="4.318" y1="-0.508" x2="3.81" y2="-0.508" width="0.1524" layer="94"/>
-<wire x1="3.81" y1="-0.508" x2="3.302" y2="-0.508" width="0.1524" layer="94"/>
-<polygon width="0.1524" layer="94">
-<vertex x="3.81" y="-0.508"/>
-<vertex x="3.302" y="0.254"/>
-<vertex x="4.318" y="0.254"/>
-</polygon>
-<wire x1="2.54" y1="-2.54" x2="2.54" y2="0" width="0.1524" layer="94"/>
-<wire x1="2.54" y1="-2.54" x2="2.54" y2="-5.08" width="0.1524" layer="94"/>
-<wire x1="2.54" y1="-5.08" x2="-2.54" y2="-5.08" width="0.1524" layer="94"/>
-<wire x1="-2.54" y1="-5.08" x2="-2.54" y2="-2.54" width="0.1524" layer="94"/>
-<wire x1="-2.54" y1="-2.54" x2="0" y2="-2.54" width="0.1524" layer="94"/>
-<polygon width="0.1524" layer="94">
-<vertex x="0" y="-5.08"/>
-<vertex x="-0.762" y="-5.588"/>
-<vertex x="-0.762" y="-4.572"/>
-</polygon>
-<polygon width="0.1524" layer="94">
-<vertex x="0" y="-5.08"/>
-<vertex x="0.762" y="-4.572"/>
-<vertex x="0.762" y="-5.588"/>
-</polygon>
-<wire x1="0" y1="-4.572" x2="0" y2="-5.588" width="0.1524" layer="94"/>
-<wire x1="0" y1="-5.588" x2="0.254" y2="-5.842" width="0.1524" layer="94"/>
-<wire x1="-0.254" y1="-4.318" x2="0" y2="-4.572" width="0.1524" layer="94"/>
-<circle x="-2.54" y="-2.54" radius="0.3592" width="0" layer="94"/>
-<circle x="2.54" y="-5.08" radius="0.3592" width="0" layer="94"/>
-<pin name="D" x="2.54" y="5.08" visible="off" length="short" direction="pas" rot="R270"/>
-<pin name="S" x="2.54" y="-7.62" visible="off" length="short" direction="pas" rot="R90"/>
-<pin name="G" x="-5.08" y="-2.54" visible="off" length="short" direction="pas"/>
-</symbol>
 <symbol name="DIODE">
 <pin name="P" x="-5.08" y="0" visible="off" length="short"/>
 <pin name="N" x="5.08" y="0" visible="off" length="short" rot="R180"/>
@@ -4698,33 +4769,6 @@ In this library the device names are the same as the pin names of the symbols, t
 </symbol>
 </symbols>
 <devicesets>
-<deviceset name="P-CH_MOSFET_DMG3415UFY4Q-7" prefix="Q">
-<description>P-Channel MOSFET from Diodes Inc. &lt;p&gt;
-
-Mosfet Bvdss: 16v X2-Dfn2015-3 t&amp;r 3k</description>
-<gates>
-<gate name="G$1" symbol="P-CH_MOSFET" x="0" y="0"/>
-</gates>
-<devices>
-<device name="" package="TRANS_DMG3415UFY4Q-7">
-<connects>
-<connect gate="G$1" pin="D" pad="3"/>
-<connect gate="G$1" pin="G" pad="1"/>
-<connect gate="G$1" pin="S" pad="2"/>
-</connects>
-<technologies>
-<technology name="">
-<attribute name="DESCRIPTION" value=" P-Channel 16V 2.5A _Ta_ 650mW _Ta_ Surface Mount X2-DFN2015-3 "/>
-<attribute name="DIGI-KEY_PART_NUMBER" value="DMG3415UFY4Q-7DICT-ND"/>
-<attribute name="DIGI-KEY_PURCHASE_URL" value="https://www.digikey.com/product-detail/en/diodes-incorporated/DMG3415UFY4Q-7/DMG3415UFY4Q-7DICT-ND/5970446?utm_source=snapeda&amp;utm_medium=aggregator&amp;utm_campaign=symbol"/>
-<attribute name="MF" value="Diodes Inc."/>
-<attribute name="MP" value="DMG3415UFY4Q-7"/>
-<attribute name="PACKAGE" value="DFN-2 Diodes Inc."/>
-</technology>
-</technologies>
-</device>
-</devices>
-</deviceset>
 <deviceset name="PD3S140-7" prefix="U">
 <description>1A Schottky Barrier Rectifier.
 
@@ -4984,7 +5028,7 @@ Mosfet Bvdss: 16v X2-Dfn2015-3 t&amp;r 3k</description>
 </part>
 <part name="BORDER4" library="Graphics" deviceset="BORDER-CMU" device=""/>
 <part name="J_DTR" library="Connectors" deviceset="HIROSE-DF40_80-PIN_CONNECTORS" device=""/>
-<part name="Q1" library="Diodes" deviceset="P-CH_MOSFET_DMG3415UFY4Q-7" device="" value="DMG3415UFY4Q-7">
+<part name="Q1" library="Switches" deviceset="DMG3415UFY4Q-7" device="" value="DMG3415UFY4Q-7">
 <attribute name="PART_NO" value="DMG3415UFY4Q-7"/>
 </part>
 <part name="R4" library="Resistors" deviceset="R-" device="0402" value="100k">
@@ -5004,6 +5048,10 @@ Mosfet Bvdss: 16v X2-Dfn2015-3 t&amp;r 3k</description>
 <part name="R7" library="Resistors" deviceset="R-" device="0402" value="30">
 <attribute name="PART_NO" value="ERJ-2RKF30R0X"/>
 </part>
+<part name="Q2" library="Switches" deviceset="FK3303010L" device=""/>
+<part name="Q3" library="Switches" deviceset="FK3303010L" device=""/>
+<part name="Q4" library="Switches" deviceset="FK3303010L" device=""/>
+<part name="GND17" library="Supplies" deviceset="GND" device=""/>
 </parts>
 <sheets>
 <sheet>
@@ -5710,10 +5758,6 @@ Red (2) has forward bias 1.8V.
 Outputs of this should be tied to GND by 
 processor to turn an LED on.</text>
 <text x="269.24" y="132.08" size="3.81" layer="91">Indicator LEDs</text>
-<text x="342.9" y="50.8" size="1.778" layer="91">PowerDue uses MOSFETs to rather
-than pins directly to processor.
-Should that be done again?
-It was used to segregate CPU and actuator rails</text>
 </plain>
 <instances>
 <instance part="BORDER3" gate="G$1" x="0" y="0" smashed="yes"/>
@@ -5860,24 +5904,39 @@ It was used to segregate CPU and actuator rails</text>
 <attribute name="NAME" x="149.352" y="158.75" size="1.27" layer="95"/>
 <attribute name="VALUE" x="149.352" y="149.86" size="1.27" layer="96"/>
 </instance>
-<instance part="D1" gate="G$0" x="314.96" y="116.84" smashed="yes">
-<attribute name="NAME" x="314.96" y="114.3" size="2.54" layer="95" align="top-left"/>
-<attribute name="PART_NO" x="314.96" y="116.84" size="1.778" layer="96" display="off"/>
+<instance part="D1" gate="G$0" x="353.06" y="124.46" smashed="yes" rot="R270">
+<attribute name="NAME" x="350.52" y="124.46" size="2.54" layer="95" rot="R270" align="top-left"/>
+<attribute name="PART_NO" x="353.06" y="124.46" size="1.778" layer="96" rot="R270" display="off"/>
 </instance>
-<instance part="R5" gate="G$1" x="347.98" y="96.52" smashed="yes">
-<attribute name="NAME" x="344.17" y="98.0186" size="1.778" layer="95"/>
-<attribute name="VALUE" x="344.17" y="93.218" size="1.778" layer="96"/>
-<attribute name="PART_NO" x="347.98" y="96.52" size="1.778" layer="96" display="off"/>
+<instance part="R5" gate="G$1" x="342.9" y="101.6" smashed="yes" rot="R270">
+<attribute name="NAME" x="344.3986" y="105.41" size="1.778" layer="95" rot="R270"/>
+<attribute name="VALUE" x="339.598" y="105.41" size="1.778" layer="96" rot="R270"/>
+<attribute name="PART_NO" x="342.9" y="101.6" size="1.778" layer="96" rot="R270" display="off"/>
 </instance>
-<instance part="R6" gate="G$1" x="347.98" y="86.36" smashed="yes">
-<attribute name="NAME" x="344.17" y="87.8586" size="1.778" layer="95"/>
-<attribute name="VALUE" x="344.17" y="83.058" size="1.778" layer="96"/>
-<attribute name="PART_NO" x="347.98" y="86.36" size="1.778" layer="96" display="off"/>
+<instance part="R6" gate="G$1" x="322.58" y="101.6" smashed="yes" rot="R270">
+<attribute name="NAME" x="324.0786" y="105.41" size="1.778" layer="95" rot="R270"/>
+<attribute name="VALUE" x="319.278" y="105.41" size="1.778" layer="96" rot="R270"/>
+<attribute name="PART_NO" x="322.58" y="101.6" size="1.778" layer="96" rot="R270" display="off"/>
 </instance>
-<instance part="R7" gate="G$1" x="347.98" y="106.68" smashed="yes">
-<attribute name="NAME" x="344.17" y="108.1786" size="1.778" layer="95"/>
-<attribute name="VALUE" x="344.17" y="103.378" size="1.778" layer="96"/>
-<attribute name="PART_NO" x="347.98" y="106.68" size="1.778" layer="96" display="off"/>
+<instance part="R7" gate="G$1" x="332.74" y="101.6" smashed="yes" rot="R270">
+<attribute name="NAME" x="334.2386" y="105.41" size="1.778" layer="95" rot="R270"/>
+<attribute name="VALUE" x="329.438" y="105.41" size="1.778" layer="96" rot="R270"/>
+<attribute name="PART_NO" x="332.74" y="101.6" size="1.778" layer="96" rot="R270" display="off"/>
+</instance>
+<instance part="Q2" gate="A" x="320.04" y="91.44" smashed="yes">
+<attribute name="VALUE" x="306.07" y="86.36" size="1.778" layer="96"/>
+<attribute name="NAME" x="318.77" y="96.52" size="1.778" layer="95"/>
+</instance>
+<instance part="Q3" gate="A" x="330.2" y="86.36" smashed="yes">
+<attribute name="VALUE" x="316.23" y="81.28" size="1.778" layer="96"/>
+<attribute name="NAME" x="328.93" y="91.44" size="1.778" layer="95"/>
+</instance>
+<instance part="Q4" gate="A" x="340.36" y="81.28" smashed="yes">
+<attribute name="VALUE" x="323.85" y="76.2" size="1.778" layer="96"/>
+<attribute name="NAME" x="339.09" y="86.36" size="1.778" layer="95"/>
+</instance>
+<instance part="GND17" gate="1" x="332.74" y="71.12" smashed="yes">
+<attribute name="VALUE" x="330.073" y="67.945" size="1.778" layer="96"/>
 </instance>
 </instances>
 <busses>
@@ -5956,6 +6015,18 @@ It was used to segregate CPU and actuator rails</text>
 <segment>
 <pinref part="R4" gate="G$1" pin="1"/>
 <pinref part="GND16" gate="1" pin="GND"/>
+</segment>
+<segment>
+<pinref part="Q2" gate="A" pin="S"/>
+<wire x1="322.58" y1="86.36" x2="322.58" y2="73.66" width="0.1524" layer="91"/>
+<pinref part="GND17" gate="1" pin="GND"/>
+<wire x1="322.58" y1="73.66" x2="332.74" y2="73.66" width="0.1524" layer="91"/>
+<pinref part="Q3" gate="A" pin="S"/>
+<wire x1="332.74" y1="81.28" x2="332.74" y2="73.66" width="0.1524" layer="91"/>
+<junction x="332.74" y="73.66"/>
+<pinref part="Q4" gate="A" pin="S"/>
+<wire x1="342.9" y1="76.2" x2="342.9" y2="73.66" width="0.1524" layer="91"/>
+<wire x1="342.9" y1="73.66" x2="332.74" y2="73.66" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="ADDR_I2C_DAT" class="0">
@@ -6147,12 +6218,10 @@ It was used to segregate CPU and actuator rails</text>
 <wire x1="383.54" y1="226.06" x2="386.08" y2="228.6" width="0.1524" layer="91"/>
 </segment>
 <segment>
+<label x="340.36" y="129.54" size="1.778" layer="95"/>
 <pinref part="D1" gate="G$0" pin="COMMON_ANODE"/>
-<wire x1="309.88" y1="96.52" x2="294.64" y2="96.52" width="0.1524" layer="91"/>
-<wire x1="294.64" y1="96.52" x2="294.64" y2="119.38" width="0.1524" layer="91"/>
-<wire x1="294.64" y1="119.38" x2="383.54" y2="119.38" width="0.1524" layer="91"/>
-<label x="297.18" y="119.38" size="1.778" layer="95"/>
-<wire x1="383.54" y1="119.38" x2="386.08" y2="121.92" width="0.1524" layer="91"/>
+<wire x1="332.74" y1="129.54" x2="383.54" y2="129.54" width="0.1524" layer="91"/>
+<wire x1="383.54" y1="129.54" x2="386.08" y2="132.08" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="VDD_DBG" class="0">
@@ -6221,46 +6290,24 @@ It was used to segregate CPU and actuator rails</text>
 <wire x1="157.48" y1="187.96" x2="20.32" y2="187.96" width="0.254" layer="91" style="shortdash"/>
 </segment>
 </net>
-<net name="N$12" class="0">
-<segment>
-<pinref part="D1" gate="G$0" pin="GREEN_CATHODE"/>
-<pinref part="R5" gate="G$1" pin="1"/>
-<wire x1="332.74" y1="96.52" x2="342.9" y2="96.52" width="0.1524" layer="91"/>
-</segment>
-</net>
 <net name="LED_R" class="0">
 <segment>
-<pinref part="R5" gate="G$1" pin="2"/>
-<wire x1="353.06" y1="96.52" x2="375.92" y2="96.52" width="0.1524" layer="91"/>
-<label x="363.22" y="96.52" size="1.778" layer="95"/>
+<pinref part="Q4" gate="A" pin="G"/>
+<wire x1="337.82" y1="78.74" x2="297.18" y2="78.74" width="0.1524" layer="91"/>
+<label x="297.18" y="78.74" size="1.778" layer="95" rot="R180" xref="yes"/>
 </segment>
 </net>
 <net name="LED_G" class="0">
 <segment>
-<label x="363.22" y="106.68" size="1.778" layer="95"/>
-<pinref part="R7" gate="G$1" pin="2"/>
-<wire x1="353.06" y1="106.68" x2="375.92" y2="106.68" width="0.1524" layer="91"/>
-</segment>
-</net>
-<net name="LED_B" class="0">
-<segment>
-<label x="363.22" y="86.36" size="1.778" layer="95"/>
-<wire x1="353.06" y1="86.36" x2="375.92" y2="86.36" width="0.1524" layer="91"/>
-<pinref part="R6" gate="G$1" pin="2"/>
+<pinref part="Q3" gate="A" pin="G"/>
+<wire x1="327.66" y1="83.82" x2="297.18" y2="83.82" width="0.1524" layer="91"/>
+<label x="297.18" y="83.82" size="1.778" layer="95" rot="R180" xref="yes"/>
 </segment>
 </net>
 <net name="N$4" class="0">
 <segment>
 <pinref part="R6" gate="G$1" pin="1"/>
 <pinref part="D1" gate="G$0" pin="BLUE_CATHODE"/>
-<wire x1="332.74" y1="86.36" x2="342.9" y2="86.36" width="0.1524" layer="91"/>
-</segment>
-</net>
-<net name="N$14" class="0">
-<segment>
-<pinref part="R7" gate="G$1" pin="1"/>
-<pinref part="D1" gate="G$0" pin="RED_CATHODE"/>
-<wire x1="332.74" y1="106.68" x2="342.9" y2="106.68" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="+3V7_BATT" class="1">
@@ -6274,6 +6321,45 @@ It was used to segregate CPU and actuator rails</text>
 <junction x="160.02" y="223.52"/>
 <wire x1="160.02" y1="254" x2="162.56" y2="256.54" width="0.1524" layer="91"/>
 <wire x1="162.56" y1="256.54" x2="165.1" y2="256.54" width="0.1524" layer="91"/>
+</segment>
+</net>
+<net name="N$15" class="0">
+<segment>
+<pinref part="R6" gate="G$1" pin="2"/>
+<pinref part="Q2" gate="A" pin="D"/>
+</segment>
+</net>
+<net name="LED_B" class="0">
+<segment>
+<pinref part="Q2" gate="A" pin="G"/>
+<wire x1="317.5" y1="88.9" x2="297.18" y2="88.9" width="0.1524" layer="91"/>
+<label x="297.18" y="88.9" size="1.778" layer="95" rot="R180" xref="yes"/>
+</segment>
+</net>
+<net name="N$12" class="0">
+<segment>
+<pinref part="D1" gate="G$0" pin="GREEN_CATHODE"/>
+<pinref part="R7" gate="G$1" pin="1"/>
+</segment>
+</net>
+<net name="N$14" class="0">
+<segment>
+<pinref part="D1" gate="G$0" pin="RED_CATHODE"/>
+<pinref part="R5" gate="G$1" pin="1"/>
+</segment>
+</net>
+<net name="N$16" class="0">
+<segment>
+<pinref part="R7" gate="G$1" pin="2"/>
+<pinref part="Q3" gate="A" pin="D"/>
+<wire x1="332.74" y1="96.52" x2="332.74" y2="91.44" width="0.1524" layer="91"/>
+</segment>
+</net>
+<net name="N$17" class="0">
+<segment>
+<pinref part="R5" gate="G$1" pin="2"/>
+<pinref part="Q4" gate="A" pin="D"/>
+<wire x1="342.9" y1="96.52" x2="342.9" y2="86.36" width="0.1524" layer="91"/>
 </segment>
 </net>
 </nets>
