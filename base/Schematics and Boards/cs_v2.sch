@@ -3875,6 +3875,13 @@ JST PH 2-pin thru-home side entry</description>
 <rectangle x1="-4.850003125" y1="-1.685" x2="-4.500003125" y2="-1.025" layer="1"/>
 <rectangle x1="-4.875403125" y1="-1.7104" x2="-4.474603125" y2="-0.9996" layer="29"/>
 </package>
+<package name="SMT-JUMPER_2_NC_PASTE_NO-SILK" urn="urn:adsk.eagle:footprint:39260/1">
+<text x="0" y="1.143" size="0.6096" layer="25" font="vector" ratio="20" align="bottom-center">&gt;NAME</text>
+<text x="0" y="-1.143" size="0.6096" layer="27" font="vector" ratio="20" align="top-center">&gt;VALUE</text>
+<rectangle x1="-1.2446" y1="-1.1176" x2="1.2446" y2="1.1176" layer="31"/>
+<smd name="1" x="-0.4064" y="0" dx="0.635" dy="1.27" layer="1" cream="no"/>
+<smd name="2" x="0.4064" y="0" dx="0.635" dy="1.27" layer="1" cream="no"/>
+</package>
 </packages>
 <packages3d>
 <package3d name="JST-PH-2-SMT-RA" urn="urn:adsk.eagle:package:6240692/1" type="box">
@@ -3901,6 +3908,11 @@ JST PH 2-pin thru-home side entry</description>
 <package3d name="JST-PH-2-SMT" urn="urn:adsk.eagle:package:6240763/1" type="box">
 <packageinstances>
 <packageinstance name="JST-PH-2-SMT"/>
+</packageinstances>
+</package3d>
+<package3d name="SMT-JUMPER_2_NC_PASTE_NO-SILK" urn="urn:adsk.eagle:package:39283/1" type="box">
+<packageinstances>
+<packageinstance name="SMT-JUMPER_2_NC_PASTE_NO-SILK"/>
 </packageinstances>
 </package3d>
 </packages3d>
@@ -4044,6 +4056,17 @@ JST PH 2-pin thru-home side entry</description>
 <pin name="A" x="-12.7" y="-12.7" visible="pad" length="middle"/>
 <pin name="B" x="-12.7" y="-15.24" visible="pad" length="middle"/>
 <pin name="SHIELD" x="-12.7" y="-7.62" length="middle" direction="pas"/>
+</symbol>
+<symbol name="SMT-JUMPER_2_NC_PASTE">
+<wire x1="0.381" y1="0.635" x2="0.381" y2="-0.635" width="1.27" layer="94" curve="-180" cap="flat"/>
+<wire x1="-0.381" y1="-0.635" x2="-0.381" y2="0.635" width="1.27" layer="94" curve="-180" cap="flat"/>
+<wire x1="2.54" y1="0" x2="1.651" y2="0" width="0.1524" layer="94"/>
+<wire x1="-2.54" y1="0" x2="-1.651" y2="0" width="0.1524" layer="94"/>
+<text x="-2.54" y="2.54" size="1.778" layer="95" font="vector">&gt;NAME</text>
+<text x="-2.54" y="-2.54" size="1.778" layer="96" font="vector" align="top-left">&gt;VALUE</text>
+<pin name="2" x="5.08" y="0" visible="off" length="short" direction="pas" swaplevel="1" rot="R180"/>
+<pin name="1" x="-5.08" y="0" visible="off" length="short" direction="pas" swaplevel="1"/>
+<circle x="0" y="0" radius="1.93440625" width="0" layer="95"/>
 </symbol>
 </symbols>
 <devicesets>
@@ -4367,6 +4390,27 @@ Design verified by Reese</description>
 <attribute name="MANUFACTURER" value="Hirose Electric Co."/>
 <attribute name="MPN" value="DM3AT-SF-PEJM5" constant="no"/>
 </technology>
+</technologies>
+</device>
+</devices>
+</deviceset>
+<deviceset name="JUMPER-SMT_2_NC_PASTE" prefix="JP">
+<description>&lt;h3&gt;Normally closed solder jumper&lt;/h3&gt;
+&lt;p&gt;This jumper has an aperture in the stencil to allow solder paste to bridge the split in the wire so it's normally closed (NC). Wick off the solder to open the connection. Reapply solder to reclose the connection.&lt;/p&gt;</description>
+<gates>
+<gate name="G$1" symbol="SMT-JUMPER_2_NC_PASTE" x="0" y="0"/>
+</gates>
+<devices>
+<device name="_NO-SILK" package="SMT-JUMPER_2_NC_PASTE_NO-SILK">
+<connects>
+<connect gate="G$1" pin="1" pad="1"/>
+<connect gate="G$1" pin="2" pad="2"/>
+</connects>
+<package3dinstances>
+<package3dinstance package3d_urn="urn:adsk.eagle:package:39283/1"/>
+</package3dinstances>
+<technologies>
+<technology name=""/>
 </technologies>
 </device>
 </devices>
@@ -4850,41 +4894,6 @@ Design verified by Reese</description>
 </deviceset>
 </devicesets>
 </library>
-<library name="supply2" urn="urn:adsk.eagle:library:372">
-<description>&lt;b&gt;Supply Symbols&lt;/b&gt;&lt;p&gt;
-GND, VCC, 0V, +5V, -5V, etc.&lt;p&gt;
-Please keep in mind, that these devices are necessary for the
-automatic wiring of the supply signals.&lt;p&gt;
-The pin name defined in the symbol is identical to the net which is to be wired automatically.&lt;p&gt;
-In this library the device names are the same as the pin names of the symbols, therefore the correct signal names appear next to the supply symbols in the schematic.&lt;p&gt;
-&lt;author&gt;Created by librarian@cadsoft.de&lt;/author&gt;</description>
-<packages>
-</packages>
-<symbols>
-<symbol name="AGND" urn="urn:adsk.eagle:symbol:27018/1" library_version="2">
-<wire x1="-1.27" y1="0" x2="1.27" y2="0" width="0.254" layer="94"/>
-<wire x1="1.27" y1="0" x2="0" y2="-1.27" width="0.254" layer="94"/>
-<wire x1="0" y1="-1.27" x2="-1.27" y2="0" width="0.254" layer="94"/>
-<text x="-2.667" y="-3.175" size="1.778" layer="96">&gt;VALUE</text>
-<pin name="AGND" x="0" y="2.54" visible="off" length="short" direction="sup" rot="R270"/>
-</symbol>
-</symbols>
-<devicesets>
-<deviceset name="AGND" urn="urn:adsk.eagle:component:27066/1" prefix="SUPPLY" library_version="2">
-<description>&lt;b&gt;SUPPLY SYMBOL&lt;/b&gt;</description>
-<gates>
-<gate name="G$1" symbol="AGND" x="0" y="0"/>
-</gates>
-<devices>
-<device name="">
-<technologies>
-<technology name=""/>
-</technologies>
-</device>
-</devices>
-</deviceset>
-</devicesets>
-</library>
 <library name="Diodes">
 <description>CCSG Eagle Library</description>
 <packages>
@@ -5039,105 +5048,6 @@ In this library the device names are the same as the pin names of the symbols, t
 <attribute name="TEMPERATURE_RANGE_HIGH" value="+100°C"/>
 <attribute name="TEMPERATURE_RANGE_LOW" value="-40°C"/>
 </technology>
-</technologies>
-</device>
-</devices>
-</deviceset>
-</devicesets>
-</library>
-<library name="SparkFun-Jumpers">
-<description>&lt;h3&gt;SparkFun Jumpers&lt;/h3&gt;
-In this library you'll find jumpers, or other semipermanent means of changing current paths. The least permanent form is the solder jumper. These can be changed by adding, removing, or moving solder. In cases that are less likely to be changed we have jumpers that are connected with traces. These can be cut with a razor, or reconnected with solder. Reference designator JP.
-&lt;br&gt;
-&lt;br&gt;
-We've spent an enormous amount of time creating and checking these footprints and parts, but it is &lt;b&gt; the end user's responsibility&lt;/b&gt; to ensure correctness and suitablity for a given componet or application. 
-&lt;br&gt;
-&lt;br&gt;If you enjoy using this library, please buy one of our products at &lt;a href=" www.sparkfun.com"&gt;SparkFun.com&lt;/a&gt;.
-&lt;br&gt;
-&lt;br&gt;
-&lt;b&gt;Licensing:&lt;/b&gt; Creative Commons ShareAlike 4.0 International - https://creativecommons.org/licenses/by-sa/4.0/ 
-&lt;br&gt;
-&lt;br&gt;
-You are welcome to use this library for commercial purposes. For attribution, we ask that when you begin to sell your device using our footprint, you email us with a link to the product being sold. We want bragging rights that we helped (in a very small part) to create your 8th world wonder. We would like the opportunity to feature your device on our homepage.</description>
-<packages>
-<package name="SMT-JUMPER_2_NC_PASTE_NO-SILK" urn="urn:adsk.eagle:footprint:39260/1">
-<text x="0" y="1.143" size="0.6096" layer="25" font="vector" ratio="20" align="bottom-center">&gt;NAME</text>
-<text x="0" y="-1.143" size="0.6096" layer="27" font="vector" ratio="20" align="top-center">&gt;VALUE</text>
-<rectangle x1="-1.2446" y1="-1.1176" x2="1.2446" y2="1.1176" layer="31"/>
-<smd name="1" x="-0.4064" y="0" dx="0.635" dy="1.27" layer="1" cream="no"/>
-<smd name="2" x="0.4064" y="0" dx="0.635" dy="1.27" layer="1" cream="no"/>
-</package>
-<package name="SMT-JUMPER_2_NC_PASTE_SILK" urn="urn:adsk.eagle:footprint:39261/1">
-<text x="0" y="1.143" size="0.6096" layer="25" font="vector" ratio="20" align="bottom-center">&gt;NAME</text>
-<text x="0" y="-1.143" size="0.6096" layer="27" font="vector" ratio="20" align="top-center">&gt;VALUE</text>
-<wire x1="0.8636" y1="-1.016" x2="-0.8636" y2="-1.016" width="0.1524" layer="21"/>
-<wire x1="0.8636" y1="1.016" x2="1.1176" y2="0.762" width="0.1524" layer="21" curve="-90"/>
-<wire x1="-1.1176" y1="0.762" x2="-0.8636" y2="1.016" width="0.1524" layer="21" curve="-90"/>
-<wire x1="-1.1176" y1="-0.762" x2="-0.8636" y2="-1.016" width="0.1524" layer="21" curve="90"/>
-<wire x1="0.8636" y1="-1.016" x2="1.1176" y2="-0.762" width="0.1524" layer="21" curve="90"/>
-<wire x1="1.1176" y1="-0.762" x2="1.1176" y2="0.762" width="0.1524" layer="21"/>
-<wire x1="-1.1176" y1="-0.762" x2="-1.1176" y2="0.762" width="0.1524" layer="21"/>
-<wire x1="-0.8636" y1="1.016" x2="0.8636" y2="1.016" width="0.1524" layer="21"/>
-<rectangle x1="-1.2446" y1="-1.1176" x2="1.2446" y2="1.1176" layer="31"/>
-<smd name="1" x="-0.4064" y="0" dx="0.635" dy="1.27" layer="1" cream="no"/>
-<smd name="2" x="0.4064" y="0" dx="0.635" dy="1.27" layer="1" cream="no"/>
-</package>
-</packages>
-<packages3d>
-<package3d name="SMT-JUMPER_2_NC_PASTE_NO-SILK" urn="urn:adsk.eagle:package:39283/1" type="box">
-<packageinstances>
-<packageinstance name="SMT-JUMPER_2_NC_PASTE_NO-SILK"/>
-</packageinstances>
-</package3d>
-<package3d name="SMT-JUMPER_2_NC_PASTE_SILK" urn="urn:adsk.eagle:package:39282/1" type="box">
-<packageinstances>
-<packageinstance name="SMT-JUMPER_2_NC_PASTE_SILK"/>
-</packageinstances>
-</package3d>
-</packages3d>
-<symbols>
-<symbol name="SMT-JUMPER_2_NC_PASTE">
-<wire x1="0.381" y1="0.635" x2="0.381" y2="-0.635" width="1.27" layer="94" curve="-180" cap="flat"/>
-<wire x1="-0.381" y1="-0.635" x2="-0.381" y2="0.635" width="1.27" layer="94" curve="-180" cap="flat"/>
-<wire x1="2.54" y1="0" x2="1.651" y2="0" width="0.1524" layer="94"/>
-<wire x1="-2.54" y1="0" x2="-1.651" y2="0" width="0.1524" layer="94"/>
-<text x="-2.54" y="2.54" size="1.778" layer="95" font="vector">&gt;NAME</text>
-<text x="-2.54" y="-2.54" size="1.778" layer="96" font="vector" align="top-left">&gt;VALUE</text>
-<pin name="2" x="5.08" y="0" visible="off" length="short" direction="pas" swaplevel="1" rot="R180"/>
-<pin name="1" x="-5.08" y="0" visible="off" length="short" direction="pas" swaplevel="1"/>
-<circle x="0" y="0" radius="1.93440625" width="0" layer="95"/>
-</symbol>
-</symbols>
-<devicesets>
-<deviceset name="JUMPER-SMT_2_NC_PASTE" prefix="JP">
-<description>&lt;h3&gt;Normally closed solder jumper&lt;/h3&gt;
-&lt;p&gt;This jumper has an aperture in the stencil to allow solder paste to bridge the split in the wire so it's normally closed (NC). Wick off the solder to open the connection. Reapply solder to reclose the connection.&lt;/p&gt;</description>
-<gates>
-<gate name="G$1" symbol="SMT-JUMPER_2_NC_PASTE" x="0" y="0"/>
-</gates>
-<devices>
-<device name="_NO-SILK" package="SMT-JUMPER_2_NC_PASTE_NO-SILK">
-<connects>
-<connect gate="G$1" pin="1" pad="1"/>
-<connect gate="G$1" pin="2" pad="2"/>
-</connects>
-<package3dinstances>
-<package3dinstance package3d_urn="urn:adsk.eagle:package:39283/1"/>
-</package3dinstances>
-<technologies>
-<technology name=""/>
-</technologies>
-</device>
-<device name="_SILK" package="SMT-JUMPER_2_NC_PASTE_SILK">
-<connects>
-<connect gate="G$1" pin="1" pad="1"/>
-<connect gate="G$1" pin="2" pad="2"/>
-</connects>
-<package3dinstances>
-<package3dinstance package3d_urn="urn:adsk.eagle:package:39282/1"/>
-</package3dinstances>
-<technologies>
-<technology name=""/>
 </technologies>
 </device>
 </devices>
@@ -6431,7 +6341,9 @@ Digikey part 336-3124-ND</description>
 <attribute name="PART_NO" value="SM02B-SRSS-TB"/>
 </part>
 <part name="GND11" library="SparkFun-PowerSymbols" deviceset="GND" device=""/>
-<part name="S2" library="Switches" deviceset="SLIDESWITCH-SPDT" device="-SMD-RIGHT-ANGLE"/>
+<part name="S2" library="Switches" deviceset="SLIDESWITCH-SPDT" device="-SMD-RIGHT-ANGLE">
+<attribute name="PART_NO" value="CUS-12TB"/>
+</part>
 <part name="U202" library="CoulombCounters" deviceset="COULOMB-MAX17262" device="">
 <attribute name="MP" value="MAX17262REWL+T"/>
 </part>
@@ -6462,17 +6374,11 @@ Digikey part 336-3124-ND</description>
 <part name="L3" library="Inductors" deviceset="L1008" device="" value="1u"/>
 <part name="GND12" library="Supplies" deviceset="GND" device=""/>
 <part name="GND13" library="Supplies" deviceset="GND" device=""/>
-<part name="SUPPLY1" library="supply2" library_urn="urn:adsk.eagle:library:372" deviceset="AGND" device=""/>
-<part name="GND14" library="Supplies" deviceset="GND" device=""/>
-<part name="SUPPLY2" library="supply2" library_urn="urn:adsk.eagle:library:372" deviceset="AGND" device=""/>
-<part name="R3" library="Resistors" deviceset="R-" device="2010" value="0">
-<attribute name="PART_NO" value="ERJ-S140R00U"/>
-</part>
 <part name="GND15" library="Supplies" deviceset="GND" device=""/>
 <part name="+3V4" library="Supplies" deviceset="+3V3" device=""/>
 <part name="GND230" library="Supplies" deviceset="GND" device=""/>
 <part name="GND226" library="Supplies" deviceset="GND" device=""/>
-<part name="U206" library="Switches" deviceset="LOADSWITCH-MIC9416" device="" technology="2">
+<part name="U206" library="Switches" deviceset="LOADSWITCH-MIC9416" device="" technology="4" value="LOADSWITCH-MIC94164">
 <attribute name="MP" value="MIC94162YCS-TR"/>
 <attribute name="PART_NO" value="MIC94162YCS-TR"/>
 </part>
@@ -6509,25 +6415,27 @@ Digikey part 336-3124-ND</description>
 <part name="D1" library="Diodes" deviceset="DIALIGHT_RGBLED_598-8710-307F" device="DIALIGHT_598-8710-307F_0_0">
 <attribute name="PART_NO" value="598-8710-307F"/>
 </part>
-<part name="R5" library="Resistors" deviceset="R-" device="0402" value="150">
-<attribute name="PART_NO" value="ERJ-2GEJ151X"/>
+<part name="R5" library="Resistors" deviceset="R-" device="0402" value="1k">
+<attribute name="PART_NO" value="ERA-2AED102X"/>
+<attribute name="TOL" value="0.5%"/>
 </part>
-<part name="R6" library="Resistors" deviceset="R-" device="0402" value="30">
-<attribute name="PART_NO" value="ERJ-2RKF30R0X"/>
+<part name="R6" library="Resistors" deviceset="R-" device="0402" value="590">
+<attribute name="PART_NO" value="ERJ-2RKF5900X"/>
+<attribute name="TOL" value="1%"/>
 </part>
-<part name="R7" library="Resistors" deviceset="R-" device="0402" value="30">
-<attribute name="PART_NO" value="ERJ-2RKF30R0X"/>
+<part name="R7" library="Resistors" deviceset="R-" device="0402" value="590">
+<attribute name="PART_NO" value="ERJ-2RKF5900X"/>
+<attribute name="TOL" value="1%"/>
 </part>
 <part name="Q2" library="Switches" deviceset="FK3303010L" device=""/>
 <part name="Q3" library="Switches" deviceset="FK3303010L" device=""/>
 <part name="Q4" library="Switches" deviceset="FK3303010L" device=""/>
 <part name="GND17" library="Supplies" deviceset="GND" device=""/>
-<part name="JP1" library="SparkFun-Jumpers" deviceset="JUMPER-SMT_2_NC_PASTE" device="_SILK" package3d_urn="urn:adsk.eagle:package:39282/1"/>
+<part name="JP1" library="Connectors" deviceset="JUMPER-SMT_2_NC_PASTE" device="_NO-SILK" package3d_urn="urn:adsk.eagle:package:39283/1"/>
 <part name="SUPPLY3" library="SparkFun-PowerSymbols" deviceset="VIN" device=""/>
-<part name="JP2" library="SparkFun-Jumpers" deviceset="JUMPER-SMT_2_NC_PASTE" device="_SILK" package3d_urn="urn:adsk.eagle:package:39282/1"/>
-<part name="JP3" library="SparkFun-Jumpers" deviceset="JUMPER-SMT_2_NC_PASTE" device="_SILK" package3d_urn="urn:adsk.eagle:package:39282/1"/>
-<part name="JP4" library="SparkFun-Jumpers" deviceset="JUMPER-SMT_2_NC_PASTE" device="_SILK" package3d_urn="urn:adsk.eagle:package:39282/1"/>
-<part name="SUPPLY4" library="SparkFun-PowerSymbols" deviceset="VIN" device=""/>
+<part name="JP2" library="Connectors" deviceset="JUMPER-SMT_2_NC_PASTE" device="_NO-SILK" package3d_urn="urn:adsk.eagle:package:39283/1"/>
+<part name="JP3" library="Connectors" deviceset="JUMPER-SMT_2_NC_PASTE" device="_NO-SILK" package3d_urn="urn:adsk.eagle:package:39283/1"/>
+<part name="JP4" library="Connectors" deviceset="JUMPER-SMT_2_NC_PASTE" device="_NO-SILK" package3d_urn="urn:adsk.eagle:package:39283/1"/>
 <part name="TP1" library="TestPoints" deviceset="PTR1" device="TP19R" package3d_urn="urn:adsk.eagle:package:27972/1"/>
 <part name="TP2" library="TestPoints" deviceset="PTR1" device="TP19R" package3d_urn="urn:adsk.eagle:package:27972/1"/>
 <part name="J3" library="Connectors" deviceset="J-JTAG-CORTEX-NEEDLE6" device=""/>
@@ -6557,7 +6465,7 @@ Digikey part 336-3124-ND</description>
 <part name="GND19" library="Supplies" deviceset="GND" device=""/>
 <part name="GND20" library="Supplies" deviceset="GND" device=""/>
 <part name="GND21" library="Supplies" deviceset="GND" device=""/>
-<part name="U5" library="Switches" deviceset="LOADSWITCH-MIC9416" device="" technology="2">
+<part name="U5" library="Switches" deviceset="LOADSWITCH-MIC9416" device="" technology="4" value="LOADSWITCH-MIC94164">
 <attribute name="MP" value="MIC94162YCS-TR"/>
 <attribute name="PART_NO" value="MIC94162YCS-TR"/>
 </part>
@@ -6585,6 +6493,7 @@ Digikey part 336-3124-ND</description>
 <part name="GND22" library="Supplies" deviceset="GND" device=""/>
 <part name="+3V7" library="Supplies" deviceset="+3V3" device=""/>
 <part name="GND23" library="Supplies" deviceset="GND" device=""/>
+<part name="+3V9" library="Supplies" deviceset="+3V3" device=""/>
 </parts>
 <sheets>
 <sheet>
@@ -6783,7 +6692,6 @@ Digikey part 336-3124-ND</description>
 <attribute name="VALUE" x="348.742" y="100.33" size="1.778" layer="96" rot="R90"/>
 <attribute name="PART_NO" x="345.44" y="104.14" size="1.778" layer="96" rot="R90" display="off"/>
 </instance>
-<instance part="SUPPLY4" gate="G$1" x="350.52" y="119.38" smashed="yes"/>
 <instance part="TP2" gate="G$1" x="373.38" y="114.3" smashed="yes">
 <attribute name="NAME" x="372.364" y="115.57" size="1.778" layer="95" rot="R90"/>
 <attribute name="VALUE" x="375.92" y="115.57" size="1.778" layer="97" rot="R90"/>
@@ -6844,6 +6752,7 @@ Digikey part 336-3124-ND</description>
 <attribute name="PART_NO" x="248.92" y="198.12" size="1.778" layer="96" rot="MR0" display="off"/>
 </instance>
 <instance part="+3V8" gate="G$1" x="241.3" y="213.36" smashed="yes"/>
+<instance part="+3V9" gate="G$1" x="350.52" y="121.92" smashed="yes"/>
 </instances>
 <busses>
 <bus name="SD_CARD:+3V3_SD,SD_CD,SD_CLK,SD_CMD,SD_D0,SD_D1,SD_D2,SD_D3">
@@ -6855,14 +6764,14 @@ Digikey part 336-3124-ND</description>
 <wire x1="266.7" y1="53.34" x2="299.72" y2="53.34" width="0.762" layer="92"/>
 <wire x1="299.72" y1="53.34" x2="299.72" y2="116.84" width="0.762" layer="92"/>
 <label x="17.78" y="248.92" size="2.54" layer="95"/>
-<wire x1="15.24" y1="248.92" x2="287.02" y2="248.92" width="0.762" layer="92"/>
+<wire x1="15.24" y1="248.92" x2="279.4" y2="248.92" width="0.762" layer="92"/>
 </segment>
 </bus>
 <bus name="DTR:+3V3_DTR,DTR,DTR_BUS0_AIN0,DTR_BUS0_AIN1,DTR_BUS0_GPIO0,DTR_BUS0_GPIO1,DTR_BUS0_SERCOM0_P0,DTR_BUS0_SERCOM0_P1,DTR_BUS0_SERCOM0_P2,DTR_BUS0_SERCOM0_P3,DTR_BUS1_AIN0,DTR_BUS1_AIN1,DTR_BUS1_GPIO0,DTR_BUS1_GPIO1,DTR_BUS1_SERCOM1_P0,DTR_BUS1_SERCOM1_P1,DTR_BUS1_SERCOM1_P2,DTR_BUS1_SERCOM1_P3,DTR_BUS2_AIN0,DTR_BUS2_AIN1,DTR_BUS2_GPIO0,DTR_BUS2_GPIO1,DTR_BUS2_SERCOM2_P0,DTR_BUS2_SERCOM2_P1,DTR_BUS2_SERCOM2_P2,DTR_BUS2_SERCOM2_P3,DTR_BUS3_AIN0,DTR_BUS3_AIN1,DTR_BUS3_GPIO0,DTR_BUS3_GPIO1,DTR_BUS3_SERCOM7_P0,DTR_BUS3_SERCOM7_P1,DTR_BUS3_SERCOM7_P2,DTR_BUS3_SERCOM7_P3,DTR_DETECT,DTR_MASTER_I2C_SCL,DTR_MASTER_I2C_SDA">
 <segment>
 <wire x1="10.16" y1="254" x2="10.16" y2="12.7" width="0.762" layer="92"/>
 <wire x1="10.16" y1="12.7" x2="269.24" y2="12.7" width="0.762" layer="92"/>
-<wire x1="10.16" y1="254" x2="289.56" y2="254" width="0.762" layer="92"/>
+<wire x1="10.16" y1="254" x2="281.94" y2="254" width="0.762" layer="92"/>
 <label x="12.7" y="254" size="2.54" layer="95"/>
 </segment>
 </bus>
@@ -6870,7 +6779,7 @@ Digikey part 336-3124-ND</description>
 <segment>
 <wire x1="264.16" y1="22.86" x2="20.32" y2="22.86" width="0.762" layer="92"/>
 <wire x1="20.32" y1="22.86" x2="20.32" y2="243.84" width="0.762" layer="92"/>
-<wire x1="20.32" y1="243.84" x2="284.48" y2="243.84" width="0.762" layer="92"/>
+<wire x1="20.32" y1="243.84" x2="276.86" y2="243.84" width="0.762" layer="92"/>
 <label x="25.4" y="243.84" size="2.54" layer="95"/>
 </segment>
 </bus>
@@ -7117,7 +7026,7 @@ Digikey part 336-3124-ND</description>
 <wire x1="271.78" y1="160.02" x2="264.16" y2="160.02" width="0.1524" layer="91"/>
 <wire x1="271.78" y1="157.48" x2="271.78" y2="160.02" width="0.1524" layer="91"/>
 <junction x="271.78" y="160.02"/>
-<label x="213.36" y="167.64" size="1.778" layer="95"/>
+<label x="211.836" y="165.862" size="1.778" layer="95"/>
 </segment>
 <segment>
 <pinref part="R10" gate="G$1" pin="2"/>
@@ -7145,6 +7054,13 @@ Digikey part 336-3124-ND</description>
 <wire x1="340.36" y1="248.92" x2="370.84" y2="248.92" width="0.1524" layer="91"/>
 <junction x="340.36" y="248.92"/>
 <pinref part="R8" gate="G$1" pin="2"/>
+</segment>
+<segment>
+<pinref part="L2" gate="G$1" pin="2"/>
+<wire x1="261.62" y1="132.08" x2="264.16" y2="132.08" width="0.1524" layer="91"/>
+<label x="259.08" y="139.7" size="1.778" layer="95"/>
+<pinref part="+3V2" gate="G$1" pin="+3V3"/>
+<wire x1="264.16" y1="134.62" x2="264.16" y2="132.08" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="N$3" class="0">
@@ -7297,7 +7213,6 @@ Digikey part 336-3124-ND</description>
 <wire x1="345.44" y1="109.22" x2="345.44" y2="114.3" width="0.1524" layer="91"/>
 <pinref part="R_SDCMD" gate="G$1" pin="2"/>
 <label x="353.06" y="119.38" size="1.778" layer="95"/>
-<pinref part="SUPPLY4" gate="G$1" pin="VIN"/>
 <wire x1="350.52" y1="119.38" x2="350.52" y2="114.3" width="0.1524" layer="91"/>
 <junction x="350.52" y="114.3"/>
 <pinref part="TP2" gate="G$1" pin="TP"/>
@@ -7322,6 +7237,7 @@ Digikey part 336-3124-ND</description>
 <wire x1="312.42" y1="114.3" x2="302.26" y2="114.3" width="0.1524" layer="91"/>
 <junction x="312.42" y="114.3"/>
 <wire x1="302.26" y1="114.3" x2="299.72" y2="116.84" width="0.1524" layer="91"/>
+<pinref part="+3V9" gate="G$1" pin="+3V3"/>
 </segment>
 </net>
 <net name="SD_D0" class="0">
@@ -7455,12 +7371,12 @@ Digikey part 336-3124-ND</description>
 <label x="375.92" y="223.52" size="1.778" layer="95" xref="yes"/>
 <pinref part="U1" gate="G$1" pin="PA30"/>
 <wire x1="172.72" y1="190.5" x2="172.72" y2="238.76" width="0.1524" layer="91"/>
-<wire x1="172.72" y1="238.76" x2="281.94" y2="238.76" width="0.1524" layer="91"/>
+<wire x1="172.72" y1="238.76" x2="276.86" y2="238.76" width="0.1524" layer="91"/>
 <label x="175.26" y="238.76" size="1.778" layer="95"/>
-<wire x1="281.94" y1="238.76" x2="370.84" y2="238.76" width="0.1524" layer="91"/>
-<wire x1="281.94" y1="238.76" x2="281.94" y2="241.3" width="0.1524" layer="91"/>
-<junction x="281.94" y="238.76"/>
-<wire x1="281.94" y1="241.3" x2="279.4" y2="243.84" width="0.1524" layer="91"/>
+<wire x1="276.86" y1="238.76" x2="370.84" y2="238.76" width="0.1524" layer="91"/>
+<wire x1="276.86" y1="238.76" x2="276.86" y2="241.3" width="0.1524" layer="91"/>
+<junction x="276.86" y="238.76"/>
+<wire x1="276.86" y1="241.3" x2="274.32" y2="243.84" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="DBG_SWDIO" class="0">
@@ -7471,25 +7387,25 @@ Digikey part 336-3124-ND</description>
 <pinref part="U1" gate="G$1" pin="PA31"/>
 <wire x1="373.38" y1="228.6" x2="375.92" y2="228.6" width="0.1524" layer="91"/>
 <wire x1="175.26" y1="190.5" x2="175.26" y2="236.22" width="0.1524" layer="91"/>
-<wire x1="175.26" y1="236.22" x2="284.48" y2="236.22" width="0.1524" layer="91"/>
-<wire x1="284.48" y1="236.22" x2="373.38" y2="236.22" width="0.1524" layer="91"/>
+<wire x1="175.26" y1="236.22" x2="279.4" y2="236.22" width="0.1524" layer="91"/>
+<wire x1="279.4" y1="236.22" x2="373.38" y2="236.22" width="0.1524" layer="91"/>
 <wire x1="373.38" y1="236.22" x2="373.38" y2="228.6" width="0.1524" layer="91"/>
 <junction x="373.38" y="228.6"/>
 <label x="177.8" y="236.22" size="1.778" layer="95"/>
-<wire x1="284.48" y1="236.22" x2="284.48" y2="241.3" width="0.1524" layer="91"/>
-<wire x1="284.48" y1="241.3" x2="281.94" y2="243.84" width="0.1524" layer="91"/>
-<junction x="284.48" y="236.22"/>
+<wire x1="279.4" y1="236.22" x2="279.4" y2="241.3" width="0.1524" layer="91"/>
+<wire x1="279.4" y1="241.3" x2="276.86" y2="243.84" width="0.1524" layer="91"/>
+<junction x="279.4" y="236.22"/>
 </segment>
 </net>
 <net name="N$6" class="0">
 <segment>
-<wire x1="292.1" y1="210.82" x2="396.24" y2="210.82" width="0.254" layer="91" style="shortdash"/>
-<wire x1="292.1" y1="210.82" x2="292.1" y2="157.48" width="0.254" layer="91" style="shortdash"/>
-<wire x1="292.1" y1="157.48" x2="396.24" y2="157.48" width="0.254" layer="91" style="shortdash"/>
-<wire x1="292.1" y1="231.14" x2="292.1" y2="210.82" width="0.254" layer="91" style="shortdash"/>
+<wire x1="284.48" y1="210.82" x2="396.24" y2="210.82" width="0.254" layer="91" style="shortdash"/>
+<wire x1="284.48" y1="210.82" x2="284.48" y2="157.48" width="0.254" layer="91" style="shortdash"/>
+<wire x1="284.48" y1="157.48" x2="396.24" y2="157.48" width="0.254" layer="91" style="shortdash"/>
+<wire x1="284.48" y1="231.14" x2="284.48" y2="210.82" width="0.254" layer="91" style="shortdash"/>
 </segment>
 <segment>
-<wire x1="292.1" y1="271.78" x2="292.1" y2="246.38" width="0.254" layer="91" style="shortdash"/>
+<wire x1="284.48" y1="271.78" x2="284.48" y2="246.38" width="0.254" layer="91" style="shortdash"/>
 </segment>
 <segment>
 <wire x1="289.56" y1="132.08" x2="289.56" y2="58.42" width="0.254" layer="91" style="shortdash"/>
@@ -7894,15 +7810,6 @@ Digikey part 336-3124-ND</description>
 <wire x1="55.88" y1="93.98" x2="83.82" y2="93.98" width="0.1524" layer="91"/>
 </segment>
 </net>
-<net name="+3V3" class="1">
-<segment>
-<pinref part="+3V2" gate="G$1" pin="+3V3"/>
-<wire x1="264.16" y1="132.08" x2="264.16" y2="134.62" width="0.1524" layer="91"/>
-<pinref part="L2" gate="G$1" pin="2"/>
-<wire x1="261.62" y1="132.08" x2="264.16" y2="132.08" width="0.1524" layer="91"/>
-<label x="261.62" y="139.7" size="1.778" layer="95"/>
-</segment>
-</net>
 <net name="DBG_GPIO0" class="0">
 <segment>
 <pinref part="U1" gate="G$1" pin="PC16"/>
@@ -7966,8 +7873,7 @@ VDD_DBG should be charger output</text>
 <text x="266.7" y="236.22" size="3.81" layer="91">Load Switches &amp;
 Sense Resistors</text>
 <text x="116.84" y="116.84" size="1.778" layer="91">Buck-boost convertor</text>
-<text x="195.58" y="236.22" size="3.81" layer="91">Ground Connection</text>
-<text x="15.24" y="96.52" size="1.778" layer="91">Aim for 10 mA output for each LED.
+<text x="15.24" y="96.52" size="1.778" layer="91">Aim for 1 mA output for each LED.
 Green (1) and Blue(3) have forward biases near 3V, 
 so no resistor needed.
 Red (2) has forward bias 1.8V.
@@ -7982,8 +7888,6 @@ Require 5V input, so may need
 LED driver. Worth??</text>
 <text x="193.04" y="53.34" size="3.81" layer="91">Temperature Sensor</text>
 <text x="172.72" y="76.2" size="1.778" layer="91">Says to connect AGND to PGND on PCB
-low impedance plane, away from any critical loops</text>
-<text x="198.12" y="195.58" size="1.778" layer="91">Says to connect AGND to PGND on PCB
 low impedance plane, away from any critical loops</text>
 <text x="190.5" y="5.08" size="1.778" layer="91">Provide info on board health (humitidy/temp) and 
 info to help with crystal frequency offset
@@ -8011,6 +7915,7 @@ resulting from temperature</text>
 <instance part="S2" gate="1" x="66.04" y="226.06" smashed="yes">
 <attribute name="NAME" x="64.77" y="229.108" size="1.778" layer="95" font="vector" align="bottom-center"/>
 <attribute name="VALUE" x="67.056" y="222.758" size="1.778" layer="96" font="vector" align="top-center"/>
+<attribute name="PART_NO" x="66.04" y="226.06" size="1.778" layer="96" display="off"/>
 </instance>
 <instance part="U202" gate="G$1" x="116.84" y="218.44" smashed="yes">
 <attribute name="NAME" x="106.68" y="231.14" size="1.778" layer="95"/>
@@ -8054,25 +7959,11 @@ resulting from temperature</text>
 <attribute name="NAME" x="187.95153125" y="128.90818125" size="1.780959375" layer="95"/>
 <attribute name="VALUE" x="187.954559375" y="124.45728125" size="1.779909375" layer="96"/>
 </instance>
-<instance part="GND12" gate="1" x="160.02" y="91.44" smashed="yes">
-<attribute name="VALUE" x="157.353" y="88.265" size="1.778" layer="96"/>
+<instance part="GND12" gate="1" x="160.02" y="86.36" smashed="yes">
+<attribute name="VALUE" x="157.353" y="83.185" size="1.778" layer="96"/>
 </instance>
 <instance part="GND13" gate="1" x="132.08" y="91.44" smashed="yes">
 <attribute name="VALUE" x="129.413" y="88.265" size="1.778" layer="96"/>
-</instance>
-<instance part="SUPPLY1" gate="G$1" x="147.32" y="88.9" smashed="yes">
-<attribute name="VALUE" x="144.653" y="85.725" size="1.778" layer="96"/>
-</instance>
-<instance part="GND14" gate="1" x="231.14" y="208.28" smashed="yes">
-<attribute name="VALUE" x="228.473" y="205.105" size="1.778" layer="96"/>
-</instance>
-<instance part="SUPPLY2" gate="G$1" x="215.9" y="208.28" smashed="yes">
-<attribute name="VALUE" x="213.233" y="205.105" size="1.778" layer="96"/>
-</instance>
-<instance part="R3" gate="G$1" x="223.52" y="220.98" smashed="yes">
-<attribute name="NAME" x="219.71" y="222.4786" size="1.778" layer="95"/>
-<attribute name="VALUE" x="219.71" y="217.678" size="1.778" layer="96"/>
-<attribute name="PART_NO" x="223.52" y="220.98" size="1.778" layer="96" display="off"/>
 </instance>
 <instance part="GND15" gate="1" x="226.06" y="93.98" smashed="yes">
 <attribute name="VALUE" x="223.393" y="90.805" size="1.778" layer="96"/>
@@ -8257,24 +8148,27 @@ resulting from temperature</text>
 </segment>
 <segment>
 <pinref part="GND12" gate="1" pin="GND"/>
-<wire x1="160.02" y1="93.98" x2="160.02" y2="96.52" width="0.1524" layer="91"/>
+<wire x1="160.02" y1="88.9" x2="160.02" y2="91.44" width="0.1524" layer="91"/>
 <pinref part="U2" gate="A" pin="PGND"/>
+<wire x1="160.02" y1="91.44" x2="160.02" y2="96.52" width="0.1524" layer="91"/>
 <wire x1="160.02" y1="96.52" x2="160.02" y2="99.06" width="0.1524" layer="91"/>
 <wire x1="160.02" y1="99.06" x2="172.72" y2="99.06" width="0.1524" layer="91"/>
 <pinref part="U2" gate="A" pin="FPWM"/>
 <wire x1="172.72" y1="96.52" x2="160.02" y2="96.52" width="0.1524" layer="91"/>
 <junction x="160.02" y="96.52"/>
+<pinref part="C_REG_BIAS" gate="G$1" pin="2"/>
+<wire x1="147.32" y1="93.98" x2="147.32" y2="91.44" width="0.1524" layer="91"/>
+<wire x1="147.32" y1="91.44" x2="160.02" y2="91.44" width="0.1524" layer="91"/>
+<junction x="160.02" y="91.44"/>
+<pinref part="U2" gate="A" pin="AGND"/>
+<wire x1="160.02" y1="99.06" x2="160.02" y2="101.6" width="0.1524" layer="91"/>
+<wire x1="160.02" y1="101.6" x2="172.72" y2="101.6" width="0.1524" layer="91"/>
+<junction x="160.02" y="99.06"/>
 </segment>
 <segment>
 <pinref part="GND13" gate="1" pin="GND"/>
 <wire x1="132.08" y1="96.52" x2="132.08" y2="93.98" width="0.1524" layer="91"/>
 <pinref part="C_REG_IN" gate="G$1" pin="2"/>
-</segment>
-<segment>
-<pinref part="R3" gate="G$1" pin="2"/>
-<pinref part="GND14" gate="1" pin="GND"/>
-<wire x1="228.6" y1="220.98" x2="231.14" y2="220.98" width="0.1524" layer="91"/>
-<wire x1="231.14" y1="220.98" x2="231.14" y2="210.82" width="0.1524" layer="91"/>
 </segment>
 <segment>
 <pinref part="C_REG_OUT" gate="G$1" pin="2"/>
@@ -8430,24 +8324,6 @@ resulting from temperature</text>
 <pinref part="R_SENSE_TEMP" gate="G$1" pin="1"/>
 <wire x1="281.94" y1="109.22" x2="264.16" y2="109.22" width="0.1524" layer="91"/>
 <junction x="264.16" y="109.22"/>
-</segment>
-</net>
-<net name="AGND" class="1">
-<segment>
-<pinref part="SUPPLY1" gate="G$1" pin="AGND"/>
-<pinref part="C_REG_BIAS" gate="G$1" pin="2"/>
-<wire x1="147.32" y1="91.44" x2="147.32" y2="93.98" width="0.1524" layer="91"/>
-<pinref part="U2" gate="A" pin="AGND"/>
-<wire x1="172.72" y1="101.6" x2="154.94" y2="101.6" width="0.1524" layer="91"/>
-<wire x1="154.94" y1="101.6" x2="154.94" y2="91.44" width="0.1524" layer="91"/>
-<wire x1="154.94" y1="91.44" x2="147.32" y2="91.44" width="0.1524" layer="91"/>
-<junction x="147.32" y="91.44"/>
-</segment>
-<segment>
-<pinref part="SUPPLY2" gate="G$1" pin="AGND"/>
-<wire x1="215.9" y1="210.82" x2="215.9" y2="220.98" width="0.1524" layer="91"/>
-<pinref part="R3" gate="G$1" pin="1"/>
-<wire x1="215.9" y1="220.98" x2="218.44" y2="220.98" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="EN_SD" class="0">
@@ -9347,11 +9223,6 @@ easier for dtr boards</text>
 <note version="6.3" minversion="6.2.2" severity="warning">
 Since Version 6.2.2 text objects can contain more than one line,
 which will not be processed correctly with this version.
-</note>
-<note version="8.2" severity="warning">
-Since Version 8.2, EAGLE supports online libraries. The ids
-of those online libraries will not be understood (or retained)
-with this version.
 </note>
 <note version="8.3" severity="warning">
 Since Version 8.3, EAGLE supports URNs for individual library
