@@ -3694,10 +3694,13 @@ Design verified by Reese</description>
 <smd name="2" x="0.95" y="-1" dx="0.797459375" dy="0.9" layer="1"/>
 </package>
 <package name="SSSMINI3">
-<smd name="3" x="0" y="0" dx="0.45" dy="0.35" layer="1"/>
-<smd name="1" x="-0.4" y="-0.75" dx="0.35" dy="0.35" layer="1"/>
-<smd name="2" x="0.4" y="-0.75" dx="0.35" dy="0.35" layer="1"/>
-<text x="-3.2766" y="1.905" size="1.27" layer="25" ratio="6" rot="SR0">&gt;Name</text>
+<smd name="3" x="0" y="0.575" dx="0.45" dy="0.35" layer="1"/>
+<smd name="1" x="-0.4" y="-0.575" dx="0.35" dy="0.35" layer="1"/>
+<smd name="2" x="0.4" y="-0.575" dx="0.35" dy="0.35" layer="1"/>
+<wire x1="-0.6" y1="0.4" x2="0.6" y2="0.4" width="0.127" layer="21"/>
+<wire x1="-0.6" y1="-0.4" x2="0.6" y2="-0.4" width="0.127" layer="21"/>
+<wire x1="-0.635" y1="0.381" x2="-0.635" y2="-0.381" width="0.127" layer="21"/>
+<wire x1="0.635" y1="0.381" x2="0.635" y2="-0.381" width="0.127" layer="21"/>
 </package>
 <package name="SW_EVQ-P7L01P">
 <wire x1="-1.75" y1="-1.6" x2="-1.75" y2="1.45" width="0.127" layer="51"/>
@@ -5501,7 +5504,11 @@ Digikey part 336-3124-ND</description>
 </symbols>
 <devicesets>
 <deviceset name="AT25SF641-MHB-T" prefix="U">
-<description>64 Mb SPI Serial Flash module from Adesto</description>
+<description>64 Mb SPI Serial Flash module from Adesto
+
+&lt;p&gt;
+
+Datasheet: http://www.adestotech.com/wp-content/uploads/AT25SF641_111.pdf</description>
 <gates>
 <gate name="A" symbol="AT25SF641" x="0" y="0"/>
 </gates>
@@ -5875,8 +5882,8 @@ You are welcome to use this library for commercial purposes. For attribution, we
 </part>
 <part name="+3V5" library="Supplies" deviceset="+3V3" device=""/>
 <part name="GND18" library="Supplies" deviceset="GND" device=""/>
-<part name="TP3" library="TestPoints" deviceset="TP" device="TP08R" package3d_urn="urn:adsk.eagle:package:27956/1"/>
-<part name="TP4" library="TestPoints" deviceset="TP" device="TP08R" package3d_urn="urn:adsk.eagle:package:27956/1"/>
+<part name="T_RX" library="TestPoints" deviceset="TP" device="TP06R" package3d_urn="urn:adsk.eagle:package:27954/1" value="TPTP06R"/>
+<part name="T_TX" library="TestPoints" deviceset="TP" device="TP06R" package3d_urn="urn:adsk.eagle:package:27954/1" value="TPTP06R"/>
 <part name="R106" library="Resistors" deviceset="R-" device="0402" value="39">
 <attribute name="PART_NO" value="ERJ-2GEJ390X"/>
 </part>
@@ -5916,16 +5923,15 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <part name="+3V9" library="Supplies" deviceset="+3V3" device=""/>
 <part name="GND14" library="Supplies" deviceset="GND" device=""/>
 <part name="JP1" library="SparkFun-Jumpers" deviceset="JUMPER-SMT_3_1-NC_PASTE" device="_NO-SILK" package3d_urn="urn:adsk.eagle:package:39291/1"/>
-<part name="TP1" library="TestPoints" deviceset="TP" device="TP08R" package3d_urn="urn:adsk.eagle:package:27956/1"/>
-<part name="TP2" library="TestPoints" deviceset="TP" device="TP08R" package3d_urn="urn:adsk.eagle:package:27956/1"/>
-<part name="TP5" library="TestPoints" deviceset="TP" device="TP08R" package3d_urn="urn:adsk.eagle:package:27956/1"/>
-<part name="TP6" library="TestPoints" deviceset="TP" device="TP08R" package3d_urn="urn:adsk.eagle:package:27956/1"/>
-<part name="TP7" library="TestPoints" deviceset="TP" device="TP08R" package3d_urn="urn:adsk.eagle:package:27956/1"/>
-<part name="TP8" library="TestPoints" deviceset="TP" device="TP08R" package3d_urn="urn:adsk.eagle:package:27956/1">
+<part name="T_COR" library="TestPoints" deviceset="TP" device="TP06R" package3d_urn="urn:adsk.eagle:package:27954/1" value="TPTP06R"/>
+<part name="T_CPU" library="TestPoints" deviceset="TP" device="TP06R" package3d_urn="urn:adsk.eagle:package:27954/1" value="TPTP06R"/>
+<part name="T_DTR" library="TestPoints" deviceset="TP" device="TP06R" package3d_urn="urn:adsk.eagle:package:27954/1" value="TPTP06R"/>
+<part name="T_TMP" library="TestPoints" deviceset="TP" device="TP06R" package3d_urn="urn:adsk.eagle:package:27954/1" value="TPTP06R"/>
+<part name="T_STR" library="TestPoints" deviceset="TP" device="TP06R" package3d_urn="urn:adsk.eagle:package:27954/1" value="TPTP06R">
 <attribute name="SPICEPREFIX" value="X"/>
 </part>
-<part name="TP9" library="TestPoints" deviceset="TP" device="TP08R" package3d_urn="urn:adsk.eagle:package:27956/1"/>
-<part name="TP10" library="TestPoints" deviceset="TP" device="TP08R" package3d_urn="urn:adsk.eagle:package:27956/1"/>
+<part name="T_SDA" library="TestPoints" deviceset="TP" device="TP06R" package3d_urn="urn:adsk.eagle:package:27954/1" value="TPTP06R"/>
+<part name="T_SCL" library="TestPoints" deviceset="TP" device="TP06R" package3d_urn="urn:adsk.eagle:package:27954/1" value="TPTP06R"/>
 </parts>
 <sheets>
 <sheet>
@@ -6119,11 +6125,11 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <instance part="GND18" gate="1" x="314.96" y="213.36" smashed="yes">
 <attribute name="VALUE" x="307.34" y="213.36" size="1.778" layer="96"/>
 </instance>
-<instance part="TP3" gate="G$1" x="33.02" y="152.4" smashed="yes" rot="R90">
+<instance part="T_RX" gate="G$1" x="33.02" y="152.4" smashed="yes" rot="R90">
 <attribute name="NAME" x="31.75" y="151.384" size="1.778" layer="95" rot="R180"/>
 <attribute name="VALUE" x="31.75" y="154.94" size="1.778" layer="97" rot="R180"/>
 </instance>
-<instance part="TP4" gate="G$1" x="50.8" y="152.4" smashed="yes" rot="R90">
+<instance part="T_TX" gate="G$1" x="50.8" y="152.4" smashed="yes" rot="R90">
 <attribute name="NAME" x="49.53" y="151.384" size="1.778" layer="95" rot="R180"/>
 <attribute name="VALUE" x="49.53" y="154.94" size="1.778" layer="97" rot="R180"/>
 </instance>
@@ -6151,16 +6157,13 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <instance part="GND14" gate="1" x="365.76" y="66.04" smashed="yes">
 <attribute name="VALUE" x="363.22" y="63.5" size="1.778" layer="96"/>
 </instance>
-<instance part="TP1" gate="G$1" x="231.14" y="187.96" smashed="yes" rot="MR0">
+<instance part="T_COR" gate="G$1" x="231.14" y="187.96" smashed="yes" rot="MR0">
 <attribute name="NAME" x="232.156" y="189.23" size="1.778" layer="95" rot="MR90"/>
 </instance>
-<instance part="TP2" gate="G$1" x="358.14" y="190.5" smashed="yes" rot="MR0">
-<attribute name="NAME" x="359.156" y="191.77" size="1.778" layer="95" rot="MR90"/>
-</instance>
-<instance part="TP9" gate="G$1" x="259.08" y="200.66" smashed="yes" rot="MR0">
+<instance part="T_SDA" gate="G$1" x="259.08" y="200.66" smashed="yes" rot="MR0">
 <attribute name="NAME" x="260.096" y="201.93" size="1.778" layer="95" rot="MR90"/>
 </instance>
-<instance part="TP10" gate="G$1" x="223.52" y="200.66" smashed="yes" rot="MR0">
+<instance part="T_SCL" gate="G$1" x="223.52" y="200.66" smashed="yes" rot="MR0">
 <attribute name="NAME" x="224.536" y="201.93" size="1.778" layer="95" rot="MR90"/>
 </instance>
 </instances>
@@ -6338,7 +6341,7 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <pinref part="GND14" gate="1" pin="GND"/>
 </segment>
 </net>
-<net name="N$1" class="0">
+<net name="VDDCORE" class="0">
 <segment>
 <pinref part="U101" gate="G$1" pin="VDDCORE"/>
 <wire x1="200.66" y1="170.18" x2="218.44" y2="170.18" width="0.1524" layer="91"/>
@@ -6353,11 +6356,11 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <wire x1="218.44" y1="185.42" x2="231.14" y2="185.42" width="0.1524" layer="91"/>
 <wire x1="231.14" y1="185.42" x2="231.14" y2="182.88" width="0.1524" layer="91"/>
 <junction x="231.14" y="182.88"/>
-<pinref part="TP1" gate="G$1" pin="TP"/>
+<pinref part="T_COR" gate="G$1" pin="TP"/>
 <junction x="231.14" y="185.42"/>
 </segment>
 </net>
-<net name="N$2" class="0">
+<net name="VSW" class="0">
 <segment>
 <pinref part="U101" gate="G$1" pin="VSW"/>
 <pinref part="L101" gate="A" pin="1"/>
@@ -6465,7 +6468,7 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <wire x1="264.16" y1="134.62" x2="264.16" y2="132.08" width="0.1524" layer="91"/>
 </segment>
 </net>
-<net name="N$3" class="0">
+<net name="VDDANA" class="0">
 <segment>
 <pinref part="U101" gate="G$1" pin="VDDANA1"/>
 <wire x1="200.66" y1="116.84" x2="205.74" y2="116.84" width="0.1524" layer="91"/>
@@ -6658,7 +6661,7 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <label x="55.88" y="149.86" size="1.778" layer="95"/>
 <wire x1="53.34" y1="149.86" x2="22.86" y2="149.86" width="0.1524" layer="91"/>
 <wire x1="22.86" y1="149.86" x2="20.32" y2="152.4" width="0.1524" layer="91"/>
-<pinref part="TP4" gate="G$1" pin="TP"/>
+<pinref part="T_TX" gate="G$1" pin="TP"/>
 <wire x1="53.34" y1="149.86" x2="53.34" y2="152.4" width="0.1524" layer="91"/>
 <junction x="53.34" y="149.86"/>
 </segment>
@@ -6670,7 +6673,7 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <label x="55.88" y="147.32" size="1.778" layer="95"/>
 <wire x1="35.56" y1="147.32" x2="22.86" y2="147.32" width="0.1524" layer="91"/>
 <wire x1="22.86" y1="147.32" x2="20.32" y2="149.86" width="0.1524" layer="91"/>
-<pinref part="TP3" gate="G$1" pin="TP"/>
+<pinref part="T_RX" gate="G$1" pin="TP"/>
 <wire x1="35.56" y1="147.32" x2="35.56" y2="152.4" width="0.1524" layer="91"/>
 <junction x="35.56" y="147.32"/>
 </segment>
@@ -6760,7 +6763,7 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <label x="251.46" y="203.2" size="1.778" layer="95" rot="MR90"/>
 <wire x1="254" y1="198.12" x2="259.08" y2="198.12" width="0.1524" layer="91"/>
 <junction x="254" y="198.12"/>
-<pinref part="TP9" gate="G$1" pin="TP"/>
+<pinref part="T_SDA" gate="G$1" pin="TP"/>
 </segment>
 </net>
 <net name="DTR_MASTER_I2C_SCL" class="0">
@@ -6775,7 +6778,7 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <wire x1="228.6" y1="251.46" x2="228.6" y2="198.12" width="0.1524" layer="91"/>
 <pinref part="R103" gate="G$1" pin="1"/>
 <label x="228.6" y="203.2" size="1.778" layer="95" rot="R90"/>
-<pinref part="TP10" gate="G$1" pin="TP"/>
+<pinref part="T_SCL" gate="G$1" pin="TP"/>
 <wire x1="228.6" y1="198.12" x2="223.52" y2="198.12" width="0.1524" layer="91"/>
 <junction x="228.6" y="198.12"/>
 </segment>
@@ -7456,16 +7459,16 @@ connected to the battery?</text>
 <instance part="JP1" gate="G$1" x="88.9" y="175.26" smashed="yes" rot="MR0">
 <attribute name="NAME" x="86.36" y="175.641" size="1.778" layer="95" font="vector" rot="MR0"/>
 </instance>
-<instance part="TP5" gate="G$1" x="350.52" y="190.5" smashed="yes" rot="MR0">
+<instance part="T_CPU" gate="G$1" x="350.52" y="190.5" smashed="yes" rot="MR0">
 <attribute name="NAME" x="351.536" y="191.77" size="1.778" layer="95" rot="MR90"/>
 </instance>
-<instance part="TP6" gate="G$1" x="350.52" y="177.8" smashed="yes" rot="MR0">
+<instance part="T_DTR" gate="G$1" x="350.52" y="177.8" smashed="yes" rot="MR0">
 <attribute name="NAME" x="351.536" y="179.07" size="1.778" layer="95" rot="MR90"/>
 </instance>
-<instance part="TP7" gate="G$1" x="373.38" y="111.76" smashed="yes" rot="MR0">
+<instance part="T_TMP" gate="G$1" x="373.38" y="111.76" smashed="yes" rot="MR0">
 <attribute name="NAME" x="374.396" y="113.03" size="1.778" layer="95" rot="MR90"/>
 </instance>
-<instance part="TP8" gate="G$1" x="373.38" y="152.4" smashed="yes" rot="MR0">
+<instance part="T_STR" gate="G$1" x="373.38" y="152.4" smashed="yes" rot="MR0">
 <attribute name="NAME" x="374.396" y="153.67" size="1.778" layer="95" rot="MR90"/>
 </instance>
 </instances>
@@ -7701,7 +7704,7 @@ connected to the battery?</text>
 <junction x="358.14" y="149.86"/>
 <wire x1="373.38" y1="149.86" x2="383.54" y2="149.86" width="0.1524" layer="91"/>
 <wire x1="383.54" y1="149.86" x2="386.08" y2="152.4" width="0.1524" layer="91"/>
-<pinref part="TP8" gate="G$1" pin="TP"/>
+<pinref part="T_STR" gate="G$1" pin="TP"/>
 <junction x="373.38" y="149.86"/>
 </segment>
 </net>
@@ -7712,7 +7715,7 @@ connected to the battery?</text>
 <wire x1="350.52" y1="175.26" x2="383.54" y2="175.26" width="0.1524" layer="91"/>
 <wire x1="383.54" y1="175.26" x2="386.08" y2="177.8" width="0.1524" layer="91"/>
 <pinref part="JP204" gate="G$1" pin="1"/>
-<pinref part="TP6" gate="G$1" pin="TP"/>
+<pinref part="T_DTR" gate="G$1" pin="TP"/>
 <junction x="350.52" y="175.26"/>
 </segment>
 </net>
@@ -7723,7 +7726,7 @@ connected to the battery?</text>
 <wire x1="350.52" y1="187.96" x2="383.54" y2="187.96" width="0.1524" layer="91"/>
 <wire x1="383.54" y1="187.96" x2="386.08" y2="190.5" width="0.1524" layer="91"/>
 <pinref part="JP_PROC" gate="G$1" pin="1"/>
-<pinref part="TP5" gate="G$1" pin="TP"/>
+<pinref part="T_CPU" gate="G$1" pin="TP"/>
 <junction x="350.52" y="187.96"/>
 </segment>
 <segment>
@@ -7913,7 +7916,7 @@ connected to the battery?</text>
 <junction x="358.14" y="109.22"/>
 <wire x1="373.38" y1="109.22" x2="383.54" y2="109.22" width="0.1524" layer="91"/>
 <wire x1="383.54" y1="109.22" x2="386.08" y2="111.76" width="0.1524" layer="91"/>
-<pinref part="TP7" gate="G$1" pin="TP"/>
+<pinref part="T_TMP" gate="G$1" pin="TP"/>
 <junction x="373.38" y="109.22"/>
 </segment>
 <segment>
