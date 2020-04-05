@@ -5657,7 +5657,7 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <classes>
 <class number="0" name="default" width="0" drill="0">
 </class>
-<class number="1" name="power_3v3" width="0.3048" drill="0">
+<class number="1" name="power_3v3" width="0.254" drill="0">
 </class>
 <class number="5" name="10_mil" width="0.254" drill="0">
 </class>
@@ -7603,7 +7603,7 @@ connected to the battery?</text>
 <junction x="111.76" y="172.72"/>
 </segment>
 </net>
-<net name="VREG_LX1" class="1">
+<net name="VREG_LX1" class="0">
 <segment>
 <pinref part="U203" gate="A" pin="LX1"/>
 <wire x1="190.5" y1="109.22" x2="190.5" y2="127" width="0.1524" layer="91"/>
@@ -7611,7 +7611,7 @@ connected to the battery?</text>
 <wire x1="190.5" y1="127" x2="203.2" y2="127" width="0.1524" layer="91"/>
 </segment>
 </net>
-<net name="VREG_LX2" class="1">
+<net name="VREG_LX2" class="0">
 <segment>
 <pinref part="L201" gate="&gt;NAME" pin="2"/>
 <wire x1="218.44" y1="127" x2="238.76" y2="127" width="0.1524" layer="91"/>
@@ -7620,7 +7620,7 @@ connected to the battery?</text>
 <wire x1="238.76" y1="101.6" x2="226.06" y2="101.6" width="0.1524" layer="91"/>
 </segment>
 </net>
-<net name="VREG_BIAS" class="1">
+<net name="VREG_BIAS" class="0">
 <segment>
 <pinref part="C204" gate="G$1" pin="1"/>
 <pinref part="U203" gate="A" pin="BIAS"/>
@@ -7736,7 +7736,7 @@ connected to the battery?</text>
 <pinref part="JP202" gate="G$1" pin="2"/>
 </segment>
 </net>
-<net name="VDD_DBG_JMP" class="5">
+<net name="VDD_DBG_JMP" class="1">
 <segment>
 <pinref part="Q204" gate="G$1" pin="G"/>
 <wire x1="66.04" y1="185.42" x2="55.88" y2="185.42" width="0.1524" layer="91"/>
@@ -7752,7 +7752,7 @@ connected to the battery?</text>
 <pinref part="JP_VDBG" gate="G$1" pin="1"/>
 </segment>
 </net>
-<net name="VREG_IN" class="5">
+<net name="VREG_IN" class="1">
 <segment>
 <pinref part="U203" gate="A" pin="IN"/>
 <pinref part="C202" gate="G$1" pin="1"/>
@@ -7906,7 +7906,7 @@ connected to the battery?</text>
 <wire x1="294.64" y1="187.96" x2="322.58" y2="187.96" width="0.1524" layer="91"/>
 </segment>
 </net>
-<net name="+3V3_TEMP" class="1">
+<net name="+3V3_TEMP" class="0">
 <segment>
 <pinref part="U206" gate="G$1" pin="VOUT"/>
 <wire x1="347.98" y1="109.22" x2="358.14" y2="109.22" width="0.1524" layer="91"/>
@@ -7926,7 +7926,7 @@ connected to the battery?</text>
 <label x="233.68" y="45.72" size="1.778" layer="95"/>
 </segment>
 </net>
-<net name="+3V3_TEMP_SENSE" class="1">
+<net name="+3V3_TEMP_SENSE" class="0">
 <segment>
 <wire x1="292.1" y1="109.22" x2="304.8" y2="109.22" width="0.1524" layer="91"/>
 <label x="304.8" y="111.76" size="1.27" layer="95"/>
@@ -7978,7 +7978,7 @@ connected to the battery?</text>
 <label x="233.68" y="33.02" size="1.524" layer="95" rot="R180" xref="yes"/>
 </segment>
 </net>
-<net name="VDD_SW" class="5">
+<net name="VDD_SW" class="1">
 <segment>
 <pinref part="Q204" gate="G$1" pin="S"/>
 <wire x1="73.66" y1="180.34" x2="73.66" y2="170.18" width="0.1524" layer="91"/>
@@ -7994,7 +7994,7 @@ connected to the battery?</text>
 <wire x1="96.52" y1="177.8" x2="96.52" y2="254" width="0.254" layer="91" style="shortdash"/>
 </segment>
 </net>
-<net name="VDD_SW_IN" class="0">
+<net name="VDD_SW_IN" class="1">
 <segment>
 <pinref part="JP1" gate="G$1" pin="2"/>
 <pinref part="S201" gate="1" pin="P"/>
@@ -8141,7 +8141,7 @@ connected to the battery?</text>
 <pinref part="J302" gate="G$1" pin="18"/>
 </segment>
 </net>
-<net name="+3V3_TEMP_SENSE" class="1">
+<net name="+3V3_TEMP_SENSE" class="0">
 <segment>
 <wire x1="279.4" y1="228.6" x2="281.94" y2="226.06" width="0.1524" layer="91"/>
 <wire x1="281.94" y1="226.06" x2="281.94" y2="160.02" width="0.1524" layer="91"/>
