@@ -5731,8 +5731,9 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <attribute name="PART_NO" value="BLM18PG471SN1D"/>
 </part>
 <part name="+3V2" library="Supplies" deviceset="+3V3" device=""/>
-<part name="C114" library="Capacitors" deviceset="C-" device="0603" value="1u">
-<attribute name="PART_NO" value="C0603C105K8RACTU"/>
+<part name="C114" library="Capacitors" deviceset="C-" device="0402" value="1u">
+<attribute name="PART_NO" value="C0402C105M8PACTU"/>
+<attribute name="TC" value="X5R"/>
 <attribute name="VOLTAGE" value="10V"/>
 </part>
 <part name="C101" library="Capacitors" deviceset="C-" device="0402" value="0.1u">
@@ -5829,9 +5830,10 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <attribute name="SPICEPREFIX" value="C"/>
 <attribute name="VOLTAGE" value="10V"/>
 </part>
-<part name="C206" library="Capacitors" deviceset="C-" device="0603" value="1u">
-<attribute name="PART_NO" value="C0603C105K8RACTU"/>
+<part name="C206" library="Capacitors" deviceset="C-" device="0402" value="1u">
+<attribute name="PART_NO" value="C0402C105M8PACTU"/>
 <attribute name="SPICEPREFIX" value="C"/>
+<attribute name="TC" value="X5R"/>
 <attribute name="VOLTAGE" value="10V"/>
 </part>
 <part name="R206" library="Resistors" deviceset="R-" device="0603" value="1">
@@ -5899,8 +5901,9 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <attribute name="PART_NO" value="C0402C104K8RACTU"/>
 <attribute name="VOLTAGE" value="10V"/>
 </part>
-<part name="C207" library="Capacitors" deviceset="C-" device="0603" value="1u">
-<attribute name="PART_NO" value="C0603C105K8RACTU"/>
+<part name="C207" library="Capacitors" deviceset="C-" device="0402" value="1u">
+<attribute name="PART_NO" value="C0402C105M8PACTU"/>
+<attribute name="TC" value="X5R"/>
 <attribute name="VOLTAGE" value="10V"/>
 </part>
 <part name="R205" library="Resistors" deviceset="R-" device="0603" value="10">
@@ -6198,7 +6201,7 @@ You are welcome to use this library for commercial purposes. For attribution, we
 </bus>
 </busses>
 <nets>
-<net name="GND" class="1">
+<net name="GND" class="0">
 <segment>
 <pinref part="C107" gate="G$1" pin="2"/>
 <pinref part="GND2" gate="1" pin="GND"/>
@@ -6367,7 +6370,7 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <wire x1="203.2" y1="175.26" x2="200.66" y2="175.26" width="0.1524" layer="91"/>
 </segment>
 </net>
-<net name="+3V3_PROC" class="1">
+<net name="+3V3_PROC" class="0">
 <segment>
 <pinref part="U101" gate="G$1" pin="VDDIO3"/>
 <wire x1="200.66" y1="165.1" x2="205.74" y2="165.1" width="0.1524" layer="91"/>
@@ -7243,6 +7246,8 @@ should be placed near XTALs</text>
 <text x="165.1" y="177.8" size="1.778" layer="91">Do we lose info about battery
 by not having the input directly
 connected to the battery?</text>
+<text x="71.12" y="160.02" size="1.778" layer="91">Won't always populate 
+PMOS in deployements</text>
 </plain>
 <instances>
 <instance part="BORDER201" gate="G$1" x="0" y="0" smashed="yes"/>
@@ -7456,8 +7461,8 @@ connected to the battery?</text>
 <attribute name="PART_NO" x="287.02" y="109.22" size="1.778" layer="96" display="off"/>
 </instance>
 <instance part="+3V6" gate="G$1" x="248.92" y="48.26" smashed="yes"/>
-<instance part="JP1" gate="G$1" x="88.9" y="175.26" smashed="yes" rot="MR0">
-<attribute name="NAME" x="86.36" y="175.641" size="1.778" layer="95" font="vector" rot="MR0"/>
+<instance part="JP1" gate="G$1" x="88.9" y="175.26" smashed="yes" rot="R180">
+<attribute name="NAME" x="86.36" y="174.879" size="1.778" layer="95" font="vector" rot="R180"/>
 </instance>
 <instance part="T_CPU" gate="G$1" x="350.52" y="190.5" smashed="yes" rot="MR0">
 <attribute name="NAME" x="351.536" y="191.77" size="1.778" layer="95" rot="MR90"/>
@@ -7484,7 +7489,7 @@ connected to the battery?</text>
 </bus>
 </busses>
 <nets>
-<net name="GND" class="1">
+<net name="GND" class="0">
 <segment>
 <pinref part="GND11" gate="1" pin="GND"/>
 <wire x1="48.26" y1="223.52" x2="48.26" y2="213.36" width="0.1524" layer="91"/>
@@ -7719,7 +7724,7 @@ connected to the battery?</text>
 <junction x="350.52" y="175.26"/>
 </segment>
 </net>
-<net name="+3V3_PROC" class="1">
+<net name="+3V3_PROC" class="0">
 <segment>
 <label x="363.22" y="187.96" size="1.778" layer="95"/>
 <wire x1="332.74" y1="187.96" x2="350.52" y2="187.96" width="0.1524" layer="91"/>
@@ -7833,7 +7838,7 @@ connected to the battery?</text>
 <label x="58.42" y="228.6" size="1.778" layer="95"/>
 <wire x1="73.66" y1="195.58" x2="88.9" y2="195.58" width="0.1524" layer="91"/>
 <junction x="73.66" y="195.58"/>
-<pinref part="JP1" gate="G$1" pin="1"/>
+<pinref part="JP1" gate="G$1" pin="3"/>
 <wire x1="88.9" y1="195.58" x2="88.9" y2="180.34" width="0.1524" layer="91"/>
 </segment>
 </net>
@@ -7984,9 +7989,9 @@ connected to the battery?</text>
 <wire x1="73.66" y1="180.34" x2="73.66" y2="170.18" width="0.1524" layer="91"/>
 <pinref part="U202" gate="A" pin="N"/>
 <wire x1="71.12" y1="170.18" x2="73.66" y2="170.18" width="0.1524" layer="91"/>
-<junction x="73.66" y="170.18"/>
-<pinref part="JP1" gate="G$1" pin="3"/>
+<pinref part="JP1" gate="G$1" pin="1"/>
 <wire x1="73.66" y1="170.18" x2="88.9" y2="170.18" width="0.1524" layer="91"/>
+<junction x="73.66" y="170.18"/>
 </segment>
 </net>
 <net name="N$8" class="0">
@@ -8074,7 +8079,7 @@ connected to the battery?</text>
 <pinref part="J302" gate="G$1" pin="16"/>
 </segment>
 </net>
-<net name="GND" class="1">
+<net name="GND" class="0">
 <segment>
 <wire x1="83.82" y1="132.08" x2="86.36" y2="132.08" width="0.1524" layer="91"/>
 <junction x="86.36" y="132.08"/>
@@ -8088,8 +8093,6 @@ connected to the battery?</text>
 <pinref part="J301" gate="G$1" pin="3"/>
 <pinref part="J301" gate="G$1" pin="5"/>
 </segment>
-</net>
-<net name="N$21" class="0">
 <segment>
 <wire x1="261.62" y1="139.7" x2="261.62" y2="129.54" width="0.1524" layer="91"/>
 <pinref part="GND23" gate="1" pin="GND"/>
@@ -8125,7 +8128,7 @@ connected to the battery?</text>
 <pinref part="J302" gate="G$1" pin="12"/>
 </segment>
 </net>
-<net name="+3V3_PROC" class="1">
+<net name="+3V3_PROC" class="0">
 <segment>
 <label x="274.32" y="177.8" size="1.778" layer="95" rot="R90"/>
 <wire x1="274.32" y1="226.06" x2="274.32" y2="160.02" width="0.1524" layer="91"/>
