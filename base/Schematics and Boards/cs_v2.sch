@@ -6933,10 +6933,10 @@ You are welcome to use this library for commercial purposes. For attribution, we
 </net>
 <net name="DTR_DETECT" class="0">
 <segment>
-<pinref part="U101" gate="G$1" pin="PC31"/>
-<wire x1="175.26" y1="71.12" x2="175.26" y2="15.24" width="0.1524" layer="91"/>
-<label x="175.26" y="30.48" size="1.778" layer="95" rot="R90"/>
-<wire x1="175.26" y1="15.24" x2="172.72" y2="12.7" width="0.1524" layer="91"/>
+<pinref part="U101" gate="G$1" pin="PA21"/>
+<label x="154.94" y="200.66" size="1.778" layer="95" rot="R90"/>
+<wire x1="154.94" y1="190.5" x2="154.94" y2="251.46" width="0.1524" layer="91"/>
+<wire x1="154.94" y1="251.46" x2="157.48" y2="254" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="LED_R" class="0">
@@ -6994,9 +6994,9 @@ You are welcome to use this library for commercial purposes. For attribution, we
 </net>
 <net name="EN_TEMP" class="0">
 <segment>
-<pinref part="U101" gate="G$1" pin="PC7"/>
-<wire x1="114.3" y1="71.12" x2="114.3" y2="45.72" width="0.1524" layer="91"/>
-<label x="114.3" y="45.72" size="1.27" layer="95" rot="R270" xref="yes"/>
+<pinref part="U101" gate="G$1" pin="PB25"/>
+<wire x1="83.82" y1="101.6" x2="55.88" y2="101.6" width="0.1524" layer="91"/>
+<label x="55.88" y="101.6" size="1.27" layer="95" rot="R180" xref="yes"/>
 </segment>
 </net>
 <net name="EN_STOR" class="0">
