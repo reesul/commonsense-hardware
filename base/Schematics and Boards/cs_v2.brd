@@ -3693,7 +3693,7 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <class number="5" name="10_mil" width="0.254" drill="0">
 </class>
 </classes>
-<designrules name="CSv2_proto_8layer_adv *">
+<designrules name="CSv2_proto_adv_8layer">
 <description language="de">&lt;b&gt;EAGLE Design Rules&lt;/b&gt;
 &lt;p&gt;
 Die Standard-Design-Rules sind so gewählt, dass sie für 
@@ -3711,23 +3711,23 @@ design rules under a new name.</description>
 <param name="layerSetup" value="([2:1+((2*3)+(4*13)+(14*15))+16:15])"/>
 <param name="mtCopper" value="0.035559375mm 0.01778125mm 0.01778125mm 0.01778125mm 0.035mm 0.035mm 0.035mm 0.035mm 0.035mm 0.035mm 0.035mm 0.035mm 0.01778125mm 0.01778125mm 0.01778125mm 0.035559375mm"/>
 <param name="mtIsolate" value="3.5mil 3.5mil 4.5mil 28mil 0.2mm 0.15mm 0.2mm 0.15mm 0.2mm 0.15mm 0.2mm 0.15mm 4.5mil 3.5mil 3.5mil"/>
-<param name="mdWireWire" value="5mil"/>
-<param name="mdWirePad" value="5mil"/>
-<param name="mdWireVia" value="5mil"/>
-<param name="mdPadPad" value="5mil"/>
-<param name="mdPadVia" value="5mil"/>
-<param name="mdViaVia" value="5mil"/>
-<param name="mdSmdPad" value="5mil"/>
-<param name="mdSmdVia" value="5mil"/>
-<param name="mdSmdSmd" value="5mil"/>
+<param name="mdWireWire" value="4mil"/>
+<param name="mdWirePad" value="4mil"/>
+<param name="mdWireVia" value="4mil"/>
+<param name="mdPadPad" value="4mil"/>
+<param name="mdPadVia" value="4mil"/>
+<param name="mdViaVia" value="4mil"/>
+<param name="mdSmdPad" value="4mil"/>
+<param name="mdSmdVia" value="4mil"/>
+<param name="mdSmdSmd" value="4mil"/>
 <param name="mdViaViaSameLayer" value="6mil"/>
 <param name="mnLayersViaInSmd" value="2"/>
 <param name="mdCopperDimension" value="10mil"/>
-<param name="mdDrill" value="6mil"/>
+<param name="mdDrill" value="5mil"/>
 <param name="mdSmdStop" value="0mil"/>
-<param name="msWidth" value="5mil"/>
-<param name="msDrill" value="0.2mm"/>
-<param name="msMicroVia" value="0.1mm"/>
+<param name="msWidth" value="3.5mil"/>
+<param name="msDrill" value="6mil"/>
+<param name="msMicroVia" value="4mil"/>
 <param name="msBlindViaRatio" value="0.75"/>
 <param name="rvPadTop" value="0.25"/>
 <param name="rvPadInner" value="0.25"/>
@@ -3746,9 +3746,9 @@ design rules under a new name.</description>
 <param name="rlMaxViaOuter" value="20mil"/>
 <param name="rlMinViaInner" value="5mil"/>
 <param name="rlMaxViaInner" value="20mil"/>
-<param name="rlMinMicroViaOuter" value="5mil"/>
+<param name="rlMinMicroViaOuter" value="4mil"/>
 <param name="rlMaxMicroViaOuter" value="20mil"/>
-<param name="rlMinMicroViaInner" value="5mil"/>
+<param name="rlMinMicroViaInner" value="4mil"/>
 <param name="rlMaxMicroViaInner" value="20mil"/>
 <param name="psTop" value="-1"/>
 <param name="psBottom" value="-1"/>
