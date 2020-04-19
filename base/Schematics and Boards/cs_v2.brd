@@ -2192,9 +2192,9 @@ design rules under a new name.</description>
 <param name="TopRouterVariant" value="0"/>
 <param name="tpViaShape" value="round"/>
 <param name="PrefDir.1" value="*"/>
-<param name="PrefDir.2" value="a"/>
-<param name="PrefDir.3" value="a"/>
-<param name="PrefDir.4" value="a"/>
+<param name="PrefDir.2" value="*"/>
+<param name="PrefDir.3" value="*"/>
+<param name="PrefDir.4" value="*"/>
 <param name="PrefDir.5" value="0"/>
 <param name="PrefDir.6" value="0"/>
 <param name="PrefDir.7" value="0"/>
@@ -2203,9 +2203,9 @@ design rules under a new name.</description>
 <param name="PrefDir.10" value="0"/>
 <param name="PrefDir.11" value="0"/>
 <param name="PrefDir.12" value="0"/>
-<param name="PrefDir.13" value="a"/>
-<param name="PrefDir.14" value="a"/>
-<param name="PrefDir.15" value="a"/>
+<param name="PrefDir.13" value="*"/>
+<param name="PrefDir.14" value="*"/>
+<param name="PrefDir.15" value="*"/>
 <param name="PrefDir.16" value="*"/>
 <param name="cfVia" value="8"/>
 <param name="cfNonPref" value="5"/>
@@ -2894,7 +2894,9 @@ design rules under a new name.</description>
 <vertex x="-5.08" y="30.48"/>
 <vertex x="-5.08" y="-6.35"/>
 </polygon>
-<wire x1="14.637003125" y1="24.273" x2="13.837003125" y2="24.273" width="0.254" layer="16" locked="yes"/>
+<wire x1="14.637003125" y1="24.273" x2="14.2494" y2="24.273" width="0.254" layer="16" locked="yes"/>
+<wire x1="14.2494" y1="24.273" x2="14.237003125" y2="24.273" width="0.254" layer="16" locked="yes"/>
+<wire x1="14.237003125" y1="24.273" x2="13.837003125" y2="24.273" width="0.254" layer="16" locked="yes"/>
 <wire x1="13.837003125" y1="24.273" x2="14.224" y2="24.659996875" width="0.254" layer="16" locked="yes"/>
 <wire x1="14.224" y1="24.659996875" x2="14.224" y2="24.8158" width="0.254" layer="16" locked="yes"/>
 <via x="14.224" y="24.8158" extent="15-16" drill="0.1016" locked="yes"/>
@@ -2902,8 +2904,9 @@ design rules under a new name.</description>
 <wire x1="10.3958" y1="24.8848" x2="10.3886" y2="24.892" width="0.254" layer="1" locked="yes"/>
 <via x="10.3886" y="24.892" extent="1-2" drill="0.1016" locked="yes"/>
 <wire x1="9.9536" y1="23.6038" x2="9.7028" y2="23.6038" width="0.254" layer="1" locked="yes"/>
-<wire x1="9.9536" y1="23.6038" x2="10.3458" y2="23.2116" width="0.254" layer="1" locked="yes"/>
+<wire x1="9.9536" y1="23.6038" x2="10.2382" y2="23.3192" width="0.254" layer="1" locked="yes"/>
 <via x="9.7028" y="23.6038" extent="1-2" drill="0.1016" locked="yes"/>
+<wire x1="10.2382" y1="23.3192" x2="10.3458" y2="23.2116" width="0.254" layer="1" locked="yes"/>
 <wire x1="9.017" y1="23.6038" x2="9.7028" y2="23.6038" width="0.254" layer="1" locked="yes"/>
 <wire x1="5.969" y1="17.1958" x2="5.969" y2="17.711" width="0.254" layer="16" locked="yes"/>
 <via x="5.969" y="17.1958" extent="15-16" drill="0.1016" locked="yes"/>
@@ -2913,8 +2916,9 @@ design rules under a new name.</description>
 <wire x1="3.2512" y1="15.7988" x2="4.572" y2="15.7988" width="0.254" layer="15" locked="yes"/>
 <wire x1="4.572" y1="15.7988" x2="5.969" y2="17.1958" width="0.254" layer="15" locked="yes"/>
 <wire x1="7.7152" y1="15.9924" x2="7.7756" y2="16.0528" width="0.254" layer="16" locked="yes"/>
-<wire x1="7.7756" y1="16.0528" x2="8.2296" y2="16.0528" width="0.254" layer="16" locked="yes"/>
+<wire x1="7.7756" y1="16.0528" x2="8.0264" y2="16.0528" width="0.254" layer="16" locked="yes"/>
 <via x="8.2296" y="16.0528" extent="15-16" drill="0.1016" locked="yes"/>
+<wire x1="8.0264" y1="16.0528" x2="8.2296" y2="16.0528" width="0.254" layer="16" locked="yes"/>
 <wire x1="10.0512" y1="16.6624" x2="10.0512" y2="17.2538" width="0.254" layer="16" locked="yes"/>
 <wire x1="10.0512" y1="17.2538" x2="10.033" y2="17.272" width="0.254" layer="16" locked="yes"/>
 <via x="10.033" y="17.272" extent="15-16" drill="0.1016" locked="yes"/>
@@ -2936,10 +2940,13 @@ design rules under a new name.</description>
 <via x="4.3688" y="8.1026" extent="15-16" drill="0.1016" locked="yes"/>
 <wire x1="5.061" y1="7.3822" x2="4.3752" y2="8.068" width="0.254" layer="16" locked="yes"/>
 <wire x1="4.3752" y1="8.068" x2="4.3752" y2="8.109" width="0.254" layer="16" locked="yes"/>
-<wire x1="7.7562" y1="8.0074" x2="8.1054" y2="8.3566" width="0.254" layer="16" locked="yes"/>
+<wire x1="7.7562" y1="8.0074" x2="7.8627" y2="8.1139" width="0.254" layer="16" locked="yes"/>
+<wire x1="7.8627" y1="8.1139" x2="8.1054" y2="8.3566" width="0.254" layer="16" locked="yes"/>
 <wire x1="8.1054" y1="8.3566" x2="8.2042" y2="8.3566" width="0.254" layer="16" locked="yes"/>
 <via x="8.2042" y="8.3566" extent="15-16" drill="0.1016" locked="yes"/>
-<wire x1="9.935003125" y1="1.635" x2="9.135003125" y2="1.635" width="0.254" layer="1" locked="yes"/>
+<wire x1="9.935003125" y1="1.635" x2="9.5504" y2="1.635" width="0.254" layer="1" locked="yes"/>
+<wire x1="9.5504" y1="1.635" x2="9.535003125" y2="1.635" width="0.254" layer="1" locked="yes"/>
+<wire x1="9.535003125" y1="1.635" x2="9.135003125" y2="1.635" width="0.254" layer="1" locked="yes"/>
 <wire x1="9.535003125" y1="1.635" x2="9.525" y2="1.624996875" width="0.254" layer="1" locked="yes"/>
 <wire x1="9.525" y1="1.624996875" x2="9.525" y2="1.0922" width="0.254" layer="1" locked="yes"/>
 <via x="9.525" y="1.0922" extent="1-2" drill="0.1016" locked="yes"/>
@@ -2950,22 +2957,24 @@ design rules under a new name.</description>
 <wire x1="23.2029" y1="5.8039" x2="23.3934" y2="5.6134" width="0.254" layer="16" locked="yes"/>
 <via x="23.3934" y="5.6134" extent="15-16" drill="0.1016" locked="yes"/>
 <wire x1="23.0814" y1="7.5184" x2="23.2029" y2="7.3969" width="0.254" layer="16" locked="yes"/>
-<wire x1="23.2029" y1="7.3969" x2="23.2029" y2="6.2364" width="0.254" layer="16" locked="yes"/>
 <wire x1="20.897" y1="7.5184" x2="20.955" y2="7.4604" width="0.254" layer="16" locked="yes"/>
 <wire x1="20.955" y1="7.4604" x2="20.955" y2="6.985" width="0.254" layer="16" locked="yes"/>
 <via x="20.955" y="6.985" extent="15-16" drill="0.1016" locked="yes"/>
 <wire x1="20.955" y1="6.985" x2="20.955" y2="5.715" width="0.254" layer="15" locked="yes"/>
 <wire x1="20.955" y1="5.715" x2="20.955" y2="4.1402" width="0.254" layer="15" locked="yes"/>
 <wire x1="20.955" y1="4.1402" x2="20.9296" y2="4.1148" width="0.254" layer="15" locked="yes"/>
-<wire x1="20.955" y1="5.715" x2="23.2918" y2="5.715" width="0.254" layer="15" locked="yes"/>
+<wire x1="20.955" y1="5.715" x2="22.225" y2="5.715" width="0.254" layer="15" locked="yes"/>
+<wire x1="22.225" y1="5.715" x2="23.2918" y2="5.715" width="0.254" layer="15" locked="yes"/>
 <wire x1="23.2918" y1="5.715" x2="23.3934" y2="5.6134" width="0.254" layer="15" locked="yes"/>
 <wire x1="23.0814" y1="7.5184" x2="22.72" y2="7.8798" width="0.254" layer="16" locked="yes"/>
 <wire x1="22.72" y1="7.8798" x2="22.72" y2="7.9230875" width="0.254" layer="16" locked="yes"/>
 <wire x1="22.72" y1="7.9230875" x2="22.5878" y2="8.0552875" width="0.254" layer="16" locked="yes"/>
 <wire x1="22.5878" y1="8.0552875" x2="22.5878" y2="8.6614" width="0.254" layer="16" locked="yes"/>
 <wire x1="22.0726" y1="10.1418" x2="22.5878" y2="9.6266" width="0.254" layer="16" locked="yes"/>
-<wire x1="22.5878" y1="9.6266" x2="22.5878" y2="8.6614" width="0.254" layer="16" locked="yes"/>
-<wire x1="24.3252" y1="11.0196" x2="24.7616" y2="11.456" width="0.254" layer="16" locked="yes"/>
+<wire x1="22.5878" y1="9.6266" x2="22.5878" y2="9.525" width="0.254" layer="16" locked="yes"/>
+<wire x1="22.5878" y1="9.525" x2="22.5878" y2="8.6614" width="0.254" layer="16" locked="yes"/>
+<wire x1="24.3252" y1="11.0196" x2="24.4074" y2="11.1018" width="0.254" layer="16" locked="yes"/>
+<wire x1="24.4074" y1="11.1018" x2="24.7616" y2="11.456" width="0.254" layer="16" locked="yes"/>
 <wire x1="24.7616" y1="11.456" x2="24.83351875" y2="11.456" width="0.254" layer="16" locked="yes"/>
 <via x="24.83351875" y="11.456" extent="1-16" drill="0.1524" locked="yes"/>
 <wire x1="24.83351875" y1="11.456" x2="24.13" y2="12.15951875" width="0.254" layer="1" locked="yes"/>
@@ -2991,12 +3000,14 @@ design rules under a new name.</description>
 <wire x1="15.459215625" y1="13.012796875" x2="15.60363125" y2="12.86838125" width="0.254" layer="1" locked="yes"/>
 <wire x1="15.60651875" y1="12.86838125" x2="15.60363125" y2="12.86838125" width="0.254" layer="1" locked="yes"/>
 <wire x1="15.95921875" y1="12.51568125" x2="15.60651875" y2="12.86838125" width="0.254" layer="1" locked="yes"/>
-<wire x1="14.5796" y1="11.107" x2="17.7038" y2="11.107" width="0.254" layer="16" locked="yes"/>
+<wire x1="14.5796" y1="11.107" x2="16.6878" y2="11.107" width="0.254" layer="16" locked="yes"/>
+<wire x1="16.6878" y1="11.107" x2="17.7038" y2="11.107" width="0.254" layer="16" locked="yes"/>
 <wire x1="17.7038" y1="11.107" x2="17.7292" y2="11.1324" width="0.254" layer="16" locked="yes"/>
 <via x="17.7292" y="11.1324" extent="15-16" drill="0.1016" locked="yes"/>
 <wire x1="16.959215625" y1="12.51278125" x2="17.459215625" y2="13.01278125" width="0.254" layer="1" locked="yes"/>
 <wire x1="16.959215625" y1="12.51278125" x2="16.568796875" y2="12.9032" width="0.254" layer="1" locked="yes"/>
-<wire x1="16.3467375" y1="12.9032" x2="15.95921875" y2="12.51568125" width="0.254" layer="1" locked="yes"/>
+<wire x1="16.3467375" y1="12.9032" x2="15.97116875" y2="12.52763125" width="0.254" layer="1" locked="yes"/>
+<wire x1="15.97116875" y1="12.52763125" x2="15.95921875" y2="12.51568125" width="0.254" layer="1" locked="yes"/>
 <wire x1="16.568796875" y1="12.9032" x2="16.3467375" y2="12.9032" width="0.254" layer="1" locked="yes"/>
 <wire x1="17.459215625" y1="13.012796875" x2="17.459215625" y2="13.01278125" width="0.254" layer="1" locked="yes"/>
 <via x="17.459215625" y="13.01278125" extent="1-2" drill="0.1016" locked="yes"/>
@@ -3056,7 +3067,8 @@ design rules under a new name.</description>
 <wire x1="22.77" y1="20.4608" x2="22.3266" y2="20.9042" width="0.254" layer="1" locked="yes"/>
 <wire x1="24.2934" y1="19.5072" x2="24.1166875" y2="19.5072" width="0.254" layer="1" locked="yes"/>
 <wire x1="24.1166875" y1="19.5072" x2="23.1630875" y2="20.4608" width="0.254" layer="1" locked="yes"/>
-<wire x1="14.224" y1="24.8158" x2="10.9474" y2="24.8158" width="0.254" layer="15" locked="yes"/>
+<wire x1="14.224" y1="24.8158" x2="13.589" y2="24.8158" width="0.254" layer="15" locked="yes"/>
+<wire x1="13.589" y1="24.8158" x2="10.9474" y2="24.8158" width="0.254" layer="15" locked="yes"/>
 <wire x1="10.9474" y1="24.8158" x2="10.922" y2="24.7904" width="0.254" layer="15" locked="yes"/>
 <wire x1="10.922" y1="24.7904" x2="10.8331" y2="24.8793" width="0.254" layer="15" locked="yes"/>
 <via x="10.8331" y="24.8793" extent="2-15" drill="0.1524" locked="yes"/>
@@ -3099,29 +3111,36 @@ design rules under a new name.</description>
 <wire x1="9.9568" y1="23.9511375" x2="9.9568" y2="24.4348" width="0.254" layer="2" locked="yes"/>
 <wire x1="8.10801875" y1="17.272" x2="10.033" y2="17.272" width="0.254" layer="15" locked="yes"/>
 <wire x1="5.969" y1="17.1958" x2="6.40829375" y2="17.63509375" width="0.254" layer="15" locked="yes"/>
-<wire x1="6.40829375" y1="17.63509375" x2="7.744925" y2="17.63509375" width="0.254" layer="15" locked="yes"/>
+<wire x1="6.40829375" y1="17.63509375" x2="6.6294" y2="17.63509375" width="0.254" layer="15" locked="yes"/>
+<wire x1="6.6294" y1="17.63509375" x2="7.744925" y2="17.63509375" width="0.254" layer="15" locked="yes"/>
 <wire x1="7.744925" y1="17.63509375" x2="8.10801875" y2="17.272" width="0.254" layer="15" locked="yes"/>
 <wire x1="9.1948" y1="9.3472" x2="9.1948" y2="10.7442" width="0.254" layer="2" locked="yes"/>
-<wire x1="7.0993" y1="7.2517" x2="9.1948" y2="9.3472" width="0.254" layer="2" locked="yes"/>
+<wire x1="7.0993" y1="7.2517" x2="8.1534" y2="8.3058" width="0.254" layer="2" locked="yes"/>
+<wire x1="8.1534" y1="8.3058" x2="9.1948" y2="9.3472" width="0.254" layer="2" locked="yes"/>
 <wire x1="9.525" y1="1.0922" x2="6.5034625" y2="1.0922" width="0.254" layer="2" locked="yes"/>
 <wire x1="5.08" y1="1.7018" x2="1.2446" y2="5.5372" width="0.254" layer="2" locked="yes"/>
 <wire x1="6.5034625" y1="1.0922" x2="5.8938625" y2="1.7018" width="0.254" layer="2" locked="yes"/>
 <wire x1="5.8938625" y1="1.7018" x2="5.08" y2="1.7018" width="0.254" layer="2" locked="yes"/>
 <wire x1="15.6464" y1="11.107" x2="15.6718" y2="11.1324" width="0.254" layer="16" locked="yes"/>
 <wire x1="15.6718" y1="11.1324" x2="17.7292" y2="11.1324" width="0.254" layer="16" locked="yes"/>
+<via x="22.5878" y="9.525" extent="15-16" drill="0.1016" locked="yes"/>
+<wire x1="22.225" y1="5.715" x2="22.225" y2="9.1622" width="0.254" layer="15" locked="yes"/>
+<wire x1="22.225" y1="9.1622" x2="22.5878" y2="9.525" width="0.254" layer="15" locked="yes"/>
+<wire x1="18.459203125" y1="16.512796875" x2="18.459203125" y2="15.919203125" width="0.3048" layer="1" locked="yes"/>
+<wire x1="18.459203125" y1="15.919203125" x2="18.3859875" y2="15.8459875" width="0.254" layer="1" locked="yes"/>
+<via x="18.3859875" y="15.8459875" extent="1-2" drill="0.1016" locked="yes"/>
+<via x="18.3859875" y="15.8459875" extent="2-15" drill="0.1524" locked="yes"/>
+<wire x1="18.3859875" y1="15.8459875" x2="18.1538" y2="15.6138" width="0.254" layer="15" locked="yes"/>
+<wire x1="18.1538" y1="15.6138" x2="17.145" y2="15.6138" width="0.254" layer="15" locked="yes"/>
 <wire x1="18.415" y1="22.86" x2="17.526" y2="22.0472" width="0" layer="19" extent="1-1"/>
-<wire x1="22.0726" y1="10.1418" x2="24.3252" y2="11.0196" width="0" layer="19" extent="16-16"/>
+<wire x1="22.5878" y1="9.525" x2="24.3252" y2="11.0196" width="0" layer="19" extent="16-16"/>
 <wire x1="14.637003125" y1="24.273" x2="17.526" y2="22.0472" width="0" layer="19" extent="1-16"/>
-<wire x1="14.237003125" y1="24.273" x2="14.637003125" y2="24.273" width="0" layer="19" extent="16-16"/>
 <wire x1="10.4466" y1="21.4122" x2="10.3458" y2="23.2116" width="0" layer="19" extent="1-1"/>
 <wire x1="8.02" y1="17.888" x2="7.256" y2="19.447" width="0" layer="19" extent="1-16"/>
 <wire x1="8.2296" y1="16.0528" x2="8.02" y2="17.888" width="0" layer="19" extent="16-16"/>
-<wire x1="9.935003125" y1="1.635" x2="9.535003125" y2="1.635" width="0" layer="19" extent="1-1"/>
 <wire x1="8.2042" y1="8.3566" x2="9.1948" y2="10.7442" width="0" layer="19" extent="1-15"/>
 <wire x1="18.459203125" y1="16.512796875" x2="22.3012" y2="17.1776" width="0" layer="19" extent="1-16"/>
-<wire x1="17.8562" y1="15.6138" x2="18.459203125" y2="16.512796875" width="0" layer="19" extent="1-16"/>
 <wire x1="15.959215625" y1="12.51278125" x2="15.459215625" y2="13.012796875" width="0" layer="19" extent="1-1"/>
-<wire x1="16.6878" y1="11.107" x2="15.6464" y2="11.107" width="0" layer="19" extent="16-16"/>
 </signal>
 <signal name="VDDCORE">
 <contactref element="U101" pad="VDDCORE"/>
@@ -3208,8 +3227,9 @@ design rules under a new name.</description>
 <wire x1="21.6662" y1="14.732" x2="22.2178" y2="14.732" width="0.254" layer="1" locked="yes"/>
 <wire x1="22.2178" y1="14.732" x2="22.225" y2="14.7248" width="0.254" layer="1" locked="yes"/>
 <wire x1="17.3156" y1="14.1732" x2="17.8744" y2="14.732" width="0.254" layer="3" locked="yes"/>
-<wire x1="17.8744" y1="14.732" x2="21.6662" y2="14.732" width="0.254" layer="3" locked="yes"/>
+<wire x1="17.8744" y1="14.732" x2="18.5166" y2="14.732" width="0.254" layer="3" locked="yes"/>
 <via x="14.459228125" y="16.512796875" extent="1-2" drill="0.1016" locked="yes"/>
+<wire x1="18.5166" y1="14.732" x2="21.6662" y2="14.732" width="0.254" layer="3" locked="yes"/>
 <wire x1="14.459228125" y1="16.512796875" x2="14.45643125" y2="16.51" width="0.254" layer="2" locked="yes"/>
 <wire x1="14.45643125" y1="16.51" x2="14.4526" y2="16.51" width="0.254" layer="2" locked="yes"/>
 <via x="14.4526" y="16.51" extent="2-3" drill="0.1016" locked="yes"/>
@@ -3236,7 +3256,11 @@ design rules under a new name.</description>
 <contactref element="R102" pad="1"/>
 <contactref element="R106" pad="1"/>
 <contactref element="J302" pad="30"/>
-<wire x1="19.95919375" y1="13.512796875" x2="19.437003125" y2="21.193" width="0" layer="19" extent="1-16"/>
+<wire x1="19.95919375" y1="13.512796875" x2="19.95919375" y2="13.5382" width="0.1016" layer="1" locked="yes"/>
+<via x="19.95919375" y="13.5382" extent="1-2" drill="0.1016" locked="yes"/>
+<wire x1="19.95919375" y1="13.5382" x2="19.9644" y2="13.5382" width="0.1016" layer="2" locked="yes"/>
+<via x="19.9644" y="13.5382" extent="2-15" drill="0.1524" locked="yes"/>
+<wire x1="19.95919375" y1="13.5382" x2="19.437003125" y2="21.193" width="0" layer="19" extent="2-16"/>
 <wire x1="3.7846" y1="6.038" x2="19.95919375" y2="13.512796875" width="0" layer="19" extent="1-16"/>
 <wire x1="2.286" y1="4.249" x2="3.7846" y2="6.038" width="0" layer="19" extent="16-16"/>
 <wire x1="1.72" y1="2.921" x2="2.286" y2="4.249" width="0" layer="19" extent="16-16"/>
@@ -3246,29 +3270,58 @@ design rules under a new name.</description>
 <contactref element="C117" pad="1"/>
 <contactref element="Y101" pad="3"/>
 <contactref element="U101" pad="PB23"/>
-<wire x1="22.1814" y1="7.5184" x2="19.95919375" y2="10.51278125" width="0" layer="19" extent="1-16"/>
-<wire x1="23.2029" y1="4.7364" x2="22.1814" y2="7.5184" width="0" layer="19" extent="16-16"/>
+<wire x1="19.95919375" y1="10.51278125" x2="21.3608" y2="9.111175" width="0.1016" layer="1" locked="yes"/>
+<wire x1="21.3608" y1="9.111175" x2="21.3608" y2="8.255" width="0.1016" layer="1" locked="yes"/>
+<wire x1="21.3608" y1="8.255" x2="21.2084" y2="8.255" width="0.1016" layer="1" locked="yes"/>
+<via x="21.2084" y="8.255" extent="1-16" drill="0.1524" locked="yes"/>
+<wire x1="21.2084" y1="8.255" x2="21.4448" y2="8.255" width="0.1016" layer="16" locked="yes"/>
+<wire x1="21.4448" y1="8.255" x2="22.1814" y2="7.5184" width="0.1016" layer="16" locked="yes"/>
+<wire x1="22.1814" y1="7.5184" x2="22.225" y2="7.4748" width="0.1016" layer="16" locked="yes"/>
+<wire x1="22.1814" y1="7.5184" x2="22.9046" y2="6.7952" width="0.1016" layer="16" locked="yes"/>
+<wire x1="22.9046" y1="6.7952" x2="23.939125" y2="6.7952" width="0.1016" layer="16" locked="yes"/>
+<wire x1="23.939125" y1="6.7952" x2="24.0284" y2="6.705925" width="0.1016" layer="16" locked="yes"/>
+<wire x1="24.0284" y1="6.705925" x2="24.0284" y2="5.766875" width="0.1016" layer="16" locked="yes"/>
+<wire x1="23.2029" y1="4.941375" x2="23.2029" y2="4.7364" width="0.1016" layer="16" locked="yes"/>
+<wire x1="24.0284" y1="5.766875" x2="23.2029" y2="4.941375" width="0.1016" layer="16" locked="yes"/>
 </signal>
 <signal name="XIN">
 <contactref element="C116" pad="1"/>
 <contactref element="Y101" pad="1"/>
 <contactref element="U101" pad="PB22"/>
-<wire x1="19.997" y1="7.5184" x2="20.4851" y2="6.2364" width="0" layer="19" extent="16-16"/>
-<wire x1="19.95919375" y1="10.012784375" x2="19.997" y2="7.5184" width="0" layer="19" extent="1-16"/>
+<wire x1="19.95919375" y1="10.012784375" x2="19.9898" y2="10.012784375" width="0.1016" layer="1" locked="yes"/>
+<wire x1="19.95919375" y1="10.012784375" x2="19.95919375" y2="8.13320625" width="0.1016" layer="1" locked="yes"/>
+<wire x1="19.95919375" y1="8.13320625" x2="19.9644" y2="8.128" width="0.1016" layer="1" locked="yes"/>
+<via x="19.9644" y="8.128" extent="1-16" drill="0.1524" locked="yes"/>
+<wire x1="19.9644" y1="8.128" x2="19.997" y2="8.0954" width="0.1016" layer="16" locked="yes"/>
+<wire x1="19.997" y1="8.0954" x2="19.997" y2="7.5184" width="0.1016" layer="16" locked="yes"/>
+<wire x1="19.997" y1="7.5184" x2="20.4851" y2="7.0303" width="0.1016" layer="16" locked="yes"/>
+<wire x1="20.4851" y1="7.0303" x2="20.4851" y2="6.2364" width="0.1016" layer="16" locked="yes"/>
 </signal>
 <signal name="XIN32">
 <contactref element="C118" pad="1"/>
 <contactref element="Y102" pad="1"/>
 <contactref element="U101" pad="PA00"/>
-<wire x1="24.0284" y1="17.526" x2="22.3012" y2="18.0776" width="0" layer="19" extent="16-16"/>
-<wire x1="19.95919375" y1="17.01279375" x2="22.3012" y2="18.0776" width="0" layer="19" extent="1-16"/>
+<wire x1="19.95919375" y1="17.01279375" x2="20.7264" y2="17.78" width="0.1016" layer="1" locked="yes"/>
+<wire x1="20.7264" y1="17.78" x2="21.59" y2="17.78" width="0.1016" layer="1" locked="yes"/>
+<via x="21.59" y="17.78" extent="1-16" drill="0.1524" locked="yes"/>
+<wire x1="21.59" y1="17.78" x2="21.8876" y2="18.0776" width="0.1016" layer="16" locked="yes"/>
+<wire x1="21.8876" y1="18.0776" x2="22.3012" y2="18.0776" width="0.1016" layer="16" locked="yes"/>
+<wire x1="22.3012" y1="18.0776" x2="22.9485" y2="18.0776" width="0.1016" layer="16" locked="yes"/>
+<wire x1="22.9485" y1="18.0776" x2="22.9667" y2="18.0594" width="0.1016" layer="16" locked="yes"/>
+<wire x1="23.495" y1="18.0594" x2="24.0284" y2="17.526" width="0.1016" layer="16" locked="yes"/>
+<wire x1="22.9667" y1="18.0594" x2="23.495" y2="18.0594" width="0.1016" layer="16" locked="yes"/>
 </signal>
 <signal name="XOUT32">
 <contactref element="Y102" pad="2"/>
 <contactref element="C119" pad="1"/>
 <contactref element="U101" pad="PA01"/>
-<wire x1="22.3266" y1="19.2858" x2="24.0284" y2="19.9644" width="0" layer="19" extent="16-16"/>
-<wire x1="19.459196875" y1="17.01279375" x2="22.3266" y2="19.2858" width="0" layer="19" extent="1-16"/>
+<wire x1="19.459196875" y1="17.01279375" x2="20.861403125" y2="18.415" width="0.1016" layer="1" locked="yes"/>
+<wire x1="20.861403125" y1="18.415" x2="21.59" y2="18.415" width="0.1016" layer="1" locked="yes"/>
+<via x="21.59" y="18.415" extent="1-16" drill="0.1524" locked="yes"/>
+<wire x1="21.59" y1="18.415" x2="22.3266" y2="19.1516" width="0.1016" layer="16" locked="yes"/>
+<wire x1="22.3266" y1="19.1516" x2="22.3266" y2="19.2858" width="0.1016" layer="16" locked="yes"/>
+<wire x1="22.3266" y1="19.2858" x2="23.0052" y2="19.9644" width="0.1016" layer="16" locked="yes"/>
+<wire x1="23.0052" y1="19.9644" x2="24.0284" y2="19.9644" width="0.1016" layer="16" locked="yes"/>
 </signal>
 <signal name="+3V3_STOR" class="1">
 <contactref element="U205" pad="A1"/>
@@ -3301,18 +3354,30 @@ design rules under a new name.</description>
 <signal name="DTR_BUS0_AIN0">
 <contactref element="U101" pad="PA02"/>
 <contactref element="J301" pad="8"/>
+<wire x1="17.95920625" y1="17.01279375" x2="17.9578" y2="17.01279375" width="0.1016" layer="1" locked="yes"/>
+<via x="17.9578" y="17.01279375" extent="1-2" drill="0.1016" locked="yes"/>
+<via x="17.9578" y="17.01279375" extent="2-15" drill="0.1524" locked="yes"/>
 <wire x1="10.335003125" y1="4.715" x2="17.95920625" y2="17.01279375" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="DTR_BUS0_AIN1">
 <contactref element="U101" pad="PA03"/>
 <contactref element="J301" pad="16"/>
-<wire x1="11.935003125" y1="4.715" x2="17.459209375" y2="16.512796875" width="0" layer="19" extent="1-1"/>
+<wire x1="17.459209375" y1="16.512796875" x2="17.459209375" y2="16.51" width="0.1016" layer="1" locked="yes"/>
+<via x="17.459209375" y="16.51" extent="1-2" drill="0.1016" locked="yes"/>
+<wire x1="17.459209375" y1="16.51" x2="17.2466" y2="16.297390625" width="0.1016" layer="2" locked="yes"/>
+<wire x1="17.2466" y1="16.297390625" x2="17.2466" y2="16.2052" width="0.1016" layer="2" locked="yes"/>
+<via x="17.2466" y="16.2052" extent="2-15" drill="0.1524" locked="yes"/>
+<wire x1="11.935003125" y1="4.715" x2="17.2466" y2="16.2052" width="0" layer="19" extent="1-2"/>
 </signal>
 <signal name="DBG_SWCLK">
 <contactref element="J101" pad="4"/>
 <contactref element="R112" pad="1"/>
 <contactref element="U101" pad="PA30"/>
 <contactref element="J302" pad="19"/>
+<via x="19.459196875" y="14.01279375" extent="1-2" drill="0.1016" locked="yes"/>
+<wire x1="19.459196875" y1="14.01279375" x2="19.467203125" y2="14.0208" width="0.1016" layer="2" locked="yes"/>
+<wire x1="19.467203125" y1="14.0208" x2="19.4818" y2="14.0208" width="0.1016" layer="2" locked="yes"/>
+<via x="19.4818" y="14.0208" extent="2-15" drill="0.1524" locked="yes"/>
 <wire x1="19.459196875" y1="14.01279375" x2="17.437003125" y2="24.273" width="0" layer="19" extent="1-16"/>
 <wire x1="5.1054" y1="11.0308" x2="19.459196875" y2="14.01279375" width="0" layer="19" extent="1-1"/>
 <wire x1="2.921" y1="10.668" x2="5.1054" y2="11.0308" width="0" layer="19" extent="1-1"/>
@@ -3321,13 +3386,23 @@ design rules under a new name.</description>
 <contactref element="J101" pad="2"/>
 <contactref element="U101" pad="PA31"/>
 <contactref element="J302" pad="21"/>
-<wire x1="19.459196875" y1="14.512796875" x2="17.837003125" y2="24.273" width="0" layer="19" extent="1-16"/>
-<wire x1="19.459196875" y1="14.512796875" x2="2.921" y2="11.938" width="0" layer="19" extent="1-1"/>
+<wire x1="19.459196875" y1="14.512796875" x2="19.459196875" y2="14.5288" width="0.1016" layer="1" locked="yes"/>
+<via x="19.459196875" y="14.5288" extent="1-2" drill="0.1016" locked="yes"/>
+<wire x1="19.459196875" y1="14.5288" x2="19.230596875" y2="14.3002" width="0.1016" layer="2" locked="yes"/>
+<wire x1="19.230596875" y1="14.3002" x2="19.042775" y2="14.3002" width="0.1016" layer="2" locked="yes"/>
+<via x="19.042775" y="14.3002" extent="2-15" drill="0.1524" locked="yes"/>
+<wire x1="19.459196875" y1="14.5288" x2="17.837003125" y2="24.273" width="0" layer="19" extent="2-16"/>
+<wire x1="2.921" y1="11.938" x2="19.042775" y2="14.3002" width="0" layer="19" extent="1-2"/>
 </signal>
 <signal name="DBG_SERIAL_TX">
 <contactref element="U101" pad="PB08"/>
 <contactref element="T_TX" pad="TP"/>
 <contactref element="J302" pad="15"/>
+<wire x1="15.95921875" y1="16.512796875" x2="15.95121875" y2="16.512796875" width="0.1016" layer="1" locked="yes"/>
+<via x="15.95121875" y="16.512796875" extent="1-2" drill="0.1016" locked="yes"/>
+<wire x1="15.95121875" y1="16.512796875" x2="15.95121875" y2="16.05281875" width="0.1016" layer="2" locked="yes"/>
+<wire x1="15.95121875" y1="16.05281875" x2="15.9512" y2="16.0528" width="0.1016" layer="2" locked="yes"/>
+<via x="15.9512" y="16.0528" extent="2-15" drill="0.1524" locked="yes"/>
 <wire x1="13.1064" y1="24.003" x2="16.637003125" y2="24.273" width="0" layer="19" extent="1-16"/>
 <wire x1="15.95921875" y1="16.512796875" x2="16.637003125" y2="24.273" width="0" layer="19" extent="1-16"/>
 </signal>
@@ -3346,42 +3421,76 @@ design rules under a new name.</description>
 <signal name="DTR_BUS1_SERCOM1_P0">
 <contactref element="U101" pad="PA16"/>
 <contactref element="J301" pad="9"/>
-<wire x1="10.735003125" y1="1.635" x2="12.9592375" y2="10.012784375" width="0" layer="19" extent="1-1"/>
+<wire x1="12.9592375" y1="10.012784375" x2="12.9592375" y2="9.9822" width="0.1016" layer="1" locked="yes"/>
+<via x="12.9592375" y="9.9822" extent="1-2" drill="0.1016" locked="yes"/>
+<wire x1="12.9592375" y1="9.9822" x2="12.954" y2="9.9822" width="0.1016" layer="2" locked="yes"/>
+<via x="12.954" y="9.9822" extent="2-15" drill="0.1524" locked="yes"/>
+<wire x1="10.735003125" y1="1.635" x2="12.9592375" y2="9.9822" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="DTR_BUS1_SERCOM1_P1">
 <contactref element="U101" pad="PA17"/>
 <contactref element="J301" pad="17"/>
+<wire x1="13.459234375" y1="10.51278125" x2="13.97" y2="11.023546875" width="0.1016" layer="1" locked="yes"/>
+<wire x1="13.97" y1="11.023546875" x2="13.97" y2="11.43" width="0.1016" layer="1" locked="yes"/>
+<wire x1="13.97" y1="11.43" x2="14.3256" y2="11.43" width="0.1016" layer="1" locked="yes"/>
+<via x="14.3256" y="11.43" extent="1-2" drill="0.1016" locked="yes"/>
+<via x="14.3256" y="11.43" extent="2-15" drill="0.1524" locked="yes"/>
 <wire x1="12.335003125" y1="1.635" x2="13.459234375" y2="10.51278125" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="DTR_BUS1_SERCOM1_P2">
 <contactref element="U101" pad="PA18"/>
 <contactref element="J301" pad="25"/>
+<wire x1="13.459234375" y1="10.012784375" x2="13.462" y2="10.012784375" width="0.1016" layer="1" locked="yes"/>
+<via x="13.462" y="10.012784375" extent="1-2" drill="0.1016" locked="yes"/>
+<wire x1="13.462" y1="10.012784375" x2="13.462" y2="10.0076" width="0.1016" layer="2" locked="yes"/>
+<via x="13.462" y="10.0076" extent="2-15" drill="0.1524" locked="yes"/>
 <wire x1="13.935003125" y1="1.635" x2="13.459234375" y2="10.012784375" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="DTR_BUS1_SERCOM1_P3">
 <contactref element="U101" pad="PA19"/>
 <contactref element="J301" pad="33"/>
+<wire x1="13.95923125" y1="10.51278125" x2="13.96205" y2="10.5156" width="0.1016" layer="1" locked="yes"/>
+<wire x1="13.96205" y1="10.5156" x2="13.96495625" y2="10.5156" width="0.1016" layer="1" locked="yes"/>
+<via x="13.96495625" y="10.5156" extent="1-2" drill="0.1016" locked="yes"/>
+<wire x1="13.96495625" y1="10.5156" x2="13.97" y2="10.52064375" width="0.1016" layer="2" locked="yes"/>
+<wire x1="13.97" y1="10.52064375" x2="13.97" y2="10.795" width="0.1016" layer="2" locked="yes"/>
+<via x="13.97" y="10.795" extent="2-15" drill="0.1524" locked="yes"/>
 <wire x1="15.535003125" y1="1.635" x2="13.95923125" y2="10.51278125" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="DTR_BUS0_SERCOM0_P1">
 <contactref element="U101" pad="PA09"/>
 <contactref element="J301" pad="15"/>
+<via x="13.45918125" y="16.01279375" extent="1-2" drill="0.1016" locked="yes"/>
+<via x="13.45918125" y="16.01279375" extent="1-2" drill="0.1016" locked="yes"/>
+<via x="13.45918125" y="16.01279375" extent="2-15" drill="0.1524" locked="yes"/>
 <wire x1="11.935003125" y1="1.635" x2="13.45918125" y2="16.01279375" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="DTR_BUS0_SERCOM0_P0">
 <contactref element="U101" pad="PA08"/>
 <contactref element="J301" pad="7"/>
-<wire x1="10.335003125" y1="1.635" x2="12.9592375" y2="17.01279375" width="0" layer="19" extent="1-1"/>
+<via x="12.9592375" y="17.01279375" extent="1-2" drill="0.1016" locked="yes"/>
+<wire x1="12.9592375" y1="17.01279375" x2="12.55280625" y2="17.01279375" width="0.1016" layer="2" locked="yes"/>
+<wire x1="12.55280625" y1="17.01279375" x2="12.5476" y2="17.018" width="0.1016" layer="2" locked="yes"/>
+<via x="12.5476" y="17.018" extent="2-15" drill="0.1524" locked="yes"/>
+<wire x1="10.335003125" y1="1.635" x2="12.5476" y2="17.018" width="0" layer="19" extent="1-2"/>
 </signal>
 <signal name="DTR_BUS0_SERCOM0_P2">
 <contactref element="U101" pad="PA10"/>
 <contactref element="J301" pad="23"/>
+<wire x1="12.9592375" y1="16.51" x2="12.9592375" y2="16.512796875" width="0.1016" layer="1" locked="yes"/>
+<via x="12.9592375" y="16.51" extent="1-2" drill="0.1016" locked="yes"/>
+<wire x1="12.9592375" y1="16.51" x2="12.9794" y2="16.51" width="0.1016" layer="2" locked="yes"/>
+<via x="12.9794" y="16.51" extent="2-15" drill="0.1524" locked="yes"/>
 <wire x1="13.535003125" y1="1.635" x2="12.9592375" y2="16.512796875" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="DTR_BUS0_SERCOM0_P3">
 <contactref element="U101" pad="PA11"/>
 <contactref element="J301" pad="31"/>
-<wire x1="15.135003125" y1="1.635" x2="13.45918125" y2="15.512796875" width="0" layer="19" extent="1-1"/>
+<wire x1="13.45918125" y1="15.512796875" x2="13.462" y2="15.509978125" width="0.1016" layer="1" locked="yes"/>
+<wire x1="13.462" y1="15.509978125" x2="13.462" y2="15.50479375" width="0.1016" layer="1" locked="yes"/>
+<via x="13.462" y="15.50479375" extent="1-2" drill="0.1016" locked="yes"/>
+<via x="13.462" y="15.50479375" extent="2-15" drill="0.1524" locked="yes"/>
+<wire x1="15.135003125" y1="1.635" x2="13.462" y2="15.50479375" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="DTR_MASTER_I2C_SDA">
 <contactref element="U101" pad="PA22"/>
@@ -3390,6 +3499,10 @@ design rules under a new name.</description>
 <contactref element="U204" pad="1"/>
 <contactref element="J301" pad="42"/>
 <contactref element="T_SDA" pad="TP"/>
+<wire x1="18.459203125" y1="10.51278125" x2="18.459203125" y2="10.5156" width="0.1016" layer="1" locked="yes"/>
+<via x="18.459203125" y="10.5156" extent="1-2" drill="0.1016" locked="yes"/>
+<wire x1="18.459203125" y1="10.5156" x2="18.4658" y2="10.5156" width="0.1016" layer="2" locked="yes"/>
+<via x="18.4658" y="10.5156" extent="2-15" drill="0.1524" locked="yes"/>
 <wire x1="18.459203125" y1="10.51278125" x2="22.0632" y2="15.8518" width="0" layer="19" extent="1-16"/>
 <wire x1="17.135003125" y1="4.715" x2="18.459203125" y2="10.51278125" width="0" layer="19" extent="1-1"/>
 <wire x1="19.8628" y1="3.2512" x2="17.135003125" y2="4.715" width="0" layer="19" extent="1-1"/>
@@ -3403,7 +3516,11 @@ design rules under a new name.</description>
 <contactref element="U204" pad="6"/>
 <contactref element="J301" pad="40"/>
 <contactref element="T_SCL" pad="TP"/>
-<wire x1="18.9592" y1="10.51278125" x2="22.0632" y2="12.9518" width="0" layer="19" extent="1-16"/>
+<wire x1="18.9592" y1="10.51278125" x2="18.96201875" y2="10.5156" width="0.1016" layer="1" locked="yes"/>
+<wire x1="18.96201875" y1="10.5156" x2="18.9738" y2="10.5156" width="0.1016" layer="1" locked="yes"/>
+<via x="18.9738" y="10.5156" extent="1-2" drill="0.1016" locked="yes"/>
+<via x="18.9738" y="10.5156" extent="2-15" drill="0.1524" locked="yes"/>
+<wire x1="18.9738" y1="10.5156" x2="22.0632" y2="12.9518" width="0" layer="19" extent="2-16"/>
 <wire x1="16.735003125" y1="4.715" x2="18.9592" y2="10.51278125" width="0" layer="19" extent="1-1"/>
 <wire x1="19.87" y1="1.9812" x2="16.735003125" y2="4.715" width="0" layer="19" extent="1-16"/>
 <wire x1="19.8628" y1="1.8542" x2="19.87" y2="1.9812" width="0" layer="19" extent="1-16"/>
@@ -3412,192 +3529,344 @@ design rules under a new name.</description>
 <signal name="DTR_BUS3_SERCOM7_P3">
 <contactref element="U101" pad="PD11"/>
 <contactref element="J301" pad="37"/>
+<wire x1="13.45918125" y1="13.01279375" x2="13.45918125" y2="13.0048" width="0.1016" layer="1" locked="yes"/>
+<via x="13.45918125" y="13.0048" extent="1-2" drill="0.1016" locked="yes"/>
+<wire x1="13.45918125" y1="13.0048" x2="13.462" y2="13.0048" width="0.1016" layer="2" locked="yes"/>
+<via x="13.462" y="13.0048" extent="2-15" drill="0.1524" locked="yes"/>
 <wire x1="16.335003125" y1="1.635" x2="13.45918125" y2="13.01279375" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="DTR_BUS3_SERCOM7_P2">
 <contactref element="U101" pad="PD10"/>
 <contactref element="J301" pad="29"/>
-<wire x1="14.735003125" y1="1.635" x2="12.959184375" y2="14.01279375" width="0" layer="19" extent="1-1"/>
+<wire x1="12.959184375" y1="14.01279375" x2="12.959184375" y2="13.9954" width="0.1016" layer="1" locked="yes"/>
+<via x="12.959184375" y="13.9954" extent="1-2" drill="0.1016" locked="yes"/>
+<wire x1="12.959184375" y1="13.9954" x2="12.954" y2="13.9954" width="0.1016" layer="2" locked="yes"/>
+<via x="12.954" y="13.9954" extent="2-15" drill="0.1524" locked="yes"/>
+<wire x1="14.735003125" y1="1.635" x2="12.959184375" y2="13.9954" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="DTR_BUS3_SERCOM7_P1">
 <contactref element="U101" pad="PD09"/>
 <contactref element="J301" pad="21"/>
-<wire x1="13.135003125" y1="1.635" x2="13.45918125" y2="13.512796875" width="0" layer="19" extent="1-1"/>
+<wire x1="13.45918125" y1="13.512796875" x2="13.45918125" y2="13.462" width="0.1016" layer="1" locked="yes"/>
+<via x="13.45918125" y="13.462" extent="1-2" drill="0.1016" locked="yes"/>
+<wire x1="13.45918125" y1="13.462" x2="13.9192" y2="13.462" width="0.1016" layer="2" locked="yes"/>
+<via x="13.9192" y="13.462" extent="2-15" drill="0.1524" locked="yes"/>
+<wire x1="13.135003125" y1="1.635" x2="13.45918125" y2="13.462" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="DTR_BUS3_SERCOM7_P0">
 <contactref element="U101" pad="PD08"/>
 <contactref element="J301" pad="13"/>
-<wire x1="11.535003125" y1="1.635" x2="12.959184375" y2="14.512796875" width="0" layer="19" extent="1-1"/>
+<wire x1="12.959184375" y1="14.512796875" x2="12.959184375" y2="14.5034" width="0.1016" layer="1" locked="yes"/>
+<via x="12.959184375" y="14.5034" extent="1-2" drill="0.1016" locked="yes"/>
+<wire x1="12.959184375" y1="14.5034" x2="12.954" y2="14.5034" width="0.1016" layer="2" locked="yes"/>
+<via x="12.954" y="14.5034" extent="2-15" drill="0.1524" locked="yes"/>
+<wire x1="11.535003125" y1="1.635" x2="12.959184375" y2="14.5034" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="DTR_BUS2_SERCOM2_P0">
 <contactref element="U101" pad="PA12"/>
 <contactref element="J301" pad="11"/>
+<via x="12.959184375" y="11.512796875" extent="1-2" drill="0.1016" locked="yes"/>
+<wire x1="12.959184375" y1="11.512796875" x2="12.959184375" y2="11.511384375" width="0.1016" layer="2" locked="yes"/>
+<wire x1="12.959184375" y1="11.511384375" x2="12.954" y2="11.5062" width="0.1016" layer="2" locked="yes"/>
+<via x="12.954" y="11.5062" extent="2-15" drill="0.1524" locked="yes"/>
 <wire x1="11.135003125" y1="1.635" x2="12.959184375" y2="11.512796875" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="DTR_BUS2_SERCOM2_P1">
 <contactref element="U101" pad="PA13"/>
 <contactref element="J301" pad="19"/>
+<via x="13.45918125" y="11.01279375" extent="1-2" drill="0.1016" locked="yes"/>
+<wire x1="13.45918125" y1="11.01279375" x2="13.52739375" y2="11.01279375" width="0.1016" layer="2" locked="yes"/>
+<wire x1="13.52739375" y1="11.01279375" x2="13.8176" y2="11.303" width="0.1016" layer="2" locked="yes"/>
+<via x="13.8176" y="11.303" extent="2-15" drill="0.1524" locked="yes"/>
 <wire x1="12.735003125" y1="1.635" x2="13.45918125" y2="11.01279375" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="DTR_BUS2_SERCOM2_P2">
 <contactref element="U101" pad="PA14"/>
 <contactref element="J301" pad="27"/>
-<wire x1="14.335003125" y1="1.635" x2="12.959184375" y2="11.01279375" width="0" layer="19" extent="1-1"/>
+<wire x1="12.959184375" y1="11.01279375" x2="12.959184375" y2="10.9982" width="0.1016" layer="1" locked="yes"/>
+<via x="12.959184375" y="10.9982" extent="1-2" drill="0.1016" locked="yes"/>
+<wire x1="12.959184375" y1="10.9982" x2="12.9286" y2="10.9982" width="0.1016" layer="2" locked="yes"/>
+<via x="12.9286" y="10.9982" extent="2-15" drill="0.1524" locked="yes"/>
+<wire x1="14.335003125" y1="1.635" x2="12.959184375" y2="10.9982" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="DTR_BUS2_SERCOM2_P3">
 <contactref element="U101" pad="PA15"/>
 <contactref element="J301" pad="35"/>
-<wire x1="15.935003125" y1="1.635" x2="12.9592375" y2="10.51278125" width="0" layer="19" extent="1-1"/>
+<wire x1="12.9592375" y1="10.51278125" x2="12.9592375" y2="10.4902" width="0.1016" layer="1" locked="yes"/>
+<via x="12.9592375" y="10.4902" extent="1-2" drill="0.1016" locked="yes"/>
+<wire x1="12.9592375" y1="10.4902" x2="12.954" y2="10.4902" width="0.1016" layer="2" locked="yes"/>
+<via x="12.954" y="10.4902" extent="2-15" drill="0.1524" locked="yes"/>
+<wire x1="15.935003125" y1="1.635" x2="12.9592375" y2="10.4902" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="DBG_USB_D-">
 <contactref element="U101" pad="PA24"/>
 <contactref element="J302" pad="22"/>
+<wire x1="18.9592" y1="10.012784375" x2="18.9738" y2="10.012784375" width="0.1016" layer="1" locked="yes"/>
+<via x="18.9738" y="10.012784375" extent="1-2" drill="0.1016" locked="yes"/>
+<wire x1="18.9738" y1="10.012784375" x2="18.9738" y2="10.0076" width="0.1016" layer="2" locked="yes"/>
+<via x="18.9738" y="10.0076" extent="2-15" drill="0.1524" locked="yes"/>
 <wire x1="18.9592" y1="10.012784375" x2="17.837003125" y2="21.193" width="0" layer="19" extent="1-16"/>
 </signal>
 <signal name="DBG_USB_D+">
 <contactref element="U101" pad="PA25"/>
 <contactref element="J302" pad="24"/>
+<wire x1="19.459196875" y1="10.012784375" x2="19.4818" y2="10.012784375" width="0.1016" layer="1" locked="yes"/>
+<via x="19.4818" y="10.012784375" extent="1-2" drill="0.1016" locked="yes"/>
+<wire x1="19.4818" y1="10.012784375" x2="19.4818" y2="10.0076" width="0.1016" layer="2" locked="yes"/>
+<via x="19.4818" y="10.0076" extent="2-15" drill="0.1524" locked="yes"/>
 <wire x1="19.459196875" y1="10.012784375" x2="18.237003125" y2="21.193" width="0" layer="19" extent="1-16"/>
 </signal>
 <signal name="DBG_TRACE_SWO">
 <contactref element="U101" pad="PB30"/>
 <contactref element="J302" pad="28"/>
-<wire x1="19.95919375" y1="15.01279375" x2="19.037003125" y2="21.193" width="0" layer="19" extent="1-16"/>
+<via x="19.95919375" y="15.01279375" extent="1-2" drill="0.1016" locked="yes"/>
+<wire x1="19.95919375" y1="15.01279375" x2="20.1864" y2="15.24" width="0.1016" layer="2" locked="yes"/>
+<wire x1="20.1864" y1="15.24" x2="20.32" y2="15.24" width="0.1016" layer="2" locked="yes"/>
+<via x="20.32" y="15.24" extent="2-15" drill="0.1524" locked="yes"/>
+<wire x1="20.32" y1="15.24" x2="19.037003125" y2="21.193" width="0" layer="19" extent="15-16"/>
 </signal>
 <signal name="DBG_TRACE_D3">
 <contactref element="U101" pad="PC24"/>
 <contactref element="J302" pad="29"/>
+<wire x1="19.95919375" y1="12.01279375" x2="19.95919375" y2="12.0142" width="0.1016" layer="1" locked="yes"/>
+<via x="19.95919375" y="12.0142" extent="1-2" drill="0.1016" locked="yes"/>
+<wire x1="19.95919375" y1="12.0142" x2="19.9644" y2="12.0142" width="0.1016" layer="2" locked="yes"/>
+<via x="19.9644" y="12.0142" extent="2-15" drill="0.1524" locked="yes"/>
 <wire x1="19.95919375" y1="12.01279375" x2="19.437003125" y2="24.273" width="0" layer="19" extent="1-16"/>
 </signal>
 <signal name="DBG_TRACE_D2">
 <contactref element="U101" pad="PC25"/>
 <contactref element="J302" pad="27"/>
+<wire x1="19.459196875" y1="12.512796875" x2="19.4564" y2="12.512796875" width="0.1016" layer="1" locked="yes"/>
+<via x="19.4564" y="12.512796875" extent="1-2" drill="0.1016" locked="yes"/>
+<wire x1="19.4564" y1="12.512796875" x2="19.4564" y2="12.4968" width="0.1016" layer="2" locked="yes"/>
+<via x="19.4564" y="12.4968" extent="2-15" drill="0.1524" locked="yes"/>
 <wire x1="19.459196875" y1="12.512796875" x2="19.037003125" y2="24.273" width="0" layer="19" extent="1-16"/>
 </signal>
 <signal name="DBG_TRACE_D1">
 <contactref element="U101" pad="PC26"/>
 <contactref element="J302" pad="25"/>
-<wire x1="19.95919375" y1="12.512796875" x2="18.637003125" y2="24.273" width="0" layer="19" extent="1-16"/>
+<wire x1="19.95919375" y1="12.512796875" x2="19.95919375" y2="12.5222" width="0.1016" layer="1" locked="yes"/>
+<via x="19.95919375" y="12.5222" extent="1-2" drill="0.1016" locked="yes"/>
+<wire x1="19.95919375" y1="12.5222" x2="19.9644" y2="12.5222" width="0.1016" layer="2" locked="yes"/>
+<via x="19.9644" y="12.5222" extent="2-15" drill="0.1524" locked="yes"/>
+<wire x1="19.95919375" y1="12.5222" x2="18.637003125" y2="24.273" width="0" layer="19" extent="2-16"/>
 </signal>
 <signal name="DBG_TRACE_CLK">
 <contactref element="U101" pad="PC27"/>
 <contactref element="J302" pad="26"/>
+<wire x1="19.95919375" y1="13.01279375" x2="19.95919375" y2="13.0302" width="0.1016" layer="1" locked="yes"/>
+<via x="19.95919375" y="13.0302" extent="1-2" drill="0.1016" locked="yes"/>
+<wire x1="19.95919375" y1="13.0302" x2="19.9644" y2="13.0302" width="0.1016" layer="2" locked="yes"/>
+<via x="19.9644" y="13.0302" extent="2-15" drill="0.1524" locked="yes"/>
 <wire x1="19.95919375" y1="13.01279375" x2="18.637003125" y2="21.193" width="0" layer="19" extent="1-16"/>
 </signal>
 <signal name="DBG_TRACE_D0">
 <contactref element="U101" pad="PC28"/>
 <contactref element="J302" pad="23"/>
+<wire x1="19.459196875" y1="13.01279375" x2="19.451203125" y2="13.0048" width="0.1016" layer="1" locked="yes"/>
+<wire x1="19.451203125" y1="13.0048" x2="19.35659375" y2="13.0048" width="0.1016" layer="1" locked="yes"/>
+<via x="19.35659375" y="13.0048" extent="1-2" drill="0.1016" locked="yes"/>
+<wire x1="19.35659375" y1="13.0048" x2="19.3548" y2="13.0048" width="0.1016" layer="2" locked="yes"/>
+<via x="19.3548" y="13.0048" extent="2-15" drill="0.1524" locked="yes"/>
 <wire x1="19.459196875" y1="13.01279375" x2="18.237003125" y2="24.273" width="0" layer="19" extent="1-16"/>
 </signal>
 <signal name="DTR_BUS2_AIN0">
 <contactref element="U101" pad="PC02"/>
 <contactref element="J301" pad="12"/>
-<wire x1="11.135003125" y1="4.715" x2="18.459203125" y2="17.01279375" width="0" layer="19" extent="1-1"/>
+<via x="18.459203125" y="17.01279375" extent="1-2" drill="0.1016" locked="yes"/>
+<wire x1="18.459203125" y1="17.01279375" x2="18.459203125" y2="16.999196875" width="0.1016" layer="2" locked="yes"/>
+<wire x1="18.459203125" y1="16.999196875" x2="18.4658" y2="16.9926" width="0.1016" layer="2" locked="yes"/>
+<via x="18.4658" y="16.9926" extent="2-15" drill="0.1524" locked="yes"/>
+<wire x1="11.135003125" y1="4.715" x2="18.4658" y2="16.9926" width="0" layer="19" extent="1-2"/>
 </signal>
 <signal name="DTR_BUS2_AIN1">
 <contactref element="U101" pad="PC03"/>
 <contactref element="J301" pad="20"/>
-<wire x1="12.735003125" y1="4.715" x2="17.95920625" y2="16.512796875" width="0" layer="19" extent="1-1"/>
+<wire x1="17.95920625" y1="16.512796875" x2="17.95920625" y2="16.50479375" width="0.1016" layer="1" locked="yes"/>
+<via x="17.95920625" y="16.50479375" extent="1-2" drill="0.1016" locked="yes"/>
+<wire x1="17.95920625" y1="16.50479375" x2="17.95920625" y2="16.18120625" width="0.1016" layer="2" locked="yes"/>
+<wire x1="17.95920625" y1="16.18120625" x2="17.9578" y2="16.1798" width="0.1016" layer="2" locked="yes"/>
+<via x="17.9578" y="16.1798" extent="2-15" drill="0.1524" locked="yes"/>
+<wire x1="12.735003125" y1="4.715" x2="17.9578" y2="16.1798" width="0" layer="19" extent="1-2"/>
 </signal>
 <signal name="DTR_BUS1_AIN0">
 <contactref element="U101" pad="PA04"/>
 <contactref element="J301" pad="10"/>
+<via x="15.459221875" y="16.512796875" extent="1-2" drill="0.1016" locked="yes"/>
+<wire x1="15.459221875" y1="16.512796875" x2="15.46201875" y2="16.51" width="0.1016" layer="2" locked="yes"/>
+<wire x1="15.46201875" y1="16.51" x2="15.494" y2="16.51" width="0.1016" layer="2" locked="yes"/>
+<via x="15.494" y="16.51" extent="2-15" drill="0.1524" locked="yes"/>
 <wire x1="10.735003125" y1="4.715" x2="15.459221875" y2="16.512796875" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="DTR_BUS1_AIN1">
 <contactref element="U101" pad="PA05"/>
 <contactref element="J301" pad="18"/>
-<wire x1="14.959225" y1="17.01279375" x2="12.335003125" y2="4.715" width="0" layer="19" extent="1-1"/>
+<via x="14.959225" y="17.01279375" extent="1-2" drill="0.1016" locked="yes"/>
+<wire x1="12.335003125" y1="4.715" x2="14.959225" y2="17.01279375" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="DTR_BUS3_AIN0">
 <contactref element="U101" pad="PB04"/>
 <contactref element="J301" pad="14"/>
+<wire x1="17.459209375" y1="17.01279375" x2="17.4498" y2="17.01279375" width="0.1016" layer="1" locked="yes"/>
+<via x="17.4498" y="17.01279375" extent="1-2" drill="0.1016" locked="yes"/>
+<wire x1="17.4498" y1="17.01279375" x2="17.4498" y2="17.018" width="0.1016" layer="2" locked="yes"/>
+<via x="17.4498" y="17.018" extent="2-15" drill="0.1524" locked="yes"/>
 <wire x1="11.535003125" y1="4.715" x2="17.459209375" y2="17.01279375" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="DTR_BUS3_AIN1">
 <contactref element="U101" pad="PB05"/>
 <contactref element="J301" pad="22"/>
-<wire x1="13.135003125" y1="4.715" x2="16.9592125" y2="17.01279375" width="0" layer="19" extent="1-1"/>
+<wire x1="16.9592125" y1="17.01279375" x2="16.9418" y2="17.01279375" width="0.1016" layer="1" locked="yes"/>
+<via x="16.9418" y="17.01279375" extent="1-2" drill="0.1016" locked="yes"/>
+<wire x1="16.9418" y1="17.01279375" x2="16.9418" y2="17.018" width="0.1016" layer="2" locked="yes"/>
+<via x="16.9418" y="17.018" extent="2-15" drill="0.1524" locked="yes"/>
+<wire x1="13.135003125" y1="4.715" x2="16.9418" y2="17.01279375" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="DTR_BUS0_GPIO0">
 <contactref element="U101" pad="PB12"/>
 <contactref element="J301" pad="24"/>
+<via x="12.959184375" y="15.512796875" extent="1-2" drill="0.1016" locked="yes"/>
+<wire x1="12.959184375" y1="15.512796875" x2="12.959184375" y2="15.514215625" width="0.1016" layer="2" locked="yes"/>
+<wire x1="12.959184375" y1="15.514215625" x2="12.954" y2="15.5194" width="0.1016" layer="2" locked="yes"/>
+<via x="12.954" y="15.5194" extent="2-15" drill="0.1524" locked="yes"/>
 <wire x1="13.535003125" y1="4.715" x2="12.959184375" y2="15.512796875" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="DTR_BUS0_GPIO1">
 <contactref element="U101" pad="PB13"/>
 <contactref element="J301" pad="32"/>
-<wire x1="15.135003125" y1="4.715" x2="13.45918125" y2="14.512796875" width="0" layer="19" extent="1-1"/>
+<wire x1="13.45918125" y1="14.512796875" x2="13.462" y2="14.512796875" width="0.1016" layer="1" locked="yes"/>
+<via x="13.462" y="14.512796875" extent="1-2" drill="0.1016" locked="yes"/>
+<wire x1="13.462" y1="14.512796875" x2="13.462" y2="14.5034" width="0.1016" layer="2" locked="yes"/>
+<via x="13.462" y="14.5034" extent="2-15" drill="0.1524" locked="yes"/>
+<wire x1="15.135003125" y1="4.715" x2="13.462" y2="14.5034" width="0" layer="19" extent="1-2"/>
 </signal>
 <signal name="DTR_BUS1_GPIO0">
 <contactref element="U101" pad="PB14"/>
 <contactref element="J301" pad="26"/>
+<wire x1="12.959184375" y1="15.01279375" x2="12.959184375" y2="15.0114" width="0.1016" layer="1" locked="yes"/>
+<via x="12.959184375" y="15.0114" extent="1-2" drill="0.1016" locked="yes"/>
+<wire x1="12.959184375" y1="15.0114" x2="12.954" y2="15.0114" width="0.1016" layer="2" locked="yes"/>
+<via x="12.954" y="15.0114" extent="2-15" drill="0.1524" locked="yes"/>
 <wire x1="13.935003125" y1="4.715" x2="12.959184375" y2="15.01279375" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="DTR_BUS1_GPIO1">
 <contactref element="U101" pad="PB15"/>
 <contactref element="J301" pad="34"/>
-<wire x1="15.535003125" y1="4.715" x2="13.45918125" y2="14.01279375" width="0" layer="19" extent="1-1"/>
+<wire x1="13.45918125" y1="14.01279375" x2="13.462" y2="14.009975" width="0.1016" layer="1" locked="yes"/>
+<wire x1="13.462" y1="14.009975" x2="13.462" y2="13.9954" width="0.1016" layer="1" locked="yes"/>
+<via x="13.462" y="13.9954" extent="1-2" drill="0.1016" locked="yes"/>
+<wire x1="13.462" y1="13.9954" x2="13.462" y2="13.97" width="0.1016" layer="2" locked="yes"/>
+<via x="13.462" y="13.97" extent="2-15" drill="0.1524" locked="yes"/>
+<wire x1="15.535003125" y1="4.715" x2="13.462" y2="13.97" width="0" layer="19" extent="1-2"/>
 </signal>
 <signal name="DTR_BUS2_GPIO0">
 <contactref element="U101" pad="PB16"/>
 <contactref element="J301" pad="28"/>
+<via x="16.459215625" y="10.012784375" extent="1-2" drill="0.1016" locked="yes"/>
+<wire x1="16.459215625" y1="10.012784375" x2="16.459215625" y2="10.007615625" width="0.1016" layer="2" locked="yes"/>
+<wire x1="16.459215625" y1="10.007615625" x2="16.4592" y2="10.0076" width="0.1016" layer="2" locked="yes"/>
+<via x="16.4592" y="10.0076" extent="2-15" drill="0.1524" locked="yes"/>
 <wire x1="14.335003125" y1="4.715" x2="16.459215625" y2="10.012784375" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="DTR_BUS2_GPIO1">
 <contactref element="U101" pad="PB17"/>
 <contactref element="J301" pad="36"/>
+<wire x1="16.9592125" y1="10.012784375" x2="16.9672" y2="10.012784375" width="0.1016" layer="1" locked="yes"/>
+<via x="16.9672" y="10.012784375" extent="1-2" drill="0.1016" locked="yes"/>
+<wire x1="16.9672" y1="10.012784375" x2="16.9672" y2="10.033" width="0.1016" layer="2" locked="yes"/>
+<via x="16.9672" y="10.033" extent="2-15" drill="0.1524" locked="yes"/>
 <wire x1="15.935003125" y1="4.715" x2="16.9592125" y2="10.012784375" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="DTR_BUS3_GPIO0">
 <contactref element="U101" pad="PA06"/>
 <contactref element="J301" pad="30"/>
-<wire x1="14.735003125" y1="4.715" x2="14.959225" y2="16.512796875" width="0" layer="19" extent="1-1"/>
+<via x="14.959225" y="16.512796875" extent="1-2" drill="0.1016" locked="yes"/>
+<wire x1="14.959225" y1="16.512796875" x2="14.8844" y2="16.437971875" width="0.1016" layer="2" locked="yes"/>
+<wire x1="14.8844" y1="16.437971875" x2="14.8844" y2="15.9512" width="0.1016" layer="2" locked="yes"/>
+<via x="14.8844" y="15.9512" extent="2-15" drill="0.1524" locked="yes"/>
+<wire x1="14.735003125" y1="4.715" x2="14.8844" y2="15.9512" width="0" layer="19" extent="1-2"/>
 </signal>
 <signal name="DTR_BUS3_GPIO1">
 <contactref element="U101" pad="PA07"/>
 <contactref element="J301" pad="38"/>
-<wire x1="14.459228125" y1="17.01279375" x2="16.335003125" y2="4.715" width="0" layer="19" extent="1-1"/>
+<via x="14.459228125" y="17.01279375" extent="1-2" drill="0.1016" locked="yes"/>
+<wire x1="14.459228125" y1="17.01279375" x2="14.45780625" y2="17.01279375" width="0.1016" layer="2" locked="yes"/>
+<wire x1="14.45780625" y1="17.01279375" x2="14.4526" y2="17.018" width="0.1016" layer="2" locked="yes"/>
+<via x="14.4526" y="17.018" extent="2-15" drill="0.1524" locked="yes"/>
+<wire x1="16.335003125" y1="4.715" x2="14.459228125" y2="17.01279375" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="DTR_DETECT">
 <contactref element="J301" pad="39"/>
 <contactref element="U101" pad="PA21"/>
-<wire x1="16.735003125" y1="1.635" x2="18.459203125" y2="10.012784375" width="0" layer="19" extent="1-1"/>
+<via x="18.459203125" y="10.012784375" extent="1-2" drill="0.1016" locked="yes"/>
+<wire x1="18.459203125" y1="10.012784375" x2="18.4643875" y2="10.0076" width="0.1016" layer="2" locked="yes"/>
+<wire x1="18.4643875" y1="10.0076" x2="18.4658" y2="10.0076" width="0.1016" layer="2" locked="yes"/>
+<via x="18.4658" y="10.0076" extent="2-15" drill="0.1524" locked="yes"/>
+<wire x1="16.735003125" y1="1.635" x2="18.4658" y2="10.0076" width="0" layer="19" extent="1-2"/>
 </signal>
 <signal name="LED_R">
 <contactref element="U101" pad="PB26"/>
 <contactref element="Q203" pad="3"/>
+<via x="19.95919375" y="11.01279375" extent="1-2" drill="0.1016" locked="yes"/>
+<wire x1="19.95919375" y1="11.01279375" x2="19.9644" y2="11.0075875" width="0.1016" layer="2" locked="yes"/>
+<wire x1="19.9644" y1="11.0075875" x2="19.9644" y2="10.9982" width="0.1016" layer="2" locked="yes"/>
+<via x="19.9644" y="10.9982" extent="2-15" drill="0.1524" locked="yes"/>
 <wire x1="5.461" y1="6.2322" x2="19.95919375" y2="11.01279375" width="0" layer="19" extent="1-16"/>
 </signal>
 <signal name="LED_G">
 <contactref element="U101" pad="PB27"/>
 <contactref element="Q202" pad="3"/>
-<wire x1="8.9062" y1="8.4074" x2="19.459196875" y2="11.512796875" width="0" layer="19" extent="1-16"/>
+<wire x1="19.459196875" y1="11.512796875" x2="19.431" y2="11.512796875" width="0.1016" layer="1" locked="yes"/>
+<via x="19.431" y="11.512796875" extent="1-2" drill="0.1016" locked="yes"/>
+<wire x1="19.431" y1="11.512796875" x2="19.431" y2="11.5062" width="0.1016" layer="2" locked="yes"/>
+<via x="19.431" y="11.5062" extent="2-15" drill="0.1524" locked="yes"/>
+<wire x1="8.9062" y1="8.4074" x2="19.431" y2="11.512796875" width="0" layer="19" extent="2-16"/>
 </signal>
 <signal name="LED_B">
 <contactref element="U101" pad="PB28"/>
 <contactref element="Q201" pad="3"/>
-<wire x1="6.036" y1="8.509" x2="19.95919375" y2="11.512796875" width="0" layer="19" extent="1-16"/>
+<via x="19.95919375" y="11.512796875" extent="1-2" drill="0.1016" locked="yes"/>
+<wire x1="19.95919375" y1="11.512796875" x2="19.952596875" y2="11.5062" width="0.1016" layer="2" locked="yes"/>
+<wire x1="19.952596875" y1="11.5062" x2="19.939" y2="11.5062" width="0.1016" layer="2" locked="yes"/>
+<via x="19.939" y="11.5062" extent="2-15" drill="0.1524" locked="yes"/>
+<wire x1="6.036" y1="8.509" x2="19.939" y2="11.5062" width="0" layer="19" extent="15-16"/>
 </signal>
 <signal name="DBG_GPIO0">
 <contactref element="U101" pad="PC16"/>
 <contactref element="J302" pad="7"/>
+<wire x1="13.95923125" y1="10.012784375" x2="13.97" y2="10.012784375" width="0.1016" layer="1" locked="yes"/>
+<via x="13.97" y="10.012784375" extent="1-2" drill="0.1016" locked="yes"/>
+<wire x1="13.97" y1="10.012784375" x2="13.97" y2="10.0076" width="0.1016" layer="2" locked="yes"/>
+<via x="13.97" y="10.0076" extent="2-15" drill="0.1524" locked="yes"/>
 <wire x1="13.95923125" y1="10.012784375" x2="15.037003125" y2="24.273" width="0" layer="19" extent="1-16"/>
 </signal>
 <signal name="DBG_GPIO1">
 <contactref element="U101" pad="PC17"/>
 <contactref element="J302" pad="9"/>
-<wire x1="14.459228125" y1="10.51278125" x2="15.437003125" y2="24.273" width="0" layer="19" extent="1-16"/>
+<via x="14.459228125" y="10.51278125" extent="1-2" drill="0.1016" locked="yes"/>
+<wire x1="14.459228125" y1="10.51278125" x2="14.459228125" y2="10.522228125" width="0.1016" layer="2" locked="yes"/>
+<wire x1="14.459228125" y1="10.522228125" x2="14.478" y2="10.541" width="0.1016" layer="2" locked="yes"/>
+<via x="14.478" y="10.541" extent="2-15" drill="0.1524" locked="yes"/>
+<wire x1="14.478" y1="10.541" x2="15.437003125" y2="24.273" width="0" layer="19" extent="15-16"/>
 </signal>
 <signal name="DBG_GPIO2">
 <contactref element="U101" pad="PC18"/>
 <contactref element="J302" pad="11"/>
+<wire x1="14.478" y1="10.012784375" x2="14.459228125" y2="10.012784375" width="0.1016" layer="1" locked="yes"/>
+<via x="14.478" y="10.012784375" extent="1-2" drill="0.1016" locked="yes"/>
+<wire x1="14.478" y1="10.012784375" x2="14.478" y2="9.9822" width="0.1016" layer="2" locked="yes"/>
+<via x="14.478" y="9.9822" extent="2-15" drill="0.1524" locked="yes"/>
 <wire x1="14.459228125" y1="10.012784375" x2="15.837003125" y2="24.273" width="0" layer="19" extent="1-16"/>
 </signal>
 <signal name="DBG_GPIO3">
 <contactref element="U101" pad="PC19"/>
 <contactref element="J302" pad="13"/>
-<wire x1="14.959225" y1="10.51278125" x2="16.237003125" y2="24.273" width="0" layer="19" extent="1-16"/>
+<wire x1="14.959225" y1="10.51278125" x2="14.986" y2="10.51278125" width="0.1016" layer="1" locked="yes"/>
+<via x="14.986" y="10.51278125" extent="1-2" drill="0.1016" locked="yes"/>
+<wire x1="14.986" y1="10.51278125" x2="14.986" y2="11.0744" width="0.1016" layer="2" locked="yes"/>
+<via x="14.986" y="11.0744" extent="2-15" drill="0.1524" locked="yes"/>
+<wire x1="14.986" y1="11.0744" x2="16.237003125" y2="24.273" width="0" layer="19" extent="15-16"/>
 </signal>
 <signal name="N$13">
 <contactref element="U201" pad="C2"/>
@@ -3748,7 +4017,9 @@ design rules under a new name.</description>
 <wire x1="8.9314" y1="4.715" x2="9.135003125" y2="4.715" width="0.254" layer="1" locked="yes"/>
 <wire x1="4.445" y1="10.16" x2="4.445" y2="4.445" width="0.254" layer="3" locked="yes"/>
 <wire x1="4.445" y1="4.445" x2="8.89" y2="4.445" width="0.254" layer="3" locked="yes"/>
-<wire x1="9.135003125" y1="4.715" x2="9.935003125" y2="4.715" width="0.254" layer="1" locked="yes"/>
+<wire x1="9.135003125" y1="4.715" x2="9.535003125" y2="4.715" width="0.254" layer="1" locked="yes"/>
+<wire x1="9.535003125" y1="4.715" x2="9.5504" y2="4.715" width="0.254" layer="1" locked="yes"/>
+<wire x1="9.5504" y1="4.715" x2="9.935003125" y2="4.715" width="0.254" layer="1" locked="yes"/>
 <wire x1="4.445" y1="4.445" x2="4.445" y2="1.905" width="0.254" layer="3" locked="yes"/>
 <wire x1="4.445" y1="1.905" x2="5.08" y2="1.27" width="0.254" layer="3" locked="yes"/>
 <wire x1="5.08" y1="1.27" x2="5.715" y2="1.27" width="0.254" layer="3" locked="yes"/>
@@ -3765,7 +4036,6 @@ design rules under a new name.</description>
 <wire x1="16.6116" y1="21.218403125" x2="16.637003125" y2="21.193" width="0.254" layer="16" locked="yes"/>
 <wire x1="4.445" y1="22.86" x2="6.4759375" y2="22.86" width="0.254" layer="3" locked="yes"/>
 <wire x1="7.0563375" y1="22.2796" x2="15.6172" y2="22.2796" width="0.254" layer="3" locked="yes"/>
-<wire x1="9.935003125" y1="4.715" x2="9.535003125" y2="4.715" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="VDD_DBG_JMP" class="1">
 <contactref element="Q204" pad="1"/>
@@ -3984,6 +4254,10 @@ design rules under a new name.</description>
 <signal name="EN_TEMP">
 <contactref element="U206" pad="C2"/>
 <contactref element="U101" pad="PB25"/>
+<wire x1="19.459196875" y1="11.01279375" x2="19.4564" y2="11.01279375" width="0.1016" layer="1" locked="yes"/>
+<via x="19.4564" y="11.01279375" extent="1-2" drill="0.1016" locked="yes"/>
+<wire x1="19.4564" y1="11.01279375" x2="19.4564" y2="10.9728" width="0.1016" layer="2" locked="yes"/>
+<via x="19.4564" y="10.9728" extent="2-15" drill="0.1524" locked="yes"/>
 <wire x1="19.459196875" y1="11.01279375" x2="24.3252" y2="10.5196" width="0" layer="19" extent="1-16"/>
 </signal>
 <signal name="VDD_SW" class="1">
@@ -4014,26 +4288,47 @@ design rules under a new name.</description>
 <signal name="STOR_SPI5_MOSI">
 <contactref element="U101" pad="PB00"/>
 <contactref element="U1" pad="5"/>
+<via x="19.95919375" y="16.01279375" extent="1-2" drill="0.1016" locked="yes"/>
+<via x="19.95919375" y="16.01279375" extent="1-2" drill="0.1016" locked="yes"/>
+<via x="19.95919375" y="16.01279375" extent="2-15" drill="0.1524" locked="yes"/>
 <wire x1="19.95919375" y1="16.01279375" x2="14.681" y2="23.9522" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="STOR_SPI5_SCK">
 <contactref element="U101" pad="PB01"/>
 <contactref element="U1" pad="6"/>
-<wire x1="14.681" y1="22.6822" x2="19.459196875" y2="16.01279375" width="0" layer="19" extent="1-1"/>
+<wire x1="19.459196875" y1="16.01279375" x2="19.45119375" y2="16.01279375" width="0.1016" layer="1" locked="yes"/>
+<via x="19.45119375" y="16.01279375" extent="1-2" drill="0.1016" locked="yes"/>
+<wire x1="19.45119375" y1="16.01279375" x2="19.45119375" y2="16.002" width="0.1016" layer="2" locked="yes"/>
+<via x="19.45119375" y="16.002" extent="2-15" drill="0.1524" locked="yes"/>
+<wire x1="19.459196875" y1="16.01279375" x2="14.681" y2="22.6822" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="STOR_SPI5_NCS">
 <contactref element="U101" pad="PB02"/>
 <contactref element="U1" pad="1"/>
-<wire x1="19.95919375" y1="16.512796875" x2="20.371" y2="20.1422" width="0" layer="19" extent="1-1"/>
+<wire x1="19.95919375" y1="16.512796875" x2="19.95919375" y2="16.52079375" width="0.1016" layer="1" locked="yes"/>
+<via x="19.95919375" y="16.52079375" extent="1-2" drill="0.1016" locked="yes"/>
+<wire x1="19.95919375" y1="16.52079375" x2="19.95360625" y2="16.52079375" width="0.1016" layer="2" locked="yes"/>
+<wire x1="19.95360625" y1="16.52079375" x2="19.939" y2="16.5354" width="0.1016" layer="2" locked="yes"/>
+<via x="19.939" y="16.5354" extent="2-15" drill="0.1524" locked="yes"/>
+<wire x1="19.939" y1="16.5354" x2="20.371" y2="20.1422" width="0" layer="19" extent="1-2"/>
 </signal>
 <signal name="STOR_SPI5_MISO">
 <contactref element="U101" pad="PB03"/>
 <contactref element="U1" pad="2"/>
+<wire x1="19.459196875" y1="16.512796875" x2="18.9992" y2="16.0528" width="0.1016" layer="1" locked="yes"/>
+<wire x1="18.927796875" y1="16.0528" x2="18.8976" y2="16.082996875" width="0.1016" layer="1" locked="yes"/>
+<via x="18.8976" y="16.082996875" extent="1-2" drill="0.1016" locked="yes"/>
+<wire x1="18.8976" y1="16.082996875" x2="18.892803125" y2="16.0782" width="0.1016" layer="2" locked="yes"/>
+<wire x1="18.892803125" y1="16.0782" x2="18.8722" y2="16.0782" width="0.1016" layer="2" locked="yes"/>
+<via x="18.8722" y="16.0782" extent="2-15" drill="0.1524" locked="yes"/>
+<wire x1="18.9992" y1="16.0528" x2="18.927796875" y2="16.0528" width="0.1016" layer="1" locked="yes"/>
 <wire x1="19.459196875" y1="16.512796875" x2="20.371" y2="21.4122" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="STOR_WP">
 <contactref element="U101" pad="PB06"/>
 <contactref element="U1" pad="3"/>
+<via x="16.459215625" y="16.512796875" extent="1-2" drill="0.1016" locked="yes"/>
+<via x="16.459215625" y="16.512796875" extent="2-15" drill="0.1524" locked="yes"/>
 <wire x1="16.459215625" y1="16.512796875" x2="20.371" y2="22.6822" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="STOR_HOLD">
@@ -4111,10 +4406,8 @@ design rules under a new name.</description>
 <wire x1="16.605615625" y1="12.36638125" x2="16.605615625" y2="12.366315625" width="0.254" layer="1" locked="yes"/>
 <wire x1="17.459215625" y1="13.512796875" x2="17.459215625" y2="14.012796875" width="0.254" layer="1" locked="yes"/>
 <wire x1="16.764" y1="14.7138" x2="16.4614" y2="14.7138" width="0.254" layer="16" locked="yes"/>
-<wire x1="16.4614" y1="14.7138" x2="16.2306" y2="14.9446" width="0.254" layer="16" locked="yes"/>
-<via x="16.2306" y="14.9446" extent="1-16" drill="0.1524" locked="yes"/>
-<wire x1="16.2306" y1="14.9446" x2="16.1544" y2="14.8684" width="0.254" layer="1" locked="yes"/>
-<wire x1="16.1544" y1="14.8684" x2="15.81191875" y2="14.8684" width="0.254" layer="1" locked="yes"/>
+<wire x1="16.2306" y1="14.9446" x2="16.4614" y2="14.7138" width="0.254" layer="16" locked="yes"/>
+<wire x1="15.81191875" y1="14.8684" x2="16.1544" y2="14.8684" width="0.254" layer="1" locked="yes"/>
 <wire x1="15.81191875" y1="14.8684" x2="15.60361875" y2="14.6601" width="0.254" layer="1" locked="yes"/>
 <wire x1="15.60361875" y1="14.6601" x2="15.60361875" y2="14.6572" width="0.254" layer="1" locked="yes"/>
 <wire x1="15.60361875" y1="14.6572" x2="15.459215625" y2="14.512796875" width="0.254" layer="1" locked="yes"/>
@@ -4129,7 +4422,8 @@ design rules under a new name.</description>
 <wire x1="15.403890625" y1="12.457459375" x2="15.6464" y2="12.21495" width="0.254" layer="16" locked="yes"/>
 <wire x1="15.6464" y1="12.21495" x2="15.6464" y2="12.007" width="0.254" layer="16" locked="yes"/>
 <wire x1="14.5796" y1="12.007" x2="14.605" y2="12.0324" width="0.254" layer="16" locked="yes"/>
-<wire x1="14.605" y1="12.0324" x2="17.7292" y2="12.0324" width="0.254" layer="16" locked="yes"/>
+<wire x1="14.605" y1="12.0324" x2="16.6878" y2="12.0324" width="0.254" layer="16" locked="yes"/>
+<wire x1="16.6878" y1="12.0324" x2="17.7292" y2="12.0324" width="0.254" layer="16" locked="yes"/>
 <wire x1="3.81" y1="5.08" x2="3.81" y2="4.445" width="0.254" layer="13" locked="yes"/>
 <wire x1="3.81" y1="4.445" x2="3.81" y2="1.905" width="0.254" layer="13" locked="yes"/>
 <wire x1="3.81" y1="1.905" x2="4.445" y2="1.27" width="0.254" layer="13" locked="yes"/>
@@ -4153,7 +4447,8 @@ design rules under a new name.</description>
 <wire x1="1.651" y1="12.2682" x2="1.2954" y2="12.6238" width="0.254" layer="1" locked="yes"/>
 <via x="1.2954" y="12.6238" extent="1-16" drill="0.1524" locked="yes"/>
 <wire x1="2.64898125" y1="12.3317" x2="2.86488125" y2="12.5476" width="0.254" layer="13" locked="yes"/>
-<wire x1="2.86488125" y1="12.5476" x2="5.4102" y2="12.5476" width="0.254" layer="13" locked="yes"/>
+<wire x1="2.86488125" y1="12.5476" x2="4.0132" y2="12.5476" width="0.254" layer="13" locked="yes"/>
+<wire x1="4.0132" y1="12.5476" x2="5.4102" y2="12.5476" width="0.254" layer="13" locked="yes"/>
 <wire x1="1.2954" y1="12.6238" x2="1.5875" y2="12.3317" width="0.254" layer="13" locked="yes"/>
 <wire x1="1.5875" y1="12.3317" x2="2.64898125" y2="12.3317" width="0.254" layer="13" locked="yes"/>
 <via x="3.81" y="4.445" extent="1-16" drill="0.1524" locked="yes"/>
@@ -4164,7 +4459,8 @@ design rules under a new name.</description>
 <wire x1="16.19260625" y1="21.148603125" x2="16.19260625" y2="20.77531875" width="0.254" layer="16" locked="yes"/>
 <wire x1="16.19260625" y1="20.77531875" x2="15.9554875" y2="20.5382" width="0.254" layer="16" locked="yes"/>
 <wire x1="15.9554875" y1="20.5382" x2="15.5212" y2="20.5382" width="0.254" layer="16" locked="yes"/>
-<wire x1="14.5542" y1="14.7138" x2="16.764" y2="14.7138" width="0.254" layer="16" locked="yes"/>
+<wire x1="14.5542" y1="14.7138" x2="15.6718" y2="14.7138" width="0.254" layer="16" locked="yes"/>
+<wire x1="15.6718" y1="14.7138" x2="16.764" y2="14.7138" width="0.254" layer="16" locked="yes"/>
 <wire x1="17.105684375" y1="12.159184375" x2="17.39575" y2="12.44925" width="0.254" layer="1" locked="yes"/>
 <wire x1="17.459215625" y1="12.51278125" x2="17.459215625" y2="12.512715625" width="0.254" layer="1" locked="yes"/>
 <wire x1="17.459215625" y1="12.512715625" x2="17.39575" y2="12.44925" width="0.254" layer="1" locked="yes"/>
@@ -4191,12 +4487,17 @@ design rules under a new name.</description>
 <wire x1="20.32" y1="0.635" x2="20.77" y2="1.085" width="0.254" layer="13" locked="yes"/>
 <wire x1="20.77" y1="1.085" x2="20.77" y2="2.54" width="0.254" layer="13" locked="yes"/>
 <wire x1="5.08" y1="0.635" x2="20.32" y2="0.635" width="0.254" layer="13" locked="yes"/>
+<wire x1="16.1544" y1="14.8684" x2="16.1544" y2="14.9446" width="0.254" layer="1" locked="yes"/>
+<via x="16.1544" y="14.9446" extent="1-2" drill="0.1016" locked="yes"/>
+<wire x1="16.1544" y1="14.9446" x2="16.129" y2="14.9446" width="0.254" layer="2" locked="yes"/>
+<via x="16.129" y="14.9446" extent="2-15" drill="0.1524" locked="yes"/>
+<via x="16.129" y="14.9446" extent="15-16" drill="0.1016" locked="yes"/>
+<wire x1="16.129" y1="14.9446" x2="16.2306" y2="14.9446" width="0.254" layer="16" locked="yes"/>
 <wire x1="17.459215625" y1="14.012796875" x2="22.4282" y2="17.6664" width="0" layer="19" extent="1-1"/>
 <wire x1="5.3848" y1="12.5476" x2="5.4102" y2="12.5476" width="0" layer="19" extent="2-2"/>
-<wire x1="15.6718" y1="14.7138" x2="15.459215625" y2="14.512796875" width="0" layer="19" extent="1-16"/>
 <wire x1="15.459215625" y1="14.012796875" x2="15.459215625" y2="14.512796875" width="0" layer="19" extent="1-1"/>
 <wire x1="16.6878" y1="12.007" x2="16.459215625" y2="12.51278125" width="0" layer="19" extent="1-16"/>
-<wire x1="15.5212" y1="20.5382" x2="16.2306" y2="14.9446" width="0" layer="19" extent="1-1"/>
+<wire x1="15.5212" y1="20.5382" x2="16.129" y2="14.9446" width="0" layer="19" extent="1-15"/>
 </signal>
 </signals>
 <mfgpreviewcolors>
