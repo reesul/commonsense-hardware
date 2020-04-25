@@ -1144,123 +1144,6 @@ Pad dimensions from http://www.kemet.com/Lists/ProductCatalog/Attachments/53/KEM
 <library name="Inductors">
 <description>CCSG Eagle Library</description>
 <packages>
-<package name="IND_LQH3NPN">
-<smd name="1" x="-1.1778" y="0" dx="1.4556" dy="3.1" layer="1"/>
-<smd name="2" x="1.1778" y="0" dx="1.4556" dy="3.1" layer="1"/>
-<wire x1="-0.1524" y1="-1.6764" x2="0.1524" y2="-1.6764" width="0.1524" layer="21"/>
-<wire x1="0.1524" y1="1.6764" x2="-0.1524" y2="1.6764" width="0.1524" layer="21"/>
-<wire x1="-2.667" y1="0" x2="-2.8194" y2="0" width="0.1524" layer="21" curve="-180"/>
-<wire x1="-2.8194" y1="0" x2="-2.667" y2="0" width="0.1524" layer="21" curve="-180"/>
-<wire x1="-0.4572" y1="-1.5494" x2="-0.4572" y2="1.5494" width="0.1524" layer="51"/>
-<wire x1="-0.4572" y1="1.5494" x2="-1.5494" y2="1.5494" width="0.1524" layer="51"/>
-<wire x1="-1.5494" y1="-1.5494" x2="-0.4572" y2="-1.5494" width="0.1524" layer="51"/>
-<wire x1="0.4572" y1="1.5494" x2="0.4572" y2="-1.5494" width="0.1524" layer="51"/>
-<wire x1="0.4572" y1="-1.5494" x2="1.5494" y2="-1.5494" width="0.1524" layer="51"/>
-<wire x1="1.5494" y1="1.5494" x2="0.4572" y2="1.5494" width="0.1524" layer="51"/>
-<wire x1="-0.4572" y1="-1.5494" x2="0.4572" y2="-1.5494" width="0.1524" layer="51"/>
-<wire x1="1.5494" y1="-1.5494" x2="1.5494" y2="1.5494" width="0.1524" layer="51"/>
-<wire x1="0.4572" y1="1.5494" x2="-0.4572" y2="1.5494" width="0.1524" layer="51"/>
-<wire x1="-1.5494" y1="1.5494" x2="-1.5494" y2="-1.5494" width="0.1524" layer="51"/>
-<wire x1="-0.9652" y1="0" x2="-1.1176" y2="0" width="0" layer="51" curve="-180"/>
-<wire x1="-1.1176" y1="0" x2="-0.9652" y2="0" width="0" layer="51" curve="-180"/>
-<polygon width="0.1524" layer="41">
-<vertex x="-0.3992" y="1.55"/>
-<vertex x="0.3992" y="1.55"/>
-<vertex x="0.3992" y="-1.55"/>
-<vertex x="-0.3992" y="-1.55"/>
-</polygon>
-<polygon width="0.1524" layer="41">
-<vertex x="-0.3992" y="1.55"/>
-<vertex x="0.3992" y="1.55"/>
-<vertex x="0.3992" y="-1.55"/>
-<vertex x="-0.3992" y="-1.55"/>
-</polygon>
-<polygon width="0.1524" layer="41">
-<vertex x="-0.3992" y="1.4992"/>
-<vertex x="0.3992" y="1.4992"/>
-<vertex x="0.3992" y="-1.4992"/>
-<vertex x="-0.3992" y="-1.4992"/>
-</polygon>
-<text x="-2.0066" y="1.905" size="1.27" layer="25" ratio="6" rot="SR0">&gt;Name</text>
-</package>
-<package name="IND_LQH3NPN-M">
-<smd name="1" x="-1.2794" y="0" dx="1.6588" dy="3.2016" layer="1"/>
-<smd name="2" x="1.2794" y="0" dx="1.6588" dy="3.2016" layer="1"/>
-<wire x1="-0.127" y1="-1.6764" x2="0.127" y2="-1.6764" width="0.1524" layer="21"/>
-<wire x1="0.127" y1="1.6764" x2="-0.127" y2="1.6764" width="0.1524" layer="21"/>
-<wire x1="-2.8702" y1="0" x2="-3.0226" y2="0" width="0.1524" layer="21" curve="-180"/>
-<wire x1="-3.0226" y1="0" x2="-2.8702" y2="0" width="0.1524" layer="21" curve="-180"/>
-<wire x1="-0.4572" y1="-1.5494" x2="-0.4572" y2="1.5494" width="0.1524" layer="51"/>
-<wire x1="-0.4572" y1="1.5494" x2="-1.5494" y2="1.5494" width="0.1524" layer="51"/>
-<wire x1="-1.5494" y1="-1.5494" x2="-0.4572" y2="-1.5494" width="0.1524" layer="51"/>
-<wire x1="0.4572" y1="1.5494" x2="0.4572" y2="-1.5494" width="0.1524" layer="51"/>
-<wire x1="0.4572" y1="-1.5494" x2="1.5494" y2="-1.5494" width="0.1524" layer="51"/>
-<wire x1="1.5494" y1="1.5494" x2="0.4572" y2="1.5494" width="0.1524" layer="51"/>
-<wire x1="-0.4572" y1="-1.5494" x2="0.4572" y2="-1.5494" width="0.1524" layer="51"/>
-<wire x1="1.5494" y1="-1.5494" x2="1.5494" y2="1.5494" width="0.1524" layer="51"/>
-<wire x1="0.4572" y1="1.5494" x2="-0.4572" y2="1.5494" width="0.1524" layer="51"/>
-<wire x1="-1.5494" y1="1.5494" x2="-1.5494" y2="-1.5494" width="0.1524" layer="51"/>
-<wire x1="-1.0668" y1="0" x2="-1.2192" y2="0" width="0" layer="51" curve="-180"/>
-<wire x1="-1.2192" y1="0" x2="-1.0668" y2="0" width="0" layer="51" curve="-180"/>
-<polygon width="0.1524" layer="41">
-<vertex x="-0.3992" y="1.55"/>
-<vertex x="0.3992" y="1.55"/>
-<vertex x="0.3992" y="-1.55"/>
-<vertex x="-0.3992" y="-1.55"/>
-</polygon>
-<polygon width="0.1524" layer="41">
-<vertex x="-0.3992" y="1.55"/>
-<vertex x="0.3992" y="1.55"/>
-<vertex x="0.3992" y="-1.55"/>
-<vertex x="-0.3992" y="-1.55"/>
-</polygon>
-<polygon width="0.1524" layer="41">
-<vertex x="-0.3992" y="1.4992"/>
-<vertex x="0.3992" y="1.4992"/>
-<vertex x="0.3992" y="-1.4992"/>
-<vertex x="-0.3992" y="-1.4992"/>
-</polygon>
-<text x="-3.2766" y="1.905" size="1.27" layer="25" ratio="6" rot="SR0">&gt;Name</text>
-</package>
-<package name="IND_LQH3NPN-L">
-<smd name="1" x="-1.0762" y="0" dx="1.2524" dy="2.9984" layer="1"/>
-<smd name="2" x="1.0762" y="0" dx="1.2524" dy="2.9984" layer="1"/>
-<wire x1="-0.1778" y1="-1.6764" x2="0.1778" y2="-1.6764" width="0.1524" layer="21"/>
-<wire x1="0.1778" y1="1.6764" x2="-0.1778" y2="1.6764" width="0.1524" layer="21"/>
-<wire x1="-2.4638" y1="0" x2="-2.6162" y2="0" width="0.1524" layer="21" curve="-180"/>
-<wire x1="-2.6162" y1="0" x2="-2.4638" y2="0" width="0.1524" layer="21" curve="-180"/>
-<wire x1="-0.4572" y1="-1.5494" x2="-0.4572" y2="1.5494" width="0.1524" layer="51"/>
-<wire x1="-0.4572" y1="1.5494" x2="-1.5494" y2="1.5494" width="0.1524" layer="51"/>
-<wire x1="-1.5494" y1="-1.5494" x2="-0.4572" y2="-1.5494" width="0.1524" layer="51"/>
-<wire x1="0.4572" y1="1.5494" x2="0.4572" y2="-1.5494" width="0.1524" layer="51"/>
-<wire x1="0.4572" y1="-1.5494" x2="1.5494" y2="-1.5494" width="0.1524" layer="51"/>
-<wire x1="1.5494" y1="1.5494" x2="0.4572" y2="1.5494" width="0.1524" layer="51"/>
-<wire x1="-0.4572" y1="-1.5494" x2="0.4572" y2="-1.5494" width="0.1524" layer="51"/>
-<wire x1="1.5494" y1="-1.5494" x2="1.5494" y2="1.5494" width="0.1524" layer="51"/>
-<wire x1="0.4572" y1="1.5494" x2="-0.4572" y2="1.5494" width="0.1524" layer="51"/>
-<wire x1="-1.5494" y1="1.5494" x2="-1.5494" y2="-1.5494" width="0.1524" layer="51"/>
-<wire x1="-0.8636" y1="0" x2="-1.016" y2="0" width="0" layer="51" curve="-180"/>
-<wire x1="-1.016" y1="0" x2="-0.8636" y2="0" width="0" layer="51" curve="-180"/>
-<polygon width="0.1524" layer="41">
-<vertex x="-0.3992" y="1.55"/>
-<vertex x="0.3992" y="1.55"/>
-<vertex x="0.3992" y="-1.55"/>
-<vertex x="-0.3992" y="-1.55"/>
-</polygon>
-<polygon width="0.1524" layer="41">
-<vertex x="-0.3992" y="1.55"/>
-<vertex x="0.3992" y="1.55"/>
-<vertex x="0.3992" y="-1.55"/>
-<vertex x="-0.3992" y="-1.55"/>
-</polygon>
-<polygon width="0.1524" layer="41">
-<vertex x="-0.3992" y="1.4992"/>
-<vertex x="0.3992" y="1.4992"/>
-<vertex x="0.3992" y="-1.4992"/>
-<vertex x="-0.3992" y="-1.4992"/>
-</polygon>
-<text x="-3.2766" y="1.905" size="1.27" layer="25" ratio="6" rot="SR0">&gt;Name</text>
-</package>
 <package name="L0603">
 <description>&lt;b&gt;SMD Resistor&lt;/b&gt;&lt;p&gt;
 Pad dimensions from https://www.vishay.com/docs/45017/vjw1bcsoldfootdesign.pdf</description>
@@ -1297,6 +1180,19 @@ Pad dimensions from https://www.vishay.com/docs/34041/imc1008.pdf</description>
 <smd name="1" x="-1.2573" y="0" dx="1.3081" dy="2.54" layer="1"/>
 <smd name="2" x="1.2573" y="0" dx="1.3081" dy="2.54" layer="1"/>
 </package>
+<package name="L1212">
+<description>SMD Inductor &lt;br&gt;&lt;br&gt;
+
+Pad dimensions from: https://search.murata.co.jp/Ceramy/image/img/P02/JELF243A-0153.pdf</description>
+<smd name="P$1" x="-1.1" y="0" dx="0.8128" dy="2.667" layer="1"/>
+<smd name="P$2" x="1.1" y="0" dx="0.8128" dy="2.667" layer="1"/>
+<wire x1="-1.5" y1="-1.5" x2="1.5" y2="-1.5" width="0.127" layer="21"/>
+<wire x1="1.5" y1="1.5" x2="-1.5" y2="1.5" width="0.127" layer="21"/>
+<wire x1="-1.5" y1="-1.5" x2="-1.5" y2="1.5" width="0.127" layer="21"/>
+<wire x1="1.5" y1="-1.5" x2="1.5" y2="1.5" width="0.127" layer="21"/>
+<text x="-1.651" y="1.651" size="0.8128" layer="25">&gt;Name</text>
+<text x="-1.778" y="-2.54" size="0.8128" layer="27">&gt;Value</text>
+</package>
 </packages>
 <symbols>
 <symbol name="INDUCTOR">
@@ -1311,55 +1207,6 @@ Pad dimensions from https://www.vishay.com/docs/34041/imc1008.pdf</description>
 </symbol>
 </symbols>
 <devicesets>
-<deviceset name="LQH3NPN100NM0L" prefix="L">
-<gates>
-<gate name="A" symbol="INDUCTOR" x="7.62" y="10.16" swaplevel="1"/>
-</gates>
-<devices>
-<device name="" package="IND_LQH3NPN">
-<connects>
-<connect gate="A" pin="1" pad="1"/>
-<connect gate="A" pin="2" pad="2"/>
-</connects>
-<technologies>
-<technology name="">
-<attribute name="BUILT_BY" value="EMA_Justin" constant="no"/>
-<attribute name="COPYRIGHT" value="Copyright (C) 2016 Accelerated Designs. All rights reserved" constant="no"/>
-<attribute name="MANUFACTURER_PART_NUMBER" value="LQH3NPN100NM0L" constant="no"/>
-<attribute name="VENDOR" value="Murata" constant="no"/>
-</technology>
-</technologies>
-</device>
-<device name="IND_LQH3NPN-M" package="IND_LQH3NPN-M">
-<connects>
-<connect gate="A" pin="1" pad="1"/>
-<connect gate="A" pin="2" pad="2"/>
-</connects>
-<technologies>
-<technology name="">
-<attribute name="BUILT_BY" value="EMA_Justin" constant="no"/>
-<attribute name="COPYRIGHT" value="Copyright (C) 2016 Accelerated Designs. All rights reserved" constant="no"/>
-<attribute name="MANUFACTURER_PART_NUMBER" value="LQH3NPN100NM0L" constant="no"/>
-<attribute name="VENDOR" value="Murata" constant="no"/>
-</technology>
-</technologies>
-</device>
-<device name="IND_LQH3NPN-L" package="IND_LQH3NPN-L">
-<connects>
-<connect gate="A" pin="1" pad="1"/>
-<connect gate="A" pin="2" pad="2"/>
-</connects>
-<technologies>
-<technology name="">
-<attribute name="BUILT_BY" value="EMA_Justin" constant="no"/>
-<attribute name="COPYRIGHT" value="Copyright (C) 2016 Accelerated Designs. All rights reserved" constant="no"/>
-<attribute name="MANUFACTURER_PART_NUMBER" value="LQH3NPN100NM0L" constant="no"/>
-<attribute name="VENDOR" value="Murata" constant="no"/>
-</technology>
-</technologies>
-</device>
-</devices>
-</deviceset>
 <deviceset name="L0603" prefix="L">
 <gates>
 <gate name="G$1" symbol="INDUCTOR" x="0" y="0"/>
@@ -1385,6 +1232,23 @@ Pad dimensions from https://www.vishay.com/docs/34041/imc1008.pdf</description>
 <connects>
 <connect gate="&gt;NAME" pin="1" pad="1"/>
 <connect gate="&gt;NAME" pin="2" pad="2"/>
+</connects>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+</devices>
+</deviceset>
+<deviceset name="L1212">
+<description>Datasheet for footprint: https://search.murata.co.jp/Ceramy/image/img/P02/JELF243A-0153.pdf</description>
+<gates>
+<gate name="G$1" symbol="INDUCTOR" x="0" y="0"/>
+</gates>
+<devices>
+<device name="" package="L1212">
+<connects>
+<connect gate="G$1" pin="1" pad="P$1"/>
+<connect gate="G$1" pin="2" pad="P$2"/>
 </connects>
 <technologies>
 <technology name=""/>
@@ -4951,9 +4815,6 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <attribute name="VOLTAGE" value="10V"/>
 </part>
 <part name="GND2" library="Supplies" deviceset="GND" device=""/>
-<part name="L101" library="Inductors" deviceset="LQH3NPN100NM0L" device="" value="10u">
-<attribute name="PART_NO" value="LQH3NPN100NM0L"/>
-</part>
 <part name="+3V1" library="Supplies" deviceset="+3V3" device=""/>
 <part name="GND3" library="Supplies" deviceset="GND" device=""/>
 <part name="GND1" library="Supplies" deviceset="GND" device=""/>
@@ -4988,7 +4849,6 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <part name="GND4" library="Supplies" deviceset="GND" device=""/>
 <part name="C115" library="Capacitors" deviceset="C-" device="0805" value="10u">
 <attribute name="PART_NO" value="C0805C106M8RACTU"/>
-<attribute name="SPICEPREFIX" value="C"/>
 <attribute name="VOLTAGE" value="10V"/>
 </part>
 <part name="C105" library="Capacitors" deviceset="C-" device="0402" value="0.1u">
@@ -5026,7 +4886,9 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <attribute name="PART_NO" value="ERJ-2GEJ331X"/>
 </part>
 <part name="S101" library="Switches" deviceset="SW_EVQ-P7L01P_SPST_RA" device="" value="SW_EVQ-P7L01P_SPST_RA"/>
-<part name="Y101" library="Oscillators" deviceset="EPSON_TSX-3225_16.0000MF09Z-AC3" device="" value="16M"/>
+<part name="Y101" library="Oscillators" deviceset="EPSON_TSX-3225_16.0000MF09Z-AC3" device="" value="16M">
+<attribute name="PART_NO" value="TSX-3225 16.0000MF09Z-AC3"/>
+</part>
 <part name="GND6" library="Supplies" deviceset="GND" device=""/>
 <part name="GND8" library="Supplies" deviceset="GND" device=""/>
 <part name="C116" library="Capacitors" deviceset="C-" device="0402" value="6.8p">
@@ -5046,9 +4908,11 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <part name="GND10" library="Supplies" deviceset="GND" device=""/>
 <part name="BORDER102" library="Graphics" deviceset="BORDER-CMU" device=""/>
 <part name="BORDER201" library="Graphics" deviceset="BORDER-CMU" device=""/>
-<part name="U202" library="Regulators" deviceset="MAX77827BEWC+T" device=""/>
+<part name="U202" library="Regulators" deviceset="MAX77827BEWC+T" device="">
+<attribute name="PART_NO" value="MAX77827BEWC+T"/>
+</part>
 <part name="J201" library="Connectors" deviceset="J-JST2" device="-SMT-RA" package3d_urn="urn:adsk.eagle:package:6240692/1">
-<attribute name="PART_NO" value="SM02B-SRSS-TB"/>
+<attribute name="PART_NO" value="SM02B-SRSS-TB(LF)(SN) "/>
 </part>
 <part name="GND11" library="SparkFun-PowerSymbols" deviceset="GND" device=""/>
 <part name="S201" library="Switches" deviceset="SLIDESWITCH-SPDT" device="-SMD-RIGHT-ANGLE">
@@ -5056,12 +4920,15 @@ You are welcome to use this library for commercial purposes. For attribution, we
 </part>
 <part name="U201" library="CoulombCounters" deviceset="COULOMB-MAX17262" device="">
 <attribute name="MP" value="MAX17262REWL+T"/>
+<attribute name="PART_NO" value="MAX17262REWL+T"/>
 </part>
 <part name="C201" library="Capacitors" deviceset="C-" device="0402" value="100n">
 <attribute name="MP" value="CC0402KRX5R5BB104"/>
+<attribute name="PART_NO" value="CC0402KRX5R5BB104"/>
 </part>
 <part name="C203" library="Capacitors" deviceset="C-" device="0402" value="470n">
 <attribute name="MP" value="CC0402KRX5R5BB474"/>
+<attribute name="PART_NO" value="CC0402KRX5R5BB474"/>
 </part>
 <part name="GND217" library="Supplies" deviceset="GND" device=""/>
 <part name="GND211" library="Supplies" deviceset="GND" device=""/>
@@ -5081,7 +4948,9 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <attribute name="TC" value="X5R"/>
 <attribute name="VOLTAGE" value="10V"/>
 </part>
-<part name="L201" library="Inductors" deviceset="L1008" device="" value="1u"/>
+<part name="L201" library="Inductors" deviceset="L1008" device="" value="1u">
+<attribute name="PART_NO" value="CIGT252010EH1R0MNE"/>
+</part>
 <part name="GND12" library="Supplies" deviceset="GND" device=""/>
 <part name="GND13" library="Supplies" deviceset="GND" device=""/>
 <part name="GND15" library="Supplies" deviceset="GND" device=""/>
@@ -5093,23 +4962,18 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <attribute name="SPICEPREFIX" value="G"/>
 </part>
 <part name="U204" library="Switches" deviceset="LOADSWITCH-MIC9416" device="" technology="4" value="LOADSWITCH-MIC94164">
-<attribute name="MP" value="MIC94162YCS-TR"/>
-<attribute name="PART_NO" value="MIC94162YCS-TR"/>
-<attribute name="SPICEPREFIX" value="E"/>
+<attribute name="PART_NO" value="MIC94164YCS-TR"/>
 </part>
 <part name="R208" library="Resistors" deviceset="R-" device="0603" value="1">
 <attribute name="PART_NO" value="ERJ-3RQF1R0V"/>
-<attribute name="SPICEPREFIX" value="R"/>
 <attribute name="TOL" value="1%"/>
 </part>
 <part name="C208" library="Capacitors" deviceset="C-" device="0402" value="0.1u">
 <attribute name="PART_NO" value="C0402C104K8RACTU"/>
-<attribute name="SPICEPREFIX" value="C"/>
 <attribute name="VOLTAGE" value="10V"/>
 </part>
 <part name="C206" library="Capacitors" deviceset="C-" device="0402" value="1u">
 <attribute name="PART_NO" value="C0402C105M8PACTU"/>
-<attribute name="SPICEPREFIX" value="C"/>
 <attribute name="TC" value="X5R"/>
 <attribute name="VOLTAGE" value="10V"/>
 </part>
@@ -5122,7 +4986,9 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <attribute name="TOL" value="1%"/>
 </part>
 <part name="BORDER301" library="Graphics" deviceset="BORDER-CMU" device=""/>
-<part name="J301" library="Connectors" deviceset="HIROSE-DF40_44-PIN_CONNECTORS" device="-RECEPTACLE"/>
+<part name="J301" library="Connectors" deviceset="HIROSE-DF40_44-PIN_CONNECTORS" device="-RECEPTACLE">
+<attribute name="PART_NO" value="DF40HC(3.0)-44DS-0.4V(51)"/>
+</part>
 <part name="Q202" library="Switches" deviceset="DMG3415UFY4Q-7" device="" value="DMG3415UFY4Q-7">
 <attribute name="PART_NO" value="DMG3415UFY4Q-7"/>
 </part>
@@ -5166,13 +5032,14 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <part name="R105" library="Resistors" deviceset="R-" device="0402" value="39">
 <attribute name="PART_NO" value="ERJ-2GEJ390X"/>
 </part>
-<part name="U203" library="Sensors" deviceset="SENSOR-SI7006" device=""/>
+<part name="U203" library="Sensors" deviceset="SENSOR-SI7006" device="">
+<attribute name="PART_NO" value="SI7021-A20-GM1R"/>
+</part>
 <part name="GND19" library="Supplies" deviceset="GND" device=""/>
 <part name="GND20" library="Supplies" deviceset="GND" device=""/>
 <part name="GND21" library="Supplies" deviceset="GND" device=""/>
 <part name="U205" library="Switches" deviceset="LOADSWITCH-MIC9416" device="" technology="4" value="LOADSWITCH-MIC94164">
-<attribute name="MP" value="MIC94162YCS-TR"/>
-<attribute name="PART_NO" value="MIC94162YCS-TR"/>
+<attribute name="PART_NO" value="MIC94164YCS-TR"/>
 </part>
 <part name="C209" library="Capacitors" deviceset="C-" device="0402" value="0.1u">
 <attribute name="PART_NO" value="C0402C104K8RACTU"/>
@@ -5195,7 +5062,9 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <attribute name="PART_NO" value="ERJ-3GEYJ472V"/>
 </part>
 <part name="+3V8" library="Supplies" deviceset="+3V3" device=""/>
-<part name="J302" library="Connectors" deviceset="HIROSE-DF40_30-PIN_CONNECTORS" device="-RECEPTACLE" value="HIROSE-DF40_30-PIN_CONNECTORS-RECEPTACLE"/>
+<part name="J302" library="Connectors" deviceset="HIROSE-DF40_30-PIN_CONNECTORS" device="-RECEPTACLE" value="HIROSE-DF40_30-PIN_CONNECTORS-RECEPTACLE">
+<attribute name="PART_NO" value="DF40HC(3.0)-30DS-0.4V(58)"/>
+</part>
 <part name="GND22" library="Supplies" deviceset="GND" device=""/>
 <part name="+3V7" library="Supplies" deviceset="+3V3" device=""/>
 <part name="GND23" library="Supplies" deviceset="GND" device=""/>
@@ -5207,11 +5076,12 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <part name="TP_PROC" library="TestPoints" deviceset="TP" device="TP06R" package3d_urn="urn:adsk.eagle:package:27954/1" value="TPTP06R"/>
 <part name="TP_DTR" library="TestPoints" deviceset="TP" device="TP06R" package3d_urn="urn:adsk.eagle:package:27954/1" value="TPTP06R"/>
 <part name="TP_TEMP" library="TestPoints" deviceset="TP" device="TP06R" package3d_urn="urn:adsk.eagle:package:27954/1" value="TPTP06R"/>
-<part name="TP_STOR" library="TestPoints" deviceset="TP" device="TP06R" package3d_urn="urn:adsk.eagle:package:27954/1" value="TPTP06R">
-<attribute name="SPICEPREFIX" value="X"/>
-</part>
+<part name="TP_STOR" library="TestPoints" deviceset="TP" device="TP06R" package3d_urn="urn:adsk.eagle:package:27954/1" value="TPTP06R"/>
 <part name="TP_SDA" library="TestPoints" deviceset="TP" device="TP06R" package3d_urn="urn:adsk.eagle:package:27954/1" value="TPTP06R"/>
 <part name="TP_SCL" library="TestPoints" deviceset="TP" device="TP06R" package3d_urn="urn:adsk.eagle:package:27954/1" value="TPTP06R"/>
+<part name="L101" library="Inductors" deviceset="L1212" device="">
+<attribute name="PART_NO" value="LQH3NPN100MMEL"/>
+</part>
 </parts>
 <sheets>
 <sheet>
@@ -5247,11 +5117,6 @@ You are welcome to use this library for commercial purposes. For attribution, we
 </instance>
 <instance part="GND2" gate="1" x="231.14" y="170.18" smashed="yes" rot="MR0">
 <attribute name="VALUE" x="233.68" y="167.64" size="1.778" layer="96" rot="MR0"/>
-</instance>
-<instance part="L101" gate="A" x="210.82" y="175.26" smashed="yes">
-<attribute name="NAME" x="205.73153125" y="177.16818125" size="1.780959375" layer="95"/>
-<attribute name="VALUE" x="205.734559375" y="172.71728125" size="1.779909375" layer="96"/>
-<attribute name="PART_NO" x="210.82" y="175.26" size="1.778" layer="96" display="off"/>
 </instance>
 <instance part="+3V1" gate="G$1" x="218.44" y="165.1" smashed="yes"/>
 <instance part="GND3" gate="1" x="218.44" y="111.76" smashed="yes">
@@ -5356,6 +5221,7 @@ You are welcome to use this library for commercial purposes. For attribution, we
 </instance>
 <instance part="Y101" gate="A" x="314.96" y="190.5" smashed="yes">
 <attribute name="NAME" x="315.214" y="188.468" size="2.54" layer="95" align="top-left"/>
+<attribute name="PART_NO" x="314.96" y="190.5" size="1.778" layer="96" display="off"/>
 </instance>
 <instance part="GND6" gate="1" x="314.96" y="170.18" smashed="yes">
 <attribute name="VALUE" x="312.42" y="167.64" size="1.778" layer="96"/>
@@ -5445,6 +5311,11 @@ You are welcome to use this library for commercial purposes. For attribution, we
 </instance>
 <instance part="TP_SCL" gate="G$1" x="223.52" y="200.66" smashed="yes" rot="MR0">
 <attribute name="NAME" x="224.536" y="201.93" size="1.778" layer="95" rot="MR90"/>
+</instance>
+<instance part="L101" gate="G$1" x="210.82" y="175.26" smashed="yes">
+<attribute name="NAME" x="205.73153125" y="177.16818125" size="1.780959375" layer="95"/>
+<attribute name="VALUE" x="205.734559375" y="172.71728125" size="1.779909375" layer="96"/>
+<attribute name="PART_NO" x="210.82" y="175.26" size="1.778" layer="96" display="off"/>
 </instance>
 </instances>
 <busses>
@@ -5625,12 +5496,10 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <segment>
 <pinref part="U101" gate="G$1" pin="VDDCORE"/>
 <wire x1="200.66" y1="170.18" x2="218.44" y2="170.18" width="0.1524" layer="91"/>
-<pinref part="L101" gate="A" pin="2"/>
-<wire x1="218.44" y1="175.26" x2="218.44" y2="170.18" width="0.1524" layer="91"/>
-<wire x1="218.44" y1="175.26" x2="218.44" y2="185.42" width="0.1524" layer="91"/>
-<junction x="218.44" y="175.26"/>
+<wire x1="218.44" y1="170.18" x2="218.44" y2="175.26" width="0.1524" layer="91"/>
 <pinref part="C103" gate="G$1" pin="1"/>
 <pinref part="C107" gate="G$1" pin="1"/>
+<wire x1="218.44" y1="175.26" x2="218.44" y2="185.42" width="0.1524" layer="91"/>
 <wire x1="236.22" y1="182.88" x2="231.14" y2="182.88" width="0.1524" layer="91"/>
 <wire x1="231.14" y1="182.88" x2="226.06" y2="182.88" width="0.1524" layer="91"/>
 <wire x1="218.44" y1="185.42" x2="231.14" y2="185.42" width="0.1524" layer="91"/>
@@ -5638,12 +5507,14 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <junction x="231.14" y="182.88"/>
 <pinref part="TP_CPU" gate="G$1" pin="TP"/>
 <junction x="231.14" y="185.42"/>
+<pinref part="L101" gate="G$1" pin="2"/>
+<junction x="218.44" y="175.26"/>
 </segment>
 </net>
 <net name="VSW" class="0">
 <segment>
 <pinref part="U101" gate="G$1" pin="VSW"/>
-<pinref part="L101" gate="A" pin="1"/>
+<pinref part="L101" gate="G$1" pin="1"/>
 <wire x1="203.2" y1="175.26" x2="200.66" y2="175.26" width="0.1524" layer="91"/>
 </segment>
 </net>
@@ -6536,6 +6407,7 @@ PMOS in deployements</text>
 <instance part="U202" gate="A" x="187.96" y="109.22" smashed="yes">
 <attribute name="NAME" x="203.5556" y="118.3386" size="2.0828" layer="95" ratio="6" rot="SR0"/>
 <attribute name="VALUE" x="202.9206" y="115.7986" size="2.0828" layer="96" ratio="6" rot="SR0"/>
+<attribute name="PART_NO" x="187.96" y="109.22" size="1.778" layer="96" display="off"/>
 </instance>
 <instance part="J201" gate="G$1" x="35.56" y="226.06" smashed="yes" rot="R180">
 <attribute name="NAME" x="31.75" y="230.505" size="1.778" layer="95" rot="R180"/>
@@ -6553,16 +6425,19 @@ PMOS in deployements</text>
 <instance part="U201" gate="G$1" x="137.16" y="167.64" smashed="yes">
 <attribute name="NAME" x="127" y="180.34" size="1.778" layer="95"/>
 <attribute name="MP" x="137.16" y="167.64" size="1.778" layer="96" display="off"/>
+<attribute name="PART_NO" x="137.16" y="167.64" size="1.778" layer="96" display="off"/>
 </instance>
 <instance part="C201" gate="G$1" x="111.76" y="167.64" smashed="yes">
 <attribute name="NAME" x="112.776" y="168.275" size="1.778" layer="95"/>
 <attribute name="VALUE" x="112.776" y="163.449" size="1.778" layer="96"/>
 <attribute name="MP" x="111.76" y="167.64" size="1.778" layer="96" display="off"/>
+<attribute name="PART_NO" x="111.76" y="167.64" size="1.778" layer="96" display="off"/>
 </instance>
 <instance part="C203" gate="G$1" x="154.94" y="152.4" smashed="yes">
 <attribute name="NAME" x="155.956" y="153.035" size="1.778" layer="95"/>
 <attribute name="VALUE" x="155.956" y="148.209" size="1.778" layer="96"/>
 <attribute name="MP" x="154.94" y="152.4" size="1.778" layer="96" display="off"/>
+<attribute name="PART_NO" x="154.94" y="152.4" size="1.778" layer="96" display="off"/>
 </instance>
 <instance part="GND217" gate="1" x="154.94" y="142.24" smashed="yes">
 <attribute name="VALUE" x="147.193" y="141.605" size="1.778" layer="96"/>
@@ -6591,6 +6466,7 @@ PMOS in deployements</text>
 <instance part="L201" gate="&gt;NAME" x="210.82" y="127" smashed="yes">
 <attribute name="NAME" x="205.73153125" y="128.90818125" size="1.780959375" layer="95"/>
 <attribute name="VALUE" x="205.734559375" y="124.45728125" size="1.779909375" layer="96"/>
+<attribute name="PART_NO" x="210.82" y="127" size="1.778" layer="96" display="off"/>
 </instance>
 <instance part="GND12" gate="1" x="177.8" y="86.36" smashed="yes">
 <attribute name="VALUE" x="175.133" y="83.185" size="1.778" layer="96"/>
@@ -6612,7 +6488,6 @@ PMOS in deployements</text>
 </instance>
 <instance part="U204" gate="G$1" x="337.82" y="144.78" smashed="yes">
 <attribute name="NAME" x="330.2" y="153.67" size="1.778" layer="95"/>
-<attribute name="MP" x="337.82" y="144.78" size="1.778" layer="96" display="off"/>
 <attribute name="PART_NO" x="337.82" y="144.78" size="1.778" layer="96" display="off"/>
 </instance>
 <instance part="R208" gate="G$1" x="289.56" y="149.86" smashed="yes">
@@ -6707,6 +6582,7 @@ PMOS in deployements</text>
 <instance part="U203" gate="G$1" x="248.92" y="25.4" smashed="yes">
 <attribute name="NAME" x="238.76" y="38.1" size="1.778" layer="97" font="vector"/>
 <attribute name="VALUE" x="254" y="38.1" size="1.778" layer="97" font="vector"/>
+<attribute name="PART_NO" x="248.92" y="25.4" size="1.778" layer="96" display="off"/>
 </instance>
 <instance part="GND19" gate="1" x="248.92" y="7.62" smashed="yes">
 <attribute name="VALUE" x="246.38" y="5.08" size="1.778" layer="96"/>
@@ -6719,7 +6595,6 @@ PMOS in deployements</text>
 </instance>
 <instance part="U205" gate="G$1" x="337.82" y="104.14" smashed="yes">
 <attribute name="NAME" x="330.2" y="113.03" size="1.778" layer="95"/>
-<attribute name="MP" x="337.82" y="104.14" size="1.778" layer="96" display="off"/>
 <attribute name="PART_NO" x="337.82" y="104.14" size="1.778" layer="96" display="off"/>
 </instance>
 <instance part="C209" gate="G$1" x="358.14" y="104.14" smashed="yes">
@@ -7298,9 +7173,11 @@ PMOS in deployements</text>
 </instance>
 <instance part="J301" gate="G$1" x="111.76" y="149.86" smashed="yes" rot="R90">
 <attribute name="NAME" x="77.9566" y="142.21801875" size="1.273659375" layer="95" rot="R90"/>
+<attribute name="PART_NO" x="111.76" y="149.86" size="1.778" layer="96" rot="R90" display="off"/>
 </instance>
 <instance part="J302" gate="G$1" x="276.86" y="149.86" smashed="yes" rot="R90">
 <attribute name="NAME" x="253.2166" y="142.21801875" size="1.273659375" layer="95" rot="R90"/>
+<attribute name="PART_NO" x="276.86" y="149.86" size="1.778" layer="96" rot="R90" display="off"/>
 </instance>
 <instance part="GND22" gate="1" x="86.36" y="127" smashed="yes">
 <attribute name="VALUE" x="83.82" y="124.46" size="1.778" layer="96"/>
