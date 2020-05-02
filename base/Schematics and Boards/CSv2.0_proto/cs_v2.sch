@@ -6791,6 +6791,10 @@ PMOS in deployements</text>
 <wire x1="124.46" y1="157.48" x2="121.92" y2="157.48" width="0.1524" layer="91"/>
 <wire x1="121.92" y1="157.48" x2="121.92" y2="172.72" width="0.1524" layer="91"/>
 <junction x="121.92" y="172.72"/>
+<pinref part="S201" gate="1" pin="O"/>
+<wire x1="104.14" y1="177.8" x2="111.76" y2="177.8" width="0.1524" layer="91"/>
+<wire x1="111.76" y1="177.8" x2="111.76" y2="172.72" width="0.1524" layer="91"/>
+<junction x="111.76" y="172.72"/>
 </segment>
 </net>
 <net name="VREG_LX1" class="0">
