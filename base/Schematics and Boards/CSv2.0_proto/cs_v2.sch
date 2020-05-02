@@ -2271,12 +2271,7 @@ JST PH 2-pin thru-home side entry</description>
 <rectangle x1="-1.2446" y1="-1.1176" x2="1.2446" y2="1.1176" layer="31"/>
 <smd name="1" x="-0.4064" y="0" dx="0.635" dy="1.27" layer="1" cream="no"/>
 <smd name="2" x="0.4064" y="0" dx="0.635" dy="1.27" layer="1" cream="no"/>
-</package>
-<package name="SMT-JUMPER_2_LG_NC_PASTE_NO-SILK">
-<text x="0" y="0.762" size="0.6096" layer="25" font="vector" align="bottom-center">&gt;NAME</text>
-<rectangle x1="-1.2446" y1="-1.1176" x2="1.2446" y2="1.1176" layer="31"/>
-<smd name="1" x="-0.4826" y="0" dx="0.762" dy="1.27" layer="1" cream="no"/>
-<smd name="2" x="0.4826" y="0" dx="0.762" dy="1.27" layer="1" cream="no"/>
+<rectangle x1="-1.27" y1="-1.27" x2="1.27" y2="1.27" layer="39"/>
 </package>
 <package name="8.06.16_6-PIN_NEEDLE_ADAPTER_NO-LEGS">
 <description>Holes for side clips removed to save space. On the adapter itself, these can be be clipped off.</description>
@@ -2295,6 +2290,13 @@ JST PH 2-pin thru-home side entry</description>
 <hole x="2.54" y="-1.015" drill="0.9906"/>
 <rectangle x1="-1.27" y1="-0.635" x2="1.27" y2="0.635" layer="43"/>
 <text x="-5.156259375" y="-2.55788125" size="1.274209375" layer="25" rot="R90">&gt;NAME</text>
+</package>
+<package name="SMT-JUMPER_2_LG_NC_PASTE_NO-SILK">
+<text x="0" y="0.762" size="0.6096" layer="25" font="vector" align="bottom-center">&gt;NAME</text>
+<rectangle x1="-1.2446" y1="-1.1176" x2="1.2446" y2="1.1176" layer="31"/>
+<smd name="1" x="-0.4826" y="0" dx="0.762" dy="1.27" layer="1" cream="no"/>
+<smd name="2" x="0.4826" y="0" dx="0.762" dy="1.27" layer="1" cream="no"/>
+<rectangle x1="-1.778" y1="-1.778" x2="1.778" y2="1.778" layer="39"/>
 </package>
 </packages>
 <packages3d>
@@ -2735,7 +2737,7 @@ Design verified by Reese</description>
 <gate name="A" symbol="8.06.16_6-PIN_NEEDLE_ADAPTER" x="0" y="0"/>
 </gates>
 <devices>
-<device name="NO_LEGS" package="8.06.16_6-PIN_NEEDLE_ADAPTER_NO-LEGS">
+<device name="-NO_LEGS" package="8.06.16_6-PIN_NEEDLE_ADAPTER_NO-LEGS">
 <connects>
 <connect gate="A" pin="GND" pad="5"/>
 <connect gate="A" pin="NRESET" pad="3"/>
@@ -2748,7 +2750,7 @@ Design verified by Reese</description>
 <technology name=""/>
 </technologies>
 </device>
-<device name="LEGS" package="8.06.16_6-PIN_NEEDLE_ADAPTER_LEGS">
+<device name="-LEGS" package="8.06.16_6-PIN_NEEDLE_ADAPTER_LEGS">
 <connects>
 <connect gate="A" pin="GND" pad="5"/>
 <connect gate="A" pin="NRESET" pad="3"/>
@@ -5055,7 +5057,7 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <part name="JP201" library="Connectors" deviceset="JUMPER-SMT_2_NC_PASTE" device="_NO-SILK" package3d_urn="urn:adsk.eagle:package:39283/1"/>
 <part name="JP205" library="Connectors" deviceset="JUMPER-SMT_2_NC_PASTE" device="_NO-SILK" package3d_urn="urn:adsk.eagle:package:39283/1"/>
 <part name="JP204" library="Connectors" deviceset="JUMPER-SMT_2_NC_PASTE" device="_NO-SILK" package3d_urn="urn:adsk.eagle:package:39283/1"/>
-<part name="J101" library="Connectors" deviceset="J-JTAG-CORTEX-NEEDLE6" device="LEGS"/>
+<part name="J101" library="Connectors" deviceset="J-JTAG-CORTEX-NEEDLE6" device="-LEGS"/>
 <part name="R106" library="Resistors" deviceset="R-" device="0402" value="1k">
 <attribute name="PART_NO" value="ERJ-2GEJ102X"/>
 </part>
@@ -6381,12 +6383,6 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <pinref part="R106" gate="G$1" pin="2"/>
 </segment>
 </net>
-<net name="N$1" class="0">
-<segment>
-<pinref part="S201" gate="1" pin="O"/>
-<wire x1="104.14" y1="177.8" x2="109.22" y2="177.8" width="0.1524" layer="91"/>
-</segment>
-</net>
 </nets>
 </sheet>
 <sheet>
@@ -6431,7 +6427,7 @@ and info to help with crystal frequency offset
 resulting from temperature; 
 should be placed near XTALs</text>
 <text x="121.92" y="193.04" size="3.81" layer="91">Current Monitor</text>
-<text x="165.1" y="182.88" size="1.778" layer="91">Do we lose info about battery
+<text x="165.1" y="177.8" size="1.778" layer="91">Do we lose info about battery
 by not having the input directly
 connected to the battery?</text>
 <text x="71.12" y="160.02" size="1.778" layer="91">Won't always populate 
@@ -6462,31 +6458,31 @@ PMOS in deployements</text>
 <attribute name="VALUE" x="100.076" y="171.958" size="1.778" layer="96" font="vector" align="top-center"/>
 <attribute name="PART_NO" x="99.06" y="175.26" size="1.778" layer="96" display="off"/>
 </instance>
-<instance part="U201" gate="G$1" x="137.16" y="172.72" smashed="yes">
-<attribute name="NAME" x="127" y="185.42" size="1.778" layer="95"/>
-<attribute name="MP" x="137.16" y="172.72" size="1.778" layer="96" display="off"/>
-<attribute name="PART_NO" x="137.16" y="172.72" size="1.778" layer="96" display="off"/>
+<instance part="U201" gate="G$1" x="137.16" y="167.64" smashed="yes">
+<attribute name="NAME" x="127" y="180.34" size="1.778" layer="95"/>
+<attribute name="MP" x="137.16" y="167.64" size="1.778" layer="96" display="off"/>
+<attribute name="PART_NO" x="137.16" y="167.64" size="1.778" layer="96" display="off"/>
 </instance>
-<instance part="C201" gate="G$1" x="111.76" y="172.72" smashed="yes">
-<attribute name="NAME" x="112.776" y="173.355" size="1.778" layer="95"/>
-<attribute name="VALUE" x="112.776" y="168.529" size="1.778" layer="96"/>
-<attribute name="MP" x="111.76" y="172.72" size="1.778" layer="96" display="off"/>
-<attribute name="PART_NO" x="111.76" y="172.72" size="1.778" layer="96" display="off"/>
+<instance part="C201" gate="G$1" x="111.76" y="167.64" smashed="yes">
+<attribute name="NAME" x="112.776" y="168.275" size="1.778" layer="95"/>
+<attribute name="VALUE" x="112.776" y="163.449" size="1.778" layer="96"/>
+<attribute name="MP" x="111.76" y="167.64" size="1.778" layer="96" display="off"/>
+<attribute name="PART_NO" x="111.76" y="167.64" size="1.778" layer="96" display="off"/>
 </instance>
-<instance part="C203" gate="G$1" x="154.94" y="157.48" smashed="yes">
-<attribute name="NAME" x="155.956" y="158.115" size="1.778" layer="95"/>
-<attribute name="VALUE" x="155.956" y="153.289" size="1.778" layer="96"/>
-<attribute name="MP" x="154.94" y="157.48" size="1.778" layer="96" display="off"/>
-<attribute name="PART_NO" x="154.94" y="157.48" size="1.778" layer="96" display="off"/>
+<instance part="C203" gate="G$1" x="154.94" y="152.4" smashed="yes">
+<attribute name="NAME" x="155.956" y="153.035" size="1.778" layer="95"/>
+<attribute name="VALUE" x="155.956" y="148.209" size="1.778" layer="96"/>
+<attribute name="MP" x="154.94" y="152.4" size="1.778" layer="96" display="off"/>
+<attribute name="PART_NO" x="154.94" y="152.4" size="1.778" layer="96" display="off"/>
 </instance>
-<instance part="GND217" gate="1" x="154.94" y="147.32" smashed="yes">
-<attribute name="VALUE" x="147.193" y="146.685" size="1.778" layer="96"/>
+<instance part="GND217" gate="1" x="154.94" y="142.24" smashed="yes">
+<attribute name="VALUE" x="147.193" y="141.605" size="1.778" layer="96"/>
 </instance>
-<instance part="GND211" gate="1" x="111.76" y="162.56" smashed="yes">
-<attribute name="VALUE" x="109.093" y="159.385" size="1.778" layer="96"/>
+<instance part="GND211" gate="1" x="111.76" y="157.48" smashed="yes">
+<attribute name="VALUE" x="109.093" y="154.305" size="1.778" layer="96"/>
 </instance>
-<instance part="GND214" gate="1" x="137.16" y="152.4" smashed="yes">
-<attribute name="VALUE" x="134.493" y="149.225" size="1.778" layer="96"/>
+<instance part="GND214" gate="1" x="137.16" y="147.32" smashed="yes">
+<attribute name="VALUE" x="134.493" y="144.145" size="1.778" layer="96"/>
 </instance>
 <instance part="C202" gate="G$1" x="149.86" y="101.6" smashed="yes">
 <attribute name="NAME" x="135.636" y="103.505" size="1.778" layer="95"/>
@@ -6691,17 +6687,17 @@ PMOS in deployements</text>
 <segment>
 <pinref part="C201" gate="G$1" pin="2"/>
 <pinref part="GND211" gate="1" pin="GND"/>
-<wire x1="111.76" y1="167.64" x2="111.76" y2="165.1" width="0.1524" layer="91"/>
+<wire x1="111.76" y1="162.56" x2="111.76" y2="160.02" width="0.1524" layer="91"/>
 </segment>
 <segment>
 <pinref part="C203" gate="G$1" pin="2"/>
 <pinref part="GND217" gate="1" pin="GND"/>
-<wire x1="154.94" y1="152.4" x2="154.94" y2="149.86" width="0.1524" layer="91"/>
+<wire x1="154.94" y1="147.32" x2="154.94" y2="144.78" width="0.1524" layer="91"/>
 </segment>
 <segment>
 <pinref part="GND214" gate="1" pin="GND"/>
 <pinref part="U201" gate="G$1" pin="GND"/>
-<wire x1="137.16" y1="154.94" x2="137.16" y2="157.48" width="0.1524" layer="91"/>
+<wire x1="137.16" y1="149.86" x2="137.16" y2="152.4" width="0.1524" layer="91"/>
 </segment>
 <segment>
 <pinref part="GND12" gate="1" pin="GND"/>
@@ -6781,7 +6777,7 @@ PMOS in deployements</text>
 <net name="N$13" class="0">
 <segment>
 <pinref part="U201" gate="G$1" pin="REG"/>
-<wire x1="149.86" y1="162.56" x2="154.94" y2="162.56" width="0.1524" layer="91"/>
+<wire x1="149.86" y1="157.48" x2="154.94" y2="157.48" width="0.1524" layer="91"/>
 <pinref part="C203" gate="G$1" pin="1"/>
 </segment>
 </net>
@@ -6789,15 +6785,12 @@ PMOS in deployements</text>
 <segment>
 <pinref part="U201" gate="G$1" pin="BATT"/>
 <pinref part="C201" gate="G$1" pin="1"/>
-<wire x1="111.76" y1="177.8" x2="121.92" y2="177.8" width="0.1524" layer="91"/>
-<wire x1="121.92" y1="177.8" x2="124.46" y2="177.8" width="0.1524" layer="91"/>
+<wire x1="111.76" y1="172.72" x2="121.92" y2="172.72" width="0.1524" layer="91"/>
+<wire x1="121.92" y1="172.72" x2="124.46" y2="172.72" width="0.1524" layer="91"/>
 <pinref part="U201" gate="G$1" pin="TH"/>
-<wire x1="124.46" y1="162.56" x2="121.92" y2="162.56" width="0.1524" layer="91"/>
-<wire x1="121.92" y1="162.56" x2="121.92" y2="177.8" width="0.1524" layer="91"/>
-<junction x="121.92" y="177.8"/>
-<junction x="111.76" y="177.8"/>
-<pinref part="S201" gate="1" pin="O"/>
-<wire x1="111.76" y1="177.8" x2="104.14" y2="177.8" width="0.1524" layer="91"/>
+<wire x1="124.46" y1="157.48" x2="121.92" y2="157.48" width="0.1524" layer="91"/>
+<wire x1="121.92" y1="157.48" x2="121.92" y2="172.72" width="0.1524" layer="91"/>
+<junction x="121.92" y="172.72"/>
 </segment>
 </net>
 <net name="VREG_LX1" class="0">
@@ -6964,8 +6957,8 @@ PMOS in deployements</text>
 <label x="170.18" y="109.22" size="1.778" layer="95"/>
 <junction x="182.88" y="121.92"/>
 <pinref part="U201" gate="G$1" pin="SYS"/>
-<wire x1="149.86" y1="177.8" x2="182.88" y2="177.8" width="0.1524" layer="91"/>
-<wire x1="182.88" y1="177.8" x2="182.88" y2="121.92" width="0.1524" layer="91"/>
+<wire x1="149.86" y1="172.72" x2="182.88" y2="172.72" width="0.1524" layer="91"/>
+<wire x1="182.88" y1="172.72" x2="182.88" y2="121.92" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="N$9" class="0">
@@ -7154,8 +7147,8 @@ PMOS in deployements</text>
 <net name="DTR_MASTER_I2C_SDA" class="0">
 <segment>
 <pinref part="U201" gate="G$1" pin="SDA"/>
-<wire x1="149.86" y1="170.18" x2="152.4" y2="170.18" width="0.1524" layer="91"/>
-<label x="152.4" y="170.18" size="1.27" layer="95" xref="yes"/>
+<wire x1="149.86" y1="165.1" x2="152.4" y2="165.1" width="0.1524" layer="91"/>
+<label x="152.4" y="165.1" size="1.27" layer="95" xref="yes"/>
 </segment>
 <segment>
 <pinref part="U203" gate="G$1" pin="SDA"/>
@@ -7166,8 +7159,8 @@ PMOS in deployements</text>
 <net name="DTR_MASTER_I2C_SCL" class="0">
 <segment>
 <pinref part="U201" gate="G$1" pin="SCL"/>
-<wire x1="149.86" y1="167.64" x2="152.4" y2="167.64" width="0.1524" layer="91"/>
-<label x="152.4" y="167.64" size="1.27" layer="95" xref="yes"/>
+<wire x1="149.86" y1="162.56" x2="152.4" y2="162.56" width="0.1524" layer="91"/>
+<label x="152.4" y="162.56" size="1.27" layer="95" xref="yes"/>
 </segment>
 <segment>
 <pinref part="U203" gate="G$1" pin="SCL"/>

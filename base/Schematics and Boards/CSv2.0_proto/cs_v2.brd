@@ -349,6 +349,7 @@ Pad dimensions from http://www.kemet.com/Lists/ProductCatalog/Attachments/53/KEM
 <rectangle x1="-1.2446" y1="-1.1176" x2="1.2446" y2="1.1176" layer="31"/>
 <smd name="1" x="-0.4064" y="0" dx="0.635" dy="1.27" layer="1" cream="no"/>
 <smd name="2" x="0.4064" y="0" dx="0.635" dy="1.27" layer="1" cream="no"/>
+<rectangle x1="-1.27" y1="-1.27" x2="1.27" y2="1.27" layer="39"/>
 </package>
 <package name="HRS_DF40HC(3.0)-30DS-0.4V(51)">
 <wire x1="-4.299996875" y1="1.47" x2="4.299996875" y2="1.47" width="0.127" layer="51"/>
@@ -1759,7 +1760,7 @@ design rules under a new name.</description>
 <attribute name="PART_NO" value="SM02B-SRSS-TB(LF)(SN) " x="11.176" y="75.692" size="1.778" layer="27" rot="R90" display="off"/>
 <attribute name="VALUE" x="11.176" y="26.162" size="1.27" layer="27" font="vector" rot="R90"/>
 </element>
-<element name="J101" library="Connectors" package="8.06.16_6-PIN_NEEDLE_ADAPTER_LEGS" value="J-JTAG-CORTEX-NEEDLE6LEGS" x="4.6736" y="18.1356" smashed="yes" rot="R270"/>
+<element name="J101" library="Connectors" package="8.06.16_6-PIN_NEEDLE_ADAPTER_LEGS" value="J-JTAG-CORTEX-NEEDLE6-LEGS" x="4.6736" y="18.1356" smashed="yes" rot="R270"/>
 <element name="JP202" library="Connectors" package="SMT-JUMPER_2_NC_PASTE_NO-SILK" package3d_urn="urn:adsk.eagle:package:39283/1" value="JUMPER-SMT_2_NC_PASTE_NO-SILK" x="43.0276" y="27.7114" smashed="yes" rot="R90">
 <attribute name="BOM" value="EXCLUDE" x="43.0276" y="27.7114" size="1.778" layer="27" rot="R90" display="off"/>
 </element>
@@ -2747,10 +2748,6 @@ design rules under a new name.</description>
 <contactref element="U201" pad="A2"/>
 <contactref element="C201" pad="1"/>
 <contactref element="U201" pad="A1"/>
-<contactref element="S201" pad="1"/>
-<wire x1="4.417" y1="36.993" x2="4.445" y2="36.965" width="0.254" layer="1"/>
-<wire x1="4.445" y1="36.965" x2="4.445" y2="35.56" width="0.254" layer="1"/>
-<wire x1="4.445" y1="35.56" x2="5.08" y2="35.56" width="0.254" layer="1"/>
 <via x="5.08" y="35.56" extent="1-16" drill="0.35"/>
 <wire x1="7.5860125" y1="35.96" x2="7.893" y2="35.96" width="0.254" layer="16"/>
 <wire x1="7.2374" y1="36.3086125" x2="7.493" y2="36.0530125" width="0.254" layer="16"/>
@@ -3110,12 +3107,12 @@ design rules under a new name.</description>
 </signal>
 <signal name="VDD_SW_IN" class="1">
 <contactref element="JP203" pad="2"/>
-<contactref element="S201" pad="2"/>
 <wire x1="7.239" y1="40.7924" x2="4.5974" y2="40.7924" width="0.254" layer="16"/>
 <wire x1="4.5974" y1="40.7924" x2="4.445" y2="40.64" width="0.254" layer="16"/>
 <via x="4.445" y="40.64" extent="1-16" drill="0.35"/>
 <wire x1="4.445" y1="40.64" x2="4.445" y2="38.521" width="0.254" layer="1"/>
 <wire x1="4.445" y1="38.521" x2="4.417" y2="38.493" width="0.254" layer="1"/>
+<contactref element="S201" pad="2"/>
 </signal>
 <signal name="+3V3_PROC">
 <contactref element="U101" pad="VDDIO3"/>
@@ -3245,7 +3242,6 @@ design rules under a new name.</description>
 <wire x1="19.05" y1="18.415" x2="26.035" y2="18.5094" width="0" layer="19" extent="16-16"/>
 </signal>
 <signal name="N$1">
-<contactref element="S201" pad="1"/>
 </signal>
 </signals>
 <mfgpreviewcolors>
