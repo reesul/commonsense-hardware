@@ -4918,7 +4918,7 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <part name="+3V3" library="Supplies" deviceset="+3V3" device=""/>
 <part name="GND7" library="Supplies" deviceset="GND" device=""/>
 <part name="R101" library="Resistors" deviceset="R-" device="0402" value="10k">
-<attribute name="PART_NO" value="P10KJCT-ND "/>
+<attribute name="PART_NO" value="ERJ-2GEJ103X"/>
 </part>
 <part name="R102" library="Resistors" deviceset="R-" device="0402" value="330">
 <attribute name="PART_NO" value="ERJ-2GEJ331X"/>

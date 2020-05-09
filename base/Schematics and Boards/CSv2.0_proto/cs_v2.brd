@@ -1815,7 +1815,7 @@ design rules under a new name.</description>
 <element name="R101" library="Resistors" package="R0402" value="10k" x="5.3594" y="8.4836" smashed="yes">
 <attribute name="MANUFACTURER" value="Panasonic" x="67.5894" y="-57.5564" size="1.778" layer="27" display="off"/>
 <attribute name="NAME" x="4.6926" y="8.3423" size="0.3048" layer="255"/>
-<attribute name="PART_NO" value="P10KJCT-ND " x="67.5894" y="-57.5564" size="1.778" layer="27" display="off"/>
+<attribute name="PART_NO" value="ERJ-2GEJ103X" x="67.5894" y="-57.5564" size="1.778" layer="27" display="off"/>
 <attribute name="TOL" value="5%" x="67.5894" y="-57.5564" size="1.778" layer="27" display="off"/>
 </element>
 <element name="R103" library="Resistors" package="R0402" value="4.7k" x="36.7538" y="6.985" smashed="yes" rot="R270">
