@@ -4836,6 +4836,8 @@ You are welcome to use this library for commercial purposes. For attribution, we
 </class>
 <class number="1" name="power_3v3" width="0.254" drill="0">
 </class>
+<class number="2" name="differential" width="0" drill="0">
+</class>
 <class number="5" name="10_mil" width="0.254" drill="0">
 </class>
 </classes>
@@ -5937,22 +5939,6 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <wire x1="137.16" y1="251.46" x2="139.7" y2="254" width="0.1524" layer="91"/>
 </segment>
 </net>
-<net name="DBG_USB_D-" class="0">
-<segment>
-<pinref part="U101" gate="G$1" pin="PA24"/>
-<wire x1="165.1" y1="190.5" x2="165.1" y2="241.3" width="0.1524" layer="91"/>
-<label x="165.1" y="200.66" size="1.778" layer="95" rot="R90"/>
-<wire x1="165.1" y1="241.3" x2="167.64" y2="243.84" width="0.1524" layer="91"/>
-</segment>
-</net>
-<net name="DBG_USB_D+" class="0">
-<segment>
-<pinref part="U101" gate="G$1" pin="PA25"/>
-<wire x1="167.64" y1="190.5" x2="167.64" y2="241.3" width="0.1524" layer="91"/>
-<label x="167.64" y="200.66" size="1.778" layer="95" rot="R90"/>
-<wire x1="167.64" y1="241.3" x2="170.18" y2="243.84" width="0.1524" layer="91"/>
-</segment>
-</net>
 <net name="DBG_TRACE_SWO" class="0">
 <segment>
 <pinref part="U101" gate="G$1" pin="PB30"/>
@@ -6381,6 +6367,22 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <wire x1="340.36" y1="248.92" x2="370.84" y2="248.92" width="0.1524" layer="91"/>
 <junction x="340.36" y="248.92"/>
 <pinref part="R106" gate="G$1" pin="2"/>
+</segment>
+</net>
+<net name="DBG_USB_D_N" class="2">
+<segment>
+<pinref part="U101" gate="G$1" pin="PA24"/>
+<wire x1="165.1" y1="190.5" x2="165.1" y2="241.3" width="0.1524" layer="91"/>
+<label x="165.1" y="200.66" size="1.778" layer="95" rot="R90"/>
+<wire x1="165.1" y1="241.3" x2="167.64" y2="243.84" width="0.1524" layer="91"/>
+</segment>
+</net>
+<net name="DBG_USB_D_P" class="2">
+<segment>
+<pinref part="U101" gate="G$1" pin="PA25"/>
+<wire x1="167.64" y1="190.5" x2="167.64" y2="241.3" width="0.1524" layer="91"/>
+<label x="167.64" y="200.66" size="1.778" layer="95" rot="R90"/>
+<wire x1="167.64" y1="241.3" x2="170.18" y2="243.84" width="0.1524" layer="91"/>
 </segment>
 </net>
 </nets>
@@ -7423,7 +7425,7 @@ PMOS in deployements</text>
 <pinref part="J302" gate="G$1" pin="21"/>
 </segment>
 </net>
-<net name="DBG_USB_D-" class="0">
+<net name="DBG_USB_D_N" class="2">
 <segment>
 <wire x1="281.94" y1="218.44" x2="284.48" y2="215.9" width="0.1524" layer="91"/>
 <wire x1="284.48" y1="215.9" x2="284.48" y2="160.02" width="0.1524" layer="91"/>
@@ -7431,7 +7433,7 @@ PMOS in deployements</text>
 <pinref part="J302" gate="G$1" pin="22"/>
 </segment>
 </net>
-<net name="DBG_USB_D+" class="0">
+<net name="DBG_USB_D_P" class="2">
 <segment>
 <wire x1="284.48" y1="218.44" x2="287.02" y2="215.9" width="0.1524" layer="91"/>
 <wire x1="287.02" y1="215.9" x2="287.02" y2="160.02" width="0.1524" layer="91"/>
