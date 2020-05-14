@@ -2072,6 +2072,8 @@ JST PH 2-pin thru-home side entry</description>
 <rectangle x1="0.9002875" y1="1.1938" x2="1.0958625" y2="1.8796" layer="31"/>
 <rectangle x1="0.5002875" y1="1.1938" x2="0.6958625" y2="1.8796" layer="31"/>
 <rectangle x1="0.1002875" y1="1.1938" x2="0.2958625" y2="1.8796" layer="31"/>
+<rectangle x1="-4.3688" y1="-1.9304" x2="4.3688" y2="-1.1176" layer="29"/>
+<rectangle x1="-4.3688" y1="1.1176" x2="4.3688" y2="1.9304" layer="29"/>
 </package>
 <package name="8.06.16_6-PIN_NEEDLE_ADAPTER_LEGS">
 <wire x1="-4.127" y1="4" x2="-4.127" y2="-4" width="0.05" layer="39"/>
@@ -2196,6 +2198,8 @@ JST PH 2-pin thru-home side entry</description>
 <rectangle x1="1.10601875" y1="1.1938" x2="1.29398125" y2="1.8796" layer="31"/>
 <rectangle x1="0.70601875" y1="1.1938" x2="0.89398125" y2="1.8796" layer="31"/>
 <rectangle x1="0.30601875" y1="1.1938" x2="0.49398125" y2="1.8796" layer="31"/>
+<rectangle x1="-2.9718" y1="-1.9558" x2="2.9718" y2="-1.143" layer="29"/>
+<rectangle x1="-2.9718" y1="1.143" x2="2.9718" y2="1.9558" layer="29"/>
 </package>
 <package name="HRS_DF40C-44DP-0.4V(51)">
 <wire x1="-5.160003125" y1="0.924996875" x2="5.160003125" y2="0.924996875" width="0.127" layer="51"/>
@@ -5065,8 +5069,8 @@ You are welcome to use this library for commercial purposes. For attribution, we
 </part>
 <part name="+3V5" library="Supplies" deviceset="+3V3" device=""/>
 <part name="GND18" library="Supplies" deviceset="GND" device=""/>
-<part name="TP_RX" library="TestPoints" deviceset="TP" device="TP06R" package3d_urn="urn:adsk.eagle:package:27954/1" value="TPTP06R"/>
-<part name="TP_TX" library="TestPoints" deviceset="TP" device="TP06R" package3d_urn="urn:adsk.eagle:package:27954/1" value="TPTP06R"/>
+<part name="RXDBG" library="TestPoints" deviceset="TP" device="TP06R" package3d_urn="urn:adsk.eagle:package:27954/1" value="TPTP06R"/>
+<part name="TXDBG" library="TestPoints" deviceset="TP" device="TP06R" package3d_urn="urn:adsk.eagle:package:27954/1" value="TPTP06R"/>
 <part name="R105" library="Resistors" deviceset="R-" device="0402" value="39">
 <attribute name="PART_NO" value="ERJ-2GEJ390X"/>
 </part>
@@ -5110,13 +5114,13 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <part name="+3V9" library="Supplies" deviceset="+3V3" device=""/>
 <part name="GND14" library="Supplies" deviceset="GND" device=""/>
 <part name="JP203" library="SparkFun-Jumpers" deviceset="JUMPER-SMT_3_1-NC_PASTE" device="_NO-SILK" package3d_urn="urn:adsk.eagle:package:39291/1"/>
-<part name="TP_CPU" library="TestPoints" deviceset="TP" device="TP06R" package3d_urn="urn:adsk.eagle:package:27954/1" value="TPTP06R"/>
-<part name="TP_PROC" library="TestPoints" deviceset="TP" device="TP06R" package3d_urn="urn:adsk.eagle:package:27954/1" value="TPTP06R"/>
-<part name="TP_DTR" library="TestPoints" deviceset="TP" device="TP06R" package3d_urn="urn:adsk.eagle:package:27954/1" value="TPTP06R"/>
-<part name="TP_TEMP" library="TestPoints" deviceset="TP" device="TP06R" package3d_urn="urn:adsk.eagle:package:27954/1" value="TPTP06R"/>
-<part name="TP_STOR" library="TestPoints" deviceset="TP" device="TP06R" package3d_urn="urn:adsk.eagle:package:27954/1" value="TPTP06R"/>
-<part name="TP_SDA" library="TestPoints" deviceset="TP" device="TP06R" package3d_urn="urn:adsk.eagle:package:27954/1" value="TPTP06R"/>
-<part name="TP_SCL" library="TestPoints" deviceset="TP" device="TP06R" package3d_urn="urn:adsk.eagle:package:27954/1" value="TPTP06R"/>
+<part name="CPU" library="TestPoints" deviceset="TP" device="TP06R" package3d_urn="urn:adsk.eagle:package:27954/1" value="TPTP06R"/>
+<part name="PROC" library="TestPoints" deviceset="TP" device="TP06R" package3d_urn="urn:adsk.eagle:package:27954/1" value="TPTP06R"/>
+<part name="DTR" library="TestPoints" deviceset="TP" device="TP06R" package3d_urn="urn:adsk.eagle:package:27954/1" value="TPTP06R"/>
+<part name="TEMP" library="TestPoints" deviceset="TP" device="TP06R" package3d_urn="urn:adsk.eagle:package:27954/1" value="TPTP06R"/>
+<part name="STOR" library="TestPoints" deviceset="TP" device="TP06R" package3d_urn="urn:adsk.eagle:package:27954/1" value="TPTP06R"/>
+<part name="SDA" library="TestPoints" deviceset="TP" device="TP06R" package3d_urn="urn:adsk.eagle:package:27954/1" value="TPTP06R"/>
+<part name="SCL" library="TestPoints" deviceset="TP" device="TP06R" package3d_urn="urn:adsk.eagle:package:27954/1" value="TPTP06R"/>
 <part name="L101" library="Inductors" deviceset="L1212" device="">
 <attribute name="PART_NO" value="LQH3NPN100MMEL"/>
 </part>
@@ -5309,11 +5313,11 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <instance part="GND18" gate="1" x="314.96" y="213.36" smashed="yes">
 <attribute name="VALUE" x="307.34" y="213.36" size="1.778" layer="96"/>
 </instance>
-<instance part="TP_RX" gate="G$1" x="33.02" y="152.4" smashed="yes" rot="R90">
+<instance part="RXDBG" gate="G$1" x="33.02" y="152.4" smashed="yes" rot="R90">
 <attribute name="NAME" x="31.75" y="151.384" size="1.778" layer="95" rot="R180"/>
 <attribute name="VALUE" x="31.75" y="154.94" size="1.778" layer="97" rot="R180"/>
 </instance>
-<instance part="TP_TX" gate="G$1" x="50.8" y="152.4" smashed="yes" rot="R90">
+<instance part="TXDBG" gate="G$1" x="50.8" y="152.4" smashed="yes" rot="R90">
 <attribute name="NAME" x="49.53" y="151.384" size="1.778" layer="95" rot="R180"/>
 <attribute name="VALUE" x="49.53" y="154.94" size="1.778" layer="97" rot="R180"/>
 </instance>
@@ -5341,13 +5345,13 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <instance part="GND14" gate="1" x="365.76" y="66.04" smashed="yes">
 <attribute name="VALUE" x="363.22" y="63.5" size="1.778" layer="96"/>
 </instance>
-<instance part="TP_CPU" gate="G$1" x="231.14" y="187.96" smashed="yes" rot="MR0">
+<instance part="CPU" gate="G$1" x="231.14" y="187.96" smashed="yes" rot="MR0">
 <attribute name="NAME" x="232.156" y="189.23" size="1.778" layer="95" rot="MR90"/>
 </instance>
-<instance part="TP_SDA" gate="G$1" x="259.08" y="200.66" smashed="yes" rot="MR0">
+<instance part="SDA" gate="G$1" x="259.08" y="200.66" smashed="yes" rot="MR0">
 <attribute name="NAME" x="260.096" y="201.93" size="1.778" layer="95" rot="MR90"/>
 </instance>
-<instance part="TP_SCL" gate="G$1" x="223.52" y="200.66" smashed="yes" rot="MR0">
+<instance part="SCL" gate="G$1" x="223.52" y="200.66" smashed="yes" rot="MR0">
 <attribute name="NAME" x="224.536" y="201.93" size="1.778" layer="95" rot="MR90"/>
 </instance>
 <instance part="L101" gate="G$1" x="210.82" y="175.26" smashed="yes">
@@ -5543,7 +5547,7 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <wire x1="218.44" y1="185.42" x2="231.14" y2="185.42" width="0.1524" layer="91"/>
 <wire x1="231.14" y1="185.42" x2="231.14" y2="182.88" width="0.1524" layer="91"/>
 <junction x="231.14" y="182.88"/>
-<pinref part="TP_CPU" gate="G$1" pin="TP"/>
+<pinref part="CPU" gate="G$1" pin="TP"/>
 <junction x="231.14" y="185.42"/>
 <pinref part="L101" gate="G$1" pin="2"/>
 <junction x="218.44" y="175.26"/>
@@ -5749,7 +5753,7 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <label x="55.88" y="149.86" size="1.778" layer="95"/>
 <wire x1="53.34" y1="149.86" x2="22.86" y2="149.86" width="0.1524" layer="91"/>
 <wire x1="22.86" y1="149.86" x2="20.32" y2="152.4" width="0.1524" layer="91"/>
-<pinref part="TP_TX" gate="G$1" pin="TP"/>
+<pinref part="TXDBG" gate="G$1" pin="TP"/>
 <wire x1="53.34" y1="149.86" x2="53.34" y2="152.4" width="0.1524" layer="91"/>
 <junction x="53.34" y="149.86"/>
 </segment>
@@ -5761,7 +5765,7 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <label x="55.88" y="147.32" size="1.778" layer="95"/>
 <wire x1="35.56" y1="147.32" x2="22.86" y2="147.32" width="0.1524" layer="91"/>
 <wire x1="22.86" y1="147.32" x2="20.32" y2="149.86" width="0.1524" layer="91"/>
-<pinref part="TP_RX" gate="G$1" pin="TP"/>
+<pinref part="RXDBG" gate="G$1" pin="TP"/>
 <wire x1="35.56" y1="147.32" x2="35.56" y2="152.4" width="0.1524" layer="91"/>
 <junction x="35.56" y="147.32"/>
 </segment>
@@ -5851,7 +5855,7 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <label x="251.46" y="203.2" size="1.778" layer="95" rot="MR90"/>
 <wire x1="254" y1="198.12" x2="259.08" y2="198.12" width="0.1524" layer="91"/>
 <junction x="254" y="198.12"/>
-<pinref part="TP_SDA" gate="G$1" pin="TP"/>
+<pinref part="SDA" gate="G$1" pin="TP"/>
 </segment>
 </net>
 <net name="DTR_MASTER_I2C_SCL" class="0">
@@ -5866,7 +5870,7 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <wire x1="228.6" y1="251.46" x2="228.6" y2="198.12" width="0.1524" layer="91"/>
 <pinref part="R103" gate="G$1" pin="1"/>
 <label x="228.6" y="203.2" size="1.778" layer="95" rot="R90"/>
-<pinref part="TP_SCL" gate="G$1" pin="TP"/>
+<pinref part="SCL" gate="G$1" pin="TP"/>
 <wire x1="228.6" y1="198.12" x2="223.52" y2="198.12" width="0.1524" layer="91"/>
 <junction x="228.6" y="198.12"/>
 </segment>
@@ -6654,16 +6658,16 @@ PMOS in deployements</text>
 <instance part="JP203" gate="G$1" x="88.9" y="175.26" smashed="yes" rot="R180">
 <attribute name="NAME" x="86.36" y="174.879" size="1.778" layer="95" font="vector" rot="R180"/>
 </instance>
-<instance part="TP_PROC" gate="G$1" x="350.52" y="190.5" smashed="yes" rot="MR0">
+<instance part="PROC" gate="G$1" x="350.52" y="190.5" smashed="yes" rot="MR0">
 <attribute name="NAME" x="351.536" y="191.77" size="1.778" layer="95" rot="MR90"/>
 </instance>
-<instance part="TP_DTR" gate="G$1" x="350.52" y="177.8" smashed="yes" rot="MR0">
+<instance part="DTR" gate="G$1" x="350.52" y="177.8" smashed="yes" rot="MR0">
 <attribute name="NAME" x="351.536" y="179.07" size="1.778" layer="95" rot="MR90"/>
 </instance>
-<instance part="TP_TEMP" gate="G$1" x="373.38" y="111.76" smashed="yes" rot="MR0">
+<instance part="TEMP" gate="G$1" x="373.38" y="111.76" smashed="yes" rot="MR0">
 <attribute name="NAME" x="374.396" y="113.03" size="1.778" layer="95" rot="MR90"/>
 </instance>
-<instance part="TP_STOR" gate="G$1" x="373.38" y="152.4" smashed="yes" rot="MR0">
+<instance part="STOR" gate="G$1" x="373.38" y="152.4" smashed="yes" rot="MR0">
 <attribute name="NAME" x="374.396" y="153.67" size="1.778" layer="95" rot="MR90"/>
 </instance>
 </instances>
@@ -6900,7 +6904,7 @@ PMOS in deployements</text>
 <junction x="358.14" y="149.86"/>
 <wire x1="373.38" y1="149.86" x2="383.54" y2="149.86" width="0.1524" layer="91"/>
 <wire x1="383.54" y1="149.86" x2="386.08" y2="152.4" width="0.1524" layer="91"/>
-<pinref part="TP_STOR" gate="G$1" pin="TP"/>
+<pinref part="STOR" gate="G$1" pin="TP"/>
 <junction x="373.38" y="149.86"/>
 </segment>
 </net>
@@ -6911,7 +6915,7 @@ PMOS in deployements</text>
 <wire x1="350.52" y1="175.26" x2="383.54" y2="175.26" width="0.1524" layer="91"/>
 <wire x1="383.54" y1="175.26" x2="386.08" y2="177.8" width="0.1524" layer="91"/>
 <pinref part="JP205" gate="G$1" pin="1"/>
-<pinref part="TP_DTR" gate="G$1" pin="TP"/>
+<pinref part="DTR" gate="G$1" pin="TP"/>
 <junction x="350.52" y="175.26"/>
 </segment>
 </net>
@@ -6922,7 +6926,7 @@ PMOS in deployements</text>
 <wire x1="350.52" y1="187.96" x2="383.54" y2="187.96" width="0.1524" layer="91"/>
 <wire x1="383.54" y1="187.96" x2="386.08" y2="190.5" width="0.1524" layer="91"/>
 <pinref part="JP204" gate="G$1" pin="1"/>
-<pinref part="TP_PROC" gate="G$1" pin="TP"/>
+<pinref part="PROC" gate="G$1" pin="TP"/>
 <junction x="350.52" y="187.96"/>
 </segment>
 <segment>
@@ -7112,7 +7116,7 @@ PMOS in deployements</text>
 <junction x="358.14" y="109.22"/>
 <wire x1="373.38" y1="109.22" x2="383.54" y2="109.22" width="0.1524" layer="91"/>
 <wire x1="383.54" y1="109.22" x2="386.08" y2="111.76" width="0.1524" layer="91"/>
-<pinref part="TP_TEMP" gate="G$1" pin="TP"/>
+<pinref part="TEMP" gate="G$1" pin="TP"/>
 <junction x="373.38" y="109.22"/>
 </segment>
 <segment>

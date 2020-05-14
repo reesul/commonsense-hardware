@@ -4,9 +4,9 @@
         "name": "Autodesk EAGLE"
     },
     "description": {
-        "EN": "EAGLE default 8 layer CAM job."
+        "EN": "EAGLE default 4 layer CAM job."
     },
-    "output_type": "directory",
+    "output_type": "zip",
     "outputs": [
         {
             "filename_prefix": "CAMOutputs/GerberFiles",
@@ -25,14 +25,14 @@
                         "rotate": false,
                         "upside_down": false
                     },
-                    "board_outline": false,
+                    "board_outline": true,
                     "config": {
                         "file_function": "Copper",
                         "layer": 1,
                         "layer_details": "mixed",
                         "layer_type": "top"
                     },
-                    "filename_format": "%PREFIX/%FF.gbr",
+                    "filename_format": "%PREFIX/copper_top_l1.gbr",
                     "layers": [
                         1,
                         17,
@@ -50,14 +50,14 @@
                         "rotate": false,
                         "upside_down": false
                     },
-                    "board_outline": false,
+                    "board_outline": true,
                     "config": {
                         "file_function": "Copper",
                         "layer": 2,
                         "layer_details": "mixed",
                         "layer_type": "Inner"
                     },
-                    "filename_format": "%PREFIX/%FF.gbr",
+                    "filename_format": "%PREFIX/copper_inner_l2.gbr",
                     "layers": [
                         2,
                         17,
@@ -75,114 +75,14 @@
                         "rotate": false,
                         "upside_down": false
                     },
-                    "board_outline": false,
+                    "board_outline": true,
                     "config": {
                         "file_function": "Copper",
                         "layer": 3,
                         "layer_details": "mixed",
                         "layer_type": "Inner"
                     },
-                    "filename_format": "%PREFIX/%FF.gbr",
-                    "layers": [
-                        3,
-                        17,
-                        18
-                    ],
-                    "name": "Copper Layer 3",
-                    "polarity": "positive",
-                    "type": "gerber_layer"
-                },
-                {
-                    "advanced_options": {
-                        "mirror": false,
-                        "offset_x": 0,
-                        "offset_y": 0,
-                        "rotate": false,
-                        "upside_down": false
-                    },
-                    "board_outline": false,
-                    "config": {
-                        "file_function": "Copper",
-                        "layer": 4,
-                        "layer_details": "mixed",
-                        "layer_type": "Inner"
-                    },
-                    "filename_format": "%PREFIX/%FF.gbr",
-                    "layers": [
-                        4,
-                        17,
-                        18
-                    ],
-                    "name": "Copper Layer 4",
-                    "polarity": "positive",
-                    "type": "gerber_layer"
-                },
-                {
-                    "advanced_options": {
-                        "mirror": false,
-                        "offset_x": 0,
-                        "offset_y": 0,
-                        "rotate": false,
-                        "upside_down": false
-                    },
-                    "board_outline": false,
-                    "config": {
-                        "file_function": "Copper",
-                        "layer": 5,
-                        "layer_details": "mixed",
-                        "layer_type": "Inner"
-                    },
-                    "filename_format": "%PREFIX/%FF.gbr",
-                    "layers": [
-                        13,
-                        17,
-                        18
-                    ],
-                    "name": "Copper Layer 13",
-                    "polarity": "positive",
-                    "type": "gerber_layer"
-                },
-                {
-                    "advanced_options": {
-                        "mirror": false,
-                        "offset_x": 0,
-                        "offset_y": 0,
-                        "rotate": false,
-                        "upside_down": false
-                    },
-                    "board_outline": false,
-                    "config": {
-                        "file_function": "Copper",
-                        "layer": 6,
-                        "layer_details": "mixed",
-                        "layer_type": "Inner"
-                    },
-                    "filename_format": "%PREFIX/%FF.gbr",
-                    "layers": [
-                        14,
-                        17,
-                        18
-                    ],
-                    "name": "Copper Layer 14",
-                    "polarity": "positive",
-                    "type": "gerber_layer"
-                },
-                {
-                    "advanced_options": {
-                        "mirror": false,
-                        "offset_x": 0,
-                        "offset_y": 0,
-                        "rotate": false,
-                        "upside_down": false
-                    },
-                    "board_outline": false,
-                    "config": {
-                        "file_function": "Copper",
-                        "layer": 7,
-                        "layer_details": "mixed",
-                        "layer_type": "Inner"
-                    },
-                    "filename_format": "%PREFIX/%FF.gbr",
+                    "filename_format": "%PREFIX/copper_inner_l3.gbr",
                     "layers": [
                         15,
                         17,
@@ -200,14 +100,14 @@
                         "rotate": false,
                         "upside_down": false
                     },
-                    "board_outline": false,
+                    "board_outline": true,
                     "config": {
                         "file_function": "Copper",
-                        "layer": 8,
+                        "layer": 4,
                         "layer_details": "mixed",
                         "layer_type": "bottom"
                     },
-                    "filename_format": "%PREFIX/%FF.gbr",
+                    "filename_format": "%PREFIX/copper_bottom_l4.gbr",
                     "layers": [
                         16,
                         17,
@@ -230,7 +130,7 @@
                         "file_function": "Profile",
                         "plating": "non-plated"
                     },
-                    "filename_format": "%PREFIX/%FF.gbr",
+                    "filename_format": "%PREFIX/profile.gbr",
                     "layers": [
                     ],
                     "milling": true,
@@ -245,13 +145,13 @@
                         "rotate": false,
                         "upside_down": false
                     },
-                    "board_outline": false,
+                    "board_outline": true,
                     "config": {
                         "file_function": "Soldermask",
                         "index": 1,
                         "layer_type": "top"
                     },
-                    "filename_format": "%PREFIX/%FF.gbr",
+                    "filename_format": "%PREFIX/soldermask_top.gbr",
                     "layers": [
                         29
                     ],
@@ -267,13 +167,13 @@
                         "rotate": false,
                         "upside_down": false
                     },
-                    "board_outline": false,
+                    "board_outline": true,
                     "config": {
                         "file_function": "Soldermask",
                         "index": 1,
                         "layer_type": "bottom"
                     },
-                    "filename_format": "%PREFIX/%FF.gbr",
+                    "filename_format": "%PREFIX/soldermask_bottom.gbr",
                     "layers": [
                         30
                     ],
@@ -289,12 +189,12 @@
                         "rotate": false,
                         "upside_down": false
                     },
-                    "board_outline": false,
+                    "board_outline": true,
                     "config": {
                         "file_function": "Paste",
                         "layer_type": "top"
                     },
-                    "filename_format": "%PREFIX/%FF.gbr",
+                    "filename_format": "%PREFIX/solderpaste_top.gbr",
                     "layers": [
                         31
                     ],
@@ -311,12 +211,12 @@
                         "rotate": false,
                         "upside_down": false
                     },
-                    "board_outline": false,
+                    "board_outline": true,
                     "config": {
                         "file_function": "Paste",
                         "layer_type": "bottom"
                     },
-                    "filename_format": "%PREFIX/%FF.gbr",
+                    "filename_format": "%PREFIX/solderpaste_bottom.gbr",
                     "layers": [
                         32
                     ],
@@ -333,13 +233,13 @@
                         "rotate": false,
                         "upside_down": false
                     },
-                    "board_outline": false,
+                    "board_outline": true,
                     "config": {
                         "file_function": "Legend",
                         "index": 1,
                         "layer_type": "top"
                     },
-                    "filename_format": "%PREFIX/%FF.gbr",
+                    "filename_format": "%PREFIX/silkscreen_top.gbr",
                     "layers": [
                         21,
                         25
@@ -357,13 +257,13 @@
                         "rotate": false,
                         "upside_down": false
                     },
-                    "board_outline": false,
+                    "board_outline": true,
                     "config": {
                         "file_function": "Legend",
                         "index": 1,
                         "layer_type": "bottom"
                     },
-                    "filename_format": "%PREFIX/%FF.gbr",
+                    "filename_format": "%PREFIX/silkscreen_bottom.gbr",
                     "layers": [
                         22,
                         26
@@ -425,7 +325,7 @@
             ]
         }
     ],
-    "timestamp": "2019-07-17T18:00:38",
+    "timestamp": "2019-07-17T17:49:43",
     "type": "EAGLE CAM job",
     "units": "metric",
     "version": "9.2.0"
