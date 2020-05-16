@@ -933,7 +933,7 @@ Pad dimensions from http://www.kemet.com/Lists/ProductCatalog/Attachments/53/KEM
 <wire x1="0.9" y1="-0.45" x2="-0.9" y2="-0.45" width="0.05" layer="51"/>
 <smd name="1" x="-0.45" y="0" dx="0.62" dy="0.62" layer="1"/>
 <smd name="2" x="0.45" y="0" dx="0.62" dy="0.62" layer="1"/>
-<text x="-0.6668" y="-0.1413" size="0.3048" layer="51">&gt;Name</text>
+<text x="-0.6668" y="-0.1413" size="0.3048" layer="25">&gt;Name</text>
 <rectangle x1="-0.9" y1="-0.45" x2="0.9" y2="0.45" layer="43"/>
 <rectangle x1="-0.2" y1="-0.2" x2="0.2" y2="0.2" layer="35"/>
 <wire x1="-0.9" y1="-0.45" x2="-0.9" y2="0.45" width="0.05" layer="255"/>
@@ -1207,12 +1207,16 @@ Pad dimensions from https://www.vishay.com/docs/34041/imc1008.pdf</description>
 Pad dimensions from: https://search.murata.co.jp/Ceramy/image/img/P02/JELF243A-0153.pdf</description>
 <smd name="P$1" x="-1.1" y="0" dx="0.8128" dy="2.667" layer="1"/>
 <smd name="P$2" x="1.1" y="0" dx="0.8128" dy="2.667" layer="1"/>
+<wire x1="-1.5" y1="-1.5" x2="1.5" y2="-1.5" width="0.127" layer="51"/>
+<wire x1="1.5" y1="1.5" x2="-1.5" y2="1.5" width="0.127" layer="51"/>
+<wire x1="-1.5" y1="-1.5" x2="-1.5" y2="1.5" width="0.127" layer="51"/>
+<wire x1="1.5" y1="-1.5" x2="1.5" y2="1.5" width="0.127" layer="51"/>
+<text x="-1.651" y="1.651" size="0.8128" layer="25">&gt;Name</text>
+<text x="-1.778" y="-2.54" size="0.8128" layer="27">&gt;Value</text>
 <wire x1="-1.5" y1="-1.5" x2="1.5" y2="-1.5" width="0.127" layer="21"/>
 <wire x1="1.5" y1="1.5" x2="-1.5" y2="1.5" width="0.127" layer="21"/>
 <wire x1="-1.5" y1="-1.5" x2="-1.5" y2="1.5" width="0.127" layer="21"/>
 <wire x1="1.5" y1="-1.5" x2="1.5" y2="1.5" width="0.127" layer="21"/>
-<text x="-1.651" y="1.651" size="0.8128" layer="25">&gt;Name</text>
-<text x="-1.778" y="-2.54" size="0.8128" layer="27">&gt;Value</text>
 </package>
 </packages>
 <symbols>
@@ -4665,12 +4669,10 @@ Digikey part 336-3124-ND</description>
 <rectangle x1="-1.075" y1="-1.265" x2="1.075" y2="1.265" layer="31"/>
 <circle x="-4.06" y="1.905" radius="0.1" width="0.2" layer="21"/>
 <circle x="-4.06" y="1.905" radius="0.1" width="0.2" layer="51"/>
-<wire x1="-3" y1="2.5" x2="3" y2="2.5" width="0.127" layer="51"/>
-<wire x1="-3" y1="-2.5" x2="3" y2="-2.5" width="0.127" layer="51"/>
 <wire x1="-3" y1="2.5" x2="3" y2="2.5" width="0.127" layer="21"/>
 <wire x1="-3" y1="-2.5" x2="3" y2="-2.5" width="0.127" layer="21"/>
-<wire x1="-3" y1="2.5" x2="-3" y2="-2.5" width="0.127" layer="51"/>
-<wire x1="3" y1="2.5" x2="3" y2="-2.5" width="0.127" layer="51"/>
+<wire x1="-3" y1="2.5" x2="-3" y2="-2.5" width="0.127" layer="21"/>
+<wire x1="3" y1="2.5" x2="3" y2="-2.5" width="0.127" layer="21"/>
 <wire x1="-3.615" y1="2.75" x2="3.615" y2="2.75" width="0.05" layer="39"/>
 <wire x1="-3.615" y1="-2.75" x2="3.615" y2="-2.75" width="0.05" layer="39"/>
 <wire x1="-3.615" y1="2.75" x2="-3.615" y2="-2.75" width="0.05" layer="39"/>
@@ -4685,6 +4687,10 @@ Digikey part 336-3124-ND</description>
 <smd name="7" x="2.845" y="0.635" dx="1.04" dy="0.44" layer="1" roundness="25"/>
 <smd name="8" x="2.845" y="1.905" dx="1.04" dy="0.44" layer="1" roundness="25"/>
 <smd name="9" x="0" y="0" dx="3.4" dy="4" layer="1" cream="no"/>
+<wire x1="-3" y1="2.5" x2="3" y2="2.5" width="0.127" layer="51"/>
+<wire x1="-3" y1="-2.5" x2="3" y2="-2.5" width="0.127" layer="51"/>
+<wire x1="-3" y1="2.5" x2="-3" y2="-2.5" width="0.127" layer="51"/>
+<wire x1="3" y1="2.5" x2="3" y2="-2.5" width="0.127" layer="51"/>
 </package>
 </packages>
 <symbols>
