@@ -1522,14 +1522,18 @@ Pad dimensions from https://www.vishay.com/docs/45017/vjw1bcsoldfootdesign.pdf</
 <circle x="-2.286" y="-0.889" radius="0.254" width="0" layer="21"/>
 </package>
 <package name="XTAL320X150X90">
-<wire x1="-1.6002" y1="0.7493" x2="1.6002" y2="0.7493" width="0.127" layer="21"/>
-<wire x1="1.6002" y1="0.7493" x2="1.6002" y2="-0.7493" width="0.127" layer="21"/>
-<wire x1="1.6002" y1="-0.7493" x2="-1.6002" y2="-0.7493" width="0.127" layer="21"/>
-<wire x1="-1.6002" y1="-0.7493" x2="-1.6002" y2="0.7493" width="0.127" layer="21"/>
+<wire x1="-1.6002" y1="0.7493" x2="1.6002" y2="0.7493" width="0.127" layer="51"/>
+<wire x1="1.6002" y1="0.7493" x2="1.6002" y2="-0.7493" width="0.127" layer="51"/>
+<wire x1="1.6002" y1="-0.7493" x2="-1.6002" y2="-0.7493" width="0.127" layer="51"/>
+<wire x1="-1.6002" y1="-0.7493" x2="-1.6002" y2="0.7493" width="0.127" layer="51"/>
 <text x="-2.543109375" y="1.27155" size="1.27155" layer="25">&gt;NAME</text>
 <text x="-2.54348125" y="-2.54348125" size="1.271740625" layer="27">&gt;VALUE</text>
 <smd name="1" x="-1.2446" y="0" dx="1.0922" dy="1.905" layer="1"/>
 <smd name="2" x="1.2446" y="0" dx="1.0922" dy="1.905" layer="1"/>
+<wire x1="-1.6002" y1="0.7493" x2="1.6002" y2="0.7493" width="0.127" layer="21"/>
+<wire x1="1.6002" y1="0.7493" x2="1.6002" y2="-0.7493" width="0.127" layer="21"/>
+<wire x1="1.6002" y1="-0.7493" x2="-1.6002" y2="-0.7493" width="0.127" layer="21"/>
+<wire x1="-1.6002" y1="-0.7493" x2="-1.6002" y2="0.7493" width="0.127" layer="21"/>
 </package>
 </packages>
 <symbols>
@@ -1896,8 +1900,7 @@ JST PH 2-pin thru-home side entry</description>
 <wire x1="5.699996875" y1="1.47" x2="5.699996875" y2="-1.47" width="0.127" layer="51"/>
 <wire x1="5.699996875" y1="-1.47" x2="-5.7" y2="-1.47" width="0.127" layer="51"/>
 <wire x1="-5.7" y1="-1.47" x2="-5.7" y2="1.47" width="0.127" layer="51"/>
-<circle x="-4.699996875" y="-1.9" radius="0.07" width="0.14" layer="51"/>
-<circle x="-4.699996875" y="-1.9" radius="0.07" width="0.14" layer="51"/>
+<circle x="-4.699996875" y="-1.9" radius="0.07" width="0.14" layer="21"/>
 <wire x1="-5.949996875" y1="2.14" x2="5.949996875" y2="2.14" width="0.05" layer="39"/>
 <wire x1="5.949996875" y1="2.14" x2="5.949996875" y2="-2.14" width="0.05" layer="39"/>
 <wire x1="5.949996875" y1="-2.14" x2="-5.949996875" y2="-2.14" width="0.05" layer="39"/>
@@ -2064,8 +2067,7 @@ JST PH 2-pin thru-home side entry</description>
 <wire x1="4.299996875" y1="1.47" x2="4.299996875" y2="-1.47" width="0.127" layer="51"/>
 <wire x1="4.299996875" y1="-1.47" x2="-4.299996875" y2="-1.47" width="0.127" layer="51"/>
 <wire x1="-4.299996875" y1="-1.47" x2="-4.299996875" y2="1.47" width="0.127" layer="51"/>
-<circle x="-3.299996875" y="-1.9" radius="0.07" width="0.14" layer="51"/>
-<circle x="-3.299996875" y="-1.9" radius="0.07" width="0.14" layer="51"/>
+<circle x="-3.299996875" y="-1.9" radius="0.07" width="0.14" layer="22"/>
 <wire x1="-4.549996875" y1="2.14" x2="4.549996875" y2="2.14" width="0.05" layer="39"/>
 <wire x1="4.549996875" y1="2.14" x2="4.549996875" y2="-2.14" width="0.05" layer="39"/>
 <wire x1="4.549996875" y1="-2.14" x2="-4.549996875" y2="-2.14" width="0.05" layer="39"/>
@@ -2933,13 +2935,13 @@ Design verified by Reese</description>
 <wire x1="-1.1" y1="-2.35" x2="-1.1" y2="-1.85" width="0.05" layer="39"/>
 <wire x1="-1.1" y1="-1.85" x2="-2.75" y2="-1.85" width="0.05" layer="39"/>
 <text x="-2.8" y="1.8" size="0.8128" layer="25">&gt;NAME</text>
-<circle x="-2.992" y="1.308" radius="0.1" width="0.2" layer="51"/>
 <smd name="1_1" x="-1.8" y="0.725" dx="1.4" dy="1.05" layer="1"/>
 <smd name="1_2" x="1.8" y="0.725" dx="1.4" dy="1.05" layer="1"/>
 <smd name="2_1" x="-1.8" y="-0.725" dx="1.4" dy="1.05" layer="1"/>
 <smd name="2_2" x="1.8" y="-0.725" dx="1.4" dy="1.05" layer="1"/>
 <hole x="0" y="-0.9" drill="0.9"/>
 <hole x="0" y="0.9" drill="0.9"/>
+<circle x="-3.429" y="1.27" radius="0.179603125" width="0" layer="21"/>
 </package>
 </packages>
 <symbols>
@@ -3275,7 +3277,6 @@ Design verified by Reese</description>
 <package name="BGA9N40P3X3_144X146X69N">
 <text x="-1.3655" y="1.8635" size="0.6096" layer="25">&gt;Name</text>
 <circle x="-1.1195" y="1.162" radius="0.1" width="0.2" layer="21"/>
-<circle x="-1.1195" y="1.162" radius="0.1" width="0.2" layer="51"/>
 <wire x1="0.7465" y1="-0.7365" x2="-0.7465" y2="-0.7365" width="0.127" layer="51"/>
 <wire x1="0.7465" y1="0.7365" x2="-0.7465" y2="0.7365" width="0.127" layer="51"/>
 <wire x1="0.7465" y1="-0.7365" x2="0.7465" y2="0.7365" width="0.127" layer="51"/>
@@ -4668,7 +4669,6 @@ Digikey part 336-3124-ND</description>
 <description>Footprint originally made for AT25SF641-MHB-T</description>
 <rectangle x1="-1.075" y1="-1.265" x2="1.075" y2="1.265" layer="31"/>
 <circle x="-4.06" y="1.905" radius="0.1" width="0.2" layer="21"/>
-<circle x="-4.06" y="1.905" radius="0.1" width="0.2" layer="51"/>
 <wire x1="-3" y1="2.5" x2="3" y2="2.5" width="0.127" layer="21"/>
 <wire x1="-3" y1="-2.5" x2="3" y2="-2.5" width="0.127" layer="21"/>
 <wire x1="-3" y1="2.5" x2="-3" y2="-2.5" width="0.127" layer="21"/>
