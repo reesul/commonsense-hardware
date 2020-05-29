@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!DOCTYPE eagle SYSTEM "eagle.dtd">
-<eagle version="9.5.2">
+<eagle version="9.6.1">
 <drawing>
 <settings>
 <setting alwaysvectorfont="no"/>
@@ -5409,7 +5409,7 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <label x="12.7" y="254" size="2.54" layer="95"/>
 </segment>
 </bus>
-<bus name="DEBUG:CC_IN,DBG_GPIO0,DBG_GPIO1,DBG_GPIO2,DBG_GPIO3,DBG_SERIAL_RX,DBG_SERIAL_TX,DBG_SWCLK,DBG_SWDIO,DBG_SWO,DBG_TRACE_CLK,DBG_TRACE_D0,DBG_TRACE_D1,DBG_TRACE_D2,DBG_TRACE_D3,DBG_TRACE_SWO,DBG_USB_D-,DBG_USB_D+,NRESET,VDD_DBG">
+<bus name="DEBUG:CC_IN,DBG_GPIO0,DBG_GPIO1,DBG_GPIO2,DBG_GPIO3,DBG_SERIAL_RX_SERCOM4,DBG_SERIAL_TX_SERCOM4,DBG_SWCLK,DBG_SWDIO,DBG_SWO,DBG_TRACE_CLK,DBG_TRACE_D0,DBG_TRACE_D1,DBG_TRACE_D2,DBG_TRACE_D3,DBG_TRACE_SWO,DBG_USB_D-,DBG_USB_D+,NRESET,VDD_DBG">
 <segment>
 <wire x1="264.16" y1="22.86" x2="20.32" y2="22.86" width="0.762" layer="92"/>
 <wire x1="20.32" y1="22.86" x2="20.32" y2="243.84" width="0.762" layer="92"/>
@@ -5774,7 +5774,7 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <wire x1="289.56" y1="132.08" x2="396.24" y2="132.08" width="0.254" layer="91" style="shortdash"/>
 </segment>
 </net>
-<net name="DBG_SERIAL_TX" class="0">
+<net name="DBG_SERIAL_TX_SERCOM4" class="0">
 <segment>
 <pinref part="U101" gate="G$1" pin="PB8"/>
 <wire x1="83.82" y1="149.86" x2="53.34" y2="149.86" width="0.1524" layer="91"/>
@@ -5786,7 +5786,7 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <junction x="53.34" y="149.86"/>
 </segment>
 </net>
-<net name="DBG_SERIAL_RX" class="0">
+<net name="DBG_SERIAL_RX_SERCOM4" class="0">
 <segment>
 <pinref part="U101" gate="G$1" pin="PB9"/>
 <wire x1="83.82" y1="147.32" x2="35.56" y2="147.32" width="0.1524" layer="91"/>
@@ -7267,7 +7267,7 @@ PMOS in deployements</text>
 <label x="22.86" y="220.98" size="2.54" layer="95"/>
 </segment>
 </bus>
-<bus name="DEBUG:CC_IN,DBG_GPIO0,DBG_GPIO1,DBG_GPIO2,DBG_GPIO3,DBG_SERIAL_RX,DBG_SERIAL_TX,DBG_SWCLK,DBG_SWDIO,DBG_SWO,DBG_TRACE_CLK,DBG_TRACE_D0,DBG_TRACE_D1,DBG_TRACE_D2,DBG_TRACE_D3,DBG_TRACE_SWO,DBG_USB_D-,DBG_USB_D+,NRESET,VDD_DBG">
+<bus name="DEBUG:CC_IN,DBG_GPIO0,DBG_GPIO1,DBG_GPIO2,DBG_GPIO3,DBG_SERIAL_RX_SERCOM4,DBG_SERIAL_TX_SERCOM4,DBG_SWCLK,DBG_SWDIO,DBG_SWO,DBG_TRACE_CLK,DBG_TRACE_D0,DBG_TRACE_D1,DBG_TRACE_D2,DBG_TRACE_D3,DBG_TRACE_SWO,DBG_USB_D-,DBG_USB_D+,NRESET,VDD_DBG">
 <segment>
 <wire x1="215.9" y1="86.36" x2="365.76" y2="86.36" width="0.762" layer="92"/>
 <wire x1="215.9" y1="86.36" x2="215.9" y2="218.44" width="0.762" layer="92"/>
@@ -7425,7 +7425,7 @@ PMOS in deployements</text>
 <pinref part="J302" gate="G$1" pin="13"/>
 </segment>
 </net>
-<net name="DBG_SERIAL_TX" class="0">
+<net name="DBG_SERIAL_TX_SERCOM4" class="0">
 <segment>
 <wire x1="274.32" y1="86.36" x2="276.86" y2="88.9" width="0.1524" layer="91"/>
 <wire x1="276.86" y1="88.9" x2="276.86" y2="139.7" width="0.1524" layer="91"/>
@@ -7433,7 +7433,7 @@ PMOS in deployements</text>
 <pinref part="J302" gate="G$1" pin="15"/>
 </segment>
 </net>
-<net name="DBG_SERIAL_RX" class="0">
+<net name="DBG_SERIAL_RX_SERCOM4" class="0">
 <segment>
 <wire x1="276.86" y1="86.36" x2="279.4" y2="88.9" width="0.1524" layer="91"/>
 <wire x1="279.4" y1="88.9" x2="279.4" y2="139.7" width="0.1524" layer="91"/>
