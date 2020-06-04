@@ -706,44 +706,25 @@ Pad dimensions from https://www.vishay.com/docs/45017/vjw1bcsoldfootdesign.pdf</
 <wire x1="0.9" y1="-0.45" x2="-0.9" y2="-0.45" width="0.05" layer="255"/>
 <text x="-0.6668" y="-0.1413" size="0.3048" layer="255">&gt;Name</text>
 </package>
-</packages>
-</library>
-<library name="adafruit" urn="urn:adsk.eagle:library:420">
-<packages>
-<package name="CHIPLED_0603" urn="urn:adsk.eagle:footprint:6239915/1" library_version="2">
-<description>&lt;b&gt;CHIPLED&lt;/b&gt;&lt;p&gt;
-Source: http://www.osram.convergy.de/ ... LG_LY Q971.pdf</description>
-<wire x1="-0.3" y1="0.825" x2="0.3" y2="0.825" width="0.1016" layer="51" curve="180" cap="flat"/>
-<wire x1="-0.275" y1="-0.825" x2="0.275" y2="-0.825" width="0.0508" layer="51" curve="-180" cap="flat"/>
-<wire x1="-0.4" y1="0.375" x2="-0.4" y2="-0.35" width="0.1016" layer="51"/>
-<wire x1="0.4" y1="0.35" x2="0.4" y2="-0.35" width="0.1016" layer="51"/>
-<circle x="-0.35" y="0.625" radius="0.075" width="0.0508" layer="51"/>
-<smd name="C" x="0" y="0.75" dx="0.8" dy="0.8" layer="1"/>
-<smd name="A" x="0" y="-0.75" dx="0.8" dy="0.8" layer="1"/>
-<text x="-0.635" y="-1.27" size="1.27" layer="25" rot="R90">&gt;NAME</text>
-<text x="1.905" y="-1.27" size="1.27" layer="27" rot="R90">&gt;VALUE</text>
-<rectangle x1="-0.45" y1="0.7" x2="-0.25" y2="0.85" layer="51"/>
-<rectangle x1="-0.275" y1="0.55" x2="-0.225" y2="0.6" layer="51"/>
-<rectangle x1="-0.45" y1="0.35" x2="-0.4" y2="0.725" layer="51"/>
-<rectangle x1="0.25" y1="0.55" x2="0.45" y2="0.85" layer="51"/>
-<rectangle x1="-0.45" y1="0.35" x2="0.45" y2="0.575" layer="51"/>
-<rectangle x1="-0.45" y1="-0.85" x2="-0.25" y2="-0.35" layer="51"/>
-<rectangle x1="0.25" y1="-0.85" x2="0.45" y2="-0.35" layer="51"/>
-<rectangle x1="-0.275" y1="-0.575" x2="0.275" y2="-0.35" layer="51"/>
-<rectangle x1="-0.275" y1="-0.65" x2="-0.175" y2="-0.55" layer="51"/>
-<rectangle x1="0.175" y1="-0.65" x2="0.275" y2="-0.55" layer="51"/>
-<rectangle x1="-0.125" y1="0" x2="0.125" y2="0.25" layer="21"/>
+<package name="R2010">
+<wire x1="-1.651" y1="-1.3208" x2="1.651" y2="-1.3208" width="0.1524" layer="21"/>
+<wire x1="1.651" y1="1.3208" x2="-1.651" y2="1.3208" width="0.1524" layer="21"/>
+<wire x1="-1.8542" y1="-1.4478" x2="-1.8542" y2="1.4478" width="0" layer="51"/>
+<wire x1="-1.8542" y1="1.4478" x2="-3.4544" y2="1.4478" width="0" layer="51"/>
+<wire x1="-3.4544" y1="-1.4478" x2="-1.8542" y2="-1.4478" width="0" layer="51"/>
+<wire x1="1.8542" y1="1.4478" x2="1.8542" y2="-1.4478" width="0" layer="51"/>
+<wire x1="1.8542" y1="-1.4478" x2="3.4544" y2="-1.4478" width="0" layer="51"/>
+<wire x1="3.4544" y1="1.4478" x2="1.8542" y2="1.4478" width="0" layer="51"/>
+<wire x1="-1.8542" y1="-1.4478" x2="1.8542" y2="-1.4478" width="0" layer="51"/>
+<wire x1="3.4544" y1="-1.4478" x2="3.4544" y2="1.4478" width="0" layer="51"/>
+<wire x1="1.8542" y1="1.4478" x2="-1.8542" y2="1.4478" width="0" layer="51"/>
+<wire x1="-3.4544" y1="1.4478" x2="-3.4544" y2="-1.4478" width="0" layer="51"/>
+<text x="-3.4548" y="1.90521875" size="2.083040625" layer="25" ratio="10" rot="SR0">&gt;NAME</text>
+<text x="-3.454759375" y="-3.937409375" size="2.08301875" layer="27" ratio="10" rot="SR0">&gt;VALUE</text>
+<smd name="1" x="-2.667" y="0" dx="1.4986" dy="2.794" layer="1"/>
+<smd name="2" x="2.667" y="0" dx="1.4986" dy="2.794" layer="1"/>
 </package>
 </packages>
-<packages3d>
-<package3d name="CHIPLED_0603" urn="urn:adsk.eagle:package:6240561/1" type="box" library_version="2">
-<description>&lt;b&gt;CHIPLED&lt;/b&gt;&lt;p&gt;
-Source: http://www.osram.convergy.de/ ... LG_LY Q971.pdf</description>
-<packageinstances>
-<packageinstance name="CHIPLED_0603"/>
-</packageinstances>
-</package3d>
-</packages3d>
 </library>
 <library name="Switches">
 <description>CCSG Eagle Library</description>
@@ -1295,17 +1276,6 @@ design rules under a new name.</description>
 <attribute name="MPN" value="ECS-.327-12.5-34B-TR" x="-3.175" y="-89.535" size="0.8128" layer="27" display="off"/>
 <attribute name="NAME" x="21.59" y="-40.767" size="0.6096" layer="25" align="bottom-center"/>
 </element>
-<element name="LED101" library="adafruit" library_urn="urn:adsk.eagle:library:420" package="CHIPLED_0603" package3d_urn="urn:adsk.eagle:package:6240561/1" value="RED" x="26.67" y="-22.225" smashed="yes">
-<attribute name="MANUFACTURER" value="Rohm" x="-8.255" y="-88.265" size="0.8128" layer="27" display="off"/>
-<attribute name="MPN" value="SML-D12U1WT86" x="-8.255" y="-88.265" size="0.8128" layer="27" display="off"/>
-<attribute name="NAME" x="26.035" y="-23.495" size="1.27" layer="25" rot="R90"/>
-<attribute name="VALUE" x="28.575" y="-23.495" size="1.27" layer="27" rot="R90"/>
-</element>
-<element name="R107" library="Resistors" package="R0603" value="1k" x="16.51" y="-61.595" smashed="yes">
-<attribute name="MANUFACTURER" value="Panasonic" x="-8.89" y="-92.71" size="0.8128" layer="27" display="off"/>
-<attribute name="NAME" x="15.26" y="-60.836" size="0.6096" layer="25" font="vector"/>
-<attribute name="TOL" value="5%" x="-8.89" y="-92.71" size="0.8128" layer="27" display="off"/>
-</element>
 <element name="L101" library="Inductors" package="L0805" value="MH2029-300Y" x="33.02" y="-48.895" smashed="yes">
 <attribute name="MANUFACTURER" value="Bourns" x="-8.89" y="-95.885" size="0.8128" layer="27" display="off"/>
 <attribute name="MPN" value="MH2029-300Y" x="-8.89" y="-95.885" size="0.8128" layer="27" display="off"/>
@@ -1441,17 +1411,6 @@ design rules under a new name.</description>
 <attribute name="TC" value="X7R" x="-8.89" y="-156.21" size="0.8128" layer="27" display="off"/>
 <attribute name="TOL" value="10%" x="-8.89" y="-156.21" size="0.8128" layer="27" display="off"/>
 <attribute name="VOLTAGE" value="6.3V" x="-8.89" y="-156.21" size="0.8128" layer="27" display="off"/>
-</element>
-<element name="LED102" library="adafruit" library_urn="urn:adsk.eagle:library:420" package="CHIPLED_0603" package3d_urn="urn:adsk.eagle:package:6240561/1" value="GREEN" x="31.75" y="-22.225" smashed="yes">
-<attribute name="MANUFACTURER" value="Lite-On" x="-13.335" y="-154.94" size="0.8128" layer="27" display="off"/>
-<attribute name="MPN" value="LTST-C191KGKT" x="-13.335" y="-154.94" size="0.8128" layer="27" display="off"/>
-<attribute name="NAME" x="31.115" y="-23.495" size="1.27" layer="25" rot="R90"/>
-<attribute name="VALUE" x="33.655" y="-23.495" size="1.27" layer="27" rot="R90"/>
-</element>
-<element name="R108" library="Resistors" package="R0603" value="1k" x="20.32" y="-61.595" smashed="yes">
-<attribute name="MANUFACTURER" value="Panasonic" x="-13.97" y="-159.385" size="0.8128" layer="27" display="off"/>
-<attribute name="NAME" x="19.07" y="-60.836" size="0.6096" layer="25" font="vector"/>
-<attribute name="TOL" value="5%" x="-13.97" y="-159.385" size="0.8128" layer="27" display="off"/>
 </element>
 <element name="R101" library="Resistors" package="R0603" value="39" x="31.75" y="-58.42" smashed="yes">
 <attribute name="MANUFACTURER" value="Panasonic" x="-13.97" y="-162.56" size="0.8128" layer="27" display="off"/>
@@ -2326,6 +2285,10 @@ design rules under a new name.</description>
 <attribute name="TOL" value="10%" x="-55.245" y="-87.63" size="1.778" layer="27" display="off"/>
 <attribute name="VOLTAGE" value="10V" x="-55.245" y="-87.63" size="1.778" layer="27" display="off"/>
 </element>
+<element name="R1" library="Resistors" package="R2010" value="0" x="-52.705" y="-94.615" smashed="yes">
+<attribute name="NAME" x="-56.1598" y="-92.70978125" size="2.083040625" layer="25" ratio="10" rot="SR0"/>
+<attribute name="VALUE" x="-56.159759375" y="-98.552409375" size="2.08301875" layer="27" ratio="10" rot="SR0"/>
+</element>
 </elements>
 <signals>
 <signal name="DGND" class="1">
@@ -2387,6 +2350,8 @@ design rules under a new name.</description>
 <contactref element="U2" pad="GND"/>
 <contactref element="C3" pad="2"/>
 <contactref element="C205" pad="2"/>
+<contactref element="R1" pad="1"/>
+<wire x1="-54.795" y1="-88.265" x2="-55.372" y2="-94.615" width="0" layer="19" extent="1-1"/>
 <wire x1="-53.71" y1="-85.725" x2="-54.795" y2="-88.265" width="0" layer="19" extent="1-1"/>
 <wire x1="-53.71" y1="-78.105" x2="-53.71" y2="-85.725" width="0" layer="19" extent="1-1"/>
 <wire x1="-54.37" y1="-74.655" x2="-53.71" y2="-78.105" width="0" layer="19" extent="1-1"/>
@@ -2445,7 +2410,7 @@ design rules under a new name.</description>
 <wire x1="18.682003125" y1="41.868" x2="18.282003125" y2="41.868" width="0" layer="19" extent="1-1"/>
 <wire x1="19.082003125" y1="41.868" x2="18.682003125" y2="41.868" width="0" layer="19" extent="1-1"/>
 </signal>
-<signal name="D-">
+<signal name="INSTR_PROC_USB_D_N">
 <contactref element="J401" pad="D-"/>
 <contactref element="VR403" pad="1"/>
 <contactref element="U_INSTR_PROC" pad="38"/>
@@ -2454,7 +2419,7 @@ design rules under a new name.</description>
 <wire x1="11.95" y1="-15.24" x2="23.5" y2="-36.19" width="0" layer="19" extent="1-1"/>
 <wire x1="5.34" y1="-5.065" x2="11.95" y2="-15.24" width="0" layer="19" extent="1-1"/>
 </signal>
-<signal name="D+">
+<signal name="INSTR_PROC_USB_D_P">
 <contactref element="VR402" pad="1"/>
 <contactref element="J401" pad="D+"/>
 <contactref element="U_INSTR_PROC" pad="37"/>
@@ -2489,7 +2454,6 @@ design rules under a new name.</description>
 <contactref element="S102" pad="1"/>
 <contactref element="S102" pad="2"/>
 <contactref element="C119" pad="1"/>
-<contactref element="R107" pad="2"/>
 <contactref element="L101" pad="1"/>
 <contactref element="L102" pad="1"/>
 <contactref element="C101" pad="1"/>
@@ -2499,7 +2463,6 @@ design rules under a new name.</description>
 <contactref element="C110" pad="1"/>
 <contactref element="C111" pad="1"/>
 <contactref element="C112" pad="1"/>
-<contactref element="R108" pad="2"/>
 <contactref element="JP102" pad="2"/>
 <contactref element="U2" pad="OUT"/>
 <contactref element="U2" pad="OUT_TAB"/>
@@ -2516,8 +2479,6 @@ design rules under a new name.</description>
 <wire x1="0.32" y1="-52.07" x2="4.28" y2="-55.245" width="0" layer="19" extent="1-1"/>
 <wire x1="13.07" y1="-48.895" x2="11.9" y2="-55.245" width="0" layer="19" extent="1-1"/>
 <wire x1="13.45" y1="-61.595" x2="11.9" y2="-55.245" width="0" layer="19" extent="1-1"/>
-<wire x1="17.26" y1="-61.595" x2="13.45" y2="-61.595" width="0" layer="19" extent="1-1"/>
-<wire x1="21.07" y1="-61.595" x2="17.26" y2="-61.595" width="0" layer="19" extent="1-1"/>
 <wire x1="13.589" y1="-41.91" x2="13.07" y2="-48.895" width="0" layer="19" extent="1-1"/>
 <wire x1="8.001" y1="-41.91" x2="13.589" y2="-41.91" width="0" layer="19" extent="1-1"/>
 <wire x1="32.07" y1="-48.895" x2="23.33" y2="-52.07" width="0" layer="19" extent="1-1"/>
@@ -2587,9 +2548,6 @@ design rules under a new name.</description>
 <wire x1="27.14" y1="-58.42" x2="23.33" y2="-58.42" width="0" layer="19" extent="1-1"/>
 <wire x1="24.5" y1="-48.895" x2="23.33" y2="-58.42" width="0" layer="19" extent="1-1"/>
 </signal>
-<signal name="USR_LED_RED">
-<contactref element="LED101" pad="C"/>
-</signal>
 <signal name="VDDANA1" class="1">
 <contactref element="L101" pad="2"/>
 <contactref element="C117" pad="1"/>
@@ -2649,19 +2607,6 @@ design rules under a new name.</description>
 <wire x1="23.33" y1="-55.245" x2="4.13" y2="-52.07" width="0" layer="19" extent="1-1"/>
 <wire x1="25.8064" y1="-41.91" x2="23.33" y2="-55.245" width="0" layer="19" extent="1-1"/>
 </signal>
-<signal name="N$31">
-<contactref element="R107" pad="1"/>
-<contactref element="LED101" pad="A"/>
-<wire x1="26.67" y1="-22.975" x2="15.76" y2="-61.595" width="0" layer="19" extent="1-1"/>
-</signal>
-<signal name="USR_LED_GREEN">
-<contactref element="LED102" pad="C"/>
-</signal>
-<signal name="N$5">
-<contactref element="R108" pad="1"/>
-<contactref element="LED102" pad="A"/>
-<wire x1="31.75" y1="-22.975" x2="19.57" y2="-61.595" width="0" layer="19" extent="1-1"/>
-</signal>
 <signal name="VDDIO1" class="1">
 <contactref element="U_INSTR_PROC" pad="11"/>
 <contactref element="U_INSTR_PROC" pad="62"/>
@@ -2716,9 +2661,8 @@ design rules under a new name.</description>
 </signal>
 <signal name="CM_PROC_DIFFAMP_OUT">
 <contactref element="U3" pad="OUT"/>
-</signal>
-<signal name="CM_PROC_V_OFFSET_IN">
-<contactref element="R9" pad="1"/>
+<contactref element="U_INSTR_PROC" pad="78"/>
+<wire x1="18.95" y1="-17.14" x2="62.57" y2="39.03" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="CM_PROC_V_SENSE_N">
 <contactref element="R10" pad="1"/>
@@ -2767,7 +2711,9 @@ design rules under a new name.</description>
 <contactref element="C14" pad="2"/>
 <contactref element="U1" pad="GND"/>
 <contactref element="C1" pad="2"/>
-<wire x1="-45.455" y1="-74.93" x2="-46.67" y2="-72.12" width="0" layer="19" extent="1-1"/>
+<contactref element="R1" pad="2"/>
+<wire x1="-45.455" y1="-74.93" x2="-50.038" y2="-94.615" width="0" layer="19" extent="1-1"/>
+<wire x1="-46.67" y1="-72.12" x2="-45.455" y2="-74.93" width="0" layer="19" extent="1-1"/>
 <wire x1="59.37" y1="-39.735" x2="-45.455" y2="-74.93" width="0" layer="19" extent="1-1"/>
 <wire x1="62.2" y1="-40.005" x2="59.37" y2="-39.735" width="0" layer="19" extent="1-1"/>
 <wire x1="65.22" y1="-43.815" x2="62.2" y2="-40.005" width="0" layer="19" extent="1-1"/>
@@ -2823,7 +2769,9 @@ design rules under a new name.</description>
 <signal name="CM_PROC_DCBIAS_SHUTDOWN">
 <contactref element="R14" pad="1"/>
 <contactref element="Q4" pad="G"/>
+<contactref element="U_INSTR_PROC" pad="16"/>
 <wire x1="56.7" y1="24.765" x2="57.47" y2="33.925" width="0" layer="19" extent="1-1"/>
+<wire x1="11.45" y1="-38.74" x2="56.7" y2="24.765" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="CM_PROC_DIFFAMP_P1">
 <contactref element="C4" pad="2"/>
@@ -2841,6 +2789,8 @@ design rules under a new name.</description>
 </signal>
 <signal name="CM_PROC_DIFFAMP_GAIN1">
 <contactref element="U3" pad="GS1"/>
+<contactref element="U_INSTR_PROC" pad="65"/>
+<wire x1="23.5" y1="-22.69" x2="66.97" y2="39.68" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="CM_PROC_V_SENSE_P">
 <contactref element="R16" pad="1"/>
@@ -2849,9 +2799,13 @@ design rules under a new name.</description>
 </signal>
 <signal name="CM_PROC_DIFFAMP_GAIN0">
 <contactref element="U3" pad="GS0"/>
+<contactref element="U_INSTR_PROC" pad="66"/>
+<wire x1="23.5" y1="-22.19" x2="66.97" y2="39.03" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="CM_DTR_DIFFAMP_OUT">
 <contactref element="U7" pad="OUT"/>
+<contactref element="U_INSTR_PROC" pad="82"/>
+<wire x1="16.95" y1="-17.14" x2="62.57" y2="14.265" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="CM_DTR_V_OFFSET_IN">
 <contactref element="R25" pad="1"/>
@@ -2898,7 +2852,9 @@ design rules under a new name.</description>
 <signal name="CM_DTR_DCBIAS_SHUTDOWN">
 <contactref element="R30" pad="1"/>
 <contactref element="Q8" pad="G"/>
+<contactref element="U_INSTR_PROC" pad="15"/>
 <wire x1="56.7" y1="0" x2="57.47" y2="9.16" width="0" layer="19" extent="1-1"/>
+<wire x1="10.95" y1="-38.74" x2="56.7" y2="0" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="CM_DTR_DIFFAMP_P3">
 <contactref element="C10" pad="2"/>
@@ -2916,12 +2872,18 @@ design rules under a new name.</description>
 </signal>
 <signal name="CM_DTR_DIFFAMP_GAIN1">
 <contactref element="U7" pad="GS1"/>
+<contactref element="U_INSTR_PROC" pad="63"/>
+<wire x1="23.5" y1="-23.69" x2="66.97" y2="14.915" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="CM_DTR_DIFFAMP_GAIN0">
 <contactref element="U7" pad="GS0"/>
+<contactref element="U_INSTR_PROC" pad="64"/>
+<wire x1="23.5" y1="-23.19" x2="66.97" y2="14.265" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="CM_STORAGE_DIFFAMP_OUT">
 <contactref element="U5" pad="OUT"/>
+<contactref element="U_INSTR_PROC" pad="83"/>
+<wire x1="16.45" y1="-17.14" x2="62.57" y2="-10.5" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="CM_STORAGE_V_OFFSET_IN">
 <contactref element="R17" pad="1"/>
@@ -2968,7 +2930,9 @@ design rules under a new name.</description>
 <signal name="CM_STORAGE_DCBIAS_SHUTDOWN">
 <contactref element="R22" pad="1"/>
 <contactref element="Q6" pad="G"/>
+<contactref element="U_INSTR_PROC" pad="14"/>
 <wire x1="56.7" y1="-24.765" x2="57.47" y2="-15.605" width="0" layer="19" extent="1-1"/>
+<wire x1="10.45" y1="-38.74" x2="56.7" y2="-24.765" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="CM_STORAGE_DIFFAMP_P1">
 <contactref element="C7" pad="2"/>
@@ -2986,6 +2950,8 @@ design rules under a new name.</description>
 </signal>
 <signal name="CM_STORAGE_DIFFAMP_GAIN1">
 <contactref element="U5" pad="GS1"/>
+<contactref element="U_INSTR_PROC" pad="60"/>
+<wire x1="23.5" y1="-25.19" x2="66.97" y2="-9.85" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="CM_STORAGE_V_SENSE_P">
 <contactref element="R24" pad="1"/>
@@ -2994,9 +2960,13 @@ design rules under a new name.</description>
 </signal>
 <signal name="CM_STORAGE_DIFFAMP_GAIN0">
 <contactref element="U5" pad="GS0"/>
+<contactref element="U_INSTR_PROC" pad="116"/>
+<wire x1="1.9" y1="-22.69" x2="66.97" y2="-10.5" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="CM_TEMP_DIFFAMP_OUT">
 <contactref element="U9" pad="OUT"/>
+<contactref element="U_INSTR_PROC" pad="84"/>
+<wire x1="15.95" y1="-17.14" x2="62.57" y2="-34.63" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="CM_TEMP_V_OFFSET_IN">
 <contactref element="R33" pad="1"/>
@@ -3043,6 +3013,8 @@ design rules under a new name.</description>
 <signal name="CM_TEMP_DCBIAS_SHUTDOWN">
 <contactref element="R38" pad="1"/>
 <contactref element="Q10" pad="G"/>
+<contactref element="U_INSTR_PROC" pad="13"/>
+<wire x1="57.47" y1="-39.735" x2="9.95" y2="-38.74" width="0" layer="19" extent="1-1"/>
 <wire x1="56.7" y1="-48.895" x2="57.47" y2="-39.735" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="CM_TEMP_DIFFAMP_P1">
@@ -3061,6 +3033,8 @@ design rules under a new name.</description>
 </signal>
 <signal name="CM_TEMP_DIFFAMP_GAIN1">
 <contactref element="U9" pad="GS1"/>
+<contactref element="U_INSTR_PROC" pad="55"/>
+<wire x1="23.5" y1="-27.69" x2="66.97" y2="-33.98" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="CM_TEMP_V_SENSE_P">
 <contactref element="R40" pad="1"/>
@@ -3069,11 +3043,21 @@ design rules under a new name.</description>
 </signal>
 <signal name="CM_TEMP_DIFFAMP_GAIN0">
 <contactref element="U9" pad="GS0"/>
+<contactref element="U_INSTR_PROC" pad="59"/>
+<wire x1="23.5" y1="-25.69" x2="66.97" y2="-34.63" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="VDD_TO_MAIN">
 <contactref element="J_DEBUG_TO_MAIN_HEADER" pad="4"/>
 <contactref element="J_DEBUG_TO_MAIN_HEADER" pad="2"/>
-<wire x1="18.282003125" y1="39.158" x2="18.682003125" y2="39.158" width="0" layer="19" extent="1-1"/>
+<contactref element="JP5" pad="1"/>
+<contactref element="JP6" pad="1"/>
+<contactref element="C3" pad="1"/>
+<contactref element="C205" pad="1"/>
+<wire x1="-55.51" y1="-85.725" x2="-55.695" y2="-88.265" width="0" layer="19" extent="1-1"/>
+<wire x1="-49.3014" y1="-81.28" x2="-55.51" y2="-85.725" width="0" layer="19" extent="1-1"/>
+<wire x1="-41.0464" y1="-65.405" x2="-49.3014" y2="-81.28" width="0" layer="19" extent="1-1"/>
+<wire x1="18.282003125" y1="39.158" x2="-41.0464" y2="-65.405" width="0" layer="19" extent="1-1"/>
+<wire x1="18.682003125" y1="39.158" x2="18.282003125" y2="39.158" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="V_BATT_MAIN">
 <contactref element="J_DEBUG_TO_MAIN_HEADER" pad="8"/>
@@ -3100,15 +3084,23 @@ design rules under a new name.</description>
 </signal>
 <signal name="MAIN_GPIO0">
 <contactref element="J_DEBUG_TO_MAIN_HEADER" pad="7"/>
+<contactref element="U_INSTR_PROC" pad="101"/>
+<wire x1="7.45" y1="-17.14" x2="19.482003125" y2="41.868" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="MAIN_GPIO1">
 <contactref element="J_DEBUG_TO_MAIN_HEADER" pad="9"/>
+<contactref element="U_INSTR_PROC" pad="100"/>
+<wire x1="7.95" y1="-17.14" x2="19.882003125" y2="41.868" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="MAIN_GPIO2">
 <contactref element="J_DEBUG_TO_MAIN_HEADER" pad="11"/>
+<contactref element="U_INSTR_PROC" pad="99"/>
+<wire x1="8.45" y1="-17.14" x2="20.282003125" y2="41.868" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="MAIN_GPIO3">
 <contactref element="J_DEBUG_TO_MAIN_HEADER" pad="13"/>
+<contactref element="U_INSTR_PROC" pad="98"/>
+<wire x1="8.95" y1="-17.14" x2="20.682003125" y2="41.868" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="MAIN_USART_TX">
 <contactref element="J_DEBUG_TO_MAIN_HEADER" pad="15"/>
@@ -3122,26 +3114,29 @@ design rules under a new name.</description>
 <signal name="MAIN_SWD_SWDIO">
 <contactref element="J_DEBUG_TO_MAIN_HEADER" pad="21"/>
 </signal>
-<signal name="MAIN_TRACE_D0">
+<signal name="MAIN_TRACE_D0/GPIO6">
 <contactref element="J_DEBUG_TO_MAIN_HEADER" pad="23"/>
+<contactref element="U_INSTR_PROC" pad="114"/>
+<wire x1="1.9" y1="-21.69" x2="22.682003125" y2="41.868" width="0" layer="19" extent="1-1"/>
 </signal>
-<signal name="MAIN_TRACE_D1">
+<signal name="MAIN_TRACE_D1/GPIO7">
 <contactref element="J_DEBUG_TO_MAIN_HEADER" pad="25"/>
+<contactref element="U_INSTR_PROC" pad="115"/>
+<wire x1="1.9" y1="-22.19" x2="23.082003125" y2="41.868" width="0" layer="19" extent="1-1"/>
 </signal>
-<signal name="MAIN_TRACE_D2">
+<signal name="MAIN_TRACE_D2/GPIO8">
 <contactref element="J_DEBUG_TO_MAIN_HEADER" pad="27"/>
 </signal>
-<signal name="MAIN_TRACE_D3">
+<signal name="MAIN_TRACE_D3/GPIO9">
 <contactref element="J_DEBUG_TO_MAIN_HEADER" pad="29"/>
 </signal>
 <signal name="MAIN_NRESET">
 <contactref element="J_DEBUG_TO_MAIN_HEADER" pad="30"/>
 </signal>
-<signal name="MAIN_TRACE_SWO">
+<signal name="MAIN_TRACE_SWO/GPIO5">
 <contactref element="J_DEBUG_TO_MAIN_HEADER" pad="28"/>
-</signal>
-<signal name="MAIN_TRACE_CLK">
-<contactref element="J_DEBUG_TO_MAIN_HEADER" pad="26"/>
+<contactref element="U_INSTR_PROC" pad="113"/>
+<wire x1="1.9" y1="-21.19" x2="23.482003125" y2="39.158" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="MAIN_USB_DATA_P">
 <contactref element="J_DEBUG_TO_MAIN_HEADER" pad="24"/>
@@ -3207,15 +3202,6 @@ design rules under a new name.</description>
 <wire x1="64.8" y1="34.605" x2="64.32" y2="29.845" width="0" layer="19" extent="1-1"/>
 <wire x1="62.57" y1="39.68" x2="64.8" y2="34.605" width="0" layer="19" extent="1-1"/>
 </signal>
-<signal name="N$3">
-<contactref element="JP5" pad="1"/>
-<contactref element="JP6" pad="1"/>
-<contactref element="C3" pad="1"/>
-<contactref element="C205" pad="1"/>
-<wire x1="-55.51" y1="-85.725" x2="-55.695" y2="-88.265" width="0" layer="19" extent="1-1"/>
-<wire x1="-49.3014" y1="-81.28" x2="-55.51" y2="-85.725" width="0" layer="19" extent="1-1"/>
-<wire x1="-41.0464" y1="-65.405" x2="-49.3014" y2="-81.28" width="0" layer="19" extent="1-1"/>
-</signal>
 <signal name="N$4">
 <contactref element="JP6" pad="2"/>
 <contactref element="U2" pad="IN"/>
@@ -3233,6 +3219,29 @@ design rules under a new name.</description>
 <signal name="N$9">
 <contactref element="U_INSTR_PROC" pad="31"/>
 </signal>
+<signal name="MAIN_TRACE_CLK/GPIO4">
+<contactref element="J_DEBUG_TO_MAIN_HEADER" pad="26"/>
+<contactref element="U_INSTR_PROC" pad="97"/>
+<wire x1="9.45" y1="-17.14" x2="23.082003125" y2="39.158" width="0" layer="19" extent="1-1"/>
+</signal>
+<signal name="INSTR_PROC_USART_RX">
+<contactref element="U_INSTR_PROC" pad="18"/>
+</signal>
+<signal name="INSTR_PROC_USART_TX">
+<contactref element="U_INSTR_PROC" pad="17"/>
+</signal>
+<signal name="N$11">
+<contactref element="U_INSTR_PROC" pad="85"/>
+</signal>
+<signal name="N$3">
+<contactref element="U_INSTR_PROC" pad="129"/>
+</signal>
+<signal name="N$5">
+<contactref element="U_INSTR_PROC" pad="86"/>
+</signal>
+<signal name="N$10">
+<contactref element="U_INSTR_PROC" pad="87"/>
+</signal>
 </signals>
 <mfgpreviewcolors>
 <mfgpreviewcolor name="soldermaskcolor" color="0xC8008000"/>
@@ -3247,11 +3256,6 @@ design rules under a new name.</description>
 <note version="6.3" minversion="6.2.2" severity="warning">
 Since Version 6.2.2 text objects can contain more than one line,
 which will not be processed correctly with this version.
-</note>
-<note version="8.2" severity="warning">
-Since Version 8.2, EAGLE supports online libraries. The ids
-of those online libraries will not be understood (or retained)
-with this version.
 </note>
 <note version="8.3" severity="warning">
 Since Version 8.3, EAGLE supports URNs for individual library
