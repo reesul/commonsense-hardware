@@ -7809,6 +7809,20 @@ PMOS in deployements</text>
 <pinref part="J301" gate="G$1" pin="39"/>
 </segment>
 </net>
+<net name="DTR_V_SENSE-" class="0">
+<segment>
+<pinref part="J301" gate="G$1" pin="43"/>
+<wire x1="137.16" y1="139.7" x2="137.16" y2="91.44" width="0.1524" layer="91"/>
+<label x="137.16" y="93.98" size="1.778" layer="95" rot="R90"/>
+</segment>
+</net>
+<net name="DTR_MASTER_IRQ" class="0">
+<segment>
+<pinref part="J301" gate="G$1" pin="44"/>
+<wire x1="137.16" y1="160.02" x2="137.16" y2="215.9" width="0.1524" layer="91"/>
+<label x="137.16" y="182.88" size="1.778" layer="95" rot="R90"/>
+</segment>
+</net>
 </nets>
 </sheet>
 </sheets>
