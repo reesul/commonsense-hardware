@@ -1,0 +1,22 @@
+----------------------------------------------------------------------------------------------------------------------------------
+NCDrill File Report For: Tiny817_Xplained_Pro.PcbDoc   01.07.2016  14:08:22
+----------------------------------------------------------------------------------------------------------------------------------
+
+Layer Pair : Top Layer LF-signals to Bottom Layer LF-signals
+ASCII RoundHoles File : Tiny817_Xplained_Pro-RoundHoles.TXT
+ASCII SlotHoles File : Tiny817_Xplained_Pro-SlotHoles.TXT
+EIA File   : Tiny817_Xplained_Pro.DRL
+
+Tool       Hole Size               Hole Tolerance               Hole Type       Hole Count   Plated         Tool Travel
+----------------------------------------------------------------------------------------------------------------------------------
+T1      0.2mm (8mil)                                              Round             18        PTH        18.43mm (0.73inch)
+T2      0.25mm (10mil)                                            Round             192       PTH        635.23mm (25.01inch)
+T3      0.65mm (26mil)                                            Round             10        PTH        13.00mm (0.51inch)
+T4      0.65mm (26mil)                                            Slot              2         PTH        9.30mm (0.37inch)
+T5      0.825mm (32mil)                                           Slot              2         PTH        17.73mm (0.70inch)
+T6      1mm (39mil)                                               Round             52        PTH        259.60mm (10.22inch)
+T7      2.7mm (106mil)                                            Round             4         PTH        188.81mm (7.43inch)
+----------------------------------------------------------------------------------------------------------------------------------
+Totals                                                                              280
+
+Total Processing Time (hh:mm:ss) : 00:00:01
