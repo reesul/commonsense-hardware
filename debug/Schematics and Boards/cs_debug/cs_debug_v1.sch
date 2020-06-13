@@ -7035,6 +7035,7 @@ new: Attribute TP_SIGNAL_NAME&lt;br&gt;
 </part>
 <part name="JP.UART.TX" library="Connectors" deviceset="JUMPER-SMT_2_NC_PASTE" device="_NO-SILK" package3d_urn="urn:adsk.eagle:package:39283/1"/>
 <part name="JP.UART.RX" library="Connectors" deviceset="JUMPER-SMT_2_NC_PASTE" device="_NO-SILK" package3d_urn="urn:adsk.eagle:package:39283/1"/>
+<part name="JP.USB.VBUSP" library="Connectors" deviceset="JUMPER-SMT_3_1-NC_PASTE" device="_NO-SILK" package3d_urn="urn:adsk.eagle:package:39291/1"/>
 </parts>
 <sheets>
 <sheet>
@@ -8052,14 +8053,6 @@ so it may not work</text>
 <pinref part="C22" gate="G$1" pin="1"/>
 </segment>
 </net>
-<net name="USB_VBUS" class="1">
-<segment>
-<pinref part="U_INSTR_PROC" gate="G$1" pin="VBUS"/>
-<wire x1="231.14" y1="231.14" x2="231.14" y2="243.84" width="0.1524" layer="91"/>
-<pinref part="SUPPLY8" gate="G$1" pin="+3V3"/>
-<label x="226.06" y="246.38" size="1.778" layer="95"/>
-</segment>
-</net>
 <net name="VDDIO1" class="1">
 <segment>
 <pinref part="U_INSTR_PROC" gate="G$1" pin="VDDIO@1"/>
@@ -8568,6 +8561,14 @@ so it may not work</text>
 <pinref part="JP.UART.RX" gate="G$1" pin="2"/>
 </segment>
 </net>
+<net name="USB_VBUS_IPROC" class="1">
+<segment>
+<pinref part="U_INSTR_PROC" gate="G$1" pin="VBUS"/>
+<wire x1="231.14" y1="231.14" x2="231.14" y2="243.84" width="0.1524" layer="91"/>
+<pinref part="SUPPLY8" gate="G$1" pin="+3V3"/>
+<label x="226.06" y="246.38" size="1.778" layer="95"/>
+</segment>
+</net>
 </nets>
 </sheet>
 <sheet>
@@ -8608,8 +8609,8 @@ hub should not shutdown
 <wire x1="238.76" y1="127" x2="246.38" y2="127" width="0.381" layer="97" style="longdash"/>
 <text x="58.42" y="190.5" size="1.778" layer="99">Floating bc 
 internal pull-ups</text>
-<wire x1="307.34" y1="325.12" x2="403.86" y2="325.12" width="0.381" layer="97" style="longdash"/>
-<wire x1="307.34" y1="325.12" x2="307.34" y2="360.68" width="0.381" layer="97" style="longdash"/>
+<wire x1="307.34" y1="312.42" x2="403.86" y2="312.42" width="0.381" layer="97" style="longdash"/>
+<wire x1="307.34" y1="312.42" x2="307.34" y2="360.68" width="0.381" layer="97" style="longdash"/>
 <wire x1="187.96" y1="360.68" x2="307.34" y2="360.68" width="0.381" layer="97" style="longdash"/>
 <wire x1="142.24" y1="360.68" x2="142.24" y2="414.02" width="0.381" layer="97" style="longdash"/>
 <wire x1="177.8" y1="360.68" x2="157.48" y2="360.68" width="0.381" layer="97" style="longdash"/>
@@ -9023,22 +9024,25 @@ internal pull-ups</text>
 <attribute name="NAME" x="262.636" y="368.808" size="1.778" layer="95" rot="R90"/>
 <attribute name="PART_NO" x="264.16" y="375.92" size="1.778" layer="96" rot="R90" display="off"/>
 </instance>
-<instance part="JP.USB.MDP" gate="G$1" x="368.3" y="353.06" smashed="yes" rot="R180">
-<attribute name="NAME" x="365.76" y="352.679" size="1.778" layer="95" font="vector" rot="R180"/>
+<instance part="JP.USB.MDP" gate="G$1" x="368.3" y="335.28" smashed="yes" rot="R180">
+<attribute name="NAME" x="365.76" y="334.899" size="1.778" layer="95" font="vector" rot="R180"/>
 </instance>
-<instance part="JP.USB.MDN" gate="G$1" x="360.68" y="340.36" smashed="yes" rot="R180">
-<attribute name="NAME" x="358.14" y="339.979" size="1.778" layer="95" font="vector" rot="R180"/>
+<instance part="JP.USB.MDN" gate="G$1" x="360.68" y="322.58" smashed="yes" rot="R180">
+<attribute name="NAME" x="358.14" y="322.199" size="1.778" layer="95" font="vector" rot="R180"/>
 </instance>
-<instance part="JP.USB.DDN" gate="G$1" x="347.98" y="373.38" smashed="yes" rot="R180">
-<attribute name="NAME" x="345.44" y="372.999" size="1.778" layer="95" font="vector" rot="R180"/>
+<instance part="JP.USB.DDN" gate="G$1" x="347.98" y="355.6" smashed="yes" rot="R180">
+<attribute name="NAME" x="345.44" y="355.219" size="1.778" layer="95" font="vector" rot="R180"/>
 </instance>
-<instance part="JP.USB.DDP" gate="G$1" x="335.28" y="365.76" smashed="yes" rot="R180">
-<attribute name="NAME" x="332.74" y="365.379" size="1.778" layer="95" font="vector" rot="R180"/>
+<instance part="JP.USB.DDP" gate="G$1" x="335.28" y="347.98" smashed="yes" rot="R180">
+<attribute name="NAME" x="332.74" y="347.599" size="1.778" layer="95" font="vector" rot="R180"/>
 </instance>
 <instance part="Y1" gate="A" x="30.48" y="195.58" smashed="yes">
 <attribute name="NAME" x="30.734" y="193.548" size="2.54" layer="95" align="top-left"/>
 <attribute name="MPN" x="30.48" y="195.58" size="1.778" layer="96" display="off"/>
 <attribute name="PART_NO" x="30.48" y="195.58" size="1.778" layer="96" display="off"/>
+</instance>
+<instance part="JP.USB.VBUSP" gate="G$1" x="383.54" y="383.54" smashed="yes" rot="R180">
+<attribute name="NAME" x="381" y="383.159" size="1.778" layer="95" font="vector" rot="R180"/>
 </instance>
 </instances>
 <busses>
@@ -9077,7 +9081,7 @@ internal pull-ups</text>
 <label x="421.894" y="224.282" size="1.778" layer="95"/>
 </segment>
 </bus>
-<bus name="USB:HUB_INSTR_PROC_USB_D_N,HUB_INSTR_PROC_USB_D_P,HUB_MAIN_USB_DATA_N,HUB_MAIN_USB_DATA_P,INSTR_PROC_USB_D_N,INSTR_PROC_USB_D_P,MAIN_USB_DATA_N,MAIN_USB_DATA_P,USB_D_N,USB_D_P,USB_VBUS,VBUS">
+<bus name="USB:HUB_INSTR_PROC_USB_D_N,HUB_INSTR_PROC_USB_D_P,HUB_MAIN_USB_DATA_N,HUB_MAIN_USB_DATA_P,INSTR_PROC_USB_D_N,INSTR_PROC_USB_D_P,MAIN_USB_DATA_N,MAIN_USB_DATA_P,USB_BKUP_DBG_D_N,USB_BKUP_DBG_D_P,USB_BKUP_DBG_OTGID,USB_BKUP_DBG_VBUS,USB_BKUP_MAIN_D_N,USB_BKUP_MAIN_D_P,USB_BKUP_MAIN_OTGID,USB_BKUP_MAIN_VBUS,USBC_VBUS,USB_D_N,USB_D_P,USB_VBUS,USB_VBUS_IPROC,VBUS">
 <segment>
 <wire x1="7.62" y1="419.1" x2="20.32" y2="419.1" width="0.762" layer="92"/>
 <wire x1="20.32" y1="419.1" x2="20.32" y2="137.16" width="0.762" layer="92"/>
@@ -9604,9 +9608,9 @@ internal pull-ups</text>
 </segment>
 <segment>
 <pinref part="JP.USB.MDP" gate="G$1" pin="2"/>
-<wire x1="373.38" y1="353.06" x2="406.4" y2="353.06" width="0.1524" layer="91"/>
-<wire x1="406.4" y1="353.06" x2="408.94" y2="355.6" width="0.1524" layer="91"/>
-<label x="373.38" y="353.06" size="1.778" layer="95"/>
+<wire x1="373.38" y1="335.28" x2="406.4" y2="335.28" width="0.1524" layer="91"/>
+<wire x1="406.4" y1="335.28" x2="408.94" y2="337.82" width="0.1524" layer="91"/>
+<label x="373.38" y="335.28" size="1.778" layer="95"/>
 </segment>
 </net>
 <net name="MAIN_USB_DATA_N" class="0">
@@ -9621,9 +9625,9 @@ internal pull-ups</text>
 </segment>
 <segment>
 <pinref part="JP.USB.MDN" gate="G$1" pin="2"/>
-<wire x1="365.76" y1="340.36" x2="406.4" y2="340.36" width="0.1524" layer="91"/>
-<wire x1="406.4" y1="340.36" x2="408.94" y2="342.9" width="0.1524" layer="91"/>
-<label x="373.38" y="340.36" size="1.778" layer="95"/>
+<wire x1="365.76" y1="322.58" x2="406.4" y2="322.58" width="0.1524" layer="91"/>
+<wire x1="406.4" y1="322.58" x2="408.94" y2="325.12" width="0.1524" layer="91"/>
+<label x="373.38" y="322.58" size="1.778" layer="95"/>
 </segment>
 </net>
 <net name="N$1" class="0">
@@ -9942,7 +9946,7 @@ internal pull-ups</text>
 <wire x1="15.24" y1="50.8" x2="12.7" y2="53.34" width="0.1524" layer="91"/>
 </segment>
 </net>
-<net name="USB_VBUS" class="1">
+<net name="USBC_VBUS" class="1">
 <segment>
 <pinref part="C46" gate="G$1" pin="1"/>
 <wire x1="111.76" y1="330.2" x2="111.76" y2="302.26" width="0.1524" layer="91"/>
@@ -9985,6 +9989,12 @@ internal pull-ups</text>
 <wire x1="22.86" y1="243.84" x2="78.74" y2="243.84" width="0.1524" layer="91"/>
 <junction x="78.74" y="243.84"/>
 <label x="30.48" y="243.84" size="1.778" layer="95"/>
+</segment>
+<segment>
+<pinref part="JP.USB.VBUSP" gate="G$1" pin="3"/>
+<wire x1="383.54" y1="388.62" x2="383.54" y2="416.56" width="0.1524" layer="91"/>
+<wire x1="383.54" y1="416.56" x2="381" y2="419.1" width="0.1524" layer="91"/>
+<label x="383.54" y="388.62" size="1.778" layer="95" rot="R90"/>
 </segment>
 </net>
 <net name="VCHRG_OUT" class="2">
@@ -10247,10 +10257,10 @@ internal pull-ups</text>
 <label x="269.24" y="388.62" size="1.016" layer="95" xref="yes"/>
 <pinref part="VR8" gate="G$1" pin="1"/>
 <wire x1="264.16" y1="388.62" x2="320.04" y2="388.62" width="0.1524" layer="91"/>
-<wire x1="320.04" y1="388.62" x2="320.04" y2="347.98" width="0.1524" layer="91"/>
+<wire x1="320.04" y1="388.62" x2="320.04" y2="330.2" width="0.1524" layer="91"/>
 <pinref part="JP.USB.MDP" gate="G$1" pin="1"/>
-<wire x1="320.04" y1="347.98" x2="368.3" y2="347.98" width="0.1524" layer="91"/>
-<label x="322.58" y="347.98" size="1.778" layer="95"/>
+<wire x1="320.04" y1="330.2" x2="368.3" y2="330.2" width="0.1524" layer="91"/>
+<label x="322.58" y="330.2" size="1.778" layer="95"/>
 </segment>
 </net>
 <net name="USB_BKUP_MAIN_D_P" class="0">
@@ -10262,10 +10272,10 @@ internal pull-ups</text>
 <junction x="256.54" y="386.08"/>
 <pinref part="VR7" gate="G$1" pin="1"/>
 <wire x1="256.54" y1="386.08" x2="312.42" y2="386.08" width="0.1524" layer="91"/>
-<wire x1="312.42" y1="386.08" x2="312.42" y2="335.28" width="0.1524" layer="91"/>
+<wire x1="312.42" y1="386.08" x2="312.42" y2="317.5" width="0.1524" layer="91"/>
 <pinref part="JP.USB.MDN" gate="G$1" pin="1"/>
-<wire x1="312.42" y1="335.28" x2="360.68" y2="335.28" width="0.1524" layer="91"/>
-<label x="322.58" y="335.28" size="1.778" layer="95"/>
+<wire x1="312.42" y1="317.5" x2="360.68" y2="317.5" width="0.1524" layer="91"/>
+<label x="322.58" y="317.5" size="1.778" layer="95"/>
 </segment>
 </net>
 <net name="USB_BKUP_DBG_VBUS" class="1">
@@ -10277,6 +10287,14 @@ internal pull-ups</text>
 <wire x1="152.4" y1="414.02" x2="152.4" y2="373.38" width="0.1524" layer="91"/>
 <pinref part="JP.USBM.DBG" gate="G$1" pin="2"/>
 <label x="152.4" y="414.02" size="1.778" layer="95"/>
+</segment>
+<segment>
+<wire x1="375.92" y1="419.1" x2="378.46" y2="416.56" width="0.1524" layer="91"/>
+<wire x1="378.46" y1="416.56" x2="378.46" y2="370.84" width="0.1524" layer="91"/>
+<wire x1="378.46" y1="370.84" x2="383.54" y2="370.84" width="0.1524" layer="91"/>
+<pinref part="JP.USB.VBUSP" gate="G$1" pin="1"/>
+<wire x1="383.54" y1="378.46" x2="383.54" y2="370.84" width="0.1524" layer="91"/>
+<label x="378.46" y="386.08" size="1.778" layer="95" rot="R90"/>
 </segment>
 </net>
 <net name="USB_BKUP_MAIN_VBUS" class="1">
@@ -10301,10 +10319,10 @@ internal pull-ups</text>
 <label x="208.28" y="406.4" size="1.016" layer="95" xref="yes"/>
 <pinref part="VR5" gate="G$1" pin="1"/>
 <pinref part="JP.USB.DDN" gate="G$1" pin="1"/>
-<wire x1="342.9" y1="406.4" x2="342.9" y2="368.3" width="0.1524" layer="91"/>
-<wire x1="342.9" y1="368.3" x2="347.98" y2="368.3" width="0.1524" layer="91"/>
+<wire x1="342.9" y1="406.4" x2="342.9" y2="350.52" width="0.1524" layer="91"/>
+<wire x1="342.9" y1="350.52" x2="347.98" y2="350.52" width="0.1524" layer="91"/>
 <wire x1="203.2" y1="406.4" x2="342.9" y2="406.4" width="0.1524" layer="91"/>
-<label x="342.9" y="373.38" size="1.778" layer="95" rot="R90"/>
+<label x="342.9" y="355.6" size="1.778" layer="95" rot="R90"/>
 </segment>
 </net>
 <net name="USB_BKUP_DBG_D_P" class="0">
@@ -10316,10 +10334,10 @@ internal pull-ups</text>
 <junction x="195.58" y="403.86"/>
 <pinref part="VR2" gate="G$1" pin="1"/>
 <wire x1="195.58" y1="403.86" x2="325.12" y2="403.86" width="0.1524" layer="91"/>
-<wire x1="325.12" y1="403.86" x2="325.12" y2="360.68" width="0.1524" layer="91"/>
+<wire x1="325.12" y1="403.86" x2="325.12" y2="342.9" width="0.1524" layer="91"/>
 <pinref part="JP.USB.DDP" gate="G$1" pin="1"/>
-<wire x1="325.12" y1="360.68" x2="335.28" y2="360.68" width="0.1524" layer="91"/>
-<label x="325.12" y="363.22" size="1.778" layer="95" rot="R90"/>
+<wire x1="325.12" y1="342.9" x2="335.28" y2="342.9" width="0.1524" layer="91"/>
+<label x="325.12" y="345.44" size="1.778" layer="95" rot="R90"/>
 </segment>
 </net>
 <net name="USB_BKUP_DBG_OTGID" class="0">
@@ -10342,9 +10360,9 @@ internal pull-ups</text>
 </segment>
 <segment>
 <pinref part="JP.USB.MDN" gate="G$1" pin="3"/>
-<wire x1="360.68" y1="345.44" x2="360.68" y2="416.56" width="0.1524" layer="91"/>
+<wire x1="360.68" y1="327.66" x2="360.68" y2="416.56" width="0.1524" layer="91"/>
 <wire x1="360.68" y1="416.56" x2="358.14" y2="419.1" width="0.1524" layer="91"/>
-<label x="360.68" y="378.46" size="1.778" layer="95" rot="R90"/>
+<label x="360.68" y="360.68" size="1.778" layer="95" rot="R90"/>
 </segment>
 </net>
 <net name="HUB_MAIN_USB_DATA_P" class="0">
@@ -10356,9 +10374,9 @@ internal pull-ups</text>
 </segment>
 <segment>
 <pinref part="JP.USB.MDP" gate="G$1" pin="3"/>
-<wire x1="368.3" y1="358.14" x2="368.3" y2="416.56" width="0.1524" layer="91"/>
+<wire x1="368.3" y1="340.36" x2="368.3" y2="416.56" width="0.1524" layer="91"/>
 <wire x1="368.3" y1="416.56" x2="365.76" y2="419.1" width="0.1524" layer="91"/>
-<label x="368.3" y="378.46" size="1.778" layer="95" rot="R90"/>
+<label x="368.3" y="360.68" size="1.778" layer="95" rot="R90"/>
 </segment>
 </net>
 <net name="HUB_INSTR_PROC_USB_D_N" class="0">
@@ -10370,9 +10388,9 @@ internal pull-ups</text>
 </segment>
 <segment>
 <pinref part="JP.USB.DDN" gate="G$1" pin="3"/>
-<wire x1="347.98" y1="378.46" x2="347.98" y2="416.56" width="0.1524" layer="91"/>
+<wire x1="347.98" y1="360.68" x2="347.98" y2="416.56" width="0.1524" layer="91"/>
 <wire x1="347.98" y1="416.56" x2="345.44" y2="419.1" width="0.1524" layer="91"/>
-<label x="347.98" y="378.46" size="1.778" layer="95" rot="R90"/>
+<label x="347.98" y="360.68" size="1.778" layer="95" rot="R90"/>
 </segment>
 </net>
 <net name="HUB_INSTR_PROC_USB_D_P" class="0">
@@ -10384,25 +10402,25 @@ internal pull-ups</text>
 </segment>
 <segment>
 <pinref part="JP.USB.DDP" gate="G$1" pin="3"/>
-<wire x1="335.28" y1="416.56" x2="335.28" y2="370.84" width="0.1524" layer="91"/>
+<wire x1="335.28" y1="416.56" x2="335.28" y2="353.06" width="0.1524" layer="91"/>
 <wire x1="335.28" y1="416.56" x2="332.74" y2="419.1" width="0.1524" layer="91"/>
-<label x="335.28" y="378.46" size="1.778" layer="95" rot="R90"/>
+<label x="335.28" y="360.68" size="1.778" layer="95" rot="R90"/>
 </segment>
 </net>
 <net name="INSTR_PROC_USB_D_N" class="0">
 <segment>
 <pinref part="JP.USB.DDN" gate="G$1" pin="2"/>
-<wire x1="353.06" y1="373.38" x2="406.4" y2="373.38" width="0.1524" layer="91"/>
-<wire x1="406.4" y1="373.38" x2="408.94" y2="375.92" width="0.1524" layer="91"/>
-<label x="373.38" y="373.38" size="1.778" layer="95"/>
+<wire x1="353.06" y1="355.6" x2="406.4" y2="355.6" width="0.1524" layer="91"/>
+<wire x1="406.4" y1="355.6" x2="408.94" y2="358.14" width="0.1524" layer="91"/>
+<label x="373.38" y="355.6" size="1.778" layer="95"/>
 </segment>
 </net>
 <net name="INSTR_PROC_USB_D_P" class="0">
 <segment>
 <pinref part="JP.USB.DDP" gate="G$1" pin="2"/>
-<wire x1="340.36" y1="365.76" x2="406.4" y2="365.76" width="0.1524" layer="91"/>
-<wire x1="406.4" y1="365.76" x2="408.94" y2="368.3" width="0.1524" layer="91"/>
-<label x="373.38" y="365.76" size="1.778" layer="95"/>
+<wire x1="340.36" y1="347.98" x2="406.4" y2="347.98" width="0.1524" layer="91"/>
+<wire x1="406.4" y1="347.98" x2="408.94" y2="350.52" width="0.1524" layer="91"/>
+<label x="373.38" y="347.98" size="1.778" layer="95"/>
 </segment>
 </net>
 <net name="VSRC" class="1">
@@ -10426,6 +10444,14 @@ internal pull-ups</text>
 <wire x1="152.4" y1="363.22" x2="152.4" y2="355.6" width="0.1524" layer="91"/>
 <junction x="152.4" y="355.6"/>
 <label x="137.16" y="355.6" size="1.778" layer="95"/>
+</segment>
+</net>
+<net name="USB_VBUS_IPROC" class="1">
+<segment>
+<pinref part="JP.USB.VBUSP" gate="G$1" pin="2"/>
+<wire x1="388.62" y1="383.54" x2="406.4" y2="383.54" width="0.1524" layer="91"/>
+<wire x1="406.4" y1="383.54" x2="408.94" y2="386.08" width="0.1524" layer="91"/>
+<label x="391.16" y="383.54" size="1.778" layer="95"/>
 </segment>
 </net>
 </nets>
