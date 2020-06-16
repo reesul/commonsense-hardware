@@ -8080,21 +8080,21 @@ so it may not work</text>
 <pinref part="JP.IP.VDDIO" gate="G$1" pin="1"/>
 </segment>
 </net>
-<net name="VDDANA_0" class="0">
+<net name="VDDANA_0" class="1">
 <segment>
 <pinref part="U_INSTR_PROC" gate="G$1" pin="VDDANA"/>
 <wire x1="279.4" y1="238.76" x2="279.4" y2="231.14" width="0.1524" layer="91"/>
 <pinref part="JP.IP.ANA" gate="G$1" pin="1"/>
 </segment>
 </net>
-<net name="VDDOUTMI_0" class="0">
+<net name="VDDOUTMI_0" class="1">
 <segment>
 <pinref part="U_INSTR_PROC" gate="G$1" pin="VDDUTMI"/>
 <wire x1="284.48" y1="246.38" x2="284.48" y2="231.14" width="0.1524" layer="91"/>
 <pinref part="JP.IP.UTMI" gate="G$1" pin="1"/>
 </segment>
 </net>
-<net name="VDDOUT_0" class="0">
+<net name="VDDOUT_0" class="1">
 <segment>
 <pinref part="U_INSTR_PROC" gate="G$1" pin="VDDOUT"/>
 <wire x1="289.56" y1="238.76" x2="289.56" y2="231.14" width="0.1524" layer="91"/>
@@ -9778,7 +9778,7 @@ internal pull-ups</text>
 <junction x="508" y="210.82"/>
 </segment>
 </net>
-<net name="VDD_TO_MAIN" class="0">
+<net name="VDD_TO_MAIN" class="1">
 <segment>
 <pinref part="J_DEBUG_TO_MAIN_HEADER" gate="G$1" pin="2"/>
 <pinref part="J_DEBUG_TO_MAIN_HEADER" gate="G$1" pin="4"/>
@@ -9877,7 +9877,7 @@ internal pull-ups</text>
 <wire x1="149.86" y1="73.66" x2="132.08" y2="73.66" width="0.1524" layer="91"/>
 </segment>
 </net>
-<net name="VREG_IN" class="2">
+<net name="VREG_IN" class="1">
 <segment>
 <pinref part="JP.EN.VMEAS" gate="G$1" pin="1"/>
 <wire x1="337.82" y1="76.2" x2="332.74" y2="76.2" width="0.1524" layer="91"/>
@@ -9997,7 +9997,7 @@ internal pull-ups</text>
 <label x="383.54" y="388.62" size="1.778" layer="95" rot="R90"/>
 </segment>
 </net>
-<net name="VCHRG_OUT" class="2">
+<net name="VCHRG_OUT" class="1">
 <segment>
 <pinref part="C208" gate="G$1" pin="1"/>
 <wire x1="132.08" y1="101.6" x2="165.1" y2="101.6" width="0.1524" layer="91"/>
