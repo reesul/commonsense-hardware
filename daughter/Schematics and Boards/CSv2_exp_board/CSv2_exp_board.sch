@@ -3410,20 +3410,6 @@ Temp: -40~+85°C</text>
 </polygon>
 <smd name="G2" x="5.2" y="-0.9" dx="1" dy="4.8" layer="1" stop="no" cream="no"/>
 <text x="3.8282" y="-3.0223" size="0.3048" layer="25">2.2pF</text>
-<polygon width="0" layer="43" pour="hatch">
-<vertex x="-2" y="1.5"/>
-<vertex x="-2" y="-1.7"/>
-<vertex x="-4" y="-1.7"/>
-<vertex x="-4" y="-8.5"/>
-<vertex x="6" y="-8.5"/>
-<vertex x="6" y="-4"/>
-<vertex x="3.5" y="-4"/>
-<vertex x="3.5" y="-2"/>
-<vertex x="6" y="-2"/>
-<vertex x="6" y="0.5"/>
-<vertex x="5" y="0.5"/>
-<vertex x="5" y="1.5"/>
-</polygon>
 <wire x1="-4.00033125" y1="1.50841875" x2="5.99966875" y2="1.50841875" width="0.001" layer="250"/>
 <wire x1="5.99966875" y1="1.50841875" x2="5.99966875" y2="-8.49158125" width="0.001" layer="250"/>
 <wire x1="5.99966875" y1="-8.49158125" x2="-4.00033125" y2="-8.49158125" width="0.001" layer="250"/>
@@ -3478,33 +3464,60 @@ Temp: -40~+85°C</text>
 <circle x="-0.00033125" y="0.00845" radius="0.325" width="0.001" layer="250"/>
 <wire x1="0.3226" y1="-0.31448125" x2="-0.32326875" y2="0.331390625" width="0.001" layer="250"/>
 <wire x1="-0.32326875" y1="-0.31448125" x2="0.3226" y2="0.331390625" width="0.001" layer="250"/>
-<polygon width="0" layer="42" pour="hatch">
-<vertex x="-2" y="1.5"/>
-<vertex x="-2" y="-1.7"/>
-<vertex x="-4" y="-1.7"/>
-<vertex x="-4" y="-8.5"/>
-<vertex x="6" y="-8.5"/>
-<vertex x="6" y="-4"/>
-<vertex x="3.5" y="-4"/>
-<vertex x="3.5" y="-2"/>
-<vertex x="6" y="-2"/>
-<vertex x="6" y="0.5"/>
-<vertex x="5" y="0.5"/>
-<vertex x="5" y="1.5"/>
+<polygon width="0" layer="42" spacing="0.3048" pour="hatch">
+<vertex x="-1.905" y="1.524"/>
+<vertex x="-1.905" y="-1.778" curve="90"/>
+<vertex x="-1.397" y="-2.286"/>
+<vertex x="4.699" y="-2.286"/>
+<vertex x="4.699" y="1.524" curve="-90"/>
+<vertex x="4.445" y="1.524"/>
 </polygon>
-<polygon width="0" layer="41" pour="hatch">
-<vertex x="-2" y="1.5"/>
-<vertex x="-2" y="-1.7"/>
-<vertex x="-4" y="-1.7"/>
-<vertex x="-4" y="-8.5"/>
-<vertex x="6" y="-8.5"/>
-<vertex x="6" y="-4"/>
-<vertex x="3.5" y="-4"/>
-<vertex x="3.5" y="-2"/>
-<vertex x="6" y="-2"/>
-<vertex x="6" y="0.5"/>
-<vertex x="5" y="0.5"/>
-<vertex x="5" y="1.5"/>
+<polygon width="0" layer="42" spacing="0.3048" pour="hatch">
+<vertex x="-4.064" y="-1.778"/>
+<vertex x="-4.064" y="-8.509"/>
+<vertex x="6.096" y="-8.509"/>
+<vertex x="6.096" y="-3.556" curve="90"/>
+<vertex x="5.969" y="-3.429"/>
+<vertex x="-1.397" y="-3.429"/>
+<vertex x="-1.905" y="-3.429" curve="-90"/>
+<vertex x="-2.921" y="-2.413"/>
+<vertex x="-2.921" y="-1.778"/>
+</polygon>
+<polygon width="0" layer="43" spacing="0.3048" pour="hatch">
+<vertex x="-1.905" y="1.524"/>
+<vertex x="-1.905" y="-1.778" curve="90"/>
+<vertex x="-1.397" y="-2.286"/>
+<vertex x="4.699" y="-2.286"/>
+<vertex x="4.699" y="1.524" curve="-90"/>
+<vertex x="4.445" y="1.524"/>
+</polygon>
+<polygon width="0" layer="43" spacing="0.3048" pour="hatch">
+<vertex x="-4.064" y="-1.778"/>
+<vertex x="-4.064" y="-8.509"/>
+<vertex x="6.096" y="-8.509"/>
+<vertex x="6.096" y="-3.556" curve="90"/>
+<vertex x="5.969" y="-3.429"/>
+<vertex x="-1.905" y="-3.429" curve="-90"/>
+<vertex x="-2.921" y="-2.413"/>
+<vertex x="-2.921" y="-1.778"/>
+</polygon>
+<polygon width="0" layer="41" spacing="0.3048" pour="hatch">
+<vertex x="-1.905" y="1.524"/>
+<vertex x="-1.905" y="-1.778" curve="90"/>
+<vertex x="-1.397" y="-2.286"/>
+<vertex x="4.699" y="-2.286"/>
+<vertex x="4.699" y="1.524" curve="-90"/>
+<vertex x="4.445" y="1.524"/>
+</polygon>
+<polygon width="0" layer="41" spacing="0.3048" pour="hatch">
+<vertex x="-4.064" y="-1.778"/>
+<vertex x="-4.064" y="-8.509"/>
+<vertex x="6.096" y="-8.509"/>
+<vertex x="6.096" y="-3.556" curve="90"/>
+<vertex x="5.969" y="-3.429"/>
+<vertex x="-1.905" y="-3.429" curve="-90"/>
+<vertex x="-2.921" y="-2.413"/>
+<vertex x="-2.921" y="-1.778"/>
 </polygon>
 </package>
 <package name="ILA_09_CHIP_ANTENNA3">
@@ -6251,6 +6264,10 @@ new: Attribute TP_SIGNAL_NAME&lt;br&gt;
 <part name="C5" library="CommonSense-DTR-v1" deviceset="C0402-ANT" device="0402" value="2.2p"/>
 <part name="SW1" library="adafruit" deviceset="SPST_TACT" device="-KMR2"/>
 <part name="SW2" library="adafruit" deviceset="SPST_TACT" device="-KMR2"/>
+<part name="MEAS_RFM" library="TestPoints" deviceset="TP" device="TP10SQ" package3d_urn="urn:adsk.eagle:package:27962/1" value="TPTP10SQ"/>
+<part name="MEAS_SAMD" library="TestPoints" deviceset="TP" device="TP10SQ" package3d_urn="urn:adsk.eagle:package:27962/1" value="TPTP10SQ"/>
+<part name="MEAS_MIC" library="TestPoints" deviceset="TP" device="TP10SQ" package3d_urn="urn:adsk.eagle:package:27962/1" value="TPTP10SQ"/>
+<part name="EN_RADIO" library="TestPoints" deviceset="TP" device="TP10SQ" package3d_urn="urn:adsk.eagle:package:27962/1" value="TPTP10SQ"/>
 </parts>
 <sheets>
 <sheet>
@@ -6595,6 +6612,22 @@ F_MAX=1000kHz</text>
 <instance part="SW2" gate="G$1" x="185.42" y="228.6" smashed="yes" rot="R270">
 <attribute name="NAME" x="182.88" y="234.95" size="1.778" layer="95"/>
 <attribute name="VALUE" x="184.15" y="227.965" size="1.778" layer="96" rot="R270"/>
+</instance>
+<instance part="MEAS_RFM" gate="G$1" x="205.74" y="101.6" smashed="yes">
+<attribute name="NAME" x="204.47" y="102.87" size="1.778" layer="95"/>
+<attribute name="TP_SIGNAL_NAME" x="207.01" y="100.33" size="1.778" layer="97"/>
+</instance>
+<instance part="MEAS_SAMD" gate="G$1" x="208.28" y="99.06" smashed="yes">
+<attribute name="NAME" x="207.01" y="100.33" size="1.778" layer="95"/>
+<attribute name="TP_SIGNAL_NAME" x="209.55" y="97.79" size="1.778" layer="97"/>
+</instance>
+<instance part="MEAS_MIC" gate="G$1" x="203.2" y="91.44" smashed="yes">
+<attribute name="NAME" x="201.93" y="92.71" size="1.778" layer="95"/>
+<attribute name="TP_SIGNAL_NAME" x="204.47" y="90.17" size="1.778" layer="97"/>
+</instance>
+<instance part="EN_RADIO" gate="G$1" x="205.74" y="88.9" smashed="yes">
+<attribute name="NAME" x="204.47" y="90.17" size="1.778" layer="95"/>
+<attribute name="TP_SIGNAL_NAME" x="207.01" y="87.63" size="1.778" layer="97"/>
 </instance>
 </instances>
 <busses>
@@ -7369,6 +7402,7 @@ F_MAX=1000kHz</text>
 <wire x1="185.42" y1="109.22" x2="187.96" y2="111.76" width="0.1524" layer="91"/>
 <wire x1="203.2" y1="88.9" x2="185.42" y2="88.9" width="0.1524" layer="91"/>
 <junction x="185.42" y="88.9"/>
+<pinref part="MEAS_MIC" gate="G$1" pin="TP"/>
 </segment>
 </net>
 <net name="MEAS_SAMD" class="0">
@@ -7381,6 +7415,7 @@ F_MAX=1000kHz</text>
 <wire x1="177.8" y1="109.22" x2="180.34" y2="111.76" width="0.1524" layer="91"/>
 <wire x1="208.28" y1="96.52" x2="177.8" y2="96.52" width="0.1524" layer="91"/>
 <junction x="177.8" y="96.52"/>
+<pinref part="MEAS_SAMD" gate="G$1" pin="TP"/>
 </segment>
 </net>
 <net name="MEAS_RFM" class="0">
@@ -7393,6 +7428,7 @@ F_MAX=1000kHz</text>
 <wire x1="175.26" y1="109.22" x2="177.8" y2="111.76" width="0.1524" layer="91"/>
 <wire x1="205.74" y1="99.06" x2="175.26" y2="99.06" width="0.1524" layer="91"/>
 <junction x="175.26" y="99.06"/>
+<pinref part="MEAS_RFM" gate="G$1" pin="TP"/>
 </segment>
 </net>
 <net name="MEAS_BARO" class="0">
@@ -7418,6 +7454,7 @@ F_MAX=1000kHz</text>
 <wire x1="187.96" y1="109.22" x2="190.5" y2="111.76" width="0.1524" layer="91"/>
 <wire x1="205.74" y1="86.36" x2="187.96" y2="86.36" width="0.1524" layer="91"/>
 <junction x="187.96" y="86.36"/>
+<pinref part="EN_RADIO" gate="G$1" pin="TP"/>
 </segment>
 </net>
 <net name="EN_BARO" class="0">
@@ -8465,7 +8502,7 @@ F_MAX=1000kHz</text>
 <label x="271.78" y="81.28" size="1.778" layer="95"/>
 </segment>
 </net>
-<net name="+3V3_DTR" class="3">
+<net name="+3V3_DTR" class="0">
 <segment>
 <pinref part="J301" gate="G$1" pin="4"/>
 <wire x1="317.5" y1="200.66" x2="325.12" y2="200.66" width="0.1524" layer="91"/>
