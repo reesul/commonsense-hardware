@@ -6207,7 +6207,7 @@ new: Attribute TP_SIGNAL_NAME&lt;br&gt;
 <part name="JP.IP.OUT" library="Connectors" deviceset="JUMPER-SMT_2_NC_PASTE" device="_NO-SILK" package3d_urn="urn:adsk.eagle:package:39283/1"/>
 <part name="JP.IP.CORE" library="Connectors" deviceset="JUMPER-SMT_2_NC_PASTE" device="_NO-SILK" package3d_urn="urn:adsk.eagle:package:39283/1"/>
 <part name="JP.IP.PLL" library="Connectors" deviceset="JUMPER-SMT_2_NC_PASTE" device="_NO-SILK" package3d_urn="urn:adsk.eagle:package:39283/1"/>
-<part name="J_DEBUG_TO_MAIN_HEADER" library="Connectors" deviceset="HIROSE-DF40_30-PIN_CONNECTORS" device="-HEADER">
+<part name="J_DBG_TO_MAIN_HDR" library="Connectors" deviceset="HIROSE-DF40_30-PIN_CONNECTORS" device="-HEADER">
 <attribute name="MPN" value="DF40C-30DP-0.4V(51)"/>
 <attribute name="PART_NO" value="DF40C-30DP-0.4V(51)"/>
 <attribute name="SPICEPREFIX" value="X"/>
@@ -6260,7 +6260,10 @@ new: Attribute TP_SIGNAL_NAME&lt;br&gt;
 <part name="FRAME1" library="frames" library_urn="urn:adsk.eagle:library:229" deviceset="FRAME_C_L" device=""/>
 <part name="GND4" library="Supplies" deviceset="GND" device=""/>
 <part name="U$1" library="SparkFun-PowerSymbols" deviceset="AGND" device=""/>
-<part name="R1" library="Resistors" deviceset="R-" device="2010" value="0"/>
+<part name="R1" library="Resistors" deviceset="R-" device="2010" value="0">
+<attribute name="MPN" value="ERJ-S1D0R00U"/>
+<attribute name="PART_NO" value="ERJ-S1D0R00U"/>
+</part>
 <part name="JP.VDD.MAIN" library="Connectors" deviceset="JUMPER-SMT_2_NC_PASTE" device="_NO-SILK" package3d_urn="urn:adsk.eagle:package:39283/1"/>
 <part name="U11" library="DACs" deviceset="DAC7574IDGS" device="">
 <attribute name="MPN" value="DAC7574IDGS"/>
@@ -6274,9 +6277,13 @@ new: Attribute TP_SIGNAL_NAME&lt;br&gt;
 <attribute name="VOLTAGE" value="10V"/>
 </part>
 <part name="U$4" library="SparkFun-PowerSymbols" deviceset="AGND" device=""/>
-<part name="J1" library="Connectors" deviceset="J-JTAG-CORTEX" device="_SMD"/>
+<part name="J1" library="Connectors" deviceset="J-JTAG-CORTEX" device="_SMD">
+<attribute name="PART_NO" value="FTSH-105-01-L-DV-K-TR"/>
+</part>
 <part name="GND5" library="Supplies" deviceset="GND" device=""/>
-<part name="J2" library="Connectors" deviceset="J-JTAG-CORTEX" device="_SMD"/>
+<part name="J2" library="Connectors" deviceset="J-JTAG-CORTEX" device="_SMD">
+<attribute name="PART_NO" value="FTSH-105-01-L-DV-K-TR"/>
+</part>
 <part name="J3" library="Connectors" deviceset="J-JTAG-CORTEX-NEEDLE6" device="-LEGS"/>
 <part name="GND6" library="Supplies" deviceset="GND" device=""/>
 <part name="SUPPLY11" library="Supplies" deviceset="+3V3" device=""/>
@@ -6506,7 +6513,9 @@ new: Attribute TP_SIGNAL_NAME&lt;br&gt;
 <attribute name="PART_NO" value="C0402C103K8RACTU"/>
 </part>
 <part name="JP.IP.RST" library="Connectors" deviceset="JUMPER-SMT_2_NC_PASTE" device="_NO-SILK" package3d_urn="urn:adsk.eagle:package:39283/1"/>
-<part name="J4" library="Connectors" deviceset="J-SERIAL-PORT" device=""/>
+<part name="J4" library="Connectors" deviceset="J-SERIAL-PORT" device="">
+<attribute name="PART_NO" value="PH1-06-UA"/>
+</part>
 <part name="SUPPLY25" library="Supplies" deviceset="+3V3" device=""/>
 <part name="JP.UART.VCC" library="Connectors" deviceset="JUMPER-SMT_2_NC_PASTE" device="_NO-SILK" package3d_urn="urn:adsk.eagle:package:39283/1"/>
 <part name="C46" library="Capacitors" deviceset="C-" device="0603" value="2.2uF">
@@ -6522,7 +6531,9 @@ new: Attribute TP_SIGNAL_NAME&lt;br&gt;
 <part name="VR4" library="Diodes" deviceset="VARISTOR" device="">
 <attribute name="PART_NO" value="CG0603MLC-05E"/>
 </part>
-<part name="J5" library="Connectors" deviceset="J-WURTH-USBC" device=""/>
+<part name="J5" library="Connectors" deviceset="J-WURTH-USBC" device="">
+<attribute name="PART_NO" value="632723100011"/>
+</part>
 <part name="GND20" library="Supplies" deviceset="GND" device=""/>
 <part name="R42" library="Resistors" deviceset="R-" device="0603" value="5.1k">
 <attribute name="MPN" value="ERJ-2GEJ512X"/>
@@ -6707,10 +6718,12 @@ new: Attribute TP_SIGNAL_NAME&lt;br&gt;
 <attribute name="TOL" value="1%"/>
 </part>
 <part name="C21" library="Capacitors" deviceset="C-" device="0402" value="0.1u">
+<attribute name="MPN" value="C0402C104K8RACTU"/>
 <attribute name="PART_NO" value="C0402C104K8RACTU"/>
 <attribute name="VOLTAGE" value="10V"/>
 </part>
 <part name="C45" library="Capacitors" deviceset="C-" device="0402" value="0.1u">
+<attribute name="MPN" value="C0402C104K8RACTU"/>
 <attribute name="PART_NO" value="C0402C104K8RACTU"/>
 <attribute name="VOLTAGE" value="10V"/>
 </part>
@@ -6793,10 +6806,12 @@ new: Attribute TP_SIGNAL_NAME&lt;br&gt;
 <attribute name="TOL" value="1%"/>
 </part>
 <part name="C14" library="Capacitors" deviceset="C-" device="0402" value="0.1u">
+<attribute name="MPN" value="C0402C104K8RACTU"/>
 <attribute name="PART_NO" value="C0402C104K8RACTU"/>
 <attribute name="VOLTAGE" value="10V"/>
 </part>
 <part name="C15" library="Capacitors" deviceset="C-" device="0402" value="0.1u">
+<attribute name="MPN" value="C0402C104K8RACTU"/>
 <attribute name="PART_NO" value="C0402C104K8RACTU"/>
 <attribute name="VOLTAGE" value="10V"/>
 </part>
@@ -6880,10 +6895,12 @@ new: Attribute TP_SIGNAL_NAME&lt;br&gt;
 <attribute name="TOL" value="1%"/>
 </part>
 <part name="C11" library="Capacitors" deviceset="C-" device="0402" value="0.1u">
+<attribute name="MPN" value="C0402C104K8RACTU"/>
 <attribute name="PART_NO" value="C0402C104K8RACTU"/>
 <attribute name="VOLTAGE" value="10V"/>
 </part>
 <part name="C12" library="Capacitors" deviceset="C-" device="0402" value="0.1u">
+<attribute name="MPN" value="C0402C104K8RACTU"/>
 <attribute name="PART_NO" value="C0402C104K8RACTU"/>
 <attribute name="VOLTAGE" value="10V"/>
 </part>
@@ -6966,10 +6983,12 @@ new: Attribute TP_SIGNAL_NAME&lt;br&gt;
 <attribute name="TOL" value="1%"/>
 </part>
 <part name="C8" library="Capacitors" deviceset="C-" device="0402" value="0.1u">
+<attribute name="MPN" value="C0402C104K8RACTU"/>
 <attribute name="PART_NO" value="C0402C104K8RACTU"/>
 <attribute name="VOLTAGE" value="10V"/>
 </part>
 <part name="C9" library="Capacitors" deviceset="C-" device="0402" value="0.1u">
+<attribute name="MPN" value="C0402C104K8RACTU"/>
 <attribute name="PART_NO" value="C0402C104K8RACTU"/>
 <attribute name="VOLTAGE" value="10V"/>
 </part>
@@ -6988,22 +7007,26 @@ new: Attribute TP_SIGNAL_NAME&lt;br&gt;
 <part name="SCL" library="TestPoints" deviceset="TP" device="TP10SQ" package3d_urn="urn:adsk.eagle:package:27962/1"/>
 <part name="SDA" library="TestPoints" deviceset="TP" device="TP10SQ" package3d_urn="urn:adsk.eagle:package:27962/1"/>
 <part name="D2" library="Diodes" deviceset="BGX50A" device=""/>
-<part name="J_USB_DBG" library="ZX62D-AB-5P8" deviceset="USBABSMTDIP" device="">
+<part name="J.USB.DBG" library="ZX62D-AB-5P8" deviceset="USBABSMTDIP" device="">
 <attribute name="MP" value="ZX62D-AB-5P8(30)"/>
+<attribute name="MPN" value="ZX62D-AB-5P8(30)"/>
+<attribute name="PART_NO" value="ZX62D-AB-5P8(30)"/>
 </part>
 <part name="GND204" library="Supplies" deviceset="GND" device=""/>
 <part name="GND209" library="Supplies" deviceset="GND" device=""/>
 <part name="GND207" library="Supplies" deviceset="GND" device=""/>
 <part name="GND210" library="Supplies" deviceset="GND" device=""/>
-<part name="J_USB_MAIN" library="ZX62D-AB-5P8" deviceset="USBABSMTDIP" device="">
+<part name="J.USB.MN" library="ZX62D-AB-5P8" deviceset="USBABSMTDIP" device="">
 <attribute name="MP" value="ZX62D-AB-5P8(30)"/>
+<attribute name="MPN" value="ZX62D-AB-5P8(30)"/>
+<attribute name="PAR_NO" value="ZX62D-AB-5P8(30)"/>
 </part>
 <part name="GND9" library="Supplies" deviceset="GND" device=""/>
 <part name="GND10" library="Supplies" deviceset="GND" device=""/>
 <part name="GND12" library="Supplies" deviceset="GND" device=""/>
 <part name="GND13" library="Supplies" deviceset="GND" device=""/>
-<part name="JP.USBM.MAIN" library="Connectors" deviceset="JUMPER-SMT_2_NO_PASTEFREE" device=""/>
-<part name="JP.USBM.DBG" library="Connectors" deviceset="JUMPER-SMT_2_NO_PASTEFREE" device=""/>
+<part name="JP.USBC" library="Connectors" deviceset="JUMPER-SMT_2_NO_PASTEFREE" device=""/>
+<part name="JP.USB.DBG" library="Connectors" deviceset="JUMPER-SMT_2_NO_PASTEFREE" device=""/>
 <part name="VR1" library="Diodes" deviceset="VARISTOR" device="">
 <attribute name="PART_NO" value="CG0603MLC-05E"/>
 </part>
@@ -7036,6 +7059,11 @@ new: Attribute TP_SIGNAL_NAME&lt;br&gt;
 <part name="JP.UART.TX" library="Connectors" deviceset="JUMPER-SMT_2_NC_PASTE" device="_NO-SILK" package3d_urn="urn:adsk.eagle:package:39283/1"/>
 <part name="JP.UART.RX" library="Connectors" deviceset="JUMPER-SMT_2_NC_PASTE" device="_NO-SILK" package3d_urn="urn:adsk.eagle:package:39283/1"/>
 <part name="JP.USB.VBUSP" library="Connectors" deviceset="JUMPER-SMT_3_1-NC_PASTE" device="_NO-SILK" package3d_urn="urn:adsk.eagle:package:39291/1"/>
+<part name="R7" library="Resistors" deviceset="R-" device="0402" value="1M">
+<attribute name="MPN" value="ERJ-U02J105X"/>
+<attribute name="PART_NO" value="ERJ-U02J105X"/>
+</part>
+<part name="JP.HUB.VDD" library="Connectors" deviceset="JUMPER-SMT_2_NC_PASTE" device="_NO-SILK" package3d_urn="urn:adsk.eagle:package:39283/1"/>
 </parts>
 <sheets>
 <sheet>
@@ -7186,6 +7214,7 @@ so it may not work</text>
 <instance part="J2" gate="G$1" x="490.22" y="375.92" smashed="yes">
 <attribute name="NAME" x="477.52" y="383.794" size="1.778" layer="95" font="vector"/>
 <attribute name="VALUE" x="477.52" y="366.014" size="1.778" layer="96" font="vector"/>
+<attribute name="PART_NO" x="490.22" y="375.92" size="1.778" layer="96" display="off"/>
 </instance>
 <instance part="J3" gate="A" x="490.22" y="335.28" smashed="yes">
 <attribute name="NAME" x="477.51" y="343.41443125" size="2.542009375" layer="95"/>
@@ -7403,6 +7432,7 @@ so it may not work</text>
 <instance part="J4" gate="J$1" x="538.48" y="208.28" smashed="yes">
 <attribute name="NAME" x="530.86" y="217.424" size="1.778" layer="95"/>
 <attribute name="DESCRIPTION" x="530.86" y="194.564" size="1.778" layer="96"/>
+<attribute name="PART_NO" x="538.48" y="208.28" size="1.778" layer="96" display="off"/>
 </instance>
 <instance part="SUPPLY25" gate="G$1" x="523.24" y="236.22" smashed="yes"/>
 <instance part="JP.UART.VCC" gate="G$1" x="523.24" y="226.06" smashed="yes" rot="R270">
@@ -8080,21 +8110,21 @@ so it may not work</text>
 <pinref part="JP.IP.VDDIO" gate="G$1" pin="1"/>
 </segment>
 </net>
-<net name="VDDANA_0" class="0">
+<net name="VDDANA_0" class="1">
 <segment>
 <pinref part="U_INSTR_PROC" gate="G$1" pin="VDDANA"/>
 <wire x1="279.4" y1="238.76" x2="279.4" y2="231.14" width="0.1524" layer="91"/>
 <pinref part="JP.IP.ANA" gate="G$1" pin="1"/>
 </segment>
 </net>
-<net name="VDDOUTMI_0" class="0">
+<net name="VDDOUTMI_0" class="1">
 <segment>
 <pinref part="U_INSTR_PROC" gate="G$1" pin="VDDUTMI"/>
 <wire x1="284.48" y1="246.38" x2="284.48" y2="231.14" width="0.1524" layer="91"/>
 <pinref part="JP.IP.UTMI" gate="G$1" pin="1"/>
 </segment>
 </net>
-<net name="VDDOUT_0" class="0">
+<net name="VDDOUT_0" class="1">
 <segment>
 <pinref part="U_INSTR_PROC" gate="G$1" pin="VDDOUT"/>
 <wire x1="289.56" y1="238.76" x2="289.56" y2="231.14" width="0.1524" layer="91"/>
@@ -8621,7 +8651,7 @@ internal pull-ups</text>
 <wire x1="149.86" y1="360.68" x2="132.08" y2="360.68" width="0.381" layer="97" style="longdash"/>
 </plain>
 <instances>
-<instance part="J_DEBUG_TO_MAIN_HEADER" gate="G$1" x="495.3" y="137.16" smashed="yes" rot="R90">
+<instance part="J_DBG_TO_MAIN_HDR" gate="G$1" x="495.3" y="137.16" smashed="yes" rot="R90">
 <attribute name="NAME" x="474.1966" y="124.43801875" size="1.273659375" layer="95" rot="R90"/>
 <attribute name="PART_NO" x="495.3" y="137.16" size="1.778" layer="96" rot="R90" display="off"/>
 <attribute name="MPN" x="495.3" y="137.16" size="1.778" layer="96" rot="R90" display="off"/>
@@ -8681,6 +8711,8 @@ internal pull-ups</text>
 <instance part="R1" gate="G$1" x="320.04" y="271.78" smashed="yes">
 <attribute name="NAME" x="316.23" y="273.2786" size="1.778" layer="95"/>
 <attribute name="VALUE" x="316.23" y="268.478" size="1.778" layer="96"/>
+<attribute name="MPN" x="320.04" y="271.78" size="1.778" layer="96" display="off"/>
+<attribute name="PART_NO" x="320.04" y="271.78" size="1.778" layer="96" display="off"/>
 </instance>
 <instance part="JP.VDD.MAIN" gate="G$1" x="342.9" y="180.34" smashed="yes">
 <attribute name="NAME" x="340.36" y="182.88" size="1.778" layer="95" font="vector"/>
@@ -8688,6 +8720,7 @@ internal pull-ups</text>
 <instance part="J1" gate="G$1" x="474.98" y="246.38" smashed="yes">
 <attribute name="NAME" x="462.28" y="254.254" size="1.778" layer="95" font="vector"/>
 <attribute name="VALUE" x="462.28" y="236.474" size="1.778" layer="96" font="vector"/>
+<attribute name="PART_NO" x="474.98" y="246.38" size="1.778" layer="96" display="off"/>
 </instance>
 <instance part="GND5" gate="1" x="452.12" y="231.14" smashed="yes"/>
 <instance part="J19" gate="G$1" x="27.94" y="406.4" smashed="yes" rot="R180">
@@ -8799,6 +8832,7 @@ internal pull-ups</text>
 </instance>
 <instance part="J5" gate="_CONNECTOR" x="167.64" y="307.34" smashed="yes">
 <attribute name="NAME" x="156.02" y="326.84" size="1.778" layer="95"/>
+<attribute name="PART_NO" x="167.64" y="307.34" size="1.778" layer="96" display="off"/>
 </instance>
 <instance part="J5" gate="_SHIELD" x="170.18" y="284.48" smashed="yes">
 <attribute name="NAME" x="166.78" y="280.9" size="1.27" layer="95"/>
@@ -8980,24 +9014,28 @@ internal pull-ups</text>
 <attribute name="VALUE" x="63.50146875" y="327.657790625" size="1.77851875" layer="96"/>
 <attribute name="NAME" x="63.50741875" y="342.90741875" size="1.7806" layer="95"/>
 </instance>
-<instance part="J_USB_DBG" gate="G$1" x="162.56" y="403.86" smashed="yes">
+<instance part="J.USB.DBG" gate="G$1" x="162.56" y="403.86" smashed="yes">
 <attribute name="MP" x="162.56" y="403.86" size="1.778" layer="96" display="off"/>
+<attribute name="MPN" x="162.56" y="403.86" size="1.778" layer="96" display="off"/>
+<attribute name="PART_NO" x="162.56" y="403.86" size="1.778" layer="96" display="off"/>
 </instance>
 <instance part="GND204" gate="1" x="172.72" y="388.62" smashed="yes"/>
 <instance part="GND209" gate="1" x="195.58" y="383.54" smashed="yes"/>
 <instance part="GND207" gate="1" x="187.96" y="383.54" smashed="yes"/>
 <instance part="GND210" gate="1" x="203.2" y="383.54" smashed="yes"/>
-<instance part="J_USB_MAIN" gate="G$1" x="223.52" y="386.08" smashed="yes">
+<instance part="J.USB.MN" gate="G$1" x="223.52" y="386.08" smashed="yes">
 <attribute name="MP" x="223.52" y="386.08" size="1.778" layer="96" display="off"/>
+<attribute name="MPN" x="223.52" y="386.08" size="1.778" layer="96" display="off"/>
+<attribute name="PAR_NO" x="223.52" y="386.08" size="1.778" layer="96" display="off"/>
 </instance>
 <instance part="GND9" gate="1" x="233.68" y="370.84" smashed="yes"/>
 <instance part="GND10" gate="1" x="256.54" y="365.76" smashed="yes"/>
 <instance part="GND12" gate="1" x="248.92" y="365.76" smashed="yes"/>
 <instance part="GND13" gate="1" x="264.16" y="365.76" smashed="yes"/>
-<instance part="JP.USBM.MAIN" gate="G$1" x="182.88" y="368.3" smashed="yes" rot="R90">
+<instance part="JP.USBC" gate="G$1" x="182.88" y="368.3" smashed="yes" rot="R90">
 <attribute name="NAME" x="180.34" y="368.3" size="1.778" layer="95" font="vector" rot="R90" align="bottom-center"/>
 </instance>
-<instance part="JP.USBM.DBG" gate="G$1" x="152.4" y="368.3" smashed="yes" rot="R90">
+<instance part="JP.USB.DBG" gate="G$1" x="152.4" y="368.3" smashed="yes" rot="R90">
 <attribute name="NAME" x="149.86" y="368.3" size="1.778" layer="95" font="vector" rot="R90" align="bottom-center"/>
 </instance>
 <instance part="VR1" gate="G$1" x="187.96" y="393.7" smashed="yes" rot="R90">
@@ -9043,6 +9081,15 @@ internal pull-ups</text>
 </instance>
 <instance part="JP.USB.VBUSP" gate="G$1" x="383.54" y="383.54" smashed="yes" rot="R180">
 <attribute name="NAME" x="381" y="383.159" size="1.778" layer="95" font="vector" rot="R180"/>
+</instance>
+<instance part="R7" gate="G$1" x="60.96" y="177.8" smashed="yes">
+<attribute name="NAME" x="57.15" y="179.2986" size="1.778" layer="95"/>
+<attribute name="VALUE" x="57.15" y="174.498" size="1.778" layer="96"/>
+<attribute name="MPN" x="60.96" y="177.8" size="1.778" layer="96" display="off"/>
+<attribute name="PART_NO" x="60.96" y="177.8" size="1.778" layer="96" display="off"/>
+</instance>
+<instance part="JP.HUB.VDD" gate="G$1" x="114.3" y="228.6" smashed="yes" rot="R270">
+<attribute name="NAME" x="116.84" y="231.14" size="1.778" layer="95" font="vector" rot="R270"/>
 </instance>
 </instances>
 <busses>
@@ -9098,12 +9145,12 @@ internal pull-ups</text>
 <nets>
 <net name="DGND" class="8">
 <segment>
-<pinref part="J_DEBUG_TO_MAIN_HEADER" gate="G$1" pin="1"/>
+<pinref part="J_DBG_TO_MAIN_HDR" gate="G$1" pin="1"/>
 <wire x1="477.52" y1="127" x2="477.52" y2="119.38" width="0.1524" layer="91"/>
 <wire x1="477.52" y1="119.38" x2="480.06" y2="119.38" width="0.1524" layer="91"/>
-<pinref part="J_DEBUG_TO_MAIN_HEADER" gate="G$1" pin="3"/>
+<pinref part="J_DBG_TO_MAIN_HDR" gate="G$1" pin="3"/>
 <wire x1="480.06" y1="119.38" x2="480.06" y2="127" width="0.1524" layer="91"/>
-<pinref part="J_DEBUG_TO_MAIN_HEADER" gate="G$1" pin="5"/>
+<pinref part="J_DBG_TO_MAIN_HDR" gate="G$1" pin="5"/>
 <wire x1="482.6" y1="127" x2="482.6" y2="119.38" width="0.1524" layer="91"/>
 <wire x1="482.6" y1="119.38" x2="480.06" y2="119.38" width="0.1524" layer="91"/>
 <junction x="480.06" y="119.38"/>
@@ -9352,10 +9399,10 @@ internal pull-ups</text>
 <label x="60.96" y="53.34" size="1.778" layer="95"/>
 </segment>
 <segment>
-<pinref part="J_USB_DBG" gate="G$1" pin="GND"/>
+<pinref part="J.USB.DBG" gate="G$1" pin="GND"/>
 <pinref part="GND204" gate="1" pin="GND"/>
 <wire x1="172.72" y1="398.78" x2="172.72" y2="391.16" width="0.1524" layer="91"/>
-<pinref part="J_USB_DBG" gate="G$1" pin="SHIELD"/>
+<pinref part="J.USB.DBG" gate="G$1" pin="SHIELD"/>
 <wire x1="162.56" y1="391.16" x2="172.72" y2="391.16" width="0.1524" layer="91"/>
 <junction x="172.72" y="391.16"/>
 <label x="170.18" y="381" size="1.778" layer="95"/>
@@ -9379,10 +9426,10 @@ internal pull-ups</text>
 <label x="193.04" y="381" size="1.778" layer="95"/>
 </segment>
 <segment>
-<pinref part="J_USB_MAIN" gate="G$1" pin="GND"/>
+<pinref part="J.USB.MN" gate="G$1" pin="GND"/>
 <pinref part="GND9" gate="1" pin="GND"/>
 <wire x1="233.68" y1="381" x2="233.68" y2="373.38" width="0.1524" layer="91"/>
-<pinref part="J_USB_MAIN" gate="G$1" pin="SHIELD"/>
+<pinref part="J.USB.MN" gate="G$1" pin="SHIELD"/>
 <wire x1="223.52" y1="373.38" x2="233.68" y2="373.38" width="0.1524" layer="91"/>
 <junction x="233.68" y="373.38"/>
 <label x="231.14" y="368.3" size="1.778" layer="95"/>
@@ -9408,7 +9455,7 @@ internal pull-ups</text>
 </net>
 <net name="V_SENSE_P" class="0">
 <segment>
-<pinref part="J_DEBUG_TO_MAIN_HEADER" gate="G$1" pin="12"/>
+<pinref part="J_DBG_TO_MAIN_HDR" gate="G$1" pin="12"/>
 <wire x1="490.22" y1="147.32" x2="490.22" y2="226.06" width="0.1524" layer="91"/>
 <label x="490.22" y="154.94" size="1.778" layer="95" rot="R90"/>
 <wire x1="490.22" y1="226.06" x2="444.5" y2="226.06" width="0.1524" layer="91"/>
@@ -9419,7 +9466,7 @@ internal pull-ups</text>
 </net>
 <net name="CM_PROC_V_SENSE_N" class="0">
 <segment>
-<pinref part="J_DEBUG_TO_MAIN_HEADER" gate="G$1" pin="14"/>
+<pinref part="J_DBG_TO_MAIN_HDR" gate="G$1" pin="14"/>
 <label x="492.76" y="154.94" size="1.778" layer="95" rot="R90"/>
 <wire x1="492.76" y1="147.32" x2="492.76" y2="220.98" width="0.1524" layer="91"/>
 <wire x1="492.76" y1="220.98" x2="490.22" y2="223.52" width="0.1524" layer="91"/>
@@ -9427,7 +9474,7 @@ internal pull-ups</text>
 </net>
 <net name="CM_DTR_V_SENSE_N" class="0">
 <segment>
-<pinref part="J_DEBUG_TO_MAIN_HEADER" gate="G$1" pin="16"/>
+<pinref part="J_DBG_TO_MAIN_HDR" gate="G$1" pin="16"/>
 <label x="495.3" y="154.94" size="1.778" layer="95" rot="R90"/>
 <wire x1="495.3" y1="147.32" x2="495.3" y2="220.98" width="0.1524" layer="91"/>
 <wire x1="495.3" y1="220.98" x2="492.76" y2="223.52" width="0.1524" layer="91"/>
@@ -9435,7 +9482,7 @@ internal pull-ups</text>
 </net>
 <net name="CM_STORAGE_V_SENSE_N" class="0">
 <segment>
-<pinref part="J_DEBUG_TO_MAIN_HEADER" gate="G$1" pin="18"/>
+<pinref part="J_DBG_TO_MAIN_HDR" gate="G$1" pin="18"/>
 <label x="497.84" y="154.94" size="1.778" layer="95" rot="R90"/>
 <wire x1="497.84" y1="147.32" x2="497.84" y2="220.98" width="0.1524" layer="91"/>
 <wire x1="497.84" y1="220.98" x2="495.3" y2="223.52" width="0.1524" layer="91"/>
@@ -9443,7 +9490,7 @@ internal pull-ups</text>
 </net>
 <net name="CM_TEMP_V_SENSE_N" class="0">
 <segment>
-<pinref part="J_DEBUG_TO_MAIN_HEADER" gate="G$1" pin="20"/>
+<pinref part="J_DBG_TO_MAIN_HDR" gate="G$1" pin="20"/>
 <label x="500.38" y="154.94" size="1.778" layer="95" rot="R90"/>
 <wire x1="500.38" y1="147.32" x2="500.38" y2="220.98" width="0.1524" layer="91"/>
 <wire x1="500.38" y1="220.98" x2="497.84" y2="223.52" width="0.1524" layer="91"/>
@@ -9451,7 +9498,7 @@ internal pull-ups</text>
 </net>
 <net name="MAIN_GPIO0" class="0">
 <segment>
-<pinref part="J_DEBUG_TO_MAIN_HEADER" gate="G$1" pin="7"/>
+<pinref part="J_DBG_TO_MAIN_HDR" gate="G$1" pin="7"/>
 <wire x1="485.14" y1="127" x2="485.14" y2="78.74" width="0.1524" layer="91"/>
 <label x="485.14" y="96.52" size="1.778" layer="95" rot="R90"/>
 <wire x1="485.14" y1="78.74" x2="482.6" y2="76.2" width="0.1524" layer="91"/>
@@ -9459,7 +9506,7 @@ internal pull-ups</text>
 </net>
 <net name="MAIN_GPIO1" class="0">
 <segment>
-<pinref part="J_DEBUG_TO_MAIN_HEADER" gate="G$1" pin="9"/>
+<pinref part="J_DBG_TO_MAIN_HDR" gate="G$1" pin="9"/>
 <wire x1="487.68" y1="127" x2="487.68" y2="78.74" width="0.1524" layer="91"/>
 <label x="487.68" y="96.52" size="1.778" layer="95" rot="R90"/>
 <wire x1="487.68" y1="78.74" x2="485.14" y2="76.2" width="0.1524" layer="91"/>
@@ -9467,7 +9514,7 @@ internal pull-ups</text>
 </net>
 <net name="MAIN_GPIO2" class="0">
 <segment>
-<pinref part="J_DEBUG_TO_MAIN_HEADER" gate="G$1" pin="11"/>
+<pinref part="J_DBG_TO_MAIN_HDR" gate="G$1" pin="11"/>
 <wire x1="490.22" y1="127" x2="490.22" y2="78.74" width="0.1524" layer="91"/>
 <label x="490.22" y="96.52" size="1.778" layer="95" rot="R90"/>
 <wire x1="490.22" y1="78.74" x2="487.68" y2="76.2" width="0.1524" layer="91"/>
@@ -9475,7 +9522,7 @@ internal pull-ups</text>
 </net>
 <net name="MAIN_GPIO3" class="0">
 <segment>
-<pinref part="J_DEBUG_TO_MAIN_HEADER" gate="G$1" pin="13"/>
+<pinref part="J_DBG_TO_MAIN_HDR" gate="G$1" pin="13"/>
 <wire x1="492.76" y1="127" x2="492.76" y2="78.74" width="0.1524" layer="91"/>
 <label x="492.76" y="96.52" size="1.778" layer="95" rot="R90"/>
 <wire x1="492.76" y1="78.74" x2="490.22" y2="76.2" width="0.1524" layer="91"/>
@@ -9483,7 +9530,7 @@ internal pull-ups</text>
 </net>
 <net name="MAIN_USART_TX" class="0">
 <segment>
-<pinref part="J_DEBUG_TO_MAIN_HEADER" gate="G$1" pin="15"/>
+<pinref part="J_DBG_TO_MAIN_HDR" gate="G$1" pin="15"/>
 <wire x1="495.3" y1="127" x2="495.3" y2="78.74" width="0.1524" layer="91"/>
 <label x="495.3" y="96.52" size="1.778" layer="95" rot="R90"/>
 <wire x1="495.3" y1="78.74" x2="492.76" y2="76.2" width="0.1524" layer="91"/>
@@ -9496,7 +9543,7 @@ internal pull-ups</text>
 </net>
 <net name="MAIN_USART_RX" class="0">
 <segment>
-<pinref part="J_DEBUG_TO_MAIN_HEADER" gate="G$1" pin="17"/>
+<pinref part="J_DBG_TO_MAIN_HDR" gate="G$1" pin="17"/>
 <wire x1="497.84" y1="127" x2="497.84" y2="78.74" width="0.1524" layer="91"/>
 <label x="497.84" y="96.52" size="1.778" layer="95" rot="R90"/>
 <wire x1="497.84" y1="78.74" x2="495.3" y2="76.2" width="0.1524" layer="91"/>
@@ -9504,7 +9551,7 @@ internal pull-ups</text>
 </net>
 <net name="MAIN_SWD_SWCLK" class="0">
 <segment>
-<pinref part="J_DEBUG_TO_MAIN_HEADER" gate="G$1" pin="19"/>
+<pinref part="J_DBG_TO_MAIN_HDR" gate="G$1" pin="19"/>
 <wire x1="500.38" y1="127" x2="500.38" y2="83.82" width="0.1524" layer="91"/>
 <label x="500.38" y="96.52" size="1.778" layer="95" rot="R90"/>
 <wire x1="500.38" y1="83.82" x2="502.92" y2="83.82" width="0.1524" layer="91"/>
@@ -9532,7 +9579,7 @@ internal pull-ups</text>
 </net>
 <net name="MAIN_SWD_SWDIO" class="0">
 <segment>
-<pinref part="J_DEBUG_TO_MAIN_HEADER" gate="G$1" pin="21"/>
+<pinref part="J_DBG_TO_MAIN_HDR" gate="G$1" pin="21"/>
 <wire x1="502.92" y1="127" x2="502.92" y2="86.36" width="0.1524" layer="91"/>
 <label x="502.92" y="96.52" size="1.778" layer="95" rot="R90"/>
 <wire x1="502.92" y1="86.36" x2="533.4" y2="86.36" width="0.1524" layer="91"/>
@@ -9543,7 +9590,7 @@ internal pull-ups</text>
 </net>
 <net name="MAIN_TRACE_D0/GPIO6" class="0">
 <segment>
-<pinref part="J_DEBUG_TO_MAIN_HEADER" gate="G$1" pin="23"/>
+<pinref part="J_DBG_TO_MAIN_HDR" gate="G$1" pin="23"/>
 <wire x1="505.46" y1="127" x2="505.46" y2="78.74" width="0.1524" layer="91"/>
 <label x="505.46" y="96.52" size="1.778" layer="95" rot="R90"/>
 <wire x1="505.46" y1="78.74" x2="502.92" y2="76.2" width="0.1524" layer="91"/>
@@ -9551,7 +9598,7 @@ internal pull-ups</text>
 </net>
 <net name="MAIN_TRACE_D1/GPIO7" class="0">
 <segment>
-<pinref part="J_DEBUG_TO_MAIN_HEADER" gate="G$1" pin="25"/>
+<pinref part="J_DBG_TO_MAIN_HDR" gate="G$1" pin="25"/>
 <wire x1="508" y1="127" x2="508" y2="78.74" width="0.1524" layer="91"/>
 <label x="508" y="96.52" size="1.778" layer="95" rot="R90"/>
 <wire x1="508" y1="78.74" x2="505.46" y2="76.2" width="0.1524" layer="91"/>
@@ -9559,7 +9606,7 @@ internal pull-ups</text>
 </net>
 <net name="MAIN_TRACE_D2/GPIO8" class="0">
 <segment>
-<pinref part="J_DEBUG_TO_MAIN_HEADER" gate="G$1" pin="27"/>
+<pinref part="J_DBG_TO_MAIN_HDR" gate="G$1" pin="27"/>
 <wire x1="510.54" y1="127" x2="510.54" y2="78.74" width="0.1524" layer="91"/>
 <label x="510.54" y="96.52" size="1.778" layer="95" rot="R90"/>
 <wire x1="510.54" y1="78.74" x2="508" y2="76.2" width="0.1524" layer="91"/>
@@ -9567,7 +9614,7 @@ internal pull-ups</text>
 </net>
 <net name="MAIN_TRACE_D3/GPIO9" class="0">
 <segment>
-<pinref part="J_DEBUG_TO_MAIN_HEADER" gate="G$1" pin="29"/>
+<pinref part="J_DBG_TO_MAIN_HDR" gate="G$1" pin="29"/>
 <wire x1="513.08" y1="127" x2="513.08" y2="78.74" width="0.1524" layer="91"/>
 <label x="513.08" y="96.52" size="1.778" layer="95" rot="R90"/>
 <wire x1="513.08" y1="78.74" x2="510.54" y2="76.2" width="0.1524" layer="91"/>
@@ -9575,7 +9622,7 @@ internal pull-ups</text>
 </net>
 <net name="MAIN_NRESET" class="0">
 <segment>
-<pinref part="J_DEBUG_TO_MAIN_HEADER" gate="G$1" pin="30"/>
+<pinref part="J_DBG_TO_MAIN_HDR" gate="G$1" pin="30"/>
 <label x="513.08" y="154.94" size="1.778" layer="95" rot="R90"/>
 <pinref part="J1" gate="G$1" pin="!RESET"/>
 <wire x1="513.08" y1="241.3" x2="492.76" y2="241.3" width="0.1524" layer="91"/>
@@ -9587,7 +9634,7 @@ internal pull-ups</text>
 </net>
 <net name="MAIN_TRACE_SWO/GPIO5" class="0">
 <segment>
-<pinref part="J_DEBUG_TO_MAIN_HEADER" gate="G$1" pin="28"/>
+<pinref part="J_DBG_TO_MAIN_HDR" gate="G$1" pin="28"/>
 <label x="510.54" y="154.94" size="1.778" layer="95" rot="R90"/>
 <wire x1="510.54" y1="147.32" x2="510.54" y2="210.82" width="0.1524" layer="91"/>
 <wire x1="510.54" y1="210.82" x2="510.54" y2="215.9" width="0.1524" layer="91"/>
@@ -9598,7 +9645,7 @@ internal pull-ups</text>
 </net>
 <net name="MAIN_USB_DATA_P" class="0">
 <segment>
-<pinref part="J_DEBUG_TO_MAIN_HEADER" gate="G$1" pin="24"/>
+<pinref part="J_DBG_TO_MAIN_HDR" gate="G$1" pin="24"/>
 <label x="505.46" y="154.94" size="1.778" layer="95" rot="R90"/>
 <wire x1="505.46" y1="147.32" x2="505.46" y2="200.66" width="0.1524" layer="91"/>
 <wire x1="505.46" y1="200.66" x2="505.46" y2="215.9" width="0.1524" layer="91"/>
@@ -9615,7 +9662,7 @@ internal pull-ups</text>
 </net>
 <net name="MAIN_USB_DATA_N" class="0">
 <segment>
-<pinref part="J_DEBUG_TO_MAIN_HEADER" gate="G$1" pin="22"/>
+<pinref part="J_DBG_TO_MAIN_HDR" gate="G$1" pin="22"/>
 <label x="502.92" y="154.94" size="1.778" layer="95" rot="R90"/>
 <wire x1="502.92" y1="147.32" x2="502.92" y2="200.66" width="0.1524" layer="91"/>
 <wire x1="502.92" y1="200.66" x2="502.92" y2="215.9" width="0.1524" layer="91"/>
@@ -9678,24 +9725,6 @@ internal pull-ups</text>
 <segment>
 <pinref part="SUPPLY26" gate="G$1" pin="+3V3"/>
 <label x="109.22" y="248.92" size="1.778" layer="95"/>
-<pinref part="U13" gate="A" pin="VDD33"/>
-<wire x1="109.22" y1="218.44" x2="109.22" y2="220.98" width="0.1524" layer="91"/>
-<wire x1="109.22" y1="220.98" x2="111.76" y2="220.98" width="0.1524" layer="91"/>
-<pinref part="U13" gate="A" pin="VDD33_3"/>
-<wire x1="111.76" y1="220.98" x2="114.3" y2="220.98" width="0.1524" layer="91"/>
-<wire x1="114.3" y1="220.98" x2="114.3" y2="218.44" width="0.1524" layer="91"/>
-<pinref part="U13" gate="A" pin="VDD33_2"/>
-<wire x1="111.76" y1="218.44" x2="111.76" y2="220.98" width="0.1524" layer="91"/>
-<junction x="111.76" y="220.98"/>
-<pinref part="U13" gate="A" pin="VDD33_4"/>
-<wire x1="116.84" y1="218.44" x2="116.84" y2="220.98" width="0.1524" layer="91"/>
-<wire x1="116.84" y1="220.98" x2="114.3" y2="220.98" width="0.1524" layer="91"/>
-<junction x="114.3" y="220.98"/>
-<pinref part="U13" gate="A" pin="VDD33_5"/>
-<wire x1="119.38" y1="218.44" x2="119.38" y2="220.98" width="0.1524" layer="91"/>
-<wire x1="119.38" y1="220.98" x2="116.84" y2="220.98" width="0.1524" layer="91"/>
-<junction x="116.84" y="220.98"/>
-<wire x1="114.3" y1="220.98" x2="114.3" y2="238.76" width="0.1524" layer="91"/>
 <pinref part="C54" gate="G$1" pin="1"/>
 <wire x1="114.3" y1="238.76" x2="114.3" y2="243.84" width="0.1524" layer="91"/>
 <wire x1="160.02" y1="236.22" x2="160.02" y2="238.76" width="0.1524" layer="91"/>
@@ -9721,6 +9750,8 @@ internal pull-ups</text>
 <pinref part="C53" gate="G$1" pin="1"/>
 <wire x1="152.4" y1="236.22" x2="152.4" y2="238.76" width="0.1524" layer="91"/>
 <junction x="152.4" y="238.76"/>
+<wire x1="114.3" y1="233.68" x2="114.3" y2="238.76" width="0.1524" layer="91"/>
+<pinref part="JP.HUB.VDD" gate="G$1" pin="1"/>
 </segment>
 <segment>
 <pinref part="SUPPLY27" gate="G$1" pin="+3V3"/>
@@ -9769,7 +9800,7 @@ internal pull-ups</text>
 </net>
 <net name="MAIN_TRACE_CLK/GPIO4" class="0">
 <segment>
-<pinref part="J_DEBUG_TO_MAIN_HEADER" gate="G$1" pin="26"/>
+<pinref part="J_DBG_TO_MAIN_HDR" gate="G$1" pin="26"/>
 <label x="508" y="154.94" size="1.778" layer="95" rot="R90"/>
 <wire x1="508" y1="147.32" x2="508" y2="210.82" width="0.1524" layer="91"/>
 <wire x1="508" y1="210.82" x2="508" y2="215.9" width="0.1524" layer="91"/>
@@ -9778,10 +9809,10 @@ internal pull-ups</text>
 <junction x="508" y="210.82"/>
 </segment>
 </net>
-<net name="VDD_TO_MAIN" class="0">
+<net name="VDD_TO_MAIN" class="1">
 <segment>
-<pinref part="J_DEBUG_TO_MAIN_HEADER" gate="G$1" pin="2"/>
-<pinref part="J_DEBUG_TO_MAIN_HEADER" gate="G$1" pin="4"/>
+<pinref part="J_DBG_TO_MAIN_HDR" gate="G$1" pin="2"/>
+<pinref part="J_DBG_TO_MAIN_HDR" gate="G$1" pin="4"/>
 <wire x1="480.06" y1="147.32" x2="480.06" y2="152.4" width="0.1524" layer="91"/>
 <wire x1="480.06" y1="152.4" x2="477.52" y2="152.4" width="0.1524" layer="91"/>
 <wire x1="477.52" y1="152.4" x2="477.52" y2="147.32" width="0.1524" layer="91"/>
@@ -9877,7 +9908,7 @@ internal pull-ups</text>
 <wire x1="149.86" y1="73.66" x2="132.08" y2="73.66" width="0.1524" layer="91"/>
 </segment>
 </net>
-<net name="VREG_IN" class="2">
+<net name="VREG_IN" class="1">
 <segment>
 <pinref part="JP.EN.VMEAS" gate="G$1" pin="1"/>
 <wire x1="337.82" y1="76.2" x2="332.74" y2="76.2" width="0.1524" layer="91"/>
@@ -9909,12 +9940,12 @@ internal pull-ups</text>
 </net>
 <net name="V_BATT_MAIN" class="1">
 <segment>
-<pinref part="J_DEBUG_TO_MAIN_HEADER" gate="G$1" pin="8"/>
+<pinref part="J_DBG_TO_MAIN_HDR" gate="G$1" pin="8"/>
 <wire x1="485.14" y1="147.32" x2="485.14" y2="152.4" width="0.1524" layer="91"/>
 <wire x1="485.14" y1="152.4" x2="487.68" y2="152.4" width="0.1524" layer="91"/>
-<pinref part="J_DEBUG_TO_MAIN_HEADER" gate="G$1" pin="10"/>
+<pinref part="J_DBG_TO_MAIN_HDR" gate="G$1" pin="10"/>
 <wire x1="487.68" y1="152.4" x2="487.68" y2="147.32" width="0.1524" layer="91"/>
-<pinref part="J_DEBUG_TO_MAIN_HEADER" gate="G$1" pin="6"/>
+<pinref part="J_DBG_TO_MAIN_HDR" gate="G$1" pin="6"/>
 <wire x1="482.6" y1="147.32" x2="482.6" y2="152.4" width="0.1524" layer="91"/>
 <wire x1="482.6" y1="152.4" x2="485.14" y2="152.4" width="0.1524" layer="91"/>
 <junction x="485.14" y="152.4"/>
@@ -9997,7 +10028,7 @@ internal pull-ups</text>
 <label x="383.54" y="388.62" size="1.778" layer="95" rot="R90"/>
 </segment>
 </net>
-<net name="VCHRG_OUT" class="2">
+<net name="VCHRG_OUT" class="1">
 <segment>
 <pinref part="C208" gate="G$1" pin="1"/>
 <wire x1="132.08" y1="101.6" x2="165.1" y2="101.6" width="0.1524" layer="91"/>
@@ -10153,7 +10184,7 @@ internal pull-ups</text>
 <wire x1="60.96" y1="205.74" x2="60.96" y2="210.82" width="0.1524" layer="91"/>
 </segment>
 </net>
-<net name="N$18" class="0">
+<net name="HUB_USB_VBUS" class="0">
 <segment>
 <pinref part="R47" gate="G$1" pin="1"/>
 <pinref part="R46" gate="G$1" pin="2"/>
@@ -10163,9 +10194,10 @@ internal pull-ups</text>
 <wire x1="93.98" y1="243.84" x2="101.6" y2="243.84" width="0.1524" layer="91"/>
 <wire x1="101.6" y1="243.84" x2="101.6" y2="218.44" width="0.1524" layer="91"/>
 <junction x="93.98" y="243.84"/>
+<label x="101.6" y="220.98" size="1.778" layer="95" rot="R90"/>
 </segment>
 </net>
-<net name="N$19" class="0">
+<net name="USB_HUB_RST" class="0">
 <segment>
 <pinref part="U13" gate="A" pin="RESET_N"/>
 <wire x1="149.86" y1="208.28" x2="172.72" y2="208.28" width="0.1524" layer="91"/>
@@ -10176,17 +10208,19 @@ internal pull-ups</text>
 <pinref part="C48" gate="G$1" pin="1"/>
 <wire x1="182.88" y1="223.52" x2="182.88" y2="226.06" width="0.1524" layer="91"/>
 <junction x="182.88" y="226.06"/>
+<label x="152.4" y="208.28" size="1.778" layer="95"/>
 </segment>
 </net>
-<net name="N$17" class="0">
+<net name="USB_RBIAS" class="0">
 <segment>
 <pinref part="U13" gate="A" pin="RBIAS"/>
 <pinref part="R48" gate="G$1" pin="2"/>
 <wire x1="223.52" y1="193.04" x2="223.52" y2="203.2" width="0.1524" layer="91"/>
 <wire x1="223.52" y1="203.2" x2="149.86" y2="203.2" width="0.1524" layer="91"/>
+<label x="152.4" y="203.2" size="1.778" layer="95"/>
 </segment>
 </net>
-<net name="N$20" class="0">
+<net name="USB_XIN" class="0">
 <segment>
 <pinref part="C55" gate="G$1" pin="1"/>
 <wire x1="25.4" y1="182.88" x2="25.4" y2="187.96" width="0.1524" layer="91"/>
@@ -10194,16 +10228,22 @@ internal pull-ups</text>
 <wire x1="25.4" y1="193.04" x2="50.8" y2="193.04" width="0.1524" layer="91"/>
 <wire x1="50.8" y1="193.04" x2="50.8" y2="185.42" width="0.1524" layer="91"/>
 <pinref part="U13" gate="A" pin="XTALIN/CLKIN"/>
-<wire x1="50.8" y1="185.42" x2="78.74" y2="185.42" width="0.1524" layer="91"/>
+<wire x1="50.8" y1="185.42" x2="66.04" y2="185.42" width="0.1524" layer="91"/>
 <pinref part="Y1" gate="A" pin="1"/>
+<wire x1="66.04" y1="185.42" x2="78.74" y2="185.42" width="0.1524" layer="91"/>
 <wire x1="27.94" y1="187.96" x2="25.4" y2="187.96" width="0.1524" layer="91"/>
 <junction x="25.4" y="187.96"/>
+<pinref part="R7" gate="G$1" pin="2"/>
+<wire x1="66.04" y1="177.8" x2="66.04" y2="185.42" width="0.1524" layer="91"/>
+<junction x="66.04" y="185.42"/>
+<label x="66.04" y="185.42" size="1.778" layer="95"/>
 </segment>
 </net>
-<net name="N$21" class="0">
+<net name="USB_XOUT" class="0">
 <segment>
 <pinref part="U13" gate="A" pin="XTALOUT"/>
-<wire x1="78.74" y1="182.88" x2="48.26" y2="182.88" width="0.1524" layer="91"/>
+<wire x1="78.74" y1="182.88" x2="55.88" y2="182.88" width="0.1524" layer="91"/>
+<wire x1="55.88" y1="182.88" x2="48.26" y2="182.88" width="0.1524" layer="91"/>
 <wire x1="48.26" y1="182.88" x2="48.26" y2="187.96" width="0.1524" layer="91"/>
 <pinref part="Y1" gate="A" pin="3"/>
 <wire x1="48.26" y1="187.96" x2="45.72" y2="187.96" width="0.1524" layer="91"/>
@@ -10211,35 +10251,42 @@ internal pull-ups</text>
 <wire x1="45.72" y1="187.96" x2="43.18" y2="187.96" width="0.1524" layer="91"/>
 <wire x1="45.72" y1="182.88" x2="45.72" y2="187.96" width="0.1524" layer="91"/>
 <junction x="45.72" y="187.96"/>
+<pinref part="R7" gate="G$1" pin="1"/>
+<wire x1="55.88" y1="177.8" x2="55.88" y2="182.88" width="0.1524" layer="91"/>
+<junction x="55.88" y="182.88"/>
+<label x="66.04" y="182.88" size="1.778" layer="95"/>
 </segment>
 </net>
-<net name="N$22" class="0">
+<net name="USB_HS_IND" class="0">
 <segment>
 <pinref part="U13" gate="A" pin="HS_IND"/>
 <pinref part="R50" gate="G$1" pin="2"/>
 <wire x1="149.86" y1="175.26" x2="167.64" y2="175.26" width="0.1524" layer="91"/>
 <wire x1="167.64" y1="175.26" x2="167.64" y2="172.72" width="0.1524" layer="91"/>
+<label x="154.94" y="175.26" size="1.778" layer="95"/>
 </segment>
 </net>
-<net name="N$23" class="0">
+<net name="USB_NONRMV1" class="0">
 <segment>
 <pinref part="U13" gate="A" pin="NON_REMI"/>
 <wire x1="149.86" y1="177.8" x2="210.82" y2="177.8" width="0.1524" layer="91"/>
 <pinref part="R52" gate="G$1" pin="1"/>
 <wire x1="210.82" y1="177.8" x2="210.82" y2="182.88" width="0.1524" layer="91"/>
+<label x="154.94" y="177.8" size="1.778" layer="95"/>
 </segment>
 </net>
-<net name="N$24" class="0">
+<net name="USB_NONRMV0" class="0">
 <segment>
 <pinref part="U13" gate="A" pin="SUSP_IND/NON_REM0"/>
 <wire x1="149.86" y1="180.34" x2="200.66" y2="180.34" width="0.1524" layer="91"/>
 <pinref part="R51" gate="G$1" pin="1"/>
 <wire x1="200.66" y1="180.34" x2="200.66" y2="182.88" width="0.1524" layer="91"/>
+<label x="154.94" y="180.34" size="1.778" layer="95"/>
 </segment>
 </net>
 <net name="USB_BKUP_MAIN_OTGID" class="0">
 <segment>
-<pinref part="J_USB_MAIN" gate="G$1" pin="USBID"/>
+<pinref part="J.USB.MN" gate="G$1" pin="USBID"/>
 <wire x1="233.68" y1="383.54" x2="248.92" y2="383.54" width="0.1524" layer="91"/>
 <label x="269.24" y="383.54" size="1.016" layer="95" xref="yes"/>
 <wire x1="248.92" y1="383.54" x2="248.92" y2="381" width="0.1524" layer="91"/>
@@ -10250,7 +10297,7 @@ internal pull-ups</text>
 </net>
 <net name="USB_BKUP_MAIN_D_N" class="0">
 <segment>
-<pinref part="J_USB_MAIN" gate="G$1" pin="D-"/>
+<pinref part="J.USB.MN" gate="G$1" pin="D-"/>
 <wire x1="233.68" y1="388.62" x2="264.16" y2="388.62" width="0.1524" layer="91"/>
 <wire x1="264.16" y1="381" x2="264.16" y2="388.62" width="0.1524" layer="91"/>
 <junction x="264.16" y="388.62"/>
@@ -10265,7 +10312,7 @@ internal pull-ups</text>
 </net>
 <net name="USB_BKUP_MAIN_D_P" class="0">
 <segment>
-<pinref part="J_USB_MAIN" gate="G$1" pin="D+"/>
+<pinref part="J.USB.MN" gate="G$1" pin="D+"/>
 <wire x1="233.68" y1="386.08" x2="256.54" y2="386.08" width="0.1524" layer="91"/>
 <wire x1="256.54" y1="381" x2="256.54" y2="386.08" width="0.1524" layer="91"/>
 <label x="269.24" y="386.08" size="1.016" layer="95" xref="yes"/>
@@ -10280,12 +10327,12 @@ internal pull-ups</text>
 </net>
 <net name="USB_BKUP_DBG_VBUS" class="1">
 <segment>
-<pinref part="J_USB_DBG" gate="G$1" pin="VBUS"/>
+<pinref part="J.USB.DBG" gate="G$1" pin="VBUS"/>
 <wire x1="172.72" y1="408.94" x2="175.26" y2="408.94" width="0.1524" layer="91"/>
 <wire x1="175.26" y1="408.94" x2="175.26" y2="414.02" width="0.1524" layer="91"/>
 <wire x1="175.26" y1="414.02" x2="152.4" y2="414.02" width="0.1524" layer="91"/>
 <wire x1="152.4" y1="414.02" x2="152.4" y2="373.38" width="0.1524" layer="91"/>
-<pinref part="JP.USBM.DBG" gate="G$1" pin="2"/>
+<pinref part="JP.USB.DBG" gate="G$1" pin="2"/>
 <label x="152.4" y="414.02" size="1.778" layer="95"/>
 </segment>
 <segment>
@@ -10299,20 +10346,20 @@ internal pull-ups</text>
 </net>
 <net name="USB_BKUP_MAIN_VBUS" class="1">
 <segment>
-<pinref part="J_USB_MAIN" gate="G$1" pin="VBUS"/>
+<pinref part="J.USB.MN" gate="G$1" pin="VBUS"/>
 <wire x1="233.68" y1="391.16" x2="241.3" y2="391.16" width="0.1524" layer="91"/>
 <wire x1="241.3" y1="391.16" x2="241.3" y2="396.24" width="0.1524" layer="91"/>
 <wire x1="241.3" y1="396.24" x2="213.36" y2="396.24" width="0.1524" layer="91"/>
 <wire x1="213.36" y1="396.24" x2="213.36" y2="378.46" width="0.1524" layer="91"/>
 <wire x1="213.36" y1="378.46" x2="182.88" y2="378.46" width="0.1524" layer="91"/>
 <wire x1="182.88" y1="378.46" x2="182.88" y2="373.38" width="0.1524" layer="91"/>
-<pinref part="JP.USBM.MAIN" gate="G$1" pin="2"/>
+<pinref part="JP.USBC" gate="G$1" pin="2"/>
 <label x="213.36" y="396.24" size="1.778" layer="95"/>
 </segment>
 </net>
 <net name="USB_BKUP_DBG_D_N" class="0">
 <segment>
-<pinref part="J_USB_DBG" gate="G$1" pin="D-"/>
+<pinref part="J.USB.DBG" gate="G$1" pin="D-"/>
 <wire x1="172.72" y1="406.4" x2="203.2" y2="406.4" width="0.1524" layer="91"/>
 <wire x1="203.2" y1="398.78" x2="203.2" y2="406.4" width="0.1524" layer="91"/>
 <junction x="203.2" y="406.4"/>
@@ -10327,7 +10374,7 @@ internal pull-ups</text>
 </net>
 <net name="USB_BKUP_DBG_D_P" class="0">
 <segment>
-<pinref part="J_USB_DBG" gate="G$1" pin="D+"/>
+<pinref part="J.USB.DBG" gate="G$1" pin="D+"/>
 <wire x1="172.72" y1="403.86" x2="195.58" y2="403.86" width="0.1524" layer="91"/>
 <wire x1="195.58" y1="398.78" x2="195.58" y2="403.86" width="0.1524" layer="91"/>
 <label x="208.28" y="403.86" size="1.016" layer="95" xref="yes"/>
@@ -10342,7 +10389,7 @@ internal pull-ups</text>
 </net>
 <net name="USB_BKUP_DBG_OTGID" class="0">
 <segment>
-<pinref part="J_USB_DBG" gate="G$1" pin="USBID"/>
+<pinref part="J.USB.DBG" gate="G$1" pin="USBID"/>
 <wire x1="172.72" y1="401.32" x2="187.96" y2="401.32" width="0.1524" layer="91"/>
 <label x="208.28" y="401.32" size="1.016" layer="95" xref="yes"/>
 <wire x1="187.96" y1="401.32" x2="187.96" y2="398.78" width="0.1524" layer="91"/>
@@ -10438,9 +10485,9 @@ internal pull-ups</text>
 <wire x1="129.54" y1="406.4" x2="129.54" y2="421.64" width="0.1524" layer="91"/>
 <wire x1="129.54" y1="421.64" x2="132.08" y2="424.18" width="0.1524" layer="91"/>
 <pinref part="JP.USBC.VBUS" gate="G$1" pin="2"/>
-<pinref part="JP.USBM.MAIN" gate="G$1" pin="1"/>
+<pinref part="JP.USBC" gate="G$1" pin="1"/>
 <wire x1="182.88" y1="363.22" x2="182.88" y2="355.6" width="0.1524" layer="91"/>
-<pinref part="JP.USBM.DBG" gate="G$1" pin="1"/>
+<pinref part="JP.USB.DBG" gate="G$1" pin="1"/>
 <wire x1="152.4" y1="363.22" x2="152.4" y2="355.6" width="0.1524" layer="91"/>
 <junction x="152.4" y="355.6"/>
 <label x="137.16" y="355.6" size="1.778" layer="95"/>
@@ -10452,6 +10499,29 @@ internal pull-ups</text>
 <wire x1="388.62" y1="383.54" x2="406.4" y2="383.54" width="0.1524" layer="91"/>
 <wire x1="406.4" y1="383.54" x2="408.94" y2="386.08" width="0.1524" layer="91"/>
 <label x="391.16" y="383.54" size="1.778" layer="95"/>
+</segment>
+</net>
+<net name="USB_HUB_VDD" class="1">
+<segment>
+<pinref part="U13" gate="A" pin="VDD33_3"/>
+<wire x1="114.3" y1="220.98" x2="114.3" y2="218.44" width="0.1524" layer="91"/>
+<pinref part="U13" gate="A" pin="VDD33_4"/>
+<wire x1="116.84" y1="218.44" x2="116.84" y2="220.98" width="0.1524" layer="91"/>
+<pinref part="U13" gate="A" pin="VDD33_5"/>
+<wire x1="119.38" y1="218.44" x2="119.38" y2="220.98" width="0.1524" layer="91"/>
+<wire x1="119.38" y1="220.98" x2="116.84" y2="220.98" width="0.1524" layer="91"/>
+<junction x="116.84" y="220.98"/>
+<wire x1="116.84" y1="220.98" x2="114.3" y2="220.98" width="0.1524" layer="91"/>
+<junction x="114.3" y="220.98"/>
+<wire x1="114.3" y1="220.98" x2="114.3" y2="223.52" width="0.1524" layer="91"/>
+<wire x1="111.76" y1="220.98" x2="114.3" y2="220.98" width="0.1524" layer="91"/>
+<pinref part="U13" gate="A" pin="VDD33_2"/>
+<wire x1="111.76" y1="218.44" x2="111.76" y2="220.98" width="0.1524" layer="91"/>
+<junction x="111.76" y="220.98"/>
+<wire x1="109.22" y1="220.98" x2="111.76" y2="220.98" width="0.1524" layer="91"/>
+<pinref part="U13" gate="A" pin="VDD33"/>
+<wire x1="109.22" y1="218.44" x2="109.22" y2="220.98" width="0.1524" layer="91"/>
+<pinref part="JP.HUB.VDD" gate="G$1" pin="2"/>
 </segment>
 </net>
 </nets>
@@ -10638,11 +10708,13 @@ Pullup on gate defaults to bypassing the opamp</text>
 <attribute name="NAME" x="572.516" y="352.425" size="1.778" layer="95"/>
 <attribute name="VALUE" x="572.516" y="347.599" size="1.778" layer="96"/>
 <attribute name="PART_NO" x="571.5" y="350.52" size="1.778" layer="96" display="off"/>
+<attribute name="MPN" x="571.5" y="350.52" size="1.778" layer="96" display="off"/>
 </instance>
 <instance part="C45" gate="G$1" x="632.46" y="304.8" smashed="yes">
 <attribute name="NAME" x="633.476" y="306.705" size="1.778" layer="95"/>
 <attribute name="VALUE" x="633.476" y="301.879" size="1.778" layer="96"/>
 <attribute name="PART_NO" x="632.46" y="304.8" size="1.778" layer="96" display="off"/>
+<attribute name="MPN" x="632.46" y="304.8" size="1.778" layer="96" display="off"/>
 </instance>
 <instance part="SUPPLY31" gate="G$1" x="561.34" y="363.22" smashed="yes"/>
 <instance part="SUPPLY32" gate="G$1" x="525.78" y="271.78" smashed="yes"/>
@@ -10776,11 +10848,13 @@ Pullup on gate defaults to bypassing the opamp</text>
 <attribute name="NAME" x="303.276" y="370.205" size="1.778" layer="95"/>
 <attribute name="VALUE" x="303.276" y="365.379" size="1.778" layer="96"/>
 <attribute name="PART_NO" x="302.26" y="368.3" size="1.778" layer="96" display="off"/>
+<attribute name="MPN" x="302.26" y="368.3" size="1.778" layer="96" display="off"/>
 </instance>
 <instance part="C15" gate="G$1" x="363.22" y="322.58" smashed="yes">
 <attribute name="NAME" x="364.236" y="324.485" size="1.778" layer="95"/>
 <attribute name="VALUE" x="364.236" y="319.659" size="1.778" layer="96"/>
 <attribute name="PART_NO" x="363.22" y="322.58" size="1.778" layer="96" display="off"/>
+<attribute name="MPN" x="363.22" y="322.58" size="1.778" layer="96" display="off"/>
 </instance>
 <instance part="SUPPLY23" gate="G$1" x="292.1" y="386.08" smashed="yes"/>
 <instance part="SUPPLY24" gate="G$1" x="256.54" y="289.56" smashed="yes"/>
@@ -10920,11 +10994,13 @@ Pullup on gate defaults to bypassing the opamp</text>
 <attribute name="NAME" x="536.956" y="177.165" size="1.778" layer="95"/>
 <attribute name="VALUE" x="536.956" y="172.339" size="1.778" layer="96"/>
 <attribute name="PART_NO" x="535.94" y="175.26" size="1.778" layer="96" display="off"/>
+<attribute name="MPN" x="535.94" y="175.26" size="1.778" layer="96" display="off"/>
 </instance>
 <instance part="C12" gate="G$1" x="596.9" y="129.54" smashed="yes">
 <attribute name="NAME" x="597.916" y="131.445" size="1.778" layer="95"/>
 <attribute name="VALUE" x="597.916" y="126.619" size="1.778" layer="96"/>
 <attribute name="PART_NO" x="596.9" y="129.54" size="1.778" layer="96" display="off"/>
+<attribute name="MPN" x="596.9" y="129.54" size="1.778" layer="96" display="off"/>
 </instance>
 <instance part="SUPPLY20" gate="G$1" x="525.78" y="187.96" smashed="yes"/>
 <instance part="SUPPLY21" gate="G$1" x="490.22" y="96.52" smashed="yes"/>
@@ -11058,11 +11134,13 @@ Pullup on gate defaults to bypassing the opamp</text>
 <attribute name="NAME" x="280.416" y="179.705" size="1.778" layer="95"/>
 <attribute name="VALUE" x="280.416" y="174.879" size="1.778" layer="96"/>
 <attribute name="PART_NO" x="279.4" y="177.8" size="1.778" layer="96" display="off"/>
+<attribute name="MPN" x="279.4" y="177.8" size="1.778" layer="96" display="off"/>
 </instance>
 <instance part="C9" gate="G$1" x="340.36" y="132.08" smashed="yes">
 <attribute name="NAME" x="341.376" y="133.985" size="1.778" layer="95"/>
 <attribute name="VALUE" x="341.376" y="129.159" size="1.778" layer="96"/>
 <attribute name="PART_NO" x="340.36" y="132.08" size="1.778" layer="96" display="off"/>
+<attribute name="MPN" x="340.36" y="132.08" size="1.778" layer="96" display="off"/>
 </instance>
 <instance part="SUPPLY17" gate="G$1" x="269.24" y="190.5" smashed="yes"/>
 <instance part="SUPPLY18" gate="G$1" x="233.68" y="99.06" smashed="yes"/>
