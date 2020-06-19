@@ -6226,12 +6226,8 @@ new: Attribute TP_SIGNAL_NAME&lt;br&gt;
 <part name="+3V22" library="Supplies" deviceset="+3V3" device=""/>
 <part name="+3V3_DTR1" library="Supplies" deviceset="+3V3" device=""/>
 <part name="EN_MEAS" library="TestPoints" deviceset="TP" device="TP10SQ" package3d_urn="urn:adsk.eagle:package:27962/1" value="TPTP10SQ"/>
-<part name="MEAS_RFM" library="TestPoints" deviceset="TP" device="TP10SQ" package3d_urn="urn:adsk.eagle:package:27962/1" value="TPTP10SQ"/>
-<part name="MEAS_SAMD" library="TestPoints" deviceset="TP" device="TP10SQ" package3d_urn="urn:adsk.eagle:package:27962/1" value="TPTP10SQ"/>
 <part name="MEAS_BARO" library="TestPoints" deviceset="TP" device="TP10SQ" package3d_urn="urn:adsk.eagle:package:27962/1" value="TPTP10SQ"/>
 <part name="MEAS_IMU" library="TestPoints" deviceset="TP" device="TP10SQ" package3d_urn="urn:adsk.eagle:package:27962/1" value="TPTP10SQ"/>
-<part name="EN_RADIO" library="TestPoints" deviceset="TP" device="TP10SQ" package3d_urn="urn:adsk.eagle:package:27962/1" value="TPTP10SQ"/>
-<part name="MEAS_MIC" library="TestPoints" deviceset="TP" device="TP10SQ" package3d_urn="urn:adsk.eagle:package:27962/1" value="TPTP10SQ"/>
 <part name="EN_BARO" library="TestPoints" deviceset="TP" device="TP10SQ" package3d_urn="urn:adsk.eagle:package:27962/1" value="TPTP10SQ"/>
 <part name="EN_IMU" library="TestPoints" deviceset="TP" device="TP10SQ" package3d_urn="urn:adsk.eagle:package:27962/1" value="TPTP10SQ"/>
 <part name="EN_MIC" library="TestPoints" deviceset="TP" device="TP10SQ" package3d_urn="urn:adsk.eagle:package:27962/1" value="TPTP10SQ"/>
@@ -6532,29 +6528,12 @@ F_MAX=1000kHz</text>
 <attribute name="NAME" x="201.93" y="105.41" size="1.778" layer="95"/>
 <attribute name="TP_SIGNAL_NAME" x="204.47" y="102.87" size="1.778" layer="97"/>
 </instance>
-<instance part="MEAS_RFM" gate="G$1" x="205.74" y="101.6" smashed="yes">
-<attribute name="NAME" x="204.47" y="102.87" size="1.778" layer="95"/>
-<attribute name="TP_SIGNAL_NAME" x="207.01" y="100.33" size="1.778" layer="97"/>
-</instance>
-<instance part="MEAS_SAMD" gate="G$1" x="208.28" y="99.06" smashed="yes">
-<attribute name="NAME" x="207.01" y="100.33" size="1.778" layer="95"/>
-<attribute name="TP_SIGNAL_NAME" x="209.55" y="97.79" size="1.778" layer="97"/>
-</instance>
 <instance part="MEAS_BARO" gate="G$1" x="210.82" y="96.52" smashed="yes">
-<attribute name="NAME" x="209.55" y="97.79" size="1.778" layer="95"/>
 <attribute name="TP_SIGNAL_NAME" x="212.09" y="95.25" size="1.778" layer="97"/>
 </instance>
 <instance part="MEAS_IMU" gate="G$1" x="213.36" y="93.98" smashed="yes">
 <attribute name="NAME" x="212.09" y="95.25" size="1.778" layer="95"/>
 <attribute name="TP_SIGNAL_NAME" x="214.63" y="92.71" size="1.778" layer="97"/>
-</instance>
-<instance part="EN_RADIO" gate="G$1" x="205.74" y="88.9" smashed="yes">
-<attribute name="NAME" x="204.47" y="90.17" size="1.778" layer="95"/>
-<attribute name="TP_SIGNAL_NAME" x="207.01" y="87.63" size="1.778" layer="97"/>
-</instance>
-<instance part="MEAS_MIC" gate="G$1" x="203.2" y="91.44" smashed="yes">
-<attribute name="NAME" x="201.93" y="92.71" size="1.778" layer="95"/>
-<attribute name="TP_SIGNAL_NAME" x="204.47" y="90.17" size="1.778" layer="97"/>
 </instance>
 <instance part="EN_BARO" gate="G$1" x="208.28" y="86.36" smashed="yes">
 <attribute name="NAME" x="207.01" y="87.63" size="1.778" layer="95"/>
@@ -7388,7 +7367,6 @@ F_MAX=1000kHz</text>
 <wire x1="185.42" y1="63.5" x2="185.42" y2="88.9" width="0.1524" layer="91"/>
 <wire x1="185.42" y1="88.9" x2="185.42" y2="109.22" width="0.1524" layer="91"/>
 <wire x1="185.42" y1="109.22" x2="187.96" y2="111.76" width="0.1524" layer="91"/>
-<pinref part="MEAS_MIC" gate="G$1" pin="TP"/>
 <wire x1="203.2" y1="88.9" x2="185.42" y2="88.9" width="0.1524" layer="91"/>
 <junction x="185.42" y="88.9"/>
 </segment>
@@ -7401,7 +7379,6 @@ F_MAX=1000kHz</text>
 <wire x1="177.8" y1="71.12" x2="177.8" y2="96.52" width="0.1524" layer="91"/>
 <wire x1="177.8" y1="96.52" x2="177.8" y2="109.22" width="0.1524" layer="91"/>
 <wire x1="177.8" y1="109.22" x2="180.34" y2="111.76" width="0.1524" layer="91"/>
-<pinref part="MEAS_SAMD" gate="G$1" pin="TP"/>
 <wire x1="208.28" y1="96.52" x2="177.8" y2="96.52" width="0.1524" layer="91"/>
 <junction x="177.8" y="96.52"/>
 </segment>
@@ -7414,7 +7391,6 @@ F_MAX=1000kHz</text>
 <wire x1="175.26" y1="73.66" x2="175.26" y2="99.06" width="0.1524" layer="91"/>
 <wire x1="175.26" y1="99.06" x2="175.26" y2="109.22" width="0.1524" layer="91"/>
 <wire x1="175.26" y1="109.22" x2="177.8" y2="111.76" width="0.1524" layer="91"/>
-<pinref part="MEAS_RFM" gate="G$1" pin="TP"/>
 <wire x1="205.74" y1="99.06" x2="175.26" y2="99.06" width="0.1524" layer="91"/>
 <junction x="175.26" y="99.06"/>
 </segment>
@@ -7440,7 +7416,6 @@ F_MAX=1000kHz</text>
 <wire x1="187.96" y1="60.96" x2="187.96" y2="86.36" width="0.1524" layer="91"/>
 <wire x1="187.96" y1="86.36" x2="187.96" y2="109.22" width="0.1524" layer="91"/>
 <wire x1="187.96" y1="109.22" x2="190.5" y2="111.76" width="0.1524" layer="91"/>
-<pinref part="EN_RADIO" gate="G$1" pin="TP"/>
 <wire x1="205.74" y1="86.36" x2="187.96" y2="86.36" width="0.1524" layer="91"/>
 <junction x="187.96" y="86.36"/>
 </segment>
