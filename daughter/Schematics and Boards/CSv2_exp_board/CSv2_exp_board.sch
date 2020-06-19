@@ -3373,7 +3373,6 @@ Temp: -40~+85°C</text>
 <wire x1="-1.95" y1="1.5" x2="1.95" y2="1.5" width="0.127" layer="21"/>
 <wire x1="-1.95" y1="-1.5" x2="1.95" y2="-1.5" width="0.127" layer="21"/>
 <circle x="-3.21" y="-1.77" radius="0.094865625" width="0" layer="21"/>
-<text x="-2.35" y="-1.65" size="0.254" layer="21" rot="R180">ANT</text>
 <text x="3.55" y="-1.6" size="0.4064" layer="25" rot="R90">&gt;NAME</text>
 <rectangle x1="-2.8" y1="-1.125" x2="-2.2" y2="1.125" layer="31"/>
 <rectangle x1="2.2" y1="-1.125" x2="2.8" y2="1.125" layer="31"/>
@@ -3409,7 +3408,6 @@ Temp: -40~+85°C</text>
 <vertex x="2.1" y="1.5"/>
 </polygon>
 <smd name="G2" x="5.2" y="-0.9" dx="1" dy="4.8" layer="1" stop="no" cream="no"/>
-<text x="3.8282" y="-3.0223" size="0.3048" layer="25">2.2pF</text>
 <wire x1="-4.00033125" y1="1.50841875" x2="5.99966875" y2="1.50841875" width="0.001" layer="250"/>
 <wire x1="5.99966875" y1="1.50841875" x2="5.99966875" y2="-8.49158125" width="0.001" layer="250"/>
 <wire x1="5.99966875" y1="-8.49158125" x2="-4.00033125" y2="-8.49158125" width="0.001" layer="250"/>
@@ -6246,9 +6244,9 @@ new: Attribute TP_SIGNAL_NAME&lt;br&gt;
 <part name="EN_MIC" library="TestPoints" deviceset="TP" device="TP10SQ" package3d_urn="urn:adsk.eagle:package:27962/1" value="TPTP10SQ"/>
 <part name="JP16" library="Connectors" deviceset="JUMPER-SMT_2_NO_PASTEFREE" device=""/>
 <part name="GND25" library="Supplies" deviceset="GND" device=""/>
-<part name="DTR_DETECT_IN" library="TestPoints" deviceset="TP" device="TP10SQ" package3d_urn="urn:adsk.eagle:package:27962/1" value="TPTP10SQ"/>
+<part name="DETECT_IN" library="TestPoints" deviceset="TP" device="TP10SQ" package3d_urn="urn:adsk.eagle:package:27962/1" value="TPTP10SQ"/>
 <part name="ATT_INT" library="TestPoints" deviceset="TP" device="TP10SQ" package3d_urn="urn:adsk.eagle:package:27962/1" value="TPTP10SQ"/>
-<part name="DTR_DETECT_OUT" library="TestPoints" deviceset="TP" device="TP10SQ" package3d_urn="urn:adsk.eagle:package:27962/1" value="TPTP10SQ"/>
+<part name="DETECT_OUT" library="TestPoints" deviceset="TP" device="TP10SQ" package3d_urn="urn:adsk.eagle:package:27962/1" value="TPTP10SQ"/>
 <part name="ATT_SCL" library="TestPoints" deviceset="TP" device="TP10SQ" package3d_urn="urn:adsk.eagle:package:27962/1" value="TPTP10SQ"/>
 <part name="ATT_SDA" library="TestPoints" deviceset="TP" device="TP10SQ" package3d_urn="urn:adsk.eagle:package:27962/1" value="TPTP10SQ"/>
 <part name="BUS1_SCL" library="TestPoints" deviceset="TP" device="TP10SQ" package3d_urn="urn:adsk.eagle:package:27962/1" value="TPTP10SQ"/>
@@ -7923,7 +7921,7 @@ F_MAX=1000kHz</text>
 <instance part="GND25" gate="1" x="294.64" y="50.8" smashed="yes">
 <attribute name="VALUE" x="292.1" y="48.26" size="1.778" layer="96"/>
 </instance>
-<instance part="DTR_DETECT_IN" gate="G$1" x="292.1" y="157.48" smashed="yes">
+<instance part="DETECT_IN" gate="G$1" x="292.1" y="157.48" smashed="yes">
 <attribute name="NAME" x="290.83" y="158.75" size="1.778" layer="95"/>
 <attribute name="TP_SIGNAL_NAME" x="293.37" y="156.21" size="1.778" layer="97"/>
 </instance>
@@ -7931,7 +7929,7 @@ F_MAX=1000kHz</text>
 <attribute name="NAME" x="321.31" y="153.67" size="1.778" layer="95"/>
 <attribute name="TP_SIGNAL_NAME" x="323.85" y="151.13" size="1.778" layer="97"/>
 </instance>
-<instance part="DTR_DETECT_OUT" gate="G$1" x="294.64" y="76.2" smashed="yes">
+<instance part="DETECT_OUT" gate="G$1" x="294.64" y="76.2" smashed="yes">
 <attribute name="NAME" x="293.37" y="77.47" size="1.778" layer="95"/>
 <attribute name="TP_SIGNAL_NAME" x="295.91" y="74.93" size="1.778" layer="97"/>
 </instance>
@@ -8153,7 +8151,7 @@ F_MAX=1000kHz</text>
 <pinref part="J301" gate="G$1" pin="39"/>
 <wire x1="297.18" y1="154.94" x2="292.1" y2="154.94" width="0.1524" layer="91"/>
 <label x="289.56" y="154.94" size="1.778" layer="95" rot="R180" xref="yes"/>
-<pinref part="DTR_DETECT_IN" gate="G$1" pin="TP"/>
+<pinref part="DETECT_IN" gate="G$1" pin="TP"/>
 <wire x1="292.1" y1="154.94" x2="289.56" y2="154.94" width="0.1524" layer="91"/>
 <junction x="292.1" y="154.94"/>
 </segment>
@@ -8565,7 +8563,7 @@ F_MAX=1000kHz</text>
 <pinref part="J1" gate="G$1" pin="39"/>
 <wire x1="297.18" y1="73.66" x2="294.64" y2="73.66" width="0.1524" layer="91"/>
 <label x="292.1" y="73.66" size="1.778" layer="95" rot="R180" xref="yes"/>
-<pinref part="DTR_DETECT_OUT" gate="G$1" pin="TP"/>
+<pinref part="DETECT_OUT" gate="G$1" pin="TP"/>
 <wire x1="294.64" y1="73.66" x2="292.1" y2="73.66" width="0.1524" layer="91"/>
 <junction x="294.64" y="73.66"/>
 </segment>
