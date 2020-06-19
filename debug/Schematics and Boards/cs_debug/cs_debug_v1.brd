@@ -186,9 +186,9 @@
 </layers>
 <board>
 <plain>
-<wire x1="-22.86" y1="0" x2="60.325" y2="0" width="0" layer="20"/>
-<wire x1="60.325" y1="0" x2="60.325" y2="62.23" width="0" layer="20"/>
-<wire x1="60.325" y1="62.23" x2="-22.86" y2="62.23" width="0" layer="20"/>
+<wire x1="-22.86" y1="0" x2="60.452" y2="0" width="0" layer="20"/>
+<wire x1="60.452" y1="0" x2="60.452" y2="62.23" width="0" layer="20"/>
+<wire x1="60.452" y1="62.23" x2="-22.86" y2="62.23" width="0" layer="20"/>
 <wire x1="-22.86" y1="62.23" x2="-22.86" y2="0" width="0" layer="20"/>
 <hole x="2.54" y="2.54" drill="2.286"/>
 <hole x="35.56" y="2.54" drill="2.286"/>
@@ -1957,7 +1957,9 @@ design rules under a new name.</description>
 <attribute name="VOLTAGE" value="10V" x="8.255" y="41.275" size="1.778" layer="27" rot="R270" display="off"/>
 </element>
 <element name="R1" library="Resistors" package="R2010" value="0" x="38.1" y="31.115" smashed="yes" rot="MR90">
+<attribute name="MPN" value="ERJ-S1D0R00U" x="38.1" y="31.115" size="1.778" layer="28" rot="MR90" display="off"/>
 <attribute name="NAME" x="40.00521875" y="27.6602" size="2.083040625" layer="26" ratio="10" rot="SMR90"/>
+<attribute name="PART_NO" value="ERJ-S1D0R00U" x="38.1" y="31.115" size="1.778" layer="28" rot="MR90" display="off"/>
 <attribute name="VALUE" x="32.587790625" y="27.685640625" size="2.08301875" layer="28" ratio="10" rot="SMR90"/>
 </element>
 <element name="JP.VDD.MAIN" library="Connectors" package="SMT-JUMPER_2_NC_PASTE_NO-SILK" package3d_urn="urn:adsk.eagle:package:39283/1" value="JUMPER-SMT_2_NC_PASTE_NO-SILK" x="13.97" y="40.64" smashed="yes">
@@ -1993,11 +1995,13 @@ design rules under a new name.</description>
 <attribute name="MANUFACTURER" value="Samtech Inc." x="14.605" y="56.515" size="1.778" layer="27" rot="R180" display="off"/>
 <attribute name="MPN" value="FTSH-105-01-L-DV-K-TR" x="14.605" y="56.515" size="1.778" layer="27" rot="R180" display="off"/>
 <attribute name="NAME" x="18.2372" y="57.7342" size="0.6096" layer="25" font="vector" rot="R270"/>
+<attribute name="PART_NO" value="FTSH-105-01-L-DV-K-TR" x="14.605" y="56.515" size="1.778" layer="27" rot="R180" display="off"/>
 </element>
 <element name="J2" library="Connectors" package="SAMTECH_FTSH-105-01" value="J-JTAG-CORTEX_SMD" x="-10.16" y="7.62" smashed="yes">
 <attribute name="MANUFACTURER" value="Samtech Inc." x="-10.16" y="7.62" size="1.778" layer="27" display="off"/>
 <attribute name="MPN" value="FTSH-105-01-L-DV-K-TR" x="-10.16" y="7.62" size="1.778" layer="27" display="off"/>
 <attribute name="NAME" x="-13.7922" y="12.7508" size="0.6096" layer="25" font="vector" rot="R90"/>
+<attribute name="PART_NO" value="FTSH-105-01-L-DV-K-TR" x="-10.16" y="7.62" size="1.778" layer="27" display="off"/>
 </element>
 <element name="J3" library="Connectors" package="8.06.16_6-PIN_NEEDLE_ADAPTER_LEGS" value="J-JTAG-CORTEX-NEEDLE6-LEGS" x="-6.985" y="18.415" smashed="yes" rot="R90">
 <attribute name="NAME" x="-10.998259375" y="14.33311875" size="1.274209375" layer="25" rot="R90"/>
@@ -2005,40 +2009,40 @@ design rules under a new name.</description>
 <element name="R4" library="Resistors" package="R0402" value="4.7k" x="1.905" y="8.89" smashed="yes" rot="R180">
 <attribute name="MANUFACTURER" value="Panasonic" x="1.905" y="8.89" size="1.778" layer="27" rot="R180" display="off"/>
 <attribute name="MPN" value="ERJ-2GEJ472X" x="1.905" y="8.89" size="1.778" layer="27" rot="R180" display="off"/>
-<attribute name="NAME" x="2.5718" y="9.0313" size="0.3048" layer="255" rot="R180"/>
 <attribute name="NAME" x="2.5718" y="9.0313" size="0.3048" layer="51" rot="R180"/>
+<attribute name="NAME" x="2.5718" y="9.0313" size="0.3048" layer="255" rot="R180"/>
 <attribute name="PART_NO" value="ERJ-2GEJ472X" x="1.905" y="8.89" size="1.778" layer="27" rot="R180" display="off"/>
 <attribute name="TOL" value="5%" x="1.905" y="8.89" size="1.778" layer="27" rot="R180" display="off"/>
 </element>
 <element name="R5" library="Resistors" package="R0402" value="4.7k" x="1.905" y="10.795" smashed="yes" rot="R180">
 <attribute name="MANUFACTURER" value="Panasonic" x="1.905" y="10.795" size="1.778" layer="27" rot="R180" display="off"/>
 <attribute name="MPN" value="ERJ-2GEJ472X" x="1.905" y="10.795" size="1.778" layer="27" rot="R180" display="off"/>
-<attribute name="NAME" x="2.5718" y="10.9363" size="0.3048" layer="255" rot="R180"/>
 <attribute name="NAME" x="2.5718" y="10.9363" size="0.3048" layer="51" rot="R180"/>
+<attribute name="NAME" x="2.5718" y="10.9363" size="0.3048" layer="255" rot="R180"/>
 <attribute name="PART_NO" value="ERJ-2GEJ472X" x="1.905" y="10.795" size="1.778" layer="27" rot="R180" display="off"/>
 <attribute name="TOL" value="5%" x="1.905" y="10.795" size="1.778" layer="27" rot="R180" display="off"/>
 </element>
 <element name="R2" library="Resistors" package="R0402" value="100k" x="-12.065" y="12.7" smashed="yes" rot="MR270">
 <attribute name="MANUFACTURER" value="Panasonic" x="-12.065" y="12.7" size="1.778" layer="28" rot="MR270" display="off"/>
 <attribute name="MPN" value="ERJ-2GEJ104X" x="-12.065" y="12.7" size="1.778" layer="28" rot="MR270" display="off"/>
-<attribute name="NAME" x="-11.9237" y="13.3668" size="0.3048" layer="52" rot="MR270"/>
 <attribute name="NAME" x="-11.9237" y="13.3668" size="0.3048" layer="255" rot="MR270"/>
+<attribute name="NAME" x="-11.9237" y="13.3668" size="0.3048" layer="52" rot="MR270"/>
 <attribute name="PART_NO" value="ERJ-2GEJ104X" x="-12.065" y="12.7" size="1.778" layer="28" rot="MR270" display="off"/>
 <attribute name="TOL" value="5%" x="-12.065" y="12.7" size="1.778" layer="28" rot="MR270" display="off"/>
 </element>
 <element name="R3" library="Resistors" package="R0402" value="100k" x="-9.525" y="12.7" smashed="yes" rot="MR90">
 <attribute name="MANUFACTURER" value="Panasonic" x="-9.525" y="12.7" size="1.778" layer="28" rot="MR90" display="off"/>
 <attribute name="MPN" value="ERJ-2GEJ104X" x="-9.525" y="12.7" size="1.778" layer="28" rot="MR90" display="off"/>
-<attribute name="NAME" x="-9.6663" y="12.0332" size="0.3048" layer="52" rot="MR90"/>
 <attribute name="NAME" x="-9.6663" y="12.0332" size="0.3048" layer="255" rot="MR90"/>
+<attribute name="NAME" x="-9.6663" y="12.0332" size="0.3048" layer="52" rot="MR90"/>
 <attribute name="PART_NO" value="ERJ-2GEJ104X" x="-9.525" y="12.7" size="1.778" layer="28" rot="MR90" display="off"/>
 <attribute name="TOL" value="5%" x="-9.525" y="12.7" size="1.778" layer="28" rot="MR90" display="off"/>
 </element>
 <element name="R6" library="Resistors" package="R0402" value="100k" x="-6.985" y="12.7" smashed="yes" rot="MR90">
 <attribute name="MANUFACTURER" value="Panasonic" x="-6.985" y="12.7" size="1.778" layer="28" rot="MR90" display="off"/>
 <attribute name="MPN" value="ERJ-2GEJ104X" x="-6.985" y="12.7" size="1.778" layer="28" rot="MR90" display="off"/>
-<attribute name="NAME" x="-7.1263" y="12.0332" size="0.3048" layer="52" rot="MR90"/>
 <attribute name="NAME" x="-7.1263" y="12.0332" size="0.3048" layer="255" rot="MR90"/>
+<attribute name="NAME" x="-7.1263" y="12.0332" size="0.3048" layer="52" rot="MR90"/>
 <attribute name="PART_NO" value="ERJ-2GEJ104X" x="-6.985" y="12.7" size="1.778" layer="28" rot="MR90" display="off"/>
 <attribute name="TOL" value="5%" x="-6.985" y="12.7" size="1.778" layer="28" rot="MR90" display="off"/>
 </element>
@@ -2073,40 +2077,40 @@ design rules under a new name.</description>
 <element name="R206" library="Resistors" package="R0402" value="10k" x="13.335" y="44.45" smashed="yes" rot="MR90">
 <attribute name="MANUFACTURER" value="Panasonic" x="25.4" y="29.845" size="1.778" layer="28" rot="MR90" display="off"/>
 <attribute name="MPN" value="ERJ-2GEJ103X" x="25.4" y="29.845" size="1.778" layer="28" rot="MR90" display="off"/>
-<attribute name="NAME" x="13.1937" y="43.7832" size="0.3048" layer="52" rot="MR90"/>
 <attribute name="NAME" x="13.1937" y="43.7832" size="0.3048" layer="255" rot="MR90"/>
+<attribute name="NAME" x="13.1937" y="43.7832" size="0.3048" layer="52" rot="MR90"/>
 <attribute name="PART_NO" value="ERJ-2GEJ103X" x="13.335" y="44.45" size="1.778" layer="28" rot="MR90" display="off"/>
 <attribute name="TOL" value="5%" x="25.4" y="29.845" size="1.778" layer="28" rot="MR90" display="off"/>
 </element>
 <element name="R203" library="Resistors" package="R0402" value="2k" x="4.445" y="47.625" smashed="yes" rot="MR180">
 <attribute name="MANUFACTURER" value="Panasonic" x="-5.08" y="37.465" size="1.778" layer="28" rot="MR180" display="off"/>
 <attribute name="MPN" value="ERJ-2GEJ202X" x="-5.08" y="37.465" size="1.778" layer="28" rot="MR180" display="off"/>
-<attribute name="NAME" x="3.7782" y="47.7663" size="0.3048" layer="52" rot="MR180"/>
 <attribute name="NAME" x="3.7782" y="47.7663" size="0.3048" layer="255" rot="MR180"/>
+<attribute name="NAME" x="3.7782" y="47.7663" size="0.3048" layer="52" rot="MR180"/>
 <attribute name="PART_NO" value="ERJ-2GEJ202X" x="4.445" y="47.625" size="1.778" layer="28" rot="MR180" display="off"/>
 <attribute name="TOL" value="5%" x="-5.08" y="37.465" size="1.778" layer="28" rot="MR180" display="off"/>
 </element>
 <element name="R204" library="Resistors" package="R0402" value="100k" x="4.445" y="46.355" smashed="yes" rot="MR180">
 <attribute name="MANUFACTURER" value="Panasonic" x="-7.62" y="38.1" size="1.778" layer="28" rot="MR180" display="off"/>
 <attribute name="MPN" value="ERJ-2GEJ104X" x="-7.62" y="38.1" size="1.778" layer="28" rot="MR180" display="off"/>
-<attribute name="NAME" x="3.7782" y="46.4963" size="0.3048" layer="52" rot="MR180"/>
 <attribute name="NAME" x="3.7782" y="46.4963" size="0.3048" layer="255" rot="MR180"/>
+<attribute name="NAME" x="3.7782" y="46.4963" size="0.3048" layer="52" rot="MR180"/>
 <attribute name="PART_NO" value="ERJ-2GEJ104X" x="4.445" y="46.355" size="1.778" layer="28" rot="MR180" display="off"/>
 <attribute name="TOL" value="5%" x="-7.62" y="38.1" size="1.778" layer="28" rot="MR180" display="off"/>
 </element>
 <element name="R202" library="Resistors" package="R0402" value="100k" x="13.335" y="49.53" smashed="yes" rot="MR90">
 <attribute name="MANUFACTURER" value="Panasonic" x="19.685" y="42.545" size="1.778" layer="28" rot="MR90" display="off"/>
 <attribute name="MPN" value="ERJ-2GEJ104X" x="19.685" y="42.545" size="1.778" layer="28" rot="MR90" display="off"/>
-<attribute name="NAME" x="13.1937" y="48.8632" size="0.3048" layer="52" rot="MR90"/>
 <attribute name="NAME" x="13.1937" y="48.8632" size="0.3048" layer="255" rot="MR90"/>
+<attribute name="NAME" x="13.1937" y="48.8632" size="0.3048" layer="52" rot="MR90"/>
 <attribute name="PART_NO" value="ERJ-2GEJ104X" x="13.335" y="49.53" size="1.778" layer="28" rot="MR90" display="off"/>
 <attribute name="TOL" value="5%" x="19.685" y="42.545" size="1.778" layer="28" rot="MR90" display="off"/>
 </element>
 <element name="R201" library="Resistors" package="R0402" value="270k" x="13.335" y="46.99" smashed="yes" rot="MR270">
 <attribute name="MANUFACTURER" value="Panasonic" x="13.335" y="63.5" size="1.778" layer="28" rot="MR270" display="off"/>
 <attribute name="MPN" value="ERJ-2GEJ274X" x="13.335" y="63.5" size="1.778" layer="28" rot="MR270" display="off"/>
-<attribute name="NAME" x="13.4763" y="47.6568" size="0.3048" layer="52" rot="MR270"/>
 <attribute name="NAME" x="13.4763" y="47.6568" size="0.3048" layer="255" rot="MR270"/>
+<attribute name="NAME" x="13.4763" y="47.6568" size="0.3048" layer="52" rot="MR270"/>
 <attribute name="PART_NO" value="ERJ-2GEJ274X" x="13.335" y="46.99" size="1.778" layer="28" rot="MR270" display="off"/>
 <attribute name="TOL" value="5%" x="13.335" y="63.5" size="1.778" layer="28" rot="MR270" display="off"/>
 </element>
@@ -2395,16 +2399,16 @@ design rules under a new name.</description>
 <element name="R8" library="Resistors" package="R0402" value="100k" x="30.1752" y="12.7254" smashed="yes" rot="MR270">
 <attribute name="MANUFACTURER" value="Panasonic" x="29.5402" y="12.7254" size="1.778" layer="28" rot="MR270" display="off"/>
 <attribute name="MPN" value="RC0402JR-07100KL" x="29.5402" y="12.7254" size="1.778" layer="28" rot="MR270" display="off"/>
-<attribute name="NAME" x="30.3165" y="13.3922" size="0.3048" layer="52" rot="MR270"/>
 <attribute name="NAME" x="30.3165" y="13.3922" size="0.3048" layer="255" rot="MR270"/>
+<attribute name="NAME" x="30.3165" y="13.3922" size="0.3048" layer="52" rot="MR270"/>
 <attribute name="PART_NO" value="RC0402JR-07100KL" x="30.1752" y="12.7254" size="1.778" layer="28" rot="MR270" display="off"/>
 <attribute name="TOL" value="5%" x="29.5402" y="12.7254" size="1.778" layer="28" rot="MR270" display="off"/>
 </element>
 <element name="R41" library="Resistors" package="R0402" value="100k" x="23.495" y="14.605" smashed="yes">
 <attribute name="MANUFACTURER" value="Panasonic" x="23.495" y="14.605" size="1.778" layer="27" display="off"/>
 <attribute name="MPN" value="RC0402JR-07100KL" x="23.495" y="14.605" size="1.778" layer="27" display="off"/>
-<attribute name="NAME" x="22.8282" y="14.4637" size="0.3048" layer="255"/>
 <attribute name="NAME" x="22.8282" y="14.4637" size="0.3048" layer="51"/>
+<attribute name="NAME" x="22.8282" y="14.4637" size="0.3048" layer="255"/>
 <attribute name="PART_NO" value="RC0402JR-07100KL" x="23.495" y="14.605" size="1.778" layer="27" display="off"/>
 <attribute name="TOL" value="5%" x="23.495" y="14.605" size="1.778" layer="27" display="off"/>
 </element>
@@ -2436,6 +2440,7 @@ design rules under a new name.</description>
 <attribute name="MANUFACTURER" value="Adam Tech" x="-14.605" y="1.905" size="1.778" layer="27" rot="R90" display="off"/>
 <attribute name="MPN" value="PH1-06-UA" x="-14.605" y="1.905" size="1.778" layer="27" rot="R90" display="off"/>
 <attribute name="NAME" x="-6.985" y="0.254" size="0.6096" layer="25" ratio="10" rot="R180"/>
+<attribute name="PART_NO" value="PH1-06-UA" x="-14.605" y="1.905" size="1.778" layer="27" rot="R90" display="off"/>
 </element>
 <element name="JP.UART.VCC" library="Connectors" package="SMT-JUMPER_2_NC_PASTE_NO-SILK" package3d_urn="urn:adsk.eagle:package:39283/1" value="JUMPER-SMT_2_NC_PASTE_NO-SILK" x="-12.065" y="5.715" smashed="yes" rot="MR90">
 <attribute name="BOM" value="EXCLUDE" x="-12.065" y="5.715" size="1.778" layer="28" rot="MR90" display="off"/>
@@ -2466,6 +2471,7 @@ design rules under a new name.</description>
 <attribute name="MF" value="Wurth Electronics" x="-6.35" y="52.705" size="1.778" layer="27" rot="R270" display="off"/>
 <attribute name="MPN" value="632723100011" x="-6.35" y="52.705" size="1.778" layer="27" rot="R270" display="off"/>
 <attribute name="PACKAGE" value="None" x="-6.35" y="52.705" size="1.778" layer="27" rot="R270" display="off"/>
+<attribute name="PART_NO" value="632723100011" x="-15.24" y="42.545" size="1.778" layer="27" rot="R270" display="off"/>
 <attribute name="PRICE" value="None" x="-6.35" y="52.705" size="1.778" layer="27" rot="R270" display="off"/>
 </element>
 <element name="R42" library="Resistors" package="R0603" value="5.1k" x="-5.715" y="48.26" smashed="yes" rot="R270">
@@ -2633,24 +2639,24 @@ design rules under a new name.</description>
 <element name="R50" library="Resistors" package="R0402" value="100k" x="-12.0142" y="33.4518" smashed="yes" rot="MR270">
 <attribute name="MANUFACTURER" value="Panasonic" x="-12.0142" y="33.4518" size="1.778" layer="28" rot="MR270" display="off"/>
 <attribute name="MPN" value="ERJ-2GEJ104X" x="-12.0142" y="33.4518" size="1.778" layer="28" rot="MR270" display="off"/>
-<attribute name="NAME" x="-11.8729" y="34.1186" size="0.3048" layer="52" rot="MR270"/>
 <attribute name="NAME" x="-11.8729" y="34.1186" size="0.3048" layer="255" rot="MR270"/>
+<attribute name="NAME" x="-11.8729" y="34.1186" size="0.3048" layer="52" rot="MR270"/>
 <attribute name="PART_NO" value="ERJ-2GEJ104X" x="-12.0142" y="33.4518" size="1.778" layer="28" rot="MR270" display="off"/>
 <attribute name="TOL" value="5%" x="-12.0142" y="33.4518" size="1.778" layer="28" rot="MR270" display="off"/>
 </element>
 <element name="R51" library="Resistors" package="R0402" value="10k" x="-8.2804" y="33.3502" smashed="yes" rot="MR90">
 <attribute name="MANUFACTURER" value="Panasonic" x="-8.2804" y="33.3502" size="1.778" layer="28" rot="MR90" display="off"/>
 <attribute name="MPN" value="ERJ-2GEJ103X" x="-8.2804" y="33.3502" size="1.778" layer="28" rot="MR90" display="off"/>
-<attribute name="NAME" x="-8.4217" y="32.6834" size="0.3048" layer="52" rot="MR90"/>
 <attribute name="NAME" x="-8.4217" y="32.6834" size="0.3048" layer="255" rot="MR90"/>
+<attribute name="NAME" x="-8.4217" y="32.6834" size="0.3048" layer="52" rot="MR90"/>
 <attribute name="PART_NO" value="ERJ-2GEJ103X" x="-8.2804" y="33.3502" size="1.778" layer="28" rot="MR90" display="off"/>
 <attribute name="TOL" value="5%" x="-8.2804" y="33.3502" size="1.778" layer="28" rot="MR90" display="off"/>
 </element>
 <element name="R52" library="Resistors" package="R0402" value="10k" x="-13.97" y="29.845" smashed="yes" rot="MR180">
 <attribute name="MANUFACTURER" value="Panasonic" x="-13.97" y="29.845" size="1.778" layer="28" rot="MR180" display="off"/>
 <attribute name="MPN" value="ERJ-2GEJ103X" x="-13.97" y="29.845" size="1.778" layer="28" rot="MR180" display="off"/>
-<attribute name="NAME" x="-14.6368" y="29.9863" size="0.3048" layer="52" rot="MR180"/>
 <attribute name="NAME" x="-14.6368" y="29.9863" size="0.3048" layer="255" rot="MR180"/>
+<attribute name="NAME" x="-14.6368" y="29.9863" size="0.3048" layer="52" rot="MR180"/>
 <attribute name="PART_NO" value="ERJ-2GEJ103X" x="-13.97" y="29.845" size="1.778" layer="28" rot="MR180" display="off"/>
 <attribute name="TOL" value="5%" x="-13.97" y="29.845" size="1.778" layer="28" rot="MR180" display="off"/>
 </element>
@@ -2724,16 +2730,16 @@ design rules under a new name.</description>
 <element name="R40" library="Resistors" package="R0402" value="249k" x="27.94" y="47.625" smashed="yes" rot="R90">
 <attribute name="MANUFACTURER" value="Panasonic" x="24.13" y="47.625" size="1.778" layer="27" rot="R90" display="off"/>
 <attribute name="MPN" value="ERA-2AEB2491X" x="24.13" y="47.625" size="1.778" layer="27" rot="R90" display="off"/>
-<attribute name="NAME" x="28.0813" y="46.9582" size="0.3048" layer="51" rot="R90"/>
 <attribute name="NAME" x="28.0813" y="46.9582" size="0.3048" layer="255" rot="R90"/>
+<attribute name="NAME" x="28.0813" y="46.9582" size="0.3048" layer="51" rot="R90"/>
 <attribute name="PART_NO" value="ERA-2AEB2491X" x="24.13" y="47.625" size="1.778" layer="27" rot="R90" display="off"/>
 <attribute name="TOL" value="0,1%" x="24.13" y="47.625" size="1.778" layer="27" rot="R90" display="off"/>
 </element>
 <element name="R53" library="Resistors" package="R0402" value="10k" x="27.813" y="50.1904" smashed="yes" rot="R270">
 <attribute name="MANUFACTURER" value="Panasonic" x="29.083" y="52.7304" size="1.778" layer="27" rot="R270" display="off"/>
 <attribute name="MPN" value="ERA-2AEB103X" x="29.083" y="52.7304" size="1.778" layer="27" rot="R270" display="off"/>
-<attribute name="NAME" x="27.6717" y="50.8572" size="0.3048" layer="51" rot="R270"/>
 <attribute name="NAME" x="27.6717" y="50.8572" size="0.3048" layer="255" rot="R270"/>
+<attribute name="NAME" x="27.6717" y="50.8572" size="0.3048" layer="51" rot="R270"/>
 <attribute name="PART_NO" value="ERA-2AEB103X" x="29.083" y="52.7304" size="1.778" layer="27" rot="R270" display="off"/>
 <attribute name="SPICEPREFIX" value="R" x="29.083" y="52.7304" size="1.778" layer="27" rot="R270" display="off"/>
 <attribute name="TOL" value="0.1%" x="29.083" y="52.7304" size="1.778" layer="27" rot="R270" display="off"/>
@@ -2741,32 +2747,32 @@ design rules under a new name.</description>
 <element name="R54" library="Resistors" package="R0402" value="100k" x="34.925" y="50.8" smashed="yes">
 <attribute name="MANUFACTURER" value="Panasonic" x="29.845" y="49.53" size="1.778" layer="27" display="off"/>
 <attribute name="MPN" value="ERJ-2RKF1003X" x="29.845" y="49.53" size="1.778" layer="27" display="off"/>
-<attribute name="NAME" x="34.2582" y="50.6587" size="0.3048" layer="51"/>
 <attribute name="NAME" x="34.2582" y="50.6587" size="0.3048" layer="255"/>
+<attribute name="NAME" x="34.2582" y="50.6587" size="0.3048" layer="51"/>
 <attribute name="PART_NO" value="ERJ-2RKF1003X" x="29.845" y="49.53" size="1.778" layer="27" display="off"/>
 <attribute name="TOL" value="1%" x="29.845" y="49.53" size="1.778" layer="27" display="off"/>
 </element>
 <element name="R55" library="Resistors" package="R0402" value="10k" x="31.115" y="47.625" smashed="yes" rot="R180">
 <attribute name="MANUFACTURER" value="Panasonic" x="38.735" y="51.435" size="1.778" layer="27" rot="R180" display="off"/>
 <attribute name="MPN" value="ERA-2AEB103X" x="38.735" y="51.435" size="1.778" layer="27" rot="R180" display="off"/>
-<attribute name="NAME" x="31.7818" y="47.7663" size="0.3048" layer="51" rot="R180"/>
 <attribute name="NAME" x="31.7818" y="47.7663" size="0.3048" layer="255" rot="R180"/>
+<attribute name="NAME" x="31.7818" y="47.7663" size="0.3048" layer="51" rot="R180"/>
 <attribute name="PART_NO" value="ERA-2AEB103X" x="38.735" y="51.435" size="1.778" layer="27" rot="R180" display="off"/>
 <attribute name="TOL" value="0.1%" x="38.735" y="51.435" size="1.778" layer="27" rot="R180" display="off"/>
 </element>
 <element name="R56" library="Resistors" package="R0402" value="249k" x="34.925" y="48.26" smashed="yes" rot="R180">
 <attribute name="MANUFACTURER" value="Panasonic" x="45.085" y="54.61" size="1.778" layer="27" rot="R180" display="off"/>
 <attribute name="MPN" value="ERA-2AEB2491X" x="45.085" y="54.61" size="1.778" layer="27" rot="R180" display="off"/>
-<attribute name="NAME" x="35.5918" y="48.4013" size="0.3048" layer="51" rot="R180"/>
 <attribute name="NAME" x="35.5918" y="48.4013" size="0.3048" layer="255" rot="R180"/>
+<attribute name="NAME" x="35.5918" y="48.4013" size="0.3048" layer="51" rot="R180"/>
 <attribute name="PART_NO" value="ERA-2AEB2491X" x="45.085" y="54.61" size="1.778" layer="27" rot="R180" display="off"/>
 <attribute name="TOL" value="0.1%" x="45.085" y="54.61" size="1.778" layer="27" rot="R180" display="off"/>
 </element>
 <element name="R57" library="Resistors" package="R0402" value="10k" x="36.957" y="46.99" smashed="yes" rot="MR90">
 <attribute name="MANUFACTURER" value="Panasonic" x="30.607" y="46.99" size="1.778" layer="28" rot="MR90" display="off"/>
 <attribute name="MPN" value="ERJ-2RKF1002X" x="30.607" y="46.99" size="1.778" layer="28" rot="MR90" display="off"/>
-<attribute name="NAME" x="36.8157" y="46.3232" size="0.3048" layer="52" rot="MR90"/>
 <attribute name="NAME" x="36.8157" y="46.3232" size="0.3048" layer="255" rot="MR90"/>
+<attribute name="NAME" x="36.8157" y="46.3232" size="0.3048" layer="52" rot="MR90"/>
 <attribute name="PART_NO" value="ERJ-2RKF1002X" x="30.607" y="46.99" size="1.778" layer="28" rot="MR90" display="off"/>
 <attribute name="TOL" value="1%" x="30.607" y="46.99" size="1.778" layer="28" rot="MR90" display="off"/>
 </element>
@@ -2833,6 +2839,7 @@ design rules under a new name.</description>
 </element>
 <element name="C21" library="Capacitors" package="C0402" value="0.1u" x="34.925" y="49.53" smashed="yes" rot="R180">
 <attribute name="MANUFACTURER" value="Kemet" x="42.545" y="85.09" size="1.778" layer="27" rot="R180" display="off"/>
+<attribute name="MPN" value="C0402C104K8RACTU" x="34.925" y="49.53" size="1.778" layer="27" rot="R180" display="off"/>
 <attribute name="NAME" x="35.5918" y="49.6713" size="0.3048" layer="255" rot="R180"/>
 <attribute name="NAME" x="35.5918" y="49.6713" size="0.3048" layer="25" rot="R180"/>
 <attribute name="PART_NO" value="C0402C104K8RACTU" x="42.545" y="85.09" size="1.778" layer="27" rot="R180" display="off"/>
@@ -2842,6 +2849,7 @@ design rules under a new name.</description>
 </element>
 <element name="C45" library="Capacitors" package="C0402" value="0.1u" x="38.1" y="51.435" smashed="yes" rot="MR180">
 <attribute name="MANUFACTURER" value="Kemet" x="27.94" y="89.535" size="1.778" layer="28" rot="MR180" display="off"/>
+<attribute name="MPN" value="C0402C104K8RACTU" x="38.1" y="51.435" size="1.778" layer="28" rot="MR180" display="off"/>
 <attribute name="NAME" x="37.4332" y="51.5763" size="0.3048" layer="255" rot="MR180"/>
 <attribute name="NAME" x="37.4332" y="51.5763" size="0.3048" layer="26" rot="MR180"/>
 <attribute name="PART_NO" value="C0402C104K8RACTU" x="27.94" y="89.535" size="1.778" layer="28" rot="MR180" display="off"/>
@@ -2947,16 +2955,16 @@ design rules under a new name.</description>
 <element name="R24" library="Resistors" package="R0402" value="249k" x="47.625" y="54.61" smashed="yes" grouprefs="CM_STORAGE">
 <attribute name="MANUFACTURER" value="Panasonic" x="47.625" y="58.42" size="1.778" layer="27" display="off"/>
 <attribute name="MPN" value="ERA-2AEB2491X" x="47.625" y="58.42" size="1.778" layer="27" display="off"/>
-<attribute name="NAME" x="46.9582" y="54.4687" size="0.3048" layer="51"/>
 <attribute name="NAME" x="46.9582" y="54.4687" size="0.3048" layer="255"/>
+<attribute name="NAME" x="46.9582" y="54.4687" size="0.3048" layer="51"/>
 <attribute name="PART_NO" value="ERA-2AEB2491X" x="47.625" y="58.42" size="1.778" layer="27" display="off"/>
 <attribute name="TOL" value="0,1%" x="47.625" y="58.42" size="1.778" layer="27" display="off"/>
 </element>
 <element name="R33" library="Resistors" package="R0402" value="10k" x="50.165" y="54.61" smashed="yes" rot="R180" grouprefs="CM_STORAGE">
 <attribute name="MANUFACTURER" value="Panasonic" x="52.705" y="53.34" size="1.778" layer="27" rot="R180" display="off"/>
 <attribute name="MPN" value="ERA-2AEB103X" x="52.705" y="53.34" size="1.778" layer="27" rot="R180" display="off"/>
-<attribute name="NAME" x="50.8318" y="54.7513" size="0.3048" layer="51" rot="R180"/>
 <attribute name="NAME" x="50.8318" y="54.7513" size="0.3048" layer="255" rot="R180"/>
+<attribute name="NAME" x="50.8318" y="54.7513" size="0.3048" layer="51" rot="R180"/>
 <attribute name="PART_NO" value="ERA-2AEB103X" x="52.705" y="53.34" size="1.778" layer="27" rot="R180" display="off"/>
 <attribute name="SPICEPREFIX" value="R" x="52.705" y="53.34" size="1.778" layer="27" rot="R180" display="off"/>
 <attribute name="TOL" value="0.1%" x="52.705" y="53.34" size="1.778" layer="27" rot="R180" display="off"/>
@@ -2964,32 +2972,32 @@ design rules under a new name.</description>
 <element name="R34" library="Resistors" package="R0402" value="100k" x="50.165" y="47.625" smashed="yes" rot="R270" grouprefs="CM_STORAGE">
 <attribute name="MANUFACTURER" value="Panasonic" x="48.895" y="52.705" size="1.778" layer="27" rot="R270" display="off"/>
 <attribute name="MPN" value="ERJ-2RKF1003X" x="48.895" y="52.705" size="1.778" layer="27" rot="R270" display="off"/>
-<attribute name="NAME" x="50.0237" y="48.2918" size="0.3048" layer="51" rot="R270"/>
 <attribute name="NAME" x="50.0237" y="48.2918" size="0.3048" layer="255" rot="R270"/>
+<attribute name="NAME" x="50.0237" y="48.2918" size="0.3048" layer="51" rot="R270"/>
 <attribute name="PART_NO" value="ERJ-2RKF1003X" x="48.895" y="52.705" size="1.778" layer="27" rot="R270" display="off"/>
 <attribute name="TOL" value="1%" x="48.895" y="52.705" size="1.778" layer="27" rot="R270" display="off"/>
 </element>
 <element name="R35" library="Resistors" package="R0402" value="10k" x="46.355" y="51.435" smashed="yes" rot="R90" grouprefs="CM_STORAGE">
 <attribute name="MANUFACTURER" value="Panasonic" x="50.165" y="43.815" size="1.778" layer="27" rot="R90" display="off"/>
 <attribute name="MPN" value="ERA-2AEB103X" x="50.165" y="43.815" size="1.778" layer="27" rot="R90" display="off"/>
-<attribute name="NAME" x="46.4963" y="50.7682" size="0.3048" layer="51" rot="R90"/>
 <attribute name="NAME" x="46.4963" y="50.7682" size="0.3048" layer="255" rot="R90"/>
+<attribute name="NAME" x="46.4963" y="50.7682" size="0.3048" layer="51" rot="R90"/>
 <attribute name="PART_NO" value="ERA-2AEB103X" x="50.165" y="43.815" size="1.778" layer="27" rot="R90" display="off"/>
 <attribute name="TOL" value="0.1%" x="50.165" y="43.815" size="1.778" layer="27" rot="R90" display="off"/>
 </element>
 <element name="R36" library="Resistors" package="R0402" value="249k" x="47.625" y="47.625" smashed="yes" rot="R90" grouprefs="CM_STORAGE">
 <attribute name="MANUFACTURER" value="Panasonic" x="53.975" y="37.465" size="1.778" layer="27" rot="R90" display="off"/>
 <attribute name="MPN" value="ERA-2AEB2491X" x="53.975" y="37.465" size="1.778" layer="27" rot="R90" display="off"/>
-<attribute name="NAME" x="47.7663" y="46.9582" size="0.3048" layer="51" rot="R90"/>
 <attribute name="NAME" x="47.7663" y="46.9582" size="0.3048" layer="255" rot="R90"/>
+<attribute name="NAME" x="47.7663" y="46.9582" size="0.3048" layer="51" rot="R90"/>
 <attribute name="PART_NO" value="ERA-2AEB2491X" x="53.975" y="37.465" size="1.778" layer="27" rot="R90" display="off"/>
 <attribute name="TOL" value="0.1%" x="53.975" y="37.465" size="1.778" layer="27" rot="R90" display="off"/>
 </element>
 <element name="R37" library="Resistors" package="R0402" value="10k" x="44.45" y="46.228" smashed="yes" rot="MR180" grouprefs="CM_STORAGE">
 <attribute name="MANUFACTURER" value="Panasonic" x="44.45" y="52.578" size="1.778" layer="28" rot="MR180" display="off"/>
 <attribute name="MPN" value="ERJ-2RKF1002X" x="44.45" y="52.578" size="1.778" layer="28" rot="MR180" display="off"/>
-<attribute name="NAME" x="43.7832" y="46.3693" size="0.3048" layer="52" rot="MR180"/>
 <attribute name="NAME" x="43.7832" y="46.3693" size="0.3048" layer="255" rot="MR180"/>
+<attribute name="NAME" x="43.7832" y="46.3693" size="0.3048" layer="52" rot="MR180"/>
 <attribute name="PART_NO" value="ERJ-2RKF1002X" x="44.45" y="52.578" size="1.778" layer="28" rot="MR180" display="off"/>
 <attribute name="TOL" value="1%" x="44.45" y="52.578" size="1.778" layer="28" rot="MR180" display="off"/>
 </element>
@@ -3055,6 +3063,7 @@ design rules under a new name.</description>
 </element>
 <element name="C14" library="Capacitors" package="C0402" value="0.1u" x="48.895" y="47.625" smashed="yes" rot="R90" grouprefs="CM_STORAGE">
 <attribute name="MANUFACTURER" value="Kemet" x="84.455" y="40.005" size="1.778" layer="27" rot="R90" display="off"/>
+<attribute name="MPN" value="C0402C104K8RACTU" x="48.895" y="47.625" size="1.778" layer="27" rot="R90" display="off"/>
 <attribute name="NAME" x="49.0363" y="46.9582" size="0.3048" layer="255" rot="R90"/>
 <attribute name="NAME" x="49.0363" y="46.9582" size="0.3048" layer="25" rot="R90"/>
 <attribute name="PART_NO" value="C0402C104K8RACTU" x="84.455" y="40.005" size="1.778" layer="27" rot="R90" display="off"/>
@@ -3064,6 +3073,7 @@ design rules under a new name.</description>
 </element>
 <element name="C15" library="Capacitors" package="C0402" value="0.1u" x="47.625" y="46.99" smashed="yes" rot="MR270" grouprefs="CM_STORAGE">
 <attribute name="MANUFACTURER" value="Kemet" x="85.725" y="57.15" size="1.778" layer="28" rot="MR270" display="off"/>
+<attribute name="MPN" value="C0402C104K8RACTU" x="47.625" y="46.99" size="1.778" layer="28" rot="MR270" display="off"/>
 <attribute name="NAME" x="47.7663" y="47.6568" size="0.3048" layer="255" rot="MR270"/>
 <attribute name="NAME" x="47.7663" y="47.6568" size="0.3048" layer="26" rot="MR270"/>
 <attribute name="PART_NO" value="C0402C104K8RACTU" x="85.725" y="57.15" size="1.778" layer="28" rot="MR270" display="off"/>
@@ -3169,16 +3179,16 @@ design rules under a new name.</description>
 <element name="R25" library="Resistors" package="R0402" value="249k" x="47.625" y="29.845" smashed="yes">
 <attribute name="MANUFACTURER" value="Panasonic" x="47.625" y="33.655" size="1.778" layer="27" display="off"/>
 <attribute name="MPN" value="ERA-2AEB2491X" x="47.625" y="33.655" size="1.778" layer="27" display="off"/>
-<attribute name="NAME" x="46.9582" y="29.7037" size="0.3048" layer="51"/>
 <attribute name="NAME" x="46.9582" y="29.7037" size="0.3048" layer="255"/>
+<attribute name="NAME" x="46.9582" y="29.7037" size="0.3048" layer="51"/>
 <attribute name="PART_NO" value="ERA-2AEB2491X" x="47.625" y="33.655" size="1.778" layer="27" display="off"/>
 <attribute name="TOL" value="0,1%" x="47.625" y="33.655" size="1.778" layer="27" display="off"/>
 </element>
 <element name="R26" library="Resistors" package="R0402" value="10k" x="50.165" y="29.845" smashed="yes" rot="R180">
 <attribute name="MANUFACTURER" value="Panasonic" x="52.705" y="28.575" size="1.778" layer="27" rot="R180" display="off"/>
 <attribute name="MPN" value="ERA-2AEB103X" x="52.705" y="28.575" size="1.778" layer="27" rot="R180" display="off"/>
-<attribute name="NAME" x="48.9268" y="30.6213" size="0.3048" layer="51" rot="R180"/>
 <attribute name="NAME" x="50.8318" y="29.9863" size="0.3048" layer="255" rot="R180"/>
+<attribute name="NAME" x="48.9268" y="30.6213" size="0.3048" layer="51" rot="R180"/>
 <attribute name="PART_NO" value="ERA-2AEB103X" x="52.705" y="28.575" size="1.778" layer="27" rot="R180" display="off"/>
 <attribute name="SPICEPREFIX" value="R" x="52.705" y="28.575" size="1.778" layer="27" rot="R180" display="off"/>
 <attribute name="TOL" value="0.1%" x="52.705" y="28.575" size="1.778" layer="27" rot="R180" display="off"/>
@@ -3186,32 +3196,32 @@ design rules under a new name.</description>
 <element name="R27" library="Resistors" package="R0402" value="100k" x="50.165" y="22.86" smashed="yes" rot="R270">
 <attribute name="MANUFACTURER" value="Panasonic" x="48.895" y="27.94" size="1.778" layer="27" rot="R270" display="off"/>
 <attribute name="MPN" value="ERJ-2RKF1003X" x="48.895" y="27.94" size="1.778" layer="27" rot="R270" display="off"/>
-<attribute name="NAME" x="50.0237" y="23.5268" size="0.3048" layer="51" rot="R270"/>
 <attribute name="NAME" x="50.0237" y="23.5268" size="0.3048" layer="255" rot="R270"/>
+<attribute name="NAME" x="50.0237" y="23.5268" size="0.3048" layer="51" rot="R270"/>
 <attribute name="PART_NO" value="ERJ-2RKF1003X" x="48.895" y="27.94" size="1.778" layer="27" rot="R270" display="off"/>
 <attribute name="TOL" value="1%" x="48.895" y="27.94" size="1.778" layer="27" rot="R270" display="off"/>
 </element>
 <element name="R28" library="Resistors" package="R0402" value="10k" x="46.355" y="26.67" smashed="yes" rot="R90">
 <attribute name="MANUFACTURER" value="Panasonic" x="50.165" y="19.05" size="1.778" layer="27" rot="R90" display="off"/>
 <attribute name="MPN" value="ERA-2AEB103X" x="50.165" y="19.05" size="1.778" layer="27" rot="R90" display="off"/>
-<attribute name="NAME" x="46.4963" y="26.0032" size="0.3048" layer="51" rot="R90"/>
 <attribute name="NAME" x="46.4963" y="26.0032" size="0.3048" layer="255" rot="R90"/>
+<attribute name="NAME" x="46.4963" y="26.0032" size="0.3048" layer="51" rot="R90"/>
 <attribute name="PART_NO" value="ERA-2AEB103X" x="50.165" y="19.05" size="1.778" layer="27" rot="R90" display="off"/>
 <attribute name="TOL" value="0.1%" x="50.165" y="19.05" size="1.778" layer="27" rot="R90" display="off"/>
 </element>
 <element name="R29" library="Resistors" package="R0402" value="249k" x="47.625" y="22.86" smashed="yes" rot="R270">
 <attribute name="MANUFACTURER" value="Panasonic" x="41.275" y="33.02" size="1.778" layer="27" rot="R270" display="off"/>
 <attribute name="MPN" value="ERA-2AEB2491X" x="41.275" y="33.02" size="1.778" layer="27" rot="R270" display="off"/>
-<attribute name="NAME" x="47.4837" y="23.5268" size="0.3048" layer="51" rot="R270"/>
 <attribute name="NAME" x="47.4837" y="23.5268" size="0.3048" layer="255" rot="R270"/>
+<attribute name="NAME" x="47.4837" y="23.5268" size="0.3048" layer="51" rot="R270"/>
 <attribute name="PART_NO" value="ERA-2AEB2491X" x="41.275" y="33.02" size="1.778" layer="27" rot="R270" display="off"/>
 <attribute name="TOL" value="0.1%" x="41.275" y="33.02" size="1.778" layer="27" rot="R270" display="off"/>
 </element>
 <element name="R30" library="Resistors" package="R0402" value="10k" x="46.355" y="21.463" smashed="yes" rot="MR180">
 <attribute name="MANUFACTURER" value="Panasonic" x="46.355" y="27.813" size="1.778" layer="28" rot="MR180" display="off"/>
 <attribute name="MPN" value="ERJ-2RKF1002X" x="46.355" y="27.813" size="1.778" layer="28" rot="MR180" display="off"/>
-<attribute name="NAME" x="45.6882" y="21.6043" size="0.3048" layer="52" rot="MR180"/>
 <attribute name="NAME" x="45.6882" y="21.6043" size="0.3048" layer="255" rot="MR180"/>
+<attribute name="NAME" x="45.6882" y="21.6043" size="0.3048" layer="52" rot="MR180"/>
 <attribute name="PART_NO" value="ERJ-2RKF1002X" x="46.355" y="27.813" size="1.778" layer="28" rot="MR180" display="off"/>
 <attribute name="TOL" value="1%" x="46.355" y="27.813" size="1.778" layer="28" rot="MR180" display="off"/>
 </element>
@@ -3278,6 +3288,7 @@ design rules under a new name.</description>
 </element>
 <element name="C11" library="Capacitors" package="C0402" value="0.1u" x="48.895" y="22.86" smashed="yes" rot="R90">
 <attribute name="MANUFACTURER" value="Kemet" x="84.455" y="15.24" size="1.778" layer="27" rot="R90" display="off"/>
+<attribute name="MPN" value="C0402C104K8RACTU" x="48.895" y="22.86" size="1.778" layer="27" rot="R90" display="off"/>
 <attribute name="NAME" x="49.0363" y="22.1932" size="0.3048" layer="255" rot="R90"/>
 <attribute name="NAME" x="49.0363" y="22.1932" size="0.3048" layer="25" rot="R90"/>
 <attribute name="PART_NO" value="C0402C104K8RACTU" x="84.455" y="15.24" size="1.778" layer="27" rot="R90" display="off"/>
@@ -3287,6 +3298,7 @@ design rules under a new name.</description>
 </element>
 <element name="C12" library="Capacitors" package="C0402" value="0.1u" x="50.165" y="21.59" smashed="yes" rot="MR270">
 <attribute name="MANUFACTURER" value="Kemet" x="88.265" y="31.75" size="1.778" layer="28" rot="MR270" display="off"/>
+<attribute name="MPN" value="C0402C104K8RACTU" x="50.165" y="21.59" size="1.778" layer="28" rot="MR270" display="off"/>
 <attribute name="NAME" x="50.3063" y="22.2568" size="0.3048" layer="255" rot="MR270"/>
 <attribute name="NAME" x="50.3063" y="22.2568" size="0.3048" layer="26" rot="MR270"/>
 <attribute name="PART_NO" value="C0402C104K8RACTU" x="88.265" y="31.75" size="1.778" layer="28" rot="MR270" display="off"/>
@@ -3392,16 +3404,16 @@ design rules under a new name.</description>
 <element name="R16" library="Resistors" package="R0402" value="249k" x="46.355" y="12.065" smashed="yes">
 <attribute name="MANUFACTURER" value="Panasonic" x="46.355" y="15.875" size="1.778" layer="27" display="off"/>
 <attribute name="MPN" value="ERA-2AEB2491X" x="46.355" y="15.875" size="1.778" layer="27" display="off"/>
-<attribute name="NAME" x="45.6882" y="11.9237" size="0.3048" layer="51"/>
 <attribute name="NAME" x="45.6882" y="11.9237" size="0.3048" layer="255"/>
+<attribute name="NAME" x="45.6882" y="11.9237" size="0.3048" layer="51"/>
 <attribute name="PART_NO" value="ERA-2AEB2491X" x="46.355" y="15.875" size="1.778" layer="27" display="off"/>
 <attribute name="TOL" value="0,1%" x="46.355" y="15.875" size="1.778" layer="27" display="off"/>
 </element>
 <element name="R17" library="Resistors" package="R0402" value="10k" x="48.895" y="12.065" smashed="yes" rot="R180">
 <attribute name="MANUFACTURER" value="Panasonic" x="51.435" y="10.795" size="1.778" layer="27" rot="R180" display="off"/>
 <attribute name="MPN" value="ERA-2AEB103X" x="51.435" y="10.795" size="1.778" layer="27" rot="R180" display="off"/>
-<attribute name="NAME" x="49.5618" y="12.2063" size="0.3048" layer="51" rot="R180"/>
 <attribute name="NAME" x="49.5618" y="12.2063" size="0.3048" layer="255" rot="R180"/>
+<attribute name="NAME" x="49.5618" y="12.2063" size="0.3048" layer="51" rot="R180"/>
 <attribute name="PART_NO" value="ERA-2AEB103X" x="51.435" y="10.795" size="1.778" layer="27" rot="R180" display="off"/>
 <attribute name="SPICEPREFIX" value="R" x="51.435" y="10.795" size="1.778" layer="27" rot="R180" display="off"/>
 <attribute name="TOL" value="0.1%" x="51.435" y="10.795" size="1.778" layer="27" rot="R180" display="off"/>
@@ -3409,32 +3421,32 @@ design rules under a new name.</description>
 <element name="R18" library="Resistors" package="R0402" value="100k" x="48.26" y="5.08" smashed="yes" rot="R270">
 <attribute name="MANUFACTURER" value="Panasonic" x="46.99" y="10.16" size="1.778" layer="27" rot="R270" display="off"/>
 <attribute name="MPN" value="ERJ-2RKF1003X" x="46.99" y="10.16" size="1.778" layer="27" rot="R270" display="off"/>
-<attribute name="NAME" x="48.1187" y="5.7468" size="0.3048" layer="51" rot="R270"/>
 <attribute name="NAME" x="48.1187" y="5.7468" size="0.3048" layer="255" rot="R270"/>
+<attribute name="NAME" x="48.1187" y="5.7468" size="0.3048" layer="51" rot="R270"/>
 <attribute name="PART_NO" value="ERJ-2RKF1003X" x="46.99" y="10.16" size="1.778" layer="27" rot="R270" display="off"/>
 <attribute name="TOL" value="1%" x="46.99" y="10.16" size="1.778" layer="27" rot="R270" display="off"/>
 </element>
 <element name="R19" library="Resistors" package="R0402" value="10k" x="45.72" y="8.89" smashed="yes" rot="R90">
 <attribute name="MANUFACTURER" value="Panasonic" x="49.53" y="1.27" size="1.778" layer="27" rot="R90" display="off"/>
 <attribute name="MPN" value="ERA-2AEB103X" x="49.53" y="1.27" size="1.778" layer="27" rot="R90" display="off"/>
-<attribute name="NAME" x="45.8613" y="8.2232" size="0.3048" layer="51" rot="R90"/>
 <attribute name="NAME" x="45.8613" y="8.2232" size="0.3048" layer="255" rot="R90"/>
+<attribute name="NAME" x="45.8613" y="8.2232" size="0.3048" layer="51" rot="R90"/>
 <attribute name="PART_NO" value="ERA-2AEB103X" x="49.53" y="1.27" size="1.778" layer="27" rot="R90" display="off"/>
 <attribute name="TOL" value="0.1%" x="49.53" y="1.27" size="1.778" layer="27" rot="R90" display="off"/>
 </element>
 <element name="R20" library="Resistors" package="R0402" value="249k" x="45.72" y="5.08" smashed="yes" rot="R90">
 <attribute name="MANUFACTURER" value="Panasonic" x="52.07" y="-5.08" size="1.778" layer="27" rot="R90" display="off"/>
 <attribute name="MPN" value="ERA-2AEB2491X" x="52.07" y="-5.08" size="1.778" layer="27" rot="R90" display="off"/>
-<attribute name="NAME" x="45.8613" y="4.4132" size="0.3048" layer="51" rot="R90"/>
 <attribute name="NAME" x="45.8613" y="4.4132" size="0.3048" layer="255" rot="R90"/>
+<attribute name="NAME" x="45.8613" y="4.4132" size="0.3048" layer="51" rot="R90"/>
 <attribute name="PART_NO" value="ERA-2AEB2491X" x="52.07" y="-5.08" size="1.778" layer="27" rot="R90" display="off"/>
 <attribute name="TOL" value="0.1%" x="52.07" y="-5.08" size="1.778" layer="27" rot="R90" display="off"/>
 </element>
 <element name="R21" library="Resistors" package="R0402" value="10k" x="45.085" y="3.683" smashed="yes" rot="MR180">
 <attribute name="MANUFACTURER" value="Panasonic" x="45.085" y="10.033" size="1.778" layer="28" rot="MR180" display="off"/>
 <attribute name="MPN" value="ERJ-2RKF1002X" x="45.085" y="10.033" size="1.778" layer="28" rot="MR180" display="off"/>
-<attribute name="NAME" x="44.4182" y="3.8243" size="0.3048" layer="52" rot="MR180"/>
 <attribute name="NAME" x="44.4182" y="3.8243" size="0.3048" layer="255" rot="MR180"/>
+<attribute name="NAME" x="44.4182" y="3.8243" size="0.3048" layer="52" rot="MR180"/>
 <attribute name="PART_NO" value="ERJ-2RKF1002X" x="45.085" y="10.033" size="1.778" layer="28" rot="MR180" display="off"/>
 <attribute name="TOL" value="1%" x="45.085" y="10.033" size="1.778" layer="28" rot="MR180" display="off"/>
 </element>
@@ -3501,6 +3513,7 @@ design rules under a new name.</description>
 </element>
 <element name="C8" library="Capacitors" package="C0402" value="0.1u" x="46.99" y="5.08" smashed="yes" rot="R90">
 <attribute name="MANUFACTURER" value="Kemet" x="82.55" y="-2.54" size="1.778" layer="27" rot="R90" display="off"/>
+<attribute name="MPN" value="C0402C104K8RACTU" x="46.99" y="5.08" size="1.778" layer="27" rot="R90" display="off"/>
 <attribute name="NAME" x="47.1313" y="4.4132" size="0.3048" layer="255" rot="R90"/>
 <attribute name="NAME" x="47.1313" y="4.4132" size="0.3048" layer="25" rot="R90"/>
 <attribute name="PART_NO" value="C0402C104K8RACTU" x="82.55" y="-2.54" size="1.778" layer="27" rot="R90" display="off"/>
@@ -3510,6 +3523,7 @@ design rules under a new name.</description>
 </element>
 <element name="C9" library="Capacitors" package="C0402" value="0.1u" x="48.895" y="4.445" smashed="yes" rot="MR270">
 <attribute name="MANUFACTURER" value="Kemet" x="86.995" y="14.605" size="1.778" layer="28" rot="MR270" display="off"/>
+<attribute name="MPN" value="C0402C104K8RACTU" x="48.895" y="4.445" size="1.778" layer="28" rot="MR270" display="off"/>
 <attribute name="NAME" x="49.0363" y="5.1118" size="0.3048" layer="255" rot="MR270"/>
 <attribute name="NAME" x="49.0363" y="5.1118" size="0.3048" layer="26" rot="MR270"/>
 <attribute name="PART_NO" value="C0402C104K8RACTU" x="86.995" y="14.605" size="1.778" layer="28" rot="MR270" display="off"/>
@@ -3595,11 +3609,15 @@ design rules under a new name.</description>
 </element>
 <element name="J_USB_DBG" library="ZX62D-AB-5P8" package="ZX62D-AB-5P8" value="USBABSMTDIP" x="-19.685" y="15.875" smashed="yes">
 <attribute name="MP" value="ZX62D-AB-5P8(30)" x="-28.575" y="29.845" size="1.778" layer="27" display="off"/>
+<attribute name="MPN" value="ZX62D-AB-5P8(30)" x="-19.685" y="15.875" size="1.778" layer="27" display="off"/>
 <attribute name="NAME" x="-22.685" y="8.97" size="1.27" layer="25"/>
+<attribute name="PART_NO" value="ZX62D-AB-5P8(30)" x="-19.685" y="15.875" size="1.778" layer="27" display="off"/>
 </element>
 <element name="J_USB_MAIN" library="ZX62D-AB-5P8" package="ZX62D-AB-5P8" value="USBABSMTDIP" x="-19.685" y="30.48" smashed="yes">
 <attribute name="MP" value="ZX62D-AB-5P8(30)" x="-28.575" y="43.815" size="1.778" layer="27" display="off"/>
+<attribute name="MPN" value="ZX62D-AB-5P8(30)" x="-19.685" y="30.48" size="1.778" layer="27" display="off"/>
 <attribute name="NAME" x="-11.605" y="24.685" size="1.27" layer="25" rot="R180"/>
+<attribute name="PAR_NO" value="ZX62D-AB-5P8(30)" x="-19.685" y="30.48" size="1.778" layer="27" display="off"/>
 </element>
 <element name="JP.USBM.MAIN" library="Connectors" package="SMT-JUMPER_2_NO_PASTEFREE_NO-SILK" value="JUMPER-SMT_2_NO_PASTEFREE" x="-15.24" y="35.56" smashed="yes" rot="R180">
 <attribute name="NAME" x="-15.24" y="37.592" size="1.27" layer="25" font="vector" rot="R180" align="bottom-center"/>

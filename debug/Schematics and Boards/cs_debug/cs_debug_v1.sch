@@ -6260,7 +6260,10 @@ new: Attribute TP_SIGNAL_NAME&lt;br&gt;
 <part name="FRAME1" library="frames" library_urn="urn:adsk.eagle:library:229" deviceset="FRAME_C_L" device=""/>
 <part name="GND4" library="Supplies" deviceset="GND" device=""/>
 <part name="U$1" library="SparkFun-PowerSymbols" deviceset="AGND" device=""/>
-<part name="R1" library="Resistors" deviceset="R-" device="2010" value="0"/>
+<part name="R1" library="Resistors" deviceset="R-" device="2010" value="0">
+<attribute name="MPN" value="ERJ-S1D0R00U"/>
+<attribute name="PART_NO" value="ERJ-S1D0R00U"/>
+</part>
 <part name="JP.VDD.MAIN" library="Connectors" deviceset="JUMPER-SMT_2_NC_PASTE" device="_NO-SILK" package3d_urn="urn:adsk.eagle:package:39283/1"/>
 <part name="U11" library="DACs" deviceset="DAC7574IDGS" device="">
 <attribute name="MPN" value="DAC7574IDGS"/>
@@ -6274,9 +6277,13 @@ new: Attribute TP_SIGNAL_NAME&lt;br&gt;
 <attribute name="VOLTAGE" value="10V"/>
 </part>
 <part name="U$4" library="SparkFun-PowerSymbols" deviceset="AGND" device=""/>
-<part name="J1" library="Connectors" deviceset="J-JTAG-CORTEX" device="_SMD"/>
+<part name="J1" library="Connectors" deviceset="J-JTAG-CORTEX" device="_SMD">
+<attribute name="PART_NO" value="FTSH-105-01-L-DV-K-TR"/>
+</part>
 <part name="GND5" library="Supplies" deviceset="GND" device=""/>
-<part name="J2" library="Connectors" deviceset="J-JTAG-CORTEX" device="_SMD"/>
+<part name="J2" library="Connectors" deviceset="J-JTAG-CORTEX" device="_SMD">
+<attribute name="PART_NO" value="FTSH-105-01-L-DV-K-TR"/>
+</part>
 <part name="J3" library="Connectors" deviceset="J-JTAG-CORTEX-NEEDLE6" device="-LEGS"/>
 <part name="GND6" library="Supplies" deviceset="GND" device=""/>
 <part name="SUPPLY11" library="Supplies" deviceset="+3V3" device=""/>
@@ -6506,7 +6513,9 @@ new: Attribute TP_SIGNAL_NAME&lt;br&gt;
 <attribute name="PART_NO" value="C0402C103K8RACTU"/>
 </part>
 <part name="JP.IP.RST" library="Connectors" deviceset="JUMPER-SMT_2_NC_PASTE" device="_NO-SILK" package3d_urn="urn:adsk.eagle:package:39283/1"/>
-<part name="J4" library="Connectors" deviceset="J-SERIAL-PORT" device=""/>
+<part name="J4" library="Connectors" deviceset="J-SERIAL-PORT" device="">
+<attribute name="PART_NO" value="PH1-06-UA"/>
+</part>
 <part name="SUPPLY25" library="Supplies" deviceset="+3V3" device=""/>
 <part name="JP.UART.VCC" library="Connectors" deviceset="JUMPER-SMT_2_NC_PASTE" device="_NO-SILK" package3d_urn="urn:adsk.eagle:package:39283/1"/>
 <part name="C46" library="Capacitors" deviceset="C-" device="0603" value="2.2uF">
@@ -6522,7 +6531,9 @@ new: Attribute TP_SIGNAL_NAME&lt;br&gt;
 <part name="VR4" library="Diodes" deviceset="VARISTOR" device="">
 <attribute name="PART_NO" value="CG0603MLC-05E"/>
 </part>
-<part name="J5" library="Connectors" deviceset="J-WURTH-USBC" device=""/>
+<part name="J5" library="Connectors" deviceset="J-WURTH-USBC" device="">
+<attribute name="PART_NO" value="632723100011"/>
+</part>
 <part name="GND20" library="Supplies" deviceset="GND" device=""/>
 <part name="R42" library="Resistors" deviceset="R-" device="0603" value="5.1k">
 <attribute name="MPN" value="ERJ-2GEJ512X"/>
@@ -6707,10 +6718,12 @@ new: Attribute TP_SIGNAL_NAME&lt;br&gt;
 <attribute name="TOL" value="1%"/>
 </part>
 <part name="C21" library="Capacitors" deviceset="C-" device="0402" value="0.1u">
+<attribute name="MPN" value="C0402C104K8RACTU"/>
 <attribute name="PART_NO" value="C0402C104K8RACTU"/>
 <attribute name="VOLTAGE" value="10V"/>
 </part>
 <part name="C45" library="Capacitors" deviceset="C-" device="0402" value="0.1u">
+<attribute name="MPN" value="C0402C104K8RACTU"/>
 <attribute name="PART_NO" value="C0402C104K8RACTU"/>
 <attribute name="VOLTAGE" value="10V"/>
 </part>
@@ -6793,10 +6806,12 @@ new: Attribute TP_SIGNAL_NAME&lt;br&gt;
 <attribute name="TOL" value="1%"/>
 </part>
 <part name="C14" library="Capacitors" deviceset="C-" device="0402" value="0.1u">
+<attribute name="MPN" value="C0402C104K8RACTU"/>
 <attribute name="PART_NO" value="C0402C104K8RACTU"/>
 <attribute name="VOLTAGE" value="10V"/>
 </part>
 <part name="C15" library="Capacitors" deviceset="C-" device="0402" value="0.1u">
+<attribute name="MPN" value="C0402C104K8RACTU"/>
 <attribute name="PART_NO" value="C0402C104K8RACTU"/>
 <attribute name="VOLTAGE" value="10V"/>
 </part>
@@ -6880,10 +6895,12 @@ new: Attribute TP_SIGNAL_NAME&lt;br&gt;
 <attribute name="TOL" value="1%"/>
 </part>
 <part name="C11" library="Capacitors" deviceset="C-" device="0402" value="0.1u">
+<attribute name="MPN" value="C0402C104K8RACTU"/>
 <attribute name="PART_NO" value="C0402C104K8RACTU"/>
 <attribute name="VOLTAGE" value="10V"/>
 </part>
 <part name="C12" library="Capacitors" deviceset="C-" device="0402" value="0.1u">
+<attribute name="MPN" value="C0402C104K8RACTU"/>
 <attribute name="PART_NO" value="C0402C104K8RACTU"/>
 <attribute name="VOLTAGE" value="10V"/>
 </part>
@@ -6966,10 +6983,12 @@ new: Attribute TP_SIGNAL_NAME&lt;br&gt;
 <attribute name="TOL" value="1%"/>
 </part>
 <part name="C8" library="Capacitors" deviceset="C-" device="0402" value="0.1u">
+<attribute name="MPN" value="C0402C104K8RACTU"/>
 <attribute name="PART_NO" value="C0402C104K8RACTU"/>
 <attribute name="VOLTAGE" value="10V"/>
 </part>
 <part name="C9" library="Capacitors" deviceset="C-" device="0402" value="0.1u">
+<attribute name="MPN" value="C0402C104K8RACTU"/>
 <attribute name="PART_NO" value="C0402C104K8RACTU"/>
 <attribute name="VOLTAGE" value="10V"/>
 </part>
@@ -6990,6 +7009,8 @@ new: Attribute TP_SIGNAL_NAME&lt;br&gt;
 <part name="D2" library="Diodes" deviceset="BGX50A" device=""/>
 <part name="J_USB_DBG" library="ZX62D-AB-5P8" deviceset="USBABSMTDIP" device="">
 <attribute name="MP" value="ZX62D-AB-5P8(30)"/>
+<attribute name="MPN" value="ZX62D-AB-5P8(30)"/>
+<attribute name="PART_NO" value="ZX62D-AB-5P8(30)"/>
 </part>
 <part name="GND204" library="Supplies" deviceset="GND" device=""/>
 <part name="GND209" library="Supplies" deviceset="GND" device=""/>
@@ -6997,6 +7018,8 @@ new: Attribute TP_SIGNAL_NAME&lt;br&gt;
 <part name="GND210" library="Supplies" deviceset="GND" device=""/>
 <part name="J_USB_MAIN" library="ZX62D-AB-5P8" deviceset="USBABSMTDIP" device="">
 <attribute name="MP" value="ZX62D-AB-5P8(30)"/>
+<attribute name="MPN" value="ZX62D-AB-5P8(30)"/>
+<attribute name="PAR_NO" value="ZX62D-AB-5P8(30)"/>
 </part>
 <part name="GND9" library="Supplies" deviceset="GND" device=""/>
 <part name="GND10" library="Supplies" deviceset="GND" device=""/>
@@ -7191,6 +7214,7 @@ so it may not work</text>
 <instance part="J2" gate="G$1" x="490.22" y="375.92" smashed="yes">
 <attribute name="NAME" x="477.52" y="383.794" size="1.778" layer="95" font="vector"/>
 <attribute name="VALUE" x="477.52" y="366.014" size="1.778" layer="96" font="vector"/>
+<attribute name="PART_NO" x="490.22" y="375.92" size="1.778" layer="96" display="off"/>
 </instance>
 <instance part="J3" gate="A" x="490.22" y="335.28" smashed="yes">
 <attribute name="NAME" x="477.51" y="343.41443125" size="2.542009375" layer="95"/>
@@ -7408,6 +7432,7 @@ so it may not work</text>
 <instance part="J4" gate="J$1" x="538.48" y="208.28" smashed="yes">
 <attribute name="NAME" x="530.86" y="217.424" size="1.778" layer="95"/>
 <attribute name="DESCRIPTION" x="530.86" y="194.564" size="1.778" layer="96"/>
+<attribute name="PART_NO" x="538.48" y="208.28" size="1.778" layer="96" display="off"/>
 </instance>
 <instance part="SUPPLY25" gate="G$1" x="523.24" y="236.22" smashed="yes"/>
 <instance part="JP.UART.VCC" gate="G$1" x="523.24" y="226.06" smashed="yes" rot="R270">
@@ -8686,6 +8711,8 @@ internal pull-ups</text>
 <instance part="R1" gate="G$1" x="320.04" y="271.78" smashed="yes">
 <attribute name="NAME" x="316.23" y="273.2786" size="1.778" layer="95"/>
 <attribute name="VALUE" x="316.23" y="268.478" size="1.778" layer="96"/>
+<attribute name="MPN" x="320.04" y="271.78" size="1.778" layer="96" display="off"/>
+<attribute name="PART_NO" x="320.04" y="271.78" size="1.778" layer="96" display="off"/>
 </instance>
 <instance part="JP.VDD.MAIN" gate="G$1" x="342.9" y="180.34" smashed="yes">
 <attribute name="NAME" x="340.36" y="182.88" size="1.778" layer="95" font="vector"/>
@@ -8693,6 +8720,7 @@ internal pull-ups</text>
 <instance part="J1" gate="G$1" x="474.98" y="246.38" smashed="yes">
 <attribute name="NAME" x="462.28" y="254.254" size="1.778" layer="95" font="vector"/>
 <attribute name="VALUE" x="462.28" y="236.474" size="1.778" layer="96" font="vector"/>
+<attribute name="PART_NO" x="474.98" y="246.38" size="1.778" layer="96" display="off"/>
 </instance>
 <instance part="GND5" gate="1" x="452.12" y="231.14" smashed="yes"/>
 <instance part="J19" gate="G$1" x="27.94" y="406.4" smashed="yes" rot="R180">
@@ -8804,6 +8832,7 @@ internal pull-ups</text>
 </instance>
 <instance part="J5" gate="_CONNECTOR" x="167.64" y="307.34" smashed="yes">
 <attribute name="NAME" x="156.02" y="326.84" size="1.778" layer="95"/>
+<attribute name="PART_NO" x="167.64" y="307.34" size="1.778" layer="96" display="off"/>
 </instance>
 <instance part="J5" gate="_SHIELD" x="170.18" y="284.48" smashed="yes">
 <attribute name="NAME" x="166.78" y="280.9" size="1.27" layer="95"/>
@@ -8987,6 +9016,8 @@ internal pull-ups</text>
 </instance>
 <instance part="J_USB_DBG" gate="G$1" x="162.56" y="403.86" smashed="yes">
 <attribute name="MP" x="162.56" y="403.86" size="1.778" layer="96" display="off"/>
+<attribute name="MPN" x="162.56" y="403.86" size="1.778" layer="96" display="off"/>
+<attribute name="PART_NO" x="162.56" y="403.86" size="1.778" layer="96" display="off"/>
 </instance>
 <instance part="GND204" gate="1" x="172.72" y="388.62" smashed="yes"/>
 <instance part="GND209" gate="1" x="195.58" y="383.54" smashed="yes"/>
@@ -8994,6 +9025,8 @@ internal pull-ups</text>
 <instance part="GND210" gate="1" x="203.2" y="383.54" smashed="yes"/>
 <instance part="J_USB_MAIN" gate="G$1" x="223.52" y="386.08" smashed="yes">
 <attribute name="MP" x="223.52" y="386.08" size="1.778" layer="96" display="off"/>
+<attribute name="MPN" x="223.52" y="386.08" size="1.778" layer="96" display="off"/>
+<attribute name="PAR_NO" x="223.52" y="386.08" size="1.778" layer="96" display="off"/>
 </instance>
 <instance part="GND9" gate="1" x="233.68" y="370.84" smashed="yes"/>
 <instance part="GND10" gate="1" x="256.54" y="365.76" smashed="yes"/>
@@ -10675,11 +10708,13 @@ Pullup on gate defaults to bypassing the opamp</text>
 <attribute name="NAME" x="572.516" y="352.425" size="1.778" layer="95"/>
 <attribute name="VALUE" x="572.516" y="347.599" size="1.778" layer="96"/>
 <attribute name="PART_NO" x="571.5" y="350.52" size="1.778" layer="96" display="off"/>
+<attribute name="MPN" x="571.5" y="350.52" size="1.778" layer="96" display="off"/>
 </instance>
 <instance part="C45" gate="G$1" x="632.46" y="304.8" smashed="yes">
 <attribute name="NAME" x="633.476" y="306.705" size="1.778" layer="95"/>
 <attribute name="VALUE" x="633.476" y="301.879" size="1.778" layer="96"/>
 <attribute name="PART_NO" x="632.46" y="304.8" size="1.778" layer="96" display="off"/>
+<attribute name="MPN" x="632.46" y="304.8" size="1.778" layer="96" display="off"/>
 </instance>
 <instance part="SUPPLY31" gate="G$1" x="561.34" y="363.22" smashed="yes"/>
 <instance part="SUPPLY32" gate="G$1" x="525.78" y="271.78" smashed="yes"/>
@@ -10813,11 +10848,13 @@ Pullup on gate defaults to bypassing the opamp</text>
 <attribute name="NAME" x="303.276" y="370.205" size="1.778" layer="95"/>
 <attribute name="VALUE" x="303.276" y="365.379" size="1.778" layer="96"/>
 <attribute name="PART_NO" x="302.26" y="368.3" size="1.778" layer="96" display="off"/>
+<attribute name="MPN" x="302.26" y="368.3" size="1.778" layer="96" display="off"/>
 </instance>
 <instance part="C15" gate="G$1" x="363.22" y="322.58" smashed="yes">
 <attribute name="NAME" x="364.236" y="324.485" size="1.778" layer="95"/>
 <attribute name="VALUE" x="364.236" y="319.659" size="1.778" layer="96"/>
 <attribute name="PART_NO" x="363.22" y="322.58" size="1.778" layer="96" display="off"/>
+<attribute name="MPN" x="363.22" y="322.58" size="1.778" layer="96" display="off"/>
 </instance>
 <instance part="SUPPLY23" gate="G$1" x="292.1" y="386.08" smashed="yes"/>
 <instance part="SUPPLY24" gate="G$1" x="256.54" y="289.56" smashed="yes"/>
@@ -10957,11 +10994,13 @@ Pullup on gate defaults to bypassing the opamp</text>
 <attribute name="NAME" x="536.956" y="177.165" size="1.778" layer="95"/>
 <attribute name="VALUE" x="536.956" y="172.339" size="1.778" layer="96"/>
 <attribute name="PART_NO" x="535.94" y="175.26" size="1.778" layer="96" display="off"/>
+<attribute name="MPN" x="535.94" y="175.26" size="1.778" layer="96" display="off"/>
 </instance>
 <instance part="C12" gate="G$1" x="596.9" y="129.54" smashed="yes">
 <attribute name="NAME" x="597.916" y="131.445" size="1.778" layer="95"/>
 <attribute name="VALUE" x="597.916" y="126.619" size="1.778" layer="96"/>
 <attribute name="PART_NO" x="596.9" y="129.54" size="1.778" layer="96" display="off"/>
+<attribute name="MPN" x="596.9" y="129.54" size="1.778" layer="96" display="off"/>
 </instance>
 <instance part="SUPPLY20" gate="G$1" x="525.78" y="187.96" smashed="yes"/>
 <instance part="SUPPLY21" gate="G$1" x="490.22" y="96.52" smashed="yes"/>
@@ -11095,11 +11134,13 @@ Pullup on gate defaults to bypassing the opamp</text>
 <attribute name="NAME" x="280.416" y="179.705" size="1.778" layer="95"/>
 <attribute name="VALUE" x="280.416" y="174.879" size="1.778" layer="96"/>
 <attribute name="PART_NO" x="279.4" y="177.8" size="1.778" layer="96" display="off"/>
+<attribute name="MPN" x="279.4" y="177.8" size="1.778" layer="96" display="off"/>
 </instance>
 <instance part="C9" gate="G$1" x="340.36" y="132.08" smashed="yes">
 <attribute name="NAME" x="341.376" y="133.985" size="1.778" layer="95"/>
 <attribute name="VALUE" x="341.376" y="129.159" size="1.778" layer="96"/>
 <attribute name="PART_NO" x="340.36" y="132.08" size="1.778" layer="96" display="off"/>
+<attribute name="MPN" x="340.36" y="132.08" size="1.778" layer="96" display="off"/>
 </instance>
 <instance part="SUPPLY17" gate="G$1" x="269.24" y="190.5" smashed="yes"/>
 <instance part="SUPPLY18" gate="G$1" x="233.68" y="99.06" smashed="yes"/>
