@@ -6266,6 +6266,13 @@ new: Attribute TP_SIGNAL_NAME&lt;br&gt;
 <part name="MEAS_SAMD" library="TestPoints" deviceset="TP" device="TP10SQ" package3d_urn="urn:adsk.eagle:package:27962/1" value="TPTP10SQ"/>
 <part name="MEAS_MIC" library="TestPoints" deviceset="TP" device="TP10SQ" package3d_urn="urn:adsk.eagle:package:27962/1" value="TPTP10SQ"/>
 <part name="EN_RADIO" library="TestPoints" deviceset="TP" device="TP10SQ" package3d_urn="urn:adsk.eagle:package:27962/1" value="TPTP10SQ"/>
+<part name="X3" library="Connectors" deviceset="J-U.FL" device="" value="uFL"/>
+<part name="X5" library="Connectors" deviceset="J-U.FL" device="" value="uFL"/>
+<part name="X6" library="Connectors" deviceset="J-U.FL" device="" value="uFL"/>
+<part name="R7" library="Resistors" deviceset="R-" device="0603"/>
+<part name="GND26" library="Supplies" deviceset="GND" device=""/>
+<part name="GND27" library="Supplies" deviceset="GND" device=""/>
+<part name="GND28" library="Supplies" deviceset="GND" device=""/>
 </parts>
 <sheets>
 <sheet>
@@ -7941,6 +7948,31 @@ F_MAX=1000kHz</text>
 <attribute name="NAME" x="367.03" y="148.59" size="1.778" layer="95"/>
 <attribute name="TP_SIGNAL_NAME" x="369.57" y="146.05" size="1.778" layer="97"/>
 </instance>
+<instance part="X3" gate="G$1" x="53.22295625" y="245.977171875" smashed="yes" rot="R90">
+<attribute name="NAME" x="49.92095625" y="243.437171875" size="1.27" layer="95" rot="R90"/>
+<attribute name="VALUE" x="63.38295625" y="243.437171875" size="1.27" layer="96" rot="R90"/>
+</instance>
+<instance part="X5" gate="G$1" x="83.70295625" y="245.977171875" smashed="yes" rot="R90">
+<attribute name="NAME" x="80.40095625" y="243.437171875" size="1.27" layer="95" rot="R90"/>
+<attribute name="VALUE" x="93.86295625" y="243.437171875" size="1.27" layer="96" rot="R90"/>
+</instance>
+<instance part="X6" gate="G$1" x="116.72295625" y="245.977171875" smashed="yes" rot="R90">
+<attribute name="NAME" x="113.42095625" y="243.437171875" size="1.27" layer="95" rot="R90"/>
+<attribute name="VALUE" x="126.88295625" y="243.437171875" size="1.27" layer="96" rot="R90"/>
+</instance>
+<instance part="R7" gate="G$1" x="121.92" y="259.08" smashed="yes">
+<attribute name="NAME" x="118.11" y="260.5786" size="1.778" layer="95"/>
+<attribute name="VALUE" x="118.11" y="255.778" size="1.778" layer="96"/>
+</instance>
+<instance part="GND26" gate="1" x="58.42" y="236.22" smashed="yes">
+<attribute name="VALUE" x="55.88" y="233.68" size="1.778" layer="96"/>
+</instance>
+<instance part="GND27" gate="1" x="93.98" y="236.22" smashed="yes">
+<attribute name="VALUE" x="91.44" y="233.68" size="1.778" layer="96"/>
+</instance>
+<instance part="GND28" gate="1" x="124.46" y="236.22" smashed="yes">
+<attribute name="VALUE" x="121.92" y="233.68" size="1.778" layer="96"/>
+</instance>
 </instances>
 <busses>
 <bus name="BUS2_AIN0,BUS2_AIN1,BUS2_GPIO0,BUS2_GPIO1,BUS2_SERCOM_P0,BUS2_SERCOM_P1,BUS2_SERCOM_P2,BUS2_SERCOM_P3,BUS3_AIN0,BUS3_AIN1,BUS3_GPIO0,BUS3_GPIO1,BUS3_SERCOM_P0,BUS3_SERCOM_P1,BUS3_SERCOM_P2,BUS3_SERCOM_P3">
@@ -8104,6 +8136,42 @@ F_MAX=1000kHz</text>
 <pinref part="GND25" gate="1" pin="GND"/>
 <pinref part="JP16" gate="G$1" pin="1"/>
 <wire x1="294.64" y1="53.34" x2="294.64" y2="55.88" width="0.1524" layer="91"/>
+</segment>
+<segment>
+<pinref part="X3" gate="G$1" pin="GND@1"/>
+<pinref part="X3" gate="G$1" pin="GND@0"/>
+<wire x1="60.84295625" y1="243.437171875" x2="58.30295625" y2="243.437171875" width="0.1524" layer="91"/>
+<pinref part="GND26" gate="1" pin="GND"/>
+<wire x1="58.30295625" y1="243.437171875" x2="58.42" y2="243.437171875" width="0.1524" layer="91"/>
+<wire x1="58.42" y1="243.437171875" x2="58.42" y2="238.76" width="0.1524" layer="91"/>
+<junction x="58.30295625" y="243.437171875"/>
+</segment>
+<segment>
+<pinref part="X5" gate="G$1" pin="GND@0"/>
+<pinref part="X5" gate="G$1" pin="GND@1"/>
+<wire x1="88.78295625" y1="243.437171875" x2="91.32295625" y2="243.437171875" width="0.1524" layer="91"/>
+<wire x1="91.32295625" y1="243.437171875" x2="96.52" y2="243.437171875" width="0.1524" layer="91"/>
+<junction x="91.32295625" y="243.437171875"/>
+<wire x1="96.52" y1="243.437171875" x2="96.52" y2="251.46" width="0.1524" layer="91"/>
+<pinref part="X5" gate="G$1" pin="SIGNAL"/>
+<wire x1="96.52" y1="251.46" x2="83.70295625" y2="251.46" width="0.1524" layer="91"/>
+<wire x1="83.70295625" y1="251.46" x2="83.70295625" y2="251.057171875" width="0.1524" layer="91"/>
+<wire x1="91.32295625" y1="243.437171875" x2="91.44" y2="243.437171875" width="0.1524" layer="91"/>
+<wire x1="91.44" y1="243.437171875" x2="91.44" y2="238.76" width="0.1524" layer="91"/>
+<pinref part="GND27" gate="1" pin="GND"/>
+<wire x1="91.44" y1="238.76" x2="93.98" y2="238.76" width="0.1524" layer="91"/>
+</segment>
+<segment>
+<pinref part="R7" gate="G$1" pin="2"/>
+<wire x1="127" y1="259.08" x2="127" y2="243.437171875" width="0.1524" layer="91"/>
+<pinref part="X6" gate="G$1" pin="GND@0"/>
+<wire x1="127" y1="243.437171875" x2="124.34295625" y2="243.437171875" width="0.1524" layer="91"/>
+<pinref part="X6" gate="G$1" pin="GND@1"/>
+<wire x1="124.34295625" y1="243.437171875" x2="121.80295625" y2="243.437171875" width="0.1524" layer="91"/>
+<junction x="124.34295625" y="243.437171875"/>
+<pinref part="GND28" gate="1" pin="GND"/>
+<wire x1="124.46" y1="238.76" x2="124.46" y2="243.437171875" width="0.1524" layer="91"/>
+<wire x1="124.46" y1="243.437171875" x2="124.34295625" y2="243.437171875" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="BUS0_SERCOM_P0" class="0">
@@ -8977,6 +9045,14 @@ F_MAX=1000kHz</text>
 <pinref part="R_SENSE" gate="G$1" pin="2"/>
 <wire x1="22.86" y1="195.58" x2="30.48" y2="195.58" width="0.1524" layer="91"/>
 <pinref part="JP13" gate="G$1" pin="1"/>
+</segment>
+</net>
+<net name="N$11" class="0">
+<segment>
+<pinref part="X6" gate="G$1" pin="SIGNAL"/>
+<pinref part="R7" gate="G$1" pin="1"/>
+<wire x1="116.72295625" y1="251.057171875" x2="116.84" y2="251.057171875" width="0.1524" layer="91"/>
+<wire x1="116.84" y1="251.057171875" x2="116.84" y2="259.08" width="0.1524" layer="91"/>
 </segment>
 </net>
 </nets>
