@@ -3462,25 +3462,6 @@ Temp: -40~+85°C</text>
 <circle x="-0.00033125" y="0.00845" radius="0.325" width="0.001" layer="250"/>
 <wire x1="0.3226" y1="-0.31448125" x2="-0.32326875" y2="0.331390625" width="0.001" layer="250"/>
 <wire x1="-0.32326875" y1="-0.31448125" x2="0.3226" y2="0.331390625" width="0.001" layer="250"/>
-<polygon width="0" layer="42" spacing="0.3048" pour="hatch">
-<vertex x="-1.905" y="1.524"/>
-<vertex x="-1.905" y="-1.778" curve="90"/>
-<vertex x="-1.397" y="-2.286"/>
-<vertex x="4.699" y="-2.286"/>
-<vertex x="4.699" y="1.524" curve="-90"/>
-<vertex x="4.445" y="1.524"/>
-</polygon>
-<polygon width="0" layer="42" spacing="0.3048" pour="hatch">
-<vertex x="-4.064" y="-1.778"/>
-<vertex x="-4.064" y="-8.509"/>
-<vertex x="6.096" y="-8.509"/>
-<vertex x="6.096" y="-3.556" curve="90"/>
-<vertex x="5.969" y="-3.429"/>
-<vertex x="-1.397" y="-3.429"/>
-<vertex x="-1.905" y="-3.429" curve="-90"/>
-<vertex x="-2.921" y="-2.413"/>
-<vertex x="-2.921" y="-1.778"/>
-</polygon>
 <polygon width="0" layer="43" spacing="0.3048" pour="hatch">
 <vertex x="-1.905" y="1.524"/>
 <vertex x="-1.905" y="-1.778" curve="90"/>
@@ -3523,11 +3504,12 @@ Temp: -40~+85°C</text>
 <vertex x="-2.9" y="-1.2"/>
 <vertex x="-2.9" y="0.5"/>
 </polygon>
-<polygon width="0" layer="42" spacing="0.1" pour="hatch">
-<vertex x="-4" y="0.5"/>
-<vertex x="-4" y="-1.2"/>
-<vertex x="-2.9" y="-1.2"/>
-<vertex x="-2.9" y="0.5"/>
+<polygon width="0" layer="42" spacing="0.254" pour="hatch">
+<vertex x="-4" y="1.5"/>
+<vertex x="-4" y="-8.5"/>
+<vertex x="6.1" y="-8.5"/>
+<vertex x="6.1" y="1.5"/>
+<vertex x="6" y="1.5"/>
 </polygon>
 </package>
 <package name="ILA_09_CHIP_ANTENNA3">
