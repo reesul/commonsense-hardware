@@ -3718,23 +3718,22 @@ Pad dimensions from http://www.kemet.com/Lists/ProductCatalog/Attachments/53/KEM
 <smd name="30" x="-0.7501875" y="2.475" dx="0.28" dy="0.85" layer="1" rot="R180" cream="no"/>
 <smd name="31" x="-1.250315625" y="2.475" dx="0.28" dy="0.85" layer="1" rot="R180" cream="no"/>
 <smd name="32" x="-1.750440625" y="2.475" dx="0.28" dy="0.85" layer="1" rot="R180" cream="no"/>
-<smd name="33" x="0" y="0" dx="3.45" dy="3.45" layer="1" cream="no"/>
-<pad name="V" x="-1.1684" y="-1.1684" drill="0.254" diameter="0.508"/>
-<pad name="V_1" x="-1.1684" y="-0.4064" drill="0.254" diameter="0.508"/>
-<pad name="V_2" x="-1.1684" y="0.4064" drill="0.254" diameter="0.508"/>
-<pad name="GND@0" x="-1.1684" y="1.1684" drill="0.254" diameter="0.508"/>
-<pad name="V_4" x="-0.4064" y="-1.1684" drill="0.254" diameter="0.508"/>
-<pad name="V_5" x="-0.4064" y="-0.4064" drill="0.254" diameter="0.508"/>
-<pad name="V_6" x="-0.4064" y="0.4064" drill="0.254" diameter="0.508"/>
-<pad name="GND@1" x="-0.4064" y="1.1684" drill="0.254" diameter="0.508"/>
-<pad name="V_8" x="0.4064" y="-1.1684" drill="0.254" diameter="0.508"/>
-<pad name="V_9" x="0.4064" y="-0.4064" drill="0.254" diameter="0.508"/>
-<pad name="V_10" x="0.4064" y="0.4064" drill="0.254" diameter="0.508"/>
-<pad name="V_11" x="0.4064" y="1.1684" drill="0.254" diameter="0.508"/>
-<pad name="V_12" x="1.1684" y="-1.1684" drill="0.254" diameter="0.508"/>
-<pad name="V_13" x="1.1684" y="-0.4064" drill="0.254" diameter="0.508"/>
-<pad name="V_14" x="1.1684" y="0.4064" drill="0.254" diameter="0.508"/>
-<pad name="V_15" x="1.1684" y="1.1684" drill="0.254" diameter="0.508"/>
+<pad name="V" x="-1.1684" y="-1.1684" drill="0.2" diameter="0.5" thermals="no"/>
+<pad name="V_1" x="-1.1684" y="-0.4064" drill="0.2" diameter="0.5" thermals="no"/>
+<pad name="V_2" x="-1.1684" y="0.4064" drill="0.2" diameter="0.5" thermals="no"/>
+<pad name="V_3" x="-1.1684" y="1.1684" drill="0.2" diameter="0.5" thermals="no"/>
+<pad name="V_4" x="-0.4064" y="-1.1684" drill="0.2" diameter="0.5" thermals="no"/>
+<pad name="V_5" x="-0.4064" y="-0.4064" drill="0.2" diameter="0.5" thermals="no"/>
+<pad name="V_6" x="-0.4064" y="0.4064" drill="0.2" diameter="0.5" thermals="no"/>
+<pad name="V_7" x="-0.4064" y="1.1684" drill="0.2" diameter="0.5" thermals="no"/>
+<pad name="V_8" x="0.4064" y="-1.1684" drill="0.2" diameter="0.5" thermals="no"/>
+<pad name="V_9" x="0.4064" y="-0.4064" drill="0.2" diameter="0.5" thermals="no"/>
+<pad name="V_10" x="0.4064" y="0.4064" drill="0.2" diameter="0.5" thermals="no"/>
+<pad name="V_11" x="0.4064" y="1.1684" drill="0.2" diameter="0.5" thermals="no"/>
+<pad name="V_12" x="1.1684" y="-1.1684" drill="0.2" diameter="0.5" thermals="no"/>
+<pad name="V_13" x="1.1684" y="-0.4064" drill="0.2" diameter="0.5" thermals="no"/>
+<pad name="V_14" x="1.1684" y="0.4064" drill="0.2" diameter="0.5" thermals="no"/>
+<pad name="V_15" x="1.1684" y="1.1684" drill="0.2" diameter="0.5" thermals="no"/>
 <wire x1="-2.8194" y1="-2.8194" x2="-2.2352" y2="-2.8194" width="0.1524" layer="21"/>
 <wire x1="2.8194" y1="-2.8194" x2="2.8194" y2="-2.2352" width="0.1524" layer="21"/>
 <wire x1="2.8194" y1="2.8194" x2="2.2352" y2="2.8194" width="0.1524" layer="21"/>
@@ -3774,12 +3773,6 @@ Pad dimensions from http://www.kemet.com/Lists/ProductCatalog/Attachments/53/KEM
 <vertex x="-2.87510625" y="1.13489375"/>
 <vertex x="-2.07489375" y="1.13489375"/>
 <vertex x="-2.07489375" y="1.36510625"/>
-</polygon>
-<polygon width="0.0254" layer="31">
-<vertex x="-2.87510625" y="0.865109375"/>
-<vertex x="-2.87510625" y="0.634890625"/>
-<vertex x="-2.07489375" y="0.634890625"/>
-<vertex x="-2.07489375" y="0.865109375"/>
 </polygon>
 <polygon width="0.0254" layer="31">
 <vertex x="-2.87510625" y="0.36510625"/>
@@ -4051,7 +4044,8 @@ Pad dimensions from http://www.kemet.com/Lists/ProductCatalog/Attachments/53/KEM
 <vertex x="-0.152278125" y="1.0811"/>
 <vertex x="-0.2937" y="0.939678125"/>
 <vertex x="-0.2937" y="0.635121875"/>
-<vertex x="-0.152278125" y="0.4937"/>
+<vertex x="-0.15" y="0.5"/>
+<vertex x="-0.15" y="0.4937"/>
 <vertex x="0.152278125" y="0.4937"/>
 <vertex x="0.2937" y="0.635121875"/>
 <vertex x="0.2937" y="0.939678125"/>
@@ -4459,7 +4453,24 @@ Pad dimensions from http://www.kemet.com/Lists/ProductCatalog/Attachments/53/KEM
 <wire x1="2.5654" y1="2.5654" x2="-2.5654" y2="2.5654" width="0.1524" layer="51"/>
 <wire x1="-2.5654" y1="2.5654" x2="-2.5654" y2="-2.5654" width="0.1524" layer="51"/>
 <text x="-4.1148" y="1.7526" size="1.27" layer="51" ratio="6" rot="SR0">*</text>
-<text x="-3.2766" y="-0.635" size="1.27" layer="25" ratio="6" rot="SR0">&gt;Name</text>
+<polygon width="0" layer="1" spacing="0.254">
+<vertex x="1.75" y="-1.75"/>
+<vertex x="-1.75" y="-1.75"/>
+<vertex x="-1.75" y="1.75"/>
+<vertex x="1.75" y="1.75"/>
+</polygon>
+<polygon width="0.0254" layer="31">
+<vertex x="-2.87510625" y="0.86510625"/>
+<vertex x="-2.87510625" y="0.63489375"/>
+<vertex x="-2.07489375" y="0.63489375"/>
+<vertex x="-2.07489375" y="0.86510625"/>
+</polygon>
+<polygon width="0" layer="39" spacing="0.254" pour="hatch">
+<vertex x="1.75" y="1.75"/>
+<vertex x="1.75" y="-1.75"/>
+<vertex x="-1.75" y="-1.75"/>
+<vertex x="-1.75" y="1.75"/>
+</polygon>
 </package>
 <package name="CUI_SJ-43514-SMT">
 <wire x1="-7.75" y1="3" x2="-7.75" y2="2.5" width="0.127" layer="51"/>
@@ -5436,7 +5447,7 @@ PTH and SMD connector options available.&lt;/p&gt;
 <connect gate="A" pin="DRVSS" pad="22"/>
 <connect gate="A" pin="DVDD" pad="32"/>
 <connect gate="A" pin="DVSS" pad="1"/>
-<connect gate="A" pin="EPAD" pad="33"/>
+<connect gate="A" pin="EPAD" pad="V V_1 V_2 V_3 V_4 V_5 V_6 V_7 V_8 V_9 V_10 V_11 V_12 V_13 V_14 V_15"/>
 <connect gate="A" pin="HPL" pad="21"/>
 <connect gate="A" pin="HPR" pad="25"/>
 <connect gate="A" pin="IOVDD" pad="2"/>
@@ -7517,9 +7528,6 @@ Pad dimensions from https://www.vishay.com/docs/45017/vjw1bcsoldfootdesign.pdf</
 <part name="C5" library="CommonSense-DTR-v1" deviceset="C0402-ANT" device="0402" value="2.2p"/>
 <part name="SW1" library="adafruit" library_urn="urn:adsk.eagle:library:420" deviceset="SPST_TACT" device="-KMR2" package3d_urn="urn:adsk.eagle:package:6240885/1"/>
 <part name="SW2" library="adafruit" library_urn="urn:adsk.eagle:library:420" deviceset="SPST_TACT" device="-KMR2" package3d_urn="urn:adsk.eagle:package:6240885/1"/>
-<part name="MEAS_SAMD" library="TestPoints" deviceset="TP" device="TP10SQ" package3d_urn="urn:adsk.eagle:package:27962/1" value="TPTP10SQ"/>
-<part name="MEAS_MIC" library="TestPoints" deviceset="TP" device="TP10SQ" package3d_urn="urn:adsk.eagle:package:27962/1" value="TPTP10SQ"/>
-<part name="EN_RADIO" library="TestPoints" deviceset="TP" device="TP10SQ" package3d_urn="urn:adsk.eagle:package:27962/1" value="TPTP10SQ"/>
 <part name="X3" library="Connectors" deviceset="J-U.FL" device="" value="uFL"/>
 <part name="X5" library="Connectors" deviceset="J-U.FL" device="" value="uFL"/>
 <part name="X6" library="Connectors" deviceset="J-U.FL" device="" value="uFL"/>
@@ -7907,18 +7915,6 @@ F_MAX=1000kHz</text>
 <attribute name="NAME" x="182.88" y="234.95" size="1.778" layer="95"/>
 <attribute name="VALUE" x="184.15" y="227.965" size="1.778" layer="96" rot="R270"/>
 </instance>
-<instance part="MEAS_SAMD" gate="G$1" x="208.28" y="99.06" smashed="yes">
-<attribute name="NAME" x="207.01" y="100.33" size="1.778" layer="95"/>
-<attribute name="TP_SIGNAL_NAME" x="209.55" y="97.79" size="1.778" layer="97"/>
-</instance>
-<instance part="MEAS_MIC" gate="G$1" x="203.2" y="91.44" smashed="yes">
-<attribute name="NAME" x="201.93" y="92.71" size="1.778" layer="95"/>
-<attribute name="TP_SIGNAL_NAME" x="204.47" y="90.17" size="1.778" layer="97"/>
-</instance>
-<instance part="EN_RADIO" gate="G$1" x="205.74" y="88.9" smashed="yes">
-<attribute name="NAME" x="204.47" y="90.17" size="1.778" layer="95"/>
-<attribute name="TP_SIGNAL_NAME" x="207.01" y="87.63" size="1.778" layer="97"/>
-</instance>
 <instance part="C26" gate="G$1" x="86.36" y="231.14" smashed="yes" rot="R90">
 <attribute name="NAME" x="84.455" y="232.156" size="1.778" layer="95" rot="R90"/>
 <attribute name="VALUE" x="89.281" y="232.156" size="1.778" layer="96" rot="R90"/>
@@ -7966,9 +7962,6 @@ F_MAX=1000kHz</text>
 <wire x1="314.96" y1="121.92" x2="314.96" y2="187.96" width="0.762" layer="92"/>
 <label x="300.99" y="123.444" size="1.778" layer="95"/>
 <wire x1="314.96" y1="121.92" x2="7.62" y2="121.92" width="0.762" layer="92"/>
-</segment>
-<segment>
-<wire x1="353.06" y1="337.82" x2="353.06" y2="30.48" width="0.762" layer="92"/>
 </segment>
 </bus>
 <bus name="DTR_BUS1:BUS1_AIN0,BUS1_AIN1,BUS1_GPIO0,BUS1_GPIO1,BUS1_SERCOM_P0,BUS1_SERCOM_P1,BUS1_SERCOM_P2,BUS1_SERCOM_P3">
@@ -8688,7 +8681,6 @@ F_MAX=1000kHz</text>
 <wire x1="185.42" y1="109.22" x2="187.96" y2="111.76" width="0.1524" layer="91"/>
 <wire x1="203.2" y1="88.9" x2="185.42" y2="88.9" width="0.1524" layer="91"/>
 <junction x="185.42" y="88.9"/>
-<pinref part="MEAS_MIC" gate="G$1" pin="TP"/>
 </segment>
 </net>
 <net name="MEAS_SAMD" class="0">
@@ -8701,7 +8693,6 @@ F_MAX=1000kHz</text>
 <wire x1="177.8" y1="109.22" x2="180.34" y2="111.76" width="0.1524" layer="91"/>
 <wire x1="208.28" y1="96.52" x2="177.8" y2="96.52" width="0.1524" layer="91"/>
 <junction x="177.8" y="96.52"/>
-<pinref part="MEAS_SAMD" gate="G$1" pin="TP"/>
 </segment>
 </net>
 <net name="MEAS_RFM" class="0">
@@ -8739,7 +8730,6 @@ F_MAX=1000kHz</text>
 <wire x1="187.96" y1="109.22" x2="190.5" y2="111.76" width="0.1524" layer="91"/>
 <wire x1="205.74" y1="86.36" x2="187.96" y2="86.36" width="0.1524" layer="91"/>
 <junction x="187.96" y="86.36"/>
-<pinref part="EN_RADIO" gate="G$1" pin="TP"/>
 </segment>
 </net>
 <net name="EN_BARO" class="0">
@@ -9668,7 +9658,13 @@ F_MAX=1000kHz</text>
 <wire x1="134.62" y1="48.26" x2="142.24" y2="48.26" width="0.1524" layer="91"/>
 <junction x="142.24" y="48.26"/>
 <pinref part="GND29" gate="1" pin="GND"/>
-<wire x1="142.24" y1="48.26" x2="142.24" y2="22.86" width="0.1524" layer="91"/>
+<wire x1="142.24" y1="48.26" x2="142.24" y2="25.4" width="0.1524" layer="91"/>
+<pinref part="U12" gate="A" pin="EPAD"/>
+<wire x1="142.24" y1="25.4" x2="142.24" y2="22.86" width="0.1524" layer="91"/>
+<wire x1="132.08" y1="60.96" x2="139.7" y2="60.96" width="0.1524" layer="91"/>
+<wire x1="139.7" y1="60.96" x2="139.7" y2="25.4" width="0.1524" layer="91"/>
+<wire x1="139.7" y1="25.4" x2="142.24" y2="25.4" width="0.1524" layer="91"/>
+<junction x="142.24" y="25.4"/>
 </segment>
 <segment>
 <pinref part="R12" gate="G$1" pin="2"/>
