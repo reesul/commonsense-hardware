@@ -3517,6 +3517,18 @@ Temp: -40~+85°C</text>
 <vertex x="-2.921" y="-2.413"/>
 <vertex x="-2.921" y="-1.778"/>
 </polygon>
+<polygon width="0" layer="41" spacing="0.1" pour="hatch">
+<vertex x="-4" y="0.5"/>
+<vertex x="-4" y="-1.2"/>
+<vertex x="-2.9" y="-1.2"/>
+<vertex x="-2.9" y="0.5"/>
+</polygon>
+<polygon width="0" layer="42" spacing="0.1" pour="hatch">
+<vertex x="-4" y="0.5"/>
+<vertex x="-4" y="-1.2"/>
+<vertex x="-2.9" y="-1.2"/>
+<vertex x="-2.9" y="0.5"/>
+</polygon>
 </package>
 <package name="ILA_09_CHIP_ANTENNA3">
 <smd name="G1" x="-3.11" y="1.02" dx="1.5" dy="0.8" layer="1" rot="R180" stop="no" thermals="no" cream="no"/>
