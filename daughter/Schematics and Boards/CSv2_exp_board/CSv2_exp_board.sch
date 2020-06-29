@@ -7866,10 +7866,10 @@ Pad dimensions from https://www.vishay.com/docs/45017/vjw1bcsoldfootdesign.pdf</
 <part name="BUS1_SCL" library="TestPoints" deviceset="TP" device="TP10SQ" package3d_urn="urn:adsk.eagle:package:27962/1" value="TPTP10SQ"/>
 <part name="BUS1_SDA" library="TestPoints" deviceset="TP" device="TP10SQ" package3d_urn="urn:adsk.eagle:package:27962/1" value="TPTP10SQ"/>
 <part name="USB_V" library="TestPoints" deviceset="TP" device="TP10SQ" package3d_urn="urn:adsk.eagle:package:27962/1" value="TPTP10SQ"/>
-<part name="BUS0_P0" library="TestPoints" deviceset="TP" device="TP10SQ" package3d_urn="urn:adsk.eagle:package:27962/1" value="TPTP10SQ"/>
-<part name="BUS0_P1" library="TestPoints" deviceset="TP" device="TP10SQ" package3d_urn="urn:adsk.eagle:package:27962/1" value="TPTP10SQ"/>
-<part name="BUS0_P2" library="TestPoints" deviceset="TP" device="TP10SQ" package3d_urn="urn:adsk.eagle:package:27962/1" value="TPTP10SQ"/>
-<part name="BUS0_P3" library="TestPoints" deviceset="TP" device="TP10SQ" package3d_urn="urn:adsk.eagle:package:27962/1" value="TPTP10SQ"/>
+<part name="MISO" library="TestPoints" deviceset="TP" device="TP10SQ" package3d_urn="urn:adsk.eagle:package:27962/1" value="TPTP10SQ"/>
+<part name="SCK" library="TestPoints" deviceset="TP" device="TP10SQ" package3d_urn="urn:adsk.eagle:package:27962/1" value="TPTP10SQ"/>
+<part name="SAMD_CS" library="TestPoints" deviceset="TP" device="TP10SQ" package3d_urn="urn:adsk.eagle:package:27962/1" value="TPTP10SQ"/>
+<part name="MOSI" library="TestPoints" deviceset="TP" device="TP10SQ" package3d_urn="urn:adsk.eagle:package:27962/1" value="TPTP10SQ"/>
 <part name="J2" library="Connectors" deviceset="J-SERIAL-PORT" device=""/>
 <part name="A1" library="CommonSense-DTR-v1" deviceset="ILA09_CHIP_ANTENNA" device=""/>
 <part name="C3" library="CommonSense-DTR-v1" deviceset="C0402-ANT" device="0402" value="3.9p"/>
@@ -7947,6 +7947,7 @@ Pad dimensions from https://www.vishay.com/docs/45017/vjw1bcsoldfootdesign.pdf</
 <part name="EN_MIC" library="TestPoints" deviceset="TP" device="TP10SQ" package3d_urn="urn:adsk.eagle:package:27962/1"/>
 <part name="EN_MEAS" library="TestPoints" deviceset="TP" device="TP10SQ" package3d_urn="urn:adsk.eagle:package:27962/1"/>
 <part name="JP4" library="Connectors" deviceset="JUMPER-SMT_2_NC_PASTE" device="_NO-SILK" package3d_urn="urn:adsk.eagle:package:39283/1" technology="LG" value="JUMPER-SMT_2_NC_PASTELG_NO-SILK"/>
+<part name="CODEC_CS" library="TestPoints" deviceset="TP" device="TP10SQ" package3d_urn="urn:adsk.eagle:package:27962/1" value="TPTP10SQ"/>
 </parts>
 <sheets>
 <sheet>
@@ -8230,19 +8231,19 @@ F_MAX=1000kHz</text>
 <attribute name="NAME" x="341.63" y="201.93" size="1.778" layer="95"/>
 <attribute name="TP_SIGNAL_NAME" x="344.17" y="199.39" size="1.778" layer="97"/>
 </instance>
-<instance part="BUS0_P0" gate="G$1" x="205.74" y="132.08" smashed="yes">
+<instance part="MISO" gate="G$1" x="205.74" y="132.08" smashed="yes">
 <attribute name="NAME" x="199.39" y="135.89" size="1.778" layer="95"/>
 <attribute name="TP_SIGNAL_NAME" x="207.01" y="130.81" size="1.778" layer="97"/>
 </instance>
-<instance part="BUS0_P1" gate="G$1" x="210.82" y="134.62" smashed="yes">
+<instance part="SCK" gate="G$1" x="210.82" y="134.62" smashed="yes">
 <attribute name="NAME" x="204.47" y="138.43" size="1.778" layer="95"/>
 <attribute name="TP_SIGNAL_NAME" x="212.09" y="133.35" size="1.778" layer="97"/>
 </instance>
-<instance part="BUS0_P2" gate="G$1" x="215.9" y="137.16" smashed="yes">
+<instance part="SAMD_CS" gate="G$1" x="215.9" y="137.16" smashed="yes">
 <attribute name="NAME" x="209.55" y="140.97" size="1.778" layer="95"/>
 <attribute name="TP_SIGNAL_NAME" x="217.17" y="135.89" size="1.778" layer="97"/>
 </instance>
-<instance part="BUS0_P3" gate="G$1" x="220.98" y="139.7" smashed="yes">
+<instance part="MOSI" gate="G$1" x="220.98" y="139.7" smashed="yes">
 <attribute name="NAME" x="214.63" y="143.51" size="1.778" layer="95"/>
 <attribute name="TP_SIGNAL_NAME" x="222.25" y="138.43" size="1.778" layer="97"/>
 </instance>
@@ -8350,14 +8351,6 @@ F_MAX=1000kHz</text>
 <label x="8.128" y="112.522" size="1.778" layer="95"/>
 </segment>
 </bus>
-<bus name="DTR_BUS0:BUS0_AIN0,BUS0_AIN1,BUS0_GPIO0,BUS0_GPIO1,BUS0_SERCOM_P0,BUS0_SERCOM_P1,BUS0_SERCOM_P2,BUS0_SERCOM_P3">
-<segment>
-<label x="8.128" y="123.444" size="1.778" layer="95"/>
-<wire x1="314.96" y1="121.92" x2="314.96" y2="187.96" width="0.762" layer="92"/>
-<label x="300.99" y="123.444" size="1.778" layer="95"/>
-<wire x1="314.96" y1="121.92" x2="7.62" y2="121.92" width="0.762" layer="92"/>
-</segment>
-</bus>
 <bus name="DTR_BUS1:BUS1_AIN0,BUS1_AIN1,BUS1_GPIO0,BUS1_GPIO1,BUS1_SERCOM_P0,BUS1_SERCOM_P1,BUS1_SERCOM_P2,BUS1_SERCOM_P3">
 <segment>
 <wire x1="7.62" y1="116.84" x2="342.9" y2="116.84" width="0.762" layer="92"/>
@@ -8368,6 +8361,14 @@ F_MAX=1000kHz</text>
 <segment>
 <wire x1="91.44" y1="111.76" x2="381" y2="111.76" width="0.762" layer="92"/>
 <label x="369.824" y="113.03" size="1.778" layer="95"/>
+</segment>
+</bus>
+<bus name="DTR_BUS0:BUS0_AIN0,BUS0_AIN1,BUS0_GPIO0,BUS0_GPIO1,BUS0_SERCOM_P0,BUS0_SERCOM_P1,BUS0_SERCOM_P2,BUS0_SERCOM_P3">
+<segment>
+<label x="8.128" y="123.444" size="1.778" layer="95"/>
+<wire x1="314.96" y1="121.92" x2="314.96" y2="187.96" width="0.762" layer="92"/>
+<label x="300.99" y="123.444" size="1.778" layer="95"/>
+<wire x1="314.96" y1="121.92" x2="7.62" y2="121.92" width="0.762" layer="92"/>
 </segment>
 </bus>
 </busses>
@@ -8647,7 +8648,7 @@ F_MAX=1000kHz</text>
 <wire x1="312.42" y1="182.88" x2="314.96" y2="180.34" width="0.1524" layer="91"/>
 </segment>
 <segment>
-<pinref part="BUS0_P0" gate="G$1" pin="TP"/>
+<pinref part="MISO" gate="G$1" pin="TP"/>
 <wire x1="205.74" y1="129.54" x2="205.74" y2="121.92" width="0.1524" layer="91"/>
 </segment>
 </net>
@@ -8659,7 +8660,7 @@ F_MAX=1000kHz</text>
 <wire x1="312.42" y1="175.26" x2="314.96" y2="172.72" width="0.1524" layer="91"/>
 </segment>
 <segment>
-<pinref part="BUS0_P3" gate="G$1" pin="TP"/>
+<pinref part="MOSI" gate="G$1" pin="TP"/>
 <wire x1="220.98" y1="137.16" x2="220.98" y2="121.92" width="0.1524" layer="91"/>
 </segment>
 </net>
@@ -8702,7 +8703,7 @@ F_MAX=1000kHz</text>
 <wire x1="312.42" y1="180.34" x2="314.96" y2="177.8" width="0.1524" layer="91"/>
 </segment>
 <segment>
-<pinref part="BUS0_P1" gate="G$1" pin="TP"/>
+<pinref part="SCK" gate="G$1" pin="TP"/>
 <wire x1="210.82" y1="132.08" x2="210.82" y2="121.92" width="0.1524" layer="91"/>
 </segment>
 </net>
@@ -8714,7 +8715,7 @@ F_MAX=1000kHz</text>
 <wire x1="312.42" y1="177.8" x2="314.96" y2="175.26" width="0.1524" layer="91"/>
 </segment>
 <segment>
-<pinref part="BUS0_P2" gate="G$1" pin="TP"/>
+<pinref part="SAMD_CS" gate="G$1" pin="TP"/>
 <wire x1="215.9" y1="134.62" x2="215.9" y2="121.92" width="0.1524" layer="91"/>
 </segment>
 </net>
@@ -9856,6 +9857,10 @@ F_MAX=1000kHz</text>
 <instance part="JP4" gate="G$1" x="180.34" y="254" smashed="yes">
 <attribute name="NAME" x="180.34" y="256.54" size="1.778" layer="95" font="vector" align="bottom-center"/>
 </instance>
+<instance part="CODEC_CS" gate="G$1" x="104.14" y="78.74" smashed="yes">
+<attribute name="NAME" x="102.87" y="80.01" size="1.778" layer="95"/>
+<attribute name="TP_SIGNAL_NAME" x="105.41" y="77.47" size="1.778" layer="97"/>
+</instance>
 </instances>
 <busses>
 <bus name="BUS2_AIN0,BUS2_AIN1,BUS2_GPIO0,BUS2_GPIO1,BUS2_SERCOM_P0,BUS2_SERCOM_P1,BUS2_SERCOM_P2,BUS2_SERCOM_P3,BUS3_AIN0,BUS3_AIN1,BUS3_GPIO0,BUS3_GPIO1,BUS3_SERCOM_P0,BUS3_SERCOM_P1,BUS3_SERCOM_P2,BUS3_SERCOM_P3">
@@ -10191,6 +10196,10 @@ F_MAX=1000kHz</text>
 <wire x1="55.88" y1="45.72" x2="55.88" y2="71.12" width="0.1524" layer="91"/>
 <label x="55.88" y="48.26" size="1.778" layer="95" rot="R90"/>
 <wire x1="55.88" y1="71.12" x2="58.42" y2="73.66" width="0.1524" layer="91"/>
+</segment>
+<segment>
+<pinref part="CODEC_CS" gate="G$1" pin="TP"/>
+<wire x1="104.14" y1="76.2" x2="104.14" y2="73.66" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="DTR_DETECT_IN" class="0">
