@@ -7396,7 +7396,7 @@ Pad dimensions from https://www.vishay.com/docs/45017/vjw1bcsoldfootdesign.pdf</
 <part name="+3V5" library="Supplies" deviceset="+3V3" device=""/>
 <part name="U4" library="Radios" deviceset="RFM95" device="C" value="RFM69HCW">
 <attribute name="MPN" value="RFM95CW"/>
-<attribute name="PARTNO" value="*"/>
+<attribute name="PARTNO" value="RFM95W"/>
 </part>
 <part name="U$17" library="Supplies" deviceset="GND" device=""/>
 <part name="X4" library="Connectors" deviceset="J-U.FL" device="" value="uFL">
@@ -7467,13 +7467,13 @@ Pad dimensions from https://www.vishay.com/docs/45017/vjw1bcsoldfootdesign.pdf</
 <part name="GND5" library="Supplies" deviceset="GND" device=""/>
 <part name="GND1" library="Supplies" deviceset="GND" device=""/>
 <part name="J301" library="Connectors" deviceset="HIROSE-DF40_44-PIN_CONNECTORS" device="-HEADER" value="HIROSE-DF40_44-PIN_CONNECTORS-HEADER">
-<attribute name="MPN" value="DF40HC(3.0)-44DS-0.4V(51)"/>
-<attribute name="PARTNO" value="*"/>
+<attribute name="MPN" value="DF40C-44DP-0.4V(51)"/>
+<attribute name="PARTNO" value="DF40C-44DP-0.4V(51)"/>
 </part>
 <part name="GND22" library="Supplies" deviceset="GND" device=""/>
 <part name="J1" library="Connectors" deviceset="HIROSE-DF40_44-PIN_CONNECTORS" device="-RECEPTACLE">
 <attribute name="MPN" value="DF40HC(3.0)-44DS-0.4V(51)"/>
-<attribute name="PARTNO" value="*"/>
+<attribute name="PARTNO" value="DF40HC(3.0)-44DS-0.4V(51)"/>
 </part>
 <part name="GND4" library="Supplies" deviceset="GND" device=""/>
 <part name="+3V1" library="Supplies" deviceset="+3V3" device=""/>
@@ -7701,7 +7701,7 @@ Pad dimensions from https://www.vishay.com/docs/45017/vjw1bcsoldfootdesign.pdf</
 </part>
 <part name="+3V21" library="Supplies" deviceset="+3V3" device=""/>
 <part name="GND24" library="Supplies" deviceset="GND" device=""/>
-<part name="C25" library="Capacitors" deviceset="C-" device="0603" value="0.1u">
+<part name="C25" library="Capacitors" deviceset="C-" device="0402" value="0.1u">
 <attribute name="MPN" value="C0402C104K4RACTU"/>
 <attribute name="PARTNO" value="C0402C104K4RACTU"/>
 <attribute name="VOLTAGE" value="16V"/>
@@ -7836,7 +7836,7 @@ Pad dimensions from https://www.vishay.com/docs/45017/vjw1bcsoldfootdesign.pdf</
 </part>
 <part name="J4" library="CommonSense-DTR-v1" deviceset="SJ-43514-SMT" device="">
 <attribute name="MPN" value="SJ-43514-SMT"/>
-<attribute name="PARTNO" value="*"/>
+<attribute name="PARTNO" value="SJ-43514-SMT"/>
 </part>
 <part name="U13" library="CommonSense-DTR-v1" deviceset="ADG839YKSZ-500RL7" device="KS_6_ADI-L">
 <attribute name="MPN" value="ADG839YKSZ-500RL7"/>
@@ -7930,16 +7930,19 @@ Pad dimensions from https://www.vishay.com/docs/45017/vjw1bcsoldfootdesign.pdf</
 <attribute name="TC" value="X5R"/>
 </part>
 <part name="R11" library="Resistors" deviceset="R-" device="0402" value="100k">
-<attribute name="MPN" value="ERJ-2GEJ104X"/>
-<attribute name="PARTNO" value="ERJ-2GEJ104X"/>
+<attribute name="MPN" value="ERJ-2RKF1003X"/>
+<attribute name="PARTNO" value="ERJ-2RKF1003X"/>
+<attribute name="TOL" value="1%"/>
 </part>
 <part name="RESET" library="TestPoints" deviceset="TP" device="TP11SQ" package3d_urn="urn:adsk.eagle:package:27965/1">
+<attribute name="BOM" value="EXCLUDE"/>
 <attribute name="PARTNO" value="*"/>
 </part>
 <part name="GND32" library="Supplies" deviceset="GND" device=""/>
 <part name="GND35" library="Supplies" deviceset="GND" device=""/>
-<part name="R12" library="Resistors" deviceset="R-" device="0402">
-<attribute name="PARTNO" value="*"/>
+<part name="R12" library="Resistors" deviceset="R-" device="1210">
+<attribute name="PARTNO" value="ERJ-14Y0R00U"/>
+<attribute name="TOL" value="Jumper"/>
 </part>
 <part name="U15" library="CommonSense-DTR-v1" deviceset="LP2980AIM5-2.5/NOPB" device="MF05A_TEX-L">
 <attribute name="MANUFACTURER_PART_NUMBER" value="LP2980AIM5-3.0/NOPB"/>
@@ -8446,7 +8449,7 @@ F_MAX=1000kHz</text>
 <attribute name="PARTNO" x="86.36" y="231.14" size="1.778" layer="96" rot="R90" display="off"/>
 </instance>
 <instance part="R27" gate="G$1" x="96.52" y="224.536" smashed="yes">
-<attribute name="NAME" x="97.536" y="226.441" size="1.778" layer="95"/>
+<attribute name="NAME" x="82.296" y="221.361" size="1.778" layer="95"/>
 <attribute name="VALUE" x="97.536" y="221.615" size="1.778" layer="96"/>
 <attribute name="MPN" x="96.52" y="224.536" size="1.778" layer="96" display="off"/>
 <attribute name="PARTNO" x="96.52" y="224.536" size="1.778" layer="96" rot="R90" display="off"/>
@@ -10094,6 +10097,7 @@ F_MAX=1000kHz</text>
 <attribute name="NAME" x="173.99" y="52.07" size="1.778" layer="95"/>
 <attribute name="TP_SIGNAL_NAME" x="176.53" y="49.53" size="1.778" layer="97"/>
 <attribute name="PARTNO" x="175.26" y="50.8" size="1.778" layer="96" display="off"/>
+<attribute name="BOM" x="175.26" y="50.8" size="1.778" layer="96" display="off"/>
 </instance>
 <instance part="GND32" gate="1" x="215.9" y="17.78" smashed="yes"/>
 <instance part="GND35" gate="1" x="231.14" y="17.78" smashed="yes">
