@@ -7343,137 +7343,236 @@ Pad dimensions from https://www.vishay.com/docs/45017/vjw1bcsoldfootdesign.pdf</
 <class number="8" name="GND" width="0.127" drill="0">
 </class>
 </classes>
+<groups>
+<schematic_group name="I" selectable="no"/>
+<schematic_group name="10UCAP" selectable="no"/>
+</groups>
 <parts>
 <part name="GND12" library="Supplies" deviceset="GND" device=""/>
 <part name="C14" library="Capacitors" deviceset="C-" device="0402" value="1u">
+<attribute name="DESC" value="CAP CER 1UF 10V X5R 0402"/>
 <attribute name="MPN" value="C0402C105M8PACTU"/>
 <attribute name="PARTNO" value="C0402C105M8PACTU"/>
+<attribute name="SIZE" value="0402"/>
 <attribute name="TC" value="X5R"/>
 <attribute name="TOL" value="20%"/>
+<attribute name="TYPE" value="Capacitor"/>
+<attribute name="VOLT" value="10V"/>
 <attribute name="VOLTAGE" value="10V"/>
+<attribute name="Z-HEIGHT" value="0.55mm"/>
 </part>
-<part name="U$4" library="CommonSense-DTR-v1" deviceset="MICROBUILDER_ATSAMD21J" device="_QFN" value="ATSAMD21G18_QFN">
-<attribute name="MPN" value="ATSAMD21G18A-MFT"/>
-<attribute name="PARTNO" value="ATSAMD21G18A-MFT"/>
+<part name="U19" library="CommonSense-DTR-v1" deviceset="MICROBUILDER_ATSAMD21J" device="_QFN" value="ATSAMD21G18_QFN">
+<attribute name="DESC" value="IC MCU 32BIT 256KB FLASH 48QFN"/>
+<attribute name="HEIGHT" value="0.85mm"/>
+<attribute name="MANUFACTURER" value="Microchip"/>
+<attribute name="MPN" value="ATSAMD21G18A-MF"/>
+<attribute name="PARTNO" value="ATSAMD21G18A-MF"/>
+<attribute name="SIZE" value="48-QFN (7x7)"/>
+<attribute name="TYPE" value="MCU"/>
 </part>
 <part name="+3V3_DTR" library="Supplies" deviceset="+3V3" device=""/>
 <part name="C1" library="Capacitors" deviceset="C-" device="0402" value="1u">
+<attribute name="DESC" value="CAP CER 1UF 10V X5R 0402"/>
 <attribute name="MPN" value="C0402C105M8PACTU"/>
 <attribute name="PARTNO" value="C0402C105M8PACTU"/>
+<attribute name="SIZE" value="0402"/>
 <attribute name="TC" value="X5R"/>
 <attribute name="TOL" value="20%"/>
+<attribute name="TYPE" value="Capacitor"/>
+<attribute name="VOLT" value="10V"/>
 <attribute name="VOLTAGE" value="10V"/>
+<attribute name="Z-HEIGHT" value="0.55mm"/>
 </part>
 <part name="U$6" library="Supplies" deviceset="GND" device=""/>
 <part name="C2" library="Capacitors" deviceset="C-" device="0402" value="5.5p">
+<attribute name="DESC" value="CAP CER RF 5.5PF 50V +/-0.1 PF C"/>
 <attribute name="MPN" value="CBR04C559B5GAC"/>
 <attribute name="PARTNO" value="CBR04C559B5GAC"/>
+<attribute name="SIZE" value="0402"/>
 <attribute name="TC" value="C0G, NP0"/>
-<attribute name="TOL" value="0.1p"/>
+<attribute name="TOL" value="0.1pF"/>
+<attribute name="TYPE" value="Capacitor"/>
+<attribute name="VOLT" value="50V"/>
 <attribute name="VOLTAGE" value="50V"/>
+<attribute name="Z-HEIGHT" value="0.55mm"/>
 </part>
 <part name="C4" library="Capacitors" deviceset="C-" device="0402" value="5.5p">
+<attribute name="DESC" value="CAP CER RF 5.5PF 50V +/-0.1 PF C"/>
 <attribute name="MPN" value="CBR04C559B5GAC"/>
 <attribute name="PARTNO" value="CBR04C559B5GAC"/>
-<attribute name="TC" value="C0G,NP0"/>
-<attribute name="TOL" value="0.1p"/>
+<attribute name="SIZE" value="0402"/>
+<attribute name="TC" value="C0G, NP0"/>
+<attribute name="TOL" value="0.1pF"/>
+<attribute name="TYPE" value="Capacitor"/>
+<attribute name="VOLT" value="50V"/>
 <attribute name="VOLTAGE" value="50V"/>
+<attribute name="Z-HEIGHT" value="0.55mm"/>
 </part>
 <part name="X2" library="CommonSense-DTR-v1" deviceset="ADAFRUIT2_XTAL" device="-3.2X1.5" value="32.768">
+<attribute name="DESC" value=""/>
 <attribute name="LOAD_CAPACITY" value="6p"/>
 <attribute name="MANUFACTURER" value="NDK"/>
 <attribute name="MPN" value="NX3215SA-32.768K-STD-MUA-14"/>
 <attribute name="PARTNO" value="NX3215SA-32.768K-STD-MUA-14"/>
-<attribute name="TOL" value="20ppm"/>
+<attribute name="SIZE" value=""/>
+<attribute name="TOL" value=""/>
+<attribute name="TYPE" value=""/>
+<attribute name="VOLT" value=""/>
 </part>
 <part name="U$14" library="Supplies" deviceset="GND" device=""/>
 <part name="C9" library="Capacitors" deviceset="C-" device="0603" value="10u">
+<attribute name="DESC" value="CAP CER 10UF 6.3V X5R 0603	"/>
+<attribute name="HEIGHT" value="0.9mm"/>
 <attribute name="MANUFACTURER" value="Murata"/>
 <attribute name="MPN" value="GRM188R60J106KE47D"/>
 <attribute name="PARTNO" value="GRM188R60J106KE47D"/>
+<attribute name="SIZE" value="0603"/>
 <attribute name="TC" value="X5R"/>
+<attribute name="TYPE" value="Capacitor"/>
+<attribute name="VOLT" value="6.3V"/>
 </part>
 <part name="+3V5" library="Supplies" deviceset="+3V3" device=""/>
 <part name="U4" library="Radios" deviceset="RFM95" device="C" value="RFM69HCW">
+<attribute name="DESC" value="RX TXRX MODULE ISM &lt; 1GHZ SMD"/>
 <attribute name="MPN" value="RFM95CW"/>
 <attribute name="PARTNO" value="RFM95W"/>
+<attribute name="TYPE" value="Radio"/>
 </part>
 <part name="U$17" library="Supplies" deviceset="GND" device=""/>
 <part name="X4" library="Connectors" deviceset="J-U.FL" device="" value="uFL">
+<attribute name="DESC" value=""/>
 <attribute name="MPN" value="U.FL-R-SMT-1(01)"/>
 <attribute name="PARTNO" value="U.FL-R-SMT-1(01)"/>
+<attribute name="SIZE" value=""/>
+<attribute name="TOL" value=""/>
+<attribute name="TYPE" value=""/>
+<attribute name="VOLT" value=""/>
 </part>
 <part name="U$23" library="Supplies" deviceset="GND" device=""/>
 <part name="BORDER102" library="Graphics" deviceset="BORDER-CMU" device=""/>
 <part name="U$24" library="Supplies" deviceset="GND" device=""/>
 <part name="BORDER1" library="Graphics" deviceset="BORDER-CMU" device=""/>
 <part name="J3" library="Debuggers" deviceset="CORTEX_DEBUG" device="_SMD">
+<attribute name="DESC" value="CONN HEADER SMD 10POS 1.27MM"/>
+<attribute name="MANUFACTURER" value="Samtec"/>
 <attribute name="MPN" value="FTSH-105-01-L-DV-K"/>
 <attribute name="PARTNO" value="FTSH-105-01-L-DV-K"/>
+<attribute name="TYPE" value="Header"/>
 </part>
 <part name="+3V6" library="Supplies" deviceset="+3V3" device=""/>
 <part name="U$2" library="Supplies" deviceset="GND" device=""/>
 <part name="GND6" library="Supplies" deviceset="GND" device=""/>
-<part name="ATTINY-817" library="CommonSense-DTR-v1" deviceset="ATTINY817-MFRQFN24_RX4MC-L_ATTINY817-MFR" device="">
+<part name="U17" library="CommonSense-DTR-v1" deviceset="ATTINY817-MFRQFN24_RX4MC-L_ATTINY817-MFR" device="">
+<attribute name="DESC" value="IC MCU 8BIT 8KB FLASH 24QFN"/>
+<attribute name="HEIGHT" value="0.85mm"/>
+<attribute name="MANUFACTURER" value="Microchip"/>
+<attribute name="MPN" value="ATTINY817MFR"/>
 <attribute name="PARTNO" value="ATTINY817MFR"/>
+<attribute name="SIZE" value="24-QFN (4x4)"/>
+<attribute name="TYPE" value="MCU"/>
 </part>
 <part name="GND13" library="Supplies" deviceset="GND" device=""/>
 <part name="R10" library="Resistors" deviceset="R-" device="0402" value="100k">
+<attribute name="DESC" value="RES SMD 100K OHM 1% 1/10W 0402"/>
+<attribute name="HEIGHT" value="0.4mm"/>
 <attribute name="MPN" value="ERJ-2RKF1003X"/>
 <attribute name="PARTNO" value="ERJ-2RKF1003X"/>
+<attribute name="SIZE" value="0402"/>
+<attribute name="TC" value="±100ppm/°C"/>
 <attribute name="TOL" value="1%"/>
+<attribute name="TYPE" value="Resistor"/>
 </part>
-<part name="R9" library="Resistors" deviceset="R-" device="0402" value="39r">
+<part name="R9" library="Resistors" deviceset="R-" device="0402" value="39R">
+<attribute name="DESC" value="RES SMD 39 OHM 1% 1/10W 0402"/>
+<attribute name="HEIGHT" value="0.4mm"/>
 <attribute name="MPN" value="ERJ-2RKF39R0X"/>
 <attribute name="PARTNO" value="ERJ-2RKF39R0X"/>
+<attribute name="SIZE" value="0402"/>
+<attribute name="TC" value="±100ppm/°C"/>
 <attribute name="TOL" value="1%"/>
+<attribute name="TYPE" value="Resistor"/>
 </part>
 <part name="C46" library="Capacitors" deviceset="C-" device="0402" value="4.7n">
+<attribute name="DESC" value="CAP CER 4700PF 25V X7R 0402"/>
+<attribute name="HEIGHT" value="0.55mm"/>
 <attribute name="MPN" value="C0402C472K3RACTU"/>
 <attribute name="PARTNO" value="C0402C472K3RACTU"/>
+<attribute name="SIZE" value="0402"/>
+<attribute name="TYPE" value="Capacitor"/>
+<attribute name="VOLT" value="25"/>
 <attribute name="VOLTAGE" value="25V"/>
 </part>
 <part name="C12" library="Capacitors" deviceset="C-" device="0603" value="4.7u">
+<attribute name="DESC" value="CAP CER 4.7UF 10V X5R 0603"/>
+<attribute name="HEIGHT" value="0.9mm"/>
 <attribute name="MPN" value="C0603C475K8PACTU"/>
 <attribute name="PARTNO" value="C0603C475K8PACTU"/>
+<attribute name="SIZE" value="0603"/>
 <attribute name="TC" value="X5R"/>
+<attribute name="TYPE" value="Capacitor"/>
+<attribute name="VOLT" value="10V"/>
 <attribute name="VOLTAGE" value="10V"/>
 </part>
 <part name="C13" library="Capacitors" deviceset="C-" device="0402" value="0.1u">
+<attribute name="DESC" value="CAP CER 0.1UF 16V X7R 0402"/>
+<attribute name="HEIGHT" value="0.55mm"/>
 <attribute name="MPN" value="C0402C104K4RACTU"/>
 <attribute name="PARTNO" value="C0402C104K4RACTU"/>
+<attribute name="SIZE" value="0402"/>
+<attribute name="TYPE" value="Capacitor"/>
+<attribute name="VOLT" value="16V"/>
 <attribute name="VOLTAGE" value="16V"/>
 </part>
 <part name="GND2" library="Supplies" deviceset="GND" device=""/>
 <part name="GND3" library="Supplies" deviceset="GND" device=""/>
 <part name="C10" library="Capacitors" deviceset="C-" device="0402" value="1u">
+<attribute name="DESC" value="CAP CER 1UF 6.3V X5R 0402"/>
+<attribute name="HEIGHT" value="0.55mm"/>
 <attribute name="MANUFACTURER" value="Yageo"/>
 <attribute name="MPN" value="CC0402KRX5R5BB105"/>
 <attribute name="PARTNO" value="CC0402KRX5R5BB105"/>
+<attribute name="SIZE" value="0402"/>
 <attribute name="TC" value="X5R"/>
+<attribute name="TYPE" value="Capacitor"/>
+<attribute name="VOLT" value="6.3V"/>
 </part>
 <part name="C11" library="Capacitors" deviceset="C-" device="0402" value="0.1u">
+<attribute name="DESC" value="CAP CER 0.1UF 10V X7R 0402"/>
+<attribute name="DESCRIPTION" value="0.1µF ±10% 10V Ceramic Capacitor X7R 0402 (1005 Metric)"/>
+<attribute name="HEIGHT" value="0.55mm"/>
 <attribute name="MANUFACTURER" value="Yageo"/>
-<attribute name="MPN" value="CC0402KRX5R5BB104"/>
-<attribute name="PARTNO" value="CC0402KRX5R5BB104"/>
-<attribute name="TC" value="X5R"/>
+<attribute name="MPN" value="CC0402KRX7R6BB104"/>
+<attribute name="PARTNO" value="CC0402KRX7R6BB104"/>
+<attribute name="SIZE" value="0402"/>
+<attribute name="TYPE" value="Capacitor"/>
+<attribute name="VOLT" value="10V"/>
 </part>
-<part name="J-TAG/UPDI" library="CommonSense-DTR-v1" deviceset="ATTINY_AVR_DEBUG" device="">
+<part name="J6" library="CommonSense-DTR-v1" deviceset="ATTINY_AVR_DEBUG" device="">
+<attribute name="DESC" value="CONN HEADER SMD 10POS 1.27MM"/>
+<attribute name="MANUFACTURER" value="Samtec"/>
 <attribute name="MPN" value="FTSH-105-01-L-DV-K"/>
 <attribute name="PARTNO" value="FTSH-105-01-L-DV-K"/>
+<attribute name="TYPE" value="Header"/>
 </part>
 <part name="+3V7" library="Supplies" deviceset="+3V3" device=""/>
 <part name="+3V8" library="Supplies" deviceset="+3V3" device=""/>
 <part name="GND5" library="Supplies" deviceset="GND" device=""/>
 <part name="GND1" library="Supplies" deviceset="GND" device=""/>
-<part name="J301" library="Connectors" deviceset="HIROSE-DF40_44-PIN_CONNECTORS" device="-HEADER" value="HIROSE-DF40_44-PIN_CONNECTORS-HEADER">
+<part name="J5" library="Connectors" deviceset="HIROSE-DF40_44-PIN_CONNECTORS" device="-HEADER" value="HIROSE-DF40_44-PIN_CONNECTORS-HEADER">
+<attribute name="DESC" value="CONN PLUG 44POS SMD GOLD"/>
+<attribute name="MANUFACTURER" value="Hirose"/>
 <attribute name="MPN" value="DF40C-44DP-0.4V(51)"/>
 <attribute name="PARTNO" value="DF40C-44DP-0.4V(51)"/>
+<attribute name="TYPE" value="Header"/>
 </part>
 <part name="GND22" library="Supplies" deviceset="GND" device=""/>
 <part name="J1" library="Connectors" deviceset="HIROSE-DF40_44-PIN_CONNECTORS" device="-RECEPTACLE">
+<attribute name="DESC" value="CONN RCPT 44POS SMD GOLD"/>
+<attribute name="HEIGHT" value="3mm"/>
+<attribute name="MANUFACTURER" value="Hirose"/>
 <attribute name="MPN" value="DF40HC(3.0)-44DS-0.4V(51)"/>
 <attribute name="PARTNO" value="DF40HC(3.0)-44DS-0.4V(51)"/>
+<attribute name="TYPE" value="Receptor"/>
 </part>
 <part name="GND4" library="Supplies" deviceset="GND" device=""/>
 <part name="+3V1" library="Supplies" deviceset="+3V3" device=""/>
@@ -7484,53 +7583,93 @@ Pad dimensions from https://www.vishay.com/docs/45017/vjw1bcsoldfootdesign.pdf</
 <part name="+3V11" library="Supplies" deviceset="+3V3" device=""/>
 <part name="+3V12" library="Supplies" deviceset="+3V3" device=""/>
 <part name="U1" library="Switches" deviceset="LOADSWITCH-MIC9416" device="" technology="4">
+<attribute name="DESC" value="IC PWR SWITCH P-CHAN 1:1 6WLCSP"/>
+<attribute name="HEIGHT" value="0.65mm"/>
 <attribute name="PARTNO" value="MIC94164YCS-TR"/>
+<attribute name="SIZE" value="6-WLCSP (1x1.5)"/>
+<attribute name="TYPE" value="Power Switch"/>
 </part>
 <part name="+3V13" library="Supplies" deviceset="+3V3" device=""/>
-<part name="R_SENSE" library="Resistors" deviceset="R-" device="0402" value="1.33">
+<part name="R_SENSE" library="Resistors" deviceset="R-" device="0402" value="1.33R">
+<attribute name="DESC" value="RES SMD 1.33 OHM 1% 1/16W 0402"/>
+<attribute name="HEIGHT" value="0.4mm"/>
 <attribute name="MANUFACTURER" value="Vishay Dale"/>
 <attribute name="MPN" value="CRCW04021R33FKED"/>
 <attribute name="PARTNO" value="CRCW04021R33FKED"/>
+<attribute name="SIZE" value="0402"/>
+<attribute name="TC" value="±100ppm/°C"/>
 <attribute name="TOL" value="1%"/>
+<attribute name="TYPE" value="Resistor"/>
 </part>
 <part name="J7" library="Connectors" deviceset="J-USB-HIROSE-MICRO-USB" device="">
+<attribute name="DESC" value="CONN RCPT USB2.0 MICRO AB SMD RA"/>
 <attribute name="PARTNO" value="ZX62D-AB-5P8(30)"/>
+<attribute name="TYPE" value="Receptor"/>
 </part>
 <part name="JP2" library="Connectors" deviceset="JUMPER-SMT_2_NC_PASTE" device="_NO-SILK" package3d_urn="urn:adsk.eagle:package:39283/1" technology="LG" value="JUMPER-SMT_2_NC_PASTELG_NO-SILK"/>
 <part name="U$3" library="Supplies" deviceset="GND" device=""/>
 <part name="U2" library="CommonSense-DTR-v1" deviceset="ADA4841-1YRJZ-R7" device="RJ_6-L" value="ADA4841-1YRJZ-R7RJ_6-L">
+<attribute name="DESC" value="IC OPAMP VFB 1 CIRCUIT SOT23-6"/>
+<attribute name="HEIGHT" value="0.95-1.45mm"/>
+<attribute name="MANUFACTURER" value="Analog Devices"/>
 <attribute name="MPN" value="ADA48411YRJZR7"/>
 <attribute name="PARTNO" value="ADA48411YRJZR7"/>
+<attribute name="SIZE" value="SOT-23-6"/>
 <attribute name="SPICEMODEL" value="ADA4841"/>
-<attribute name="SPICEPREFIX" value="X"/>
+<attribute name="TYPE" value="Opamp"/>
 </part>
 <part name="MK1" library="CommonSense-DTR-v1" deviceset="SPW2430HR5H-B" device="">
+<attribute name="DESC" value="MAMET MIC ANALOG TOP PORT"/>
+<attribute name="HEIGHT" value="1.1mm"/>
+<attribute name="MANUFACTURER" value="Knowles"/>
 <attribute name="MPN" value="SPW2430HR5H-B"/>
 <attribute name="OC_NEWARK" value="unknown"/>
 <attribute name="PARTNO" value="SPW2430HR5H-B"/>
+<attribute name="SIZE" value="0.122&quot; L x 0.098&quot; W (3.10mm x 2.50mm)"/>
+<attribute name="TYPE" value="MEMS Microphone"/>
+<attribute name="VOLT" value="1.5V ~ 3.6V"/>
 </part>
 <part name="R1" library="Resistors" deviceset="R-" device="0402" value="4.99k">
-<attribute name="MF" value=""/>
+<attribute name="DESC" value="RES SMD 4.99KOHM 0.1% 1/16W 0402"/>
+<attribute name="HEIGHT" value="0.4mm"/>
 <attribute name="MPN" value="ERA-2AEB4991X"/>
 <attribute name="PARTNO" value="ERA-2AEB4991X"/>
+<attribute name="SIZE" value="0402"/>
+<attribute name="TC" value="±25ppm/°C"/>
 <attribute name="TOL" value="0.1%"/>
+<attribute name="TYPE" value="Resistor"/>
 </part>
 <part name="R2" library="Resistors" deviceset="R-" device="0402" value="82.5k">
+<attribute name="DESC" value="RES SMD 82.5KOHM 0.1% 1/16W 0402"/>
+<attribute name="HEIGHT" value="0.4mm"/>
 <attribute name="MPN" value="ERA-2AEB8252X"/>
 <attribute name="PARTNO" value="ERA-2AEB8252X"/>
+<attribute name="SIZE" value="0402"/>
+<attribute name="TC" value="±25ppm/°C"/>
 <attribute name="TOL" value="0.1%"/>
+<attribute name="TYPE" value="Resistor"/>
 </part>
 <part name="R3" library="Resistors" deviceset="R-" device="0402" value="100k">
+<attribute name="DESC" value="RES SMD 100K OHM 0.1% 1/16W 0402"/>
+<attribute name="HEIGHT" value="0.35mm"/>
 <attribute name="MANUFACTURER" value="Yageo"/>
 <attribute name="MPN" value="RT0402BRD07100KL"/>
 <attribute name="PARTNO" value="RT0402BRD07100KL"/>
+<attribute name="SIZE" value="0402"/>
+<attribute name="TC" value="±25ppm/°C"/>
 <attribute name="TOL" value="0.1%"/>
+<attribute name="TYPE" value="Resistor"/>
 </part>
 <part name="R4" library="Resistors" deviceset="R-" device="0402" value="100k">
+<attribute name="DESC" value="RES SMD 100K OHM 0.1% 1/16W 0402"/>
+<attribute name="HEIGHT" value="0.35mm"/>
 <attribute name="MANUFACTURER" value="Yageo"/>
 <attribute name="MPN" value="RT0402BRD07100KL"/>
 <attribute name="PARTNO" value="RT0402BRD07100KL"/>
+<attribute name="SIZE" value="0402"/>
+<attribute name="TC" value="±25ppm/°C"/>
 <attribute name="TOL" value="0.1%"/>
+<attribute name="TYPE" value="Resistor"/>
 </part>
 <part name="GND7" library="Supplies" deviceset="GND" device=""/>
 <part name="GND8" library="Supplies" deviceset="GND" device=""/>
@@ -7538,123 +7677,220 @@ Pad dimensions from https://www.vishay.com/docs/45017/vjw1bcsoldfootdesign.pdf</
 <part name="+3V15" library="Supplies" deviceset="+3V3" device=""/>
 <part name="+3V16" library="Supplies" deviceset="+3V3" device=""/>
 <part name="C6" library="Capacitors" deviceset="C-" device="0402" value="0.68u">
+<attribute name="DESC" value="CAP CER 0.68UF 6.3V X5R 0402"/>
+<attribute name="HEIGHT" value="0.55mm"/>
 <attribute name="MANUFACTURER" value="Yageo"/>
 <attribute name="MPN" value="CC0402KRX5R5BB684"/>
 <attribute name="PARTNO" value="CC0402KRX5R5BB684"/>
+<attribute name="SIZE" value="0402"/>
 <attribute name="TC" value="X5R"/>
+<attribute name="TYPE" value="Capacitor"/>
+<attribute name="VOLT" value="6.3V"/>
 </part>
 <part name="C7" library="Capacitors" deviceset="C-" device="0402" value="0.1u">
+<attribute name="DESC" value="CAP CER 0.1UF 16V X7R 0402"/>
+<attribute name="HEIGHT" value="0.55mm"/>
 <attribute name="MPN" value="C0402C104K4RACTU"/>
 <attribute name="PARTNO" value="C0402C104K4RACTU"/>
+<attribute name="SIZE" value="0402"/>
+<attribute name="TYPE" value="Capacitor"/>
+<attribute name="VOLT" value="16V"/>
 <attribute name="VOLTAGE" value="16V"/>
 </part>
 <part name="C8" library="Capacitors" deviceset="C-" device="0402" value="1u">
+<attribute name="DESC" value="CAP CER 1UF 10V X5R 0402"/>
 <attribute name="MPN" value="C0402C105M8PACTU"/>
 <attribute name="PARTNO" value="C0402C105M8PACTU"/>
+<attribute name="SIZE" value="0402"/>
 <attribute name="TC" value="X5R"/>
+<attribute name="TOL" value="20%"/>
+<attribute name="TYPE" value="Capacitor"/>
+<attribute name="VOLT" value="10V"/>
 <attribute name="VOLTAGE" value="10V"/>
+<attribute name="Z-HEIGHT" value="0.55mm"/>
 </part>
-<part name="U205" library="Sensors" deviceset="MPL3115A2" device="">
+<part name="U18" library="Sensors" deviceset="MPL3115A2" device="">
+<attribute name="DESC" value="IC ALTIMETER I2C VERSION 8LGA"/>
+<attribute name="HEIGHT" value="1.1mm"/>
 <attribute name="PARTNO" value="MPL-3115A2"/>
+<attribute name="SIZE" value="8-LGA"/>
+<attribute name="TYPE" value="Altimeter"/>
 </part>
 <part name="GND10" library="Supplies" deviceset="GND" device=""/>
-<part name="C203" library="Capacitors" deviceset="C-" device="0402" value="0.1u">
+<part name="C47" library="Capacitors" deviceset="C-" device="0402" value="0.1u">
+<attribute name="DESC" value="CAP CER 0.1UF 16V X7R 0402"/>
+<attribute name="HEIGHT" value="0.55mm"/>
 <attribute name="MPN" value="C0402C104K4RACTU"/>
 <attribute name="PARTNO" value="C0402C104K4RACTU"/>
+<attribute name="SIZE" value="0402"/>
+<attribute name="TYPE" value="Capacitor"/>
+<attribute name="VOLT" value="16V"/>
 <attribute name="VOLTAGE" value="16V"/>
 </part>
-<part name="C204" library="Capacitors" deviceset="C-" device="0402" value="0.1u">
+<part name="C48" library="Capacitors" deviceset="C-" device="0402" value="0.1u">
+<attribute name="DESC" value="CAP CER 0.1UF 16V X7R 0402"/>
+<attribute name="HEIGHT" value="0.55mm"/>
 <attribute name="MPN" value="C0402C104K4RACTU"/>
 <attribute name="PARTNO" value="C0402C104K4RACTU"/>
+<attribute name="SIZE" value="0402"/>
+<attribute name="TYPE" value="Capacitor"/>
+<attribute name="VOLT" value="16V"/>
 <attribute name="VOLTAGE" value="16V"/>
 </part>
 <part name="U3" library="CommonSense-DTR-v1" deviceset="TS3A24159DGSR" device="DGS0010A_L" value="Value">
+<attribute name="DESC" value="IC SWITCH SPDT DUAL 10VSSOP"/>
+<attribute name="HEIGHT" value="1.1mm"/>
 <attribute name="MPN" value="TS3A24159DGSR"/>
 <attribute name="PARTNO" value="TS3A24159DGSR"/>
+<attribute name="SIZE" value="10-VSSOP"/>
+<attribute name="TYPE" value="SPDT Switch"/>
 </part>
 <part name="U5" library="CommonSense-DTR-v1" deviceset="TS3A24159DGSR" device="DGS0010A_L" value="Value">
+<attribute name="DESC" value="IC SWITCH SPDT DUAL 10VSSOP"/>
+<attribute name="HEIGHT" value="1.1mm"/>
 <attribute name="MPN" value="TS3A24159DGSR"/>
 <attribute name="PARTNO" value="TS3A24159DGSR"/>
+<attribute name="SIZE" value="10-VSSOP"/>
+<attribute name="TYPE" value="SPDT Switch"/>
 </part>
 <part name="U6" library="CommonSense-DTR-v1" deviceset="TS3A24159DGSR" device="DGS0010A_L" value="Value">
+<attribute name="DESC" value="IC SWITCH SPDT DUAL 10VSSOP"/>
+<attribute name="HEIGHT" value="1.1mm"/>
 <attribute name="MPN" value="TS3A24159DGSR"/>
 <attribute name="PARTNO" value="TS3A24159DGSR"/>
+<attribute name="SIZE" value="10-VSSOP"/>
+<attribute name="TYPE" value="SPDT Switch"/>
 </part>
 <part name="GND11" library="Supplies" deviceset="GND" device=""/>
 <part name="GND15" library="Supplies" deviceset="GND" device=""/>
 <part name="GND16" library="Supplies" deviceset="GND" device=""/>
 <part name="C17" library="Capacitors" deviceset="C-" device="0402" value="1u">
+<attribute name="DESC" value="CAP CER 1UF 6.3V X5R 0402"/>
+<attribute name="HEIGHT" value="0.55mm"/>
 <attribute name="MANUFACTURER" value="Yageo"/>
 <attribute name="MPN" value="CC0402KRX5R5BB105"/>
 <attribute name="PARTNO" value="CC0402KRX5R5BB105"/>
+<attribute name="SIZE" value="0402"/>
 <attribute name="TC" value="X5R"/>
+<attribute name="TYPE" value="Capacitor"/>
+<attribute name="VOLT" value="6.3V"/>
 </part>
 <part name="C18" library="Capacitors" deviceset="C-" device="0402" value="0.1u">
+<attribute name="DESC" value="CAP CER 0.1UF 10V X7R 0402"/>
+<attribute name="DESCRIPTION" value="0.1µF ±10% 10V Ceramic Capacitor X7R 0402 (1005 Metric)"/>
+<attribute name="HEIGHT" value="0.55mm"/>
 <attribute name="MANUFACTURER" value="Yageo"/>
-<attribute name="MPN" value="CC0402KRX5R5BB104"/>
-<attribute name="PARTNO" value="CC0402KRX5R5BB104"/>
-<attribute name="TC" value="X5R"/>
+<attribute name="MPN" value="CC0402KRX7R6BB104"/>
+<attribute name="PARTNO" value="CC0402KRX7R6BB104"/>
+<attribute name="SIZE" value="0402"/>
+<attribute name="TYPE" value="Capacitor"/>
+<attribute name="VOLT" value="10V"/>
 </part>
 <part name="+3V9" library="Supplies" deviceset="+3V3" device=""/>
 <part name="U7" library="Switches" deviceset="LOADSWITCH-MIC9416" device="" technology="4">
+<attribute name="DESC" value="IC PWR SWITCH P-CHAN 1:1 6WLCSP"/>
+<attribute name="HEIGHT" value="0.65mm"/>
 <attribute name="PARTNO" value="MIC94164YCS-TR"/>
+<attribute name="SIZE" value="6-WLCSP (1x1.5)"/>
+<attribute name="TYPE" value="Power Switch"/>
 </part>
 <part name="JP1" library="Connectors" deviceset="JUMPER-SMT_2_NC_PASTE" device="_NO-SILK" package3d_urn="urn:adsk.eagle:package:39283/1" technology="LG" value="JUMPER-SMT_2_NC_PASTELG_NO-SILK"/>
 <part name="GND17" library="Supplies" deviceset="GND" device=""/>
 <part name="GND18" library="Supplies" deviceset="GND" device=""/>
 <part name="C19" library="Capacitors" deviceset="C-" device="0402" value="1u">
+<attribute name="DESC" value="CAP CER 1UF 6.3V X5R 0402"/>
+<attribute name="HEIGHT" value="0.55mm"/>
 <attribute name="MANUFACTURER" value="Yageo"/>
 <attribute name="MPN" value="CC0402KRX5R5BB105"/>
 <attribute name="PARTNO" value="CC0402KRX5R5BB105"/>
+<attribute name="SIZE" value="0402"/>
 <attribute name="TC" value="X5R"/>
+<attribute name="TYPE" value="Capacitor"/>
+<attribute name="VOLT" value="6.3V"/>
 </part>
 <part name="C20" library="Capacitors" deviceset="C-" device="0402" value="0.1u">
+<attribute name="DESC" value="CAP CER 0.1UF 10V X7R 0402"/>
+<attribute name="DESCRIPTION" value="0.1µF ±10% 10V Ceramic Capacitor X7R 0402 (1005 Metric)"/>
+<attribute name="HEIGHT" value="0.55mm"/>
 <attribute name="MANUFACTURER" value="Yageo"/>
-<attribute name="MPN" value="CC0402KRX5R5BB104"/>
-<attribute name="PARTNO" value="CC0402KRX5R5BB104"/>
-<attribute name="TC" value="X5R"/>
+<attribute name="MPN" value="CC0402KRX7R6BB104"/>
+<attribute name="PARTNO" value="CC0402KRX7R6BB104"/>
+<attribute name="SIZE" value="0402"/>
+<attribute name="TYPE" value="Capacitor"/>
+<attribute name="VOLT" value="10V"/>
 </part>
 <part name="+3V14" library="Supplies" deviceset="+3V3" device=""/>
 <part name="U8" library="Switches" deviceset="LOADSWITCH-MIC9416" device="" technology="4">
+<attribute name="DESC" value="IC PWR SWITCH P-CHAN 1:1 6WLCSP"/>
+<attribute name="HEIGHT" value="0.65mm"/>
 <attribute name="PARTNO" value="MIC94164YCS-TR"/>
+<attribute name="SIZE" value="6-WLCSP (1x1.5)"/>
+<attribute name="TYPE" value="Power Switch"/>
 </part>
 <part name="JP3" library="Connectors" deviceset="JUMPER-SMT_2_NC_PASTE" device="_NO-SILK" package3d_urn="urn:adsk.eagle:package:39283/1" technology="LG" value="JUMPER-SMT_2_NC_PASTELG_NO-SILK"/>
 <part name="GND19" library="Supplies" deviceset="GND" device=""/>
 <part name="GND20" library="Supplies" deviceset="GND" device=""/>
 <part name="C21" library="Capacitors" deviceset="C-" device="0402" value="1u">
+<attribute name="DESC" value="CAP CER 1UF 6.3V X5R 0402"/>
+<attribute name="HEIGHT" value="0.55mm"/>
 <attribute name="MANUFACTURER" value="Yageo"/>
 <attribute name="MPN" value="CC0402KRX5R5BB105"/>
 <attribute name="PARTNO" value="CC0402KRX5R5BB105"/>
+<attribute name="SIZE" value="0402"/>
 <attribute name="TC" value="X5R"/>
+<attribute name="TYPE" value="Capacitor"/>
+<attribute name="VOLT" value="6.3V"/>
 </part>
 <part name="C22" library="Capacitors" deviceset="C-" device="0402" value="0.1u">
+<attribute name="DESC" value="CAP CER 0.1UF 10V X7R 0402"/>
+<attribute name="DESCRIPTION" value="0.1µF ±10% 10V Ceramic Capacitor X7R 0402 (1005 Metric)"/>
+<attribute name="HEIGHT" value="0.55mm"/>
 <attribute name="MANUFACTURER" value="Yageo"/>
-<attribute name="MPN" value="CC0402KRX5R5BB104"/>
-<attribute name="PARTNO" value="CC0402KRX5R5BB104"/>
-<attribute name="TC" value="X5R"/>
+<attribute name="MPN" value="CC0402KRX7R6BB104"/>
+<attribute name="PARTNO" value="CC0402KRX7R6BB104"/>
+<attribute name="SIZE" value="0402"/>
+<attribute name="TYPE" value="Capacitor"/>
+<attribute name="VOLT" value="10V"/>
 </part>
 <part name="+3V17" library="Supplies" deviceset="+3V3" device=""/>
 <part name="U9" library="Switches" deviceset="LOADSWITCH-MIC9416" device="" technology="4">
+<attribute name="DESC" value="IC PWR SWITCH P-CHAN 1:1 6WLCSP"/>
+<attribute name="HEIGHT" value="0.65mm"/>
 <attribute name="PARTNO" value="MIC94164YCS-TR"/>
+<attribute name="SIZE" value="6-WLCSP (1x1.5)"/>
+<attribute name="TYPE" value="Power Switch"/>
 </part>
 <part name="JP5" library="Connectors" deviceset="JUMPER-SMT_2_NC_PASTE" device="_NO-SILK" package3d_urn="urn:adsk.eagle:package:39283/1" technology="LG" value="JUMPER-SMT_2_NC_PASTELG_NO-SILK"/>
 <part name="GND21" library="Supplies" deviceset="GND" device=""/>
 <part name="GND23" library="Supplies" deviceset="GND" device=""/>
 <part name="C23" library="Capacitors" deviceset="C-" device="0402" value="1u">
+<attribute name="DESC" value="CAP CER 1UF 6.3V X5R 0402"/>
+<attribute name="HEIGHT" value="0.55mm"/>
 <attribute name="MANUFACTURER" value="Yageo"/>
 <attribute name="MPN" value="CC0402KRX5R5BB105"/>
 <attribute name="PARTNO" value="CC0402KRX5R5BB105"/>
+<attribute name="SIZE" value="0402"/>
 <attribute name="TC" value="X5R"/>
+<attribute name="TYPE" value="Capacitor"/>
+<attribute name="VOLT" value="6.3V"/>
 </part>
 <part name="C24" library="Capacitors" deviceset="C-" device="0402" value="0.1u">
+<attribute name="DESC" value="CAP CER 0.1UF 10V X7R 0402"/>
+<attribute name="HEIGHT" value="0.55mm"/>
 <attribute name="MANUFACTURER" value="Yageo"/>
-<attribute name="MPN" value="CC0402KRX5R5BB104"/>
-<attribute name="PARTNO" value="CC0402KRX5R5BB104"/>
-<attribute name="TC" value="X5R"/>
+<attribute name="MPN" value="CC0402KRX7R6BB104"/>
+<attribute name="PARTNO" value="CC0402KRX7R6BB104"/>
+<attribute name="SIZE" value="0402"/>
+<attribute name="TYPE" value="Capacitor"/>
+<attribute name="VOLT" value="10V"/>
 </part>
 <part name="+3V18" library="Supplies" deviceset="+3V3" device=""/>
 <part name="U10" library="Switches" deviceset="LOADSWITCH-MIC9416" device="" technology="4">
+<attribute name="DESC" value="IC PWR SWITCH P-CHAN 1:1 6WLCSP"/>
+<attribute name="HEIGHT" value="0.65mm"/>
 <attribute name="PARTNO" value="MIC94164YCS-TR"/>
+<attribute name="SIZE" value="6-WLCSP (1x1.5)"/>
+<attribute name="TYPE" value="Power Switch"/>
 </part>
 <part name="JP6" library="Connectors" deviceset="JUMPER-SMT_2_NC_PASTE" device="_NO-SILK" package3d_urn="urn:adsk.eagle:package:39283/1" technology="LG" value="JUMPER-SMT_2_NC_PASTELG_NO-SILK"/>
 <part name="+3V19" library="Supplies" deviceset="+3V3" device=""/>
@@ -7667,27 +7903,57 @@ Pad dimensions from https://www.vishay.com/docs/45017/vjw1bcsoldfootdesign.pdf</
 <part name="JP13" library="Connectors" deviceset="JUMPER-SMT_2_NC_PASTE" device="_NO-SILK" package3d_urn="urn:adsk.eagle:package:39283/1" technology="LG" value="JUMPER-SMT_2_NC_PASTELG_NO-SILK"/>
 <part name="SJ1" library="Connectors" deviceset="JUMPER-SMT_3_1-NC_PASTE" device="_SILK" package3d_urn="urn:adsk.eagle:package:39293/1">
 <attribute name="BOM" value="EXCLUDE"/>
+<attribute name="DESC" value=""/>
 <attribute name="PARTNO" value="*"/>
+<attribute name="SIZE" value=""/>
+<attribute name="TOL" value=""/>
+<attribute name="TYPE" value=""/>
+<attribute name="VOLT" value=""/>
 </part>
 <part name="SJ2" library="Connectors" deviceset="JUMPER-SMT_3_1-NC_PASTE" device="_SILK" package3d_urn="urn:adsk.eagle:package:39293/1">
 <attribute name="BOM" value="EXCLUDE"/>
+<attribute name="DESC" value=""/>
 <attribute name="PARTNO" value="*"/>
+<attribute name="SIZE" value=""/>
+<attribute name="TOL" value=""/>
+<attribute name="TYPE" value=""/>
+<attribute name="VOLT" value=""/>
 </part>
 <part name="X1" library="CommonSense-DTR-v1" deviceset="ADAFRUIT2_XTAL" device="-3.2X1.5" value="32.768kHz">
 <attribute name="BOM" value="EXCLUDE"/>
+<attribute name="DESC" value=""/>
 <attribute name="PARTNO" value="*"/>
+<attribute name="SIZE" value=""/>
+<attribute name="TOL" value=""/>
+<attribute name="TYPE" value=""/>
+<attribute name="VOLT" value=""/>
 </part>
 <part name="C15" library="Capacitors" deviceset="C-" device="0402" value="13pF">
 <attribute name="BOM" value="EXCLUDE"/>
+<attribute name="DESC" value=""/>
 <attribute name="PARTNO" value="*"/>
+<attribute name="SIZE" value=""/>
+<attribute name="TOL" value=""/>
+<attribute name="TYPE" value="Capacitor"/>
+<attribute name="VOLT" value=""/>
 </part>
 <part name="C16" library="Capacitors" deviceset="C-" device="0402" value="13pF">
 <attribute name="BOM" value="EXCLUDE"/>
+<attribute name="DESC" value=""/>
 <attribute name="PARTNO" value="*"/>
+<attribute name="SIZE" value=""/>
+<attribute name="TOL" value=""/>
+<attribute name="TYPE" value="Capacitor"/>
+<attribute name="VOLT" value=""/>
 </part>
 <part name="JP14" library="Connectors" deviceset="JUMPER-SMT_2_NO_PASTEFREE" device="">
 <attribute name="BOM" value="EXCLUDE"/>
+<attribute name="DESC" value=""/>
 <attribute name="PARTNO" value="*"/>
+<attribute name="SIZE" value=""/>
+<attribute name="TOL" value=""/>
+<attribute name="TYPE" value=""/>
+<attribute name="VOLT" value=""/>
 </part>
 <part name="+3V20" library="Supplies" deviceset="+3V3" device=""/>
 <part name="SJ3" library="CommonSense-DTR-v1" deviceset="JUMPER_SJ2W" device="">
@@ -7696,347 +7962,651 @@ Pad dimensions from https://www.vishay.com/docs/45017/vjw1bcsoldfootdesign.pdf</
 <part name="U$5" library="Supplies" deviceset="GND" device=""/>
 <part name="GND14" library="Supplies" deviceset="GND" device=""/>
 <part name="U11" library="CommonSense-DTR-v1" deviceset="BMI160" device="">
+<attribute name="DESC" value="IMU ACCEL/GYRO I2C/SPI 14LGA"/>
+<attribute name="HEIGHT" value="0.83mm"/>
+<attribute name="MANUFACTURER" value="Bosch"/>
 <attribute name="MPN" value="BMI160"/>
 <attribute name="PARTNO" value="BMI160"/>
+<attribute name="SIZE" value="14-LGA (2.5x3)"/>
+<attribute name="TYPE" value="IMU"/>
 </part>
 <part name="+3V21" library="Supplies" deviceset="+3V3" device=""/>
 <part name="GND24" library="Supplies" deviceset="GND" device=""/>
 <part name="C25" library="Capacitors" deviceset="C-" device="0402" value="0.1u">
+<attribute name="DESC" value="CAP CER 0.1UF 16V X7R 0402"/>
+<attribute name="HEIGHT" value="0.55mm"/>
 <attribute name="MPN" value="C0402C104K4RACTU"/>
 <attribute name="PARTNO" value="C0402C104K4RACTU"/>
+<attribute name="SIZE" value="0402"/>
+<attribute name="TYPE" value="Capacitor"/>
+<attribute name="VOLT" value="16V"/>
 <attribute name="VOLTAGE" value="16V"/>
 </part>
 <part name="R5" library="Resistors" deviceset="R-" device="0402" value="4.7k">
+<attribute name="DESC" value="RES SMD 4.7K OHM 1% 1/10W 0402"/>
+<attribute name="HEIGHT" value="0.4mm"/>
 <attribute name="MPN" value="ERJ2RKF4701X"/>
 <attribute name="PARTNO" value="ERJ2RKF4701X"/>
+<attribute name="SIZE" value="0402"/>
+<attribute name="TC" value="±100ppm/°C"/>
 <attribute name="TOL" value="1%"/>
+<attribute name="TYPE" value="Resistor"/>
 </part>
 <part name="R6" library="Resistors" deviceset="R-" device="0402" value="4.7k">
+<attribute name="DESC" value="RES SMD 4.7K OHM 1% 1/10W 0402"/>
+<attribute name="HEIGHT" value="0.4mm"/>
 <attribute name="MPN" value="ERJ2RKF4701X"/>
 <attribute name="PARTNO" value="ERJ2RKF4701X"/>
+<attribute name="SIZE" value="0402"/>
+<attribute name="TC" value="±100ppm/°C"/>
 <attribute name="TOL" value="1%"/>
+<attribute name="TYPE" value="Resistor"/>
 </part>
 <part name="+3V22" library="Supplies" deviceset="+3V3" device=""/>
 <part name="JP16" library="Connectors" deviceset="JUMPER-SMT_2_NO_PASTEFREE" device="">
 <attribute name="BOM" value="EXCLUDE"/>
 <attribute name="PARTNO" value="*"/>
+<attribute name="Z-HEIGHT" value="d"/>
 </part>
 <part name="GND25" library="Supplies" deviceset="GND" device=""/>
 <part name="D_IN" library="TestPoints" deviceset="TP" device="TP10SQ" package3d_urn="urn:adsk.eagle:package:27962/1" value="TPTP10SQ">
 <attribute name="PARTNO" value="*"/>
+<attribute name="Z-HEIGHT" value="d"/>
 </part>
 <part name="AINT" library="TestPoints" deviceset="TP" device="TP10SQ" package3d_urn="urn:adsk.eagle:package:27962/1" value="TPTP10SQ">
 <attribute name="PARTNO" value="*"/>
+<attribute name="Z-HEIGHT" value="d"/>
 </part>
 <part name="D_OUT" library="TestPoints" deviceset="TP" device="TP10SQ" package3d_urn="urn:adsk.eagle:package:27962/1" value="TPTP10SQ">
 <attribute name="PARTNO" value="*"/>
+<attribute name="Z-HEIGHT" value="d"/>
 </part>
 <part name="ASCL" library="TestPoints" deviceset="TP" device="TP10SQ" package3d_urn="urn:adsk.eagle:package:27962/1" value="TPTP10SQ">
 <attribute name="PARTNO" value="*"/>
+<attribute name="Z-HEIGHT" value="d"/>
 </part>
 <part name="ASDA" library="TestPoints" deviceset="TP" device="TP10SQ" package3d_urn="urn:adsk.eagle:package:27962/1" value="TPTP10SQ">
 <attribute name="PARTNO" value="*"/>
+<attribute name="Z-HEIGHT" value="d"/>
 </part>
 <part name="SCL" library="TestPoints" deviceset="TP" device="TP10SQ" package3d_urn="urn:adsk.eagle:package:27962/1" value="TPTP10SQ">
+<attribute name="DESC" value=""/>
 <attribute name="PARTNO" value="*"/>
+<attribute name="SIZE" value=""/>
+<attribute name="TOL" value=""/>
+<attribute name="TYPE" value=""/>
+<attribute name="VOLT" value=""/>
 </part>
 <part name="SDA" library="TestPoints" deviceset="TP" device="TP10SQ" package3d_urn="urn:adsk.eagle:package:27962/1" value="TPTP10SQ">
+<attribute name="DESC" value=""/>
 <attribute name="PARTNO" value="*"/>
+<attribute name="SIZE" value=""/>
+<attribute name="TOL" value=""/>
+<attribute name="TYPE" value=""/>
+<attribute name="VOLT" value=""/>
 </part>
 <part name="USBV" library="TestPoints" deviceset="TP" device="TP10SQ" package3d_urn="urn:adsk.eagle:package:27962/1" value="TPTP10SQ">
+<attribute name="DESC" value=""/>
 <attribute name="PARTNO" value="*"/>
+<attribute name="SIZE" value=""/>
+<attribute name="TOL" value=""/>
+<attribute name="TYPE" value=""/>
+<attribute name="VOLT" value=""/>
 </part>
 <part name="MISO" library="TestPoints" deviceset="TP" device="TP10SQ" package3d_urn="urn:adsk.eagle:package:27962/1" value="TPTP10SQ">
+<attribute name="DESC" value=""/>
 <attribute name="PARTNO" value="*"/>
+<attribute name="SIZE" value=""/>
+<attribute name="TOL" value=""/>
+<attribute name="TYPE" value=""/>
+<attribute name="VOLT" value=""/>
 </part>
 <part name="SCK" library="TestPoints" deviceset="TP" device="TP10SQ" package3d_urn="urn:adsk.eagle:package:27962/1" value="TPTP10SQ">
+<attribute name="DESC" value=""/>
 <attribute name="PARTNO" value="*"/>
+<attribute name="SIZE" value=""/>
+<attribute name="TOL" value=""/>
+<attribute name="TYPE" value=""/>
+<attribute name="VOLT" value=""/>
 </part>
 <part name="CS1" library="TestPoints" deviceset="TP" device="TP10SQ" package3d_urn="urn:adsk.eagle:package:27962/1" value="TPTP10SQ">
+<attribute name="DESC" value=""/>
 <attribute name="PARTNO" value="*"/>
+<attribute name="SIZE" value=""/>
+<attribute name="TOL" value=""/>
+<attribute name="TYPE" value="Capacitor"/>
+<attribute name="VOLT" value=""/>
 </part>
 <part name="MOSI" library="TestPoints" deviceset="TP" device="TP10SQ" package3d_urn="urn:adsk.eagle:package:27962/1" value="TPTP10SQ">
+<attribute name="DESC" value=""/>
 <attribute name="PARTNO" value="*"/>
+<attribute name="SIZE" value=""/>
+<attribute name="TOL" value=""/>
+<attribute name="TYPE" value=""/>
+<attribute name="VOLT" value=""/>
 </part>
 <part name="J2" library="Connectors" deviceset="J-SERIAL-PORT" device="">
+<attribute name="DESC" value="CONN HEADER VERT 6POS 2.54MM"/>
 <attribute name="PARTNO" value="PH1-06-UA"/>
+<attribute name="TYPE" value="Header"/>
 </part>
 <part name="A1" library="CommonSense-DTR-v1" deviceset="ILA09_CHIP_ANTENNA" device="">
+<attribute name="DESC" value="RF ANT 915MHZ CHIP SOLDER SMD"/>
+<attribute name="MANUFACTURER" value="Taoglas"/>
 <attribute name="MPN" value="ILA.09"/>
 <attribute name="PARTNO" value="ILA.09"/>
+<attribute name="TYPE" value="Chip Antenna"/>
+<attribute name="Z-HEIGHT" value="0.5mm"/>
 </part>
 <part name="C3" library="CommonSense-DTR-v1" deviceset="C0402-ANT" device="0402" value="3.9p">
+<attribute name="DESC" value="CAP CER 3.9PF 50V C0G/NP0 0402"/>
 <attribute name="MANUFACTURER" value="Murata"/>
 <attribute name="MPN" value="GJM1555C1H3R9WB01D"/>
 <attribute name="PARTNO" value="GJM1555C1H3R9WB01D"/>
-<attribute name="TC" value=""/>
-<attribute name="TOL" value="0.05p"/>
+<attribute name="SIZE" value="0402"/>
+<attribute name="TC" value="C0G, NP0"/>
+<attribute name="TOL" value="0.05pF"/>
+<attribute name="TYPE" value="Capacitor"/>
+<attribute name="VOLT" value="50V"/>
 <attribute name="VOLTAGE" value="50V"/>
+<attribute name="Z-HEIGHT" value="0.55mm"/>
 </part>
 <part name="C5" library="CommonSense-DTR-v1" deviceset="C0402-ANT" device="0402" value="2.2p">
+<attribute name="DESC" value="CAP CER 2.2PF 50V C0G/NP0 0402"/>
+<attribute name="HEIGHT" value="0.55mm"/>
 <attribute name="MANUFACTURER" value="Murata"/>
 <attribute name="MPN" value="GJM1555C1H2R2WB01D"/>
 <attribute name="PARTNO" value="GJM1555C1H2R2WB01D"/>
-<attribute name="TC" value=""/>
-<attribute name="TOL" value="0.05p"/>
+<attribute name="SIZE" value="0402"/>
+<attribute name="TC" value="C0G, NP0"/>
+<attribute name="TOL" value="0.05pF"/>
+<attribute name="TYPE" value="Capacitor"/>
+<attribute name="VOLT" value="50V"/>
 <attribute name="VOLTAGE" value="50V"/>
 </part>
 <part name="SW1" library="CommonSense-DTR-v1" deviceset="SPST_TACT" device="-KMR2" package3d_urn="urn:adsk.eagle:package:6240885/1">
+<attribute name="DESC" value="SWITCH TACTILE SPST-NO 0.05A 32V"/>
+<attribute name="HEIGHT" value="1.9mm"/>
+<attribute name="MANUFACTURER" value="C&amp;K"/>
 <attribute name="MPN" value="KMR241NG ULC LFS"/>
 <attribute name="PARTNO" value="KMR241NG ULC LFS"/>
+<attribute name="SIZE" value="4.60mm x 2.80mm"/>
+<attribute name="TYPE" value="Switch"/>
 </part>
 <part name="SW2" library="CommonSense-DTR-v1" deviceset="SPST_TACT" device="-KMR2" package3d_urn="urn:adsk.eagle:package:6240885/1">
+<attribute name="DESC" value="SWITCH TACTILE SPST-NO 0.05A 32V"/>
+<attribute name="HEIGHT" value="1.9mm"/>
+<attribute name="MANUFACTURER" value="C&amp;K"/>
 <attribute name="MPN" value="KMR241NG ULC LFS"/>
 <attribute name="PARTNO" value="KMR241NG ULC LFS"/>
+<attribute name="SIZE" value="4.60mm x 2.80mm"/>
+<attribute name="TYPE" value="Switch"/>
 </part>
 <part name="X3" library="Connectors" deviceset="J-U.FL" device="" value="uFL">
+<attribute name="HEIGHT" value="d"/>
 <attribute name="MPN" value="U.FL-R-SMT-1(01)"/>
 <attribute name="PARTNO" value="U.FL-R-SMT-1(01)"/>
 </part>
 <part name="X5" library="Connectors" deviceset="J-U.FL" device="" value="uFL">
+<attribute name="HEIGHT" value="d"/>
 <attribute name="MPN" value="U.FL-R-SMT-1(01)"/>
 <attribute name="PARTNO" value="U.FL-R-SMT-1(01)"/>
 </part>
 <part name="X6" library="Connectors" deviceset="J-U.FL" device="" value="uFL">
+<attribute name="HEIGHT" value="d"/>
 <attribute name="MPN" value="U.FL-R-SMT-1(01)"/>
 <attribute name="PARTNO" value="U.FL-R-SMT-1(01)"/>
 </part>
-<part name="R7" library="Resistors" deviceset="R-" device="0805" value="50">
+<part name="R7" library="Resistors" deviceset="R-" device="0402" value="50R">
+<attribute name="DESC" value="RES SMD 50 OHM 0.1% 1/20W 0402"/>
+<attribute name="HEIGHT" value="0.84mm"/>
 <attribute name="MANUFACTURER" value="Vishay"/>
-<attribute name="PARTNO" value="Y402250R0000A9R"/>
-<attribute name="TOL" value="0.05%"/>
+<attribute name="MPN" value="FC0402E50R0BST1"/>
+<attribute name="PARTNO" value="FC0402E50R0BST1"/>
+<attribute name="SIZE" value="0402"/>
+<attribute name="TC" value="±25ppm/°C"/>
+<attribute name="TOL" value="0.1%"/>
+<attribute name="TYPE" value="Resistor"/>
 </part>
 <part name="GND26" library="Supplies" deviceset="GND" device=""/>
 <part name="GND27" library="Supplies" deviceset="GND" device=""/>
 <part name="GND28" library="Supplies" deviceset="GND" device=""/>
 <part name="C26" library="CommonSense-DTR-v1" deviceset="C0402-ANT" device="0402" value="22p">
+<attribute name="DESC" value="CAP CER 22PF 50V C0G/NP0 0402"/>
+<attribute name="HEIGHT" value="0.55mm"/>
 <attribute name="MPN" value="CBR04C220F5GAC"/>
 <attribute name="PARTNO" value="CBR04C220F5GAC"/>
+<attribute name="SIZE" value="0402"/>
 <attribute name="TOL" value="1%"/>
+<attribute name="TYPE" value="Capacitor"/>
+<attribute name="VOLT" value="50V"/>
 <attribute name="VOLTAGE" value="50V"/>
 </part>
-<part name="R27" library="CommonSense-DTR-v1" deviceset="C0402-ANT" device="0402" value="0">
+<part name="R27" library="CommonSense-DTR-v1" deviceset="C0402-ANT" device="0402" value="0R">
+<attribute name="DESC" value="RES 0 OHM JUMPER 1/16W 0402"/>
 <attribute name="MANUFACTURER" value="Stackpole"/>
 <attribute name="MPN" value="RMCF0402ZT0R00"/>
 <attribute name="PARTNO" value="RMCF0402ZT0R00"/>
+<attribute name="SIZE" value="0402"/>
 <attribute name="TOL" value="Jumper"/>
+<attribute name="TYPE" value="Resistor"/>
 </part>
-<part name="R28" library="CommonSense-DTR-v1" deviceset="C0402-ANT" device="0402" value="0">
+<part name="R28" library="CommonSense-DTR-v1" deviceset="C0402-ANT" device="0402" value="0R">
+<attribute name="DESC" value="RES 0 OHM JUMPER 1/16W 0402"/>
 <attribute name="MANUFACTURER" value="Stackpole"/>
 <attribute name="MPN" value="RMCF0402ZT0R00"/>
 <attribute name="PARTNO" value="RMCF0402ZT0R00"/>
+<attribute name="SIZE" value="0402"/>
 <attribute name="TOL" value="Jumper"/>
+<attribute name="TYPE" value="Resistor"/>
 </part>
 <part name="L1" library="Inductors" deviceset="L0402" device="" value="1.2n">
+<attribute name="DESC" value="FIXED IND 1.2NH 390MA 100 MOHM"/>
+<attribute name="HEIGHT" value="0.45mm"/>
+<attribute name="MANUFACTURER" value="Murata"/>
 <attribute name="MPN" value="LQP15MN1N2W02D"/>
 <attribute name="PARTNO" value="LQP15MN1N2W02D"/>
+<attribute name="SIZE" value="0402"/>
+<attribute name="TOL" value="0.05nH"/>
+<attribute name="TYPE" value="Inductor"/>
 </part>
 <part name="U12" library="CommonSense-DTR-v1" deviceset="TLV320DAC26IRHB" device="">
+<attribute name="DESC" value="IC DAC 24BIT 96K 32VQFN"/>
+<attribute name="HEIGHT" value="0.9mm"/>
+<attribute name="MPN" value="TLV320DAC26IRHB"/>
 <attribute name="PARTNO" value="TLV320DAC26IRHB"/>
+<attribute name="SIZE" value="32-VQFN (5x5)"/>
+<attribute name="TYPE" value="Codec"/>
 </part>
 <part name="J4" library="CommonSense-DTR-v1" deviceset="SJ-43514-SMT" device="">
+<attribute name="DESC" value="CONN JACK 4COND 3.5MM SMD R/A"/>
+<attribute name="HEIGHT" value="5mm"/>
+<attribute name="MANUFACTURER" value="CUI Devices"/>
 <attribute name="MPN" value="SJ-43514-SMT"/>
 <attribute name="PARTNO" value="SJ-43514-SMT"/>
+<attribute name="TYPE" value="Audio Jack"/>
 </part>
 <part name="U13" library="CommonSense-DTR-v1" deviceset="ADG839YKSZ-500RL7" device="KS_6_ADI-L">
+<attribute name="DESC" value="IC SWITCH SPDT SC70-6"/>
+<attribute name="HEIGHT" value="0.9mm"/>
 <attribute name="MPN" value="ADG839YKSZ-500RL7"/>
 <attribute name="PARTNO" value="ADG839YKSZ-500RL7"/>
+<attribute name="SIZE" value="SC-70-6"/>
+<attribute name="TYPE" value="SPDT Switch"/>
 </part>
 <part name="GND30" library="Supplies" deviceset="GND" device=""/>
 <part name="GND31" library="Supplies" deviceset="GND" device=""/>
 <part name="C29" library="Capacitors" deviceset="C-" device="0402" value="1u">
+<attribute name="DESC" value="CAP CER 1UF 6.3V X5R 0402"/>
+<attribute name="HEIGHT" value="0.55mm"/>
 <attribute name="MANUFACTURER" value="Yageo"/>
 <attribute name="MPN" value="CC0402KRX5R5BB105"/>
 <attribute name="PARTNO" value="CC0402KRX5R5BB105"/>
+<attribute name="SIZE" value="0402"/>
 <attribute name="TC" value="X5R"/>
+<attribute name="TYPE" value="Capacitor"/>
+<attribute name="VOLT" value="6.3V"/>
 </part>
 <part name="C30" library="Capacitors" deviceset="C-" device="0402" value="0.1u">
+<attribute name="DESC" value="CAP CER 0.1UF 10V X7R 0402"/>
+<attribute name="DESCRIPTION" value="0.1µF ±10% 10V Ceramic Capacitor X7R 0402 (1005 Metric)"/>
+<attribute name="HEIGHT" value="0.55mm"/>
 <attribute name="MANUFACTURER" value="Yageo"/>
-<attribute name="MPN" value="CC0402KRX5R5BB104"/>
-<attribute name="PARTNO" value="CC0402KRX5R5BB104"/>
-<attribute name="TC" value="X5R"/>
+<attribute name="MPN" value="CC0402KRX7R6BB104"/>
+<attribute name="PARTNO" value="CC0402KRX7R6BB104"/>
+<attribute name="SIZE" value="0402"/>
+<attribute name="TYPE" value="Capacitor"/>
+<attribute name="VOLT" value="10V"/>
 </part>
 <part name="+3V23" library="Supplies" deviceset="+3V3" device=""/>
 <part name="U14" library="Switches" deviceset="LOADSWITCH-MIC9416" device="" technology="4">
+<attribute name="DESC" value="IC PWR SWITCH P-CHAN 1:1 6WLCSP"/>
+<attribute name="HEIGHT" value="0.65mm"/>
 <attribute name="PARTNO" value="MIC94164YCS-TR"/>
+<attribute name="SIZE" value="6-WLCSP (1x1.5)"/>
+<attribute name="TYPE" value="Power Switch"/>
 </part>
 <part name="JP15" library="Connectors" deviceset="JUMPER-SMT_2_NC_PASTE" device="_NO-SILK" package3d_urn="urn:adsk.eagle:package:39283/1" technology="LG" value="JUMPER-SMT_2_NC_PASTELG_NO-SILK"/>
 <part name="JP17" library="Connectors" deviceset="JUMPER-SMT_2_NC_PASTE" device="_NO-SILK" package3d_urn="urn:adsk.eagle:package:39283/1" technology="LG" value="JUMPER-SMT_2_NC_PASTELG_NO-SILK"/>
-<part name="C31" library="Capacitors" deviceset="C-" device="0603" value="47u">
-<attribute name="MANUFACTURER" value="AVX"/>
-<attribute name="MPN" value="06036D476MAT2A"/>
-<attribute name="PARTNO" value="06036D476MAT2A"/>
+<part name="C31" library="Capacitors" deviceset="C-" device="0805" value="47u">
+<attribute name="DESC" value="CAP CER 47UF 6.3V X5R 0805"/>
+<attribute name="HEIGHT" value="0.95mm"/>
+<attribute name="MANUFACTURER" value="Murata"/>
+<attribute name="MPN" value="GRM219R60J476ME44D"/>
+<attribute name="PARTNO" value="GRM219R60J476ME44D"/>
+<attribute name="SIZE" value="0805"/>
 <attribute name="TC" value="X5R"/>
 <attribute name="TOL" value="20%"/>
+<attribute name="TYPE" value="Capacitor"/>
+<attribute name="VOLT" value="6.3V"/>
 </part>
-<part name="C32" library="Capacitors" deviceset="C-" device="0603" value="47u">
-<attribute name="MANUFACTURER" value="AVX"/>
-<attribute name="MPN" value="06036D476MAT2A"/>
-<attribute name="PARTNO" value="06036D476MAT2A"/>
+<part name="C32" library="Capacitors" deviceset="C-" device="0805" value="47u">
+<attribute name="DESC" value="CAP CER 47UF 6.3V X5R 0805"/>
+<attribute name="HEIGHT" value="0.95mm"/>
+<attribute name="MANUFACTURER" value="Murata"/>
+<attribute name="MPN" value="GRM219R60J476ME44D"/>
+<attribute name="PARTNO" value="GRM219R60J476ME44D"/>
+<attribute name="SIZE" value="0805"/>
 <attribute name="TC" value="X5R"/>
 <attribute name="TOL" value="20%"/>
+<attribute name="TYPE" value="Capacitor"/>
+<attribute name="VOLT" value="6.3V"/>
 </part>
 <part name="R8" library="Resistors" deviceset="R-" device="0603" value="2.2k">
+<attribute name="DESC" value="RES SMD 2.2K OHM 5% 1/10W 0603"/>
+<attribute name="HEIGHT" value="0.55mm"/>
 <attribute name="MPN" value="ERJ-3GEYJ222V"/>
 <attribute name="PARTNO" value="ERJ-3GEYJ222V"/>
+<attribute name="SIZE" value="0603"/>
+<attribute name="TC" value="±200ppm/°C"/>
+<attribute name="TYPE" value="Resistor"/>
 </part>
 <part name="C33" library="Capacitors" deviceset="C-" device="0402" value="0.1u">
+<attribute name="DESC" value="CAP CER 0.1UF 25V X7R 0402"/>
+<attribute name="HEIGHT" value="0.55mm"/>
 <attribute name="MANUFACTURER" value="Murata"/>
 <attribute name="MPN" value="GRM155R71E104KE14J"/>
 <attribute name="PARTNO" value="GRM155R71E104KE14J"/>
+<attribute name="SIZE" value="0402"/>
+<attribute name="TYPE" value="Capacitor"/>
+<attribute name="VOLT" value="25V"/>
 <attribute name="VOLTAGE" value="25V"/>
 </part>
 <part name="GND33" library="Supplies" deviceset="GND" device=""/>
 <part name="+3V24" library="Supplies" deviceset="+3V3" device=""/>
 <part name="C34" library="Capacitors" deviceset="C-" device="0402" value="0.1u">
+<attribute name="DESC" value="CAP CER 0.1UF 25V X7R 0402"/>
+<attribute name="HEIGHT" value="0.55mm"/>
 <attribute name="MANUFACTURER" value="Murata"/>
 <attribute name="MPN" value="GRM155R71E104KE14J"/>
 <attribute name="PARTNO" value="GRM155R71E104KE14J"/>
+<attribute name="SIZE" value="0402"/>
+<attribute name="TYPE" value="Capacitor"/>
+<attribute name="VOLT" value="25V"/>
 <attribute name="VOLTAGE" value="25V"/>
 </part>
 <part name="C35" library="Capacitors" deviceset="C-" device="0603" value="10u">
+<attribute name="DESC" value="CAP CER 10UF 6.3V X5R 0603"/>
+<attribute name="HEIGHT" value="0.9mm"/>
 <attribute name="MANUFACTURER" value="Murata"/>
 <attribute name="MPN" value="GRM188R60J106KE47D"/>
 <attribute name="PARTNO" value="GRM188R60J106KE47D"/>
+<attribute name="SIZE" value="0603"/>
 <attribute name="TC" value="X5R"/>
+<attribute name="TYPE" value="Capacitor"/>
+<attribute name="VOLT" value="6.3V"/>
 </part>
 <part name="GND34" library="Supplies" deviceset="GND" device=""/>
 <part name="+3V25" library="Supplies" deviceset="+3V3" device=""/>
 <part name="C36" library="Capacitors" deviceset="C-" device="0402" value="0.1u">
+<attribute name="DESC" value="CAP CER 0.1UF 16V X7R 0402"/>
+<attribute name="HEIGHT" value="0.55mm"/>
 <attribute name="MANUFACTURER" value="TDK"/>
 <attribute name="MPN" value="C1005X7R1C104K050BC"/>
 <attribute name="PARTNO" value="C1005X7R1C104K050BC"/>
+<attribute name="SIZE" value="0402"/>
+<attribute name="TYPE" value="Capacitor"/>
+<attribute name="VOLT" value="16V"/>
 <attribute name="VOLTAGE" value="16V"/>
 </part>
 <part name="C37" library="Capacitors" deviceset="C-" device="0603" value="10u">
+<attribute name="DESC" value="CAP TANT 10UF 10% 10V 0603"/>
 <attribute name="ESR" value="7.5"/>
+<attribute name="HEIGHT" value="1mm"/>
 <attribute name="MANUFACTURER" value="AVX"/>
 <attribute name="MPN" value="TACL106K010XTA"/>
 <attribute name="PARTNO" value="TACL106K010XTA"/>
+<attribute name="SIZE" value="0603"/>
 <attribute name="TC" value=""/>
+<attribute name="TYPE" value="Tantalum Capacitor"/>
+<attribute name="VOLT" value="10V"/>
 <attribute name="VOLTAGE" value="10V"/>
 </part>
 <part name="GND29" library="Supplies" deviceset="GND" device=""/>
 <part name="C38" library="Capacitors" deviceset="C-" device="0402" value="0.1u">
+<attribute name="DESC" value="CAP CER 0.1UF 25V X7R 0402"/>
+<attribute name="HEIGHT" value="0.55mm"/>
 <attribute name="MANUFACTURER" value="Murata"/>
 <attribute name="MPN" value="GRM155R71E104KE14J"/>
 <attribute name="PARTNO" value="GRM155R71E104KE14J"/>
+<attribute name="SIZE" value="0402"/>
+<attribute name="TYPE" value="Capacitor"/>
+<attribute name="VOLT" value="25V"/>
 <attribute name="VOLTAGE" value="25V"/>
 </part>
 <part name="C39" library="Capacitors" deviceset="C-" device="0603" value="10u">
+<attribute name="DESC" value="CAP CER 10UF 6.3V X5R 0603"/>
+<attribute name="HEIGHT" value="0.9mm"/>
 <attribute name="MANUFACTURER" value="Murata"/>
 <attribute name="MPN" value="GRM188R60J106KE47D"/>
 <attribute name="PARTNO" value="GRM188R60J106KE47D"/>
+<attribute name="SIZE" value="0603"/>
 <attribute name="TC" value="X5R"/>
+<attribute name="TYPE" value="Capacitor"/>
+<attribute name="VOLT" value="6.3V"/>
 </part>
 <part name="R11" library="Resistors" deviceset="R-" device="0402" value="100k">
+<attribute name="DESC" value="RES SMD 100K OHM 1% 1/10W 0402"/>
+<attribute name="HEIGHT" value="0.4mm"/>
 <attribute name="MPN" value="ERJ-2RKF1003X"/>
 <attribute name="PARTNO" value="ERJ-2RKF1003X"/>
+<attribute name="SIZE" value="0402"/>
+<attribute name="TC" value="±100ppm/°C"/>
 <attribute name="TOL" value="1%"/>
+<attribute name="TYPE" value="Resistor"/>
 </part>
 <part name="RESET" library="TestPoints" deviceset="TP" device="TP11SQ" package3d_urn="urn:adsk.eagle:package:27965/1">
 <attribute name="BOM" value="EXCLUDE"/>
 <attribute name="PARTNO" value="*"/>
+<attribute name="Z-HEIGHT" value="d"/>
 </part>
 <part name="GND32" library="Supplies" deviceset="GND" device=""/>
 <part name="GND35" library="Supplies" deviceset="GND" device=""/>
-<part name="R12" library="Resistors" deviceset="R-" device="1210">
+<part name="R12" library="Resistors" deviceset="R-" device="1210" value="0R">
+<attribute name="DESC" value="RES SMD 0 OHM JUMPER 1/2W 1210"/>
+<attribute name="HEIGHT" value="0.7mm"/>
+<attribute name="MPN" value="ERJ-14Y0R00U"/>
 <attribute name="PARTNO" value="ERJ-14Y0R00U"/>
+<attribute name="SIZE" value="1210"/>
 <attribute name="TOL" value="Jumper"/>
+<attribute name="TYPE" value="Resistor"/>
 </part>
 <part name="U15" library="CommonSense-DTR-v1" deviceset="LP2980AIM5-2.5/NOPB" device="MF05A_TEX-L">
+<attribute name="DESC" value="IC REG LINEAR 3V 50MA SOT23-5"/>
+<attribute name="HEIGHT" value="0.9-1.45mm"/>
+<attribute name="MANUFACTURER" value="Texas Instruments"/>
 <attribute name="MANUFACTURER_PART_NUMBER" value="LP2980AIM5-3.0/NOPB"/>
+<attribute name="MPN" value="LP2980AIM5-3.0/NOPB"/>
 <attribute name="PARTNO" value="LP2980AIM5-3.0/NOPB"/>
+<attribute name="SIZE" value="SOT-23-5"/>
+<attribute name="TYPE" value="LDO"/>
 </part>
 <part name="+3V26" library="Supplies" deviceset="+3V3" device=""/>
 <part name="GND36" library="Supplies" deviceset="GND" device=""/>
 <part name="+3V27" library="Supplies" deviceset="+3V3" device=""/>
 <part name="+3V28" library="Supplies" deviceset="+3V3" device=""/>
 <part name="U16" library="CommonSense-DTR-v1" deviceset="NCP553SQ18T1G" device="SC-82AB_ONS-L">
+<attribute name="DESC" value="IC REG LINEAR 1.8V 80MA SC82AB"/>
+<attribute name="HEIGHT" value="0.8-1.1mm"/>
+<attribute name="MANUFACTURER" value="ON Semiconductor"/>
 <attribute name="MPN" value="NCP553SQ18T1G"/>
 <attribute name="PARTNO" value="NCP553SQ18T1G"/>
+<attribute name="SIZE" value="SC-82AB"/>
+<attribute name="TYPE" value="LDO"/>
 </part>
 <part name="C41" library="Capacitors" deviceset="C-" device="0402" value="2.2u">
+<attribute name="DESC" value="CAP TANT 2.2UF 20% 6.3V 0402"/>
 <attribute name="ESR" value="15"/>
+<attribute name="HEIGHT" value="0.7mm"/>
 <attribute name="MANUFACTURER" value="AVX"/>
+<attribute name="MPN" value="TACK225M006QTA"/>
 <attribute name="PARTNO" value="TACK225M006QTA"/>
+<attribute name="SIZE" value="0402"/>
 <attribute name="TC" value=""/>
 <attribute name="TOL" value="20%"/>
+<attribute name="TYPE" value="Tantalum Capacitor"/>
+<attribute name="VOLT" value="6.3V"/>
 </part>
 <part name="GND37" library="Supplies" deviceset="GND" device=""/>
 <part name="C42" library="Capacitors" deviceset="C-" device="0402" value="1u">
+<attribute name="DESC" value="CAP CER 1UF 10V X7S 0402"/>
+<attribute name="HEIGHT" value="0.55mm"/>
 <attribute name="MANUFACTURER" value="TDK"/>
 <attribute name="MPN" value="C1005X7S1A105K050BC"/>
 <attribute name="PARTNO" value="C1005X7S1A105K050BC"/>
+<attribute name="SIZE" value="0402"/>
 <attribute name="TC" value="X7S"/>
+<attribute name="TYPE" value="Capacitor"/>
+<attribute name="VOLT" value="10V"/>
 <attribute name="VOLTAGE" value="10V"/>
 </part>
 <part name="+3V29" library="Supplies" deviceset="+3V3" device=""/>
 <part name="+3V30" library="Supplies" deviceset="+3V3" device=""/>
 <part name="+3V31" library="Supplies" deviceset="+3V3" device=""/>
 <part name="T5" library="TestPoints" deviceset="TP" device="TP10SQ" package3d_urn="urn:adsk.eagle:package:27962/1">
+<attribute name="DESC" value=""/>
 <attribute name="PARTNO" value="*"/>
+<attribute name="SIZE" value=""/>
+<attribute name="TOL" value=""/>
+<attribute name="TYPE" value=""/>
+<attribute name="VOLT" value=""/>
 </part>
 <part name="T6" library="TestPoints" deviceset="TP" device="TP10SQ" package3d_urn="urn:adsk.eagle:package:27962/1">
+<attribute name="DESC" value=""/>
 <attribute name="PARTNO" value="*"/>
+<attribute name="SIZE" value=""/>
+<attribute name="TOL" value=""/>
+<attribute name="TYPE" value=""/>
+<attribute name="VOLT" value=""/>
 </part>
 <part name="T11" library="TestPoints" deviceset="TP" device="TP10SQ" package3d_urn="urn:adsk.eagle:package:27962/1">
+<attribute name="DESC" value=""/>
 <attribute name="PARTNO" value="*"/>
+<attribute name="SIZE" value=""/>
+<attribute name="TOL" value=""/>
+<attribute name="TYPE" value=""/>
+<attribute name="VOLT" value=""/>
 </part>
 <part name="T8" library="TestPoints" deviceset="TP" device="TP10SQ" package3d_urn="urn:adsk.eagle:package:27962/1">
+<attribute name="DESC" value=""/>
 <attribute name="PARTNO" value="*"/>
+<attribute name="SIZE" value=""/>
+<attribute name="TOL" value=""/>
+<attribute name="TYPE" value=""/>
+<attribute name="VOLT" value=""/>
 </part>
 <part name="T7" library="TestPoints" deviceset="TP" device="TP10SQ" package3d_urn="urn:adsk.eagle:package:27962/1">
+<attribute name="DESC" value=""/>
 <attribute name="PARTNO" value="*"/>
+<attribute name="SIZE" value=""/>
+<attribute name="TOL" value=""/>
+<attribute name="TYPE" value=""/>
+<attribute name="VOLT" value=""/>
 </part>
 <part name="T2" library="TestPoints" deviceset="TP" device="TP10SQ" package3d_urn="urn:adsk.eagle:package:27962/1">
+<attribute name="DESC" value=""/>
 <attribute name="PARTNO" value="*"/>
+<attribute name="SIZE" value=""/>
+<attribute name="TOL" value=""/>
+<attribute name="TYPE" value=""/>
+<attribute name="VOLT" value=""/>
 </part>
 <part name="T1" library="TestPoints" deviceset="TP" device="TP10SQ" package3d_urn="urn:adsk.eagle:package:27962/1">
+<attribute name="DESC" value=""/>
 <attribute name="PARTNO" value="*"/>
+<attribute name="SIZE" value=""/>
+<attribute name="TOL" value=""/>
+<attribute name="TYPE" value=""/>
+<attribute name="VOLT" value=""/>
 </part>
 <part name="T10" library="TestPoints" deviceset="TP" device="TP10SQ" package3d_urn="urn:adsk.eagle:package:27962/1">
+<attribute name="DESC" value=""/>
 <attribute name="PARTNO" value="*"/>
+<attribute name="SIZE" value=""/>
+<attribute name="TOL" value=""/>
+<attribute name="TYPE" value=""/>
+<attribute name="VOLT" value=""/>
 </part>
 <part name="T9" library="TestPoints" deviceset="TP" device="TP10SQ" package3d_urn="urn:adsk.eagle:package:27962/1">
+<attribute name="DESC" value=""/>
 <attribute name="PARTNO" value="*"/>
+<attribute name="SIZE" value=""/>
+<attribute name="TOL" value=""/>
+<attribute name="TYPE" value=""/>
+<attribute name="VOLT" value=""/>
 </part>
 <part name="T4" library="TestPoints" deviceset="TP" device="TP10SQ" package3d_urn="urn:adsk.eagle:package:27962/1">
+<attribute name="DESC" value=""/>
 <attribute name="PARTNO" value="*"/>
+<attribute name="SIZE" value=""/>
+<attribute name="TOL" value=""/>
+<attribute name="TYPE" value=""/>
+<attribute name="VOLT" value=""/>
 </part>
 <part name="T3" library="TestPoints" deviceset="TP" device="TP10SQ" package3d_urn="urn:adsk.eagle:package:27962/1">
+<attribute name="DESC" value=""/>
 <attribute name="PARTNO" value="*"/>
+<attribute name="SIZE" value=""/>
+<attribute name="TOL" value=""/>
+<attribute name="TYPE" value=""/>
+<attribute name="VOLT" value=""/>
 </part>
 <part name="EN" library="TestPoints" deviceset="TP" device="TP10SQ" package3d_urn="urn:adsk.eagle:package:27962/1">
+<attribute name="DESC" value=""/>
 <attribute name="PARTNO" value="*"/>
+<attribute name="SIZE" value=""/>
+<attribute name="TOL" value=""/>
+<attribute name="TYPE" value=""/>
+<attribute name="VOLT" value=""/>
 </part>
 <part name="JP4" library="Connectors" deviceset="JUMPER-SMT_2_NC_PASTE" device="_NO-SILK" package3d_urn="urn:adsk.eagle:package:39283/1" technology="LG" value="JUMPER-SMT_2_NC_PASTELG_NO-SILK"/>
 <part name="CS2" library="TestPoints" deviceset="TP" device="TP10SQ" package3d_urn="urn:adsk.eagle:package:27962/1" value="TPTP10SQ">
 <attribute name="PARTNO" value="*"/>
+<attribute name="Z-HEIGHT" value="d"/>
 </part>
 <part name="C40" library="Capacitors" deviceset="C-" device="0603" value="10u">
+<attribute name="DESC" value="CAP CER 10UF 6.3V X5R 0603	"/>
+<attribute name="HEIGHT" value="0.9mm"/>
 <attribute name="MANUFACTURER" value="Murata"/>
 <attribute name="MPN" value="GRM188R60J106KE47D"/>
 <attribute name="PARTNO" value="GRM188R60J106KE47D"/>
+<attribute name="SIZE" value="0603"/>
 <attribute name="TC" value="X5R"/>
+<attribute name="TYPE" value="Capacitor"/>
+<attribute name="VOLT" value="6.3V"/>
 </part>
 <part name="C43" library="Capacitors" deviceset="C-" device="0402" value="0.1u">
+<attribute name="DESC" value="CAP CER 0.1UF 10V X7R 0402"/>
+<attribute name="DESCRIPTION" value="0.1µF ±10% 10V Ceramic Capacitor X7R 0402 (1005 Metric)"/>
+<attribute name="HEIGHT" value="0.55mm"/>
 <attribute name="MANUFACTURER" value="Yageo"/>
-<attribute name="MPN" value="CC0402KRX5R5BB104"/>
-<attribute name="PARTNO" value="CC0402KRX5R5BB104"/>
-<attribute name="TC" value="X5R"/>
+<attribute name="MPN" value="CC0402KRX7R6BB104"/>
+<attribute name="PARTNO" value="CC0402KRX7R6BB104"/>
+<attribute name="SIZE" value="0402"/>
+<attribute name="TYPE" value="Capacitor"/>
+<attribute name="VOLT" value="10V"/>
 </part>
 <part name="C44" library="Capacitors" deviceset="C-" device="0402" value="0.1u">
+<attribute name="DESC" value="CAP CER 0.1UF 10V X7R 0402"/>
+<attribute name="DESCRIPTION" value="0.1µF ±10% 10V Ceramic Capacitor X7R 0402 (1005 Metric)"/>
+<attribute name="HEIGHT" value="0.55mm"/>
 <attribute name="MANUFACTURER" value="Yageo"/>
-<attribute name="MPN" value="CC0402KRX5R5BB104"/>
-<attribute name="PARTNO" value="CC0402KRX5R5BB104"/>
-<attribute name="TC" value="X5R"/>
+<attribute name="MPN" value="CC0402KRX7R6BB104"/>
+<attribute name="PARTNO" value="CC0402KRX7R6BB104"/>
+<attribute name="SIZE" value="0402"/>
+<attribute name="TYPE" value="Capacitor"/>
+<attribute name="VOLT" value="10V"/>
 </part>
 <part name="C45" library="Capacitors" deviceset="C-" device="0402" value="0.1u">
+<attribute name="DESC" value="CAP CER 0.1UF 10V X7R 0402"/>
+<attribute name="DESCRIPTION" value="0.1µF ±10% 10V Ceramic Capacitor X7R 0402 (1005 Metric)"/>
+<attribute name="HEIGHT" value="0.55mm"/>
 <attribute name="MANUFACTURER" value="Yageo"/>
-<attribute name="MPN" value="CC0402KRX5R5BB104"/>
-<attribute name="PARTNO" value="CC0402KRX5R5BB104"/>
-<attribute name="TC" value="X5R"/>
+<attribute name="MPN" value="CC0402KRX7R6BB104"/>
+<attribute name="PARTNO" value="CC0402KRX7R6BB104"/>
+<attribute name="SIZE" value="0402"/>
+<attribute name="TYPE" value="Capacitor"/>
+<attribute name="VOLT" value="10V"/>
 </part>
 <part name="GND38" library="Supplies" deviceset="GND" device=""/>
 <part name="GND39" library="Supplies" deviceset="GND" device=""/>
@@ -8073,12 +8643,23 @@ F_MAX=1000kHz</text>
 <attribute name="VALUE" x="293.39" y="223.28" size="1.27" layer="96" font="vector" rot="R180" align="center"/>
 <attribute name="MPN" x="294.64" y="220.98" size="1.778" layer="96" rot="R90" display="off"/>
 <attribute name="PARTNO" x="294.64" y="220.98" size="1.778" layer="96" display="off"/>
+<attribute name="TOL" x="294.64" y="220.98" size="1.778" layer="96" rot="R90" display="off"/>
+<attribute name="DESC" x="294.64" y="220.98" size="1.778" layer="96" rot="R90" display="off"/>
+<attribute name="TYPE" x="294.64" y="220.98" size="1.778" layer="96" rot="R90" display="off"/>
+<attribute name="SIZE" x="294.64" y="220.98" size="1.778" layer="96" rot="R90" display="off"/>
+<attribute name="VOLT" x="294.64" y="220.98" size="1.778" layer="96" rot="R90" display="off"/>
+<attribute name="Z-HEIGHT" x="294.64" y="220.98" size="1.778" layer="96" rot="R90" display="off"/>
 </instance>
-<instance part="U$4" gate="G$1" x="226.06" y="193.04" smashed="yes">
+<instance part="U19" gate="G$1" x="226.06" y="193.04" smashed="yes">
 <attribute name="NAME" x="205.74" y="144.78" size="1.778" layer="95"/>
 <attribute name="VALUE" x="210.82" y="233.68" size="1.778" layer="96"/>
-<attribute name="MPN" x="226.06" y="193.04" size="1.778" layer="96" display="off"/>
 <attribute name="PARTNO" x="226.06" y="193.04" size="1.778" layer="96" display="off"/>
+<attribute name="DESC" x="226.06" y="193.04" size="1.778" layer="96" display="off"/>
+<attribute name="TYPE" x="226.06" y="193.04" size="1.778" layer="96" display="off"/>
+<attribute name="SIZE" x="226.06" y="193.04" size="1.778" layer="96" display="off"/>
+<attribute name="MANUFACTURER" x="226.06" y="193.04" size="1.778" layer="96" display="off"/>
+<attribute name="HEIGHT" x="226.06" y="193.04" size="1.778" layer="96" display="off"/>
+<attribute name="MPN" x="226.06" y="193.04" size="1.778" layer="96" display="off"/>
 </instance>
 <instance part="+3V3_DTR" gate="G$1" x="193.04" y="223.52" smashed="yes"/>
 <instance part="C1" gate="G$1" x="193.04" y="203.2" smashed="yes">
@@ -8086,6 +8667,12 @@ F_MAX=1000kHz</text>
 <attribute name="VALUE" x="195.34" y="204.45" size="1.27" layer="96" font="vector" rot="R90" align="center"/>
 <attribute name="MPN" x="193.04" y="203.2" size="1.778" layer="96" display="off"/>
 <attribute name="PARTNO" x="193.04" y="203.2" size="1.778" layer="96" display="off"/>
+<attribute name="TOL" x="193.04" y="203.2" size="1.778" layer="96" display="off"/>
+<attribute name="DESC" x="193.04" y="203.2" size="1.778" layer="96" display="off"/>
+<attribute name="TYPE" x="193.04" y="203.2" size="1.778" layer="96" display="off"/>
+<attribute name="SIZE" x="193.04" y="203.2" size="1.778" layer="96" display="off"/>
+<attribute name="VOLT" x="193.04" y="203.2" size="1.778" layer="96" display="off"/>
+<attribute name="Z-HEIGHT" x="193.04" y="203.2" size="1.778" layer="96" display="off"/>
 </instance>
 <instance part="U$6" gate="1" x="193.04" y="142.24" smashed="yes">
 <attribute name="VALUE" x="191.516" y="139.7" size="1.27" layer="96"/>
@@ -8095,12 +8682,24 @@ F_MAX=1000kHz</text>
 <attribute name="VALUE" x="277.1" y="240.05" size="1.27" layer="96" font="vector" rot="R270" align="center"/>
 <attribute name="MPN" x="279.4" y="241.3" size="1.778" layer="96" rot="R180" display="off"/>
 <attribute name="PARTNO" x="279.4" y="241.3" size="1.778" layer="96" display="off"/>
+<attribute name="TOL" x="279.4" y="241.3" size="1.778" layer="96" rot="R180" display="off"/>
+<attribute name="DESC" x="279.4" y="241.3" size="1.778" layer="96" rot="R180" display="off"/>
+<attribute name="TYPE" x="279.4" y="241.3" size="1.778" layer="96" rot="R180" display="off"/>
+<attribute name="SIZE" x="279.4" y="241.3" size="1.778" layer="96" rot="R180" display="off"/>
+<attribute name="VOLT" x="279.4" y="241.3" size="1.778" layer="96" rot="R180" display="off"/>
+<attribute name="Z-HEIGHT" x="279.4" y="241.3" size="1.778" layer="96" rot="R180" display="off"/>
 </instance>
 <instance part="C4" gate="G$1" x="289.56" y="241.3" smashed="yes" rot="R180">
 <attribute name="NAME" x="291.85" y="240.05" size="1.27" layer="95" font="vector" rot="R270" align="center"/>
 <attribute name="VALUE" x="287.26" y="240.05" size="1.27" layer="96" font="vector" rot="R270" align="center"/>
 <attribute name="MPN" x="289.56" y="241.3" size="1.778" layer="96" rot="R180" display="off"/>
 <attribute name="PARTNO" x="289.56" y="241.3" size="1.778" layer="96" display="off"/>
+<attribute name="TOL" x="289.56" y="241.3" size="1.778" layer="96" rot="R180" display="off"/>
+<attribute name="DESC" x="289.56" y="241.3" size="1.778" layer="96" rot="R180" display="off"/>
+<attribute name="TYPE" x="289.56" y="241.3" size="1.778" layer="96" rot="R180" display="off"/>
+<attribute name="SIZE" x="289.56" y="241.3" size="1.778" layer="96" rot="R180" display="off"/>
+<attribute name="VOLT" x="289.56" y="241.3" size="1.778" layer="96" rot="R180" display="off"/>
+<attribute name="Z-HEIGHT" x="289.56" y="241.3" size="1.778" layer="96" rot="R180" display="off"/>
 </instance>
 <instance part="X2" gate="G$1" x="284.48" y="231.14" smashed="yes">
 <attribute name="NAME" x="281.94" y="234.95" size="1.27" layer="95" font="vector"/>
@@ -8110,21 +8709,34 @@ F_MAX=1000kHz</text>
 <attribute name="TOL" x="284.48" y="231.14" size="1.778" layer="96" display="off"/>
 <attribute name="LOAD_CAPACITY" x="284.48" y="231.14" size="1.778" layer="96" display="off"/>
 <attribute name="MANUFACTURER" x="284.48" y="231.14" size="1.778" layer="96" display="off"/>
+<attribute name="TOL" x="284.48" y="231.14" size="1.778" layer="96" display="off"/>
+<attribute name="DESC" x="284.48" y="231.14" size="1.778" layer="96" display="off"/>
+<attribute name="TYPE" x="284.48" y="231.14" size="1.778" layer="96" display="off"/>
+<attribute name="SIZE" x="284.48" y="231.14" size="1.778" layer="96" display="off"/>
+<attribute name="VOLT" x="284.48" y="231.14" size="1.778" layer="96" display="off"/>
 </instance>
 <instance part="U$14" gate="1" x="101.6" y="233.68" smashed="yes">
 <attribute name="VALUE" x="100.076" y="231.14" size="1.27" layer="96"/>
 </instance>
-<instance part="C9" gate="G$1" x="91.44" y="236.22" smashed="yes" rot="R90">
+<instance part="C9" gate="G$1" x="91.44" y="236.22" smashed="yes" rot="R90" grouprefs="10UCAP">
 <attribute name="NAME" x="90.19" y="233.93" size="1.27" layer="95" font="vector" rot="R180" align="center"/>
 <attribute name="VALUE" x="90.19" y="238.52" size="1.27" layer="96" font="vector" rot="R180" align="center"/>
 <attribute name="MPN" x="91.44" y="236.22" size="1.778" layer="96" rot="R90" display="off"/>
 <attribute name="PARTNO" x="91.44" y="236.22" size="1.778" layer="96" rot="R90" display="off"/>
+<attribute name="TOL" x="91.44" y="236.22" size="1.778" layer="96" rot="R90" display="off"/>
+<attribute name="DESC" x="91.44" y="236.22" size="1.778" layer="96" rot="R90" display="off"/>
+<attribute name="TYPE" x="91.44" y="236.22" size="1.778" layer="96" rot="R90" display="off"/>
+<attribute name="SIZE" x="91.44" y="236.22" size="1.778" layer="96" rot="R90" display="off"/>
+<attribute name="VOLT" x="91.44" y="236.22" size="1.778" layer="96" rot="R90" display="off"/>
+<attribute name="HEIGHT" x="91.44" y="236.22" size="1.778" layer="96" rot="R90" display="off"/>
 </instance>
 <instance part="+3V5" gate="G$1" x="86.36" y="241.3" smashed="yes" rot="MR0"/>
 <instance part="U4" gate="G$1" x="50.8" y="236.22" smashed="yes">
 <attribute name="NAME" x="40.64" y="254" size="1.27" layer="95"/>
 <attribute name="VALUE" x="40.64" y="215.9" size="1.27" layer="95"/>
 <attribute name="PARTNO" x="50.8" y="236.22" size="1.778" layer="96" display="off"/>
+<attribute name="DESC" x="50.8" y="236.22" size="1.778" layer="96" display="off"/>
+<attribute name="TYPE" x="50.8" y="236.22" size="1.778" layer="96" display="off"/>
 </instance>
 <instance part="U$17" gate="1" x="30.48" y="215.9" smashed="yes">
 <attribute name="VALUE" x="28.956" y="213.36" size="1.27" layer="96"/>
@@ -8133,6 +8745,11 @@ F_MAX=1000kHz</text>
 <attribute name="NAME" x="75.32095625" y="210.417171875" size="1.27" layer="95" rot="R90"/>
 <attribute name="MPN" x="78.62295625" y="212.957171875" size="1.778" layer="96" rot="R90" display="off"/>
 <attribute name="PARTNO" x="78.62295625" y="212.957171875" size="1.778" layer="96" display="off"/>
+<attribute name="TOL" x="78.62295625" y="212.957171875" size="1.778" layer="96" rot="R90" display="off"/>
+<attribute name="DESC" x="78.62295625" y="212.957171875" size="1.778" layer="96" rot="R90" display="off"/>
+<attribute name="TYPE" x="78.62295625" y="212.957171875" size="1.778" layer="96" rot="R90" display="off"/>
+<attribute name="SIZE" x="78.62295625" y="212.957171875" size="1.778" layer="96" rot="R90" display="off"/>
+<attribute name="VOLT" x="78.62295625" y="212.957171875" size="1.778" layer="96" rot="R90" display="off"/>
 </instance>
 <instance part="U$23" gate="1" x="68.58" y="215.9" smashed="yes">
 <attribute name="VALUE" x="67.056" y="213.36" size="1.27" layer="96"/>
@@ -8146,6 +8763,9 @@ F_MAX=1000kHz</text>
 <attribute name="VALUE" x="370.84" y="162.306" size="1.778" layer="96" font="vector" rot="R180"/>
 <attribute name="MPN" x="358.14" y="152.4" size="1.778" layer="96" rot="R180" display="off"/>
 <attribute name="PARTNO" x="358.14" y="152.4" size="1.778" layer="96" display="off"/>
+<attribute name="DESC" x="358.14" y="152.4" size="1.778" layer="96" rot="R180" display="off"/>
+<attribute name="TYPE" x="358.14" y="152.4" size="1.778" layer="96" rot="R180" display="off"/>
+<attribute name="MANUFACTURER" x="358.14" y="152.4" size="1.778" layer="96" rot="R180" display="off"/>
 </instance>
 <instance part="+3V6" gate="G$1" x="383.54" y="152.4" smashed="yes"/>
 <instance part="U$2" gate="1" x="378.46" y="142.24" smashed="yes">
@@ -8154,9 +8774,15 @@ F_MAX=1000kHz</text>
 <instance part="GND6" gate="1" x="210.82" y="35.56" smashed="yes">
 <attribute name="VALUE" x="208.153" y="32.385" size="1.778" layer="96"/>
 </instance>
-<instance part="ATTINY-817" gate="A" x="162.56" y="48.26" smashed="yes" rot="R180">
+<instance part="U17" gate="A" x="162.56" y="48.26" smashed="yes" rot="R180">
 <attribute name="NAME" x="129.1844" y="39.1414" size="2.0828" layer="95" ratio="6" rot="SR180"/>
 <attribute name="PARTNO" x="162.56" y="48.26" size="1.778" layer="96" display="off"/>
+<attribute name="DESC" x="162.56" y="48.26" size="1.778" layer="96" rot="R180" display="off"/>
+<attribute name="TYPE" x="162.56" y="48.26" size="1.778" layer="96" rot="R180" display="off"/>
+<attribute name="SIZE" x="162.56" y="48.26" size="1.778" layer="96" rot="R180" display="off"/>
+<attribute name="HEIGHT" x="162.56" y="48.26" size="1.778" layer="96" rot="R180" display="off"/>
+<attribute name="MPN" x="162.56" y="48.26" size="1.778" layer="96" rot="R180" display="off"/>
+<attribute name="MANUFACTURER" x="162.56" y="48.26" size="1.778" layer="96" rot="R180" display="off"/>
 </instance>
 <instance part="GND13" gate="1" x="17.78" y="38.1" smashed="yes">
 <attribute name="VALUE" x="15.113" y="34.925" size="1.778" layer="96"/>
@@ -8166,35 +8792,67 @@ F_MAX=1000kHz</text>
 <attribute name="VALUE" x="36.322" y="59.69" size="1.778" layer="96" rot="R90"/>
 <attribute name="MPN" x="33.02" y="63.5" size="1.778" layer="96" rot="R90" display="off"/>
 <attribute name="PARTNO" x="33.02" y="63.5" size="1.778" layer="96" display="off"/>
+<attribute name="TOL" x="33.02" y="63.5" size="1.778" layer="96" rot="R90" display="off"/>
+<attribute name="DESC" x="33.02" y="63.5" size="1.778" layer="96" rot="R90" display="off"/>
+<attribute name="TYPE" x="33.02" y="63.5" size="1.778" layer="96" rot="R90" display="off"/>
+<attribute name="SIZE" x="33.02" y="63.5" size="1.778" layer="96" rot="R90" display="off"/>
+<attribute name="TC" x="33.02" y="63.5" size="1.778" layer="96" rot="R90" display="off"/>
+<attribute name="HEIGHT" x="33.02" y="63.5" size="1.778" layer="96" rot="R90" display="off"/>
 </instance>
 <instance part="R9" gate="G$1" x="33.02" y="50.8" smashed="yes" rot="R90">
 <attribute name="NAME" x="31.5214" y="46.99" size="1.778" layer="95" rot="R90"/>
 <attribute name="VALUE" x="36.322" y="46.99" size="1.778" layer="96" rot="R90"/>
 <attribute name="MPN" x="33.02" y="50.8" size="1.778" layer="96" rot="R90" display="off"/>
 <attribute name="PARTNO" x="33.02" y="50.8" size="1.778" layer="96" display="off"/>
+<attribute name="TOL" x="33.02" y="50.8" size="1.778" layer="96" rot="R90" display="off"/>
+<attribute name="DESC" x="33.02" y="50.8" size="1.778" layer="96" rot="R90" display="off"/>
+<attribute name="TYPE" x="33.02" y="50.8" size="1.778" layer="96" rot="R90" display="off"/>
+<attribute name="SIZE" x="33.02" y="50.8" size="1.778" layer="96" rot="R90" display="off"/>
+<attribute name="TC" x="33.02" y="50.8" size="1.778" layer="96" rot="R90" display="off"/>
+<attribute name="HEIGHT" x="33.02" y="50.8" size="1.778" layer="96" rot="R90" display="off"/>
 </instance>
 <instance part="C46" gate="G$1" x="22.86" y="55.88" smashed="yes" rot="R90">
 <attribute name="NAME" x="20.955" y="56.896" size="1.778" layer="95" rot="R90"/>
 <attribute name="VALUE" x="25.781" y="56.896" size="1.778" layer="96" rot="R90"/>
 <attribute name="MPN" x="22.86" y="55.88" size="1.778" layer="96" rot="R90" display="off"/>
 <attribute name="PARTNO" x="22.86" y="55.88" size="1.778" layer="96" display="off"/>
+<attribute name="TOL" x="22.86" y="55.88" size="1.778" layer="96" rot="R90" display="off"/>
+<attribute name="DESC" x="22.86" y="55.88" size="1.778" layer="96" rot="R90" display="off"/>
+<attribute name="TYPE" x="22.86" y="55.88" size="1.778" layer="96" rot="R90" display="off"/>
+<attribute name="SIZE" x="22.86" y="55.88" size="1.778" layer="96" rot="R90" display="off"/>
+<attribute name="VOLT" x="22.86" y="55.88" size="1.778" layer="96" rot="R90" display="off"/>
+<attribute name="HEIGHT" x="22.86" y="55.88" size="1.778" layer="96" rot="R90" display="off"/>
 </instance>
 <instance part="C12" gate="G$1" x="215.9" y="40.64" smashed="yes" rot="R90">
 <attribute name="NAME" x="212.344" y="42.545" size="1.778" layer="95"/>
 <attribute name="VALUE" x="219.964" y="39.751" size="1.778" layer="96" rot="R180"/>
 <attribute name="MPN" x="215.9" y="40.64" size="1.778" layer="96" rot="R90" display="off"/>
 <attribute name="PARTNO" x="215.9" y="40.64" size="1.778" layer="96" display="off"/>
+<attribute name="TOL" x="215.9" y="40.64" size="1.778" layer="96" rot="R90" display="off"/>
+<attribute name="DESC" x="215.9" y="40.64" size="1.778" layer="96" rot="R90" display="off"/>
+<attribute name="TYPE" x="215.9" y="40.64" size="1.778" layer="96" rot="R90" display="off"/>
+<attribute name="SIZE" x="215.9" y="40.64" size="1.778" layer="96" rot="R90" display="off"/>
+<attribute name="VOLT" x="215.9" y="40.64" size="1.778" layer="96" rot="R90" display="off"/>
+<attribute name="HEIGHT" x="215.9" y="40.64" size="1.778" layer="96" rot="R90" display="off"/>
 </instance>
-<instance part="C13" gate="G$1" x="215.9" y="48.26" smashed="yes" rot="R90">
+<instance part="C13" gate="G$1" x="215.9" y="48.26" smashed="yes" rot="R90" grouprefs="I">
 <attribute name="NAME" x="211.455" y="49.784" size="1.778" layer="95"/>
 <attribute name="VALUE" x="219.964" y="45.847" size="1.778" layer="96" rot="R180"/>
 <attribute name="MPN" x="215.9" y="48.26" size="1.778" layer="96" rot="R90" display="off"/>
 <attribute name="PARTNO" x="215.9" y="48.26" size="1.778" layer="96" display="off"/>
+<attribute name="DESC" x="215.9" y="48.26" size="1.778" layer="96" rot="R90" display="off"/>
+<attribute name="TYPE" x="215.9" y="48.26" size="1.778" layer="96" rot="R90" display="off"/>
+<attribute name="SIZE" x="215.9" y="48.26" size="1.778" layer="96" rot="R90" display="off"/>
+<attribute name="VOLT" x="215.9" y="48.26" size="1.778" layer="96" rot="R90" display="off"/>
+<attribute name="HEIGHT" x="215.9" y="48.26" size="1.778" layer="96" rot="R90" display="off"/>
 </instance>
-<instance part="J-TAG/UPDI" gate="G$1" x="73.66" y="22.86" smashed="yes">
+<instance part="J6" gate="G$1" x="73.66" y="22.86" smashed="yes">
 <attribute name="NAME" x="60.96" y="30.734" size="1.778" layer="95" font="vector"/>
 <attribute name="VALUE" x="60.96" y="12.954" size="1.778" layer="96" font="vector"/>
 <attribute name="PARTNO" x="73.66" y="22.86" size="1.778" layer="96" display="off"/>
+<attribute name="DESC" x="73.66" y="22.86" size="1.778" layer="96" display="off"/>
+<attribute name="TYPE" x="73.66" y="22.86" size="1.778" layer="96" display="off"/>
+<attribute name="MANUFACTURER" x="73.66" y="22.86" size="1.778" layer="96" display="off"/>
 </instance>
 <instance part="+3V7" gate="G$1" x="220.98" y="66.04" smashed="yes"/>
 <instance part="+3V8" gate="G$1" x="33.02" y="73.66" smashed="yes"/>
@@ -8207,15 +8865,22 @@ F_MAX=1000kHz</text>
 <instance part="J7" gate="G$1" x="358.14" y="185.42" smashed="yes" rot="MR0">
 <attribute name="NAME" x="363.22" y="194.056" size="1.524" layer="95" rot="MR0"/>
 <attribute name="PARTNO" x="358.14" y="185.42" size="1.778" layer="96" display="off"/>
+<attribute name="DESC" x="358.14" y="185.42" size="1.778" layer="96" rot="MR0" display="off"/>
+<attribute name="TYPE" x="358.14" y="185.42" size="1.778" layer="96" rot="MR0" display="off"/>
 </instance>
 <instance part="U$3" gate="1" x="88.9" y="205.74" smashed="yes">
 <attribute name="VALUE" x="87.376" y="203.2" size="1.27" layer="96"/>
 </instance>
-<instance part="U2" gate="A" x="124.46" y="160.02" smashed="yes" rot="R180">
-<attribute name="NAME" x="103.7844" y="150.9014" size="2.0828" layer="95" ratio="6" rot="SR180"/>
-<attribute name="VALUE" x="104.4194" y="153.4414" size="2.0828" layer="96" ratio="6" rot="SR180"/>
-<attribute name="MPN" x="124.46" y="160.02" size="1.778" layer="96" display="off"/>
-<attribute name="PARTNO" x="124.46" y="160.02" size="1.778" layer="96" display="off"/>
+<instance part="U2" gate="A" x="116.84" y="160.02" smashed="yes" rot="R180">
+<attribute name="NAME" x="96.1644" y="150.9014" size="2.0828" layer="95" ratio="6" rot="SR180"/>
+<attribute name="VALUE" x="96.7994" y="153.4414" size="2.0828" layer="96" ratio="6" rot="SR180"/>
+<attribute name="MPN" x="116.84" y="160.02" size="1.778" layer="96" display="off"/>
+<attribute name="PARTNO" x="116.84" y="160.02" size="1.778" layer="96" display="off"/>
+<attribute name="DESC" x="116.84" y="160.02" size="1.778" layer="96" rot="R180" display="off"/>
+<attribute name="TYPE" x="116.84" y="160.02" size="1.778" layer="96" rot="R180" display="off"/>
+<attribute name="SIZE" x="116.84" y="160.02" size="1.778" layer="96" rot="R180" display="off"/>
+<attribute name="MANUFACTURER" x="116.84" y="160.02" size="1.778" layer="96" rot="R180" display="off"/>
+<attribute name="HEIGHT" x="116.84" y="160.02" size="1.778" layer="96" rot="R180" display="off"/>
 </instance>
 <instance part="MK1" gate="G$1" x="25.4" y="165.1" smashed="yes">
 <attribute name="NAME" x="17.78" y="173.355" size="1.778" layer="95"/>
@@ -8223,31 +8888,60 @@ F_MAX=1000kHz</text>
 <attribute name="OC_NEWARK" x="25.4" y="165.1" size="1.778" layer="96" display="off"/>
 <attribute name="MPN" x="25.4" y="165.1" size="1.778" layer="96" display="off"/>
 <attribute name="PARTNO" x="25.4" y="165.1" size="1.778" layer="96" display="off"/>
+<attribute name="DESC" x="25.4" y="165.1" size="1.778" layer="96" display="off"/>
+<attribute name="TYPE" x="25.4" y="165.1" size="1.778" layer="96" display="off"/>
+<attribute name="SIZE" x="25.4" y="165.1" size="1.778" layer="96" display="off"/>
+<attribute name="VOLT" x="25.4" y="165.1" size="1.778" layer="96" display="off"/>
+<attribute name="MANUFACTURER" x="25.4" y="165.1" size="1.778" layer="96" display="off"/>
+<attribute name="HEIGHT" x="25.4" y="165.1" size="1.778" layer="96" display="off"/>
 </instance>
 <instance part="R1" gate="G$1" x="58.42" y="165.1" smashed="yes" rot="R180">
 <attribute name="NAME" x="62.23" y="163.6014" size="1.778" layer="95" rot="R180"/>
 <attribute name="VALUE" x="62.23" y="168.402" size="1.778" layer="96" rot="R180"/>
-<attribute name="MF" x="58.42" y="165.1" size="1.778" layer="96" display="off"/>
 <attribute name="MPN" x="58.42" y="165.1" size="1.778" layer="96" display="off"/>
 <attribute name="PARTNO" x="58.42" y="165.1" size="1.778" layer="96" display="off"/>
+<attribute name="TOL" x="58.42" y="165.1" size="1.778" layer="96" rot="R180" display="off"/>
+<attribute name="DESC" x="58.42" y="165.1" size="1.778" layer="96" rot="R180" display="off"/>
+<attribute name="TYPE" x="58.42" y="165.1" size="1.778" layer="96" rot="R180" display="off"/>
+<attribute name="SIZE" x="58.42" y="165.1" size="1.778" layer="96" rot="R180" display="off"/>
+<attribute name="TC" x="58.42" y="165.1" size="1.778" layer="96" rot="R180" display="off"/>
+<attribute name="HEIGHT" x="58.42" y="165.1" size="1.778" layer="96" rot="R180" display="off"/>
 </instance>
 <instance part="R2" gate="G$1" x="93.98" y="175.26" smashed="yes" rot="R180">
 <attribute name="NAME" x="97.79" y="173.7614" size="1.778" layer="95" rot="R180"/>
 <attribute name="VALUE" x="97.79" y="178.562" size="1.778" layer="96" rot="R180"/>
 <attribute name="MPN" x="93.98" y="175.26" size="1.778" layer="96" display="off"/>
 <attribute name="PARTNO" x="93.98" y="175.26" size="1.778" layer="96" display="off"/>
+<attribute name="TOL" x="93.98" y="175.26" size="1.778" layer="96" rot="R180" display="off"/>
+<attribute name="DESC" x="93.98" y="175.26" size="1.778" layer="96" rot="R180" display="off"/>
+<attribute name="TYPE" x="93.98" y="175.26" size="1.778" layer="96" rot="R180" display="off"/>
+<attribute name="SIZE" x="93.98" y="175.26" size="1.778" layer="96" rot="R180" display="off"/>
+<attribute name="TC" x="93.98" y="175.26" size="1.778" layer="96" rot="R180" display="off"/>
+<attribute name="HEIGHT" x="93.98" y="175.26" size="1.778" layer="96" rot="R180" display="off"/>
 </instance>
 <instance part="R3" gate="G$1" x="132.08" y="149.86" smashed="yes" rot="R270">
 <attribute name="NAME" x="133.5786" y="153.67" size="1.778" layer="95" rot="R270"/>
 <attribute name="VALUE" x="128.778" y="153.67" size="1.778" layer="96" rot="R270"/>
 <attribute name="MPN" x="132.08" y="149.86" size="1.778" layer="96" display="off"/>
 <attribute name="PARTNO" x="132.08" y="149.86" size="1.778" layer="96" display="off"/>
+<attribute name="TOL" x="132.08" y="149.86" size="1.778" layer="96" rot="R270" display="off"/>
+<attribute name="DESC" x="132.08" y="149.86" size="1.778" layer="96" rot="R270" display="off"/>
+<attribute name="TYPE" x="132.08" y="149.86" size="1.778" layer="96" rot="R270" display="off"/>
+<attribute name="SIZE" x="132.08" y="149.86" size="1.778" layer="96" rot="R270" display="off"/>
+<attribute name="TC" x="132.08" y="149.86" size="1.778" layer="96" rot="R270" display="off"/>
+<attribute name="HEIGHT" x="132.08" y="149.86" size="1.778" layer="96" rot="R270" display="off"/>
 </instance>
 <instance part="R4" gate="G$1" x="132.08" y="175.26" smashed="yes" rot="R270">
 <attribute name="NAME" x="133.5786" y="179.07" size="1.778" layer="95" rot="R270"/>
 <attribute name="VALUE" x="128.778" y="179.07" size="1.778" layer="96" rot="R270"/>
 <attribute name="MPN" x="132.08" y="175.26" size="1.778" layer="96" display="off"/>
 <attribute name="PARTNO" x="132.08" y="175.26" size="1.778" layer="96" display="off"/>
+<attribute name="TOL" x="132.08" y="175.26" size="1.778" layer="96" rot="R270" display="off"/>
+<attribute name="DESC" x="132.08" y="175.26" size="1.778" layer="96" rot="R270" display="off"/>
+<attribute name="TYPE" x="132.08" y="175.26" size="1.778" layer="96" rot="R270" display="off"/>
+<attribute name="SIZE" x="132.08" y="175.26" size="1.778" layer="96" rot="R270" display="off"/>
+<attribute name="TC" x="132.08" y="175.26" size="1.778" layer="96" rot="R270" display="off"/>
+<attribute name="HEIGHT" x="132.08" y="175.26" size="1.778" layer="96" rot="R270" display="off"/>
 </instance>
 <instance part="GND7" gate="1" x="43.18" y="152.4" smashed="yes">
 <attribute name="VALUE" x="40.64" y="149.86" size="1.778" layer="96"/>
@@ -8265,72 +8959,131 @@ F_MAX=1000kHz</text>
 <attribute name="VALUE" x="48.641" y="166.116" size="1.778" layer="96" rot="R90"/>
 <attribute name="MPN" x="45.72" y="165.1" size="1.778" layer="96" rot="R90" display="off"/>
 <attribute name="PARTNO" x="45.72" y="165.1" size="1.778" layer="96" display="off"/>
+<attribute name="TOL" x="45.72" y="165.1" size="1.778" layer="96" rot="R90" display="off"/>
+<attribute name="DESC" x="45.72" y="165.1" size="1.778" layer="96" rot="R90" display="off"/>
+<attribute name="TYPE" x="45.72" y="165.1" size="1.778" layer="96" rot="R90" display="off"/>
+<attribute name="SIZE" x="45.72" y="165.1" size="1.778" layer="96" rot="R90" display="off"/>
+<attribute name="VOLT" x="45.72" y="165.1" size="1.778" layer="96" rot="R90" display="off"/>
+<attribute name="HEIGHT" x="45.72" y="165.1" size="1.778" layer="96" rot="R90" display="off"/>
 </instance>
-<instance part="C7" gate="G$1" x="50.8" y="177.8" smashed="yes" rot="R90">
+<instance part="C7" gate="G$1" x="50.8" y="177.8" smashed="yes" rot="R90" grouprefs="I">
 <attribute name="NAME" x="48.895" y="178.816" size="1.778" layer="95" rot="R90"/>
 <attribute name="VALUE" x="53.721" y="178.816" size="1.778" layer="96" rot="R90"/>
 <attribute name="MPN" x="50.8" y="177.8" size="1.778" layer="96" rot="R90" display="off"/>
 <attribute name="PARTNO" x="50.8" y="177.8" size="1.778" layer="96" display="off"/>
+<attribute name="DESC" x="50.8" y="177.8" size="1.778" layer="96" rot="R90" display="off"/>
+<attribute name="TYPE" x="50.8" y="177.8" size="1.778" layer="96" rot="R90" display="off"/>
+<attribute name="SIZE" x="50.8" y="177.8" size="1.778" layer="96" rot="R90" display="off"/>
+<attribute name="VOLT" x="50.8" y="177.8" size="1.778" layer="96" rot="R90" display="off"/>
+<attribute name="HEIGHT" x="50.8" y="177.8" size="1.778" layer="96" rot="R90" display="off"/>
 </instance>
 <instance part="C8" gate="G$1" x="142.24" y="149.86" smashed="yes">
 <attribute name="NAME" x="143.256" y="151.765" size="1.778" layer="95"/>
 <attribute name="VALUE" x="247.396" y="187.579" size="1.778" layer="96"/>
 <attribute name="MPN" x="142.24" y="149.86" size="1.778" layer="96" display="off"/>
 <attribute name="PARTNO" x="142.24" y="149.86" size="1.778" layer="96" display="off"/>
+<attribute name="TOL" x="142.24" y="149.86" size="1.778" layer="96" display="off"/>
+<attribute name="DESC" x="142.24" y="149.86" size="1.778" layer="96" display="off"/>
+<attribute name="TYPE" x="142.24" y="149.86" size="1.778" layer="96" display="off"/>
+<attribute name="SIZE" x="142.24" y="149.86" size="1.778" layer="96" display="off"/>
+<attribute name="VOLT" x="142.24" y="149.86" size="1.778" layer="96" display="off"/>
+<attribute name="Z-HEIGHT" x="142.24" y="149.86" size="1.778" layer="96" display="off"/>
 </instance>
-<instance part="U205" gate="G$1" x="264.16" y="55.88" smashed="yes" rot="MR0">
+<instance part="U18" gate="G$1" x="264.16" y="55.88" smashed="yes" rot="MR0">
 <attribute name="NAME" x="273.81991875" y="66.811" size="1.271040625" layer="95" rot="MR0"/>
 <attribute name="PARTNO" x="264.16" y="55.88" size="1.778" layer="96" display="off"/>
+<attribute name="DESC" x="264.16" y="55.88" size="1.778" layer="96" rot="MR0" display="off"/>
+<attribute name="TYPE" x="264.16" y="55.88" size="1.778" layer="96" rot="MR0" display="off"/>
+<attribute name="SIZE" x="264.16" y="55.88" size="1.778" layer="96" rot="MR0" display="off"/>
+<attribute name="HEIGHT" x="264.16" y="55.88" size="1.778" layer="96" rot="MR0" display="off"/>
 </instance>
 <instance part="GND10" gate="1" x="284.48" y="33.02" smashed="yes" rot="MR0">
 <attribute name="VALUE" x="287.02" y="30.48" size="1.778" layer="96" rot="MR0"/>
 </instance>
-<instance part="C203" gate="G$1" x="302.26" y="45.72" smashed="yes" rot="MR0">
-<attribute name="TOL" x="302.26" y="45.72" size="1.27" layer="96" rot="MR0" display="off"/>
+<instance part="C47" gate="G$1" x="302.26" y="45.72" smashed="yes" rot="MR0" grouprefs="I">
 <attribute name="NAME" x="301.244" y="47.625" size="1.778" layer="95" rot="MR0"/>
 <attribute name="VALUE" x="301.244" y="42.799" size="1.778" layer="96" rot="MR0"/>
 <attribute name="MPN" x="302.26" y="45.72" size="1.778" layer="96" rot="MR0" display="off"/>
 <attribute name="PARTNO" x="302.26" y="45.72" size="1.778" layer="96" display="off"/>
+<attribute name="DESC" x="302.26" y="45.72" size="1.778" layer="96" rot="MR0" display="off"/>
+<attribute name="TYPE" x="302.26" y="45.72" size="1.778" layer="96" rot="MR0" display="off"/>
+<attribute name="SIZE" x="302.26" y="45.72" size="1.778" layer="96" rot="MR0" display="off"/>
+<attribute name="VOLT" x="302.26" y="45.72" size="1.778" layer="96" rot="MR0" display="off"/>
+<attribute name="HEIGHT" x="302.26" y="45.72" size="1.778" layer="96" rot="MR0" display="off"/>
 </instance>
-<instance part="C204" gate="G$1" x="292.1" y="45.72" smashed="yes" rot="MR0">
-<attribute name="TOL" x="292.1" y="45.72" size="1.27" layer="96" rot="MR0" display="off"/>
+<instance part="C48" gate="G$1" x="292.1" y="45.72" smashed="yes" rot="MR0" grouprefs="I">
 <attribute name="NAME" x="291.084" y="47.625" size="1.778" layer="95" rot="MR0"/>
 <attribute name="VALUE" x="291.084" y="42.799" size="1.778" layer="96" rot="MR0"/>
 <attribute name="MPN" x="292.1" y="45.72" size="1.778" layer="96" rot="MR0" display="off"/>
 <attribute name="PARTNO" x="292.1" y="45.72" size="1.778" layer="96" display="off"/>
+<attribute name="DESC" x="292.1" y="45.72" size="1.778" layer="96" rot="MR0" display="off"/>
+<attribute name="TYPE" x="292.1" y="45.72" size="1.778" layer="96" rot="MR0" display="off"/>
+<attribute name="SIZE" x="292.1" y="45.72" size="1.778" layer="96" rot="MR0" display="off"/>
+<attribute name="VOLT" x="292.1" y="45.72" size="1.778" layer="96" rot="MR0" display="off"/>
+<attribute name="HEIGHT" x="292.1" y="45.72" size="1.778" layer="96" rot="MR0" display="off"/>
 </instance>
 <instance part="SJ1" gate="G$1" x="58.42" y="83.82" smashed="yes" rot="R90">
 <attribute name="NAME" x="58.039" y="86.36" size="1.778" layer="95" rot="R90"/>
 <attribute name="PARTNO" x="58.42" y="83.82" size="1.778" layer="96" display="off"/>
 <attribute name="BOM" x="58.42" y="83.82" size="1.778" layer="96" rot="R90" display="off"/>
+<attribute name="TOL" x="58.42" y="83.82" size="1.778" layer="96" rot="R90" display="off"/>
+<attribute name="DESC" x="58.42" y="83.82" size="1.778" layer="96" rot="R90" display="off"/>
+<attribute name="TYPE" x="58.42" y="83.82" size="1.778" layer="96" rot="R90" display="off"/>
+<attribute name="SIZE" x="58.42" y="83.82" size="1.778" layer="96" rot="R90" display="off"/>
+<attribute name="VOLT" x="58.42" y="83.82" size="1.778" layer="96" rot="R90" display="off"/>
 </instance>
 <instance part="SJ2" gate="G$1" x="51.308" y="89.662" smashed="yes" rot="R90">
 <attribute name="NAME" x="50.927" y="92.202" size="1.778" layer="95" rot="R90"/>
 <attribute name="PARTNO" x="51.308" y="89.662" size="1.778" layer="96" display="off"/>
 <attribute name="BOM" x="51.308" y="89.662" size="1.778" layer="96" rot="R90" display="off"/>
+<attribute name="TOL" x="51.308" y="89.662" size="1.778" layer="96" rot="R90" display="off"/>
+<attribute name="DESC" x="51.308" y="89.662" size="1.778" layer="96" rot="R90" display="off"/>
+<attribute name="TYPE" x="51.308" y="89.662" size="1.778" layer="96" rot="R90" display="off"/>
+<attribute name="SIZE" x="51.308" y="89.662" size="1.778" layer="96" rot="R90" display="off"/>
+<attribute name="VOLT" x="51.308" y="89.662" size="1.778" layer="96" rot="R90" display="off"/>
 </instance>
 <instance part="X1" gate="G$1" x="38.1" y="88.9" smashed="yes" rot="R90">
 <attribute name="NAME" x="34.29" y="86.36" size="1.27" layer="95" font="vector" rot="R90"/>
 <attribute name="VALUE" x="43.18" y="85.09" size="1.27" layer="96" font="vector" rot="R90"/>
 <attribute name="PARTNO" x="38.1" y="88.9" size="1.778" layer="96" display="off"/>
 <attribute name="BOM" x="38.1" y="88.9" size="1.778" layer="96" rot="R90" display="off"/>
+<attribute name="TOL" x="38.1" y="88.9" size="1.778" layer="96" rot="R90" display="off"/>
+<attribute name="DESC" x="38.1" y="88.9" size="1.778" layer="96" rot="R90" display="off"/>
+<attribute name="TYPE" x="38.1" y="88.9" size="1.778" layer="96" rot="R90" display="off"/>
+<attribute name="SIZE" x="38.1" y="88.9" size="1.778" layer="96" rot="R90" display="off"/>
+<attribute name="VOLT" x="38.1" y="88.9" size="1.778" layer="96" rot="R90" display="off"/>
 </instance>
 <instance part="C15" gate="G$1" x="25.4" y="93.98" smashed="yes" rot="R90">
 <attribute name="NAME" x="23.495" y="94.996" size="1.778" layer="95" rot="R90"/>
 <attribute name="VALUE" x="28.321" y="94.996" size="1.778" layer="96" rot="R90"/>
 <attribute name="PARTNO" x="25.4" y="93.98" size="1.778" layer="96" display="off"/>
 <attribute name="BOM" x="25.4" y="93.98" size="1.778" layer="96" rot="R90" display="off"/>
+<attribute name="TOL" x="25.4" y="93.98" size="1.778" layer="96" rot="R90" display="off"/>
+<attribute name="DESC" x="25.4" y="93.98" size="1.778" layer="96" rot="R90" display="off"/>
+<attribute name="TYPE" x="25.4" y="93.98" size="1.778" layer="96" rot="R90" display="off"/>
+<attribute name="SIZE" x="25.4" y="93.98" size="1.778" layer="96" rot="R90" display="off"/>
+<attribute name="VOLT" x="25.4" y="93.98" size="1.778" layer="96" rot="R90" display="off"/>
 </instance>
 <instance part="C16" gate="G$1" x="25.4" y="83.82" smashed="yes" rot="R90">
 <attribute name="NAME" x="23.495" y="84.836" size="1.778" layer="95" rot="R90"/>
 <attribute name="VALUE" x="28.321" y="84.836" size="1.778" layer="96" rot="R90"/>
 <attribute name="PARTNO" x="25.4" y="83.82" size="1.778" layer="96" display="off"/>
 <attribute name="BOM" x="25.4" y="83.82" size="1.778" layer="96" rot="R90" display="off"/>
+<attribute name="TOL" x="25.4" y="83.82" size="1.778" layer="96" rot="R90" display="off"/>
+<attribute name="DESC" x="25.4" y="83.82" size="1.778" layer="96" rot="R90" display="off"/>
+<attribute name="TYPE" x="25.4" y="83.82" size="1.778" layer="96" rot="R90" display="off"/>
+<attribute name="SIZE" x="25.4" y="83.82" size="1.778" layer="96" rot="R90" display="off"/>
+<attribute name="VOLT" x="25.4" y="83.82" size="1.778" layer="96" rot="R90" display="off"/>
 </instance>
 <instance part="JP14" gate="G$1" x="45.72" y="38.1" smashed="yes">
 <attribute name="NAME" x="45.72" y="40.64" size="1.778" layer="95" font="vector" align="bottom-center"/>
 <attribute name="PARTNO" x="45.72" y="38.1" size="1.778" layer="96" display="off"/>
 <attribute name="BOM" x="45.72" y="38.1" size="1.778" layer="96" display="off"/>
+<attribute name="TOL" x="45.72" y="38.1" size="1.778" layer="96" display="off"/>
+<attribute name="DESC" x="45.72" y="38.1" size="1.778" layer="96" display="off"/>
+<attribute name="TYPE" x="45.72" y="38.1" size="1.778" layer="96" display="off"/>
+<attribute name="SIZE" x="45.72" y="38.1" size="1.778" layer="96" display="off"/>
+<attribute name="VOLT" x="45.72" y="38.1" size="1.778" layer="96" display="off"/>
 </instance>
 <instance part="+3V20" gate="G$1" x="302.26" y="71.12" smashed="yes" rot="MR0"/>
 <instance part="SJ3" gate="G$1" x="78.74" y="226.06" smashed="yes">
@@ -8349,188 +9102,358 @@ F_MAX=1000kHz</text>
 <attribute name="VALUE" x="340.36" y="33.02" size="1.778" layer="96"/>
 <attribute name="MPN" x="350.52" y="53.34" size="1.778" layer="96" display="off"/>
 <attribute name="PARTNO" x="350.52" y="53.34" size="1.778" layer="96" display="off"/>
+<attribute name="DESC" x="350.52" y="53.34" size="1.778" layer="96" display="off"/>
+<attribute name="TYPE" x="350.52" y="53.34" size="1.778" layer="96" display="off"/>
+<attribute name="SIZE" x="350.52" y="53.34" size="1.778" layer="96" display="off"/>
+<attribute name="MANUFACTURER" x="350.52" y="53.34" size="1.778" layer="96" display="off"/>
+<attribute name="HEIGHT" x="350.52" y="53.34" size="1.778" layer="96" display="off"/>
 </instance>
 <instance part="+3V21" gate="G$1" x="370.84" y="78.74" smashed="yes" rot="MR0"/>
 <instance part="GND24" gate="1" x="370.84" y="30.48" smashed="yes" rot="MR0">
 <attribute name="VALUE" x="373.38" y="27.94" size="1.778" layer="96" rot="MR0"/>
 </instance>
-<instance part="C25" gate="G$1" x="370.84" y="50.8" smashed="yes" rot="MR0">
-<attribute name="TOL" x="370.84" y="50.8" size="1.27" layer="96" rot="MR0" display="off"/>
+<instance part="C25" gate="G$1" x="370.84" y="50.8" smashed="yes" rot="MR0" grouprefs="I">
 <attribute name="NAME" x="369.824" y="52.705" size="1.778" layer="95" rot="MR0"/>
 <attribute name="VALUE" x="369.824" y="47.879" size="1.778" layer="96" rot="MR0"/>
 <attribute name="MPN" x="370.84" y="50.8" size="1.778" layer="96" rot="MR0" display="off"/>
 <attribute name="PARTNO" x="370.84" y="50.8" size="1.778" layer="96" display="off"/>
+<attribute name="DESC" x="370.84" y="50.8" size="1.778" layer="96" rot="MR0" display="off"/>
+<attribute name="TYPE" x="370.84" y="50.8" size="1.778" layer="96" rot="MR0" display="off"/>
+<attribute name="SIZE" x="370.84" y="50.8" size="1.778" layer="96" rot="MR0" display="off"/>
+<attribute name="VOLT" x="370.84" y="50.8" size="1.778" layer="96" rot="MR0" display="off"/>
+<attribute name="HEIGHT" x="370.84" y="50.8" size="1.778" layer="96" rot="MR0" display="off"/>
 </instance>
 <instance part="R5" gate="G$1" x="307.34" y="91.44" smashed="yes">
 <attribute name="NAME" x="303.53" y="92.9386" size="1.778" layer="95"/>
 <attribute name="VALUE" x="303.53" y="88.138" size="1.778" layer="96"/>
 <attribute name="MPN" x="307.34" y="91.44" size="1.778" layer="96" display="off"/>
 <attribute name="PARTNO" x="307.34" y="91.44" size="1.778" layer="96" display="off"/>
+<attribute name="TOL" x="307.34" y="91.44" size="1.778" layer="96" display="off"/>
+<attribute name="DESC" x="307.34" y="91.44" size="1.778" layer="96" display="off"/>
+<attribute name="TYPE" x="307.34" y="91.44" size="1.778" layer="96" display="off"/>
+<attribute name="SIZE" x="307.34" y="91.44" size="1.778" layer="96" display="off"/>
+<attribute name="TC" x="307.34" y="91.44" size="1.778" layer="96" display="off"/>
+<attribute name="HEIGHT" x="307.34" y="91.44" size="1.778" layer="96" display="off"/>
 </instance>
 <instance part="R6" gate="G$1" x="307.34" y="86.36" smashed="yes">
 <attribute name="NAME" x="303.53" y="87.8586" size="1.778" layer="95"/>
 <attribute name="VALUE" x="303.53" y="83.058" size="1.778" layer="96"/>
 <attribute name="MPN" x="307.34" y="86.36" size="1.778" layer="96" display="off"/>
 <attribute name="PARTNO" x="307.34" y="86.36" size="1.778" layer="96" display="off"/>
+<attribute name="TOL" x="307.34" y="86.36" size="1.778" layer="96" display="off"/>
+<attribute name="DESC" x="307.34" y="86.36" size="1.778" layer="96" display="off"/>
+<attribute name="TYPE" x="307.34" y="86.36" size="1.778" layer="96" display="off"/>
+<attribute name="SIZE" x="307.34" y="86.36" size="1.778" layer="96" display="off"/>
+<attribute name="TC" x="307.34" y="86.36" size="1.778" layer="96" display="off"/>
+<attribute name="HEIGHT" x="307.34" y="86.36" size="1.778" layer="96" display="off"/>
 </instance>
 <instance part="+3V22" gate="G$1" x="297.18" y="99.06" smashed="yes"/>
 <instance part="SCL" gate="G$1" x="342.9" y="124.46" smashed="yes">
 <attribute name="NAME" x="344.17" y="120.65" size="1.778" layer="95"/>
 <attribute name="TP_SIGNAL_NAME" x="344.17" y="123.19" size="1.778" layer="97"/>
 <attribute name="PARTNO" x="342.9" y="124.46" size="1.778" layer="96" display="off"/>
+<attribute name="TOL" x="342.9" y="124.46" size="1.778" layer="96" display="off"/>
+<attribute name="DESC" x="342.9" y="124.46" size="1.778" layer="96" display="off"/>
+<attribute name="TYPE" x="342.9" y="124.46" size="1.778" layer="96" display="off"/>
+<attribute name="SIZE" x="342.9" y="124.46" size="1.778" layer="96" display="off"/>
+<attribute name="VOLT" x="342.9" y="124.46" size="1.778" layer="96" display="off"/>
 </instance>
 <instance part="SDA" gate="G$1" x="340.36" y="124.46" smashed="yes">
 <attribute name="NAME" x="334.01" y="128.27" size="1.778" layer="95"/>
 <attribute name="TP_SIGNAL_NAME" x="341.63" y="123.19" size="1.778" layer="97"/>
 <attribute name="PARTNO" x="340.36" y="124.46" size="1.778" layer="96" display="off"/>
+<attribute name="TOL" x="340.36" y="124.46" size="1.778" layer="96" display="off"/>
+<attribute name="DESC" x="340.36" y="124.46" size="1.778" layer="96" display="off"/>
+<attribute name="TYPE" x="340.36" y="124.46" size="1.778" layer="96" display="off"/>
+<attribute name="SIZE" x="340.36" y="124.46" size="1.778" layer="96" display="off"/>
+<attribute name="VOLT" x="340.36" y="124.46" size="1.778" layer="96" display="off"/>
 </instance>
 <instance part="USBV" gate="G$1" x="342.9" y="200.66" smashed="yes">
 <attribute name="NAME" x="341.63" y="201.93" size="1.778" layer="95"/>
 <attribute name="TP_SIGNAL_NAME" x="344.17" y="199.39" size="1.778" layer="97"/>
 <attribute name="PARTNO" x="342.9" y="200.66" size="1.778" layer="96" display="off"/>
+<attribute name="TOL" x="342.9" y="200.66" size="1.778" layer="96" display="off"/>
+<attribute name="DESC" x="342.9" y="200.66" size="1.778" layer="96" display="off"/>
+<attribute name="TYPE" x="342.9" y="200.66" size="1.778" layer="96" display="off"/>
+<attribute name="SIZE" x="342.9" y="200.66" size="1.778" layer="96" display="off"/>
+<attribute name="VOLT" x="342.9" y="200.66" size="1.778" layer="96" display="off"/>
 </instance>
 <instance part="MISO" gate="G$1" x="205.74" y="132.08" smashed="yes">
 <attribute name="NAME" x="199.39" y="135.89" size="1.778" layer="95"/>
 <attribute name="TP_SIGNAL_NAME" x="207.01" y="130.81" size="1.778" layer="97"/>
 <attribute name="PARTNO" x="205.74" y="132.08" size="1.778" layer="96" display="off"/>
+<attribute name="TOL" x="205.74" y="132.08" size="1.778" layer="96" display="off"/>
+<attribute name="DESC" x="205.74" y="132.08" size="1.778" layer="96" display="off"/>
+<attribute name="TYPE" x="205.74" y="132.08" size="1.778" layer="96" display="off"/>
+<attribute name="SIZE" x="205.74" y="132.08" size="1.778" layer="96" display="off"/>
+<attribute name="VOLT" x="205.74" y="132.08" size="1.778" layer="96" display="off"/>
 </instance>
 <instance part="SCK" gate="G$1" x="210.82" y="134.62" smashed="yes">
 <attribute name="NAME" x="204.47" y="138.43" size="1.778" layer="95"/>
 <attribute name="TP_SIGNAL_NAME" x="212.09" y="133.35" size="1.778" layer="97"/>
 <attribute name="PARTNO" x="210.82" y="134.62" size="1.778" layer="96" display="off"/>
+<attribute name="TOL" x="210.82" y="134.62" size="1.778" layer="96" display="off"/>
+<attribute name="DESC" x="210.82" y="134.62" size="1.778" layer="96" display="off"/>
+<attribute name="TYPE" x="210.82" y="134.62" size="1.778" layer="96" display="off"/>
+<attribute name="SIZE" x="210.82" y="134.62" size="1.778" layer="96" display="off"/>
+<attribute name="VOLT" x="210.82" y="134.62" size="1.778" layer="96" display="off"/>
 </instance>
 <instance part="CS1" gate="G$1" x="215.9" y="137.16" smashed="yes">
 <attribute name="NAME" x="209.55" y="140.97" size="1.778" layer="95"/>
 <attribute name="TP_SIGNAL_NAME" x="217.17" y="135.89" size="1.778" layer="97"/>
 <attribute name="PARTNO" x="215.9" y="137.16" size="1.778" layer="96" display="off"/>
+<attribute name="TOL" x="215.9" y="137.16" size="1.778" layer="96" display="off"/>
+<attribute name="DESC" x="215.9" y="137.16" size="1.778" layer="96" display="off"/>
+<attribute name="TYPE" x="215.9" y="137.16" size="1.778" layer="96" display="off"/>
+<attribute name="SIZE" x="215.9" y="137.16" size="1.778" layer="96" display="off"/>
+<attribute name="VOLT" x="215.9" y="137.16" size="1.778" layer="96" display="off"/>
 </instance>
 <instance part="MOSI" gate="G$1" x="220.98" y="139.7" smashed="yes">
 <attribute name="NAME" x="214.63" y="143.51" size="1.778" layer="95"/>
 <attribute name="TP_SIGNAL_NAME" x="222.25" y="138.43" size="1.778" layer="97"/>
 <attribute name="PARTNO" x="220.98" y="139.7" size="1.778" layer="96" display="off"/>
+<attribute name="TOL" x="220.98" y="139.7" size="1.778" layer="96" display="off"/>
+<attribute name="DESC" x="220.98" y="139.7" size="1.778" layer="96" display="off"/>
+<attribute name="TYPE" x="220.98" y="139.7" size="1.778" layer="96" display="off"/>
+<attribute name="SIZE" x="220.98" y="139.7" size="1.778" layer="96" display="off"/>
+<attribute name="VOLT" x="220.98" y="139.7" size="1.778" layer="96" display="off"/>
 </instance>
 <instance part="J2" gate="J$1" x="60.96" y="106.68" smashed="yes" rot="R90">
 <attribute name="NAME" x="51.816" y="99.06" size="1.778" layer="95" rot="R90"/>
 <attribute name="DESCRIPTION" x="74.676" y="99.06" size="1.778" layer="96" rot="R90"/>
 <attribute name="PARTNO" x="60.96" y="106.68" size="1.778" layer="96" display="off"/>
+<attribute name="DESC" x="60.96" y="106.68" size="1.778" layer="96" rot="R90" display="off"/>
+<attribute name="TYPE" x="60.96" y="106.68" size="1.778" layer="96" rot="R90" display="off"/>
 </instance>
 <instance part="A1" gate="G$1" x="132.08" y="218.44" smashed="yes">
 <attribute name="MPN" x="132.08" y="218.44" size="1.778" layer="96" display="off"/>
 <attribute name="PARTNO" x="132.08" y="218.44" size="1.778" layer="96" display="off"/>
+<attribute name="DESC" x="132.08" y="218.44" size="1.778" layer="96" display="off"/>
+<attribute name="TYPE" x="132.08" y="218.44" size="1.778" layer="96" display="off"/>
+<attribute name="MANUFACTURER" x="132.08" y="218.44" size="1.778" layer="96" display="off"/>
+<attribute name="Z-HEIGHT" x="132.08" y="218.44" size="1.778" layer="96" display="off"/>
 </instance>
 <instance part="C3" gate="G$1" x="132.08" y="226.06" smashed="yes" rot="R90">
 <attribute name="NAME" x="130.175" y="227.076" size="1.778" layer="95" rot="R90"/>
 <attribute name="VALUE" x="135.001" y="227.076" size="1.778" layer="96" rot="R90"/>
 <attribute name="MPN" x="132.08" y="226.06" size="1.778" layer="96" rot="R90" display="off"/>
 <attribute name="PARTNO" x="132.08" y="226.06" size="1.778" layer="96" display="off"/>
+<attribute name="TOL" x="132.08" y="226.06" size="1.778" layer="96" rot="R90" display="off"/>
+<attribute name="DESC" x="132.08" y="226.06" size="1.778" layer="96" rot="R90" display="off"/>
+<attribute name="TYPE" x="132.08" y="226.06" size="1.778" layer="96" rot="R90" display="off"/>
+<attribute name="SIZE" x="132.08" y="226.06" size="1.778" layer="96" rot="R90" display="off"/>
+<attribute name="VOLT" x="132.08" y="226.06" size="1.778" layer="96" rot="R90" display="off"/>
+<attribute name="Z-HEIGHT" x="132.08" y="226.06" size="1.778" layer="96" rot="R90" display="off"/>
 </instance>
 <instance part="C5" gate="G$1" x="132.08" y="210.82" smashed="yes" rot="R90">
 <attribute name="NAME" x="130.175" y="211.836" size="1.778" layer="95" rot="R90"/>
 <attribute name="VALUE" x="135.001" y="211.836" size="1.778" layer="96" rot="R90"/>
 <attribute name="MPN" x="132.08" y="210.82" size="1.778" layer="96" rot="R90" display="off"/>
 <attribute name="PARTNO" x="132.08" y="210.82" size="1.778" layer="96" display="off"/>
+<attribute name="TOL" x="132.08" y="210.82" size="1.778" layer="96" rot="R90" display="off"/>
+<attribute name="DESC" x="132.08" y="210.82" size="1.778" layer="96" rot="R90" display="off"/>
+<attribute name="TYPE" x="132.08" y="210.82" size="1.778" layer="96" rot="R90" display="off"/>
+<attribute name="SIZE" x="132.08" y="210.82" size="1.778" layer="96" rot="R90" display="off"/>
+<attribute name="VOLT" x="132.08" y="210.82" size="1.778" layer="96" rot="R90" display="off"/>
+<attribute name="HEIGHT" x="132.08" y="210.82" size="1.778" layer="96" rot="R90" display="off"/>
 </instance>
 <instance part="SW1" gate="G$1" x="25.4" y="48.26" smashed="yes" rot="R270">
 <attribute name="NAME" x="22.86" y="54.61" size="1.778" layer="95"/>
 <attribute name="VALUE" x="24.13" y="47.625" size="1.778" layer="96" rot="R270"/>
 <attribute name="MPN" x="25.4" y="48.26" size="1.778" layer="96" rot="R270" display="off"/>
 <attribute name="PARTNO" x="25.4" y="48.26" size="1.778" layer="96" display="off"/>
+<attribute name="DESC" x="25.4" y="48.26" size="1.778" layer="96" rot="R270" display="off"/>
+<attribute name="TYPE" x="25.4" y="48.26" size="1.778" layer="96" rot="R270" display="off"/>
+<attribute name="SIZE" x="25.4" y="48.26" size="1.778" layer="96" rot="R270" display="off"/>
+<attribute name="MANUFACTURER" x="25.4" y="48.26" size="1.778" layer="96" rot="R270" display="off"/>
+<attribute name="HEIGHT" x="25.4" y="48.26" size="1.778" layer="96" rot="R270" display="off"/>
 </instance>
 <instance part="SW2" gate="G$1" x="185.42" y="228.6" smashed="yes" rot="R270">
 <attribute name="NAME" x="182.88" y="234.95" size="1.778" layer="95"/>
 <attribute name="VALUE" x="184.15" y="227.965" size="1.778" layer="96" rot="R270"/>
 <attribute name="MPN" x="185.42" y="228.6" size="1.778" layer="96" rot="R270" display="off"/>
 <attribute name="PARTNO" x="185.42" y="228.6" size="1.778" layer="96" display="off"/>
+<attribute name="DESC" x="185.42" y="228.6" size="1.778" layer="96" rot="R270" display="off"/>
+<attribute name="TYPE" x="185.42" y="228.6" size="1.778" layer="96" rot="R270" display="off"/>
+<attribute name="SIZE" x="185.42" y="228.6" size="1.778" layer="96" rot="R270" display="off"/>
+<attribute name="MANUFACTURER" x="185.42" y="228.6" size="1.778" layer="96" rot="R270" display="off"/>
+<attribute name="HEIGHT" x="185.42" y="228.6" size="1.778" layer="96" rot="R270" display="off"/>
 </instance>
 <instance part="C26" gate="G$1" x="86.36" y="231.14" smashed="yes" rot="R90">
 <attribute name="NAME" x="84.455" y="232.156" size="1.778" layer="95" rot="R90"/>
 <attribute name="VALUE" x="89.281" y="232.156" size="1.778" layer="96" rot="R90"/>
 <attribute name="MPN" x="86.36" y="231.14" size="1.778" layer="96" rot="R90" display="off"/>
 <attribute name="PARTNO" x="86.36" y="231.14" size="1.778" layer="96" rot="R90" display="off"/>
+<attribute name="TOL" x="86.36" y="231.14" size="1.778" layer="96" rot="R90" display="off"/>
+<attribute name="DESC" x="86.36" y="231.14" size="1.778" layer="96" rot="R90" display="off"/>
+<attribute name="TYPE" x="86.36" y="231.14" size="1.778" layer="96" rot="R90" display="off"/>
+<attribute name="SIZE" x="86.36" y="231.14" size="1.778" layer="96" rot="R90" display="off"/>
+<attribute name="VOLT" x="86.36" y="231.14" size="1.778" layer="96" rot="R90" display="off"/>
+<attribute name="HEIGHT" x="86.36" y="231.14" size="1.778" layer="96" rot="R90" display="off"/>
 </instance>
 <instance part="R27" gate="G$1" x="96.52" y="224.536" smashed="yes">
 <attribute name="NAME" x="82.296" y="221.361" size="1.778" layer="95"/>
 <attribute name="VALUE" x="97.536" y="221.615" size="1.778" layer="96"/>
 <attribute name="MPN" x="96.52" y="224.536" size="1.778" layer="96" display="off"/>
 <attribute name="PARTNO" x="96.52" y="224.536" size="1.778" layer="96" rot="R90" display="off"/>
+<attribute name="TOL" x="96.52" y="224.536" size="1.778" layer="96" display="off"/>
+<attribute name="DESC" x="96.52" y="224.536" size="1.778" layer="96" display="off"/>
+<attribute name="TYPE" x="96.52" y="224.536" size="1.778" layer="96" display="off"/>
+<attribute name="SIZE" x="96.52" y="224.536" size="1.778" layer="96" display="off"/>
 </instance>
 <instance part="R28" gate="G$1" x="116.332" y="224.536" smashed="yes">
 <attribute name="NAME" x="117.348" y="226.441" size="1.778" layer="95"/>
 <attribute name="VALUE" x="117.348" y="221.615" size="1.778" layer="96"/>
 <attribute name="MPN" x="116.332" y="224.536" size="1.778" layer="96" display="off"/>
 <attribute name="PARTNO" x="116.332" y="224.536" size="1.778" layer="96" rot="R90" display="off"/>
+<attribute name="TOL" x="116.332" y="224.536" size="1.778" layer="96" display="off"/>
+<attribute name="DESC" x="116.332" y="224.536" size="1.778" layer="96" display="off"/>
+<attribute name="TYPE" x="116.332" y="224.536" size="1.778" layer="96" display="off"/>
+<attribute name="SIZE" x="116.332" y="224.536" size="1.778" layer="96" display="off"/>
 </instance>
 <instance part="L1" gate="G$1" x="106.68" y="231.14" smashed="yes">
 <attribute name="NAME" x="101.59153125" y="233.04818125" size="1.780959375" layer="95"/>
 <attribute name="VALUE" x="101.594559375" y="228.59728125" size="1.779909375" layer="96"/>
-<attribute name="MPN" x="106.68" y="231.14" size="1.778" layer="96" display="off"/>
 <attribute name="PARTNO" x="106.68" y="231.14" size="1.778" layer="96" display="off"/>
+<attribute name="TOL" x="106.68" y="231.14" size="1.778" layer="96" display="off"/>
+<attribute name="DESC" x="106.68" y="231.14" size="1.778" layer="96" display="off"/>
+<attribute name="TYPE" x="106.68" y="231.14" size="1.778" layer="96" display="off"/>
+<attribute name="SIZE" x="106.68" y="231.14" size="1.778" layer="96" display="off"/>
+<attribute name="MANUFACTURER" x="106.68" y="231.14" size="1.778" layer="96" display="off"/>
+<attribute name="HEIGHT" x="106.68" y="231.14" size="1.778" layer="96" display="off"/>
+<attribute name="MPN" x="106.68" y="231.14" size="1.778" layer="96" display="off"/>
 </instance>
 <instance part="T5" gate="G$1" x="208.28" y="96.52" smashed="yes">
 <attribute name="NAME" x="207.01" y="97.79" size="1.778" layer="95"/>
 <attribute name="TP_SIGNAL_NAME" x="209.55" y="95.25" size="1.778" layer="97"/>
 <attribute name="PARTNO" x="208.28" y="96.52" size="1.778" layer="96" display="off"/>
+<attribute name="TOL" x="208.28" y="96.52" size="1.778" layer="96" display="off"/>
+<attribute name="DESC" x="208.28" y="96.52" size="1.778" layer="96" display="off"/>
+<attribute name="TYPE" x="208.28" y="96.52" size="1.778" layer="96" display="off"/>
+<attribute name="SIZE" x="208.28" y="96.52" size="1.778" layer="96" display="off"/>
+<attribute name="VOLT" x="208.28" y="96.52" size="1.778" layer="96" display="off"/>
 </instance>
 <instance part="T6" gate="G$1" x="210.82" y="93.98" smashed="yes">
 <attribute name="NAME" x="209.55" y="95.25" size="1.778" layer="95"/>
 <attribute name="TP_SIGNAL_NAME" x="212.09" y="92.71" size="1.778" layer="97"/>
 <attribute name="PARTNO" x="210.82" y="93.98" size="1.778" layer="96" display="off"/>
+<attribute name="TOL" x="210.82" y="93.98" size="1.778" layer="96" display="off"/>
+<attribute name="DESC" x="210.82" y="93.98" size="1.778" layer="96" display="off"/>
+<attribute name="TYPE" x="210.82" y="93.98" size="1.778" layer="96" display="off"/>
+<attribute name="SIZE" x="210.82" y="93.98" size="1.778" layer="96" display="off"/>
+<attribute name="VOLT" x="210.82" y="93.98" size="1.778" layer="96" display="off"/>
 </instance>
 <instance part="T11" gate="G$1" x="213.36" y="91.44" smashed="yes">
 <attribute name="NAME" x="212.09" y="92.71" size="1.778" layer="95"/>
 <attribute name="TP_SIGNAL_NAME" x="214.63" y="90.17" size="1.778" layer="97"/>
 <attribute name="PARTNO" x="213.36" y="91.44" size="1.778" layer="96" display="off"/>
+<attribute name="TOL" x="213.36" y="91.44" size="1.778" layer="96" display="off"/>
+<attribute name="DESC" x="213.36" y="91.44" size="1.778" layer="96" display="off"/>
+<attribute name="TYPE" x="213.36" y="91.44" size="1.778" layer="96" display="off"/>
+<attribute name="SIZE" x="213.36" y="91.44" size="1.778" layer="96" display="off"/>
+<attribute name="VOLT" x="213.36" y="91.44" size="1.778" layer="96" display="off"/>
 </instance>
 <instance part="T8" gate="G$1" x="205.74" y="99.06" smashed="yes">
 <attribute name="NAME" x="204.47" y="100.33" size="1.778" layer="95"/>
 <attribute name="TP_SIGNAL_NAME" x="207.01" y="97.79" size="1.778" layer="97"/>
 <attribute name="PARTNO" x="205.74" y="99.06" size="1.778" layer="96" display="off"/>
+<attribute name="TOL" x="205.74" y="99.06" size="1.778" layer="96" display="off"/>
+<attribute name="DESC" x="205.74" y="99.06" size="1.778" layer="96" display="off"/>
+<attribute name="TYPE" x="205.74" y="99.06" size="1.778" layer="96" display="off"/>
+<attribute name="SIZE" x="205.74" y="99.06" size="1.778" layer="96" display="off"/>
+<attribute name="VOLT" x="205.74" y="99.06" size="1.778" layer="96" display="off"/>
 </instance>
 <instance part="T7" gate="G$1" x="203.2" y="101.6" smashed="yes">
 <attribute name="NAME" x="201.93" y="102.87" size="1.778" layer="95"/>
 <attribute name="TP_SIGNAL_NAME" x="204.47" y="100.33" size="1.778" layer="97"/>
 <attribute name="PARTNO" x="203.2" y="101.6" size="1.778" layer="96" display="off"/>
+<attribute name="TOL" x="203.2" y="101.6" size="1.778" layer="96" display="off"/>
+<attribute name="DESC" x="203.2" y="101.6" size="1.778" layer="96" display="off"/>
+<attribute name="TYPE" x="203.2" y="101.6" size="1.778" layer="96" display="off"/>
+<attribute name="SIZE" x="203.2" y="101.6" size="1.778" layer="96" display="off"/>
+<attribute name="VOLT" x="203.2" y="101.6" size="1.778" layer="96" display="off"/>
 </instance>
 <instance part="T2" gate="G$1" x="106.68" y="106.68" smashed="yes">
 <attribute name="NAME" x="105.41" y="107.95" size="1.778" layer="95"/>
 <attribute name="TP_SIGNAL_NAME" x="107.95" y="105.41" size="1.778" layer="97"/>
 <attribute name="PARTNO" x="106.68" y="106.68" size="1.778" layer="96" display="off"/>
+<attribute name="TOL" x="106.68" y="106.68" size="1.778" layer="96" display="off"/>
+<attribute name="DESC" x="106.68" y="106.68" size="1.778" layer="96" display="off"/>
+<attribute name="TYPE" x="106.68" y="106.68" size="1.778" layer="96" display="off"/>
+<attribute name="SIZE" x="106.68" y="106.68" size="1.778" layer="96" display="off"/>
+<attribute name="VOLT" x="106.68" y="106.68" size="1.778" layer="96" display="off"/>
 </instance>
 <instance part="T1" gate="G$1" x="111.76" y="104.14" smashed="yes">
 <attribute name="NAME" x="110.49" y="105.41" size="1.778" layer="95"/>
 <attribute name="TP_SIGNAL_NAME" x="113.03" y="102.87" size="1.778" layer="97"/>
 <attribute name="PARTNO" x="111.76" y="104.14" size="1.778" layer="96" display="off"/>
+<attribute name="TOL" x="111.76" y="104.14" size="1.778" layer="96" display="off"/>
+<attribute name="DESC" x="111.76" y="104.14" size="1.778" layer="96" display="off"/>
+<attribute name="TYPE" x="111.76" y="104.14" size="1.778" layer="96" display="off"/>
+<attribute name="SIZE" x="111.76" y="104.14" size="1.778" layer="96" display="off"/>
+<attribute name="VOLT" x="111.76" y="104.14" size="1.778" layer="96" display="off"/>
 </instance>
 <instance part="T10" gate="G$1" x="215.9" y="88.9" smashed="yes">
 <attribute name="NAME" x="214.63" y="90.17" size="1.778" layer="95"/>
 <attribute name="TP_SIGNAL_NAME" x="217.17" y="87.63" size="1.778" layer="97"/>
 <attribute name="PARTNO" x="215.9" y="88.9" size="1.778" layer="96" display="off"/>
+<attribute name="TOL" x="215.9" y="88.9" size="1.778" layer="96" display="off"/>
+<attribute name="DESC" x="215.9" y="88.9" size="1.778" layer="96" display="off"/>
+<attribute name="TYPE" x="215.9" y="88.9" size="1.778" layer="96" display="off"/>
+<attribute name="SIZE" x="215.9" y="88.9" size="1.778" layer="96" display="off"/>
+<attribute name="VOLT" x="215.9" y="88.9" size="1.778" layer="96" display="off"/>
 </instance>
 <instance part="T9" gate="G$1" x="218.44" y="86.36" smashed="yes">
 <attribute name="NAME" x="217.17" y="87.63" size="1.778" layer="95"/>
 <attribute name="TP_SIGNAL_NAME" x="219.71" y="85.09" size="1.778" layer="97"/>
 <attribute name="PARTNO" x="218.44" y="86.36" size="1.778" layer="96" display="off"/>
+<attribute name="TOL" x="218.44" y="86.36" size="1.778" layer="96" display="off"/>
+<attribute name="DESC" x="218.44" y="86.36" size="1.778" layer="96" display="off"/>
+<attribute name="TYPE" x="218.44" y="86.36" size="1.778" layer="96" display="off"/>
+<attribute name="SIZE" x="218.44" y="86.36" size="1.778" layer="96" display="off"/>
+<attribute name="VOLT" x="218.44" y="86.36" size="1.778" layer="96" display="off"/>
 </instance>
 <instance part="T4" gate="G$1" x="203.2" y="83.82" smashed="yes">
 <attribute name="NAME" x="201.93" y="85.09" size="1.778" layer="95"/>
 <attribute name="TP_SIGNAL_NAME" x="204.47" y="82.55" size="1.778" layer="97"/>
 <attribute name="PARTNO" x="203.2" y="83.82" size="1.778" layer="96" display="off"/>
+<attribute name="TOL" x="203.2" y="83.82" size="1.778" layer="96" display="off"/>
+<attribute name="DESC" x="203.2" y="83.82" size="1.778" layer="96" display="off"/>
+<attribute name="TYPE" x="203.2" y="83.82" size="1.778" layer="96" display="off"/>
+<attribute name="SIZE" x="203.2" y="83.82" size="1.778" layer="96" display="off"/>
+<attribute name="VOLT" x="203.2" y="83.82" size="1.778" layer="96" display="off"/>
 </instance>
 <instance part="T3" gate="G$1" x="205.74" y="81.28" smashed="yes">
 <attribute name="NAME" x="204.47" y="82.55" size="1.778" layer="95"/>
 <attribute name="TP_SIGNAL_NAME" x="207.01" y="80.01" size="1.778" layer="97"/>
 <attribute name="PARTNO" x="205.74" y="81.28" size="1.778" layer="96" display="off"/>
+<attribute name="TOL" x="205.74" y="81.28" size="1.778" layer="96" display="off"/>
+<attribute name="DESC" x="205.74" y="81.28" size="1.778" layer="96" display="off"/>
+<attribute name="TYPE" x="205.74" y="81.28" size="1.778" layer="96" display="off"/>
+<attribute name="SIZE" x="205.74" y="81.28" size="1.778" layer="96" display="off"/>
+<attribute name="VOLT" x="205.74" y="81.28" size="1.778" layer="96" display="off"/>
 </instance>
 <instance part="EN" gate="G$1" x="162.56" y="101.6" smashed="yes">
 <attribute name="NAME" x="161.29" y="102.87" size="1.778" layer="95"/>
 <attribute name="TP_SIGNAL_NAME" x="163.83" y="100.33" size="1.778" layer="97"/>
 <attribute name="PARTNO" x="162.56" y="101.6" size="1.778" layer="96" display="off"/>
+<attribute name="TOL" x="162.56" y="101.6" size="1.778" layer="96" display="off"/>
+<attribute name="DESC" x="162.56" y="101.6" size="1.778" layer="96" display="off"/>
+<attribute name="TYPE" x="162.56" y="101.6" size="1.778" layer="96" display="off"/>
+<attribute name="SIZE" x="162.56" y="101.6" size="1.778" layer="96" display="off"/>
+<attribute name="VOLT" x="162.56" y="101.6" size="1.778" layer="96" display="off"/>
 </instance>
-<instance part="C40" gate="G$1" x="309.88" y="48.26" smashed="yes" rot="R180">
+<instance part="C40" gate="G$1" x="309.88" y="48.26" smashed="yes" rot="R180" grouprefs="10UCAP">
 <attribute name="NAME" x="312.17" y="47.01" size="1.27" layer="95" font="vector" rot="R270" align="center"/>
 <attribute name="VALUE" x="307.58" y="47.01" size="1.27" layer="96" font="vector" rot="R270" align="center"/>
 <attribute name="MPN" x="309.88" y="48.26" size="1.778" layer="96" rot="R180" display="off"/>
 <attribute name="PARTNO" x="309.88" y="48.26" size="1.778" layer="96" display="off"/>
+<attribute name="TOL" x="309.88" y="48.26" size="1.778" layer="96" rot="R180" display="off"/>
+<attribute name="DESC" x="309.88" y="48.26" size="1.778" layer="96" rot="R180" display="off"/>
+<attribute name="TYPE" x="309.88" y="48.26" size="1.778" layer="96" rot="R180" display="off"/>
+<attribute name="SIZE" x="309.88" y="48.26" size="1.778" layer="96" rot="R180" display="off"/>
+<attribute name="VOLT" x="309.88" y="48.26" size="1.778" layer="96" rot="R180" display="off"/>
+<attribute name="HEIGHT" x="309.88" y="48.26" size="1.778" layer="96" rot="R180" display="off"/>
 </instance>
 </instances>
 <busses>
@@ -8594,10 +9517,10 @@ F_MAX=1000kHz</text>
 <segment>
 <pinref part="U$6" gate="1" pin="GND"/>
 <wire x1="193.04" y1="144.78" x2="193.04" y2="152.4" width="0.1524" layer="91"/>
-<pinref part="U$4" gate="G$1" pin="GND"/>
+<pinref part="U19" gate="G$1" pin="GND"/>
 <wire x1="193.04" y1="152.4" x2="193.04" y2="157.48" width="0.1524" layer="91"/>
 <wire x1="200.66" y1="157.48" x2="193.04" y2="157.48" width="0.1524" layer="91"/>
-<pinref part="U$4" gate="G$1" pin="GNDA"/>
+<pinref part="U19" gate="G$1" pin="GNDA"/>
 <wire x1="200.66" y1="152.4" x2="193.04" y2="152.4" width="0.1524" layer="91"/>
 <junction x="193.04" y="152.4"/>
 </segment>
@@ -8630,7 +9553,7 @@ F_MAX=1000kHz</text>
 <junction x="210.82" y="40.64"/>
 <junction x="210.82" y="48.26"/>
 <pinref part="GND6" gate="1" pin="GND"/>
-<pinref part="ATTINY-817" gate="A" pin="GND"/>
+<pinref part="U17" gate="A" pin="GND"/>
 <pinref part="C12" gate="G$1" pin="1"/>
 <pinref part="C13" gate="G$1" pin="1"/>
 </segment>
@@ -8676,11 +9599,11 @@ F_MAX=1000kHz</text>
 <junction x="378.46" y="152.4"/>
 </segment>
 <segment>
-<pinref part="J-TAG/UPDI" gate="G$1" pin="GND"/>
+<pinref part="J6" gate="G$1" pin="GND"/>
 <wire x1="91.44" y1="27.94" x2="96.52" y2="27.94" width="0.1524" layer="91"/>
 <pinref part="GND5" gate="1" pin="GND"/>
 <wire x1="96.52" y1="27.94" x2="96.52" y2="12.7" width="0.1524" layer="91"/>
-<pinref part="ATTINY-817" gate="A" pin="EPAD"/>
+<pinref part="U17" gate="A" pin="EPAD"/>
 <wire x1="88.9" y1="48.26" x2="88.9" y2="40.64" width="0.1524" layer="91"/>
 <wire x1="88.9" y1="40.64" x2="96.52" y2="40.64" width="0.1524" layer="91"/>
 <wire x1="96.52" y1="40.64" x2="96.52" y2="27.94" width="0.1524" layer="91"/>
@@ -8741,7 +9664,7 @@ F_MAX=1000kHz</text>
 <wire x1="142.24" y1="142.24" x2="132.08" y2="142.24" width="0.1524" layer="91"/>
 <junction x="132.08" y="142.24"/>
 <pinref part="U2" gate="A" pin="-VS"/>
-<wire x1="121.92" y1="162.56" x2="127" y2="162.56" width="0.1524" layer="91"/>
+<wire x1="114.3" y1="162.56" x2="127" y2="162.56" width="0.1524" layer="91"/>
 <wire x1="127" y1="162.56" x2="127" y2="142.24" width="0.1524" layer="91"/>
 <wire x1="127" y1="142.24" x2="132.08" y2="142.24" width="0.1524" layer="91"/>
 <pinref part="R3" gate="G$1" pin="2"/>
@@ -8762,14 +9685,14 @@ F_MAX=1000kHz</text>
 <segment>
 <pinref part="GND10" gate="1" pin="GND"/>
 <wire x1="284.48" y1="35.56" x2="284.48" y2="38.1" width="0.1524" layer="91"/>
-<pinref part="U205" gate="G$1" pin="GND"/>
+<pinref part="U18" gate="G$1" pin="GND"/>
 <wire x1="284.48" y1="38.1" x2="284.48" y2="48.26" width="0.1524" layer="91"/>
 <wire x1="284.48" y1="48.26" x2="279.4" y2="48.26" width="0.1524" layer="91"/>
-<pinref part="C203" gate="G$1" pin="2"/>
+<pinref part="C47" gate="G$1" pin="2"/>
 <wire x1="302.26" y1="40.64" x2="302.26" y2="38.1" width="0.1524" layer="91"/>
 <wire x1="302.26" y1="38.1" x2="292.1" y2="38.1" width="0.1524" layer="91"/>
 <junction x="284.48" y="38.1"/>
-<pinref part="C204" gate="G$1" pin="2"/>
+<pinref part="C48" gate="G$1" pin="2"/>
 <wire x1="292.1" y1="38.1" x2="284.48" y2="38.1" width="0.1524" layer="91"/>
 <wire x1="292.1" y1="40.64" x2="292.1" y2="38.1" width="0.1524" layer="91"/>
 <junction x="292.1" y="38.1"/>
@@ -8808,7 +9731,7 @@ F_MAX=1000kHz</text>
 </net>
 <net name="LORA_MOSI" class="0">
 <segment>
-<pinref part="U$4" gate="G$1" pin="PB10/I10/SERCOM4.2/I2SMC"/>
+<pinref part="U19" gate="G$1" pin="PB10/I10/SERCOM4.2/I2SMC"/>
 <label x="187.96" y="182.88" size="1.778" layer="95"/>
 <wire x1="200.66" y1="182.88" x2="170.18" y2="182.88" width="0.1524" layer="91"/>
 <wire x1="170.18" y1="182.88" x2="167.64" y2="185.42" width="0.1524" layer="91"/>
@@ -8822,7 +9745,7 @@ F_MAX=1000kHz</text>
 </net>
 <net name="LORA_MISO" class="0">
 <segment>
-<pinref part="U$4" gate="G$1" pin="PA12/I12/I2C/SERCOM2+4.0"/>
+<pinref part="U19" gate="G$1" pin="PA12/I12/I2C/SERCOM2+4.0"/>
 <label x="281.94" y="195.58" size="1.778" layer="95"/>
 <wire x1="276.86" y1="195.58" x2="317.5" y2="195.58" width="0.1524" layer="91"/>
 <wire x1="317.5" y1="195.58" x2="320.04" y2="193.04" width="0.1524" layer="91"/>
@@ -8836,7 +9759,7 @@ F_MAX=1000kHz</text>
 </net>
 <net name="LORA_SCK" class="0">
 <segment>
-<pinref part="U$4" gate="G$1" pin="PB11/I11/SERCOM4.3/I2SCL"/>
+<pinref part="U19" gate="G$1" pin="PB11/I11/SERCOM4.3/I2SCL"/>
 <label x="187.96" y="180.34" size="1.778" layer="95"/>
 <wire x1="200.66" y1="180.34" x2="170.18" y2="180.34" width="0.1524" layer="91"/>
 <wire x1="170.18" y1="180.34" x2="167.64" y2="182.88" width="0.1524" layer="91"/>
@@ -8850,7 +9773,7 @@ F_MAX=1000kHz</text>
 </net>
 <net name="BUS0_SERCOM_P0" class="0">
 <segment>
-<pinref part="U$4" gate="G$1" pin="PA16/I2C/I0/SERCOM1+3.0"/>
+<pinref part="U19" gate="G$1" pin="PA16/I2C/I0/SERCOM1+3.0"/>
 <label x="281.94" y="182.88" size="1.778" layer="95"/>
 <wire x1="276.86" y1="182.88" x2="312.42" y2="182.88" width="0.1524" layer="91"/>
 <wire x1="312.42" y1="182.88" x2="314.96" y2="180.34" width="0.1524" layer="91"/>
@@ -8862,7 +9785,7 @@ F_MAX=1000kHz</text>
 </net>
 <net name="BUS0_SERCOM_P3" class="0">
 <segment>
-<pinref part="U$4" gate="G$1" pin="PA19/I3/SERCOM1+3.3/I2SD0"/>
+<pinref part="U19" gate="G$1" pin="PA19/I3/SERCOM1+3.3/I2SD0"/>
 <label x="281.94" y="175.26" size="1.778" layer="95"/>
 <wire x1="276.86" y1="175.26" x2="312.42" y2="175.26" width="0.1524" layer="91"/>
 <wire x1="312.42" y1="175.26" x2="314.96" y2="172.72" width="0.1524" layer="91"/>
@@ -8874,7 +9797,7 @@ F_MAX=1000kHz</text>
 </net>
 <net name="AREF" class="0">
 <segment>
-<pinref part="U$4" gate="G$1" pin="PA03/EINT3/VREFA/AIN1"/>
+<pinref part="U19" gate="G$1" pin="PA03/EINT3/VREFA/AIN1"/>
 <wire x1="276.86" y1="220.98" x2="289.56" y2="220.98" width="0.1524" layer="91"/>
 <label x="281.94" y="220.98" size="1.778" layer="95"/>
 <pinref part="C14" gate="G$1" pin="1"/>
@@ -8882,14 +9805,14 @@ F_MAX=1000kHz</text>
 </net>
 <net name="+3V3_SAMD" class="1">
 <segment>
-<pinref part="U$4" gate="G$1" pin="VDDIO"/>
+<pinref part="U19" gate="G$1" pin="VDDIO"/>
 <pinref part="+3V3_DTR" gate="G$1" pin="+3V3"/>
 <wire x1="200.66" y1="220.98" x2="193.04" y2="220.98" width="0.1524" layer="91"/>
-<pinref part="U$4" gate="G$1" pin="VDDA"/>
+<pinref part="U19" gate="G$1" pin="VDDA"/>
 <wire x1="200.66" y1="218.44" x2="193.04" y2="218.44" width="0.1524" layer="91"/>
 <wire x1="193.04" y1="218.44" x2="193.04" y2="220.98" width="0.1524" layer="91"/>
 <junction x="193.04" y="220.98"/>
-<pinref part="U$4" gate="G$1" pin="VDDIN"/>
+<pinref part="U19" gate="G$1" pin="VDDIN"/>
 <wire x1="200.66" y1="213.36" x2="193.04" y2="213.36" width="0.1524" layer="91"/>
 <wire x1="193.04" y1="213.36" x2="193.04" y2="218.44" width="0.1524" layer="91"/>
 <junction x="193.04" y="218.44"/>
@@ -8905,7 +9828,7 @@ F_MAX=1000kHz</text>
 </net>
 <net name="BUS0_SERCOM_P1" class="0">
 <segment>
-<pinref part="U$4" gate="G$1" pin="PA17/I2C/I1/SERCOM1+3.1"/>
+<pinref part="U19" gate="G$1" pin="PA17/I2C/I1/SERCOM1+3.1"/>
 <label x="281.94" y="180.34" size="1.778" layer="95"/>
 <wire x1="276.86" y1="180.34" x2="312.42" y2="180.34" width="0.1524" layer="91"/>
 <wire x1="312.42" y1="180.34" x2="314.96" y2="177.8" width="0.1524" layer="91"/>
@@ -8917,7 +9840,7 @@ F_MAX=1000kHz</text>
 </net>
 <net name="BUS0_SERCOM_P2" class="0">
 <segment>
-<pinref part="U$4" gate="G$1" pin="PA18/I2/SERCOM1+3.2"/>
+<pinref part="U19" gate="G$1" pin="PA18/I2/SERCOM1+3.2"/>
 <label x="281.94" y="177.8" size="1.778" layer="95"/>
 <wire x1="276.86" y1="177.8" x2="312.42" y2="177.8" width="0.1524" layer="91"/>
 <wire x1="312.42" y1="177.8" x2="314.96" y2="175.26" width="0.1524" layer="91"/>
@@ -8929,7 +9852,7 @@ F_MAX=1000kHz</text>
 </net>
 <net name="SWCLK" class="0">
 <segment>
-<pinref part="U$4" gate="G$1" pin="PA30/I10/SECOM1.2/SWCLK"/>
+<pinref part="U19" gate="G$1" pin="PA30/I10/SECOM1.2/SWCLK"/>
 <label x="281.94" y="149.86" size="1.778" layer="95"/>
 <pinref part="J3" gate="G$1" pin="SWDCLK/TCK"/>
 <wire x1="276.86" y1="149.86" x2="340.36" y2="149.86" width="0.1524" layer="91"/>
@@ -8937,7 +9860,7 @@ F_MAX=1000kHz</text>
 </net>
 <net name="SWDIO" class="0">
 <segment>
-<pinref part="U$4" gate="G$1" pin="PA31/I11/SECOM1.3/SWDIO"/>
+<pinref part="U19" gate="G$1" pin="PA31/I11/SECOM1.3/SWDIO"/>
 <label x="281.94" y="147.32" size="1.778" layer="95"/>
 <pinref part="J3" gate="G$1" pin="SWDIO/TMS"/>
 <wire x1="276.86" y1="147.32" x2="340.36" y2="147.32" width="0.1524" layer="91"/>
@@ -8945,7 +9868,7 @@ F_MAX=1000kHz</text>
 </net>
 <net name="N$5" class="0">
 <segment>
-<pinref part="U$4" gate="G$1" pin="PA00/EINT0/SERCOM1.0"/>
+<pinref part="U19" gate="G$1" pin="PA00/EINT0/SERCOM1.0"/>
 <pinref part="C2" gate="G$1" pin="1"/>
 <wire x1="276.86" y1="228.6" x2="279.4" y2="228.6" width="0.1524" layer="91"/>
 <wire x1="279.4" y1="228.6" x2="279.4" y2="231.14" width="0.1524" layer="91"/>
@@ -8957,7 +9880,7 @@ F_MAX=1000kHz</text>
 </net>
 <net name="N$7" class="0">
 <segment>
-<pinref part="U$4" gate="G$1" pin="PA01/EINT1/SERCOM1.1"/>
+<pinref part="U19" gate="G$1" pin="PA01/EINT1/SERCOM1.1"/>
 <pinref part="C4" gate="G$1" pin="1"/>
 <wire x1="276.86" y1="226.06" x2="289.56" y2="226.06" width="0.1524" layer="91"/>
 <wire x1="289.56" y1="226.06" x2="289.56" y2="231.14" width="0.1524" layer="91"/>
@@ -8968,7 +9891,7 @@ F_MAX=1000kHz</text>
 </net>
 <net name="LORA_IRQ0" class="0">
 <segment>
-<pinref part="U$4" gate="G$1" pin="PA09/I2C/I9/AIN17/SERCOM0+2.1/I2SMC"/>
+<pinref part="U19" gate="G$1" pin="PA09/I2C/I9/AIN17/SERCOM0+2.1/I2SMC"/>
 <label x="281.94" y="203.2" size="1.778" layer="95"/>
 <wire x1="276.86" y1="203.2" x2="317.5" y2="203.2" width="0.1524" layer="91"/>
 <wire x1="317.5" y1="203.2" x2="320.04" y2="200.66" width="0.1524" layer="91"/>
@@ -8986,7 +9909,7 @@ F_MAX=1000kHz</text>
 <wire x1="314.96" y1="182.88" x2="312.42" y2="185.42" width="0.1524" layer="91"/>
 <wire x1="276.86" y1="185.42" x2="312.42" y2="185.42" width="0.1524" layer="91"/>
 <label x="294.64" y="185.42" size="1.778" layer="95"/>
-<pinref part="U$4" gate="G$1" pin="PA15/I15/SERCOM3+4.3"/>
+<pinref part="U19" gate="G$1" pin="PA15/I15/SERCOM3+4.3"/>
 </segment>
 </net>
 <net name="LORA_RST" class="0">
@@ -8997,7 +9920,7 @@ F_MAX=1000kHz</text>
 <wire x1="12.7" y1="231.14" x2="38.1" y2="231.14" width="0.1524" layer="91"/>
 </segment>
 <segment>
-<pinref part="U$4" gate="G$1" pin="PA08/I2C/AIN16/SERCOM0+2.0/I2SD1"/>
+<pinref part="U19" gate="G$1" pin="PA08/I2C/AIN16/SERCOM0+2.0/I2SD1"/>
 <label x="281.94" y="205.74" size="1.778" layer="95"/>
 <wire x1="276.86" y1="205.74" x2="317.5" y2="205.74" width="0.1524" layer="91"/>
 <wire x1="317.5" y1="205.74" x2="320.04" y2="203.2" width="0.1524" layer="91"/>
@@ -9005,7 +9928,7 @@ F_MAX=1000kHz</text>
 </net>
 <net name="LORA_CS" class="0">
 <segment>
-<pinref part="U$4" gate="G$1" pin="PA06/EINT6/AIN6/SERCOM0.2"/>
+<pinref part="U19" gate="G$1" pin="PA06/EINT6/AIN6/SERCOM0.2"/>
 <label x="281.94" y="213.36" size="1.778" layer="95"/>
 <wire x1="276.86" y1="213.36" x2="317.5" y2="213.36" width="0.1524" layer="91"/>
 <wire x1="317.5" y1="213.36" x2="320.04" y2="210.82" width="0.1524" layer="91"/>
@@ -9032,12 +9955,12 @@ F_MAX=1000kHz</text>
 <segment>
 <wire x1="88.9" y1="55.88" x2="68.58" y2="55.88" width="0.1524" layer="91"/>
 <label x="73.66" y="55.88" size="1.778" layer="95"/>
-<pinref part="ATTINY-817" gate="A" pin="PC5"/>
+<pinref part="U17" gate="A" pin="PC5"/>
 <wire x1="68.58" y1="55.88" x2="68.58" y2="35.56" width="0.1524" layer="91"/>
 <junction x="68.58" y="55.88"/>
 <wire x1="68.58" y1="35.56" x2="99.06" y2="35.56" width="0.1524" layer="91"/>
 <wire x1="99.06" y1="35.56" x2="99.06" y2="22.86" width="0.1524" layer="91"/>
-<pinref part="J-TAG/UPDI" gate="G$1" pin="RESET"/>
+<pinref part="J6" gate="G$1" pin="RESET"/>
 <wire x1="99.06" y1="22.86" x2="91.44" y2="22.86" width="0.1524" layer="91"/>
 <pinref part="R10" gate="G$1" pin="1"/>
 <wire x1="33.02" y1="55.88" x2="33.02" y2="58.42" width="0.1524" layer="91"/>
@@ -9051,10 +9974,10 @@ F_MAX=1000kHz</text>
 <net name="AT_UPDI" class="0">
 <segment>
 <wire x1="53.34" y1="53.34" x2="53.34" y2="38.1" width="0.1524" layer="91"/>
-<pinref part="J-TAG/UPDI" gate="G$1" pin="UPDI"/>
+<pinref part="J6" gate="G$1" pin="UPDI"/>
 <wire x1="53.34" y1="38.1" x2="53.34" y2="25.4" width="0.1524" layer="91"/>
 <wire x1="53.34" y1="25.4" x2="58.42" y2="25.4" width="0.1524" layer="91"/>
-<pinref part="ATTINY-817" gate="A" pin="PA0/!RESET/UP"/>
+<pinref part="U17" gate="A" pin="PA0/!RESET/UP"/>
 <wire x1="88.9" y1="53.34" x2="53.34" y2="53.34" width="0.1524" layer="91"/>
 <label x="73.66" y="50.8" size="1.778" layer="95"/>
 <pinref part="JP14" gate="G$1" pin="2"/>
@@ -9090,13 +10013,13 @@ F_MAX=1000kHz</text>
 <wire x1="160.02" y1="55.88" x2="220.98" y2="55.88" width="0.1524" layer="91"/>
 <junction x="220.98" y="48.26"/>
 <label x="216.916" y="69.088" size="1.778" layer="95"/>
-<pinref part="ATTINY-817" gate="A" pin="VDD"/>
+<pinref part="U17" gate="A" pin="VDD"/>
 <pinref part="C12" gate="G$1" pin="2"/>
 <pinref part="C13" gate="G$1" pin="2"/>
 <pinref part="+3V7" gate="G$1" pin="+3V3"/>
 <wire x1="220.98" y1="55.88" x2="220.98" y2="63.5" width="0.1524" layer="91"/>
 <junction x="220.98" y="55.88"/>
-<pinref part="J-TAG/UPDI" gate="G$1" pin="VCC"/>
+<pinref part="J6" gate="G$1" pin="VCC"/>
 <wire x1="91.44" y1="25.4" x2="220.98" y2="25.4" width="0.1524" layer="91"/>
 <wire x1="220.98" y1="25.4" x2="220.98" y2="40.64" width="0.1524" layer="91"/>
 <junction x="220.98" y="40.64"/>
@@ -9104,7 +10027,7 @@ F_MAX=1000kHz</text>
 </net>
 <net name="MASTER_I2C_SDA" class="0">
 <segment>
-<pinref part="ATTINY-817" gate="A" pin="PB1"/>
+<pinref part="U17" gate="A" pin="PB1"/>
 <wire x1="88.9" y1="73.66" x2="78.74" y2="73.66" width="0.1524" layer="91"/>
 <wire x1="78.74" y1="73.66" x2="78.74" y2="109.22" width="0.1524" layer="91"/>
 <label x="78.74" y="78.74" size="1.778" layer="95" rot="R90"/>
@@ -9113,7 +10036,7 @@ F_MAX=1000kHz</text>
 </net>
 <net name="MASTER_I2C_SCL" class="0">
 <segment>
-<pinref part="ATTINY-817" gate="A" pin="PB0"/>
+<pinref part="U17" gate="A" pin="PB0"/>
 <wire x1="88.9" y1="71.12" x2="76.2" y2="71.12" width="0.1524" layer="91"/>
 <wire x1="76.2" y1="71.12" x2="76.2" y2="109.22" width="0.1524" layer="91"/>
 <label x="76.2" y="78.74" size="1.778" layer="95" rot="R90"/>
@@ -9122,14 +10045,14 @@ F_MAX=1000kHz</text>
 </net>
 <net name="DTR_DETECT_IN" class="0">
 <segment>
-<pinref part="ATTINY-817" gate="A" pin="PC1"/>
+<pinref part="U17" gate="A" pin="PC1"/>
 <wire x1="88.9" y1="66.04" x2="78.74" y2="66.04" width="0.1524" layer="91"/>
 <label x="78.74" y="66.04" size="1.778" layer="95" rot="R180" xref="yes"/>
 </segment>
 </net>
 <net name="DTR_DETECT_OUT" class="0">
 <segment>
-<pinref part="ATTINY-817" gate="A" pin="PC2"/>
+<pinref part="U17" gate="A" pin="PC2"/>
 <wire x1="88.9" y1="63.5" x2="78.74" y2="63.5" width="0.1524" layer="91"/>
 <label x="78.74" y="63.5" size="1.778" layer="95" rot="R180" xref="yes"/>
 </segment>
@@ -9138,13 +10061,13 @@ F_MAX=1000kHz</text>
 <segment>
 <pinref part="C1" gate="G$1" pin="1"/>
 <wire x1="193.04" y1="208.28" x2="193.04" y2="210.82" width="0.1524" layer="91"/>
-<pinref part="U$4" gate="G$1" pin="VDDCORE"/>
+<pinref part="U19" gate="G$1" pin="VDDCORE"/>
 <wire x1="193.04" y1="210.82" x2="200.66" y2="210.82" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="ATT_INT" class="0">
 <segment>
-<pinref part="ATTINY-817" gate="A" pin="PC0"/>
+<pinref part="U17" gate="A" pin="PC0"/>
 <wire x1="88.9" y1="68.58" x2="78.74" y2="68.58" width="0.1524" layer="91"/>
 <label x="78.74" y="68.58" size="1.778" layer="95" rot="R180" xref="yes"/>
 </segment>
@@ -9153,8 +10076,7 @@ F_MAX=1000kHz</text>
 <segment>
 <pinref part="R1" gate="G$1" pin="1"/>
 <pinref part="U2" gate="A" pin="-IN"/>
-<wire x1="68.58" y1="165.1" x2="71.12" y2="165.1" width="0.1524" layer="91"/>
-<wire x1="71.12" y1="165.1" x2="76.2" y2="165.1" width="0.1524" layer="91"/>
+<wire x1="71.12" y1="165.1" x2="68.58" y2="165.1" width="0.1524" layer="91"/>
 <wire x1="88.9" y1="175.26" x2="71.12" y2="175.26" width="0.1524" layer="91"/>
 <wire x1="71.12" y1="175.26" x2="71.12" y2="165.1" width="0.1524" layer="91"/>
 <junction x="71.12" y="165.1"/>
@@ -9168,7 +10090,7 @@ F_MAX=1000kHz</text>
 <pinref part="U2" gate="A" pin="+IN"/>
 <wire x1="132.08" y1="165.1" x2="132.08" y2="157.48" width="0.1524" layer="91"/>
 <wire x1="132.08" y1="157.48" x2="132.08" y2="154.94" width="0.1524" layer="91"/>
-<wire x1="121.92" y1="165.1" x2="132.08" y2="165.1" width="0.1524" layer="91"/>
+<wire x1="114.3" y1="165.1" x2="132.08" y2="165.1" width="0.1524" layer="91"/>
 <junction x="132.08" y="165.1"/>
 <wire x1="132.08" y1="157.48" x2="142.24" y2="157.48" width="0.1524" layer="91"/>
 <wire x1="142.24" y1="157.48" x2="142.24" y2="154.94" width="0.1524" layer="91"/>
@@ -9213,7 +10135,7 @@ F_MAX=1000kHz</text>
 <pinref part="C7" gate="G$1" pin="1"/>
 <pinref part="U2" gate="A" pin="+VS"/>
 <wire x1="43.18" y1="185.42" x2="43.18" y2="177.8" width="0.1524" layer="91"/>
-<wire x1="66.04" y1="160.02" x2="76.2" y2="160.02" width="0.1524" layer="91"/>
+<wire x1="66.04" y1="160.02" x2="68.58" y2="160.02" width="0.1524" layer="91"/>
 <wire x1="66.04" y1="160.02" x2="66.04" y2="185.42" width="0.1524" layer="91"/>
 <wire x1="66.04" y1="185.42" x2="43.18" y2="185.42" width="0.1524" layer="91"/>
 <junction x="43.18" y="185.42"/>
@@ -9221,22 +10143,22 @@ F_MAX=1000kHz</text>
 </net>
 <net name="N$10" class="0">
 <segment>
-<pinref part="U205" gate="G$1" pin="CAP"/>
+<pinref part="U18" gate="G$1" pin="CAP"/>
 <wire x1="279.4" y1="53.34" x2="292.1" y2="53.34" width="0.1524" layer="91"/>
-<pinref part="C204" gate="G$1" pin="1"/>
+<pinref part="C48" gate="G$1" pin="1"/>
 <wire x1="292.1" y1="53.34" x2="292.1" y2="50.8" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="N$18" class="0">
 <segment>
-<pinref part="ATTINY-817" gate="A" pin="PB3/TOSC1"/>
+<pinref part="U17" gate="A" pin="PB3/TOSC1"/>
 <wire x1="88.9" y1="78.74" x2="58.42" y2="78.74" width="0.1524" layer="91"/>
 <pinref part="SJ1" gate="G$1" pin="2"/>
 </segment>
 </net>
 <net name="N$19" class="0">
 <segment>
-<pinref part="ATTINY-817" gate="A" pin="PB2/TOSC2"/>
+<pinref part="U17" gate="A" pin="PB2/TOSC2"/>
 <wire x1="88.9" y1="76.2" x2="51.308" y2="76.2" width="0.1524" layer="91"/>
 <pinref part="SJ2" gate="G$1" pin="2"/>
 <wire x1="51.308" y1="76.2" x2="51.308" y2="84.582" width="0.1524" layer="91"/>
@@ -9273,7 +10195,7 @@ F_MAX=1000kHz</text>
 </net>
 <net name="MEAS_IMU" class="0">
 <segment>
-<pinref part="ATTINY-817" gate="A" pin="PA7"/>
+<pinref part="U17" gate="A" pin="PA7"/>
 <label x="160.02" y="66.04" size="1.778" layer="95"/>
 <wire x1="160.02" y1="66.04" x2="182.88" y2="66.04" width="0.1524" layer="91"/>
 <wire x1="182.88" y1="66.04" x2="182.88" y2="91.44" width="0.1524" layer="91"/>
@@ -9286,7 +10208,7 @@ F_MAX=1000kHz</text>
 </net>
 <net name="MEAS_BARO" class="0">
 <segment>
-<pinref part="ATTINY-817" gate="A" pin="PB7"/>
+<pinref part="U17" gate="A" pin="PB7"/>
 <wire x1="160.02" y1="68.58" x2="180.34" y2="68.58" width="0.1524" layer="91"/>
 <label x="160.02" y="68.58" size="1.778" layer="95"/>
 <wire x1="180.34" y1="68.58" x2="180.34" y2="93.98" width="0.1524" layer="91"/>
@@ -9299,7 +10221,7 @@ F_MAX=1000kHz</text>
 </net>
 <net name="EN_BARO" class="0">
 <segment>
-<pinref part="ATTINY-817" gate="A" pin="PB5"/>
+<pinref part="U17" gate="A" pin="PB5"/>
 <wire x1="160.02" y1="73.66" x2="175.26" y2="73.66" width="0.1524" layer="91"/>
 <label x="162.052" y="74.168" size="1.778" layer="95"/>
 <wire x1="175.26" y1="73.66" x2="175.26" y2="99.06" width="0.1524" layer="91"/>
@@ -9312,7 +10234,7 @@ F_MAX=1000kHz</text>
 </net>
 <net name="EN_MIC" class="0">
 <segment>
-<pinref part="ATTINY-817" gate="A" pin="PA2"/>
+<pinref part="U17" gate="A" pin="PA2"/>
 <label x="165.1" y="48.26" size="1.778" layer="95"/>
 <wire x1="160.02" y1="48.26" x2="195.58" y2="48.26" width="0.1524" layer="91"/>
 <wire x1="195.58" y1="48.26" x2="195.58" y2="78.74" width="0.1524" layer="91"/>
@@ -9327,7 +10249,7 @@ F_MAX=1000kHz</text>
 </net>
 <net name="EN_IMU" class="0">
 <segment>
-<pinref part="ATTINY-817" gate="A" pin="PB6"/>
+<pinref part="U17" gate="A" pin="PB6"/>
 <wire x1="160.02" y1="71.12" x2="177.8" y2="71.12" width="0.1524" layer="91"/>
 <label x="165.1" y="71.12" size="1.778" layer="95"/>
 <wire x1="177.8" y1="71.12" x2="177.8" y2="96.52" width="0.1524" layer="91"/>
@@ -9340,14 +10262,14 @@ F_MAX=1000kHz</text>
 </net>
 <net name="+3V3_BARO" class="1">
 <segment>
-<pinref part="U205" gate="G$1" pin="V"/>
+<pinref part="U18" gate="G$1" pin="V"/>
 <wire x1="302.26" y1="63.5" x2="284.48" y2="63.5" width="0.1524" layer="91"/>
 <wire x1="284.48" y1="63.5" x2="279.4" y2="63.5" width="0.1524" layer="91"/>
 <wire x1="284.48" y1="63.5" x2="284.48" y2="60.96" width="0.1524" layer="91"/>
 <junction x="284.48" y="63.5"/>
-<pinref part="U205" gate="G$1" pin="VIO"/>
+<pinref part="U18" gate="G$1" pin="VIO"/>
 <wire x1="284.48" y1="60.96" x2="279.4" y2="60.96" width="0.1524" layer="91"/>
-<pinref part="C203" gate="G$1" pin="1"/>
+<pinref part="C47" gate="G$1" pin="1"/>
 <wire x1="302.26" y1="50.8" x2="302.26" y2="63.5" width="0.1524" layer="91"/>
 <junction x="302.26" y="63.5"/>
 <pinref part="+3V20" gate="G$1" pin="+3V3"/>
@@ -9370,7 +10292,7 @@ F_MAX=1000kHz</text>
 <wire x1="246.38" y1="116.84" x2="243.84" y2="114.3" width="0.1524" layer="91"/>
 <wire x1="243.84" y1="114.3" x2="243.84" y2="60.96" width="0.1524" layer="91"/>
 <label x="243.84" y="71.12" size="1.778" layer="95" rot="R90"/>
-<pinref part="U205" gate="G$1" pin="SDA"/>
+<pinref part="U18" gate="G$1" pin="SDA"/>
 <wire x1="248.92" y1="60.96" x2="243.84" y2="60.96" width="0.1524" layer="91"/>
 </segment>
 <segment>
@@ -9394,7 +10316,7 @@ F_MAX=1000kHz</text>
 <wire x1="248.92" y1="116.84" x2="246.38" y2="114.3" width="0.1524" layer="91"/>
 <wire x1="246.38" y1="114.3" x2="246.38" y2="63.5" width="0.1524" layer="91"/>
 <label x="246.38" y="71.12" size="1.778" layer="95" rot="R90"/>
-<pinref part="U205" gate="G$1" pin="SCL"/>
+<pinref part="U18" gate="G$1" pin="SCL"/>
 <wire x1="248.92" y1="63.5" x2="246.38" y2="63.5" width="0.1524" layer="91"/>
 </segment>
 <segment>
@@ -9451,7 +10373,7 @@ F_MAX=1000kHz</text>
 <wire x1="73.66" y1="205.74" x2="76.2" y2="203.2" width="0.1524" layer="91"/>
 </segment>
 <segment>
-<pinref part="U$4" gate="G$1" pin="PA20/I4/SERCOM3+5.2/I2SSC"/>
+<pinref part="U19" gate="G$1" pin="PA20/I4/SERCOM3+5.2/I2SSC"/>
 <wire x1="276.86" y1="172.72" x2="317.5" y2="172.72" width="0.1524" layer="91"/>
 <label x="281.94" y="172.72" size="1.778" layer="95"/>
 <wire x1="317.5" y1="172.72" x2="320.04" y2="170.18" width="0.1524" layer="91"/>
@@ -9459,7 +10381,7 @@ F_MAX=1000kHz</text>
 </net>
 <net name="BUS1_GPIO0" class="0">
 <segment>
-<pinref part="U205" gate="G$1" pin="INT1"/>
+<pinref part="U18" gate="G$1" pin="INT1"/>
 <wire x1="248.92" y1="55.88" x2="241.3" y2="55.88" width="0.1524" layer="91"/>
 <wire x1="241.3" y1="55.88" x2="241.3" y2="114.3" width="0.1524" layer="91"/>
 <label x="241.3" y="71.12" size="1.778" layer="95" rot="R90"/>
@@ -9493,7 +10415,7 @@ F_MAX=1000kHz</text>
 <pinref part="SW2" gate="G$1" pin="S"/>
 <wire x1="190.5" y1="228.6" x2="190.5" y2="226.06" width="0.1524" layer="91"/>
 <junction x="190.5" y="226.06"/>
-<pinref part="U$4" gate="G$1" pin="/RESET"/>
+<pinref part="U19" gate="G$1" pin="/RESET"/>
 <wire x1="200.66" y1="226.06" x2="195.58" y2="226.06" width="0.1524" layer="91"/>
 <junction x="195.58" y="226.06"/>
 </segment>
@@ -9505,7 +10427,7 @@ F_MAX=1000kHz</text>
 </net>
 <net name="D_P" class="2">
 <segment>
-<pinref part="U$4" gate="G$1" pin="PA25/I13/SERCOM3+5.3/D+"/>
+<pinref part="U19" gate="G$1" pin="PA25/I13/SERCOM3+5.3/D+"/>
 <wire x1="276.86" y1="157.48" x2="332.74" y2="157.48" width="0.1524" layer="91"/>
 <wire x1="332.74" y1="157.48" x2="332.74" y2="185.42" width="0.1524" layer="91"/>
 <label x="281.94" y="157.48" size="1.778" layer="95"/>
@@ -9516,7 +10438,7 @@ F_MAX=1000kHz</text>
 </net>
 <net name="D_N" class="2">
 <segment>
-<pinref part="U$4" gate="G$1" pin="PA24/I12/SERCOM3+5.2/D-"/>
+<pinref part="U19" gate="G$1" pin="PA24/I12/SERCOM3+5.2/D-"/>
 <wire x1="276.86" y1="160.02" x2="330.2" y2="160.02" width="0.1524" layer="91"/>
 <label x="281.94" y="160.02" size="1.778" layer="95"/>
 <pinref part="J7" gate="G$1" pin="D-"/>
@@ -9579,7 +10501,7 @@ F_MAX=1000kHz</text>
 </net>
 <net name="MEAS_CODEC" class="0">
 <segment>
-<pinref part="ATTINY-817" gate="A" pin="PC3"/>
+<pinref part="U17" gate="A" pin="PC3"/>
 <wire x1="88.9" y1="60.96" x2="86.36" y2="60.96" width="0.1524" layer="91"/>
 <wire x1="86.36" y1="60.96" x2="86.36" y2="96.52" width="0.1524" layer="91"/>
 <wire x1="86.36" y1="96.52" x2="99.06" y2="96.52" width="0.1524" layer="91"/>
@@ -9594,7 +10516,7 @@ F_MAX=1000kHz</text>
 </net>
 <net name="EN_CODEC" class="0">
 <segment>
-<pinref part="ATTINY-817" gate="A" pin="PC4"/>
+<pinref part="U17" gate="A" pin="PC4"/>
 <wire x1="88.9" y1="58.42" x2="83.82" y2="58.42" width="0.1524" layer="91"/>
 <wire x1="83.82" y1="58.42" x2="83.82" y2="99.06" width="0.1524" layer="91"/>
 <wire x1="83.82" y1="99.06" x2="96.52" y2="99.06" width="0.1524" layer="91"/>
@@ -9610,7 +10532,7 @@ F_MAX=1000kHz</text>
 <net name="BUS1_AIN0" class="0">
 <segment>
 <pinref part="U2" gate="A" pin="VOUT"/>
-<wire x1="121.92" y1="160.02" x2="129.54" y2="160.02" width="0.1524" layer="91"/>
+<wire x1="114.3" y1="160.02" x2="129.54" y2="160.02" width="0.1524" layer="91"/>
 <wire x1="129.54" y1="160.02" x2="129.54" y2="175.26" width="0.1524" layer="91"/>
 <wire x1="129.54" y1="175.26" x2="99.06" y2="175.26" width="0.1524" layer="91"/>
 <pinref part="R2" gate="G$1" pin="1"/>
@@ -9626,13 +10548,13 @@ F_MAX=1000kHz</text>
 <wire x1="81.28" y1="50.8" x2="81.28" y2="119.38" width="0.1524" layer="91"/>
 <wire x1="81.28" y1="119.38" x2="78.74" y2="121.92" width="0.1524" layer="91"/>
 <label x="81.28" y="78.74" size="1.778" layer="95" rot="R90"/>
-<pinref part="ATTINY-817" gate="A" pin="PA1"/>
+<pinref part="U17" gate="A" pin="PA1"/>
 <wire x1="81.28" y1="50.8" x2="88.9" y2="50.8" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="EN_RADIO" class="0">
 <segment>
-<pinref part="ATTINY-817" gate="A" pin="PA6"/>
+<pinref part="U17" gate="A" pin="PA6"/>
 <wire x1="160.02" y1="63.5" x2="185.42" y2="63.5" width="0.1524" layer="91"/>
 <label x="162.56" y="63.5" size="1.778" layer="95"/>
 <wire x1="185.42" y1="63.5" x2="185.42" y2="88.9" width="0.1524" layer="91"/>
@@ -9645,7 +10567,7 @@ F_MAX=1000kHz</text>
 </net>
 <net name="MEAS_SAMD" class="0">
 <segment>
-<pinref part="ATTINY-817" gate="A" pin="PA5"/>
+<pinref part="U17" gate="A" pin="PA5"/>
 <wire x1="160.02" y1="60.96" x2="187.96" y2="60.96" width="0.1524" layer="91"/>
 <label x="162.56" y="60.96" size="1.778" layer="95"/>
 <wire x1="187.96" y1="60.96" x2="187.96" y2="86.36" width="0.1524" layer="91"/>
@@ -9658,7 +10580,7 @@ F_MAX=1000kHz</text>
 </net>
 <net name="MEAS_RFM" class="0">
 <segment>
-<pinref part="ATTINY-817" gate="A" pin="PA4"/>
+<pinref part="U17" gate="A" pin="PA4"/>
 <wire x1="160.02" y1="58.42" x2="190.5" y2="58.42" width="0.1524" layer="91"/>
 <label x="162.56" y="58.42" size="1.778" layer="95"/>
 <wire x1="190.5" y1="58.42" x2="190.5" y2="83.82" width="0.1524" layer="91"/>
@@ -9671,7 +10593,7 @@ F_MAX=1000kHz</text>
 </net>
 <net name="EN_MEAS" class="0">
 <segment>
-<pinref part="ATTINY-817" gate="A" pin="PB4"/>
+<pinref part="U17" gate="A" pin="PB4"/>
 <wire x1="160.02" y1="76.2" x2="172.72" y2="76.2" width="0.1524" layer="91"/>
 <label x="161.036" y="76.962" size="1.778" layer="95"/>
 <wire x1="172.72" y1="76.2" x2="172.72" y2="99.06" width="0.1524" layer="91"/>
@@ -9684,7 +10606,7 @@ F_MAX=1000kHz</text>
 </net>
 <net name="MEAS_MIC" class="0">
 <segment>
-<pinref part="ATTINY-817" gate="A" pin="EXTCLK_/PA3"/>
+<pinref part="U17" gate="A" pin="EXTCLK_/PA3"/>
 <wire x1="160.02" y1="50.8" x2="193.04" y2="50.8" width="0.1524" layer="91"/>
 <label x="165.1" y="50.8" size="1.778" layer="95"/>
 <wire x1="193.04" y1="50.8" x2="193.04" y2="81.28" width="0.1524" layer="91"/>
@@ -9716,17 +10638,31 @@ F_MAX=1000kHz</text>
 <attribute name="VALUE" x="140.716" y="84.709" size="1.778" layer="96"/>
 <attribute name="MPN" x="139.7" y="88.9" size="1.778" layer="96" display="off"/>
 <attribute name="PARTNO" x="139.7" y="88.9" size="1.778" layer="96" display="off"/>
+<attribute name="HEIGHT" x="139.7" y="88.9" size="1.778" layer="96" display="off"/>
+<attribute name="TYPE" x="139.7" y="88.9" size="1.778" layer="96" display="off"/>
+<attribute name="SIZE" x="139.7" y="88.9" size="1.778" layer="96" display="off"/>
+<attribute name="VOLT" x="139.7" y="88.9" size="1.778" layer="96" display="off"/>
+<attribute name="DESC" x="139.7" y="88.9" size="1.778" layer="96" display="off"/>
 </instance>
-<instance part="C11" gate="G$1" x="185.42" y="88.9" smashed="yes">
+<instance part="C11" gate="G$1" x="185.42" y="88.9" smashed="yes" grouprefs="I">
 <attribute name="NAME" x="186.436" y="89.535" size="1.778" layer="95"/>
 <attribute name="VALUE" x="186.436" y="84.709" size="1.778" layer="96"/>
 <attribute name="MPN" x="185.42" y="88.9" size="1.778" layer="96" display="off"/>
 <attribute name="PARTNO" x="185.42" y="88.9" size="1.778" layer="96" display="off"/>
+<attribute name="DESCRIPTION" x="185.42" y="88.9" size="1.778" layer="96" display="off"/>
+<attribute name="HEIGHT" x="185.42" y="88.9" size="1.778" layer="96" display="off"/>
+<attribute name="TYPE" x="185.42" y="88.9" size="1.778" layer="96" display="off"/>
+<attribute name="SIZE" x="185.42" y="88.9" size="1.778" layer="96" display="off"/>
+<attribute name="VOLT" x="185.42" y="88.9" size="1.778" layer="96" display="off"/>
+<attribute name="DESC" x="185.42" y="88.9" size="1.778" layer="96" display="off"/>
 </instance>
-<instance part="J301" gate="G$1" x="307.34" y="175.26" smashed="yes">
+<instance part="J5" gate="G$1" x="307.34" y="175.26" smashed="yes">
 <attribute name="NAME" x="299.69801875" y="209.0634" size="1.273659375" layer="95"/>
 <attribute name="MPN" x="307.34" y="175.26" size="1.778" layer="96" display="off"/>
 <attribute name="PARTNO" x="307.34" y="175.26" size="1.778" layer="96" display="off"/>
+<attribute name="DESC" x="307.34" y="175.26" size="1.778" layer="96" display="off"/>
+<attribute name="TYPE" x="307.34" y="175.26" size="1.778" layer="96" display="off"/>
+<attribute name="MANUFACTURER" x="307.34" y="175.26" size="1.778" layer="96" display="off"/>
 </instance>
 <instance part="GND22" gate="1" x="284.48" y="200.66" smashed="yes" rot="R270">
 <attribute name="VALUE" x="281.94" y="203.2" size="1.778" layer="96" rot="R270"/>
@@ -9735,6 +10671,10 @@ F_MAX=1000kHz</text>
 <attribute name="NAME" x="299.69801875" y="127.7834" size="1.273659375" layer="95"/>
 <attribute name="MPN" x="307.34" y="93.98" size="1.778" layer="96" display="off"/>
 <attribute name="PARTNO" x="307.34" y="93.98" size="1.778" layer="96" display="off"/>
+<attribute name="HEIGHT" x="307.34" y="93.98" size="1.778" layer="96" display="off"/>
+<attribute name="TYPE" x="307.34" y="93.98" size="1.778" layer="96" display="off"/>
+<attribute name="MANUFACTURER" x="307.34" y="93.98" size="1.778" layer="96" display="off"/>
+<attribute name="DESC" x="307.34" y="93.98" size="1.778" layer="96" display="off"/>
 </instance>
 <instance part="GND4" gate="1" x="284.48" y="119.38" smashed="yes" rot="R270">
 <attribute name="VALUE" x="281.94" y="121.92" size="1.778" layer="96" rot="R270"/>
@@ -9750,6 +10690,10 @@ F_MAX=1000kHz</text>
 <attribute name="NAME" x="157.48" y="97.79" size="1.778" layer="95"/>
 <attribute name="PART_NUMBER" x="157.48" y="75.438" size="1.778" layer="96"/>
 <attribute name="PARTNO" x="165.1" y="88.9" size="1.778" layer="96" display="off"/>
+<attribute name="HEIGHT" x="165.1" y="88.9" size="1.778" layer="96" display="off"/>
+<attribute name="DESC" x="165.1" y="88.9" size="1.778" layer="96" display="off"/>
+<attribute name="TYPE" x="165.1" y="88.9" size="1.778" layer="96" display="off"/>
+<attribute name="SIZE" x="165.1" y="88.9" size="1.778" layer="96" display="off"/>
 </instance>
 <instance part="+3V13" gate="G$1" x="10.16" y="236.22" smashed="yes"/>
 <instance part="R_SENSE" gate="G$1" x="17.78" y="213.36" smashed="yes">
@@ -9757,6 +10701,11 @@ F_MAX=1000kHz</text>
 <attribute name="VALUE" x="13.97" y="210.058" size="1.778" layer="96"/>
 <attribute name="MPN" x="17.78" y="213.36" size="1.778" layer="96" display="off"/>
 <attribute name="PARTNO" x="17.78" y="213.36" size="1.778" layer="96" display="off"/>
+<attribute name="HEIGHT" x="17.78" y="213.36" size="1.778" layer="96" display="off"/>
+<attribute name="TYPE" x="17.78" y="213.36" size="1.778" layer="96" display="off"/>
+<attribute name="SIZE" x="17.78" y="213.36" size="1.778" layer="96" display="off"/>
+<attribute name="TC" x="17.78" y="213.36" size="1.778" layer="96" display="off"/>
+<attribute name="DESC" x="17.78" y="213.36" size="1.778" layer="96" display="off"/>
 </instance>
 <instance part="JP2" gate="G$1" x="203.2" y="93.98" smashed="yes">
 <attribute name="NAME" x="203.2" y="96.52" size="1.778" layer="95" font="vector" align="bottom-center"/>
@@ -9767,6 +10716,9 @@ F_MAX=1000kHz</text>
 <attribute name="VALUE" x="89.1794" y="219.9386" size="2.0828" layer="96" ratio="6" rot="SMR0"/>
 <attribute name="MPN" x="83.82" y="220.98" size="1.778" layer="96" rot="MR0" display="off"/>
 <attribute name="PARTNO" x="83.82" y="220.98" size="1.778" layer="96" display="off"/>
+<attribute name="HEIGHT" x="83.82" y="220.98" size="1.778" layer="96" rot="MR0" display="off"/>
+<attribute name="DESC" x="83.82" y="220.98" size="1.778" layer="96" rot="MR0" display="off"/>
+<attribute name="SIZE" x="83.82" y="220.98" size="1.778" layer="96" rot="MR0" display="off"/>
 </instance>
 <instance part="U5" gate="A" x="83.82" y="170.18" smashed="yes" rot="MR0">
 <attribute name="NAME" x="88.5444" y="171.6786" size="2.0828" layer="95" ratio="6" rot="SMR0"/>
@@ -9774,6 +10726,9 @@ F_MAX=1000kHz</text>
 <attribute name="VALUE" x="89.1794" y="169.1386" size="2.0828" layer="96" ratio="6" rot="SMR0"/>
 <attribute name="MPN" x="83.82" y="170.18" size="1.778" layer="96" rot="MR0" display="off"/>
 <attribute name="PARTNO" x="83.82" y="170.18" size="1.778" layer="96" display="off"/>
+<attribute name="HEIGHT" x="83.82" y="170.18" size="1.778" layer="96" rot="MR0" display="off"/>
+<attribute name="DESC" x="83.82" y="170.18" size="1.778" layer="96" rot="MR0" display="off"/>
+<attribute name="SIZE" x="83.82" y="170.18" size="1.778" layer="96" rot="MR0" display="off"/>
 </instance>
 <instance part="U6" gate="A" x="83.82" y="121.92" smashed="yes" rot="MR0">
 <attribute name="NAME" x="88.5444" y="123.4186" size="2.0828" layer="95" ratio="6" rot="SMR0"/>
@@ -9781,6 +10736,9 @@ F_MAX=1000kHz</text>
 <attribute name="VALUE" x="89.1794" y="120.8786" size="2.0828" layer="96" ratio="6" rot="SMR0"/>
 <attribute name="MPN" x="83.82" y="121.92" size="1.778" layer="96" rot="MR0" display="off"/>
 <attribute name="PARTNO" x="83.82" y="121.92" size="1.778" layer="96" display="off"/>
+<attribute name="HEIGHT" x="83.82" y="121.92" size="1.778" layer="96" rot="MR0" display="off"/>
+<attribute name="DESC" x="83.82" y="121.92" size="1.778" layer="96" rot="MR0" display="off"/>
+<attribute name="SIZE" x="83.82" y="121.92" size="1.778" layer="96" rot="MR0" display="off"/>
 </instance>
 <instance part="GND11" gate="1" x="60.96" y="99.06" smashed="yes">
 <attribute name="VALUE" x="58.42" y="96.52" size="1.778" layer="96"/>
@@ -9794,18 +10752,33 @@ F_MAX=1000kHz</text>
 <attribute name="VALUE" x="140.716" y="115.189" size="1.778" layer="96"/>
 <attribute name="MPN" x="139.7" y="119.38" size="1.778" layer="96" display="off"/>
 <attribute name="PARTNO" x="139.7" y="119.38" size="1.778" layer="96" display="off"/>
+<attribute name="HEIGHT" x="139.7" y="119.38" size="1.778" layer="96" display="off"/>
+<attribute name="TYPE" x="139.7" y="119.38" size="1.778" layer="96" display="off"/>
+<attribute name="SIZE" x="139.7" y="119.38" size="1.778" layer="96" display="off"/>
+<attribute name="VOLT" x="139.7" y="119.38" size="1.778" layer="96" display="off"/>
+<attribute name="DESC" x="139.7" y="119.38" size="1.778" layer="96" display="off"/>
 </instance>
-<instance part="C18" gate="G$1" x="185.42" y="119.38" smashed="yes">
+<instance part="C18" gate="G$1" x="185.42" y="119.38" smashed="yes" grouprefs="I">
 <attribute name="NAME" x="186.436" y="120.015" size="1.778" layer="95"/>
 <attribute name="VALUE" x="186.436" y="115.189" size="1.778" layer="96"/>
 <attribute name="MPN" x="185.42" y="119.38" size="1.778" layer="96" display="off"/>
 <attribute name="PARTNO" x="185.42" y="119.38" size="1.778" layer="96" display="off"/>
+<attribute name="DESCRIPTION" x="185.42" y="119.38" size="1.778" layer="96" display="off"/>
+<attribute name="HEIGHT" x="185.42" y="119.38" size="1.778" layer="96" display="off"/>
+<attribute name="TYPE" x="185.42" y="119.38" size="1.778" layer="96" display="off"/>
+<attribute name="SIZE" x="185.42" y="119.38" size="1.778" layer="96" display="off"/>
+<attribute name="VOLT" x="185.42" y="119.38" size="1.778" layer="96" display="off"/>
+<attribute name="DESC" x="185.42" y="119.38" size="1.778" layer="96" display="off"/>
 </instance>
 <instance part="+3V9" gate="G$1" x="215.9" y="124.46" smashed="yes" rot="R270"/>
 <instance part="U7" gate="G$1" x="165.1" y="119.38" smashed="yes">
 <attribute name="NAME" x="157.48" y="128.27" size="1.778" layer="95"/>
 <attribute name="PART_NUMBER" x="157.48" y="105.918" size="1.778" layer="96"/>
 <attribute name="PARTNO" x="165.1" y="119.38" size="1.778" layer="96" display="off"/>
+<attribute name="HEIGHT" x="165.1" y="119.38" size="1.778" layer="96" display="off"/>
+<attribute name="DESC" x="165.1" y="119.38" size="1.778" layer="96" display="off"/>
+<attribute name="TYPE" x="165.1" y="119.38" size="1.778" layer="96" display="off"/>
+<attribute name="SIZE" x="165.1" y="119.38" size="1.778" layer="96" display="off"/>
 </instance>
 <instance part="JP1" gate="G$1" x="203.2" y="124.46" smashed="yes">
 <attribute name="NAME" x="203.2" y="127" size="1.778" layer="95" font="vector" align="bottom-center"/>
@@ -9819,18 +10792,33 @@ F_MAX=1000kHz</text>
 <attribute name="VALUE" x="140.716" y="145.669" size="1.778" layer="96"/>
 <attribute name="MPN" x="139.7" y="149.86" size="1.778" layer="96" display="off"/>
 <attribute name="PARTNO" x="139.7" y="149.86" size="1.778" layer="96" display="off"/>
+<attribute name="HEIGHT" x="139.7" y="149.86" size="1.778" layer="96" display="off"/>
+<attribute name="TYPE" x="139.7" y="149.86" size="1.778" layer="96" display="off"/>
+<attribute name="SIZE" x="139.7" y="149.86" size="1.778" layer="96" display="off"/>
+<attribute name="VOLT" x="139.7" y="149.86" size="1.778" layer="96" display="off"/>
+<attribute name="DESC" x="139.7" y="149.86" size="1.778" layer="96" display="off"/>
 </instance>
-<instance part="C20" gate="G$1" x="185.42" y="149.86" smashed="yes">
+<instance part="C20" gate="G$1" x="185.42" y="149.86" smashed="yes" grouprefs="I">
 <attribute name="NAME" x="186.436" y="150.495" size="1.778" layer="95"/>
 <attribute name="VALUE" x="186.436" y="145.669" size="1.778" layer="96"/>
 <attribute name="MPN" x="185.42" y="149.86" size="1.778" layer="96" display="off"/>
 <attribute name="PARTNO" x="185.42" y="149.86" size="1.778" layer="96" display="off"/>
+<attribute name="DESCRIPTION" x="185.42" y="149.86" size="1.778" layer="96" display="off"/>
+<attribute name="HEIGHT" x="185.42" y="149.86" size="1.778" layer="96" display="off"/>
+<attribute name="TYPE" x="185.42" y="149.86" size="1.778" layer="96" display="off"/>
+<attribute name="SIZE" x="185.42" y="149.86" size="1.778" layer="96" display="off"/>
+<attribute name="VOLT" x="185.42" y="149.86" size="1.778" layer="96" display="off"/>
+<attribute name="DESC" x="185.42" y="149.86" size="1.778" layer="96" display="off"/>
 </instance>
 <instance part="+3V14" gate="G$1" x="215.9" y="154.94" smashed="yes" rot="R270"/>
 <instance part="U8" gate="G$1" x="165.1" y="149.86" smashed="yes">
 <attribute name="NAME" x="157.48" y="158.75" size="1.778" layer="95"/>
 <attribute name="PART_NUMBER" x="157.48" y="136.398" size="1.778" layer="96"/>
 <attribute name="PARTNO" x="165.1" y="149.86" size="1.778" layer="96" display="off"/>
+<attribute name="HEIGHT" x="165.1" y="149.86" size="1.778" layer="96" display="off"/>
+<attribute name="DESC" x="165.1" y="149.86" size="1.778" layer="96" display="off"/>
+<attribute name="TYPE" x="165.1" y="149.86" size="1.778" layer="96" display="off"/>
+<attribute name="SIZE" x="165.1" y="149.86" size="1.778" layer="96" display="off"/>
 </instance>
 <instance part="JP3" gate="G$1" x="203.2" y="154.94" smashed="yes">
 <attribute name="NAME" x="203.2" y="157.48" size="1.778" layer="95" font="vector" align="bottom-center"/>
@@ -9844,18 +10832,33 @@ F_MAX=1000kHz</text>
 <attribute name="VALUE" x="140.716" y="173.609" size="1.778" layer="96"/>
 <attribute name="MPN" x="139.7" y="177.8" size="1.778" layer="96" display="off"/>
 <attribute name="PARTNO" x="139.7" y="177.8" size="1.778" layer="96" display="off"/>
+<attribute name="HEIGHT" x="139.7" y="177.8" size="1.778" layer="96" display="off"/>
+<attribute name="TYPE" x="139.7" y="177.8" size="1.778" layer="96" display="off"/>
+<attribute name="SIZE" x="139.7" y="177.8" size="1.778" layer="96" display="off"/>
+<attribute name="VOLT" x="139.7" y="177.8" size="1.778" layer="96" display="off"/>
+<attribute name="DESC" x="139.7" y="177.8" size="1.778" layer="96" display="off"/>
 </instance>
-<instance part="C22" gate="G$1" x="185.42" y="177.8" smashed="yes">
+<instance part="C22" gate="G$1" x="185.42" y="177.8" smashed="yes" grouprefs="I">
 <attribute name="NAME" x="186.436" y="178.435" size="1.778" layer="95"/>
 <attribute name="VALUE" x="186.436" y="173.609" size="1.778" layer="96"/>
 <attribute name="MPN" x="185.42" y="177.8" size="1.778" layer="96" display="off"/>
 <attribute name="PARTNO" x="185.42" y="177.8" size="1.778" layer="96" display="off"/>
+<attribute name="DESCRIPTION" x="185.42" y="177.8" size="1.778" layer="96" display="off"/>
+<attribute name="HEIGHT" x="185.42" y="177.8" size="1.778" layer="96" display="off"/>
+<attribute name="TYPE" x="185.42" y="177.8" size="1.778" layer="96" display="off"/>
+<attribute name="SIZE" x="185.42" y="177.8" size="1.778" layer="96" display="off"/>
+<attribute name="VOLT" x="185.42" y="177.8" size="1.778" layer="96" display="off"/>
+<attribute name="DESC" x="185.42" y="177.8" size="1.778" layer="96" display="off"/>
 </instance>
 <instance part="+3V17" gate="G$1" x="215.9" y="182.88" smashed="yes" rot="R270"/>
 <instance part="U9" gate="G$1" x="165.1" y="177.8" smashed="yes">
 <attribute name="NAME" x="157.48" y="186.69" size="1.778" layer="95"/>
 <attribute name="PART_NUMBER" x="157.48" y="164.338" size="1.778" layer="96"/>
 <attribute name="PARTNO" x="165.1" y="177.8" size="1.778" layer="96" display="off"/>
+<attribute name="HEIGHT" x="165.1" y="177.8" size="1.778" layer="96" display="off"/>
+<attribute name="DESC" x="165.1" y="177.8" size="1.778" layer="96" display="off"/>
+<attribute name="TYPE" x="165.1" y="177.8" size="1.778" layer="96" display="off"/>
+<attribute name="SIZE" x="165.1" y="177.8" size="1.778" layer="96" display="off"/>
 </instance>
 <instance part="JP5" gate="G$1" x="203.2" y="182.88" smashed="yes">
 <attribute name="NAME" x="203.2" y="185.42" size="1.778" layer="95" font="vector" align="bottom-center"/>
@@ -9869,18 +10872,60 @@ F_MAX=1000kHz</text>
 <attribute name="VALUE" x="140.716" y="201.549" size="1.778" layer="96"/>
 <attribute name="MPN" x="139.7" y="205.74" size="1.778" layer="96" display="off"/>
 <attribute name="PARTNO" x="139.7" y="205.74" size="1.778" layer="96" display="off"/>
+<attribute name="HEIGHT" x="139.7" y="205.74" size="1.778" layer="96" display="off"/>
+<attribute name="TYPE" x="139.7" y="205.74" size="1.778" layer="96" display="off"/>
+<attribute name="SIZE" x="139.7" y="205.74" size="1.778" layer="96" display="off"/>
+<attribute name="VOLT" x="139.7" y="205.74" size="1.778" layer="96" display="off"/>
+<attribute name="DESC" x="139.7" y="205.74" size="1.778" layer="96" display="off"/>
 </instance>
-<instance part="C24" gate="G$1" x="185.42" y="205.74" smashed="yes">
+<instance part="C24" gate="G$1" x="185.42" y="205.74" smashed="yes" grouprefs="I">
 <attribute name="NAME" x="186.436" y="206.375" size="1.778" layer="95"/>
-<attribute name="VALUE" x="186.436" y="201.549" size="1.778" layer="96"/>
+<attribute name="VALUE" x="186.436" y="204.089" size="1.778" layer="96"/>
 <attribute name="MPN" x="185.42" y="205.74" size="1.778" layer="96" display="off"/>
 <attribute name="PARTNO" x="185.42" y="205.74" size="1.778" layer="96" display="off"/>
+<attribute name="DESC" x="185.42" y="205.74" size="1.778" layer="96" display="off"/>
+<attribute name="TYPE" x="185.42" y="205.74" size="1.778" layer="96" display="off"/>
+<attribute name="TYPE" x="185.42" y="205.74" size="1.778" layer="96" display="off"/>
+<attribute name="TYPE" x="185.42" y="205.74" size="1.778" layer="96" display="off"/>
+<attribute name="TYPE" x="185.42" y="205.74" size="1.778" layer="96" display="off"/>
+<attribute name="TYPE" x="185.42" y="205.74" size="1.778" layer="96" display="off"/>
+<attribute name="TYPE" x="185.42" y="205.74" size="1.778" layer="96" display="off"/>
+<attribute name="TYPE" x="185.42" y="205.74" size="1.778" layer="96" display="off"/>
+<attribute name="TYPE" x="185.42" y="205.74" size="1.778" layer="96" display="off"/>
+<attribute name="TYPE" x="185.42" y="205.74" size="1.778" layer="96" display="off"/>
+<attribute name="VOLT" x="185.42" y="205.74" size="1.778" layer="96" display="off"/>
+<attribute name="VOLT" x="185.42" y="205.74" size="1.778" layer="96" display="off"/>
+<attribute name="VOLT" x="185.42" y="205.74" size="1.778" layer="96" display="off"/>
+<attribute name="VOLT" x="185.42" y="205.74" size="1.778" layer="96" display="off"/>
+<attribute name="VOLT" x="185.42" y="205.74" size="1.778" layer="96" display="off"/>
+<attribute name="VOLT" x="185.42" y="205.74" size="1.778" layer="96" display="off"/>
+<attribute name="VOLT" x="185.42" y="205.74" size="1.778" layer="96" display="off"/>
+<attribute name="VOLT" x="185.42" y="205.74" size="1.778" layer="96" display="off"/>
+<attribute name="VOLT" x="185.42" y="205.74" size="1.778" layer="96" display="off"/>
+<attribute name="SIZE" x="185.42" y="205.74" size="1.778" layer="96" display="off"/>
+<attribute name="SIZE" x="185.42" y="205.74" size="1.778" layer="96" display="off"/>
+<attribute name="SIZE" x="185.42" y="205.74" size="1.778" layer="96" display="off"/>
+<attribute name="SIZE" x="185.42" y="205.74" size="1.778" layer="96" display="off"/>
+<attribute name="SIZE" x="185.42" y="205.74" size="1.778" layer="96" display="off"/>
+<attribute name="SIZE" x="185.42" y="205.74" size="1.778" layer="96" display="off"/>
+<attribute name="SIZE" x="185.42" y="205.74" size="1.778" layer="96" display="off"/>
+<attribute name="SIZE" x="185.42" y="205.74" size="1.778" layer="96" display="off"/>
+<attribute name="SIZE" x="185.42" y="205.74" size="1.778" layer="96" display="off"/>
+<attribute name="HEIGHT" x="185.42" y="205.74" size="1.778" layer="96" display="off"/>
+<attribute name="TYPE" x="185.42" y="205.74" size="1.778" layer="96" display="off"/>
+<attribute name="SIZE" x="185.42" y="205.74" size="1.778" layer="96" display="off"/>
+<attribute name="VOLT" x="185.42" y="205.74" size="1.778" layer="96" display="off"/>
+<attribute name="DESC" x="185.42" y="205.74" size="1.778" layer="96" display="off"/>
 </instance>
 <instance part="+3V18" gate="G$1" x="215.9" y="210.82" smashed="yes" rot="R270"/>
 <instance part="U10" gate="G$1" x="165.1" y="205.74" smashed="yes">
 <attribute name="NAME" x="157.48" y="214.63" size="1.778" layer="95"/>
 <attribute name="PART_NUMBER" x="157.48" y="192.278" size="1.778" layer="96"/>
 <attribute name="PARTNO" x="165.1" y="205.74" size="1.778" layer="96" display="off"/>
+<attribute name="HEIGHT" x="165.1" y="205.74" size="1.778" layer="96" display="off"/>
+<attribute name="DESC" x="165.1" y="205.74" size="1.778" layer="96" display="off"/>
+<attribute name="TYPE" x="165.1" y="205.74" size="1.778" layer="96" display="off"/>
+<attribute name="SIZE" x="165.1" y="205.74" size="1.778" layer="96" display="off"/>
 </instance>
 <instance part="JP6" gate="G$1" x="200.66" y="210.82" smashed="yes">
 <attribute name="NAME" x="200.66" y="213.36" size="1.778" layer="95" font="vector" align="bottom-center"/>
@@ -9911,6 +10956,7 @@ F_MAX=1000kHz</text>
 <attribute name="NAME" x="292.1" y="60.96" size="1.778" layer="95" font="vector" rot="R90" align="bottom-center"/>
 <attribute name="PARTNO" x="294.64" y="60.96" size="1.778" layer="96" display="off"/>
 <attribute name="BOM" x="294.64" y="60.96" size="1.778" layer="96" rot="R90" display="off"/>
+<attribute name="Z-HEIGHT" x="294.64" y="60.96" size="1.778" layer="96" rot="R90" display="off"/>
 </instance>
 <instance part="GND25" gate="1" x="294.64" y="50.8" smashed="yes">
 <attribute name="VALUE" x="292.1" y="48.26" size="1.778" layer="96"/>
@@ -9919,49 +10965,63 @@ F_MAX=1000kHz</text>
 <attribute name="NAME" x="290.83" y="158.75" size="1.778" layer="95"/>
 <attribute name="TP_SIGNAL_NAME" x="293.37" y="156.21" size="1.778" layer="97"/>
 <attribute name="PARTNO" x="292.1" y="157.48" size="1.778" layer="96" display="off"/>
+<attribute name="Z-HEIGHT" x="292.1" y="157.48" size="1.778" layer="96" display="off"/>
 </instance>
 <instance part="AINT" gate="G$1" x="322.58" y="152.4" smashed="yes">
 <attribute name="NAME" x="321.31" y="153.67" size="1.778" layer="95"/>
 <attribute name="TP_SIGNAL_NAME" x="323.85" y="151.13" size="1.778" layer="97"/>
 <attribute name="PARTNO" x="322.58" y="152.4" size="1.778" layer="96" display="off"/>
+<attribute name="Z-HEIGHT" x="322.58" y="152.4" size="1.778" layer="96" display="off"/>
 </instance>
 <instance part="D_OUT" gate="G$1" x="294.64" y="76.2" smashed="yes">
 <attribute name="NAME" x="293.37" y="77.47" size="1.778" layer="95"/>
 <attribute name="TP_SIGNAL_NAME" x="295.91" y="74.93" size="1.778" layer="97"/>
 <attribute name="PARTNO" x="294.64" y="76.2" size="1.778" layer="96" display="off"/>
+<attribute name="Z-HEIGHT" x="294.64" y="76.2" size="1.778" layer="96" display="off"/>
 </instance>
 <instance part="ASCL" gate="G$1" x="365.76" y="149.86" smashed="yes">
 <attribute name="NAME" x="364.49" y="151.13" size="1.778" layer="95"/>
 <attribute name="TP_SIGNAL_NAME" x="367.03" y="148.59" size="1.778" layer="97"/>
 <attribute name="PARTNO" x="365.76" y="149.86" size="1.778" layer="96" display="off"/>
+<attribute name="Z-HEIGHT" x="365.76" y="149.86" size="1.778" layer="96" display="off"/>
 </instance>
 <instance part="ASDA" gate="G$1" x="368.3" y="147.32" smashed="yes">
 <attribute name="NAME" x="367.03" y="148.59" size="1.778" layer="95"/>
 <attribute name="TP_SIGNAL_NAME" x="369.57" y="146.05" size="1.778" layer="97"/>
 <attribute name="PARTNO" x="368.3" y="147.32" size="1.778" layer="96" display="off"/>
+<attribute name="Z-HEIGHT" x="368.3" y="147.32" size="1.778" layer="96" display="off"/>
 </instance>
 <instance part="X3" gate="G$1" x="266.58295625" y="248.517171875" smashed="yes" rot="R90">
 <attribute name="NAME" x="263.28095625" y="245.977171875" size="1.27" layer="95" rot="R90"/>
 <attribute name="VALUE" x="276.74295625" y="245.977171875" size="1.27" layer="96" rot="R90"/>
 <attribute name="MPN" x="266.58295625" y="248.517171875" size="1.778" layer="96" rot="R90" display="off"/>
 <attribute name="PARTNO" x="266.58295625" y="248.517171875" size="1.778" layer="96" display="off"/>
+<attribute name="HEIGHT" x="266.58295625" y="248.517171875" size="1.778" layer="96" rot="R90" display="off"/>
 </instance>
 <instance part="X5" gate="G$1" x="297.06295625" y="248.517171875" smashed="yes" rot="R90">
 <attribute name="NAME" x="293.76095625" y="245.977171875" size="1.27" layer="95" rot="R90"/>
 <attribute name="VALUE" x="307.22295625" y="245.977171875" size="1.27" layer="96" rot="R90"/>
 <attribute name="MPN" x="297.06295625" y="248.517171875" size="1.778" layer="96" rot="R90" display="off"/>
 <attribute name="PARTNO" x="297.06295625" y="248.517171875" size="1.778" layer="96" display="off"/>
+<attribute name="HEIGHT" x="297.06295625" y="248.517171875" size="1.778" layer="96" rot="R90" display="off"/>
 </instance>
 <instance part="X6" gate="G$1" x="330.08295625" y="248.517171875" smashed="yes" rot="R90">
 <attribute name="NAME" x="326.78095625" y="245.977171875" size="1.27" layer="95" rot="R90"/>
 <attribute name="VALUE" x="340.24295625" y="245.977171875" size="1.27" layer="96" rot="R90"/>
 <attribute name="MPN" x="330.08295625" y="248.517171875" size="1.778" layer="96" rot="R90" display="off"/>
 <attribute name="PARTNO" x="330.08295625" y="248.517171875" size="1.778" layer="96" display="off"/>
+<attribute name="HEIGHT" x="330.08295625" y="248.517171875" size="1.778" layer="96" rot="R90" display="off"/>
 </instance>
 <instance part="R7" gate="G$1" x="335.28" y="261.62" smashed="yes">
 <attribute name="NAME" x="331.47" y="263.1186" size="1.778" layer="95"/>
 <attribute name="VALUE" x="331.47" y="258.318" size="1.778" layer="96"/>
 <attribute name="PARTNO" x="335.28" y="261.62" size="1.778" layer="96" display="off"/>
+<attribute name="HEIGHT" x="335.28" y="261.62" size="1.778" layer="96" display="off"/>
+<attribute name="TYPE" x="335.28" y="261.62" size="1.778" layer="96" display="off"/>
+<attribute name="DESC" x="335.28" y="261.62" size="1.778" layer="96" display="off"/>
+<attribute name="SIZE" x="335.28" y="261.62" size="1.778" layer="96" display="off"/>
+<attribute name="TC" x="335.28" y="261.62" size="1.778" layer="96" display="off"/>
+<attribute name="MPN" x="335.28" y="261.62" size="1.778" layer="96" display="off"/>
 </instance>
 <instance part="GND26" gate="1" x="271.78" y="238.76" smashed="yes">
 <attribute name="VALUE" x="269.24" y="236.22" size="1.778" layer="96"/>
@@ -9976,18 +11036,31 @@ F_MAX=1000kHz</text>
 <attribute name="NAME" x="94.3356" y="70.0786" size="2.0828" layer="95" ratio="6" rot="SR0"/>
 <attribute name="VALUE" x="93.7006" y="67.5386" size="2.0828" layer="96" ratio="6" rot="SR0"/>
 <attribute name="PARTNO" x="63.5" y="60.96" size="1.778" layer="96" display="off"/>
+<attribute name="HEIGHT" x="63.5" y="60.96" size="1.778" layer="96" display="off"/>
+<attribute name="TYPE" x="63.5" y="60.96" size="1.778" layer="96" display="off"/>
+<attribute name="DESC" x="63.5" y="60.96" size="1.778" layer="96" display="off"/>
+<attribute name="SIZE" x="63.5" y="60.96" size="1.778" layer="96" display="off"/>
+<attribute name="MPN" x="63.5" y="60.96" size="1.778" layer="96" display="off"/>
 </instance>
 <instance part="J4" gate="G$1" x="198.12" y="40.64" smashed="yes" rot="R180">
 <attribute name="NAME" x="205.757690625" y="32.23855" size="1.78213125" layer="95" rot="R180"/>
 <attribute name="VALUE" x="205.7665" y="50.8353" size="1.78418125" layer="96" rot="R180"/>
 <attribute name="MPN" x="198.12" y="40.64" size="1.778" layer="96" rot="R180" display="off"/>
 <attribute name="PARTNO" x="198.12" y="40.64" size="1.778" layer="96" display="off"/>
+<attribute name="TYPE" x="198.12" y="40.64" size="1.778" layer="96" rot="R180" display="off"/>
+<attribute name="HEIGHT" x="198.12" y="40.64" size="1.778" layer="96" rot="R180" display="off"/>
+<attribute name="MANUFACTURER" x="198.12" y="40.64" size="1.778" layer="96" rot="R180" display="off"/>
+<attribute name="DESC" x="198.12" y="40.64" size="1.778" layer="96" rot="R180" display="off"/>
 </instance>
 <instance part="U13" gate="A" x="81.28" y="251.46" smashed="yes" rot="R180">
 <attribute name="NAME" x="73.3044" y="242.3414" size="2.0828" layer="95" ratio="6" rot="SR180"/>
 <attribute name="VALUE" x="86.6394" y="242.3414" size="2.0828" layer="96" ratio="6" rot="SR180"/>
 <attribute name="MPN" x="81.28" y="251.46" size="1.778" layer="96" rot="R180" display="off"/>
 <attribute name="PARTNO" x="81.28" y="251.46" size="1.778" layer="96" display="off"/>
+<attribute name="HEIGHT" x="81.28" y="251.46" size="1.778" layer="96" rot="R180" display="off"/>
+<attribute name="DESC" x="81.28" y="251.46" size="1.778" layer="96" rot="R180" display="off"/>
+<attribute name="TYPE" x="81.28" y="251.46" size="1.778" layer="96" rot="R180" display="off"/>
+<attribute name="SIZE" x="81.28" y="251.46" size="1.778" layer="96" rot="R180" display="off"/>
 </instance>
 <instance part="GND30" gate="1" x="182.88" y="226.06" smashed="yes">
 <attribute name="VALUE" x="180.213" y="222.885" size="1.778" layer="96"/>
@@ -9998,18 +11071,33 @@ F_MAX=1000kHz</text>
 <attribute name="VALUE" x="140.716" y="232.029" size="1.778" layer="96"/>
 <attribute name="MPN" x="139.7" y="236.22" size="1.778" layer="96" display="off"/>
 <attribute name="PARTNO" x="139.7" y="236.22" size="1.778" layer="96" display="off"/>
+<attribute name="HEIGHT" x="139.7" y="236.22" size="1.778" layer="96" display="off"/>
+<attribute name="TYPE" x="139.7" y="236.22" size="1.778" layer="96" display="off"/>
+<attribute name="SIZE" x="139.7" y="236.22" size="1.778" layer="96" display="off"/>
+<attribute name="VOLT" x="139.7" y="236.22" size="1.778" layer="96" display="off"/>
+<attribute name="DESC" x="139.7" y="236.22" size="1.778" layer="96" display="off"/>
 </instance>
-<instance part="C30" gate="G$1" x="185.42" y="236.22" smashed="yes">
+<instance part="C30" gate="G$1" x="185.42" y="236.22" smashed="yes" grouprefs="I">
 <attribute name="NAME" x="186.436" y="236.855" size="1.778" layer="95"/>
 <attribute name="VALUE" x="186.436" y="232.029" size="1.778" layer="96"/>
 <attribute name="MPN" x="185.42" y="236.22" size="1.778" layer="96" display="off"/>
 <attribute name="PARTNO" x="185.42" y="236.22" size="1.778" layer="96" display="off"/>
+<attribute name="DESCRIPTION" x="185.42" y="236.22" size="1.778" layer="96" display="off"/>
+<attribute name="HEIGHT" x="185.42" y="236.22" size="1.778" layer="96" display="off"/>
+<attribute name="TYPE" x="185.42" y="236.22" size="1.778" layer="96" display="off"/>
+<attribute name="SIZE" x="185.42" y="236.22" size="1.778" layer="96" display="off"/>
+<attribute name="VOLT" x="185.42" y="236.22" size="1.778" layer="96" display="off"/>
+<attribute name="DESC" x="185.42" y="236.22" size="1.778" layer="96" display="off"/>
 </instance>
 <instance part="+3V23" gate="G$1" x="215.9" y="241.3" smashed="yes" rot="R270"/>
 <instance part="U14" gate="G$1" x="165.1" y="236.22" smashed="yes">
 <attribute name="NAME" x="157.48" y="245.11" size="1.778" layer="95"/>
 <attribute name="PART_NUMBER" x="157.48" y="222.758" size="1.778" layer="96"/>
 <attribute name="PARTNO" x="165.1" y="236.22" size="1.778" layer="96" display="off"/>
+<attribute name="HEIGHT" x="165.1" y="236.22" size="1.778" layer="96" display="off"/>
+<attribute name="DESC" x="165.1" y="236.22" size="1.778" layer="96" display="off"/>
+<attribute name="TYPE" x="165.1" y="236.22" size="1.778" layer="96" display="off"/>
+<attribute name="SIZE" x="165.1" y="236.22" size="1.778" layer="96" display="off"/>
 </instance>
 <instance part="JP15" gate="G$1" x="200.66" y="241.3" smashed="yes">
 <attribute name="NAME" x="200.66" y="243.84" size="1.778" layer="95" font="vector" align="bottom-center"/>
@@ -10022,48 +11110,93 @@ F_MAX=1000kHz</text>
 <attribute name="VALUE" x="180.721" y="31.496" size="1.778" layer="96" rot="R90"/>
 <attribute name="MPN" x="177.8" y="30.48" size="1.778" layer="96" rot="R90" display="off"/>
 <attribute name="PARTNO" x="177.8" y="30.48" size="1.778" layer="96" display="off"/>
+<attribute name="DESC" x="177.8" y="30.48" size="1.778" layer="96" rot="R90" display="off"/>
+<attribute name="TYPE" x="177.8" y="30.48" size="1.778" layer="96" rot="R90" display="off"/>
+<attribute name="SIZE" x="177.8" y="30.48" size="1.778" layer="96" rot="R90" display="off"/>
+<attribute name="HEIGHT" x="177.8" y="30.48" size="1.778" layer="96" rot="R90" display="off"/>
+<attribute name="TYPE" x="177.8" y="30.48" size="1.778" layer="96" rot="R90" display="off"/>
+<attribute name="SIZE" x="177.8" y="30.48" size="1.778" layer="96" rot="R90" display="off"/>
+<attribute name="VOLT" x="177.8" y="30.48" size="1.778" layer="96" rot="R90" display="off"/>
+<attribute name="DESC" x="177.8" y="30.48" size="1.778" layer="96" rot="R90" display="off"/>
 </instance>
 <instance part="C32" gate="G$1" x="177.8" y="40.64" smashed="yes" rot="R90">
-<attribute name="NAME" x="175.895" y="41.656" size="1.778" layer="95" rot="R90"/>
+<attribute name="NAME" x="175.895" y="41.656" size="1.778" layer="95" rot="R180"/>
 <attribute name="VALUE" x="180.721" y="41.656" size="1.778" layer="96" rot="R90"/>
 <attribute name="MPN" x="177.8" y="40.64" size="1.778" layer="96" rot="R90" display="off"/>
 <attribute name="PARTNO" x="177.8" y="40.64" size="1.778" layer="96" display="off"/>
+<attribute name="DESC" x="177.8" y="40.64" size="1.778" layer="96" rot="R90" display="off"/>
+<attribute name="TYPE" x="177.8" y="40.64" size="1.778" layer="96" rot="R90" display="off"/>
+<attribute name="SIZE" x="177.8" y="40.64" size="1.778" layer="96" rot="R90" display="off"/>
+<attribute name="HEIGHT" x="177.8" y="40.64" size="1.778" layer="96" rot="R90" display="off"/>
+<attribute name="TYPE" x="177.8" y="40.64" size="1.778" layer="96" rot="R90" display="off"/>
+<attribute name="SIZE" x="177.8" y="40.64" size="1.778" layer="96" rot="R90" display="off"/>
+<attribute name="VOLT" x="177.8" y="40.64" size="1.778" layer="96" rot="R90" display="off"/>
+<attribute name="DESC" x="177.8" y="40.64" size="1.778" layer="96" rot="R90" display="off"/>
 </instance>
 <instance part="R8" gate="G$1" x="53.34" y="40.64" smashed="yes" rot="R180">
 <attribute name="NAME" x="57.15" y="39.1414" size="1.778" layer="95" rot="R180"/>
 <attribute name="VALUE" x="57.15" y="43.942" size="1.778" layer="96" rot="R180"/>
 <attribute name="MPN" x="53.34" y="40.64" size="1.778" layer="96" rot="R180" display="off"/>
 <attribute name="PARTNO" x="53.34" y="40.64" size="1.778" layer="96" display="off"/>
+<attribute name="HEIGHT" x="53.34" y="40.64" size="1.778" layer="96" rot="R180" display="off"/>
+<attribute name="TYPE" x="53.34" y="40.64" size="1.778" layer="96" rot="R180" display="off"/>
+<attribute name="DESC" x="53.34" y="40.64" size="1.778" layer="96" rot="R180" display="off"/>
+<attribute name="SIZE" x="53.34" y="40.64" size="1.778" layer="96" rot="R180" display="off"/>
+<attribute name="TC" x="53.34" y="40.64" size="1.778" layer="96" rot="R180" display="off"/>
 </instance>
-<instance part="C33" gate="G$1" x="53.34" y="38.1" smashed="yes" rot="R270">
+<instance part="C33" gate="G$1" x="53.34" y="38.1" smashed="yes" rot="R270" grouprefs="I">
 <attribute name="NAME" x="55.245" y="37.084" size="1.778" layer="95" rot="R270"/>
 <attribute name="VALUE" x="50.419" y="37.084" size="1.778" layer="96" rot="R270"/>
 <attribute name="MPN" x="53.34" y="38.1" size="1.778" layer="96" rot="R270" display="off"/>
 <attribute name="PARTNO" x="53.34" y="38.1" size="1.778" layer="96" display="off"/>
+<attribute name="HEIGHT" x="53.34" y="38.1" size="1.778" layer="96" rot="R270" display="off"/>
+<attribute name="TYPE" x="53.34" y="38.1" size="1.778" layer="96" rot="R270" display="off"/>
+<attribute name="SIZE" x="53.34" y="38.1" size="1.778" layer="96" rot="R270" display="off"/>
+<attribute name="VOLT" x="53.34" y="38.1" size="1.778" layer="96" rot="R270" display="off"/>
+<attribute name="DESC" x="53.34" y="38.1" size="1.778" layer="96" rot="R270" display="off"/>
 </instance>
 <instance part="GND33" gate="1" x="43.18" y="43.18" smashed="yes">
 <attribute name="VALUE" x="40.64" y="40.64" size="1.778" layer="96"/>
 </instance>
 <instance part="+3V24" gate="G$1" x="43.18" y="68.58" smashed="yes"/>
-<instance part="C34" gate="G$1" x="38.1" y="53.34" smashed="yes">
+<instance part="C34" gate="G$1" x="38.1" y="53.34" smashed="yes" grouprefs="I">
 <attribute name="NAME" x="39.116" y="55.245" size="1.778" layer="95"/>
 <attribute name="VALUE" x="39.116" y="50.419" size="1.778" layer="96"/>
 <attribute name="MPN" x="38.1" y="53.34" size="1.778" layer="96" display="off"/>
 <attribute name="PARTNO" x="38.1" y="53.34" size="1.778" layer="96" display="off"/>
+<attribute name="HEIGHT" x="38.1" y="53.34" size="1.778" layer="96" display="off"/>
+<attribute name="TYPE" x="38.1" y="53.34" size="1.778" layer="96" display="off"/>
+<attribute name="SIZE" x="38.1" y="53.34" size="1.778" layer="96" display="off"/>
+<attribute name="VOLT" x="38.1" y="53.34" size="1.778" layer="96" display="off"/>
+<attribute name="DESC" x="38.1" y="53.34" size="1.778" layer="96" display="off"/>
 </instance>
-<instance part="C35" gate="G$1" x="43.18" y="53.34" smashed="yes">
+<instance part="C35" gate="G$1" x="43.18" y="53.34" smashed="yes" grouprefs="10UCAP">
 <attribute name="NAME" x="44.196" y="55.245" size="1.778" layer="95"/>
 <attribute name="VALUE" x="44.196" y="50.419" size="1.778" layer="96"/>
 <attribute name="MPN" x="43.18" y="53.34" size="1.778" layer="96" display="off"/>
 <attribute name="PARTNO" x="43.18" y="53.34" size="1.778" layer="96" display="off"/>
+<attribute name="HEIGHT" x="43.18" y="53.34" size="1.778" layer="96" display="off"/>
+<attribute name="SIZE" x="43.18" y="53.34" size="1.778" layer="96" display="off"/>
+<attribute name="DESC" x="43.18" y="53.34" size="1.778" layer="96" display="off"/>
+<attribute name="TYPE" x="43.18" y="53.34" size="1.778" layer="96" display="off"/>
+<attribute name="VOLT" x="43.18" y="53.34" size="1.778" layer="96" display="off"/>
+<attribute name="TYPE" x="43.18" y="53.34" size="1.778" layer="96" display="off"/>
+<attribute name="SIZE" x="43.18" y="53.34" size="1.778" layer="96" display="off"/>
+<attribute name="VOLT" x="43.18" y="53.34" size="1.778" layer="96" display="off"/>
+<attribute name="DESC" x="43.18" y="53.34" size="1.778" layer="96" display="off"/>
 </instance>
 <instance part="GND34" gate="1" x="170.18" y="5.08" smashed="yes"/>
 <instance part="+3V25" gate="G$1" x="160.02" y="68.58" smashed="yes"/>
-<instance part="C36" gate="G$1" x="165.1" y="55.88" smashed="yes" rot="R90">
+<instance part="C36" gate="G$1" x="165.1" y="55.88" smashed="yes" rot="R90" grouprefs="I">
 <attribute name="NAME" x="163.195" y="56.896" size="1.778" layer="95" rot="R90"/>
 <attribute name="VALUE" x="168.021" y="56.896" size="1.778" layer="96" rot="R90"/>
 <attribute name="MPN" x="165.1" y="55.88" size="1.778" layer="96" rot="R90" display="off"/>
 <attribute name="PARTNO" x="165.1" y="55.88" size="1.778" layer="96" display="off"/>
+<attribute name="HEIGHT" x="165.1" y="55.88" size="1.778" layer="96" rot="R90" display="off"/>
+<attribute name="TYPE" x="165.1" y="55.88" size="1.778" layer="96" rot="R90" display="off"/>
+<attribute name="SIZE" x="165.1" y="55.88" size="1.778" layer="96" rot="R90" display="off"/>
+<attribute name="VOLT" x="165.1" y="55.88" size="1.778" layer="96" rot="R90" display="off"/>
+<attribute name="DESC" x="165.1" y="55.88" size="1.778" layer="96" rot="R90" display="off"/>
 </instance>
 <instance part="C37" gate="G$1" x="165.1" y="63.5" smashed="yes" rot="R90">
 <attribute name="NAME" x="163.195" y="64.516" size="1.778" layer="95" rot="R90"/>
@@ -10071,33 +11204,58 @@ F_MAX=1000kHz</text>
 <attribute name="MPN" x="165.1" y="63.5" size="1.778" layer="96" rot="R90" display="off"/>
 <attribute name="PARTNO" x="165.1" y="63.5" size="1.778" layer="96" display="off"/>
 <attribute name="ESR" x="165.1" y="63.5" size="1.778" layer="96" rot="R90" display="off"/>
+<attribute name="HEIGHT" x="165.1" y="63.5" size="1.778" layer="96" rot="R90" display="off"/>
+<attribute name="TYPE" x="165.1" y="63.5" size="1.778" layer="96" rot="R90" display="off"/>
+<attribute name="SIZE" x="165.1" y="63.5" size="1.778" layer="96" rot="R90" display="off"/>
+<attribute name="VOLT" x="165.1" y="63.5" size="1.778" layer="96" rot="R90" display="off"/>
+<attribute name="DESC" x="165.1" y="63.5" size="1.778" layer="96" rot="R90" display="off"/>
 </instance>
 <instance part="GND29" gate="1" x="142.24" y="20.32" smashed="yes">
 <attribute name="VALUE" x="139.7" y="17.78" size="1.778" layer="96"/>
 </instance>
-<instance part="C38" gate="G$1" x="142.24" y="53.34" smashed="yes">
+<instance part="C38" gate="G$1" x="142.24" y="53.34" smashed="yes" grouprefs="I">
 <attribute name="NAME" x="143.256" y="55.245" size="1.778" layer="95"/>
 <attribute name="VALUE" x="143.256" y="50.419" size="1.778" layer="96"/>
 <attribute name="MPN" x="142.24" y="53.34" size="1.778" layer="96" display="off"/>
 <attribute name="PARTNO" x="142.24" y="53.34" size="1.778" layer="96" display="off"/>
+<attribute name="HEIGHT" x="142.24" y="53.34" size="1.778" layer="96" display="off"/>
+<attribute name="TYPE" x="142.24" y="53.34" size="1.778" layer="96" display="off"/>
+<attribute name="SIZE" x="142.24" y="53.34" size="1.778" layer="96" display="off"/>
+<attribute name="VOLT" x="142.24" y="53.34" size="1.778" layer="96" display="off"/>
+<attribute name="DESC" x="142.24" y="53.34" size="1.778" layer="96" display="off"/>
 </instance>
-<instance part="C39" gate="G$1" x="147.32" y="53.34" smashed="yes">
+<instance part="C39" gate="G$1" x="147.32" y="53.34" smashed="yes" grouprefs="10UCAP">
 <attribute name="NAME" x="148.336" y="55.245" size="1.778" layer="95"/>
 <attribute name="VALUE" x="148.336" y="50.419" size="1.778" layer="96"/>
 <attribute name="MPN" x="147.32" y="53.34" size="1.778" layer="96" display="off"/>
 <attribute name="PARTNO" x="147.32" y="53.34" size="1.778" layer="96" display="off"/>
+<attribute name="HEIGHT" x="147.32" y="53.34" size="1.778" layer="96" display="off"/>
+<attribute name="SIZE" x="147.32" y="53.34" size="1.778" layer="96" display="off"/>
+<attribute name="VOLT" x="147.32" y="53.34" size="1.778" layer="96" display="off"/>
+<attribute name="DESC" x="147.32" y="53.34" size="1.778" layer="96" display="off"/>
+<attribute name="TYPE" x="147.32" y="53.34" size="1.778" layer="96" display="off"/>
+<attribute name="TYPE" x="147.32" y="53.34" size="1.778" layer="96" display="off"/>
+<attribute name="SIZE" x="147.32" y="53.34" size="1.778" layer="96" display="off"/>
+<attribute name="VOLT" x="147.32" y="53.34" size="1.778" layer="96" display="off"/>
+<attribute name="DESC" x="147.32" y="53.34" size="1.778" layer="96" display="off"/>
 </instance>
 <instance part="R11" gate="G$1" x="154.94" y="53.34" smashed="yes" rot="R90">
 <attribute name="NAME" x="153.4414" y="49.53" size="1.778" layer="95" rot="R90"/>
 <attribute name="VALUE" x="158.242" y="49.53" size="1.778" layer="96" rot="R90"/>
 <attribute name="MPN" x="154.94" y="53.34" size="1.778" layer="96" rot="R90" display="off"/>
 <attribute name="PARTNO" x="154.94" y="53.34" size="1.778" layer="96" display="off"/>
+<attribute name="HEIGHT" x="154.94" y="53.34" size="1.778" layer="96" rot="R90" display="off"/>
+<attribute name="TYPE" x="154.94" y="53.34" size="1.778" layer="96" rot="R90" display="off"/>
+<attribute name="SIZE" x="154.94" y="53.34" size="1.778" layer="96" rot="R90" display="off"/>
+<attribute name="TC" x="154.94" y="53.34" size="1.778" layer="96" rot="R90" display="off"/>
+<attribute name="DESC" x="154.94" y="53.34" size="1.778" layer="96" rot="R90" display="off"/>
 </instance>
 <instance part="RESET" gate="G$1" x="175.26" y="50.8" smashed="yes">
 <attribute name="NAME" x="173.99" y="52.07" size="1.778" layer="95"/>
 <attribute name="TP_SIGNAL_NAME" x="176.53" y="49.53" size="1.778" layer="97"/>
 <attribute name="PARTNO" x="175.26" y="50.8" size="1.778" layer="96" display="off"/>
 <attribute name="BOM" x="175.26" y="50.8" size="1.778" layer="96" display="off"/>
+<attribute name="Z-HEIGHT" x="175.26" y="50.8" size="1.778" layer="96" display="off"/>
 </instance>
 <instance part="GND32" gate="1" x="215.9" y="17.78" smashed="yes"/>
 <instance part="GND35" gate="1" x="231.14" y="17.78" smashed="yes">
@@ -10107,11 +11265,22 @@ F_MAX=1000kHz</text>
 <attribute name="NAME" x="219.71" y="24.3586" size="1.778" layer="95"/>
 <attribute name="VALUE" x="219.71" y="19.558" size="1.778" layer="96"/>
 <attribute name="PARTNO" x="223.52" y="22.86" size="1.778" layer="96" display="off"/>
+<attribute name="HEIGHT" x="223.52" y="22.86" size="1.778" layer="96" display="off"/>
+<attribute name="TYPE" x="223.52" y="22.86" size="1.778" layer="96" display="off"/>
+<attribute name="DESC" x="223.52" y="22.86" size="1.778" layer="96" display="off"/>
+<attribute name="SIZE" x="223.52" y="22.86" size="1.778" layer="96" display="off"/>
+<attribute name="MPN" x="223.52" y="22.86" size="1.778" layer="96" display="off"/>
 </instance>
 <instance part="U15" gate="A" x="246.38" y="25.4" smashed="yes">
 <attribute name="NAME" x="269.5956" y="34.5186" size="2.0828" layer="95" ratio="6" rot="SR0"/>
 <attribute name="VALUE" x="268.9606" y="31.9786" size="2.0828" layer="96" ratio="6" rot="SR0"/>
 <attribute name="PARTNO" x="246.38" y="25.4" size="1.778" layer="96" display="off"/>
+<attribute name="HEIGHT" x="246.38" y="25.4" size="1.778" layer="96" display="off"/>
+<attribute name="MANUFACTURER" x="246.38" y="25.4" size="1.778" layer="96" display="off"/>
+<attribute name="TYPE" x="246.38" y="25.4" size="1.778" layer="96" display="off"/>
+<attribute name="DESC" x="246.38" y="25.4" size="1.778" layer="96" display="off"/>
+<attribute name="MPN" x="246.38" y="25.4" size="1.778" layer="96" display="off"/>
+<attribute name="SIZE" x="246.38" y="25.4" size="1.778" layer="96" display="off"/>
 </instance>
 <instance part="+3V26" gate="G$1" x="246.38" y="38.1" smashed="yes"/>
 <instance part="GND36" gate="1" x="246.38" y="7.62" smashed="yes">
@@ -10124,12 +11293,23 @@ F_MAX=1000kHz</text>
 <attribute name="VALUE" x="233.4006" y="67.5386" size="2.0828" layer="96" ratio="6" rot="SR0"/>
 <attribute name="MPN" x="218.44" y="60.96" size="1.778" layer="96" display="off"/>
 <attribute name="PARTNO" x="218.44" y="60.96" size="1.778" layer="96" display="off"/>
+<attribute name="HEIGHT" x="218.44" y="60.96" size="1.778" layer="96" display="off"/>
+<attribute name="DESC" x="218.44" y="60.96" size="1.778" layer="96" display="off"/>
+<attribute name="TYPE" x="218.44" y="60.96" size="1.778" layer="96" display="off"/>
+<attribute name="MANUFACTURER" x="218.44" y="60.96" size="1.778" layer="96" display="off"/>
+<attribute name="SIZE" x="218.44" y="60.96" size="1.778" layer="96" display="off"/>
 </instance>
 <instance part="C41" gate="G$1" x="241.3" y="27.94" smashed="yes">
 <attribute name="NAME" x="242.316" y="29.845" size="1.778" layer="95"/>
 <attribute name="VALUE" x="242.316" y="25.019" size="1.778" layer="96"/>
 <attribute name="PARTNO" x="241.3" y="27.94" size="1.778" layer="96" display="off"/>
 <attribute name="ESR" x="241.3" y="27.94" size="1.778" layer="96" display="off"/>
+<attribute name="HEIGHT" x="241.3" y="27.94" size="1.778" layer="96" display="off"/>
+<attribute name="TYPE" x="241.3" y="27.94" size="1.778" layer="96" display="off"/>
+<attribute name="SIZE" x="241.3" y="27.94" size="1.778" layer="96" display="off"/>
+<attribute name="VOLT" x="241.3" y="27.94" size="1.778" layer="96" display="off"/>
+<attribute name="DESC" x="241.3" y="27.94" size="1.778" layer="96" display="off"/>
+<attribute name="MPN" x="241.3" y="27.94" size="1.778" layer="96" display="off"/>
 </instance>
 <instance part="GND37" gate="1" x="215.9" y="38.1" smashed="yes">
 <attribute name="VALUE" x="213.36" y="35.56" size="1.778" layer="96"/>
@@ -10139,6 +11319,11 @@ F_MAX=1000kHz</text>
 <attribute name="VALUE" x="214.376" y="47.879" size="1.778" layer="96"/>
 <attribute name="MPN" x="213.36" y="50.8" size="1.778" layer="96" display="off"/>
 <attribute name="PARTNO" x="213.36" y="50.8" size="1.778" layer="96" display="off"/>
+<attribute name="HEIGHT" x="213.36" y="50.8" size="1.778" layer="96" display="off"/>
+<attribute name="TYPE" x="213.36" y="50.8" size="1.778" layer="96" display="off"/>
+<attribute name="SIZE" x="213.36" y="50.8" size="1.778" layer="96" display="off"/>
+<attribute name="VOLT" x="213.36" y="50.8" size="1.778" layer="96" display="off"/>
+<attribute name="DESC" x="213.36" y="50.8" size="1.778" layer="96" display="off"/>
 </instance>
 <instance part="+3V29" gate="G$1" x="213.36" y="68.58" smashed="yes"/>
 <instance part="+3V30" gate="G$1" x="269.24" y="58.42" smashed="yes" rot="R270"/>
@@ -10150,24 +11335,43 @@ F_MAX=1000kHz</text>
 <attribute name="NAME" x="102.87" y="80.01" size="1.778" layer="95"/>
 <attribute name="TP_SIGNAL_NAME" x="105.41" y="77.47" size="1.778" layer="97"/>
 <attribute name="PARTNO" x="104.14" y="78.74" size="1.778" layer="96" display="off"/>
+<attribute name="Z-HEIGHT" x="104.14" y="78.74" size="1.778" layer="96" display="off"/>
 </instance>
-<instance part="C43" gate="G$1" x="104.14" y="205.74" smashed="yes">
+<instance part="C43" gate="G$1" x="104.14" y="205.74" smashed="yes" grouprefs="I">
 <attribute name="NAME" x="105.156" y="206.375" size="1.778" layer="95"/>
 <attribute name="VALUE" x="105.156" y="201.549" size="1.778" layer="96"/>
 <attribute name="MPN" x="104.14" y="205.74" size="1.778" layer="96" display="off"/>
 <attribute name="PARTNO" x="104.14" y="205.74" size="1.778" layer="96" display="off"/>
+<attribute name="DESCRIPTION" x="104.14" y="205.74" size="1.778" layer="96" display="off"/>
+<attribute name="HEIGHT" x="104.14" y="205.74" size="1.778" layer="96" display="off"/>
+<attribute name="TYPE" x="104.14" y="205.74" size="1.778" layer="96" display="off"/>
+<attribute name="SIZE" x="104.14" y="205.74" size="1.778" layer="96" display="off"/>
+<attribute name="VOLT" x="104.14" y="205.74" size="1.778" layer="96" display="off"/>
+<attribute name="DESC" x="104.14" y="205.74" size="1.778" layer="96" display="off"/>
 </instance>
-<instance part="C44" gate="G$1" x="104.14" y="154.94" smashed="yes">
+<instance part="C44" gate="G$1" x="104.14" y="154.94" smashed="yes" grouprefs="I">
 <attribute name="NAME" x="105.156" y="155.575" size="1.778" layer="95"/>
 <attribute name="VALUE" x="105.156" y="150.749" size="1.778" layer="96"/>
 <attribute name="MPN" x="104.14" y="154.94" size="1.778" layer="96" display="off"/>
 <attribute name="PARTNO" x="104.14" y="154.94" size="1.778" layer="96" display="off"/>
+<attribute name="DESCRIPTION" x="104.14" y="154.94" size="1.778" layer="96" display="off"/>
+<attribute name="HEIGHT" x="104.14" y="154.94" size="1.778" layer="96" display="off"/>
+<attribute name="TYPE" x="104.14" y="154.94" size="1.778" layer="96" display="off"/>
+<attribute name="SIZE" x="104.14" y="154.94" size="1.778" layer="96" display="off"/>
+<attribute name="VOLT" x="104.14" y="154.94" size="1.778" layer="96" display="off"/>
+<attribute name="DESC" x="104.14" y="154.94" size="1.778" layer="96" display="off"/>
 </instance>
-<instance part="C45" gate="G$1" x="104.14" y="106.68" smashed="yes">
+<instance part="C45" gate="G$1" x="104.14" y="106.68" smashed="yes" grouprefs="I">
 <attribute name="NAME" x="105.156" y="107.315" size="1.778" layer="95"/>
 <attribute name="VALUE" x="105.156" y="102.489" size="1.778" layer="96"/>
 <attribute name="MPN" x="104.14" y="106.68" size="1.778" layer="96" display="off"/>
 <attribute name="PARTNO" x="104.14" y="106.68" size="1.778" layer="96" display="off"/>
+<attribute name="DESCRIPTION" x="104.14" y="106.68" size="1.778" layer="96" display="off"/>
+<attribute name="HEIGHT" x="104.14" y="106.68" size="1.778" layer="96" display="off"/>
+<attribute name="TYPE" x="104.14" y="106.68" size="1.778" layer="96" display="off"/>
+<attribute name="SIZE" x="104.14" y="106.68" size="1.778" layer="96" display="off"/>
+<attribute name="VOLT" x="104.14" y="106.68" size="1.778" layer="96" display="off"/>
+<attribute name="DESC" x="104.14" y="106.68" size="1.778" layer="96" display="off"/>
 </instance>
 <instance part="GND38" gate="1" x="104.14" y="93.98" smashed="yes">
 <attribute name="VALUE" x="101.6" y="91.44" size="1.778" layer="96"/>
@@ -10248,9 +11452,9 @@ F_MAX=1000kHz</text>
 <wire x1="289.56" y1="203.2" x2="297.18" y2="203.2" width="0.1524" layer="91"/>
 <wire x1="289.56" y1="200.66" x2="297.18" y2="200.66" width="0.1524" layer="91"/>
 <wire x1="289.56" y1="198.12" x2="297.18" y2="198.12" width="0.1524" layer="91"/>
-<pinref part="J301" gate="G$1" pin="1"/>
-<pinref part="J301" gate="G$1" pin="3"/>
-<pinref part="J301" gate="G$1" pin="5"/>
+<pinref part="J5" gate="G$1" pin="1"/>
+<pinref part="J5" gate="G$1" pin="3"/>
+<pinref part="J5" gate="G$1" pin="5"/>
 </segment>
 <segment>
 <wire x1="289.56" y1="121.92" x2="289.56" y2="119.38" width="0.1524" layer="91"/>
@@ -10472,7 +11676,7 @@ F_MAX=1000kHz</text>
 <net name="BUS0_SERCOM_P0" class="0">
 <segment>
 <wire x1="297.18" y1="195.58" x2="259.08" y2="195.58" width="0.1524" layer="91"/>
-<pinref part="J301" gate="G$1" pin="7"/>
+<pinref part="J5" gate="G$1" pin="7"/>
 <label x="274.32" y="195.58" size="1.778" layer="95"/>
 <wire x1="259.08" y1="195.58" x2="256.54" y2="198.12" width="0.1524" layer="91"/>
 </segment>
@@ -10487,7 +11691,7 @@ F_MAX=1000kHz</text>
 <net name="BUS0_SERCOM_P2" class="0">
 <segment>
 <wire x1="259.08" y1="175.26" x2="297.18" y2="175.26" width="0.1524" layer="91"/>
-<pinref part="J301" gate="G$1" pin="23"/>
+<pinref part="J5" gate="G$1" pin="23"/>
 <label x="274.32" y="175.26" size="1.778" layer="95"/>
 <wire x1="259.08" y1="175.26" x2="256.54" y2="177.8" width="0.1524" layer="91"/>
 </segment>
@@ -10495,7 +11699,7 @@ F_MAX=1000kHz</text>
 <net name="BUS0_SERCOM_P3" class="0">
 <segment>
 <wire x1="259.08" y1="165.1" x2="297.18" y2="165.1" width="0.1524" layer="91"/>
-<pinref part="J301" gate="G$1" pin="31"/>
+<pinref part="J5" gate="G$1" pin="31"/>
 <label x="274.32" y="165.1" size="1.778" layer="95"/>
 <wire x1="259.08" y1="165.1" x2="256.54" y2="167.64" width="0.1524" layer="91"/>
 </segment>
@@ -10509,7 +11713,7 @@ F_MAX=1000kHz</text>
 </net>
 <net name="BUS0_GPIO0" class="0">
 <segment>
-<pinref part="J301" gate="G$1" pin="24"/>
+<pinref part="J5" gate="G$1" pin="24"/>
 <label x="320.04" y="175.26" size="1.778" layer="95"/>
 <wire x1="317.5" y1="175.26" x2="350.52" y2="175.26" width="0.1524" layer="91"/>
 <wire x1="350.52" y1="175.26" x2="353.06" y2="172.72" width="0.1524" layer="91"/>
@@ -10517,7 +11721,7 @@ F_MAX=1000kHz</text>
 </net>
 <net name="BUS0_GPIO1" class="0">
 <segment>
-<pinref part="J301" gate="G$1" pin="32"/>
+<pinref part="J5" gate="G$1" pin="32"/>
 <label x="320.04" y="165.1" size="1.778" layer="95"/>
 <wire x1="317.5" y1="165.1" x2="350.52" y2="165.1" width="0.1524" layer="91"/>
 <wire x1="350.52" y1="165.1" x2="353.06" y2="162.56" width="0.1524" layer="91"/>
@@ -10536,7 +11740,7 @@ F_MAX=1000kHz</text>
 </net>
 <net name="DTR_DETECT_IN" class="0">
 <segment>
-<pinref part="J301" gate="G$1" pin="39"/>
+<pinref part="J5" gate="G$1" pin="39"/>
 <wire x1="297.18" y1="154.94" x2="292.1" y2="154.94" width="0.1524" layer="91"/>
 <label x="289.56" y="154.94" size="1.778" layer="95" rot="R180" xref="yes"/>
 <pinref part="D_IN" gate="G$1" pin="TP"/>
@@ -10546,7 +11750,7 @@ F_MAX=1000kHz</text>
 </net>
 <net name="MASTER_I2C_SCL" class="0">
 <segment>
-<pinref part="J301" gate="G$1" pin="40"/>
+<pinref part="J5" gate="G$1" pin="40"/>
 <label x="320.04" y="154.94" size="1.778" layer="95"/>
 <wire x1="317.5" y1="154.94" x2="345.44" y2="154.94" width="0.1524" layer="91"/>
 <wire x1="345.44" y1="154.94" x2="347.98" y2="152.4" width="0.1524" layer="91"/>
@@ -10566,7 +11770,7 @@ F_MAX=1000kHz</text>
 </net>
 <net name="MASTER_I2C_SDA" class="0">
 <segment>
-<pinref part="J301" gate="G$1" pin="42"/>
+<pinref part="J5" gate="G$1" pin="42"/>
 <label x="320.04" y="152.4" size="1.778" layer="95"/>
 <wire x1="317.5" y1="152.4" x2="345.44" y2="152.4" width="0.1524" layer="91"/>
 <wire x1="345.44" y1="152.4" x2="347.98" y2="149.86" width="0.1524" layer="91"/>
@@ -10586,7 +11790,7 @@ F_MAX=1000kHz</text>
 </net>
 <net name="BUS0_AIN0" class="0">
 <segment>
-<pinref part="J301" gate="G$1" pin="8"/>
+<pinref part="J5" gate="G$1" pin="8"/>
 <label x="320.04" y="195.58" size="1.778" layer="95"/>
 <wire x1="317.5" y1="195.58" x2="350.52" y2="195.58" width="0.1524" layer="91"/>
 <wire x1="350.52" y1="195.58" x2="353.06" y2="193.04" width="0.1524" layer="91"/>
@@ -10594,7 +11798,7 @@ F_MAX=1000kHz</text>
 </net>
 <net name="BUS1_AIN0" class="0">
 <segment>
-<pinref part="J301" gate="G$1" pin="10"/>
+<pinref part="J5" gate="G$1" pin="10"/>
 <wire x1="317.5" y1="193.04" x2="355.6" y2="193.04" width="0.1524" layer="91"/>
 <label x="320.04" y="193.04" size="1.778" layer="95"/>
 <wire x1="355.6" y1="193.04" x2="358.14" y2="190.5" width="0.1524" layer="91"/>
@@ -10602,7 +11806,7 @@ F_MAX=1000kHz</text>
 </net>
 <net name="BUS2_AIN0" class="0">
 <segment>
-<pinref part="J301" gate="G$1" pin="12"/>
+<pinref part="J5" gate="G$1" pin="12"/>
 <wire x1="317.5" y1="190.5" x2="340.36" y2="190.5" width="0.1524" layer="91"/>
 <label x="320.04" y="190.5" size="1.778" layer="95"/>
 <wire x1="340.36" y1="190.5" x2="342.9" y2="187.96" width="0.1524" layer="91"/>
@@ -10616,7 +11820,7 @@ F_MAX=1000kHz</text>
 </net>
 <net name="BUS3_AIN0" class="0">
 <segment>
-<pinref part="J301" gate="G$1" pin="14"/>
+<pinref part="J5" gate="G$1" pin="14"/>
 <wire x1="317.5" y1="187.96" x2="340.36" y2="187.96" width="0.1524" layer="91"/>
 <label x="320.04" y="187.96" size="1.778" layer="95"/>
 <wire x1="340.36" y1="187.96" x2="342.9" y2="185.42" width="0.1524" layer="91"/>
@@ -10630,7 +11834,7 @@ F_MAX=1000kHz</text>
 </net>
 <net name="BUS0_AIN1" class="0">
 <segment>
-<pinref part="J301" gate="G$1" pin="16"/>
+<pinref part="J5" gate="G$1" pin="16"/>
 <label x="320.04" y="185.42" size="1.778" layer="95"/>
 <wire x1="317.5" y1="185.42" x2="350.52" y2="185.42" width="0.1524" layer="91"/>
 <wire x1="350.52" y1="185.42" x2="353.06" y2="182.88" width="0.1524" layer="91"/>
@@ -10638,7 +11842,7 @@ F_MAX=1000kHz</text>
 </net>
 <net name="BUS1_AIN1" class="0">
 <segment>
-<pinref part="J301" gate="G$1" pin="18"/>
+<pinref part="J5" gate="G$1" pin="18"/>
 <wire x1="317.5" y1="182.88" x2="355.6" y2="182.88" width="0.1524" layer="91"/>
 <label x="320.04" y="182.88" size="1.778" layer="95"/>
 <wire x1="355.6" y1="182.88" x2="358.14" y2="180.34" width="0.1524" layer="91"/>
@@ -10646,7 +11850,7 @@ F_MAX=1000kHz</text>
 </net>
 <net name="BUS2_AIN1" class="0">
 <segment>
-<pinref part="J301" gate="G$1" pin="20"/>
+<pinref part="J5" gate="G$1" pin="20"/>
 <wire x1="317.5" y1="180.34" x2="340.36" y2="180.34" width="0.1524" layer="91"/>
 <label x="320.04" y="180.34" size="1.778" layer="95"/>
 <wire x1="340.36" y1="180.34" x2="342.9" y2="177.8" width="0.1524" layer="91"/>
@@ -10660,7 +11864,7 @@ F_MAX=1000kHz</text>
 </net>
 <net name="BUS3_AIN1" class="0">
 <segment>
-<pinref part="J301" gate="G$1" pin="22"/>
+<pinref part="J5" gate="G$1" pin="22"/>
 <wire x1="317.5" y1="177.8" x2="340.36" y2="177.8" width="0.1524" layer="91"/>
 <label x="320.04" y="177.8" size="1.778" layer="95"/>
 <wire x1="340.36" y1="177.8" x2="342.9" y2="175.26" width="0.1524" layer="91"/>
@@ -10674,7 +11878,7 @@ F_MAX=1000kHz</text>
 </net>
 <net name="BUS1_GPIO0" class="0">
 <segment>
-<pinref part="J301" gate="G$1" pin="26"/>
+<pinref part="J5" gate="G$1" pin="26"/>
 <wire x1="317.5" y1="172.72" x2="355.6" y2="172.72" width="0.1524" layer="91"/>
 <label x="320.04" y="172.72" size="1.778" layer="95"/>
 <wire x1="355.6" y1="172.72" x2="358.14" y2="170.18" width="0.1524" layer="91"/>
@@ -10682,7 +11886,7 @@ F_MAX=1000kHz</text>
 </net>
 <net name="BUS2_GPIO0" class="0">
 <segment>
-<pinref part="J301" gate="G$1" pin="28"/>
+<pinref part="J5" gate="G$1" pin="28"/>
 <wire x1="317.5" y1="170.18" x2="340.36" y2="170.18" width="0.1524" layer="91"/>
 <label x="320.04" y="170.18" size="1.778" layer="95"/>
 <wire x1="340.36" y1="170.18" x2="342.9" y2="167.64" width="0.1524" layer="91"/>
@@ -10696,7 +11900,7 @@ F_MAX=1000kHz</text>
 </net>
 <net name="BUS3_GPIO0" class="0">
 <segment>
-<pinref part="J301" gate="G$1" pin="30"/>
+<pinref part="J5" gate="G$1" pin="30"/>
 <wire x1="317.5" y1="167.64" x2="340.36" y2="167.64" width="0.1524" layer="91"/>
 <label x="320.04" y="167.64" size="1.778" layer="95"/>
 <wire x1="340.36" y1="167.64" x2="342.9" y2="165.1" width="0.1524" layer="91"/>
@@ -10710,7 +11914,7 @@ F_MAX=1000kHz</text>
 </net>
 <net name="BUS1_GPIO1" class="0">
 <segment>
-<pinref part="J301" gate="G$1" pin="34"/>
+<pinref part="J5" gate="G$1" pin="34"/>
 <wire x1="317.5" y1="162.56" x2="355.6" y2="162.56" width="0.1524" layer="91"/>
 <label x="320.04" y="162.56" size="1.778" layer="95"/>
 <wire x1="355.6" y1="162.56" x2="358.14" y2="160.02" width="0.1524" layer="91"/>
@@ -10718,7 +11922,7 @@ F_MAX=1000kHz</text>
 </net>
 <net name="BUS2_GPIO1" class="0">
 <segment>
-<pinref part="J301" gate="G$1" pin="36"/>
+<pinref part="J5" gate="G$1" pin="36"/>
 <wire x1="317.5" y1="160.02" x2="340.36" y2="160.02" width="0.1524" layer="91"/>
 <label x="320.04" y="160.02" size="1.778" layer="95"/>
 <wire x1="340.36" y1="160.02" x2="342.9" y2="157.48" width="0.1524" layer="91"/>
@@ -10732,7 +11936,7 @@ F_MAX=1000kHz</text>
 </net>
 <net name="BUS3_GPIO1" class="0">
 <segment>
-<pinref part="J301" gate="G$1" pin="38"/>
+<pinref part="J5" gate="G$1" pin="38"/>
 <wire x1="317.5" y1="157.48" x2="340.36" y2="157.48" width="0.1524" layer="91"/>
 <label x="320.04" y="157.48" size="1.778" layer="95"/>
 <wire x1="340.36" y1="157.48" x2="342.9" y2="154.94" width="0.1524" layer="91"/>
@@ -10746,7 +11950,7 @@ F_MAX=1000kHz</text>
 </net>
 <net name="BUS1_SERCOM_P0" class="0">
 <segment>
-<pinref part="J301" gate="G$1" pin="9"/>
+<pinref part="J5" gate="G$1" pin="9"/>
 <wire x1="297.18" y1="193.04" x2="254" y2="193.04" width="0.1524" layer="91"/>
 <label x="274.32" y="193.04" size="1.778" layer="95"/>
 <wire x1="254" y1="193.04" x2="251.46" y2="195.58" width="0.1524" layer="91"/>
@@ -10754,7 +11958,7 @@ F_MAX=1000kHz</text>
 </net>
 <net name="BUS2_SERCOM_P0" class="0">
 <segment>
-<pinref part="J301" gate="G$1" pin="11"/>
+<pinref part="J5" gate="G$1" pin="11"/>
 <wire x1="297.18" y1="190.5" x2="266.7" y2="190.5" width="0.1524" layer="91"/>
 <label x="274.32" y="190.5" size="1.778" layer="95"/>
 <wire x1="266.7" y1="190.5" x2="264.16" y2="193.04" width="0.1524" layer="91"/>
@@ -10768,7 +11972,7 @@ F_MAX=1000kHz</text>
 </net>
 <net name="BUS3_SERCOM_P0" class="0">
 <segment>
-<pinref part="J301" gate="G$1" pin="13"/>
+<pinref part="J5" gate="G$1" pin="13"/>
 <wire x1="297.18" y1="187.96" x2="266.7" y2="187.96" width="0.1524" layer="91"/>
 <label x="274.32" y="187.96" size="1.778" layer="95"/>
 <wire x1="266.7" y1="187.96" x2="264.16" y2="190.5" width="0.1524" layer="91"/>
@@ -10782,7 +11986,7 @@ F_MAX=1000kHz</text>
 </net>
 <net name="BUS1_SERCOM_P1" class="0">
 <segment>
-<pinref part="J301" gate="G$1" pin="17"/>
+<pinref part="J5" gate="G$1" pin="17"/>
 <wire x1="297.18" y1="182.88" x2="254" y2="182.88" width="0.1524" layer="91"/>
 <label x="274.32" y="182.88" size="1.778" layer="95"/>
 <wire x1="254" y1="182.88" x2="251.46" y2="185.42" width="0.1524" layer="91"/>
@@ -10790,7 +11994,7 @@ F_MAX=1000kHz</text>
 </net>
 <net name="BUS2_SERCOM_P1" class="0">
 <segment>
-<pinref part="J301" gate="G$1" pin="19"/>
+<pinref part="J5" gate="G$1" pin="19"/>
 <wire x1="297.18" y1="180.34" x2="266.7" y2="180.34" width="0.1524" layer="91"/>
 <label x="274.32" y="180.34" size="1.778" layer="95"/>
 <wire x1="266.7" y1="180.34" x2="264.16" y2="182.88" width="0.1524" layer="91"/>
@@ -10804,7 +12008,7 @@ F_MAX=1000kHz</text>
 </net>
 <net name="BUS3_SERCOM_P1" class="0">
 <segment>
-<pinref part="J301" gate="G$1" pin="21"/>
+<pinref part="J5" gate="G$1" pin="21"/>
 <wire x1="297.18" y1="177.8" x2="266.7" y2="177.8" width="0.1524" layer="91"/>
 <label x="274.32" y="177.8" size="1.778" layer="95"/>
 <wire x1="266.7" y1="177.8" x2="264.16" y2="180.34" width="0.1524" layer="91"/>
@@ -10818,7 +12022,7 @@ F_MAX=1000kHz</text>
 </net>
 <net name="BUS1_SERCOM_P2" class="0">
 <segment>
-<pinref part="J301" gate="G$1" pin="25"/>
+<pinref part="J5" gate="G$1" pin="25"/>
 <wire x1="297.18" y1="172.72" x2="254" y2="172.72" width="0.1524" layer="91"/>
 <label x="274.32" y="172.72" size="1.778" layer="95"/>
 <wire x1="254" y1="172.72" x2="251.46" y2="175.26" width="0.1524" layer="91"/>
@@ -10826,7 +12030,7 @@ F_MAX=1000kHz</text>
 </net>
 <net name="BUS2_SERCOM_P2" class="0">
 <segment>
-<pinref part="J301" gate="G$1" pin="27"/>
+<pinref part="J5" gate="G$1" pin="27"/>
 <wire x1="297.18" y1="170.18" x2="266.7" y2="170.18" width="0.1524" layer="91"/>
 <label x="274.32" y="170.18" size="1.778" layer="95"/>
 <wire x1="266.7" y1="170.18" x2="264.16" y2="172.72" width="0.1524" layer="91"/>
@@ -10840,7 +12044,7 @@ F_MAX=1000kHz</text>
 </net>
 <net name="BUS3_SERCOM_P2" class="0">
 <segment>
-<pinref part="J301" gate="G$1" pin="29"/>
+<pinref part="J5" gate="G$1" pin="29"/>
 <wire x1="297.18" y1="167.64" x2="266.7" y2="167.64" width="0.1524" layer="91"/>
 <label x="274.32" y="167.64" size="1.778" layer="95"/>
 <wire x1="266.7" y1="167.64" x2="264.16" y2="170.18" width="0.1524" layer="91"/>
@@ -10854,7 +12058,7 @@ F_MAX=1000kHz</text>
 </net>
 <net name="BUS1_SERCOM_P3" class="0">
 <segment>
-<pinref part="J301" gate="G$1" pin="33"/>
+<pinref part="J5" gate="G$1" pin="33"/>
 <wire x1="297.18" y1="162.56" x2="254" y2="162.56" width="0.1524" layer="91"/>
 <label x="274.32" y="162.56" size="1.778" layer="95"/>
 <wire x1="254" y1="162.56" x2="251.46" y2="165.1" width="0.1524" layer="91"/>
@@ -10862,7 +12066,7 @@ F_MAX=1000kHz</text>
 </net>
 <net name="BUS2_SERCOM_P3" class="0">
 <segment>
-<pinref part="J301" gate="G$1" pin="35"/>
+<pinref part="J5" gate="G$1" pin="35"/>
 <wire x1="297.18" y1="160.02" x2="266.7" y2="160.02" width="0.1524" layer="91"/>
 <label x="274.32" y="160.02" size="1.778" layer="95"/>
 <wire x1="266.7" y1="160.02" x2="264.16" y2="162.56" width="0.1524" layer="91"/>
@@ -10876,7 +12080,7 @@ F_MAX=1000kHz</text>
 </net>
 <net name="BUS3_SERCOM_P3" class="0">
 <segment>
-<pinref part="J301" gate="G$1" pin="37"/>
+<pinref part="J5" gate="G$1" pin="37"/>
 <wire x1="297.18" y1="157.48" x2="266.7" y2="157.48" width="0.1524" layer="91"/>
 <label x="274.32" y="157.48" size="1.778" layer="95"/>
 <wire x1="266.7" y1="157.48" x2="264.16" y2="160.02" width="0.1524" layer="91"/>
@@ -10890,9 +12094,9 @@ F_MAX=1000kHz</text>
 </net>
 <net name="+3V3_DTR" class="1">
 <segment>
-<pinref part="J301" gate="G$1" pin="4"/>
+<pinref part="J5" gate="G$1" pin="4"/>
 <wire x1="317.5" y1="200.66" x2="325.12" y2="200.66" width="0.1524" layer="91"/>
-<pinref part="J301" gate="G$1" pin="6"/>
+<pinref part="J5" gate="G$1" pin="6"/>
 <wire x1="325.12" y1="200.66" x2="335.28" y2="200.66" width="0.1524" layer="91"/>
 <wire x1="317.5" y1="198.12" x2="325.12" y2="198.12" width="0.1524" layer="91"/>
 <wire x1="325.12" y1="198.12" x2="325.12" y2="200.66" width="0.1524" layer="91"/>
@@ -10966,7 +12170,7 @@ F_MAX=1000kHz</text>
 </net>
 <net name="+3V3_DTR0" class="1">
 <segment>
-<pinref part="J301" gate="G$1" pin="2"/>
+<pinref part="J5" gate="G$1" pin="2"/>
 <wire x1="317.5" y1="203.2" x2="335.28" y2="203.2" width="0.1524" layer="91"/>
 <pinref part="+3V1" gate="G$1" pin="+3V3"/>
 <label x="320.04" y="203.2" size="1.778" layer="95"/>
@@ -11006,7 +12210,7 @@ F_MAX=1000kHz</text>
 </net>
 <net name="V_SENSE_OUT" class="0">
 <segment>
-<pinref part="J301" gate="G$1" pin="43"/>
+<pinref part="J5" gate="G$1" pin="43"/>
 <wire x1="297.18" y1="149.86" x2="289.56" y2="149.86" width="0.1524" layer="91"/>
 <label x="289.56" y="149.86" size="1.778" layer="95" rot="R180" xref="yes"/>
 </segment>
@@ -11058,7 +12262,7 @@ F_MAX=1000kHz</text>
 </net>
 <net name="ATT_INT" class="0">
 <segment>
-<pinref part="J301" gate="G$1" pin="44"/>
+<pinref part="J5" gate="G$1" pin="44"/>
 <wire x1="317.5" y1="149.86" x2="322.58" y2="149.86" width="0.1524" layer="91"/>
 <label x="325.12" y="149.86" size="1.778" layer="95" xref="yes"/>
 <pinref part="AINT" gate="G$1" pin="TP"/>
@@ -11074,7 +12278,7 @@ F_MAX=1000kHz</text>
 <net name="BUS0_SERCOM_P1" class="0">
 <segment>
 <wire x1="259.08" y1="185.42" x2="297.18" y2="185.42" width="0.1524" layer="91"/>
-<pinref part="J301" gate="G$1" pin="15"/>
+<pinref part="J5" gate="G$1" pin="15"/>
 <label x="274.32" y="185.42" size="1.778" layer="95"/>
 <wire x1="259.08" y1="185.42" x2="256.54" y2="187.96" width="0.1524" layer="91"/>
 </segment>
@@ -11626,7 +12830,6 @@ F_MAX=1000kHz</text>
 <label x="269.24" y="60.96" size="1.778" layer="95"/>
 </segment>
 <segment>
-<wire x1="147.32" y1="58.42" x2="142.24" y2="58.42" width="0.1524" layer="91"/>
 <pinref part="U12" gate="A" pin="DVDD"/>
 <wire x1="132.08" y1="58.42" x2="142.24" y2="58.42" width="0.1524" layer="91"/>
 <wire x1="142.24" y1="58.42" x2="147.32" y2="58.42" width="0.1524" layer="91"/>
@@ -11675,6 +12878,11 @@ will not be understood (or retained) with this version.
 Since Version 8.3, EAGLE supports the association of 3D packages
 with devices in libraries, schematics, and board files. Those 3D
 packages will not be understood (or retained) with this version.
+</note>
+<note version="9.5" severity="warning">
+Since Version 9.5, EAGLE supports persistent groups with
+schematics, and board files. Those persistent groups
+will not be understood (or retained) with this version.
 </note>
 </compatibility>
 </eagle>
