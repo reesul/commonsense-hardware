@@ -7421,7 +7421,7 @@ Pad dimensions from https://www.vishay.com/docs/45017/vjw1bcsoldfootdesign.pdf</
 </part>
 <part name="U$14" library="Supplies" deviceset="GND" device=""/>
 <part name="C9" library="Capacitors" deviceset="C-" device="0603" value="10u">
-<attribute name="DESC" value="CAP CER 10UF 6.3V X5R 0603	"/>
+<attribute name="DESC" value="CAP CER 10UF 6.3V X5R 0603 "/>
 <attribute name="HEIGHT" value="0.9mm"/>
 <attribute name="MANUFACTURER" value="Murata"/>
 <attribute name="MPN" value="GRM188R60J106KE47D"/>
@@ -8577,7 +8577,7 @@ Pad dimensions from https://www.vishay.com/docs/45017/vjw1bcsoldfootdesign.pdf</
 <attribute name="Z-HEIGHT" value="d"/>
 </part>
 <part name="C40" library="Capacitors" deviceset="C-" device="0603" value="10u">
-<attribute name="DESC" value="CAP CER 10UF 6.3V X5R 0603	"/>
+<attribute name="DESC" value="CAP CER 10UF 6.3V X5R 0603 "/>
 <attribute name="HEIGHT" value="0.9mm"/>
 <attribute name="MANUFACTURER" value="Murata"/>
 <attribute name="MPN" value="GRM188R60J106KE47D"/>
