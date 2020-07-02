@@ -7408,16 +7408,16 @@ Pad dimensions from https://www.vishay.com/docs/45017/vjw1bcsoldfootdesign.pdf</
 <attribute name="VOLTAGE" value="50V"/>
 <attribute name="Z-HEIGHT" value="0.55mm"/>
 </part>
-<part name="X2" library="CommonSense-DTR-v1" deviceset="ADAFRUIT2_XTAL" device="-3.2X1.5" value="32.768">
-<attribute name="DESC" value=""/>
-<attribute name="LOAD_CAPACITY" value="6p"/>
+<part name="X2" library="CommonSense-DTR-v1" deviceset="ADAFRUIT2_XTAL" device="-3.2X1.5" value="32.768kHz">
+<attribute name="DESC" value="CRYSTAL 32.7680KHZ 6PF SMD"/>
+<attribute name="HEIGHT" value="0.9mm"/>
+<attribute name="LOAD_CAPACITY" value="6pF"/>
 <attribute name="MANUFACTURER" value="NDK"/>
 <attribute name="MPN" value="NX3215SA-32.768K-STD-MUA-14"/>
 <attribute name="PARTNO" value="NX3215SA-32.768K-STD-MUA-14"/>
-<attribute name="SIZE" value=""/>
-<attribute name="TOL" value=""/>
-<attribute name="TYPE" value=""/>
-<attribute name="VOLT" value=""/>
+<attribute name="SIZE" value="0.126&quot; L x 0.059&quot; W (3.20mm x 1.50mm)"/>
+<attribute name="TOL" value="±20ppm"/>
+<attribute name="TYPE" value="Crystal"/>
 </part>
 <part name="U$14" library="Supplies" deviceset="GND" device=""/>
 <part name="C9" library="Capacitors" deviceset="C-" device="0603" value="10u">
@@ -7440,13 +7440,13 @@ Pad dimensions from https://www.vishay.com/docs/45017/vjw1bcsoldfootdesign.pdf</
 </part>
 <part name="U$17" library="Supplies" deviceset="GND" device=""/>
 <part name="X4" library="Connectors" deviceset="J-U.FL" device="" value="uFL">
-<attribute name="DESC" value=""/>
+<attribute name="DESC" value="CONN U.FL RCPT STR 50 OHM SMD"/>
+<attribute name="HEIGHT" value="1.25mm"/>
+<attribute name="MEANUFACTURER" value="Hirose"/>
 <attribute name="MPN" value="U.FL-R-SMT-1(01)"/>
 <attribute name="PARTNO" value="U.FL-R-SMT-1(01)"/>
-<attribute name="SIZE" value=""/>
-<attribute name="TOL" value=""/>
-<attribute name="TYPE" value=""/>
-<attribute name="VOLT" value=""/>
+<attribute name="SIZE" value="3.1 x 3mm"/>
+<attribute name="TYPE" value="Connector"/>
 </part>
 <part name="U$23" library="Supplies" deviceset="GND" device=""/>
 <part name="BORDER102" library="Graphics" deviceset="BORDER-CMU" device=""/>
@@ -8143,19 +8143,31 @@ Pad dimensions from https://www.vishay.com/docs/45017/vjw1bcsoldfootdesign.pdf</
 <attribute name="TYPE" value="Switch"/>
 </part>
 <part name="X3" library="Connectors" deviceset="J-U.FL" device="" value="uFL">
-<attribute name="HEIGHT" value="d"/>
+<attribute name="DESC" value="CONN U.FL RCPT STR 50 OHM SMD"/>
+<attribute name="HEIGHT" value="1.25mm"/>
+<attribute name="MANUFACTURER" value="Hirose"/>
 <attribute name="MPN" value="U.FL-R-SMT-1(01)"/>
 <attribute name="PARTNO" value="U.FL-R-SMT-1(01)"/>
+<attribute name="SIZE" value="3.1 x 3mm"/>
+<attribute name="TYPE" value="Connector"/>
 </part>
 <part name="X5" library="Connectors" deviceset="J-U.FL" device="" value="uFL">
-<attribute name="HEIGHT" value="d"/>
+<attribute name="DESC" value="CONN U.FL RCPT STR 50 OHM SMD"/>
+<attribute name="HEIGHT" value="1.25mm"/>
+<attribute name="MANUFACTURER" value="Hirose"/>
 <attribute name="MPN" value="U.FL-R-SMT-1(01)"/>
 <attribute name="PARTNO" value="U.FL-R-SMT-1(01)"/>
+<attribute name="SIZE" value="3.1 x 3mm"/>
+<attribute name="TYPE" value="Connector"/>
 </part>
 <part name="X6" library="Connectors" deviceset="J-U.FL" device="" value="uFL">
-<attribute name="HEIGHT" value="d"/>
+<attribute name="DESC" value="CONN U.FL RCPT STR 50 OHM SMD"/>
+<attribute name="HEIGHT" value="1.25mm"/>
+<attribute name="MANUFACTURER" value="Hirose"/>
 <attribute name="MPN" value="U.FL-R-SMT-1(01)"/>
 <attribute name="PARTNO" value="U.FL-R-SMT-1(01)"/>
+<attribute name="SIZE" value="3.1 x 3mm"/>
+<attribute name="TYPE" value="Connector"/>
 </part>
 <part name="R7" library="Resistors" deviceset="R-" device="0402" value="50R">
 <attribute name="DESC" value="RES SMD 50 OHM 0.1% 1/20W 0402"/>
@@ -8713,7 +8725,7 @@ F_MAX=1000kHz</text>
 <attribute name="DESC" x="284.48" y="231.14" size="1.778" layer="96" display="off"/>
 <attribute name="TYPE" x="284.48" y="231.14" size="1.778" layer="96" display="off"/>
 <attribute name="SIZE" x="284.48" y="231.14" size="1.778" layer="96" display="off"/>
-<attribute name="VOLT" x="284.48" y="231.14" size="1.778" layer="96" display="off"/>
+<attribute name="HEIGHT" x="284.48" y="231.14" size="1.778" layer="96" display="off"/>
 </instance>
 <instance part="U$14" gate="1" x="101.6" y="233.68" smashed="yes">
 <attribute name="VALUE" x="100.076" y="231.14" size="1.27" layer="96"/>
@@ -8745,11 +8757,11 @@ F_MAX=1000kHz</text>
 <attribute name="NAME" x="75.32095625" y="210.417171875" size="1.27" layer="95" rot="R90"/>
 <attribute name="MPN" x="78.62295625" y="212.957171875" size="1.778" layer="96" rot="R90" display="off"/>
 <attribute name="PARTNO" x="78.62295625" y="212.957171875" size="1.778" layer="96" display="off"/>
-<attribute name="TOL" x="78.62295625" y="212.957171875" size="1.778" layer="96" rot="R90" display="off"/>
 <attribute name="DESC" x="78.62295625" y="212.957171875" size="1.778" layer="96" rot="R90" display="off"/>
 <attribute name="TYPE" x="78.62295625" y="212.957171875" size="1.778" layer="96" rot="R90" display="off"/>
 <attribute name="SIZE" x="78.62295625" y="212.957171875" size="1.778" layer="96" rot="R90" display="off"/>
-<attribute name="VOLT" x="78.62295625" y="212.957171875" size="1.778" layer="96" rot="R90" display="off"/>
+<attribute name="HEIGHT" x="78.62295625" y="212.957171875" size="1.778" layer="96" rot="R90" display="off"/>
+<attribute name="MEANUFACTURER" x="78.62295625" y="212.957171875" size="1.778" layer="96" rot="R90" display="off"/>
 </instance>
 <instance part="U$23" gate="1" x="68.58" y="215.9" smashed="yes">
 <attribute name="VALUE" x="67.056" y="213.36" size="1.27" layer="96"/>
@@ -10996,6 +11008,10 @@ F_MAX=1000kHz</text>
 <attribute name="VALUE" x="276.74295625" y="245.977171875" size="1.27" layer="96" rot="R90"/>
 <attribute name="MPN" x="266.58295625" y="248.517171875" size="1.778" layer="96" rot="R90" display="off"/>
 <attribute name="PARTNO" x="266.58295625" y="248.517171875" size="1.778" layer="96" display="off"/>
+<attribute name="SIZE" x="266.58295625" y="248.517171875" size="1.778" layer="96" rot="R90" display="off"/>
+<attribute name="DESC" x="266.58295625" y="248.517171875" size="1.778" layer="96" rot="R90" display="off"/>
+<attribute name="TYPE" x="266.58295625" y="248.517171875" size="1.778" layer="96" rot="R90" display="off"/>
+<attribute name="MANUFACTURER" x="266.58295625" y="248.517171875" size="1.778" layer="96" rot="R90" display="off"/>
 <attribute name="HEIGHT" x="266.58295625" y="248.517171875" size="1.778" layer="96" rot="R90" display="off"/>
 </instance>
 <instance part="X5" gate="G$1" x="297.06295625" y="248.517171875" smashed="yes" rot="R90">
@@ -11003,6 +11019,10 @@ F_MAX=1000kHz</text>
 <attribute name="VALUE" x="307.22295625" y="245.977171875" size="1.27" layer="96" rot="R90"/>
 <attribute name="MPN" x="297.06295625" y="248.517171875" size="1.778" layer="96" rot="R90" display="off"/>
 <attribute name="PARTNO" x="297.06295625" y="248.517171875" size="1.778" layer="96" display="off"/>
+<attribute name="SIZE" x="297.06295625" y="248.517171875" size="1.778" layer="96" rot="R90" display="off"/>
+<attribute name="DESC" x="297.06295625" y="248.517171875" size="1.778" layer="96" rot="R90" display="off"/>
+<attribute name="TYPE" x="297.06295625" y="248.517171875" size="1.778" layer="96" rot="R90" display="off"/>
+<attribute name="MANUFACTURER" x="297.06295625" y="248.517171875" size="1.778" layer="96" rot="R90" display="off"/>
 <attribute name="HEIGHT" x="297.06295625" y="248.517171875" size="1.778" layer="96" rot="R90" display="off"/>
 </instance>
 <instance part="X6" gate="G$1" x="330.08295625" y="248.517171875" smashed="yes" rot="R90">
@@ -11010,6 +11030,10 @@ F_MAX=1000kHz</text>
 <attribute name="VALUE" x="340.24295625" y="245.977171875" size="1.27" layer="96" rot="R90"/>
 <attribute name="MPN" x="330.08295625" y="248.517171875" size="1.778" layer="96" rot="R90" display="off"/>
 <attribute name="PARTNO" x="330.08295625" y="248.517171875" size="1.778" layer="96" display="off"/>
+<attribute name="SIZE" x="330.08295625" y="248.517171875" size="1.778" layer="96" rot="R90" display="off"/>
+<attribute name="DESC" x="330.08295625" y="248.517171875" size="1.778" layer="96" rot="R90" display="off"/>
+<attribute name="TYPE" x="330.08295625" y="248.517171875" size="1.778" layer="96" rot="R90" display="off"/>
+<attribute name="MANUFACTURER" x="330.08295625" y="248.517171875" size="1.778" layer="96" rot="R90" display="off"/>
 <attribute name="HEIGHT" x="330.08295625" y="248.517171875" size="1.778" layer="96" rot="R90" display="off"/>
 </instance>
 <instance part="R7" gate="G$1" x="335.28" y="261.62" smashed="yes">
