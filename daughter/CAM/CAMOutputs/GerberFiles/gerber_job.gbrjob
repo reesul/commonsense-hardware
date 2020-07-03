@@ -1,24 +1,24 @@
 {
     "Header": {
         "Comment": "All values are metric (mm)",
-        "CreationDate": "2019-11-23T20:24:15Z",
+        "CreationDate": "2020-07-03T06:31:11Z",
         "GenerationSoftware": {
             "Application": "EAGLE",
             "Vendor": "Autodesk",
-            "Version": "9.5.1"
+            "Version": "9.6.2"
         },
         "Part": "Single"
     },
     "Overall": {
-        "BoardThickness": 1.57,
-        "LayerNumber": 2,
+        "BoardThickness": 1.447044,
+        "LayerNumber": 4,
         "Name": {
-            "ProjectId": "LoRa_exp_board"
+            "ProjectId": "CSv2_exp_board"
         },
-        "Owner": "jerryscott jerryscott <jerryscott@gmail.com>",
+        "Owner": "Yi Hu <yihu@andrew.cmu.edu>",
         "Size": {
-            "X": 50,
-            "Y": 20
+            "X": 50.816797,
+            "Y": 44.45
         }
     }
 }

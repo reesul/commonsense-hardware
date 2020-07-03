@@ -1960,115 +1960,6 @@ PTH and SMD connector options available.&lt;/p&gt;
 </deviceset>
 </devicesets>
 </library>
-<library name="Radios">
-<description>CCSG Eagle Library</description>
-<packages>
-<package name="RFM-MOD">
-<circle x="10.1" y="-7" radius="0.3" width="0.6096" layer="21"/>
-<wire x1="-8" y1="8" x2="8" y2="8" width="0.127" layer="51"/>
-<wire x1="8" y1="8" x2="8" y2="-8" width="0.127" layer="51"/>
-<wire x1="8" y1="-8" x2="-8" y2="-8" width="0.127" layer="51"/>
-<wire x1="-8" y1="-8" x2="-8" y2="8" width="0.127" layer="51"/>
-<wire x1="-8.1" y1="7.7" x2="-8.1" y2="8.1" width="0.127" layer="21"/>
-<wire x1="-8.1" y1="8.1" x2="8.1" y2="8.1" width="0.127" layer="21"/>
-<wire x1="8.1" y1="8.1" x2="8.1" y2="7.7" width="0.127" layer="21"/>
-<wire x1="-8.1" y1="-7.7" x2="-8.1" y2="-8.1" width="0.127" layer="21"/>
-<wire x1="-8.1" y1="-8.1" x2="8.1" y2="-8.1" width="0.127" layer="21"/>
-<wire x1="8.1" y1="-8.1" x2="8.1" y2="-7.7" width="0.127" layer="21"/>
-<smd name="1P" x="8.1" y="-7" dx="2" dy="0.8" layer="1" rot="R180"/>
-<smd name="2P" x="8.1" y="-5" dx="2" dy="0.8" layer="1" rot="R180"/>
-<smd name="3P" x="8.1" y="-3" dx="2" dy="0.8" layer="1" rot="R180"/>
-<smd name="4P" x="8.1" y="-1" dx="2" dy="0.8" layer="1" rot="R180"/>
-<smd name="5P" x="8.1" y="1" dx="2" dy="0.8" layer="1" rot="R180"/>
-<smd name="6P" x="8.1" y="3" dx="2" dy="0.8" layer="1" rot="R180"/>
-<smd name="7P" x="8.1" y="5" dx="2" dy="0.8" layer="1" rot="R180"/>
-<smd name="8P" x="8.1" y="7" dx="2" dy="0.8" layer="1" rot="R180"/>
-<smd name="9P" x="-8.1" y="7" dx="2" dy="0.8" layer="1"/>
-<smd name="10P" x="-8.1" y="5" dx="2" dy="0.8" layer="1"/>
-<smd name="11P" x="-8.1" y="3" dx="2" dy="0.8" layer="1"/>
-<smd name="12P" x="-8.1" y="1" dx="2" dy="0.8" layer="1"/>
-<smd name="13P" x="-8.1" y="-1" dx="2" dy="0.8" layer="1"/>
-<smd name="14P" x="-8.1" y="-3" dx="2" dy="0.8" layer="1"/>
-<smd name="15P" x="-8.1" y="-5" dx="2" dy="0.8" layer="1"/>
-<smd name="16P" x="-8.1" y="-7" dx="2" dy="0.8" layer="1"/>
-<text x="-8" y="8.5" size="0.6096" layer="25">&gt;NAME</text>
-</package>
-</packages>
-<symbols>
-<symbol name="RFM95">
-<wire x1="-10.16" y1="10.16" x2="10.16" y2="10.16" width="0.254" layer="94"/>
-<wire x1="10.16" y1="10.16" x2="10.16" y2="-12.7" width="0.254" layer="94"/>
-<wire x1="10.16" y1="-12.7" x2="-10.16" y2="-12.7" width="0.254" layer="94"/>
-<wire x1="-10.16" y1="-12.7" x2="-10.16" y2="10.16" width="0.254" layer="94"/>
-<wire x1="-10.16" y1="10.16" x2="-10.16" y2="15.24" width="0.254" layer="94"/>
-<wire x1="-10.16" y1="15.24" x2="10.16" y2="15.24" width="0.254" layer="94"/>
-<wire x1="10.16" y1="15.24" x2="10.16" y2="10.16" width="0.254" layer="94"/>
-<wire x1="-10.16" y1="-12.7" x2="-10.16" y2="-17.78" width="0.254" layer="94"/>
-<wire x1="-10.16" y1="-17.78" x2="10.16" y2="-17.78" width="0.254" layer="94"/>
-<wire x1="10.16" y1="-17.78" x2="10.16" y2="-12.7" width="0.254" layer="94"/>
-<pin name="ANT" x="12.7" y="-10.16" length="short" rot="R180"/>
-<pin name="DIO0" x="12.7" y="2.54" length="short" rot="R180"/>
-<pin name="DIO1" x="12.7" y="5.08" length="short" rot="R180"/>
-<pin name="DIO2" x="12.7" y="7.62" length="short" rot="R180"/>
-<pin name="DIO3" x="12.7" y="-5.08" length="short" rot="R180"/>
-<pin name="DIO4" x="12.7" y="-2.54" length="short" rot="R180"/>
-<pin name="DIO5" x="-12.7" y="-7.62" length="short"/>
-<pin name="GND@1" x="12.7" y="-7.62" length="short" direction="pwr" rot="R180"/>
-<pin name="GND@2" x="-12.7" y="7.62" length="short" direction="pwr"/>
-<pin name="GND@3" x="-12.7" y="-10.16" length="short" direction="pwr"/>
-<pin name="MISO" x="-12.7" y="5.08" length="short" direction="out"/>
-<pin name="MOSI" x="-12.7" y="2.54" length="short" direction="in"/>
-<pin name="NSS" x="-12.7" y="-2.54" length="short" direction="in"/>
-<pin name="RESET" x="-12.7" y="-5.08" length="short" direction="in"/>
-<pin name="SCK" x="-12.7" y="0" length="short" direction="in"/>
-<pin name="V" x="12.7" y="0" length="short" direction="pwr" rot="R180"/>
-<text x="-10.16" y="21.082" size="1.778" layer="95">&gt;NAME</text>
-<text x="-10.16" y="18.542" size="1.778" layer="95">&gt;MPN</text>
-<text x="0" y="12.7" size="1.27" layer="94" align="center">RFM95
-ISM BAND RADIO</text>
-<text x="0" y="-15.24" size="1.27" layer="94" align="center">VDD: 1.8-3.6V
-Temp: -40~+85°C</text>
-<text x="-10.16" y="16.002" size="1.778" layer="95">&gt;FCC</text>
-</symbol>
-</symbols>
-<devicesets>
-<deviceset name="RFM95" prefix="U" uservalue="yes">
-<description>&lt;p&gt;&lt;b&gt;RFM95 - ISM Band LoRa Transceiver&lt;/b&gt;&lt;/p&gt;</description>
-<gates>
-<gate name="G$1" symbol="RFM95" x="0" y="0"/>
-</gates>
-<devices>
-<device name="C" package="RFM-MOD">
-<connects>
-<connect gate="G$1" pin="ANT" pad="1P"/>
-<connect gate="G$1" pin="DIO0" pad="6P"/>
-<connect gate="G$1" pin="DIO1" pad="7P"/>
-<connect gate="G$1" pin="DIO2" pad="8P"/>
-<connect gate="G$1" pin="DIO3" pad="3P"/>
-<connect gate="G$1" pin="DIO4" pad="4P"/>
-<connect gate="G$1" pin="DIO5" pad="15P"/>
-<connect gate="G$1" pin="GND@1" pad="2P"/>
-<connect gate="G$1" pin="GND@2" pad="9P"/>
-<connect gate="G$1" pin="GND@3" pad="16P"/>
-<connect gate="G$1" pin="MISO" pad="10P"/>
-<connect gate="G$1" pin="MOSI" pad="11P"/>
-<connect gate="G$1" pin="NSS" pad="13P"/>
-<connect gate="G$1" pin="RESET" pad="14P"/>
-<connect gate="G$1" pin="SCK" pad="12P"/>
-<connect gate="G$1" pin="V" pad="5P"/>
-</connects>
-<technologies>
-<technology name="">
-<attribute name="FCC" value="2ASEORFM95C" constant="no"/>
-<attribute name="MANUFACTURER" value="HopeRF"/>
-<attribute name="MPN" value="RFM95C" constant="no"/>
-</technology>
-</technologies>
-</device>
-</devices>
-</deviceset>
-</devicesets>
-</library>
 <library name="CommonSense-DTR-v1">
 <packages>
 <package name="SAMTECH_FTSH-105-01">
@@ -4889,6 +4780,79 @@ Pad dimensions from http://www.kemet.com/Lists/ProductCatalog/Attachments/53/KEM
 <text x="-3" y="3.5" size="1.27" layer="25">&gt;NAME</text>
 <text x="-3.2" y="-4.8" size="1.27" layer="27">&gt;VALUE</text>
 </package>
+<package name="RFM-MOD">
+<wire x1="-8" y1="8" x2="8" y2="8" width="0.127" layer="51"/>
+<wire x1="8" y1="8" x2="8" y2="-8" width="0.127" layer="51"/>
+<wire x1="8" y1="-8" x2="-8" y2="-8" width="0.127" layer="51"/>
+<wire x1="-8" y1="-8" x2="-8" y2="8" width="0.127" layer="51"/>
+<wire x1="-8.1" y1="7.7" x2="-8.1" y2="8.1" width="0.127" layer="21"/>
+<wire x1="-8.1" y1="8.1" x2="8.1" y2="8.1" width="0.127" layer="21"/>
+<wire x1="8.1" y1="8.1" x2="8.1" y2="7.7" width="0.127" layer="21"/>
+<wire x1="-8.1" y1="-7.7" x2="-8.1" y2="-8.1" width="0.127" layer="21"/>
+<wire x1="-8.1" y1="-8.1" x2="8.1" y2="-8.1" width="0.127" layer="21"/>
+<wire x1="8.1" y1="-8.1" x2="8.1" y2="-7.7" width="0.127" layer="21"/>
+<smd name="1P" x="8.1" y="-7" dx="2" dy="0.8" layer="1" rot="R180"/>
+<smd name="2P" x="8.1" y="-5" dx="2" dy="0.8" layer="1" rot="R180"/>
+<smd name="3P" x="8.1" y="-3" dx="2" dy="0.8" layer="1" rot="R180"/>
+<smd name="4P" x="8.1" y="-1" dx="2" dy="0.8" layer="1" rot="R180"/>
+<smd name="5P" x="8.1" y="1" dx="2" dy="0.8" layer="1" rot="R180"/>
+<smd name="6P" x="8.1" y="3" dx="2" dy="0.8" layer="1" rot="R180"/>
+<smd name="7P" x="8.1" y="5" dx="2" dy="0.8" layer="1" rot="R180"/>
+<smd name="8P" x="8.1" y="7" dx="2" dy="0.8" layer="1" rot="R180"/>
+<smd name="9P" x="-8.1" y="7" dx="2" dy="0.8" layer="1"/>
+<smd name="10P" x="-8.1" y="5" dx="2" dy="0.8" layer="1"/>
+<smd name="11P" x="-8.1" y="3" dx="2" dy="0.8" layer="1"/>
+<smd name="12P" x="-8.1" y="1" dx="2" dy="0.8" layer="1"/>
+<smd name="13P" x="-8.1" y="-1" dx="2" dy="0.8" layer="1"/>
+<smd name="14P" x="-8.1" y="-3" dx="2" dy="0.8" layer="1"/>
+<smd name="15P" x="-8.1" y="-5" dx="2" dy="0.8" layer="1"/>
+<smd name="16P" x="-8.1" y="-7" dx="2" dy="0.8" layer="1"/>
+<text x="-8" y="8.5" size="0.6096" layer="25">&gt;NAME</text>
+</package>
+<package name="CUI_SJ-43514-SMT-TEMP">
+<wire x1="-7.75" y1="3" x2="-7.75" y2="2.5" width="0.127" layer="51"/>
+<wire x1="-7.75" y1="2.5" x2="-7.75" y2="-2.5" width="0.127" layer="51"/>
+<wire x1="-7.75" y1="-2.5" x2="-7.75" y2="-3" width="0.127" layer="51"/>
+<wire x1="-7.75" y1="-3" x2="7.75" y2="-3" width="0.127" layer="51"/>
+<wire x1="7.75" y1="-3" x2="7.75" y2="3" width="0.127" layer="51"/>
+<wire x1="7.75" y1="3" x2="-7.75" y2="3" width="0.127" layer="51"/>
+<wire x1="-7.75" y1="2.5" x2="-9.25" y2="2.5" width="0.127" layer="51"/>
+<wire x1="-9.25" y1="2.5" x2="-9.25" y2="-2.5" width="0.127" layer="51"/>
+<wire x1="-9.25" y1="-2.5" x2="-7.75" y2="-2.5" width="0.127" layer="51"/>
+<wire x1="-4.05" y1="3" x2="-7.75" y2="3" width="0.127" layer="21"/>
+<wire x1="-7.75" y1="3" x2="-7.75" y2="2.5" width="0.127" layer="21"/>
+<wire x1="-7.75" y1="2.5" x2="-7.75" y2="-1.95" width="0.127" layer="21"/>
+<wire x1="-3.05" y1="-3" x2="3.15" y2="-3" width="0.127" layer="21"/>
+<wire x1="6.8" y1="-3" x2="7.75" y2="-3" width="0.127" layer="21"/>
+<wire x1="7.75" y1="3" x2="-1.05" y2="3" width="0.127" layer="21"/>
+<text x="-7.7856" y="5.77641875" size="1.27583125" layer="25">&gt;NAME</text>
+<text x="-9.28448125" y="-7.02946875" size="1.27473125" layer="27">&gt;VALUE</text>
+<wire x1="7.75" y1="3" x2="7.75" y2="-3" width="0.127" layer="21"/>
+<wire x1="-9.5" y1="2.75" x2="-8" y2="2.75" width="0.05" layer="39"/>
+<wire x1="-8" y1="2.75" x2="-8" y2="3.25" width="0.05" layer="39"/>
+<wire x1="-8" y1="3.25" x2="-3.8" y2="3.25" width="0.05" layer="39"/>
+<wire x1="-3.8" y1="3.25" x2="-3.8" y2="5.35" width="0.05" layer="39"/>
+<wire x1="-3.8" y1="5.35" x2="-1.1" y2="5.35" width="0.05" layer="39"/>
+<wire x1="-1.1" y1="5.35" x2="-1.1" y2="3.25" width="0.05" layer="39"/>
+<wire x1="-1.1" y1="3.25" x2="8" y2="3.25" width="0.05" layer="39"/>
+<wire x1="8" y1="3.25" x2="8" y2="-3.25" width="0.05" layer="39"/>
+<wire x1="8" y1="-3.25" x2="6.75" y2="-3.25" width="0.05" layer="39"/>
+<wire x1="6.75" y1="-3.25" x2="6.75" y2="-5.5" width="0.05" layer="39"/>
+<wire x1="6.75" y1="-5.5" x2="3.25" y2="-5.5" width="0.05" layer="39"/>
+<wire x1="3.25" y1="-5.5" x2="3.25" y2="-3.25" width="0.05" layer="39"/>
+<wire x1="3.25" y1="-3.25" x2="-3" y2="-3.25" width="0.05" layer="39"/>
+<wire x1="-3" y1="-3.25" x2="-3" y2="-5.5" width="0.05" layer="39"/>
+<wire x1="-3" y1="-5.5" x2="-8.5" y2="-5.5" width="0.05" layer="39"/>
+<wire x1="-8.5" y1="-5.5" x2="-8.5" y2="-2.75" width="0.05" layer="39"/>
+<wire x1="-8.5" y1="-2.75" x2="-9.5" y2="-2.75" width="0.05" layer="39"/>
+<wire x1="-9.5" y1="-2.75" x2="-9.5" y2="2.75" width="0.05" layer="39"/>
+<smd name="1" x="-7.15" y="-3.7" dx="2" dy="2.8" layer="1" rot="R180"/>
+<smd name="2" x="5.05" y="-3.6" dx="2.8" dy="2.6" layer="1" rot="R180"/>
+<smd name="3" x="-2.45" y="3.7" dx="2.2" dy="2.8" layer="1" rot="R180"/>
+<smd name="4" x="-4.35" y="-3.7" dx="2.2" dy="2.8" layer="1" rot="R180"/>
+<hole x="-3.25" y="0" drill="1.7"/>
+<hole x="3.75" y="0" drill="1.7"/>
+</package>
 </packages>
 <packages3d>
 <package3d name="KMR2" urn="urn:adsk.eagle:package:6240885/1" type="box" library_version="2">
@@ -5285,6 +5249,41 @@ Pad dimensions from http://www.kemet.com/Lists/ProductCatalog/Attachments/53/KEM
 <pin name="S" x="0" y="5.08" visible="pad" length="short" direction="pas" swaplevel="1" rot="R270"/>
 <pin name="S1" x="2.54" y="5.08" visible="pad" length="short" direction="pas" swaplevel="1" rot="R270"/>
 <pin name="P1" x="2.54" y="-5.08" visible="pad" length="short" direction="pas" swaplevel="2" rot="R90"/>
+</symbol>
+<symbol name="RFM95">
+<wire x1="-10.16" y1="10.16" x2="10.16" y2="10.16" width="0.254" layer="94"/>
+<wire x1="10.16" y1="10.16" x2="10.16" y2="-12.7" width="0.254" layer="94"/>
+<wire x1="10.16" y1="-12.7" x2="-10.16" y2="-12.7" width="0.254" layer="94"/>
+<wire x1="-10.16" y1="-12.7" x2="-10.16" y2="10.16" width="0.254" layer="94"/>
+<wire x1="-10.16" y1="10.16" x2="-10.16" y2="15.24" width="0.254" layer="94"/>
+<wire x1="-10.16" y1="15.24" x2="10.16" y2="15.24" width="0.254" layer="94"/>
+<wire x1="10.16" y1="15.24" x2="10.16" y2="10.16" width="0.254" layer="94"/>
+<wire x1="-10.16" y1="-12.7" x2="-10.16" y2="-17.78" width="0.254" layer="94"/>
+<wire x1="-10.16" y1="-17.78" x2="10.16" y2="-17.78" width="0.254" layer="94"/>
+<wire x1="10.16" y1="-17.78" x2="10.16" y2="-12.7" width="0.254" layer="94"/>
+<pin name="ANT" x="12.7" y="-10.16" length="short" rot="R180"/>
+<pin name="DIO0" x="12.7" y="2.54" length="short" rot="R180"/>
+<pin name="DIO1" x="12.7" y="5.08" length="short" rot="R180"/>
+<pin name="DIO2" x="12.7" y="7.62" length="short" rot="R180"/>
+<pin name="DIO3" x="12.7" y="-5.08" length="short" rot="R180"/>
+<pin name="DIO4" x="12.7" y="-2.54" length="short" rot="R180"/>
+<pin name="DIO5" x="-12.7" y="-7.62" length="short"/>
+<pin name="GND@1" x="12.7" y="-7.62" length="short" direction="pwr" rot="R180"/>
+<pin name="GND@2" x="-12.7" y="7.62" length="short" direction="pwr"/>
+<pin name="GND@3" x="-12.7" y="-10.16" length="short" direction="pwr"/>
+<pin name="MISO" x="-12.7" y="5.08" length="short" direction="out"/>
+<pin name="MOSI" x="-12.7" y="2.54" length="short" direction="in"/>
+<pin name="NSS" x="-12.7" y="-2.54" length="short" direction="in"/>
+<pin name="RESET" x="-12.7" y="-5.08" length="short" direction="in"/>
+<pin name="SCK" x="-12.7" y="0" length="short" direction="in"/>
+<pin name="V" x="12.7" y="0" length="short" direction="pwr" rot="R180"/>
+<text x="-10.16" y="21.082" size="1.778" layer="95">&gt;NAME</text>
+<text x="-10.16" y="18.542" size="1.778" layer="95">&gt;MPN</text>
+<text x="0" y="12.7" size="1.27" layer="94" align="center">RFM95
+ISM BAND RADIO</text>
+<text x="0" y="-15.24" size="1.27" layer="94" align="center">VDD: 1.8-3.6V
+Temp: -40~+85°C</text>
+<text x="-10.16" y="16.002" size="1.778" layer="95">&gt;FCC</text>
 </symbol>
 </symbols>
 <devicesets>
@@ -5813,6 +5812,17 @@ PTH and SMD connector options available.&lt;/p&gt;
 </technology>
 </technologies>
 </device>
+<device name="C" package="CUI_SJ-43514-SMT-TEMP">
+<connects>
+<connect gate="G$1" pin="RING1" pad="3"/>
+<connect gate="G$1" pin="RING2" pad="4"/>
+<connect gate="G$1" pin="SLEEVE" pad="1"/>
+<connect gate="G$1" pin="TIP" pad="2"/>
+</connects>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
 </devices>
 </deviceset>
 <deviceset name="ADG839YKSZ-500RL7" prefix="U">
@@ -6108,6 +6118,41 @@ PTH and SMD connector options available.&lt;/p&gt;
 </package3dinstances>
 <technologies>
 <technology name=""/>
+</technologies>
+</device>
+</devices>
+</deviceset>
+<deviceset name="RFM95" prefix="U" uservalue="yes">
+<description>&lt;p&gt;&lt;b&gt;RFM95 - ISM Band LoRa Transceiver&lt;/b&gt;&lt;/p&gt;</description>
+<gates>
+<gate name="G$1" symbol="RFM95" x="0" y="0"/>
+</gates>
+<devices>
+<device name="C" package="RFM-MOD">
+<connects>
+<connect gate="G$1" pin="ANT" pad="1P"/>
+<connect gate="G$1" pin="DIO0" pad="6P"/>
+<connect gate="G$1" pin="DIO1" pad="7P"/>
+<connect gate="G$1" pin="DIO2" pad="8P"/>
+<connect gate="G$1" pin="DIO3" pad="3P"/>
+<connect gate="G$1" pin="DIO4" pad="4P"/>
+<connect gate="G$1" pin="DIO5" pad="15P"/>
+<connect gate="G$1" pin="GND@1" pad="2P"/>
+<connect gate="G$1" pin="GND@2" pad="9P"/>
+<connect gate="G$1" pin="GND@3" pad="16P"/>
+<connect gate="G$1" pin="MISO" pad="10P"/>
+<connect gate="G$1" pin="MOSI" pad="11P"/>
+<connect gate="G$1" pin="NSS" pad="13P"/>
+<connect gate="G$1" pin="RESET" pad="14P"/>
+<connect gate="G$1" pin="SCK" pad="12P"/>
+<connect gate="G$1" pin="V" pad="5P"/>
+</connects>
+<technologies>
+<technology name="">
+<attribute name="FCC" value="2ASEORFM95C" constant="no"/>
+<attribute name="MANUFACTURER" value="HopeRF"/>
+<attribute name="MPN" value="RFM95C" constant="no"/>
+</technology>
 </technologies>
 </device>
 </devices>
@@ -7432,7 +7477,7 @@ Pad dimensions from https://www.vishay.com/docs/45017/vjw1bcsoldfootdesign.pdf</
 <attribute name="VOLT" value="6.3V"/>
 </part>
 <part name="+3V5" library="Supplies" deviceset="+3V3" device=""/>
-<part name="U4" library="Radios" deviceset="RFM95" device="C" value="RFM69HCW">
+<part name="U4" library="CommonSense-DTR-v1" deviceset="RFM95" device="C" value="RFM69HCW">
 <attribute name="DESC" value="RX TXRX MODULE ISM &lt; 1GHZ SMD"/>
 <attribute name="MPN" value="RFM95CW"/>
 <attribute name="PARTNO" value="RFM95W"/>
@@ -8009,7 +8054,7 @@ Pad dimensions from https://www.vishay.com/docs/45017/vjw1bcsoldfootdesign.pdf</
 <attribute name="Z-HEIGHT" value="d"/>
 </part>
 <part name="GND25" library="Supplies" deviceset="GND" device=""/>
-<part name="D_IN" library="TestPoints" deviceset="TP" device="TP10SQ" package3d_urn="urn:adsk.eagle:package:27962/1" value="TPTP10SQ">
+<part name="DIN" library="TestPoints" deviceset="TP" device="TP10SQ" package3d_urn="urn:adsk.eagle:package:27962/1" value="TPTP10SQ">
 <attribute name="PARTNO" value="*"/>
 <attribute name="Z-HEIGHT" value="d"/>
 </part>
@@ -8017,7 +8062,7 @@ Pad dimensions from https://www.vishay.com/docs/45017/vjw1bcsoldfootdesign.pdf</
 <attribute name="PARTNO" value="*"/>
 <attribute name="Z-HEIGHT" value="d"/>
 </part>
-<part name="D_OUT" library="TestPoints" deviceset="TP" device="TP10SQ" package3d_urn="urn:adsk.eagle:package:27962/1" value="TPTP10SQ">
+<part name="DOUT" library="TestPoints" deviceset="TP" device="TP10SQ" package3d_urn="urn:adsk.eagle:package:27962/1" value="TPTP10SQ">
 <attribute name="PARTNO" value="*"/>
 <attribute name="Z-HEIGHT" value="d"/>
 </part>
@@ -8230,7 +8275,7 @@ Pad dimensions from https://www.vishay.com/docs/45017/vjw1bcsoldfootdesign.pdf</
 <attribute name="SIZE" value="32-VQFN (5x5)"/>
 <attribute name="TYPE" value="Codec"/>
 </part>
-<part name="J4" library="CommonSense-DTR-v1" deviceset="SJ-43514-SMT" device="">
+<part name="J4" library="CommonSense-DTR-v1" deviceset="SJ-43514-SMT" device="C" value="SJ-43514-SMTC">
 <attribute name="DESC" value="CONN JACK 4COND 3.5MM SMD R/A"/>
 <attribute name="HEIGHT" value="5mm"/>
 <attribute name="MANUFACTURER" value="CUI Devices"/>
@@ -10973,7 +11018,7 @@ F_MAX=1000kHz</text>
 <instance part="GND25" gate="1" x="294.64" y="50.8" smashed="yes">
 <attribute name="VALUE" x="292.1" y="48.26" size="1.778" layer="96"/>
 </instance>
-<instance part="D_IN" gate="G$1" x="292.1" y="157.48" smashed="yes">
+<instance part="DIN" gate="G$1" x="292.1" y="157.48" smashed="yes">
 <attribute name="NAME" x="290.83" y="158.75" size="1.778" layer="95"/>
 <attribute name="TP_SIGNAL_NAME" x="293.37" y="156.21" size="1.778" layer="97"/>
 <attribute name="PARTNO" x="292.1" y="157.48" size="1.778" layer="96" display="off"/>
@@ -10985,7 +11030,7 @@ F_MAX=1000kHz</text>
 <attribute name="PARTNO" x="322.58" y="152.4" size="1.778" layer="96" display="off"/>
 <attribute name="Z-HEIGHT" x="322.58" y="152.4" size="1.778" layer="96" display="off"/>
 </instance>
-<instance part="D_OUT" gate="G$1" x="294.64" y="76.2" smashed="yes">
+<instance part="DOUT" gate="G$1" x="294.64" y="76.2" smashed="yes">
 <attribute name="NAME" x="293.37" y="77.47" size="1.778" layer="95"/>
 <attribute name="TP_SIGNAL_NAME" x="295.91" y="74.93" size="1.778" layer="97"/>
 <attribute name="PARTNO" x="294.64" y="76.2" size="1.778" layer="96" display="off"/>
@@ -11767,7 +11812,7 @@ F_MAX=1000kHz</text>
 <pinref part="J5" gate="G$1" pin="39"/>
 <wire x1="297.18" y1="154.94" x2="292.1" y2="154.94" width="0.1524" layer="91"/>
 <label x="289.56" y="154.94" size="1.778" layer="95" rot="R180" xref="yes"/>
-<pinref part="D_IN" gate="G$1" pin="TP"/>
+<pinref part="DIN" gate="G$1" pin="TP"/>
 <wire x1="292.1" y1="154.94" x2="289.56" y2="154.94" width="0.1524" layer="91"/>
 <junction x="292.1" y="154.94"/>
 </segment>
@@ -12187,7 +12232,7 @@ F_MAX=1000kHz</text>
 <pinref part="J1" gate="G$1" pin="39"/>
 <wire x1="297.18" y1="73.66" x2="294.64" y2="73.66" width="0.1524" layer="91"/>
 <label x="292.1" y="73.66" size="1.778" layer="95" rot="R180" xref="yes"/>
-<pinref part="D_OUT" gate="G$1" pin="TP"/>
+<pinref part="DOUT" gate="G$1" pin="TP"/>
 <wire x1="294.64" y1="73.66" x2="292.1" y2="73.66" width="0.1524" layer="91"/>
 <junction x="294.64" y="73.66"/>
 </segment>
