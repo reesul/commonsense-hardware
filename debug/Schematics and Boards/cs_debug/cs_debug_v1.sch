@@ -6349,7 +6349,7 @@ new: Attribute TP_SIGNAL_NAME&lt;br&gt;
 <attribute name="MPN" value="ERJ-2GEJ274X"/>
 <attribute name="PART_NO" value="ERJ-2GEJ274X"/>
 </part>
-<part name="C208" library="Capacitors" deviceset="C-" device="0402" value="4.7u">
+<part name="C208" library="Capacitors" deviceset="C-" device="0603" value="4.7u">
 <attribute name="MPN" value="C0603C475M8PACTU"/>
 <attribute name="PART_NO" value="C0603C475M8PACTU"/>
 <attribute name="TC" value="X5R"/>
@@ -6536,12 +6536,12 @@ new: Attribute TP_SIGNAL_NAME&lt;br&gt;
 </part>
 <part name="GND20" library="Supplies" deviceset="GND" device=""/>
 <part name="R42" library="Resistors" deviceset="R-" device="0603" value="5.1k">
-<attribute name="MPN" value="ERJ-2GEJ512X"/>
-<attribute name="PART_NO" value="ERJ-2GEJ512X"/>
+<attribute name="MPN" value="ERJ-3EKF5101V"/>
+<attribute name="PART_NO" value="ERJ-3EKF5101V"/>
 </part>
 <part name="R43" library="Resistors" deviceset="R-" device="0603" value="5.1k">
-<attribute name="MPN" value="ERJ-2GEJ512X"/>
-<attribute name="PART_NO" value="ERJ-2GEJ512X"/>
+<attribute name="MPN" value="ERJ-3EKF5101V"/>
+<attribute name="PART_NO" value="ERJ-3EKF5101V"/>
 </part>
 <part name="FRAME3" library="frames" library_urn="urn:adsk.eagle:library:229" deviceset="FRAME_C_L" device=""/>
 <part name="U13" library="Switches" deviceset="USB2412-DZK" device=""/>
@@ -6697,10 +6697,10 @@ new: Attribute TP_SIGNAL_NAME&lt;br&gt;
 <attribute name="PART_NO" value="ERJ-3BQF5R1V"/>
 <attribute name="TOL" value="1%"/>
 </part>
-<part name="C20" library="Capacitors" deviceset="C-" device="0402" value="680pF">
-<attribute name="MPN" value="C0402C681K8RAC7867 "/>
-<attribute name="PART_NO" value="C0402C681K8RAC7867 "/>
-<attribute name="TC" value="C0G"/>
+<part name="C20" library="Capacitors" deviceset="C-" device="0603" value="270nF">
+<attribute name="MPN" value="C0603C274K8PACTU"/>
+<attribute name="PART_NO" value="C0603C274K8PACTU"/>
+<attribute name="TC" value="X5R"/>
 <attribute name="TOL" value="0.5pF"/>
 <attribute name="VOLTAGE" value="10V"/>
 </part>
@@ -6785,10 +6785,10 @@ new: Attribute TP_SIGNAL_NAME&lt;br&gt;
 <attribute name="PART_NO" value="ERJ-3BQF5R1V"/>
 <attribute name="TOL" value="1%"/>
 </part>
-<part name="C13" library="Capacitors" deviceset="C-" device="0402" value="680pF">
-<attribute name="MPN" value="C0402C681K8RAC7867 "/>
-<attribute name="PART_NO" value="C0402C681K8RAC7867 "/>
-<attribute name="TC" value="C0G"/>
+<part name="C13" library="Capacitors" deviceset="C-" device="0603" value="270nF">
+<attribute name="MPN" value="C0603C274K8PACTU"/>
+<attribute name="PART_NO" value="C0603C274K8PACTU"/>
+<attribute name="TC" value="X5R"/>
 <attribute name="TOL" value="0.5pF"/>
 <attribute name="VOLTAGE" value="10V"/>
 </part>
@@ -6874,10 +6874,10 @@ new: Attribute TP_SIGNAL_NAME&lt;br&gt;
 <attribute name="PART_NO" value="ERJ-3BQF5R1V"/>
 <attribute name="TOL" value="1%"/>
 </part>
-<part name="C10" library="Capacitors" deviceset="C-" device="0402" value="680pF">
-<attribute name="MPN" value="C0402C681K8RAC7867 "/>
-<attribute name="PART_NO" value="C0402C681K8RAC7867 "/>
-<attribute name="TC" value="C0G"/>
+<part name="C10" library="Capacitors" deviceset="C-" device="0603" value="270nF">
+<attribute name="MPN" value="C0603C274K8PACTU"/>
+<attribute name="PART_NO" value="C0603C274K8PACTU"/>
+<attribute name="TC" value="X5R"/>
 <attribute name="TOL" value="0.5pF"/>
 <attribute name="VOLTAGE" value="10V"/>
 </part>
@@ -6962,10 +6962,10 @@ new: Attribute TP_SIGNAL_NAME&lt;br&gt;
 <attribute name="PART_NO" value="ERJ-3BQF5R1V"/>
 <attribute name="TOL" value="1%"/>
 </part>
-<part name="C7" library="Capacitors" deviceset="C-" device="0402" value="680pF">
-<attribute name="MPN" value="C0402C681K8RAC7867 "/>
-<attribute name="PART_NO" value="C0402C681K8RAC7867 "/>
-<attribute name="TC" value="C0G"/>
+<part name="C7" library="Capacitors" deviceset="C-" device="0603" value="270nF">
+<attribute name="MPN" value="C0603C274K8PACTU"/>
+<attribute name="PART_NO" value="C0603C274K8PACTU"/>
+<attribute name="TC" value="X5R"/>
 <attribute name="TOL" value="0.5pF"/>
 <attribute name="VOLTAGE" value="10V"/>
 </part>
@@ -8649,6 +8649,7 @@ internal pull-ups</text>
 <wire x1="246.38" y1="266.7" x2="246.38" y2="360.68" width="0.381" layer="97" style="longdash"/>
 <wire x1="124.46" y1="360.68" x2="25.4" y2="360.68" width="0.381" layer="97" style="longdash"/>
 <wire x1="149.86" y1="360.68" x2="132.08" y2="360.68" width="0.381" layer="97" style="longdash"/>
+<text x="342.9" y="327.66" size="1.778" layer="91">BKUP FOR MAIN IS SWAPPED!!</text>
 </plain>
 <instances>
 <instance part="J_DBG_TO_MAIN_HDR" gate="G$1" x="495.3" y="137.16" smashed="yes" rot="R90">
