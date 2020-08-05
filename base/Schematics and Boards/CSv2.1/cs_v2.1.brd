@@ -293,22 +293,21 @@ Pad dimensions from http://www.kemet.com/Lists/ProductCatalog/Attachments/53/KEM
 <wire x1="0.8" y1="-0.8" x2="-0.8" y2="-0.8" width="0.127" layer="51"/>
 <wire x1="-0.8" y1="-0.8" x2="-0.8" y2="0.8" width="0.127" layer="51"/>
 </package>
-<package name="DO-216AA_ONS">
-<smd name="1" x="0" y="-1.65175" dx="1.27" dy="0.762" layer="1"/>
-<smd name="2" x="0" y="0.69925" dx="2.54" dy="2.667" layer="1"/>
-<wire x1="-1.1684" y1="-1.2192" x2="-0.9652" y2="-1.2192" width="0.1524" layer="21"/>
-<wire x1="1.1684" y1="-1.2192" x2="1.1684" y2="-0.9652" width="0.1524" layer="21"/>
-<wire x1="0.9652" y1="-1.2192" x2="1.1684" y2="-1.2192" width="0.1524" layer="21"/>
-<wire x1="-1.1684" y1="-0.9652" x2="-1.1684" y2="-1.2192" width="0.1524" layer="21"/>
-<wire x1="-2.1844" y1="-1.651" x2="-2.4384" y2="-1.651" width="0.1524" layer="21" curve="-180"/>
-<wire x1="-2.4384" y1="-1.651" x2="-2.1844" y2="-1.651" width="0.1524" layer="21" curve="-180"/>
-<wire x1="-1.016" y1="-1.0922" x2="1.016" y2="-1.0922" width="0.1524" layer="51"/>
-<wire x1="1.016" y1="-1.0922" x2="1.016" y2="1.0922" width="0.1524" layer="51"/>
-<wire x1="1.016" y1="1.0922" x2="-1.016" y2="1.0922" width="0.1524" layer="51"/>
-<wire x1="-1.016" y1="1.0922" x2="-1.016" y2="-1.0922" width="0.1524" layer="51"/>
-<wire x1="-0.4064" y1="-1.651" x2="-0.6604" y2="-1.651" width="0" layer="51" curve="-180"/>
-<wire x1="-0.6604" y1="-1.651" x2="-0.4064" y2="-1.651" width="0" layer="51" curve="-180"/>
-<text x="-3.2766" y="1.905" size="1.27" layer="25" ratio="6" rot="SR0">&gt;Name</text>
+<package name="CUS520H3F">
+<wire x1="-0.85" y1="0.625" x2="0.85" y2="0.625" width="0.127" layer="51"/>
+<wire x1="0.85" y1="0.625" x2="0.85" y2="-0.625" width="0.127" layer="51"/>
+<wire x1="0.85" y1="-0.625" x2="-0.85" y2="-0.625" width="0.127" layer="51"/>
+<wire x1="-0.85" y1="-0.625" x2="-0.85" y2="0.625" width="0.127" layer="51"/>
+<wire x1="-0.85" y1="0.77" x2="0.85" y2="0.77" width="0.127" layer="21"/>
+<wire x1="-0.85" y1="-0.77" x2="0.85" y2="-0.77" width="0.127" layer="21"/>
+<wire x1="-1.8" y1="0.875" x2="-1.8" y2="-0.875" width="0.05" layer="39"/>
+<wire x1="-1.8" y1="-0.875" x2="1.8" y2="-0.875" width="0.05" layer="39"/>
+<wire x1="1.8" y1="-0.875" x2="1.8" y2="0.875" width="0.05" layer="39"/>
+<wire x1="1.8" y1="0.875" x2="-1.8" y2="0.875" width="0.05" layer="39"/>
+<circle x="-2.1" y="0" radius="0.1" width="0.2" layer="21"/>
+<text x="-2.2" y="1.1" size="0.8128" layer="25">&gt;NAME</text>
+<smd name="N" x="-1.15" y="0" dx="0.8" dy="0.9" layer="1"/>
+<smd name="P" x="1.15" y="0" dx="0.8" dy="0.9" layer="1"/>
 </package>
 </packages>
 </library>
@@ -710,28 +709,6 @@ Pad dimensions from: https://search.murata.co.jp/Ceramy/image/img/P02/JELF243A-0
 <hole x="0" y="0.9" drill="0.9"/>
 <circle x="-3.429" y="1.27" radius="0.179603125" width="0" layer="21"/>
 </package>
-<package name="POWERPACK1212_SIS903DN">
-<wire x1="-1.65" y1="1.65" x2="1.65" y2="1.65" width="0.2" layer="21"/>
-<wire x1="-1.65" y1="-1.65" x2="1.65" y2="-1.65" width="0.2" layer="21"/>
-<wire x1="-1.65" y1="1.65" x2="-1.65" y2="-1.65" width="0.2" layer="51"/>
-<wire x1="1.65" y1="1.65" x2="1.65" y2="-1.65" width="0.2" layer="51"/>
-<wire x1="-2.2" y1="1.9" x2="2.2" y2="1.9" width="0.05" layer="39"/>
-<wire x1="2.2" y1="1.9" x2="2.2" y2="-1.9" width="0.05" layer="39"/>
-<wire x1="2.2" y1="-1.9" x2="-2.2" y2="-1.9" width="0.05" layer="39"/>
-<wire x1="-2.2" y1="-1.9" x2="-2.2" y2="1.9" width="0.05" layer="39"/>
-<text x="-2.2027" y="1.90233125" size="1.271559375" layer="25">&gt;NAME</text>
-<text x="-2.25305" y="-3.20433125" size="1.27171875" layer="27">&gt;VALUE</text>
-<smd name="1" x="-1.435" y="0.99" dx="0.99" dy="0.41" layer="1"/>
-<smd name="2" x="-1.435" y="0.33" dx="0.99" dy="0.41" layer="1"/>
-<smd name="3" x="-1.435" y="-0.33" dx="0.99" dy="0.41" layer="1"/>
-<smd name="4" x="-1.435" y="-0.99" dx="0.99" dy="0.41" layer="1"/>
-<smd name="5" x="1.55" y="-0.99" dx="0.76" dy="0.41" layer="1" rot="R180"/>
-<smd name="6" x="1.55" y="-0.33" dx="0.76" dy="0.41" layer="1" rot="R180"/>
-<smd name="7" x="1.55" y="0.33" dx="0.76" dy="0.41" layer="1" rot="R180"/>
-<smd name="8" x="1.55" y="0.99" dx="0.76" dy="0.41" layer="1" rot="R180"/>
-<smd name="9" x="0.5575" y="0.6075" dx="1.725" dy="0.99" layer="1"/>
-<smd name="10" x="0.5575" y="-0.6075" dx="1.725" dy="0.99" layer="1"/>
-</package>
 <package name="DSBGA10">
 <smd name="D3" x="0.5" y="-0.75" dx="0.3048" dy="0.3048" layer="1" roundness="100" rot="R180"/>
 <smd name="D2" x="0" y="-0.75" dx="0.3048" dy="0.3048" layer="1" roundness="100" rot="R180"/>
@@ -749,6 +726,29 @@ Pad dimensions from: https://search.murata.co.jp/Ceramy/image/img/P02/JELF243A-0
 <wire x1="-0.7112" y1="-0.9652" x2="0.7112" y2="-0.9652" width="0.1524" layer="51"/>
 <wire x1="0.7112" y1="-0.9652" x2="0.7112" y2="0.9652" width="0.1524" layer="51"/>
 <text x="-2.3876" y="1.143" size="1.27" layer="25" ratio="6" rot="SR0">&gt;Name</text>
+</package>
+<package name="BGA6N50P3X2_146X96X62N">
+<text x="-1.48" y="1.222" size="0.8128" layer="25">&gt;NAME</text>
+<circle x="-0.98" y="0.5" radius="0.075" width="0.15" layer="21"/>
+<circle x="-0.98" y="0.5" radius="0.075" width="0.15" layer="51"/>
+<wire x1="0.48" y1="-0.73" x2="-0.48" y2="-0.73" width="0.127" layer="51"/>
+<wire x1="0.48" y1="0.73" x2="-0.48" y2="0.73" width="0.127" layer="51"/>
+<wire x1="0.48" y1="-0.73" x2="0.48" y2="0.73" width="0.127" layer="51"/>
+<wire x1="-0.48" y1="-0.73" x2="-0.48" y2="0.73" width="0.127" layer="51"/>
+<wire x1="0.745" y1="-0.995" x2="0.3725" y2="-0.995" width="0.127" layer="21"/>
+<wire x1="0.745" y1="-0.995" x2="0.745" y2="-0.4975" width="0.127" layer="21"/>
+<wire x1="-0.745" y1="-0.995" x2="-0.3725" y2="-0.995" width="0.127" layer="21"/>
+<wire x1="-0.745" y1="-0.995" x2="-0.745" y2="-0.4975" width="0.127" layer="21"/>
+<wire x1="-0.745" y1="0.995" x2="-0.3725" y2="0.995" width="0.127" layer="21"/>
+<wire x1="-0.745" y1="0.995" x2="-0.745" y2="0.4975" width="0.127" layer="21"/>
+<wire x1="0.745" y1="0.995" x2="0.3725" y2="0.995" width="0.127" layer="21"/>
+<wire x1="0.745" y1="0.995" x2="0.745" y2="0.4975" width="0.127" layer="21"/>
+<smd name="A1" x="-0.25" y="0.5" dx="0.25" dy="0.25" layer="1" roundness="100"/>
+<smd name="A2" x="0.25" y="0.5" dx="0.25" dy="0.25" layer="1" roundness="100"/>
+<smd name="B1" x="-0.25" y="0" dx="0.25" dy="0.25" layer="1" roundness="100"/>
+<smd name="B2" x="0.25" y="0" dx="0.25" dy="0.25" layer="1" roundness="100"/>
+<smd name="C1" x="-0.25" y="-0.5" dx="0.25" dy="0.25" layer="1" roundness="100"/>
+<smd name="C2" x="0.25" y="-0.5" dx="0.25" dy="0.25" layer="1" roundness="100"/>
 </package>
 </packages>
 </library>
@@ -1795,71 +1795,72 @@ design rules under a new name.</description>
 </element>
 <element name="R101" library="Resistors" package="R0402" value="10k" x="4.7244" y="9.9314" smashed="yes" rot="MR180">
 <attribute name="MANUFACTURER" value="Panasonic" x="66.9544" y="75.9714" size="1.778" layer="28" rot="MR180" display="off"/>
-<attribute name="NAME" x="4.0576" y="10.0727" size="0.3048" layer="255" rot="MR180"/>
 <attribute name="NAME" x="4.0576" y="10.0727" size="0.3048" layer="52" rot="MR180"/>
+<attribute name="NAME" x="4.0576" y="10.0727" size="0.3048" layer="255" rot="MR180"/>
 <attribute name="PART_NO" value="ERJ-2GEJ103X" x="66.9544" y="75.9714" size="1.778" layer="28" rot="MR180" display="off"/>
 <attribute name="TOL" value="5%" x="66.9544" y="75.9714" size="1.778" layer="28" rot="MR180" display="off"/>
 </element>
 <element name="R103" library="Resistors" package="R0402" value="4.7k" x="36.9062" y="12.065" smashed="yes" rot="R90">
 <attribute name="MANUFACTURER" value="Panasonic" x="105.4862" y="43.815" size="1.778" layer="27" rot="R90" display="off"/>
-<attribute name="NAME" x="37.0475" y="11.3982" size="0.3048" layer="255" rot="R90"/>
 <attribute name="NAME" x="37.0475" y="11.3982" size="0.3048" layer="51" rot="R90"/>
+<attribute name="NAME" x="37.0475" y="11.3982" size="0.3048" layer="255" rot="R90"/>
 <attribute name="PART_NO" value="ERJ-2GEJ472X" x="105.4862" y="43.815" size="1.778" layer="27" rot="R90" display="off"/>
 <attribute name="TOL" value="5%" x="105.4862" y="43.815" size="1.778" layer="27" rot="R90" display="off"/>
 </element>
 <element name="R104" library="Resistors" package="R0402" value="4.7k" x="35.5346" y="12.065" smashed="yes" rot="R90">
 <attribute name="MANUFACTURER" value="Panasonic" x="104.1146" y="46.355" size="1.778" layer="27" rot="R90" display="off"/>
-<attribute name="NAME" x="35.6759" y="11.3982" size="0.3048" layer="255" rot="R90"/>
 <attribute name="NAME" x="35.6759" y="11.3982" size="0.3048" layer="51" rot="R90"/>
+<attribute name="NAME" x="35.6759" y="11.3982" size="0.3048" layer="255" rot="R90"/>
 <attribute name="PART_NO" value="ERJ-2GEJ472X" x="104.1146" y="46.355" size="1.778" layer="27" rot="R90" display="off"/>
 <attribute name="TOL" value="5%" x="104.1146" y="46.355" size="1.778" layer="27" rot="R90" display="off"/>
 </element>
 <element name="R102" library="Resistors" package="R0402" value="330" x="1.651" y="11.049" smashed="yes" rot="MR0">
 <attribute name="MANUFACTURER" value="Panasonic" x="-12.319" y="-57.531" size="1.778" layer="28" rot="MR0" display="off"/>
-<attribute name="NAME" x="2.3178" y="10.9077" size="0.3048" layer="255" rot="MR0"/>
 <attribute name="NAME" x="2.3178" y="10.9077" size="0.3048" layer="52" rot="MR0"/>
+<attribute name="NAME" x="2.3178" y="10.9077" size="0.3048" layer="255" rot="MR0"/>
 <attribute name="PART_NO" value="ERJ-2GEJ331X" x="-12.319" y="-57.531" size="1.778" layer="28" rot="MR0" display="off"/>
 <attribute name="TOL" value="5%" x="-12.319" y="-57.531" size="1.778" layer="28" rot="MR0" display="off"/>
 </element>
-<element name="R201" library="Resistors" package="R0402" value="10M" x="14.4272" y="42.5958" smashed="yes" rot="MR270">
+<element name="R201" library="Resistors" package="R0402" value="1M" x="14.4272" y="42.5958" smashed="yes" rot="MR270">
 <attribute name="MANUFACTURER" value="Panasonic" x="83.0072" y="26.0858" size="1.778" layer="28" rot="MR270" display="off"/>
+<attribute name="MPN" value="ERJ-2GEJ105X" x="14.4272" y="42.5958" size="1.778" layer="28" rot="MR270" display="off"/>
 <attribute name="NAME" x="14.5685" y="43.2626" size="0.3048" layer="255" rot="MR270"/>
 <attribute name="NAME" x="14.5685" y="43.2626" size="0.3048" layer="52" rot="MR270"/>
-<attribute name="PART_NO" value="ERJ-2GEJ106X" x="83.0072" y="26.0858" size="1.778" layer="28" rot="MR270" display="off"/>
+<attribute name="PART_NO" value="ERJ-2GEJ105X" x="83.0072" y="26.0858" size="1.778" layer="28" rot="MR270" display="off"/>
 <attribute name="TOL" value="5%" x="83.0072" y="26.0858" size="1.778" layer="28" rot="MR270" display="off"/>
 </element>
 <element name="R204" library="Resistors" package="R0402" value="1k" x="34.925" y="26.67" smashed="yes" rot="R270">
 <attribute name="MANUFACTURER" value="Panasonic" x="-33.655" y="7.62" size="1.778" layer="27" rot="R270" display="off"/>
-<attribute name="NAME" x="34.7837" y="27.3368" size="0.3048" layer="255" rot="R270"/>
 <attribute name="NAME" x="34.7837" y="27.3368" size="0.3048" layer="51" rot="R270"/>
+<attribute name="NAME" x="34.7837" y="27.3368" size="0.3048" layer="255" rot="R270"/>
 <attribute name="PART_NO" value="ERA-2AED102X" x="-33.655" y="7.62" size="1.778" layer="27" rot="R270" display="off"/>
 <attribute name="TOL" value="0.5%" x="-33.655" y="7.62" size="1.778" layer="27" rot="R270" display="off"/>
 </element>
 <element name="R202" library="Resistors" package="R0402" value="590" x="36.83" y="24.13" smashed="yes" rot="R270">
 <attribute name="MANUFACTURER" value="Panasonic" x="-31.75" y="2.54" size="1.778" layer="27" rot="R270" display="off"/>
-<attribute name="NAME" x="36.6887" y="24.7968" size="0.3048" layer="255" rot="R270"/>
 <attribute name="NAME" x="36.6887" y="24.5936" size="0.3048" layer="51" rot="R270"/>
+<attribute name="NAME" x="36.6887" y="24.7968" size="0.3048" layer="255" rot="R270"/>
 <attribute name="PART_NO" value="ERJ-2RKF5900X" x="-31.75" y="2.54" size="1.778" layer="27" rot="R270" display="off"/>
 <attribute name="TOL" value="1%" x="-31.75" y="2.54" size="1.778" layer="27" rot="R270" display="off"/>
 </element>
 <element name="R203" library="Resistors" package="R0402" value="590" x="35.56" y="24.13" smashed="yes" rot="R270">
 <attribute name="MANUFACTURER" value="Panasonic" x="-33.02" y="0" size="1.778" layer="27" rot="R270" display="off"/>
-<attribute name="NAME" x="35.4187" y="24.7968" size="0.3048" layer="255" rot="R270"/>
 <attribute name="NAME" x="35.4187" y="24.7968" size="0.3048" layer="51" rot="R270"/>
+<attribute name="NAME" x="35.4187" y="24.7968" size="0.3048" layer="255" rot="R270"/>
 <attribute name="PART_NO" value="ERJ-2RKF5900X" x="-33.02" y="0" size="1.778" layer="27" rot="R270" display="off"/>
 <attribute name="TOL" value="1%" x="-33.02" y="0" size="1.778" layer="27" rot="R270" display="off"/>
 </element>
 <element name="R106" library="Resistors" package="R0402" value="1k" x="4.4704" y="20.9296" smashed="yes" rot="MR0">
 <attribute name="MANUFACTURER" value="Panasonic" x="-22.1996" y="-47.6504" size="1.778" layer="28" rot="MR0" display="off"/>
-<attribute name="NAME" x="5.1372" y="20.7883" size="0.3048" layer="255" rot="MR0"/>
 <attribute name="NAME" x="5.1372" y="20.7883" size="0.3048" layer="52" rot="MR0"/>
+<attribute name="NAME" x="5.1372" y="20.7883" size="0.3048" layer="255" rot="MR0"/>
 <attribute name="PART_NO" value="ERJ-2GEJ102X" x="-22.1996" y="-47.6504" size="1.778" layer="28" rot="MR0" display="off"/>
 <attribute name="TOL" value="5%" x="-22.1996" y="-47.6504" size="1.778" layer="28" rot="MR0" display="off"/>
 </element>
 <element name="R105" library="Resistors" package="R0402" value="39" x="4.1656" y="11.1252" smashed="yes" rot="MR0">
 <attribute name="MANUFACTURER" value="Panasonic" x="-25.0444" y="-57.4548" size="1.778" layer="28" rot="MR0" display="off"/>
-<attribute name="NAME" x="4.8324" y="10.9839" size="0.3048" layer="255" rot="MR0"/>
 <attribute name="NAME" x="4.8324" y="10.9839" size="0.3048" layer="52" rot="MR0"/>
+<attribute name="NAME" x="4.8324" y="10.9839" size="0.3048" layer="255" rot="MR0"/>
 <attribute name="PART_NO" value="ERJ-2GEJ390X" x="-25.0444" y="-57.4548" size="1.778" layer="28" rot="MR0" display="off"/>
 <attribute name="TOL" value="5%" x="-25.0444" y="-57.4548" size="1.778" layer="28" rot="MR0" display="off"/>
 </element>
@@ -1932,14 +1933,6 @@ design rules under a new name.</description>
 <attribute name="PART_NUMBER" value="MIC94164" x="10.2616" y="1.9558" size="1.778" layer="28" rot="MR0" display="off"/>
 <attribute name="QUENCH" value="YES" x="-25.2984" y="-56.4642" size="1.778" layer="28" rot="MR0" display="off"/>
 <attribute name="SOFTSTART" value="YES" x="-25.2984" y="-56.4642" size="1.778" layer="28" rot="MR0" display="off"/>
-</element>
-<element name="D201" library="Diodes" package="DO-216AA_ONS" value="MBRM110ET1G" x="11.4554" y="42.5958" smashed="yes" rot="MR270">
-<attribute name="BUILT_BY" value="EMA_Jessica" x="11.4554" y="42.5958" size="1.778" layer="28" rot="MR270" display="off"/>
-<attribute name="COPYRIGHT" value="Copyright (C) 2018 Accelerated Designs. All rights reserved" x="11.4554" y="42.5958" size="1.778" layer="28" rot="MR270" display="off"/>
-<attribute name="MANUFACTURER_PART_NUMBER" value="MBRM110ET1G" x="11.4554" y="42.5958" size="1.778" layer="28" rot="MR270" display="off"/>
-<attribute name="NAME" x="11.6762" y="43.3734" size="0.4572" layer="52" rot="MR270"/>
-<attribute name="SOURCELIBRARY" value="ON_Semiconductor_2019-12-30" x="11.4554" y="42.5958" size="1.778" layer="28" rot="MR270" display="off"/>
-<attribute name="VENDOR" value="ON Semiconductor" x="11.4554" y="42.5958" size="1.778" layer="28" rot="MR270" display="off"/>
 </element>
 <element name="U203" library="Sensors" package="DFN-06" value="SENSOR-SI7006" x="14.8082" y="29.4132" smashed="yes" rot="R90">
 <attribute name="MANUFACTURER" value="Silicon Laboratories" x="52.9082" y="44.6532" size="1.778" layer="27" rot="R90" display="off"/>
@@ -2026,14 +2019,6 @@ design rules under a new name.</description>
 <attribute name="SOURCELIBRARY" value="Winbond_2020-02-06" x="10.16" y="5.08" size="1.778" layer="27" rot="R180" display="off"/>
 <attribute name="VENDOR" value="Winbond" x="10.16" y="5.08" size="1.778" layer="27" rot="R180" display="off"/>
 </element>
-<element name="Q1" library="Switches" package="POWERPACK1212_SIS903DN" value="SIS903DN" x="7.62" y="41.275" smashed="yes" rot="R90">
-<attribute name="MP" value="SIS903DN-T1-GE3 " x="7.62" y="41.275" size="1.778" layer="27" rot="R90" display="off"/>
-<attribute name="MPN" value="SIS903DN-T1-GE3 " x="7.62" y="41.275" size="1.778" layer="27" rot="R90" display="off"/>
-<attribute name="NAME" x="5.71766875" y="39.0723" size="1.271559375" layer="25" rot="R90"/>
-<attribute name="PACKAGE" value="PowerPAK®-1212 Vishay" x="7.62" y="41.275" size="1.778" layer="27" rot="R90" display="off"/>
-<attribute name="PART_NO" value="SIS903DN-T1-GE3 " x="7.62" y="41.275" size="1.778" layer="27" rot="R90" display="off"/>
-<attribute name="VALUE" x="10.82433125" y="39.02195" size="1.27171875" layer="27" rot="R90"/>
-</element>
 <element name="U3" library="Switches" package="DSBGA10" value="TS3A24159YZPR" x="10.795" y="11.43" smashed="yes" rot="R270">
 <attribute name="DATASHEET_URL" value="http://www.ti.com/lit/gpn/TS3A24159" x="10.795" y="11.43" size="1.778" layer="27" rot="R270" display="off"/>
 <attribute name="DESCRIPTION" value="0.3 Ohm Dual SPDT Analog Switch Dual-Channel 2:1 Multiplexer/Demultiplexer" x="10.795" y="11.43" size="1.778" layer="27" rot="R270" display="off"/>
@@ -2063,6 +2048,76 @@ design rules under a new name.</description>
 <element name="JP7" library="Connectors" package="SMT-JUMPER_2_NC_PASTE_NO-SILK" package3d_urn="urn:adsk.eagle:package:39283/1" value="JUMPER-SMT_2_NC_PASTE_NO-SILK" x="-6.985" y="8.255" smashed="yes">
 <attribute name="BOM" value="EXCLUDE" x="-6.985" y="8.255" size="1.778" layer="27" display="off"/>
 <attribute name="NAME" x="-6.985" y="9.017" size="0.6096" layer="25" font="vector" align="bottom-center"/>
+</element>
+<element name="U4" library="Switches" package="WLCSP6_2X3" value="LOADSWITCH-MIC94164" x="-10.16" y="-9.525" smashed="yes">
+<attribute name="MANUFACTURER" value="Microchip Technology" x="-10.16" y="-9.525" size="1.778" layer="27" display="off"/>
+<attribute name="MPN" value="MIC94164YCS-TR" x="-10.16" y="-9.525" size="1.778" layer="27" display="off"/>
+<attribute name="NAME" x="-8.885" y="-10.621" size="0.6" layer="25" rot="R90"/>
+<attribute name="PART_NO" value="MIC94164YCS-TR" x="-10.16" y="-9.525" size="1.778" layer="27" display="off"/>
+<attribute name="PART_NUMBER" value="MIC94164" x="-10.16" y="-9.525" size="1.778" layer="27" display="off"/>
+<attribute name="QUENCH" value="YES" x="-10.16" y="-9.525" size="1.778" layer="27" display="off"/>
+<attribute name="SOFTSTART" value="YES" x="-10.16" y="-9.525" size="1.778" layer="27" display="off"/>
+</element>
+<element name="C2" library="Capacitors" package="C0402" value="1u" x="-9.525" y="-12.065" smashed="yes">
+<attribute name="MANUFACTURER" value="Kemet" x="-9.525" y="-12.065" size="1.778" layer="27" display="off"/>
+<attribute name="NAME" x="-10.1918" y="-12.2063" size="0.3048" layer="25"/>
+<attribute name="NAME" x="-10.1918" y="-12.2063" size="0.3048" layer="255"/>
+<attribute name="PART_NO" value="C0402C105M8PACTU" x="-9.525" y="-12.065" size="1.778" layer="27" display="off"/>
+<attribute name="TC" value="X5R" x="-9.525" y="-12.065" size="1.778" layer="27" display="off"/>
+<attribute name="TOL" value="10%" x="-9.525" y="-12.065" size="1.778" layer="27" display="off"/>
+<attribute name="VOLTAGE" value="10V" x="-9.525" y="-12.065" size="1.778" layer="27" display="off"/>
+</element>
+<element name="U5" library="Switches" package="BGA6N50P3X2_146X96X62N" value="FPF1321UCX" x="-8.89" y="-15.875" smashed="yes">
+<attribute name="AVAILABILITY" value="Good" x="-8.89" y="-15.875" size="1.778" layer="27" display="off"/>
+<attribute name="DESCRIPTION" value=" Power Switch/Driver 2:1 P-Channel 1.5A 6-WLCSP (0.96x1.66) " x="-8.89" y="-15.875" size="1.778" layer="27" display="off"/>
+<attribute name="MF" value="ON Semiconductor" x="-8.89" y="-15.875" size="1.778" layer="27" display="off"/>
+<attribute name="MOUSER-PURCHASE-URL" value="https://snapeda.com/shop?store=Mouser&amp;id=2771946" x="-8.89" y="-15.875" size="1.778" layer="27" display="off"/>
+<attribute name="MP" value="FPF1321UCX" x="-8.89" y="-15.875" size="1.778" layer="27" display="off"/>
+<attribute name="NAME" x="-10.37" y="-14.653" size="0.8128" layer="25"/>
+<attribute name="PACKAGE" value="UFBGA-6 ON Semiconductor" x="-8.89" y="-15.875" size="1.778" layer="27" display="off"/>
+<attribute name="PRICE" value="None" x="-8.89" y="-15.875" size="1.778" layer="27" display="off"/>
+</element>
+<element name="D1" library="Diodes" package="CUS520H3F" value="CUS520H3F" x="-8.255" y="-19.685" smashed="yes">
+<attribute name="DESCRIPTION" value=" Diode Schottky 30V 200mA Surface Mount USC " x="-8.255" y="-19.685" size="1.778" layer="27" display="off"/>
+<attribute name="MF" value="Toshiba Semiconductor" x="-8.255" y="-19.685" size="1.778" layer="27" display="off"/>
+<attribute name="MP" value="CUS520,H3F" x="-8.255" y="-19.685" size="1.778" layer="27" display="off"/>
+<attribute name="NAME" x="-10.455" y="-18.585" size="0.8128" layer="25"/>
+<attribute name="PACKAGE" value="SOD-323 Toshiba" x="-8.255" y="-19.685" size="1.778" layer="27" display="off"/>
+<attribute name="PART_NO" value="CUS520,H3F" x="-8.255" y="-19.685" size="1.778" layer="27" display="off"/>
+</element>
+<element name="D2" library="Diodes" package="CUS520H3F" value="CUS520H3F" x="-8.255" y="-23.495" smashed="yes">
+<attribute name="DESCRIPTION" value=" Diode Schottky 30V 200mA Surface Mount USC " x="-8.255" y="-23.495" size="1.778" layer="27" display="off"/>
+<attribute name="MF" value="Toshiba Semiconductor" x="-8.255" y="-23.495" size="1.778" layer="27" display="off"/>
+<attribute name="MP" value="CUS520,H3F" x="-8.255" y="-23.495" size="1.778" layer="27" display="off"/>
+<attribute name="NAME" x="-10.455" y="-22.395" size="0.8128" layer="25"/>
+<attribute name="PACKAGE" value="SOD-323 Toshiba" x="-8.255" y="-23.495" size="1.778" layer="27" display="off"/>
+<attribute name="PART_NO" value="CUS520,H3F" x="-8.255" y="-23.495" size="1.778" layer="27" display="off"/>
+</element>
+<element name="C3" library="Capacitors" package="C0402" value="1u" x="-9.525" y="-26.035" smashed="yes">
+<attribute name="MANUFACTURER" value="Kemet" x="-9.525" y="-25.4" size="1.778" layer="27" display="off"/>
+<attribute name="NAME" x="-10.1918" y="-26.1763" size="0.3048" layer="255"/>
+<attribute name="NAME" x="-10.1918" y="-26.1763" size="0.3048" layer="25"/>
+<attribute name="PART_NO" value="C0402C105M8PACTU" x="-9.525" y="-25.4" size="1.778" layer="27" display="off"/>
+<attribute name="TC" value="X5R" x="-9.525" y="-25.4" size="1.778" layer="27" display="off"/>
+<attribute name="TOL" value="10%" x="-9.525" y="-25.4" size="1.778" layer="27" display="off"/>
+<attribute name="VOLTAGE" value="10V" x="-9.525" y="-25.4" size="1.778" layer="27" display="off"/>
+</element>
+<element name="C4" library="Capacitors" package="C0402" value="1u" x="-9.525" y="-28.575" smashed="yes">
+<attribute name="MANUFACTURER" value="Kemet" x="-9.525" y="-27.94" size="1.778" layer="27" display="off"/>
+<attribute name="NAME" x="-10.1918" y="-28.7163" size="0.3048" layer="255"/>
+<attribute name="NAME" x="-10.1918" y="-28.7163" size="0.3048" layer="25"/>
+<attribute name="PART_NO" value="C0402C105M8PACTU" x="-9.525" y="-27.94" size="1.778" layer="27" display="off"/>
+<attribute name="TC" value="X5R" x="-9.525" y="-27.94" size="1.778" layer="27" display="off"/>
+<attribute name="TOL" value="10%" x="-9.525" y="-27.94" size="1.778" layer="27" display="off"/>
+<attribute name="VOLTAGE" value="10V" x="-9.525" y="-27.94" size="1.778" layer="27" display="off"/>
+</element>
+<element name="C5" library="Capacitors" package="C0805" value="4.7u" x="-8.89" y="-31.75" smashed="yes">
+<attribute name="MANUFACTURER" value="Kemet" x="-8.89" y="-31.75" size="1.778" layer="27" display="off"/>
+<attribute name="NAME" x="-10.11" y="-30.767" size="0.6096" layer="25" font="vector"/>
+<attribute name="PART_NO" value="C0805C475K8RACTU" x="-8.89" y="-31.75" size="1.778" layer="27" display="off"/>
+<attribute name="TC" value="X7R" x="-8.89" y="-31.75" size="1.778" layer="27" display="off"/>
+<attribute name="TOL" value="10%" x="-8.89" y="-31.75" size="1.778" layer="27" display="off"/>
+<attribute name="VOLTAGE" value="10V" x="-8.89" y="-31.75" size="1.778" layer="27" display="off"/>
 </element>
 </elements>
 <signals>
@@ -2149,10 +2204,16 @@ design rules under a new name.</description>
 <contactref element="U1" pad="7"/>
 <contactref element="U2" pad="4"/>
 <contactref element="U2" pad="9"/>
-<contactref element="S201" pad="3"/>
 <contactref element="U3" pad="A2"/>
 <contactref element="C1" pad="2"/>
 <contactref element="J302" pad="7"/>
+<contactref element="S201" pad="1"/>
+<contactref element="C2" pad="2"/>
+<contactref element="U4" pad="C1"/>
+<contactref element="U5" pad="C1"/>
+<contactref element="C3" pad="2"/>
+<contactref element="C4" pad="2"/>
+<contactref element="C5" pad="2"/>
 <wire x1="20.892003125" y1="41.833" x2="20.492003125" y2="41.833" width="0" layer="19" extent="16-16"/>
 <wire x1="21.292003125" y1="41.833" x2="20.892003125" y2="41.833" width="0" layer="19" extent="16-16"/>
 <wire x1="20.092003125" y1="41.833" x2="20.492003125" y2="41.833" width="0" layer="19" extent="16-16"/>
@@ -2162,6 +2223,7 @@ design rules under a new name.</description>
 <wire x1="9.9386" y1="33.4772" x2="9.3218" y2="35.237" width="0" layer="19" extent="1-16"/>
 <wire x1="5.823" y1="32.62" x2="9.9386" y2="33.4772" width="0" layer="19" extent="1-16"/>
 <wire x1="4.503" y1="31.115" x2="5.823" y2="32.62" width="0" layer="19" extent="16-16"/>
+<wire x1="3.782" y1="32.548" x2="4.503" y2="31.115" width="0" layer="19" extent="1-16"/>
 <wire x1="6.5722" y1="28.2098" x2="4.503" y2="31.115" width="0" layer="19" extent="16-16"/>
 <wire x1="6.1722" y1="27.4098" x2="6.5722" y2="28.2098" width="0" layer="19" extent="16-16"/>
 <wire x1="6.1722" y1="27.0098" x2="6.1722" y2="27.4098" width="0" layer="19" extent="16-16"/>
@@ -2182,7 +2244,6 @@ design rules under a new name.</description>
 <wire x1="17.4498" y1="32.5048" x2="18.6944" y2="32.5048" width="0" layer="19" extent="1-1"/>
 <wire x1="22.733" y1="33.3358" x2="18.6944" y2="32.5048" width="0" layer="19" extent="1-16"/>
 <wire x1="24.8666" y1="31.5032" x2="22.733" y2="33.3358" width="0" layer="19" extent="16-16"/>
-<wire x1="3.782" y1="37.048" x2="5.823" y2="32.62" width="0" layer="19" extent="1-16"/>
 <wire x1="20.952203125" y1="22.269203125" x2="14.7066" y2="23.6292" width="0" layer="19" extent="1-1"/>
 <wire x1="22.7148" y1="21.6154" x2="20.952203125" y2="22.269203125" width="0" layer="19" extent="1-16"/>
 <wire x1="22.952203125" y1="21.269215625" x2="22.7148" y2="21.6154" width="0" layer="19" extent="1-16"/>
@@ -2200,20 +2261,26 @@ design rules under a new name.</description>
 <wire x1="31.3364" y1="18.3388" x2="31.3364" y2="18.3134" width="0" layer="19" extent="1-16"/>
 <wire x1="31.3364" y1="19.7612" x2="31.3364" y2="18.3388" width="0" layer="19" extent="1-16"/>
 <wire x1="31.3364" y1="19.8882" x2="31.3364" y2="19.7612" width="0" layer="19" extent="1-16"/>
-<wire x1="11.545" y1="11.43" x2="13.8248" y2="17.78" width="0" layer="19" extent="1-16"/>
+<wire x1="11.545" y1="11.43" x2="13.8248" y2="17.78" width="0" layer="19" extent="1-1"/>
 <wire x1="11.245" y1="11.43" x2="11.545" y2="11.43" width="0" layer="19" extent="1-16"/>
-<wire x1="13.906" y1="6.985" x2="11.545" y2="11.43" width="0" layer="19" extent="1-16"/>
+<wire x1="13.906" y1="6.985" x2="11.545" y2="11.43" width="0" layer="19" extent="1-1"/>
 <wire x1="10.16" y1="5.08" x2="13.906" y2="6.985" width="0" layer="19" extent="1-1"/>
 <wire x1="10.5116" y1="1.4558" x2="10.16" y2="5.08" width="0" layer="19" extent="1-16"/>
 <wire x1="8.7122" y1="1.5566" x2="10.5116" y2="1.4558" width="0" layer="19" extent="16-16"/>
 <wire x1="12.9032" y1="1.5058" x2="10.5116" y2="1.4558" width="0" layer="19" extent="16-16"/>
+<wire x1="5.2252" y1="8.2804" x2="10.16" y2="5.08" width="0" layer="19" extent="1-16"/>
+<wire x1="0.9006" y1="6.7598" x2="5.2252" y2="8.2804" width="0" layer="19" extent="1-16"/>
+<wire x1="0.9006" y1="10.3598" x2="0.9006" y2="6.7598" width="0" layer="19" extent="1-1"/>
+<wire x1="4.0386" y1="14.9606" x2="0.9006" y2="10.3598" width="0" layer="19" extent="1-1"/>
 <wire x1="20.600003125" y1="6.3" x2="13.906" y2="6.985" width="0" layer="19" extent="1-1"/>
 <wire x1="21.000003125" y1="6.3" x2="20.600003125" y2="6.3" width="0" layer="19" extent="1-1"/>
 <wire x1="21.400003125" y1="6.3" x2="21.000003125" y2="6.3" width="0" layer="19" extent="1-1"/>
-<wire x1="5.2252" y1="8.2804" x2="8.7122" y2="1.5566" width="0" layer="19" extent="1-16"/>
-<wire x1="0.9006" y1="6.7598" x2="5.2252" y2="8.2804" width="0" layer="19" extent="1-1"/>
-<wire x1="0.9006" y1="10.3598" x2="0.9006" y2="6.7598" width="0" layer="19" extent="1-1"/>
-<wire x1="4.0386" y1="14.9606" x2="0.9006" y2="10.3598" width="0" layer="19" extent="1-1"/>
+<wire x1="-10.41" y1="-10.025" x2="0.9006" y2="6.7598" width="0" layer="19" extent="1-1"/>
+<wire x1="-9.075" y1="-12.065" x2="-10.41" y2="-10.025" width="0" layer="19" extent="1-1"/>
+<wire x1="-9.14" y1="-16.375" x2="-9.075" y2="-12.065" width="0" layer="19" extent="1-1"/>
+<wire x1="-9.075" y1="-26.035" x2="-9.14" y2="-16.375" width="0" layer="19" extent="1-1"/>
+<wire x1="-9.075" y1="-28.575" x2="-9.075" y2="-26.035" width="0" layer="19" extent="1-1"/>
+<wire x1="-7.99" y1="-31.75" x2="-9.075" y2="-28.575" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="VDDCORE">
 <contactref element="U101" pad="VDDCORE"/>
@@ -2500,10 +2567,12 @@ design rules under a new name.</description>
 <contactref element="U201" pad="A2"/>
 <contactref element="C201" pad="1"/>
 <contactref element="U201" pad="A1"/>
-<contactref element="Q1" pad="3"/>
-<wire x1="9.3218" y1="36.137" x2="7.95" y2="39.84" width="0" layer="19" extent="16-16"/>
+<contactref element="U4" pad="B1"/>
+<contactref element="U4" pad="A1"/>
 <wire x1="6.623" y1="33.42" x2="9.3218" y2="36.137" width="0" layer="19" extent="16-16"/>
 <wire x1="6.223" y1="33.42" x2="6.623" y2="33.42" width="0" layer="19" extent="16-16"/>
+<wire x1="-10.41" y1="-9.025" x2="6.223" y2="33.42" width="0" layer="19" extent="1-16"/>
+<wire x1="-10.41" y1="-9.525" x2="-10.41" y2="-9.025" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="VREG_LX1">
 <contactref element="U202" pad="A1"/>
@@ -2563,14 +2632,18 @@ design rules under a new name.</description>
 <wire x1="21.400003125" y1="8.94" x2="21.000003125" y2="8.94" width="0" layer="19" extent="1-1"/>
 <wire x1="10.2108" y1="17.3482" x2="20.600003125" y2="8.94" width="0" layer="19" extent="1-1"/>
 </signal>
-<signal name="VDD_DBG_JMP" class="1">
-<contactref element="R201" pad="2"/>
-<contactref element="D201" pad="1"/>
+<signal name="V_SEL_IN_B" class="1">
 <contactref element="JP201" pad="1"/>
-<contactref element="Q1" pad="2"/>
-<wire x1="15.9512" y1="42.0116" x2="14.4272" y2="42.1458" width="0" layer="19" extent="16-16"/>
-<wire x1="7.29" y1="39.84" x2="14.4272" y2="42.1458" width="0" layer="19" extent="16-16"/>
-<wire x1="13.10715" y1="42.5958" x2="7.29" y2="39.84" width="0" layer="19" extent="16-16"/>
+<contactref element="U5" pad="C2"/>
+<contactref element="D2" pad="P"/>
+<contactref element="R201" pad="2"/>
+<contactref element="U5" pad="B1"/>
+<contactref element="C4" pad="1"/>
+<wire x1="14.4272" y1="42.1458" x2="15.9512" y2="42.0116" width="0" layer="19" extent="16-16"/>
+<wire x1="-9.14" y1="-15.875" x2="14.4272" y2="42.1458" width="0" layer="19" extent="1-16"/>
+<wire x1="-8.64" y1="-16.375" x2="-9.14" y2="-15.875" width="0" layer="19" extent="1-1"/>
+<wire x1="-7.105" y1="-23.495" x2="-8.64" y2="-16.375" width="0" layer="19" extent="1-1"/>
+<wire x1="-9.975" y1="-28.575" x2="-7.105" y2="-23.495" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="VREG_IN" class="1">
 <contactref element="U201" pad="B3"/>
@@ -2586,20 +2659,20 @@ design rules under a new name.</description>
 </signal>
 <signal name="+3V7_BATT" class="1">
 <contactref element="J201" pad="1"/>
-<contactref element="Q1" pad="9"/>
-<contactref element="Q1" pad="7"/>
-<contactref element="Q1" pad="8"/>
-<contactref element="JP203" pad="1"/>
 <contactref element="J302" pad="8"/>
 <contactref element="J302" pad="10"/>
 <contactref element="J302" pad="12"/>
+<contactref element="U5" pad="A2"/>
+<contactref element="JP203" pad="3"/>
+<contactref element="D1" pad="P"/>
+<contactref element="C3" pad="1"/>
 <wire x1="21.692003125" y1="39.193" x2="21.292003125" y2="39.193" width="0" layer="19" extent="16-16"/>
 <wire x1="22.092003125" y1="39.193" x2="21.692003125" y2="39.193" width="0" layer="19" extent="16-16"/>
-<wire x1="7.29" y1="42.825" x2="21.292003125" y2="39.193" width="0" layer="19" extent="1-16"/>
-<wire x1="6.63" y1="42.825" x2="7.29" y2="42.825" width="0" layer="19" extent="1-1"/>
-<wire x1="7.0125" y1="41.8325" x2="7.29" y2="42.825" width="0" layer="19" extent="1-1"/>
-<wire x1="6.096" y1="36.8554" x2="7.0125" y2="41.8325" width="0" layer="19" extent="1-16"/>
-<wire x1="7.256" y1="26.527" x2="6.096" y2="36.8554" width="0" layer="19" extent="1-16"/>
+<wire x1="6.096" y1="35.2298" x2="21.292003125" y2="39.193" width="0" layer="19" extent="16-16"/>
+<wire x1="7.256" y1="26.527" x2="6.096" y2="35.2298" width="0" layer="19" extent="1-16"/>
+<wire x1="-8.64" y1="-15.375" x2="7.256" y2="26.527" width="0" layer="19" extent="1-1"/>
+<wire x1="-7.105" y1="-19.685" x2="-8.64" y2="-15.375" width="0" layer="19" extent="1-1"/>
+<wire x1="-9.975" y1="-26.035" x2="-7.105" y2="-19.685" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="N$12">
 <contactref element="D202" pad="1"/>
@@ -2662,13 +2735,6 @@ design rules under a new name.</description>
 <contactref element="U205" pad="C2"/>
 <contactref element="U101" pad="PB02"/>
 <wire x1="20.952203125" y1="23.76919375" x2="17.8602" y2="30.345" width="0" layer="19" extent="1-1"/>
-</signal>
-<signal name="VDD_SW" class="1">
-<contactref element="D201" pad="2"/>
-<contactref element="Q1" pad="1"/>
-<contactref element="JP203" pad="3"/>
-<wire x1="6.63" y1="39.84" x2="10.75615" y2="42.5958" width="0" layer="19" extent="1-16"/>
-<wire x1="6.096" y1="35.2298" x2="6.63" y2="39.84" width="0" layer="19" extent="1-16"/>
 </signal>
 <signal name="+3V3_PROC">
 <contactref element="U101" pad="VDDIO3"/>
@@ -2849,22 +2915,6 @@ design rules under a new name.</description>
 <contactref element="J301" pad="31"/>
 <wire x1="26.600003125" y1="6.3" x2="23.952203125" y2="16.769184375" width="0" layer="19" extent="1-1"/>
 </signal>
-<signal name="N$11">
-<contactref element="Q1" pad="4"/>
-<contactref element="S201" pad="2"/>
-<wire x1="3.782" y1="34.048" x2="8.61" y2="39.84" width="0" layer="19" extent="1-1"/>
-</signal>
-<signal name="N$8">
-<contactref element="Q1" pad="5"/>
-<contactref element="Q1" pad="10"/>
-<contactref element="Q1" pad="6"/>
-<contactref element="S201" pad="1"/>
-<contactref element="JP203" pad="2"/>
-<wire x1="7.95" y1="42.825" x2="8.61" y2="42.825" width="0" layer="19" extent="1-1"/>
-<wire x1="8.2275" y1="41.8325" x2="7.95" y2="42.825" width="0" layer="19" extent="1-1"/>
-<wire x1="6.096" y1="36.0426" x2="8.2275" y2="41.8325" width="0" layer="19" extent="1-16"/>
-<wire x1="3.782" y1="32.548" x2="6.096" y2="36.0426" width="0" layer="19" extent="1-16"/>
-</signal>
 <signal name="DTR_SENSE_SW">
 <contactref element="U3" pad="B1"/>
 <contactref element="U3" pad="B3"/>
@@ -2972,6 +3022,36 @@ design rules under a new name.</description>
 </signal>
 <signal name="DTR_MSTR_GPIO_1">
 <contactref element="U101" pad="PC20"/>
+</signal>
+<signal name="N$11">
+<contactref element="S201" pad="2"/>
+<contactref element="U4" pad="C2"/>
+<wire x1="-9.91" y1="-10.025" x2="3.782" y2="34.048" width="0" layer="19" extent="1-1"/>
+</signal>
+<signal name="N$8">
+<contactref element="U4" pad="A2"/>
+<contactref element="U4" pad="B2"/>
+<contactref element="C2" pad="1"/>
+<contactref element="S201" pad="3"/>
+<contactref element="JP203" pad="2"/>
+<wire x1="3.782" y1="37.048" x2="6.096" y2="36.0426" width="0" layer="19" extent="1-16"/>
+<wire x1="-9.91" y1="-9.025" x2="6.096" y2="36.0426" width="0" layer="19" extent="1-16"/>
+<wire x1="-9.91" y1="-9.525" x2="-9.91" y2="-9.025" width="0" layer="19" extent="1-1"/>
+<wire x1="-9.975" y1="-12.065" x2="-9.91" y2="-9.525" width="0" layer="19" extent="1-1"/>
+</signal>
+<signal name="V_SEL_OUT">
+<contactref element="U5" pad="B2"/>
+<contactref element="JP203" pad="1"/>
+<contactref element="C5" pad="1"/>
+<wire x1="-8.64" y1="-15.875" x2="6.096" y2="36.8554" width="0" layer="19" extent="1-16"/>
+<wire x1="-9.79" y1="-31.75" x2="-8.64" y2="-15.875" width="0" layer="19" extent="1-1"/>
+</signal>
+<signal name="V_SEL_EN">
+<contactref element="D2" pad="N"/>
+<contactref element="D1" pad="N"/>
+<contactref element="U5" pad="A1"/>
+<wire x1="-9.405" y1="-19.685" x2="-9.405" y2="-23.495" width="0" layer="19" extent="1-1"/>
+<wire x1="-9.14" y1="-15.375" x2="-9.405" y2="-19.685" width="0" layer="19" extent="1-1"/>
 </signal>
 </signals>
 <mfgpreviewcolors>
