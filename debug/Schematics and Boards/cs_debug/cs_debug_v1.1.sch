@@ -7273,7 +7273,7 @@ new: Attribute TP_SIGNAL_NAME&lt;br&gt;
 <attribute name="PART_NO" value="PH1-06-UA"/>
 </part>
 <part name="SUPPLY25" library="Supplies" deviceset="+3V3" device=""/>
-<part name="JP.UART.VCC" library="Connectors" deviceset="JUMPER-SMT_2_NO_PASTEFREE" device=""/>
+<part name="UART.VCC" library="Connectors" deviceset="JUMPER-SMT_2_NO_PASTEFREE" device=""/>
 <part name="C46" library="Capacitors" deviceset="C-" device="0603" value="2.2uF">
 <attribute name="MPN" value="C0603C225K8RACTU"/>
 <attribute name="PART_NO" value="C0603C225K8RACTU"/>
@@ -8150,7 +8150,7 @@ new: Attribute TP_SIGNAL_NAME&lt;br&gt;
 <attribute name="PART_NO" x="538.48" y="208.28" size="1.778" layer="96" display="off"/>
 </instance>
 <instance part="SUPPLY25" gate="G$1" x="523.24" y="236.22" smashed="yes"/>
-<instance part="JP.UART.VCC" gate="G$1" x="523.24" y="226.06" smashed="yes" rot="R270">
+<instance part="UART.VCC" gate="G$1" x="523.24" y="226.06" smashed="yes" rot="R270">
 <attribute name="NAME" x="525.78" y="226.06" size="1.778" layer="95" font="vector" rot="R270" align="bottom-center"/>
 </instance>
 <instance part="SCL" gate="G$1" x="279.4" y="71.12" smashed="yes">
@@ -8494,7 +8494,7 @@ new: Attribute TP_SIGNAL_NAME&lt;br&gt;
 <wire x1="523.24" y1="233.68" x2="523.24" y2="236.22" width="0.1524" layer="91"/>
 <label x="515.62" y="236.22" size="1.778" layer="95"/>
 <pinref part="SUPPLY25" gate="G$1" pin="+3V3"/>
-<pinref part="JP.UART.VCC" gate="G$1" pin="1"/>
+<pinref part="UART.VCC" gate="G$1" pin="1"/>
 <wire x1="523.24" y1="231.14" x2="523.24" y2="233.68" width="0.1524" layer="91"/>
 </segment>
 </net>
@@ -9093,7 +9093,7 @@ new: Attribute TP_SIGNAL_NAME&lt;br&gt;
 </net>
 <net name="N$11" class="0">
 <segment>
-<pinref part="JP.UART.VCC" gate="G$1" pin="2"/>
+<pinref part="UART.VCC" gate="G$1" pin="2"/>
 <pinref part="J.FTDI" gate="J$1" pin="VCC-I"/>
 <wire x1="523.24" y1="220.98" x2="523.24" y2="208.28" width="0.1524" layer="91"/>
 <wire x1="523.24" y1="208.28" x2="528.32" y2="208.28" width="0.1524" layer="91"/>
