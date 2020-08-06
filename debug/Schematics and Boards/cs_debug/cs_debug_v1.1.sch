@@ -7273,7 +7273,7 @@ new: Attribute TP_SIGNAL_NAME&lt;br&gt;
 <attribute name="PART_NO" value="PH1-06-UA"/>
 </part>
 <part name="SUPPLY25" library="Supplies" deviceset="+3V3" device=""/>
-<part name="JP.UART.VCC" library="Connectors" deviceset="JUMPER-SMT_2_NO_PASTEFREE" device=""/>
+<part name="UART.VCC" library="Connectors" deviceset="JUMPER-SMT_2_NO_PASTEFREE" device=""/>
 <part name="C46" library="Capacitors" deviceset="C-" device="0603" value="2.2uF">
 <attribute name="MPN" value="C0603C225K8RACTU"/>
 <attribute name="PART_NO" value="C0603C225K8RACTU"/>
@@ -7692,7 +7692,6 @@ new: Attribute TP_SIGNAL_NAME&lt;br&gt;
 <part name="MN.UART.RX" library="Connectors" deviceset="JUMPER-SMT_2_NC_PASTE" device="_NO-SILK" package3d_urn="urn:adsk.eagle:package:39283/1"/>
 <part name="HUB.VDD" library="Connectors" deviceset="JUMPER-SMT_2_NC_PASTE" device="_NO-SILK" package3d_urn="urn:adsk.eagle:package:39283/1"/>
 <part name="GND9" library="Supplies" deviceset="GND" device=""/>
-<part name="GND10" library="Supplies" deviceset="GND" device=""/>
 <part name="C4" library="Capacitors" deviceset="C-" device="0402" value="0.1u">
 <attribute name="MPN" value="C0402C104K8RACTU"/>
 <attribute name="PART_NO" value="C0402C104K8RACTU"/>
@@ -7703,7 +7702,6 @@ new: Attribute TP_SIGNAL_NAME&lt;br&gt;
 <attribute name="PART_NO" value="C0402C104K8RACTU"/>
 <attribute name="VOLTAGE" value="10V"/>
 </part>
-<part name="GND12" library="Supplies" deviceset="GND" device=""/>
 <part name="GND13" library="Supplies" deviceset="GND" device=""/>
 <part name="R7" library="Resistors" deviceset="R-" device="0402" value="100k">
 <attribute name="MPN" value="ERJ-2GEJ104X"/>
@@ -7826,6 +7824,11 @@ new: Attribute TP_SIGNAL_NAME&lt;br&gt;
 <part name="SUPPLY11" library="Supplies" deviceset="+3V3" device=""/>
 <part name="GND6" library="Supplies" deviceset="GND" device=""/>
 <part name="CHRG" library="Connectors" deviceset="JUMPER-SMT_2_NC_PASTE" device="_NO-SILK" package3d_urn="urn:adsk.eagle:package:39283/1"/>
+<part name="R1" library="Resistors" deviceset="R-" device="0402" value="51k">
+<attribute name="MPN" value="ERJ-2GEJ513X"/>
+<attribute name="PART_NO" value="ERJ-2GEJ513X"/>
+</part>
+<part name="SUPPLY13" library="Supplies" deviceset="+3V3" device=""/>
 </parts>
 <sheets>
 <sheet>
@@ -8147,7 +8150,7 @@ new: Attribute TP_SIGNAL_NAME&lt;br&gt;
 <attribute name="PART_NO" x="538.48" y="208.28" size="1.778" layer="96" display="off"/>
 </instance>
 <instance part="SUPPLY25" gate="G$1" x="523.24" y="236.22" smashed="yes"/>
-<instance part="JP.UART.VCC" gate="G$1" x="523.24" y="226.06" smashed="yes" rot="R270">
+<instance part="UART.VCC" gate="G$1" x="523.24" y="226.06" smashed="yes" rot="R270">
 <attribute name="NAME" x="525.78" y="226.06" size="1.778" layer="95" font="vector" rot="R270" align="bottom-center"/>
 </instance>
 <instance part="SCL" gate="G$1" x="279.4" y="71.12" smashed="yes">
@@ -8170,7 +8173,7 @@ new: Attribute TP_SIGNAL_NAME&lt;br&gt;
 </instance>
 </instances>
 <busses>
-<bus name="POWER_SENSING:CM_DIFFAMP_N4,CM_DIFFAMP_P4,CM_DTR0_DCBIAS_SHUTDOWN,CM_DTR0_DIFFAMP_GAIN0,CM_DTR0_DIFFAMP_GAIN1,CM_DTR0_DIFFAMP_N,CM_DTR0_DIFFAMP_OUT,CM_DTR0_DIFFAMP_P3,CM_DTR0_OPAMP_ENABLE,CM_DTR0_OPAMP_N,CM_DTR0_OPAMP_OUT,CM_DTR0_V_OFFSET_IN,CM_DTR0_V_SENSE_N,CM_DTR0_V_SENSE_P,CM_DTR1_DCBIAS_SHUTDOWN,CM_DTR1_DIFFAMP_GAIN0,CM_DTR1_DIFFAMP_GAIN1,CM_DTR1_DIFFAMP_N,CM_DTR1_DIFFAMP_OUT,CM_DTR1_DIFFAMP_P,CM_DTR1_OPAMP_N,CM_DTR1_OPAMP_OUT,CM_DTR1_OPAMP_P,CM_DTR1_V_OFFSET_IN,CM_DTR1_V_SENSE_N,CM_DTR1_V_SENSE_P,CM_DTR_OPAMP_ENABLE,CM_OPAMP_ENABLE4,CM_OPAMP_N4,CM_OPAMP_OUT4,CM_OPAMP_P1,CM_OPAMP_P3,CM_OPAMP_P4,CM_PROC_DCBIAS_SHUTDOWN,CM_PROC_DIFFAMP_GAIN0,CM_PROC_DIFFAMP_GAIN1,CM_PROC_DIFFAMP_OUT,CM_PROC_V_OFFSET_IN,CM_PROC_V_SENSE_N,CM_PROC_V_SENSE_P,CM_STOR_DCBIAS_SHUTDOWN,CM_STOR_DIFFAMP_GAIN0,CM_STOR_DIFFAMP_GAIN1,CM_STOR_DIFFAMP_N1,CM_STOR_DIFFAMP_OUT,CM_STOR_DIFFAMP_P1,CM_STOR_OPAMP_ENABLE,CM_STOR_OPAMP_N,CM_STOR_OPAMP_OUT,CM_STOR_V_OFFSET_IN,CM_STORV_SENSE_N,CM_STOR_V_SENSE_N,CM_STOR_V_SENSE_P,V_SENSE_P">
+<bus name="POWER_SENSING:CM_DIFFAMP_N4,CM_DIFFAMP_P4,CM_DTR0_DCBIAS_SHUTDOWN,CM_DTR0_DIFFAMP_GAIN0,CM_DTR0_DIFFAMP_GAIN1,CM_DTR0_DIFFAMP_N,CM_DTR0_DIFFAMP_OUT,CM_DTR0_DIFFAMP_P3,CM_DTR0_OPAMP_ENABLE,CM_DTR0_OPAMP_N,CM_DTR0_OPAMP_OUT,CM_DTR0_V_OFFSET_IN,CM_DTR0_V_SENSE_N,CM_DTR0_V_SENSE_P,CM_DTR1_DCBIAS_SHUTDOWN,CM_DTR1_DIFFAMP_GAIN0,CM_DTR1_DIFFAMP_GAIN1,CM_DTR1_DIFFAMP_N,CM_DTR1_DIFFAMP_OUT,CM_DTR1_DIFFAMP_P,CM_DTR1_OPAMP_N,CM_DTR1_OPAMP_OUT,CM_DTR1_OPAMP_P,CM_DTR1_V_OFFSET_IN,CM_DTR1_V_SENSE_N,CM_DTR1_V_SENSE_P,CM_DTR_OPAMP_ENABLE,CM_OPAMP_ENABLE4,CM_OPAMP_N4,CM_OPAMP_OUT4,CM_OPAMP_P1,CM_OPAMP_P3,CM_OPAMP_P4,CM_PROC_DCBIAS_SHUTDOWN,CM_PROC_DIFFAMP_GAIN0,CM_PROC_DIFFAMP_GAIN1,CM_PROC_DIFFAMP_OUT,CM_PROC_V_OFFSET_IN,CM_PROC_V_SENSE_N,CM_PROC_V_SENSE_P,CM_STOR_DCBIAS_SHUTDOWN,CM_STOR_DIFFAMP_GAIN0,CM_STOR_DIFFAMP_GAIN1,CM_STOR_DIFFAMP_N1,CM_STOR_DIFFAMP_OUT,CM_STOR_DIFFAMP_P1,CM_STOR_OPAMP_ENABLE,CM_STOR_OPAMP_N,CM_STOR_OPAMP_OUT,CM_STOR_V_OFFSET_IN,CM_STOR_V_SENSE_N,CM_STOR_V_SENSE_P,V_SENSE_P">
 <segment>
 <wire x1="137.16" y1="172.72" x2="137.16" y2="7.62" width="0.762" layer="92"/>
 <wire x1="137.16" y1="7.62" x2="441.96" y2="7.62" width="0.762" layer="92"/>
@@ -8491,7 +8494,7 @@ new: Attribute TP_SIGNAL_NAME&lt;br&gt;
 <wire x1="523.24" y1="233.68" x2="523.24" y2="236.22" width="0.1524" layer="91"/>
 <label x="515.62" y="236.22" size="1.778" layer="95"/>
 <pinref part="SUPPLY25" gate="G$1" pin="+3V3"/>
-<pinref part="JP.UART.VCC" gate="G$1" pin="1"/>
+<pinref part="UART.VCC" gate="G$1" pin="1"/>
 <wire x1="523.24" y1="231.14" x2="523.24" y2="233.68" width="0.1524" layer="91"/>
 </segment>
 </net>
@@ -9090,7 +9093,7 @@ new: Attribute TP_SIGNAL_NAME&lt;br&gt;
 </net>
 <net name="N$11" class="0">
 <segment>
-<pinref part="JP.UART.VCC" gate="G$1" pin="2"/>
+<pinref part="UART.VCC" gate="G$1" pin="2"/>
 <pinref part="J.FTDI" gate="J$1" pin="VCC-I"/>
 <wire x1="523.24" y1="220.98" x2="523.24" y2="208.28" width="0.1524" layer="91"/>
 <wire x1="523.24" y1="208.28" x2="528.32" y2="208.28" width="0.1524" layer="91"/>
@@ -9165,9 +9168,11 @@ internal pull-ups</text>
 <text x="158.75" y="109.728" size="1.778" layer="91" rot="R90">Yellow</text>
 <text x="168.656" y="109.22" size="1.778" layer="91" rot="R90">Green</text>
 <text x="187.96" y="162.56" size="1.778" layer="91" rot="R90">Green</text>
-<text x="214.884" y="166.37" size="1.778" layer="91" rot="R90">Red</text>
+<text x="217.424" y="189.23" size="1.778" layer="91" rot="R90">Red</text>
 <text x="393.7" y="53.34" size="2.54" layer="91">GPIO Expansion
   for main board</text>
+<text x="203.2" y="172.72" size="1.778" layer="91">Mark port 2 
+  as removeable</text>
 </plain>
 <instances>
 <instance part="GND1" gate="1" x="482.6" y="116.84" smashed="yes"/>
@@ -9416,13 +9421,13 @@ internal pull-ups</text>
 <attribute name="MPN" x="182.88" y="218.44" size="1.778" layer="96" display="off"/>
 </instance>
 <instance part="GND23" gate="1" x="182.88" y="208.28" smashed="yes"/>
-<instance part="R48" gate="G$1" x="223.52" y="193.04" smashed="yes" rot="MR90">
-<attribute name="NAME" x="225.0186" y="189.23" size="1.778" layer="95" rot="MR90"/>
-<attribute name="VALUE" x="220.218" y="189.23" size="1.778" layer="96" rot="MR90"/>
-<attribute name="MPN" x="223.52" y="193.04" size="1.778" layer="96" rot="MR90" display="off"/>
-<attribute name="PART_NO" x="223.52" y="193.04" size="1.778" layer="96" rot="MR90" display="off"/>
+<instance part="R48" gate="G$1" x="228.6" y="193.04" smashed="yes" rot="MR90">
+<attribute name="NAME" x="230.0986" y="189.23" size="1.778" layer="95" rot="MR90"/>
+<attribute name="VALUE" x="225.298" y="189.23" size="1.778" layer="96" rot="MR90"/>
+<attribute name="MPN" x="228.6" y="193.04" size="1.778" layer="96" rot="MR90" display="off"/>
+<attribute name="PART_NO" x="228.6" y="193.04" size="1.778" layer="96" rot="MR90" display="off"/>
 </instance>
-<instance part="GND24" gate="1" x="223.52" y="175.26" smashed="yes"/>
+<instance part="GND24" gate="1" x="228.6" y="175.26" smashed="yes"/>
 <instance part="C49" gate="G$1" x="121.92" y="231.14" smashed="yes">
 <attribute name="NAME" x="122.936" y="233.045" size="1.778" layer="95"/>
 <attribute name="VALUE" x="122.936" y="228.219" size="1.778" layer="96"/>
@@ -9491,27 +9496,25 @@ internal pull-ups</text>
 <instance part="HUB.VDD" gate="G$1" x="114.3" y="243.84" smashed="yes" rot="R270">
 <attribute name="NAME" x="116.84" y="246.38" size="1.778" layer="95" font="vector" rot="R270"/>
 </instance>
-<instance part="GND9" gate="1" x="200.66" y="157.48" smashed="yes"/>
-<instance part="GND10" gate="1" x="208.28" y="157.48" smashed="yes"/>
-<instance part="C4" gate="G$1" x="208.28" y="195.58" smashed="yes">
-<attribute name="NAME" x="209.296" y="197.485" size="1.778" layer="95"/>
-<attribute name="VALUE" x="209.296" y="192.659" size="1.778" layer="96"/>
-<attribute name="PART_NO" x="208.28" y="195.58" size="1.778" layer="96" display="off"/>
-<attribute name="MPN" x="208.28" y="195.58" size="1.778" layer="96" display="off"/>
+<instance part="GND9" gate="1" x="198.12" y="157.48" smashed="yes"/>
+<instance part="C4" gate="G$1" x="187.96" y="200.66" smashed="yes" rot="R90">
+<attribute name="NAME" x="186.055" y="201.676" size="1.778" layer="95" rot="R90"/>
+<attribute name="VALUE" x="190.881" y="201.676" size="1.778" layer="96" rot="R90"/>
+<attribute name="PART_NO" x="187.96" y="200.66" size="1.778" layer="96" rot="R90" display="off"/>
+<attribute name="MPN" x="187.96" y="200.66" size="1.778" layer="96" rot="R90" display="off"/>
 </instance>
-<instance part="C5" gate="G$1" x="200.66" y="193.04" smashed="yes">
-<attribute name="NAME" x="201.676" y="194.945" size="1.778" layer="95"/>
-<attribute name="VALUE" x="201.676" y="190.119" size="1.778" layer="96"/>
-<attribute name="PART_NO" x="200.66" y="193.04" size="1.778" layer="96" display="off"/>
-<attribute name="MPN" x="200.66" y="193.04" size="1.778" layer="96" display="off"/>
+<instance part="C5" gate="G$1" x="177.8" y="198.12" smashed="yes" rot="R90">
+<attribute name="NAME" x="175.895" y="199.136" size="1.778" layer="95" rot="R90"/>
+<attribute name="VALUE" x="180.721" y="199.136" size="1.778" layer="96" rot="R90"/>
+<attribute name="PART_NO" x="177.8" y="198.12" size="1.778" layer="96" rot="R90" display="off"/>
+<attribute name="MPN" x="177.8" y="198.12" size="1.778" layer="96" rot="R90" display="off"/>
 </instance>
-<instance part="GND12" gate="1" x="208.28" y="182.88" smashed="yes"/>
-<instance part="GND13" gate="1" x="200.66" y="182.88" smashed="yes"/>
-<instance part="R7" gate="G$1" x="200.66" y="170.18" smashed="yes" rot="MR90">
-<attribute name="NAME" x="202.1586" y="166.37" size="1.778" layer="95" rot="MR90"/>
-<attribute name="VALUE" x="197.358" y="166.37" size="1.778" layer="96" rot="MR90"/>
-<attribute name="MPN" x="200.66" y="170.18" size="1.778" layer="96" rot="MR90" display="off"/>
-<attribute name="PART_NO" x="200.66" y="170.18" size="1.778" layer="96" rot="MR90" display="off"/>
+<instance part="GND13" gate="1" x="198.12" y="195.58" smashed="yes"/>
+<instance part="R7" gate="G$1" x="198.12" y="170.18" smashed="yes" rot="MR90">
+<attribute name="NAME" x="199.6186" y="166.37" size="1.778" layer="95" rot="MR90"/>
+<attribute name="VALUE" x="194.818" y="166.37" size="1.778" layer="96" rot="MR90"/>
+<attribute name="MPN" x="198.12" y="170.18" size="1.778" layer="96" rot="MR90" display="off"/>
+<attribute name="PART_NO" x="198.12" y="170.18" size="1.778" layer="96" rot="MR90" display="off"/>
 </instance>
 <instance part="J3" gate="G$1" x="508" y="137.16" smashed="yes" rot="R90">
 <attribute name="NAME" x="474.1966" y="129.51801875" size="1.273659375" layer="95" rot="R90"/>
@@ -9587,19 +9590,19 @@ internal pull-ups</text>
 <attribute name="PART_NO" x="254" y="287.02" size="1.778" layer="96" display="off"/>
 </instance>
 <instance part="GND29" gate="1" x="254" y="274.32" smashed="yes"/>
-<instance part="HUB.SUSP" gate="G$1" x="208.28" y="170.18" smashed="yes">
-<attribute name="NAME" x="211.836" y="165.608" size="1.778" layer="95" rot="R90"/>
-<attribute name="VALUE" x="213.995" y="165.608" size="1.778" layer="96" rot="R90"/>
-<attribute name="COLOR" x="208.28" y="170.18" size="1.778" layer="96" display="off"/>
-<attribute name="MP" x="208.28" y="170.18" size="1.778" layer="96" display="off"/>
-<attribute name="MPN" x="208.28" y="170.18" size="1.778" layer="96" display="off"/>
-<attribute name="PART_NO" x="208.28" y="170.18" size="1.778" layer="96" display="off"/>
+<instance part="HUB.SUSP" gate="G$1" x="220.98" y="193.04" smashed="yes">
+<attribute name="NAME" x="224.536" y="188.468" size="1.778" layer="95" rot="R90"/>
+<attribute name="VALUE" x="226.695" y="188.468" size="1.778" layer="96" rot="R90"/>
+<attribute name="COLOR" x="220.98" y="193.04" size="1.778" layer="96" display="off"/>
+<attribute name="MP" x="220.98" y="193.04" size="1.778" layer="96" display="off"/>
+<attribute name="MPN" x="220.98" y="193.04" size="1.778" layer="96" display="off"/>
+<attribute name="PART_NO" x="220.98" y="193.04" size="1.778" layer="96" display="off"/>
 </instance>
-<instance part="R9" gate="G$1" x="180.34" y="180.34" smashed="yes" rot="MR0">
-<attribute name="NAME" x="184.15" y="181.8386" size="1.778" layer="95" rot="MR0"/>
-<attribute name="VALUE" x="179.07" y="182.118" size="1.778" layer="96" rot="MR0"/>
-<attribute name="MPN" x="180.34" y="180.34" size="1.778" layer="96" rot="MR0" display="off"/>
-<attribute name="PART_NO" x="180.34" y="180.34" size="1.778" layer="96" rot="MR0" display="off"/>
+<instance part="R9" gate="G$1" x="215.9" y="180.34" smashed="yes" rot="MR0">
+<attribute name="NAME" x="219.71" y="181.8386" size="1.778" layer="95" rot="MR0"/>
+<attribute name="VALUE" x="214.63" y="182.118" size="1.778" layer="96" rot="MR0"/>
+<attribute name="MPN" x="215.9" y="180.34" size="1.778" layer="96" rot="MR0" display="off"/>
+<attribute name="PART_NO" x="215.9" y="180.34" size="1.778" layer="96" rot="MR0" display="off"/>
 </instance>
 <instance part="HUB.HS" gate="G$1" x="180.34" y="167.64" smashed="yes">
 <attribute name="NAME" x="183.896" y="163.068" size="1.778" layer="95" rot="R90"/>
@@ -9624,6 +9627,13 @@ internal pull-ups</text>
 <instance part="CHRG" gate="G$1" x="76.2" y="114.3" smashed="yes" rot="R90">
 <attribute name="NAME" x="73.66" y="111.76" size="1.778" layer="95" font="vector" rot="R90"/>
 </instance>
+<instance part="R1" gate="G$1" x="208.28" y="187.96" smashed="yes" rot="MR270">
+<attribute name="NAME" x="206.7814" y="191.77" size="1.778" layer="95" rot="MR270"/>
+<attribute name="VALUE" x="211.582" y="191.77" size="1.778" layer="96" rot="MR270"/>
+<attribute name="MPN" x="208.28" y="187.96" size="1.778" layer="96" rot="MR270" display="off"/>
+<attribute name="PART_NO" x="208.28" y="187.96" size="1.778" layer="96" rot="MR270" display="off"/>
+</instance>
+<instance part="SUPPLY13" gate="G$1" x="220.98" y="208.28" smashed="yes"/>
 </instances>
 <busses>
 <bus name="MAIN_DATA_SIGNALS:MAIN_GPIO0,MAIN_GPIO1,MAIN_GPIO2,MAIN_GPIO3,MAIN_GPIO4/SERCOM_P0,MAIN_GPIO5/SERCOM_P1,MAIN_GPIO6/SERCOM_P2,MAIN_GPIO7/SERCOM_P3,MAIN_GPIO8,MAIN_GPIO9,MAIN_GPIO10,MAIN_GPIO11,MAIN_TRACE_CLK/GPIO17,MAIN_TRACE_D0/GPIO13,MAIN_TRACE_D1/GPIO14,MAIN_TRACE_D2/GPIO15,MAIN_TRACE_D3/GPIO16,MAIN_TRACE_SWO/GPIO12,MAIN_USART_RX,MAIN_USART_TX,MAIN_USB_DATA_N,MAIN_USB_DATA_P">
@@ -9659,7 +9669,7 @@ internal pull-ups</text>
 <label x="7.62" y="426.72" size="1.778" layer="95"/>
 </segment>
 </bus>
-<bus name="POWER_SENSING:CM_DIFFAMP_N4,CM_DIFFAMP_P4,CM_DTR0_DCBIAS_SHUTDOWN,CM_DTR0_DIFFAMP_GAIN0,CM_DTR0_DIFFAMP_GAIN1,CM_DTR0_DIFFAMP_N,CM_DTR0_DIFFAMP_OUT,CM_DTR0_DIFFAMP_P3,CM_DTR0_OPAMP_ENABLE,CM_DTR0_OPAMP_N,CM_DTR0_OPAMP_OUT,CM_DTR0_V_OFFSET_IN,CM_DTR0_V_SENSE_N,CM_DTR0_V_SENSE_P,CM_DTR1_DCBIAS_SHUTDOWN,CM_DTR1_DIFFAMP_GAIN0,CM_DTR1_DIFFAMP_GAIN1,CM_DTR1_DIFFAMP_N,CM_DTR1_DIFFAMP_OUT,CM_DTR1_DIFFAMP_P,CM_DTR1_OPAMP_N,CM_DTR1_OPAMP_OUT,CM_DTR1_OPAMP_P,CM_DTR1_V_OFFSET_IN,CM_DTR1_V_SENSE_N,CM_DTR1_V_SENSE_P,CM_DTR_OPAMP_ENABLE,CM_OPAMP_ENABLE4,CM_OPAMP_N4,CM_OPAMP_OUT4,CM_OPAMP_P1,CM_OPAMP_P3,CM_OPAMP_P4,CM_PROC_DCBIAS_SHUTDOWN,CM_PROC_DIFFAMP_GAIN0,CM_PROC_DIFFAMP_GAIN1,CM_PROC_DIFFAMP_OUT,CM_PROC_V_OFFSET_IN,CM_PROC_V_SENSE_N,CM_PROC_V_SENSE_P,CM_STOR_DCBIAS_SHUTDOWN,CM_STOR_DIFFAMP_GAIN0,CM_STOR_DIFFAMP_GAIN1,CM_STOR_DIFFAMP_N1,CM_STOR_DIFFAMP_OUT,CM_STOR_DIFFAMP_P1,CM_STOR_OPAMP_ENABLE,CM_STOR_OPAMP_N,CM_STOR_OPAMP_OUT,CM_STOR_V_OFFSET_IN,CM_STORV_SENSE_N,CM_STOR_V_SENSE_N,CM_STOR_V_SENSE_P,V_SENSE_P">
+<bus name="POWER_SENSING:CM_DIFFAMP_N4,CM_DIFFAMP_P4,CM_DTR0_DCBIAS_SHUTDOWN,CM_DTR0_DIFFAMP_GAIN0,CM_DTR0_DIFFAMP_GAIN1,CM_DTR0_DIFFAMP_N,CM_DTR0_DIFFAMP_OUT,CM_DTR0_DIFFAMP_P3,CM_DTR0_OPAMP_ENABLE,CM_DTR0_OPAMP_N,CM_DTR0_OPAMP_OUT,CM_DTR0_V_OFFSET_IN,CM_DTR0_V_SENSE_N,CM_DTR0_V_SENSE_P,CM_DTR1_DCBIAS_SHUTDOWN,CM_DTR1_DIFFAMP_GAIN0,CM_DTR1_DIFFAMP_GAIN1,CM_DTR1_DIFFAMP_N,CM_DTR1_DIFFAMP_OUT,CM_DTR1_DIFFAMP_P,CM_DTR1_OPAMP_N,CM_DTR1_OPAMP_OUT,CM_DTR1_OPAMP_P,CM_DTR1_V_OFFSET_IN,CM_DTR1_V_SENSE_N,CM_DTR1_V_SENSE_P,CM_DTR_OPAMP_ENABLE,CM_OPAMP_ENABLE4,CM_OPAMP_N4,CM_OPAMP_OUT4,CM_OPAMP_P1,CM_OPAMP_P3,CM_OPAMP_P4,CM_PROC_DCBIAS_SHUTDOWN,CM_PROC_DIFFAMP_GAIN0,CM_PROC_DIFFAMP_GAIN1,CM_PROC_DIFFAMP_OUT,CM_PROC_V_OFFSET_IN,CM_PROC_V_SENSE_N,CM_PROC_V_SENSE_P,CM_STOR_DCBIAS_SHUTDOWN,CM_STOR_DIFFAMP_GAIN0,CM_STOR_DIFFAMP_GAIN1,CM_STOR_DIFFAMP_N1,CM_STOR_DIFFAMP_OUT,CM_STOR_DIFFAMP_P1,CM_STOR_OPAMP_ENABLE,CM_STOR_OPAMP_N,CM_STOR_OPAMP_OUT,CM_STOR_V_OFFSET_IN,CM_STOR_V_SENSE_N,CM_STOR_V_SENSE_P,V_SENSE_P">
 <segment>
 <wire x1="421.64" y1="223.52" x2="533.4" y2="223.52" width="0.762" layer="92"/>
 <label x="421.894" y="224.282" size="1.778" layer="95"/>
@@ -9809,9 +9819,10 @@ internal pull-ups</text>
 </segment>
 <segment>
 <pinref part="GND24" gate="1" pin="GND"/>
-<label x="220.98" y="172.72" size="1.778" layer="95"/>
+<label x="200.66" y="154.94" size="1.778" layer="95" rot="R180"/>
 <pinref part="R48" gate="G$1" pin="1"/>
-<wire x1="223.52" y1="177.8" x2="223.52" y2="187.96" width="0.1524" layer="91"/>
+<wire x1="228.6" y1="177.8" x2="228.6" y2="187.96" width="0.1524" layer="91"/>
+<label x="226.06" y="170.18" size="1.778" layer="95"/>
 </segment>
 <segment>
 <pinref part="GND25" gate="1" pin="GND"/>
@@ -9928,28 +9939,10 @@ internal pull-ups</text>
 <label x="60.96" y="53.34" size="1.778" layer="95"/>
 </segment>
 <segment>
-<wire x1="200.66" y1="165.1" x2="200.66" y2="160.02" width="0.1524" layer="91"/>
+<wire x1="198.12" y1="165.1" x2="198.12" y2="160.02" width="0.1524" layer="91"/>
 <pinref part="GND9" gate="1" pin="GND"/>
 <pinref part="R7" gate="G$1" pin="1"/>
-<label x="198.12" y="154.94" size="1.778" layer="95"/>
-</segment>
-<segment>
-<wire x1="208.28" y1="165.1" x2="208.28" y2="160.02" width="0.1524" layer="91"/>
-<pinref part="GND10" gate="1" pin="GND"/>
-<pinref part="HUB.SUSP" gate="G$1" pin="C"/>
-<label x="205.74" y="154.94" size="1.778" layer="95"/>
-</segment>
-<segment>
-<pinref part="C4" gate="G$1" pin="2"/>
-<pinref part="GND12" gate="1" pin="GND"/>
-<wire x1="208.28" y1="190.5" x2="208.28" y2="185.42" width="0.1524" layer="91"/>
-<label x="210.82" y="182.88" size="1.778" layer="95"/>
-</segment>
-<segment>
-<pinref part="GND13" gate="1" pin="GND"/>
-<pinref part="C5" gate="G$1" pin="2"/>
-<wire x1="200.66" y1="185.42" x2="200.66" y2="187.96" width="0.1524" layer="91"/>
-<label x="200.66" y="182.88" size="1.778" layer="95"/>
+<label x="195.58" y="154.94" size="1.778" layer="95"/>
 </segment>
 <segment>
 <pinref part="U3" gate="A" pin="GND"/>
@@ -9985,6 +9978,16 @@ internal pull-ups</text>
 <pinref part="HUB.HS" gate="G$1" pin="C"/>
 <wire x1="180.34" y1="160.02" x2="180.34" y2="162.56" width="0.1524" layer="91"/>
 <label x="175.26" y="154.94" size="1.778" layer="95"/>
+</segment>
+<segment>
+<pinref part="C5" gate="G$1" pin="2"/>
+<wire x1="182.88" y1="198.12" x2="198.12" y2="198.12" width="0.1524" layer="91"/>
+<pinref part="GND13" gate="1" pin="GND"/>
+<pinref part="C4" gate="G$1" pin="2"/>
+<wire x1="193.04" y1="200.66" x2="198.12" y2="200.66" width="0.1524" layer="91"/>
+<wire x1="198.12" y1="200.66" x2="198.12" y2="198.12" width="0.1524" layer="91"/>
+<junction x="198.12" y="198.12"/>
+<label x="195.58" y="193.04" size="1.778" layer="95"/>
 </segment>
 </net>
 <net name="V_SENSE_P" class="0">
@@ -10136,6 +10139,17 @@ internal pull-ups</text>
 <wire x1="182.88" y1="238.76" x2="182.88" y2="241.3" width="0.1524" layer="91"/>
 <label x="172.72" y="243.84" size="1.778" layer="95"/>
 <pinref part="R49" gate="G$1" pin="2"/>
+</segment>
+<segment>
+<pinref part="SUPPLY13" gate="G$1" pin="+3V3"/>
+<label x="208.28" y="210.82" size="1.778" layer="95"/>
+<wire x1="220.98" y1="200.66" x2="220.98" y2="205.74" width="0.1524" layer="91"/>
+<pinref part="R1" gate="G$1" pin="1"/>
+<wire x1="208.28" y1="193.04" x2="208.28" y2="200.66" width="0.1524" layer="91"/>
+<wire x1="208.28" y1="200.66" x2="220.98" y2="200.66" width="0.1524" layer="91"/>
+<pinref part="HUB.SUSP" gate="G$1" pin="A"/>
+<wire x1="220.98" y1="195.58" x2="220.98" y2="200.66" width="0.1524" layer="91"/>
+<junction x="220.98" y="200.66"/>
 </segment>
 </net>
 <net name="AGND" class="8">
@@ -10525,8 +10539,8 @@ internal pull-ups</text>
 <segment>
 <pinref part="U13" gate="A" pin="RBIAS"/>
 <pinref part="R48" gate="G$1" pin="2"/>
-<wire x1="223.52" y1="198.12" x2="223.52" y2="203.2" width="0.1524" layer="91"/>
-<wire x1="223.52" y1="203.2" x2="149.86" y2="203.2" width="0.1524" layer="91"/>
+<wire x1="228.6" y1="198.12" x2="228.6" y2="203.2" width="0.1524" layer="91"/>
+<wire x1="228.6" y1="203.2" x2="149.86" y2="203.2" width="0.1524" layer="91"/>
 <label x="152.4" y="203.2" size="1.778" layer="95"/>
 </segment>
 </net>
@@ -10571,8 +10585,8 @@ internal pull-ups</text>
 <segment>
 <pinref part="U13" gate="A" pin="NON_REMI"/>
 <label x="154.94" y="177.8" size="1.778" layer="95"/>
-<wire x1="149.86" y1="177.8" x2="200.66" y2="177.8" width="0.1524" layer="91"/>
-<wire x1="200.66" y1="177.8" x2="200.66" y2="175.26" width="0.1524" layer="91"/>
+<wire x1="149.86" y1="177.8" x2="198.12" y2="177.8" width="0.1524" layer="91"/>
+<wire x1="198.12" y1="177.8" x2="198.12" y2="175.26" width="0.1524" layer="91"/>
 <pinref part="R7" gate="G$1" pin="2"/>
 </segment>
 </net>
@@ -10669,14 +10683,14 @@ internal pull-ups</text>
 <segment>
 <pinref part="U13" gate="A" pin="CRFILT"/>
 <pinref part="C4" gate="G$1" pin="1"/>
-<wire x1="149.86" y1="200.66" x2="208.28" y2="200.66" width="0.1524" layer="91"/>
+<wire x1="149.86" y1="200.66" x2="182.88" y2="200.66" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="N$17" class="0">
 <segment>
 <pinref part="C5" gate="G$1" pin="1"/>
 <pinref part="U13" gate="A" pin="PLLFILT"/>
-<wire x1="200.66" y1="198.12" x2="149.86" y2="198.12" width="0.1524" layer="91"/>
+<wire x1="172.72" y1="198.12" x2="149.86" y2="198.12" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="N$5" class="0">
@@ -10756,7 +10770,7 @@ internal pull-ups</text>
 <wire x1="500.38" y1="220.98" x2="497.84" y2="223.52" width="0.1524" layer="91"/>
 </segment>
 </net>
-<net name="CM_STORV_SENSE_N" class="0">
+<net name="CM_STOR_V_SENSE_N" class="0">
 <segment>
 <pinref part="J3" gate="G$1" pin="22"/>
 <wire x1="502.92" y1="147.32" x2="502.92" y2="220.98" width="0.1524" layer="91"/>
@@ -10994,20 +11008,16 @@ internal pull-ups</text>
 <wire x1="515.62" y1="78.74" x2="513.08" y2="76.2" width="0.1524" layer="91"/>
 </segment>
 </net>
-<net name="N$22" class="0">
-<segment>
-<wire x1="208.28" y1="180.34" x2="208.28" y2="172.72" width="0.1524" layer="91"/>
-<pinref part="HUB.SUSP" gate="G$1" pin="A"/>
-<wire x1="185.42" y1="180.34" x2="208.28" y2="180.34" width="0.1524" layer="91"/>
-<pinref part="R9" gate="G$1" pin="1"/>
-</segment>
-</net>
 <net name="USB_NONRMV0" class="0">
 <segment>
 <pinref part="U13" gate="A" pin="SUSP_IND/NON_REM0"/>
-<wire x1="149.86" y1="180.34" x2="175.26" y2="180.34" width="0.1524" layer="91"/>
+<wire x1="149.86" y1="180.34" x2="208.28" y2="180.34" width="0.1524" layer="91"/>
 <label x="154.94" y="180.34" size="1.778" layer="95"/>
 <pinref part="R9" gate="G$1" pin="2"/>
+<pinref part="R1" gate="G$1" pin="2"/>
+<wire x1="208.28" y1="180.34" x2="210.82" y2="180.34" width="0.1524" layer="91"/>
+<wire x1="208.28" y1="182.88" x2="208.28" y2="180.34" width="0.1524" layer="91"/>
+<junction x="208.28" y="180.34"/>
 </segment>
 </net>
 <net name="N$23" class="0">
@@ -11051,6 +11061,13 @@ internal pull-ups</text>
 <pinref part="D2" gate="G$1" pin="C"/>
 <pinref part="USB.VSRC" gate="G$1" pin="1"/>
 <wire x1="139.7" y1="350.52" x2="149.86" y2="350.52" width="0.1524" layer="91"/>
+</segment>
+</net>
+<net name="N$3" class="0">
+<segment>
+<pinref part="HUB.SUSP" gate="G$1" pin="C"/>
+<pinref part="R9" gate="G$1" pin="1"/>
+<wire x1="220.98" y1="187.96" x2="220.98" y2="180.34" width="0.1524" layer="91"/>
 </segment>
 </net>
 </nets>
@@ -11663,7 +11680,7 @@ Pullup on gate defaults to bypassing the opamp</text>
 </instance>
 </instances>
 <busses>
-<bus name="POWER_SENSING:CM_DIFFAMP_N4,CM_DIFFAMP_P4,CM_DTR0_DCBIAS_SHUTDOWN,CM_DTR0_DIFFAMP_GAIN0,CM_DTR0_DIFFAMP_GAIN1,CM_DTR0_DIFFAMP_N,CM_DTR0_DIFFAMP_OUT,CM_DTR0_DIFFAMP_P3,CM_DTR0_OPAMP_ENABLE,CM_DTR0_OPAMP_N,CM_DTR0_OPAMP_OUT,CM_DTR0_V_OFFSET_IN,CM_DTR0_V_SENSE_N,CM_DTR0_V_SENSE_P,CM_DTR1_DCBIAS_SHUTDOWN,CM_DTR1_DIFFAMP_GAIN0,CM_DTR1_DIFFAMP_GAIN1,CM_DTR1_DIFFAMP_N,CM_DTR1_DIFFAMP_OUT,CM_DTR1_DIFFAMP_P,CM_DTR1_OPAMP_N,CM_DTR1_OPAMP_OUT,CM_DTR1_OPAMP_P,CM_DTR1_V_OFFSET_IN,CM_DTR1_V_SENSE_N,CM_DTR1_V_SENSE_P,CM_DTR_OPAMP_ENABLE,CM_OPAMP_ENABLE4,CM_OPAMP_N4,CM_OPAMP_OUT4,CM_OPAMP_P1,CM_OPAMP_P3,CM_OPAMP_P4,CM_PROC_DCBIAS_SHUTDOWN,CM_PROC_DIFFAMP_GAIN0,CM_PROC_DIFFAMP_GAIN1,CM_PROC_DIFFAMP_OUT,CM_PROC_V_OFFSET_IN,CM_PROC_V_SENSE_N,CM_PROC_V_SENSE_P,CM_STOR_DCBIAS_SHUTDOWN,CM_STOR_DIFFAMP_GAIN0,CM_STOR_DIFFAMP_GAIN1,CM_STOR_DIFFAMP_N1,CM_STOR_DIFFAMP_OUT,CM_STOR_DIFFAMP_P1,CM_STOR_OPAMP_ENABLE,CM_STOR_OPAMP_N,CM_STOR_OPAMP_OUT,CM_STOR_V_OFFSET_IN,CM_STORV_SENSE_N,CM_STOR_V_SENSE_N,CM_STOR_V_SENSE_P,V_SENSE_P">
+<bus name="POWER_SENSING:CM_DIFFAMP_N4,CM_DIFFAMP_P4,CM_DTR0_DCBIAS_SHUTDOWN,CM_DTR0_DIFFAMP_GAIN0,CM_DTR0_DIFFAMP_GAIN1,CM_DTR0_DIFFAMP_N,CM_DTR0_DIFFAMP_OUT,CM_DTR0_DIFFAMP_P3,CM_DTR0_OPAMP_ENABLE,CM_DTR0_OPAMP_N,CM_DTR0_OPAMP_OUT,CM_DTR0_V_OFFSET_IN,CM_DTR0_V_SENSE_N,CM_DTR0_V_SENSE_P,CM_DTR1_DCBIAS_SHUTDOWN,CM_DTR1_DIFFAMP_GAIN0,CM_DTR1_DIFFAMP_GAIN1,CM_DTR1_DIFFAMP_N,CM_DTR1_DIFFAMP_OUT,CM_DTR1_DIFFAMP_P,CM_DTR1_OPAMP_N,CM_DTR1_OPAMP_OUT,CM_DTR1_OPAMP_P,CM_DTR1_V_OFFSET_IN,CM_DTR1_V_SENSE_N,CM_DTR1_V_SENSE_P,CM_DTR_OPAMP_ENABLE,CM_OPAMP_ENABLE4,CM_OPAMP_N4,CM_OPAMP_OUT4,CM_OPAMP_P1,CM_OPAMP_P3,CM_OPAMP_P4,CM_PROC_DCBIAS_SHUTDOWN,CM_PROC_DIFFAMP_GAIN0,CM_PROC_DIFFAMP_GAIN1,CM_PROC_DIFFAMP_OUT,CM_PROC_V_OFFSET_IN,CM_PROC_V_SENSE_N,CM_PROC_V_SENSE_P,CM_STOR_DCBIAS_SHUTDOWN,CM_STOR_DIFFAMP_GAIN0,CM_STOR_DIFFAMP_GAIN1,CM_STOR_DIFFAMP_N1,CM_STOR_DIFFAMP_OUT,CM_STOR_DIFFAMP_P1,CM_STOR_OPAMP_ENABLE,CM_STOR_OPAMP_N,CM_STOR_OPAMP_OUT,CM_STOR_V_OFFSET_IN,CM_STOR_V_SENSE_N,CM_STOR_V_SENSE_P,V_SENSE_P">
 <segment>
 <wire x1="15.24" y1="416.56" x2="645.16" y2="416.56" width="0.762" layer="92"/>
 <wire x1="15.24" y1="416.56" x2="15.24" y2="10.16" width="0.762" layer="92"/>
