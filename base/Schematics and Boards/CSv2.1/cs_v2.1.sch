@@ -1200,6 +1200,9 @@ Pad dimensions from https://www.vishay.com/docs/34041/imc1008.pdf</description>
 <wire x1="1.958" y1="-1.358" x2="1.958" y2="1.358" width="0.05" layer="39"/>
 <smd name="1" x="-1.2573" y="0" dx="1.3081" dy="2.54" layer="1"/>
 <smd name="2" x="1.2573" y="0" dx="1.3081" dy="2.54" layer="1"/>
+<rectangle x1="-0.508" y1="-1.397" x2="0.508" y2="1.397" layer="41"/>
+<rectangle x1="-0.508" y1="-1.397" x2="0.508" y2="1.397" layer="43"/>
+<rectangle x1="-0.508" y1="-1.397" x2="0.508" y2="1.397" layer="39"/>
 </package>
 <package name="L1212">
 <description>SMD Inductor &lt;br&gt;&lt;br&gt;
@@ -4657,6 +4660,9 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <attribute name="COPYRIGHT" value="Copyright (C) 2018 Accelerated Designs. All rights reserved" constant="no"/>
 <attribute name="DATASHEET" value="https://www.winbond.com/resource-files/w25n01gv%20revl%20050918%20unsecured.pdf" constant="no"/>
 <attribute name="MANUFACTURER_PART_NUMBER" value="W25N01GVZEIG" constant="no"/>
+<attribute name="MP" value="W25N01GVZEIG" constant="no"/>
+<attribute name="MPN" value="W25N01GVZEIG" constant="no"/>
+<attribute name="PART_NO" value="W25N01GVZEIG" constant="no"/>
 <attribute name="SOURCELIBRARY" value="Winbond_2020-02-06" constant="no"/>
 <attribute name="VENDOR" value="Winbond" constant="no"/>
 </technology>
@@ -4933,8 +4939,8 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <part name="L101" library="Inductors" deviceset="L1212" device="">
 <attribute name="PART_NO" value="LQH3NPN100MMEL"/>
 </part>
-<part name="JP1" library="SparkFun-Jumpers" deviceset="JUMPER-SMT_3_1-NC_PASTE" device="_NO-SILK" package3d_urn="urn:adsk.eagle:package:39291/1"/>
-<part name="JP2" library="SparkFun-Jumpers" deviceset="JUMPER-SMT_3_1-NC_PASTE" device="_NO-SILK" package3d_urn="urn:adsk.eagle:package:39291/1"/>
+<part name="REG.OUT" library="SparkFun-Jumpers" deviceset="JUMPER-SMT_3_1-NC_PASTE" device="_NO-SILK" package3d_urn="urn:adsk.eagle:package:39291/1"/>
+<part name="REG.IN" library="SparkFun-Jumpers" deviceset="JUMPER-SMT_3_1-NC_PASTE" device="_NO-SILK" package3d_urn="urn:adsk.eagle:package:39291/1"/>
 <part name="GND6" library="Supplies" deviceset="GND" device=""/>
 <part name="U1" library="Regulators" deviceset="LDO_ONSEMI_NCP708" device="" value="NCP708MU330TAG"/>
 <part name="U2" library="Storage" deviceset="W25N01GVZEIG" device=""/>
@@ -4949,7 +4955,7 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <part name="GND24" library="Supplies" deviceset="GND" device="">
 <attribute name="SPICEPREFIX" value="G"/>
 </part>
-<part name="JP3" library="Connectors" deviceset="JUMPER-SMT_2_NC_PASTE" device="_NO-SILK" package3d_urn="urn:adsk.eagle:package:39283/1"/>
+<part name="DTR.SW" library="Connectors" deviceset="JUMPER-SMT_2_NC_PASTE" device="_NO-SILK" package3d_urn="urn:adsk.eagle:package:39283/1"/>
 <part name="JP7" library="Connectors" deviceset="JUMPER-SMT_2_NC_PASTE" device="_NO-SILK" package3d_urn="urn:adsk.eagle:package:39283/1"/>
 <part name="U4" library="Switches" deviceset="LOADSWITCH-MIC9416" device="" technology="4" value="LOADSWITCH-MIC94164">
 <attribute name="PART_NO" value="MIC94164YCS-TR"/>
@@ -6487,10 +6493,10 @@ A single select line is used to
 <instance part="STOR" gate="G$1" x="373.38" y="132.08" smashed="yes" rot="MR0">
 <attribute name="NAME" x="374.396" y="133.35" size="1.778" layer="95" rot="MR90"/>
 </instance>
-<instance part="JP1" gate="G$1" x="187.96" y="134.62" smashed="yes" rot="MR180">
+<instance part="REG.OUT" gate="G$1" x="187.96" y="134.62" smashed="yes" rot="MR180">
 <attribute name="NAME" x="190.5" y="134.239" size="1.778" layer="95" font="vector" rot="MR180"/>
 </instance>
-<instance part="JP2" gate="G$1" x="236.22" y="134.62" smashed="yes" rot="R180">
+<instance part="REG.IN" gate="G$1" x="236.22" y="134.62" smashed="yes" rot="R180">
 <attribute name="NAME" x="233.68" y="134.239" size="1.778" layer="95" font="vector" rot="R180"/>
 </instance>
 <instance part="GND6" gate="1" x="210.82" y="137.16" smashed="yes">
@@ -6515,7 +6521,7 @@ A single select line is used to
 <instance part="GND24" gate="1" x="322.58" y="147.32" smashed="yes">
 <attribute name="VALUE" x="319.913" y="144.145" size="1.778" layer="96"/>
 </instance>
-<instance part="JP3" gate="G$1" x="274.32" y="195.58" smashed="yes" rot="R180">
+<instance part="DTR.SW" gate="G$1" x="274.32" y="195.58" smashed="yes" rot="R180">
 <attribute name="NAME" x="276.86" y="193.04" size="1.778" layer="95" font="vector" rot="R180"/>
 </instance>
 <instance part="JP7" gate="G$1" x="347.98" y="218.44" smashed="yes" rot="R180">
@@ -6698,7 +6704,7 @@ A single select line is used to
 <wire x1="101.6" y1="182.88" x2="111.76" y2="182.88" width="0.1524" layer="91"/>
 </segment>
 </net>
-<net name="VREG_LX1" class="0">
+<net name="BB_LX1" class="0">
 <segment>
 <pinref part="U202" gate="A" pin="LX1"/>
 <wire x1="190.5" y1="109.22" x2="190.5" y2="127" width="0.1524" layer="91"/>
@@ -6706,7 +6712,7 @@ A single select line is used to
 <wire x1="190.5" y1="127" x2="203.2" y2="127" width="0.1524" layer="91"/>
 </segment>
 </net>
-<net name="VREG_LX2" class="0">
+<net name="BB_LX2" class="0">
 <segment>
 <pinref part="L201" gate="&gt;NAME" pin="2"/>
 <wire x1="218.44" y1="127" x2="238.76" y2="127" width="0.1524" layer="91"/>
@@ -6753,7 +6759,7 @@ A single select line is used to
 <wire x1="243.84" y1="134.62" x2="243.84" y2="106.68" width="0.1524" layer="91"/>
 <wire x1="243.84" y1="106.68" x2="248.92" y2="106.68" width="0.1524" layer="91"/>
 <junction x="281.94" y="203.2"/>
-<pinref part="JP2" gate="G$1" pin="2"/>
+<pinref part="REG.IN" gate="G$1" pin="2"/>
 <wire x1="241.3" y1="134.62" x2="243.84" y2="134.62" width="0.1524" layer="91"/>
 <junction x="264.16" y="195.58"/>
 <wire x1="281.94" y1="203.2" x2="281.94" y2="177.8" width="0.1524" layer="91"/>
@@ -6765,7 +6771,7 @@ A single select line is used to
 <pinref part="C207" gate="G$1" pin="1"/>
 <junction x="304.8" y="91.44"/>
 <wire x1="264.16" y1="195.58" x2="269.24" y2="195.58" width="0.1524" layer="91"/>
-<pinref part="JP3" gate="G$1" pin="2"/>
+<pinref part="DTR.SW" gate="G$1" pin="2"/>
 </segment>
 </net>
 <net name="EN_STOR" class="0">
@@ -6838,7 +6844,7 @@ A single select line is used to
 <pinref part="C202" gate="G$1" pin="1"/>
 <wire x1="172.72" y1="134.62" x2="182.88" y2="134.62" width="0.1524" layer="91"/>
 <junction x="182.88" y="134.62"/>
-<pinref part="JP1" gate="G$1" pin="2"/>
+<pinref part="REG.OUT" gate="G$1" pin="2"/>
 </segment>
 </net>
 <net name="N$9" class="0">
@@ -7038,7 +7044,7 @@ A single select line is used to
 <pinref part="U202" gate="A" pin="IN"/>
 <wire x1="190.5" y1="106.68" x2="187.96" y2="106.68" width="0.1524" layer="91"/>
 <label x="187.96" y="106.68" size="1.778" layer="95" rot="R90"/>
-<pinref part="JP1" gate="G$1" pin="1"/>
+<pinref part="REG.OUT" gate="G$1" pin="1"/>
 <wire x1="187.96" y1="106.68" x2="187.96" y2="121.92" width="0.1524" layer="91"/>
 <wire x1="187.96" y1="121.92" x2="187.96" y2="129.54" width="0.1524" layer="91"/>
 <wire x1="231.14" y1="109.22" x2="231.14" y2="121.92" width="0.1524" layer="91"/>
@@ -7048,7 +7054,7 @@ A single select line is used to
 <junction x="187.96" y="121.92"/>
 </segment>
 </net>
-<net name="N$3" class="1">
+<net name="BB_REG_OUT" class="1">
 <segment>
 <pinref part="U202" gate="A" pin="OUT"/>
 <pinref part="U202" gate="A" pin="OUTS"/>
@@ -7057,11 +7063,11 @@ A single select line is used to
 <wire x1="231.14" y1="104.14" x2="226.06" y2="104.14" width="0.1524" layer="91"/>
 <junction x="231.14" y="106.68"/>
 <wire x1="231.14" y1="106.68" x2="236.22" y2="106.68" width="0.1524" layer="91"/>
-<pinref part="JP2" gate="G$1" pin="1"/>
+<pinref part="REG.IN" gate="G$1" pin="1"/>
 <wire x1="236.22" y1="129.54" x2="236.22" y2="106.68" width="0.1524" layer="91"/>
 </segment>
 </net>
-<net name="N$7" class="0">
+<net name="REG_LDO_IN" class="0">
 <segment>
 <pinref part="U1" gate="G$1" pin="IN"/>
 <wire x1="187.96" y1="152.4" x2="198.12" y2="152.4" width="0.1524" layer="91"/>
@@ -7070,15 +7076,15 @@ A single select line is used to
 <wire x1="200.66" y1="147.32" x2="198.12" y2="147.32" width="0.1524" layer="91"/>
 <wire x1="198.12" y1="147.32" x2="198.12" y2="152.4" width="0.1524" layer="91"/>
 <junction x="198.12" y="152.4"/>
-<pinref part="JP1" gate="G$1" pin="3"/>
+<pinref part="REG.OUT" gate="G$1" pin="3"/>
 <wire x1="187.96" y1="139.7" x2="187.96" y2="152.4" width="0.1524" layer="91"/>
 </segment>
 </net>
-<net name="N$15" class="0">
+<net name="LDO_REG_OUT" class="0">
 <segment>
 <pinref part="U1" gate="G$1" pin="OUT"/>
 <wire x1="220.98" y1="152.4" x2="236.22" y2="152.4" width="0.1524" layer="91"/>
-<pinref part="JP2" gate="G$1" pin="3"/>
+<pinref part="REG.IN" gate="G$1" pin="3"/>
 <wire x1="236.22" y1="152.4" x2="236.22" y2="139.7" width="0.1524" layer="91"/>
 </segment>
 </net>
@@ -7120,7 +7126,7 @@ A single select line is used to
 <wire x1="279.4" y1="195.58" x2="289.56" y2="195.58" width="0.1524" layer="91"/>
 <wire x1="289.56" y1="195.58" x2="322.58" y2="195.58" width="0.1524" layer="91"/>
 <wire x1="322.58" y1="195.58" x2="322.58" y2="187.96" width="0.1524" layer="91"/>
-<pinref part="JP3" gate="G$1" pin="1"/>
+<pinref part="DTR.SW" gate="G$1" pin="1"/>
 </segment>
 </net>
 <net name="V.SRC.EN" class="0">
