@@ -1182,24 +1182,19 @@ Pad dimensions from https://www.vishay.com/docs/45017/vjw1bcsoldfootdesign.pdf</
 <wire x1="-1.45" y1="-0.65" x2="-1.45" y2="0.65" width="0.0762" layer="255"/>
 <wire x1="-1.45" y1="0.65" x2="1.45" y2="0.65" width="0.0762" layer="255"/>
 </package>
-<package name="L1008">
-<description>SMD Inductor &lt;p&gt;
-
-Pad dimensions from https://www.vishay.com/docs/34041/imc1008.pdf</description>
-<text x="-1.96" y="-1.45" size="0.5" layer="27" align="top-left">&gt;VALUE</text>
-<text x="-1.96" y="1.45" size="0.5" layer="25">&gt;NAME</text>
-<wire x1="1.985" y1="-1.354" x2="-1.985" y2="-1.354" width="0.127" layer="51"/>
-<wire x1="1.985" y1="1.354" x2="-1.985" y2="1.354" width="0.127" layer="51"/>
-<wire x1="1.985" y1="-1.354" x2="1.985" y2="1.354" width="0.127" layer="51"/>
-<wire x1="-1.985" y1="-1.354" x2="-1.985" y2="1.354" width="0.127" layer="51"/>
-<wire x1="-0.15" y1="1.1" x2="0.15" y2="1.1" width="0.127" layer="21"/>
-<wire x1="-0.15" y1="-1.1" x2="0.15" y2="-1.1" width="0.127" layer="21"/>
-<wire x1="-1.958" y1="-1.358" x2="1.958" y2="-1.358" width="0.05" layer="39"/>
-<wire x1="-1.958" y1="1.358" x2="1.958" y2="1.358" width="0.05" layer="39"/>
-<wire x1="-1.958" y1="-1.358" x2="-1.958" y2="1.358" width="0.05" layer="39"/>
-<wire x1="1.958" y1="-1.358" x2="1.958" y2="1.358" width="0.05" layer="39"/>
-<smd name="1" x="-1.2573" y="0" dx="1.3081" dy="2.54" layer="1"/>
-<smd name="2" x="1.2573" y="0" dx="1.3081" dy="2.54" layer="1"/>
+<package name="XAL40">
+<description>Coilcraft XAL40xx series</description>
+<smd name="2" x="-1.1811" y="0" dx="0.9652" dy="3.4036" layer="1"/>
+<smd name="1" x="1.1811" y="0" dx="0.9652" dy="3.4036" layer="1"/>
+<rectangle x1="-0.508" y1="-1.778" x2="0.508" y2="1.778" layer="41"/>
+<rectangle x1="-1.778" y1="-1.905" x2="1.778" y2="1.905" layer="42"/>
+<rectangle x1="-0.508" y1="-1.778" x2="0.508" y2="1.778" layer="43"/>
+<text x="0" y="2.413" size="0.6096" layer="25" align="bottom-center">&gt;Name</text>
+<wire x1="-2.032" y1="-2.032" x2="2.032" y2="-2.032" width="0.127" layer="21"/>
+<wire x1="-2.032" y1="2.032" x2="-2.032" y2="-2.032" width="0.127" layer="21"/>
+<wire x1="2.032" y1="2.032" x2="2.032" y2="-2.032" width="0.127" layer="21"/>
+<wire x1="-2.032" y1="2.032" x2="2.032" y2="2.032" width="0.127" layer="21"/>
+<wire x1="2.54" y1="1.27" x2="2.54" y2="-1.27" width="0.127" layer="21"/>
 </package>
 <package name="L1212">
 <description>SMD Inductor &lt;br&gt;&lt;br&gt;
@@ -1220,6 +1215,20 @@ Pad dimensions from: https://search.murata.co.jp/Ceramy/image/img/P02/JELF243A-0
 </package>
 </packages>
 <symbols>
+<symbol name="FERRITE_BEAD">
+<description>&lt;h3&gt;Ferrite Bead (blocks, cores, rings, chokes, etc.)&lt;/h3&gt;
+&lt;p&gt;Inductor with layers of ferrite used to suppress high frequencies. Often used to isolate high frequency noise.&lt;/p&gt;</description>
+<wire x1="0" y1="2.54" x2="0" y2="1.27" width="0.1524" layer="94" curve="-180"/>
+<wire x1="0" y1="1.27" x2="0" y2="0" width="0.1524" layer="94" curve="-180"/>
+<wire x1="0" y1="0" x2="0" y2="-1.27" width="0.1524" layer="94" curve="-180"/>
+<wire x1="0" y1="-1.27" x2="0" y2="-2.54" width="0.1524" layer="94" curve="-180"/>
+<wire x1="0.889" y1="2.54" x2="0.889" y2="-2.54" width="0.1524" layer="94"/>
+<wire x1="1.143" y1="2.54" x2="1.143" y2="-2.54" width="0.1524" layer="94"/>
+<pin name="1" x="0" y="5.08" visible="off" length="short" direction="pas" swaplevel="1" rot="R270"/>
+<pin name="2" x="0" y="-5.08" visible="off" length="short" direction="pas" swaplevel="1" rot="R90"/>
+<text x="1.27" y="2.54" size="1.778" layer="95" font="vector">&gt;NAME</text>
+<text x="1.27" y="-2.54" size="1.778" layer="96" font="vector" align="top-left">&gt;VALUE</text>
+</symbol>
 <symbol name="INDUCTOR">
 <wire x1="-2.54" y1="0" x2="-1.27" y2="0" width="0.1524" layer="94" curve="-191.421"/>
 <wire x1="-1.27" y1="0" x2="0" y2="0" width="0.1524" layer="94" curve="-191.421"/>
@@ -1248,18 +1257,23 @@ Pad dimensions from: https://search.murata.co.jp/Ceramy/image/img/P02/JELF243A-0
 </device>
 </devices>
 </deviceset>
-<deviceset name="L1008" prefix="L" uservalue="yes">
+<deviceset name="XAL40" prefix="L">
+<description>&lt;h2&gt;Coilcraft XAL40xx Shielded Power Inductor&lt;/h2&gt;</description>
 <gates>
-<gate name="&gt;NAME" symbol="INDUCTOR" x="0" y="0"/>
+<gate name="G$1" symbol="FERRITE_BEAD" x="0" y="0"/>
 </gates>
 <devices>
-<device name="" package="L1008">
+<device name="" package="XAL40">
 <connects>
-<connect gate="&gt;NAME" pin="1" pad="1"/>
-<connect gate="&gt;NAME" pin="2" pad="2"/>
+<connect gate="G$1" pin="1" pad="1"/>
+<connect gate="G$1" pin="2" pad="2"/>
 </connects>
 <technologies>
-<technology name=""/>
+<technology name="">
+<attribute name="MANUFACTURER" value="Coilcraft"/>
+<attribute name="MPN" value="XAL4020-102MEC" constant="no"/>
+<attribute name="SERIES" value="XAL40"/>
+</technology>
 </technologies>
 </device>
 </devices>
@@ -4657,6 +4671,9 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <attribute name="COPYRIGHT" value="Copyright (C) 2018 Accelerated Designs. All rights reserved" constant="no"/>
 <attribute name="DATASHEET" value="https://www.winbond.com/resource-files/w25n01gv%20revl%20050918%20unsecured.pdf" constant="no"/>
 <attribute name="MANUFACTURER_PART_NUMBER" value="W25N01GVZEIG" constant="no"/>
+<attribute name="MP" value="W25N01GVZEIG" constant="no"/>
+<attribute name="MPN" value="W25N01GVZEIG" constant="no"/>
+<attribute name="PART_NO" value="W25N01GVZEIG" constant="no"/>
 <attribute name="SOURCELIBRARY" value="Winbond_2020-02-06" constant="no"/>
 <attribute name="VENDOR" value="Winbond" constant="no"/>
 </technology>
@@ -4747,6 +4764,8 @@ You are welcome to use this library for commercial purposes. For attribution, we
 </part>
 <part name="+3V2" library="Supplies" deviceset="+3V3" device=""/>
 <part name="C114" library="Capacitors" deviceset="C-" device="0402" value="1u">
+<attribute name="MP" value="C0402C105M8PACTU"/>
+<attribute name="MPN" value="C0402C105M8PACTU"/>
 <attribute name="PART_NO" value="C0402C105M8PACTU"/>
 <attribute name="TC" value="X5R"/>
 <attribute name="VOLTAGE" value="10V"/>
@@ -4811,12 +4830,14 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <attribute name="VOLTAGE" value="10V"/>
 </part>
 <part name="C204" library="Capacitors" deviceset="C-" device="0402" value="1u">
-<attribute name="PART_NO" value="C0402C105K8PACTU"/>
+<attribute name="MP" value="C0402C105M8PACTU"/>
+<attribute name="MPN" value="C0402C105M8PACTU"/>
+<attribute name="PART_NO" value="C0402C105M8PACTU"/>
 <attribute name="TC" value="X5R"/>
 <attribute name="VOLTAGE" value="10V"/>
 </part>
-<part name="L201" library="Inductors" deviceset="L1008" device="" value="1u">
-<attribute name="PART_NO" value="CIGT252010EH1R0MNE"/>
+<part name="L201" library="Inductors" deviceset="XAL40" device="" value="1u">
+<attribute name="PART_NO" value="XAL4020-102MEC"/>
 </part>
 <part name="GND12" library="Supplies" deviceset="GND" device=""/>
 <part name="GND13" library="Supplies" deviceset="GND" device=""/>
@@ -4860,6 +4881,8 @@ You are welcome to use this library for commercial purposes. For attribution, we
 </part>
 <part name="BORDER301" library="Graphics" deviceset="BORDER-CMU" device=""/>
 <part name="J301" library="Connectors" deviceset="HIROSE-DF40_50-PIN_CONNECTORS" device="-RECEPTACLE">
+<attribute name="MP" value="DF40HC(4.0)-50DS-0.4V(51)"/>
+<attribute name="MPN" value="DF40HC(4.0)-50DS-0.4V(51)"/>
 <attribute name="PART_NO" value="DF40HC(4.0)-50DS-0.4V(51)"/>
 </part>
 <part name="D202" library="Diodes" deviceset="DIALIGHT_RGBLED_598-8710-307F" device="DIALIGHT_598-8710-307F_0_0">
@@ -4917,7 +4940,9 @@ You are welcome to use this library for commercial purposes. For attribution, we
 </part>
 <part name="+3V8" library="Supplies" deviceset="+3V3" device=""/>
 <part name="J302" library="Connectors" deviceset="HIROSE-DF40_50-PIN_CONNECTORS" device="-RECEPTACLE" value="HIROSE-DF40_50-PIN_CONNECTORS-RECEPTACLE">
-<attribute name="PART_NO" value="DF40HC(4.0)-50DS-0.4V(58)"/>
+<attribute name="MP" value="DF40HC(4.0)-50DS-0.4V(51)"/>
+<attribute name="MPN" value="DF40HC(4.0)-50DS-0.4V(51)"/>
+<attribute name="PART_NO" value="DF40HC(4.0)-50DS-0.4V(51)"/>
 </part>
 <part name="GND22" library="Supplies" deviceset="GND" device=""/>
 <part name="+3V7" library="Supplies" deviceset="+3V3" device=""/>
@@ -4933,12 +4958,16 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <part name="L101" library="Inductors" deviceset="L1212" device="">
 <attribute name="PART_NO" value="LQH3NPN100MMEL"/>
 </part>
-<part name="JP1" library="SparkFun-Jumpers" deviceset="JUMPER-SMT_3_1-NC_PASTE" device="_NO-SILK" package3d_urn="urn:adsk.eagle:package:39291/1"/>
-<part name="JP2" library="SparkFun-Jumpers" deviceset="JUMPER-SMT_3_1-NC_PASTE" device="_NO-SILK" package3d_urn="urn:adsk.eagle:package:39291/1"/>
+<part name="REG.OUT" library="SparkFun-Jumpers" deviceset="JUMPER-SMT_3_1-NC_PASTE" device="_NO-SILK" package3d_urn="urn:adsk.eagle:package:39291/1"/>
+<part name="REG.IN" library="SparkFun-Jumpers" deviceset="JUMPER-SMT_3_1-NC_PASTE" device="_NO-SILK" package3d_urn="urn:adsk.eagle:package:39291/1"/>
 <part name="GND6" library="Supplies" deviceset="GND" device=""/>
 <part name="U1" library="Regulators" deviceset="LDO_ONSEMI_NCP708" device="" value="NCP708MU330TAG"/>
 <part name="U2" library="Storage" deviceset="W25N01GVZEIG" device=""/>
-<part name="U3" library="Switches" deviceset="TS3A24159YZPR" device=""/>
+<part name="U3" library="Switches" deviceset="TS3A24159YZPR" device="">
+<attribute name="MP" value="TS3A24159YZPR"/>
+<attribute name="MPN" value="TS3A24159YZPR"/>
+<attribute name="PART_NO" value="TS3A24159YZPR"/>
+</part>
 <part name="C1" library="Capacitors" deviceset="C-" device="0402" value="0.1u">
 <attribute name="PART_NO" value="C0402C104K8RACTU"/>
 <attribute name="VOLTAGE" value="10V"/>
@@ -4949,8 +4978,8 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <part name="GND24" library="Supplies" deviceset="GND" device="">
 <attribute name="SPICEPREFIX" value="G"/>
 </part>
-<part name="JP3" library="Connectors" deviceset="JUMPER-SMT_2_NC_PASTE" device="_NO-SILK" package3d_urn="urn:adsk.eagle:package:39283/1"/>
-<part name="JP7" library="Connectors" deviceset="JUMPER-SMT_2_NC_PASTE" device="_NO-SILK" package3d_urn="urn:adsk.eagle:package:39283/1"/>
+<part name="DTR.SW" library="Connectors" deviceset="JUMPER-SMT_2_NC_PASTE" device="_NO-SILK" package3d_urn="urn:adsk.eagle:package:39283/1"/>
+<part name="JP.PROC" library="Connectors" deviceset="JUMPER-SMT_2_NC_PASTE" device="_NO-SILK" package3d_urn="urn:adsk.eagle:package:39283/1"/>
 <part name="U4" library="Switches" deviceset="LOADSWITCH-MIC9416" device="" technology="4" value="LOADSWITCH-MIC94164">
 <attribute name="PART_NO" value="MIC94164YCS-TR"/>
 </part>
@@ -4967,7 +4996,11 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <attribute name="PART_NO" value="ERJ-2GEJ514X"/>
 </part>
 <part name="GND16" library="Supplies" deviceset="GND" device=""/>
-<part name="Q1" library="Switches" deviceset="DMG3415UFY4Q-7" device="F"/>
+<part name="Q1" library="Switches" deviceset="DMG3415UFY4Q-7" device="F">
+<attribute name="MP" value="DMG3415U-7"/>
+<attribute name="MPN" value="DMG3415U-7"/>
+<attribute name="PART_NO" value="DMG3415U-7"/>
+</part>
 </parts>
 <sheets>
 <sheet>
@@ -5081,6 +5114,8 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <attribute name="NAME" x="272.796" y="154.305" size="1.778" layer="95"/>
 <attribute name="VALUE" x="272.796" y="149.479" size="1.778" layer="96"/>
 <attribute name="PART_NO" x="271.78" y="152.4" size="1.778" layer="96" display="off"/>
+<attribute name="MP" x="271.78" y="152.4" size="1.778" layer="96" display="off"/>
+<attribute name="MPN" x="271.78" y="152.4" size="1.778" layer="96" display="off"/>
 </instance>
 <instance part="C101" gate="G$1" x="190.5" y="198.12" smashed="yes">
 <attribute name="NAME" x="191.516" y="200.025" size="1.778" layer="95"/>
@@ -6361,11 +6396,13 @@ A single select line is used to
 <attribute name="NAME" x="156.718" y="101.727" size="1.778" layer="95"/>
 <attribute name="VALUE" x="166.116" y="96.139" size="1.778" layer="96"/>
 <attribute name="PART_NO" x="165.1" y="99.06" size="1.778" layer="96" display="off"/>
+<attribute name="MP" x="165.1" y="99.06" size="1.778" layer="96" display="off"/>
+<attribute name="MPN" x="165.1" y="99.06" size="1.778" layer="96" display="off"/>
 </instance>
-<instance part="L201" gate="&gt;NAME" x="210.82" y="127" smashed="yes">
-<attribute name="NAME" x="205.73153125" y="128.90818125" size="1.780959375" layer="95"/>
-<attribute name="VALUE" x="205.734559375" y="124.45728125" size="1.779909375" layer="96"/>
-<attribute name="PART_NO" x="210.82" y="127" size="1.778" layer="96" display="off"/>
+<instance part="L201" gate="G$1" x="210.82" y="127" smashed="yes" rot="R270">
+<attribute name="NAME" x="212.72818125" y="132.08846875" size="1.780959375" layer="95" rot="R270"/>
+<attribute name="VALUE" x="208.27728125" y="132.085440625" size="1.779909375" layer="96" rot="R270"/>
+<attribute name="PART_NO" x="210.82" y="127" size="1.778" layer="96" rot="R270" display="off"/>
 </instance>
 <instance part="GND12" gate="1" x="177.8" y="86.36" smashed="yes">
 <attribute name="VALUE" x="175.133" y="83.185" size="1.778" layer="96"/>
@@ -6487,10 +6524,10 @@ A single select line is used to
 <instance part="STOR" gate="G$1" x="373.38" y="132.08" smashed="yes" rot="MR0">
 <attribute name="NAME" x="374.396" y="133.35" size="1.778" layer="95" rot="MR90"/>
 </instance>
-<instance part="JP1" gate="G$1" x="187.96" y="134.62" smashed="yes" rot="MR180">
+<instance part="REG.OUT" gate="G$1" x="187.96" y="134.62" smashed="yes" rot="MR180">
 <attribute name="NAME" x="190.5" y="134.239" size="1.778" layer="95" font="vector" rot="MR180"/>
 </instance>
-<instance part="JP2" gate="G$1" x="236.22" y="134.62" smashed="yes" rot="R180">
+<instance part="REG.IN" gate="G$1" x="236.22" y="134.62" smashed="yes" rot="R180">
 <attribute name="NAME" x="233.68" y="134.239" size="1.778" layer="95" font="vector" rot="R180"/>
 </instance>
 <instance part="GND6" gate="1" x="210.82" y="137.16" smashed="yes">
@@ -6503,6 +6540,9 @@ A single select line is used to
 <instance part="U3" gate="A" x="322.58" y="167.64" smashed="yes">
 <attribute name="NAME" x="312.7756" y="186.9186" size="2.0828" layer="95" ratio="6" rot="SR0"/>
 <attribute name="VALUE" x="307.0606" y="184.3786" size="2.0828" layer="96" ratio="6" rot="SR0"/>
+<attribute name="MP" x="322.58" y="167.64" size="1.778" layer="96" display="off"/>
+<attribute name="MPN" x="322.58" y="167.64" size="1.778" layer="96" display="off"/>
+<attribute name="PART_NO" x="322.58" y="167.64" size="1.778" layer="96" display="off"/>
 </instance>
 <instance part="C1" gate="G$1" x="289.56" y="190.5" smashed="yes">
 <attribute name="NAME" x="290.576" y="192.405" size="1.778" layer="95"/>
@@ -6515,10 +6555,10 @@ A single select line is used to
 <instance part="GND24" gate="1" x="322.58" y="147.32" smashed="yes">
 <attribute name="VALUE" x="319.913" y="144.145" size="1.778" layer="96"/>
 </instance>
-<instance part="JP3" gate="G$1" x="274.32" y="195.58" smashed="yes" rot="R180">
+<instance part="DTR.SW" gate="G$1" x="274.32" y="195.58" smashed="yes" rot="R180">
 <attribute name="NAME" x="276.86" y="193.04" size="1.778" layer="95" font="vector" rot="R180"/>
 </instance>
-<instance part="JP7" gate="G$1" x="347.98" y="218.44" smashed="yes" rot="R180">
+<instance part="JP.PROC" gate="G$1" x="347.98" y="218.44" smashed="yes" rot="R180">
 <attribute name="NAME" x="350.52" y="215.9" size="1.778" layer="95" font="vector" rot="R180"/>
 </instance>
 <instance part="U4" gate="G$1" x="91.44" y="177.8" smashed="yes">
@@ -6550,6 +6590,9 @@ A single select line is used to
 <instance part="Q1" gate="G$1" x="66.04" y="213.36" smashed="yes">
 <attribute name="VALUE" x="41.91" y="212.09" size="1.778" layer="96"/>
 <attribute name="NAME" x="59.69" y="214.63" size="1.778" layer="95"/>
+<attribute name="MP" x="66.04" y="213.36" size="1.778" layer="96" display="off"/>
+<attribute name="MPN" x="66.04" y="213.36" size="1.778" layer="96" display="off"/>
+<attribute name="PART_NO" x="66.04" y="213.36" size="1.778" layer="96" display="off"/>
 </instance>
 </instances>
 <busses>
@@ -6698,21 +6741,21 @@ A single select line is used to
 <wire x1="101.6" y1="182.88" x2="111.76" y2="182.88" width="0.1524" layer="91"/>
 </segment>
 </net>
-<net name="VREG_LX1" class="0">
+<net name="BB_LX1" class="0">
 <segment>
 <pinref part="U202" gate="A" pin="LX1"/>
 <wire x1="190.5" y1="109.22" x2="190.5" y2="127" width="0.1524" layer="91"/>
-<pinref part="L201" gate="&gt;NAME" pin="1"/>
-<wire x1="190.5" y1="127" x2="203.2" y2="127" width="0.1524" layer="91"/>
+<pinref part="L201" gate="G$1" pin="2"/>
+<wire x1="190.5" y1="127" x2="205.74" y2="127" width="0.1524" layer="91"/>
 </segment>
 </net>
-<net name="VREG_LX2" class="0">
+<net name="BB_LX2" class="0">
 <segment>
-<pinref part="L201" gate="&gt;NAME" pin="2"/>
-<wire x1="218.44" y1="127" x2="238.76" y2="127" width="0.1524" layer="91"/>
 <wire x1="238.76" y1="127" x2="238.76" y2="101.6" width="0.1524" layer="91"/>
 <pinref part="U202" gate="A" pin="LX2"/>
 <wire x1="238.76" y1="101.6" x2="226.06" y2="101.6" width="0.1524" layer="91"/>
+<pinref part="L201" gate="G$1" pin="1"/>
+<wire x1="238.76" y1="127" x2="215.9" y2="127" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="VREG_BIAS" class="0">
@@ -6753,7 +6796,7 @@ A single select line is used to
 <wire x1="243.84" y1="134.62" x2="243.84" y2="106.68" width="0.1524" layer="91"/>
 <wire x1="243.84" y1="106.68" x2="248.92" y2="106.68" width="0.1524" layer="91"/>
 <junction x="281.94" y="203.2"/>
-<pinref part="JP2" gate="G$1" pin="2"/>
+<pinref part="REG.IN" gate="G$1" pin="2"/>
 <wire x1="241.3" y1="134.62" x2="243.84" y2="134.62" width="0.1524" layer="91"/>
 <junction x="264.16" y="195.58"/>
 <wire x1="281.94" y1="203.2" x2="281.94" y2="177.8" width="0.1524" layer="91"/>
@@ -6765,7 +6808,7 @@ A single select line is used to
 <pinref part="C207" gate="G$1" pin="1"/>
 <junction x="304.8" y="91.44"/>
 <wire x1="264.16" y1="195.58" x2="269.24" y2="195.58" width="0.1524" layer="91"/>
-<pinref part="JP3" gate="G$1" pin="2"/>
+<pinref part="DTR.SW" gate="G$1" pin="2"/>
 </segment>
 </net>
 <net name="EN_STOR" class="0">
@@ -6807,7 +6850,7 @@ A single select line is used to
 <label x="363.22" y="218.44" size="1.778" layer="95"/>
 <wire x1="383.54" y1="218.44" x2="386.08" y2="220.98" width="0.1524" layer="91"/>
 <wire x1="353.06" y1="218.44" x2="383.54" y2="218.44" width="0.1524" layer="91"/>
-<pinref part="JP7" gate="G$1" pin="1"/>
+<pinref part="JP.PROC" gate="G$1" pin="1"/>
 </segment>
 <segment>
 <pinref part="SUPPLY3" gate="G$1" pin="VIN"/>
@@ -6838,7 +6881,7 @@ A single select line is used to
 <pinref part="C202" gate="G$1" pin="1"/>
 <wire x1="172.72" y1="134.62" x2="182.88" y2="134.62" width="0.1524" layer="91"/>
 <junction x="182.88" y="134.62"/>
-<pinref part="JP1" gate="G$1" pin="2"/>
+<pinref part="REG.OUT" gate="G$1" pin="2"/>
 </segment>
 </net>
 <net name="N$9" class="0">
@@ -6973,7 +7016,7 @@ A single select line is used to
 <segment>
 <pinref part="R206" gate="G$1" pin="2"/>
 <wire x1="294.64" y1="218.44" x2="342.9" y2="218.44" width="0.1524" layer="91"/>
-<pinref part="JP7" gate="G$1" pin="2"/>
+<pinref part="JP.PROC" gate="G$1" pin="2"/>
 <label x="309.88" y="218.44" size="1.778" layer="95"/>
 </segment>
 </net>
@@ -7038,7 +7081,7 @@ A single select line is used to
 <pinref part="U202" gate="A" pin="IN"/>
 <wire x1="190.5" y1="106.68" x2="187.96" y2="106.68" width="0.1524" layer="91"/>
 <label x="187.96" y="106.68" size="1.778" layer="95" rot="R90"/>
-<pinref part="JP1" gate="G$1" pin="1"/>
+<pinref part="REG.OUT" gate="G$1" pin="1"/>
 <wire x1="187.96" y1="106.68" x2="187.96" y2="121.92" width="0.1524" layer="91"/>
 <wire x1="187.96" y1="121.92" x2="187.96" y2="129.54" width="0.1524" layer="91"/>
 <wire x1="231.14" y1="109.22" x2="231.14" y2="121.92" width="0.1524" layer="91"/>
@@ -7048,7 +7091,7 @@ A single select line is used to
 <junction x="187.96" y="121.92"/>
 </segment>
 </net>
-<net name="N$3" class="1">
+<net name="BB_REG_OUT" class="1">
 <segment>
 <pinref part="U202" gate="A" pin="OUT"/>
 <pinref part="U202" gate="A" pin="OUTS"/>
@@ -7057,11 +7100,11 @@ A single select line is used to
 <wire x1="231.14" y1="104.14" x2="226.06" y2="104.14" width="0.1524" layer="91"/>
 <junction x="231.14" y="106.68"/>
 <wire x1="231.14" y1="106.68" x2="236.22" y2="106.68" width="0.1524" layer="91"/>
-<pinref part="JP2" gate="G$1" pin="1"/>
+<pinref part="REG.IN" gate="G$1" pin="1"/>
 <wire x1="236.22" y1="129.54" x2="236.22" y2="106.68" width="0.1524" layer="91"/>
 </segment>
 </net>
-<net name="N$7" class="0">
+<net name="REG_LDO_IN" class="0">
 <segment>
 <pinref part="U1" gate="G$1" pin="IN"/>
 <wire x1="187.96" y1="152.4" x2="198.12" y2="152.4" width="0.1524" layer="91"/>
@@ -7070,15 +7113,15 @@ A single select line is used to
 <wire x1="200.66" y1="147.32" x2="198.12" y2="147.32" width="0.1524" layer="91"/>
 <wire x1="198.12" y1="147.32" x2="198.12" y2="152.4" width="0.1524" layer="91"/>
 <junction x="198.12" y="152.4"/>
-<pinref part="JP1" gate="G$1" pin="3"/>
+<pinref part="REG.OUT" gate="G$1" pin="3"/>
 <wire x1="187.96" y1="139.7" x2="187.96" y2="152.4" width="0.1524" layer="91"/>
 </segment>
 </net>
-<net name="N$15" class="0">
+<net name="LDO_REG_OUT" class="0">
 <segment>
 <pinref part="U1" gate="G$1" pin="OUT"/>
 <wire x1="220.98" y1="152.4" x2="236.22" y2="152.4" width="0.1524" layer="91"/>
-<pinref part="JP2" gate="G$1" pin="3"/>
+<pinref part="REG.IN" gate="G$1" pin="3"/>
 <wire x1="236.22" y1="152.4" x2="236.22" y2="139.7" width="0.1524" layer="91"/>
 </segment>
 </net>
@@ -7120,7 +7163,7 @@ A single select line is used to
 <wire x1="279.4" y1="195.58" x2="289.56" y2="195.58" width="0.1524" layer="91"/>
 <wire x1="289.56" y1="195.58" x2="322.58" y2="195.58" width="0.1524" layer="91"/>
 <wire x1="322.58" y1="195.58" x2="322.58" y2="187.96" width="0.1524" layer="91"/>
-<pinref part="JP3" gate="G$1" pin="1"/>
+<pinref part="DTR.SW" gate="G$1" pin="1"/>
 </segment>
 </net>
 <net name="V.SRC.EN" class="0">
@@ -7188,10 +7231,14 @@ A single select line is used to
 <instance part="J301" gate="G$1" x="114.3" y="149.86" smashed="yes" rot="R90">
 <attribute name="NAME" x="80.4966" y="142.21801875" size="1.273659375" layer="95" rot="R90"/>
 <attribute name="PART_NO" x="114.3" y="149.86" size="1.778" layer="96" rot="R90" display="off"/>
+<attribute name="MP" x="114.3" y="149.86" size="1.778" layer="96" rot="R90" display="off"/>
+<attribute name="MPN" x="114.3" y="149.86" size="1.778" layer="96" rot="R90" display="off"/>
 </instance>
 <instance part="J302" gate="G$1" x="289.56" y="149.86" smashed="yes" rot="R90">
 <attribute name="NAME" x="265.9166" y="142.21801875" size="1.273659375" layer="95" rot="R90"/>
 <attribute name="PART_NO" x="289.56" y="149.86" size="1.778" layer="96" rot="R90" display="off"/>
+<attribute name="MPN" x="289.56" y="149.86" size="1.778" layer="96" rot="R90" display="off"/>
+<attribute name="MP" x="289.56" y="149.86" size="1.778" layer="96" rot="R90" display="off"/>
 </instance>
 <instance part="GND22" gate="1" x="86.36" y="127" smashed="yes">
 <attribute name="VALUE" x="83.82" y="124.46" size="1.778" layer="96"/>
