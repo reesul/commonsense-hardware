@@ -1,0 +1,24 @@
+{
+    "Header": {
+        "Comment": "All values are metric (mm)",
+        "CreationDate": "2020-08-07T20:24:04Z",
+        "GenerationSoftware": {
+            "Application": "EAGLE",
+            "Vendor": "Autodesk",
+            "Version": "9.6.1"
+        },
+        "Part": "Single"
+    },
+    "Overall": {
+        "BoardThickness": 1.447044,
+        "LayerNumber": 4,
+        "Name": {
+            "ProjectId": "cs_v2.1"
+        },
+        "Owner": "Reese Grimsley <rgrimsle@andrew.cmu.edu>",
+        "Size": {
+            "X": 38.121369,
+            "Y": 46.99
+        }
+    }
+}
