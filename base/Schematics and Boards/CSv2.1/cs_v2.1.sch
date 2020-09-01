@@ -6400,8 +6400,8 @@ A single select line is used to
 <attribute name="MPN" x="165.1" y="99.06" size="1.778" layer="96" display="off"/>
 </instance>
 <instance part="L201" gate="G$1" x="210.82" y="127" smashed="yes" rot="R270">
-<attribute name="NAME" x="212.72818125" y="132.08846875" size="1.780959375" layer="95" rot="R270"/>
-<attribute name="VALUE" x="208.27728125" y="132.085440625" size="1.779909375" layer="96" rot="R270"/>
+<attribute name="NAME" x="218.44846875" y="130.17181875" size="1.780959375" layer="95" rot="R180"/>
+<attribute name="VALUE" x="208.285440625" y="129.54271875" size="1.779909375" layer="96" rot="R180"/>
 <attribute name="PART_NO" x="210.82" y="127" size="1.778" layer="96" rot="R270" display="off"/>
 </instance>
 <instance part="GND12" gate="1" x="177.8" y="86.36" smashed="yes">

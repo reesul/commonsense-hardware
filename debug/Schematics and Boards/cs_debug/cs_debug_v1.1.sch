@@ -7407,9 +7407,9 @@ new: Attribute TP_SIGNAL_NAME&lt;br&gt;
 <attribute name="PART_NO" value="OPA357AIDBVTG4"/>
 </part>
 <part name="SUPPLY30" library="Supplies" deviceset="+3V3" device=""/>
-<part name="R40" library="Resistors" deviceset="R-" device="0402" value="249k">
-<attribute name="MPN" value="ERA-2AEB2491X"/>
-<attribute name="PART_NO" value="ERA-2AEB2491X"/>
+<part name="R40" library="Resistors" deviceset="R-" device="0603" value="249k">
+<attribute name="MPN" value="ERA-3AEB2493V"/>
+<attribute name="PART_NO" value="ERA-3AEB2493V"/>
 <attribute name="TOL" value="0,1%"/>
 </part>
 <part name="R53" library="Resistors" deviceset="R-" device="0402" value="10k">
@@ -7430,9 +7430,9 @@ new: Attribute TP_SIGNAL_NAME&lt;br&gt;
 <attribute name="PART_NO" value="ERA-2AEB103X"/>
 <attribute name="TOL" value="0.1%"/>
 </part>
-<part name="R56" library="Resistors" deviceset="R-" device="0402" value="249k">
-<attribute name="MPN" value="ERA-2AEB2491X"/>
-<attribute name="PART_NO" value="ERA-2AEB2491X"/>
+<part name="R56" library="Resistors" deviceset="R-" device="0603" value="249k">
+<attribute name="MPN" value="ERA-3AEB2493V"/>
+<attribute name="PART_NO" value="ERA-3AEB2493V"/>
 <attribute name="TOL" value="0.1%"/>
 </part>
 <part name="U$32" library="SparkFun-PowerSymbols" deviceset="AGND" device=""/>
@@ -7480,9 +7480,9 @@ new: Attribute TP_SIGNAL_NAME&lt;br&gt;
 <attribute name="PART_NO" value="OPA357AIDBVTG4"/>
 </part>
 <part name="SUPPLY22" library="Supplies" deviceset="+3V3" device=""/>
-<part name="R24" library="Resistors" deviceset="R-" device="0402" value="249k">
-<attribute name="MPN" value="ERA-2AEB2491X"/>
-<attribute name="PART_NO" value="ERA-2AEB2491X"/>
+<part name="R24" library="Resistors" deviceset="R-" device="0603" value="249k">
+<attribute name="MPN" value="ERA-3AEB2493V"/>
+<attribute name="PART_NO" value="ERA-3AEB2493V"/>
 <attribute name="TOL" value="0,1%"/>
 </part>
 <part name="R33" library="Resistors" deviceset="R-" device="0402" value="10k">
@@ -7503,9 +7503,9 @@ new: Attribute TP_SIGNAL_NAME&lt;br&gt;
 <attribute name="PART_NO" value="ERA-2AEB103X"/>
 <attribute name="TOL" value="0.1%"/>
 </part>
-<part name="R36" library="Resistors" deviceset="R-" device="0402" value="249k">
-<attribute name="MPN" value="ERA-2AEB2491X"/>
-<attribute name="PART_NO" value="ERA-2AEB2491X"/>
+<part name="R36" library="Resistors" deviceset="R-" device="0603" value="249k">
+<attribute name="MPN" value="ERA-3AEB2493V"/>
+<attribute name="PART_NO" value="ERA-3AEB2493V"/>
 <attribute name="TOL" value="0.1%"/>
 </part>
 <part name="U$26" library="SparkFun-PowerSymbols" deviceset="AGND" device=""/>
@@ -7560,9 +7560,9 @@ new: Attribute TP_SIGNAL_NAME&lt;br&gt;
 <attribute name="PART_NO" value="OPA357AIDBVTG4"/>
 </part>
 <part name="SUPPLY19" library="Supplies" deviceset="+3V3" device=""/>
-<part name="R25" library="Resistors" deviceset="R-" device="0402" value="249k">
-<attribute name="MPN" value="ERA-2AEB2491X"/>
-<attribute name="PART_NO" value="ERA-2AEB2491X"/>
+<part name="R25" library="Resistors" deviceset="R-" device="0603" value="249k">
+<attribute name="MPN" value="ERA-3AEB2493V"/>
+<attribute name="PART_NO" value="ERA-3AEB2493V"/>
 <attribute name="TOL" value="0,1%"/>
 </part>
 <part name="R26" library="Resistors" deviceset="R-" device="0402" value="10k">
@@ -7583,9 +7583,9 @@ new: Attribute TP_SIGNAL_NAME&lt;br&gt;
 <attribute name="PART_NO" value="ERA-2AEB103X"/>
 <attribute name="TOL" value="0.1%"/>
 </part>
-<part name="R29" library="Resistors" deviceset="R-" device="0402" value="249k">
-<attribute name="MPN" value="ERA-2AEB2491X"/>
-<attribute name="PART_NO" value="ERA-2AEB2491X"/>
+<part name="R29" library="Resistors" deviceset="R-" device="0603" value="249k">
+<attribute name="MPN" value="ERA-3AEB2493V"/>
+<attribute name="PART_NO" value="ERA-3AEB2493V"/>
 <attribute name="TOL" value="0.1%"/>
 </part>
 <part name="U$21" library="SparkFun-PowerSymbols" deviceset="AGND" device=""/>
@@ -7633,9 +7633,9 @@ new: Attribute TP_SIGNAL_NAME&lt;br&gt;
 <attribute name="PART_NO" value="OPA357AIDBVTG4"/>
 </part>
 <part name="SUPPLY16" library="Supplies" deviceset="+3V3" device=""/>
-<part name="R16" library="Resistors" deviceset="R-" device="0402" value="249k">
-<attribute name="MPN" value="ERA-2AEB2491X"/>
-<attribute name="PART_NO" value="ERA-2AEB2491X"/>
+<part name="R16" library="Resistors" deviceset="R-" device="0603" value="249k">
+<attribute name="MPN" value="ERA-3AEB2493V"/>
+<attribute name="PART_NO" value="ERA-3AEB2493V"/>
 <attribute name="TOL" value="0,1%"/>
 </part>
 <part name="R17" library="Resistors" deviceset="R-" device="0402" value="10k">
@@ -7656,9 +7656,9 @@ new: Attribute TP_SIGNAL_NAME&lt;br&gt;
 <attribute name="PART_NO" value="ERA-2AEB103X"/>
 <attribute name="TOL" value="0.1%"/>
 </part>
-<part name="R20" library="Resistors" deviceset="R-" device="0402" value="249k">
-<attribute name="MPN" value="ERA-2AEB2491X"/>
-<attribute name="PART_NO" value="ERA-2AEB2491X"/>
+<part name="R20" library="Resistors" deviceset="R-" device="0603" value="249k">
+<attribute name="MPN" value="ERA-3AEB2493V"/>
+<attribute name="PART_NO" value="ERA-3AEB2493V"/>
 <attribute name="TOL" value="0.1%"/>
 </part>
 <part name="U$14" library="SparkFun-PowerSymbols" deviceset="AGND" device=""/>
@@ -10263,8 +10263,8 @@ internal pull-ups</text>
 </net>
 <net name="VSRC_RAW" class="1">
 <segment>
-<wire x1="241.3" y1="124.46" x2="160.02" y2="124.46" width="0.1524" layer="91"/>
-<wire x1="160.02" y1="124.46" x2="76.2" y2="124.46" width="0.1524" layer="91"/>
+<wire x1="241.3" y1="124.46" x2="162.56" y2="124.46" width="0.1524" layer="91"/>
+<wire x1="162.56" y1="124.46" x2="76.2" y2="124.46" width="0.1524" layer="91"/>
 <junction x="241.3" y="124.46"/>
 <pinref part="VREG.SEL" gate="G$1" pin="1"/>
 <wire x1="241.3" y1="124.46" x2="241.3" y2="116.84" width="0.1524" layer="91"/>
@@ -10272,9 +10272,9 @@ internal pull-ups</text>
 <label x="81.28" y="121.92" size="1.778" layer="95"/>
 <wire x1="76.2" y1="124.46" x2="15.24" y2="124.46" width="0.1524" layer="91"/>
 <wire x1="15.24" y1="124.46" x2="12.7" y2="127" width="0.1524" layer="91"/>
-<junction x="160.02" y="124.46"/>
+<junction x="162.56" y="124.46"/>
 <pinref part="LOW_BAT" gate="G$1" pin="A"/>
-<wire x1="160.02" y1="124.46" x2="162.56" y2="119.38" width="0.1524" layer="91"/>
+<wire x1="162.56" y1="124.46" x2="162.56" y2="119.38" width="0.1524" layer="91"/>
 <wire x1="152.4" y1="116.84" x2="152.4" y2="119.38" width="0.1524" layer="91"/>
 <wire x1="152.4" y1="119.38" x2="162.56" y2="119.38" width="0.1524" layer="91"/>
 <pinref part="STAT2" gate="G$1" pin="A"/>
