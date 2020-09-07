@@ -33,10 +33,5 @@ UsedLibrary="/Users/work-reese/hardware/libraries/ccsg-eagle-libraries/Categorie
 UsedLibrary="/Users/work-reese/hardware/libraries/ccsg-eagle-libraries/Categories/TestPoints.lbr"
 UsedLibrary="/Users/work-reese/Downloads/TRANS_NTLUS3A18PZTAG.lbr"
 
-[Win_1]
-Type="Control Panel"
-Number=0
-
 [Desktop]
-Screen="4480 2560"
-Window="Win_1"
+Screen="1792 1120"
