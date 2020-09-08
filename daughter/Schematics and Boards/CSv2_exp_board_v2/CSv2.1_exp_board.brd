@@ -1714,22 +1714,22 @@ einem neuen Namen ab.</description>
 <param name="layerSetup" value="(1*16)"/>
 <param name="mtCopper" value="0.034796875mm 0.01778125mm 0.01778125mm 0.01778125mm 0.035mm 0.035mm 0.035mm 0.035mm 0.035mm 0.035mm 0.035mm 0.035mm 0.01778125mm 0.01778125mm 0.01778125mm 0.034796875mm"/>
 <param name="mtIsolate" value="0.231140625mm 0.929640625mm 4.5mil 28mil 0.2mm 0.15mm 0.2mm 0.15mm 0.2mm 0.15mm 0.2mm 0.15mm 4.5mil 3.5mil 0.231140625mm"/>
-<param name="mdWireWire" value="4mil"/>
-<param name="mdWirePad" value="4mil"/>
-<param name="mdWireVia" value="4mil"/>
-<param name="mdPadPad" value="4mil"/>
-<param name="mdPadVia" value="4mil"/>
-<param name="mdViaVia" value="4mil"/>
-<param name="mdSmdPad" value="4mil"/>
-<param name="mdSmdVia" value="4mil"/>
-<param name="mdSmdSmd" value="4mil"/>
+<param name="mdWireWire" value="5mil"/>
+<param name="mdWirePad" value="5mil"/>
+<param name="mdWireVia" value="5mil"/>
+<param name="mdPadPad" value="5mil"/>
+<param name="mdPadVia" value="5mil"/>
+<param name="mdViaVia" value="5mil"/>
+<param name="mdSmdPad" value="5mil"/>
+<param name="mdSmdVia" value="5mil"/>
+<param name="mdSmdSmd" value="5mil"/>
 <param name="mdViaViaSameLayer" value="6mil"/>
 <param name="mnLayersViaInSmd" value="2"/>
 <param name="mdCopperDimension" value="10mil"/>
 <param name="mdDrill" value="5mil"/>
 <param name="mdSmdStop" value="0mil"/>
-<param name="msWidth" value="4mil"/>
-<param name="msDrill" value="6mil"/>
+<param name="msWidth" value="5mil"/>
+<param name="msDrill" value="0.2mm"/>
 <param name="msMicroVia" value="9.99mm"/>
 <param name="msBlindViaRatio" value="1.33"/>
 <param name="rvPadTop" value="0.25"/>
@@ -1739,19 +1739,19 @@ einem neuen Namen ab.</description>
 <param name="rvViaInner" value="0.25"/>
 <param name="rvMicroViaOuter" value="0.25"/>
 <param name="rvMicroViaInner" value="0.25"/>
-<param name="rlMinPadTop" value="4mil"/>
+<param name="rlMinPadTop" value="5mil"/>
 <param name="rlMaxPadTop" value="20mil"/>
-<param name="rlMinPadInner" value="4mil"/>
+<param name="rlMinPadInner" value="5mil"/>
 <param name="rlMaxPadInner" value="20mil"/>
-<param name="rlMinPadBottom" value="4mil"/>
+<param name="rlMinPadBottom" value="5mil"/>
 <param name="rlMaxPadBottom" value="20mil"/>
-<param name="rlMinViaOuter" value="4mil"/>
+<param name="rlMinViaOuter" value="5mil"/>
 <param name="rlMaxViaOuter" value="20mil"/>
-<param name="rlMinViaInner" value="4mil"/>
+<param name="rlMinViaInner" value="5mil"/>
 <param name="rlMaxViaInner" value="20mil"/>
-<param name="rlMinMicroViaOuter" value="4mil"/>
+<param name="rlMinMicroViaOuter" value="5mil"/>
 <param name="rlMaxMicroViaOuter" value="20mil"/>
-<param name="rlMinMicroViaInner" value="4mil"/>
+<param name="rlMinMicroViaInner" value="5mil"/>
 <param name="rlMaxMicroViaInner" value="20mil"/>
 <param name="psTop" value="-1"/>
 <param name="psBottom" value="-1"/>
@@ -1982,8 +1982,8 @@ einem neuen Namen ab.</description>
 <attribute name="BOM" value="EXCLUDE" x="14.478" y="17.0942" size="1.778" layer="28" rot="MR0" display="off"/>
 <attribute name="DESC" value="" x="14.478" y="17.0942" size="1.778" layer="27" rot="MR0"/>
 <attribute name="MANUFACTURER" value="Kemet" x="-29.972" y="-64.1858" size="1.778" layer="28" rot="MR0" display="off"/>
-<attribute name="NAME" x="15.1448" y="16.9529" size="0.3048" layer="255" rot="MR0"/>
 <attribute name="NAME" x="15.1448" y="17.5879" size="0.762" layer="48" font="vector" rot="MR0"/>
+<attribute name="NAME" x="15.1448" y="16.9529" size="0.3048" layer="255" rot="MR0"/>
 <attribute name="PARTNO" value="*" x="14.478" y="17.0942" size="1.778" layer="28" rot="MR0" display="off"/>
 <attribute name="SIZE" value="" x="14.478" y="17.0942" size="1.778" layer="27" rot="MR0"/>
 <attribute name="TC" value="X7R" x="-29.972" y="-64.1858" size="1.778" layer="28" rot="MR0" display="off"/>
@@ -1996,8 +1996,8 @@ einem neuen Namen ab.</description>
 <attribute name="BOM" value="EXCLUDE" x="14.4272" y="21.7932" size="1.778" layer="28" rot="MR180" display="off"/>
 <attribute name="DESC" value="" x="14.4272" y="21.7932" size="1.778" layer="27" rot="MR180"/>
 <attribute name="MANUFACTURER" value="Kemet" x="61.4172" y="103.0732" size="1.778" layer="28" rot="MR180" display="off"/>
-<attribute name="NAME" x="13.7604" y="21.9345" size="0.3048" layer="255" rot="MR180"/>
 <attribute name="NAME" x="13.7604" y="23.2045" size="0.762" layer="48" font="vector" rot="MR180"/>
+<attribute name="NAME" x="13.7604" y="21.9345" size="0.3048" layer="255" rot="MR180"/>
 <attribute name="PARTNO" value="*" x="14.4272" y="21.7932" size="1.778" layer="28" rot="MR180" display="off"/>
 <attribute name="SIZE" value="" x="14.4272" y="21.7932" size="1.778" layer="27" rot="MR180"/>
 <attribute name="TC" value="X7R" x="61.4172" y="103.0732" size="1.778" layer="28" rot="MR180" display="off"/>
@@ -2350,8 +2350,8 @@ einem neuen Namen ab.</description>
 <attribute name="MANUFACTURER" value="Panasonic" x="-58.7629" y="99.1616" size="1.778" layer="28" rot="MR90" display="off"/>
 <attribute name="MF" value="" x="-58.7629" y="99.1616" size="1.778" layer="28" rot="MR90" display="off"/>
 <attribute name="MPN" value="ERA-2AEB4991X" x="-58.7629" y="99.1616" size="1.778" layer="28" rot="MR90" display="off"/>
-<attribute name="NAME" x="17.2958" y="32.4548" size="0.762" layer="48" font="vector" rot="MR90"/>
 <attribute name="NAME" x="18.5658" y="32.4548" size="0.3048" layer="48" rot="MR90"/>
+<attribute name="NAME" x="17.2958" y="32.4548" size="0.762" layer="48" font="vector" rot="MR90"/>
 <attribute name="PARTNO" value="ERA-2AEB4991X" x="18.7071" y="33.1216" size="1.778" layer="28" rot="MR90" display="off"/>
 <attribute name="SIZE" value="0402" x="18.7071" y="33.1216" size="1.778" layer="27" rot="MR90"/>
 <attribute name="TC" value="±25ppm/°C" x="18.7071" y="33.1216" size="1.778" layer="27" rot="MR90"/>
@@ -2363,8 +2363,8 @@ einem neuen Namen ab.</description>
 <attribute name="HEIGHT" value="0.4mm" x="19.9517" y="21.5773" size="1.778" layer="28"/>
 <attribute name="MANUFACTURER" value="Panasonic" x="91.0716875" y="-50.81269375" size="1.778" layer="27" display="off"/>
 <attribute name="MPN" value="ERJ-2RKF1003X" x="19.9517" y="21.5773" size="1.778" layer="27" display="off"/>
-<attribute name="NAME" x="21.1899" y="21.435990625" size="0.762" layer="48" font="vector"/>
 <attribute name="NAME" x="19.284903125" y="21.435990625" size="0.3048" layer="48"/>
+<attribute name="NAME" x="21.1899" y="21.435990625" size="0.762" layer="48" font="vector"/>
 <attribute name="PARTNO" value="ERJ-2RKF1003X" x="19.9517" y="21.5773" size="1.778" layer="27" display="off"/>
 <attribute name="SIZE" value="0402" x="19.9517" y="21.5773" size="1.778" layer="28"/>
 <attribute name="TC" value="±100ppm/°C" x="19.9517" y="21.5773" size="1.778" layer="28"/>
@@ -2376,8 +2376,8 @@ einem neuen Namen ab.</description>
 <attribute name="HEIGHT" value="0.4mm" x="20.1295" y="32.5882" size="1.778" layer="27" rot="MR0"/>
 <attribute name="MANUFACTURER" value="Panasonic" x="-49.7205" y="-44.8818" size="1.778" layer="28" rot="MR0" display="off"/>
 <attribute name="MPN" value="ERA-2AEB8252X" x="-49.7205" y="-44.8818" size="1.778" layer="28" rot="MR0" display="off"/>
-<attribute name="NAME" x="20.7963" y="32.4469" size="0.3048" layer="48" rot="MR0"/>
 <attribute name="NAME" x="20.5423" y="33.1581" size="0.762" layer="48" font="vector" rot="MR0"/>
+<attribute name="NAME" x="20.7963" y="32.4469" size="0.3048" layer="48" rot="MR0"/>
 <attribute name="PARTNO" value="ERA-2AEB8252X" x="20.1295" y="32.5882" size="1.778" layer="28" rot="MR0" display="off"/>
 <attribute name="SIZE" value="0402" x="20.1295" y="32.5882" size="1.778" layer="27" rot="MR0"/>
 <attribute name="TC" value="±25ppm/°C" x="20.1295" y="32.5882" size="1.778" layer="27" rot="MR0"/>
@@ -2401,8 +2401,8 @@ einem neuen Namen ab.</description>
 <attribute name="HEIGHT" value="0.4mm" x="17.1831" y="23.1521" size="1.778" layer="28" rot="R90"/>
 <attribute name="MANUFACTURER" value="Panasonic" x="94.6531" y="43.4721" size="1.778" layer="27" rot="R90" display="off"/>
 <attribute name="MPN" value="ERJ-2RKF39R0X" x="17.1831" y="23.1521" size="1.778" layer="27" rot="R90" display="off"/>
-<attribute name="NAME" x="17.3244" y="24.3903" size="0.762" layer="48" font="vector" rot="R90"/>
 <attribute name="NAME" x="17.3244" y="22.4853" size="0.3048" layer="48" rot="R90"/>
+<attribute name="NAME" x="17.3244" y="24.3903" size="0.762" layer="48" font="vector" rot="R90"/>
 <attribute name="PARTNO" value="ERJ-2RKF39R0X" x="17.1831" y="23.1521" size="1.778" layer="27" rot="R90" display="off"/>
 <attribute name="SIZE" value="0402" x="17.1831" y="23.1521" size="1.778" layer="28" rot="R90"/>
 <attribute name="TC" value="±100ppm/°C" x="17.1831" y="23.1521" size="1.778" layer="28" rot="R90"/>
@@ -2450,8 +2450,8 @@ einem neuen Namen ab.</description>
 <attribute name="HEIGHT" value="0.4mm" x="16.3449" y="11.176" size="1.778" layer="27" rot="MR90"/>
 <attribute name="MANUFACTURER" value="Vishay Dale" x="-56.0451" y="92.456" size="1.778" layer="28" rot="MR90" display="off"/>
 <attribute name="MPN" value="CRCW04021R33FKED" x="-56.0451" y="92.456" size="1.778" layer="28" rot="MR90" display="off"/>
-<attribute name="NAME" x="16.1528" y="5.9118" size="0.762" layer="26" font="vector" ratio="20" rot="MR90"/>
 <attribute name="NAME" x="16.2036" y="10.5092" size="0.3048" layer="48" rot="MR90"/>
+<attribute name="NAME" x="16.1528" y="5.9118" size="0.762" layer="26" font="vector" ratio="20" rot="MR90"/>
 <attribute name="PARTNO" value="CRCW04021R33FKED" x="16.3449" y="11.176" size="1.778" layer="28" rot="MR90" display="off"/>
 <attribute name="SIZE" value="0402" x="16.3449" y="11.176" size="1.778" layer="27" rot="MR90"/>
 <attribute name="TC" value="±100ppm/°C" x="16.3449" y="11.176" size="1.778" layer="27" rot="MR90"/>
@@ -2678,8 +2678,8 @@ einem neuen Namen ab.</description>
 <attribute name="DESC" value="CAP CER 3.9PF 50V C0G/NP0 0402" x="37.4619" y="6.1024" size="1.778" layer="27" rot="R90"/>
 <attribute name="MANUFACTURER" value="Murata" x="37.4619" y="6.1024" size="1.778" layer="27" rot="R90" display="off"/>
 <attribute name="MPN" value="GJM1555C1H3R9WB01D" x="37.4619" y="6.1024" size="1.778" layer="27" rot="R90" display="off"/>
-<attribute name="NAME" x="37.6032" y="5.4356" size="0.3048" layer="255" rot="R90"/>
 <attribute name="NAME" x="35.6474" y="5.2832" size="0.762" layer="48" font="vector" ratio="6"/>
+<attribute name="NAME" x="37.6032" y="5.4356" size="0.3048" layer="255" rot="R90"/>
 <attribute name="PARTNO" value="GJM1555C1H3R9WB01D" x="37.4619" y="6.1024" size="1.778" layer="27" rot="R90" display="off"/>
 <attribute name="SIZE" value="0402" x="37.4619" y="6.1024" size="1.778" layer="27" rot="R90"/>
 <attribute name="TC" value="C0G, NP0" x="37.4619" y="6.1024" size="1.778" layer="27" rot="R90" display="off"/>
@@ -3031,8 +3031,8 @@ einem neuen Namen ab.</description>
 </element>
 <element name="R8" library="Resistors" package="R0402" value="" x="1.6637" y="35.5346" smashed="yes" rot="MR270">
 <attribute name="MANUFACTURER" value="Panasonic" x="1.6637" y="35.5346" size="1.778" layer="28" rot="MR270" display="off"/>
-<attribute name="NAME" x="1.805" y="36.2014" size="0.3048" layer="52" rot="MR270"/>
 <attribute name="NAME" x="1.805" y="36.2014" size="0.3048" layer="26" rot="MR270"/>
+<attribute name="NAME" x="1.805" y="36.2014" size="0.3048" layer="52" rot="MR270"/>
 <attribute name="TOL" value="5%" x="1.6637" y="35.5346" size="1.778" layer="28" rot="MR270" display="off"/>
 </element>
 <element name="C32" library="Capacitors" package="C0402" value="1u" x="13.5509" y="42.1259" smashed="yes" rot="MR0">
@@ -3049,8 +3049,8 @@ einem neuen Namen ab.</description>
 </element>
 <element name="R11" library="Resistors" package="R0402" value="" x="24.13" y="40.64" smashed="yes" rot="MR180">
 <attribute name="MANUFACTURER" value="Panasonic" x="24.13" y="40.64" size="1.778" layer="28" rot="MR180" display="off"/>
-<attribute name="NAME" x="23.4632" y="40.7813" size="0.3048" layer="52" rot="MR180"/>
 <attribute name="NAME" x="23.4632" y="40.7813" size="0.3048" layer="26" rot="MR180"/>
+<attribute name="NAME" x="23.4632" y="40.7813" size="0.3048" layer="52" rot="MR180"/>
 <attribute name="TOL" value="5%" x="24.13" y="40.64" size="1.778" layer="28" rot="MR180" display="off"/>
 </element>
 </elements>
