@@ -1421,7 +1421,7 @@ http://katalog.we-online.de/en/em/COM_3_1_THT_SMT_TYPE_C_RECEPTACLE_HORIZONTAL/6
 </devices>
 </deviceset>
 <deviceset name="HIROSE-DF40_50-PIN_CONNECTORS" prefix="J">
-<description>Hirose DF40 series 44-pin mezzanine type connectors at 0.4mm pitch.
+<description>Hirose DF40 series 50-pin mezzanine type connectors at 0.4mm pitch.
 &lt;p&gt;
 Specification and Variants: https://www.hirose.com/product/document?clcode=&amp;productname=&amp;series=DF40&amp;documenttype=Catalog&amp;lang=en&amp;documentid=D31649_en</description>
 <gates>
@@ -1665,19 +1665,23 @@ Pad dimensions from http://www.kemet.com/Lists/ProductCatalog/Attachments/53/KEM
 <package name="C1206">
 <description>&lt;b&gt;SMD Capacitor&lt;/b&gt;&lt;p&gt;
 Pad dimensions from http://www.kemet.com/Lists/ProductCatalog/Attachments/53/KEM_C1002_X7R_SMD.pdf</description>
-<wire x1="-2.2" y1="1.05" x2="2.2" y2="1.05" width="0.0508" layer="255"/>
-<wire x1="2.2" y1="1.05" x2="2.2" y2="-1.05" width="0.0508" layer="255"/>
-<wire x1="-2.2" y1="-1.05" x2="-2.2" y2="1.05" width="0.0508" layer="255"/>
+<wire x1="-2.2" y1="1.05" x2="2.2" y2="1.05" width="0.0508" layer="51"/>
+<wire x1="2.2" y1="1.05" x2="2.2" y2="-1.05" width="0.0508" layer="51"/>
+<wire x1="-2.2" y1="-1.05" x2="-2.2" y2="1.05" width="0.0508" layer="51"/>
 <smd name="2" x="1.5" y="0" dx="1.15" dy="1.8" layer="1"/>
 <smd name="1" x="-1.5" y="0" dx="1.15" dy="1.8" layer="1"/>
 <text x="-1.2398" y="1.153" size="0.6096" layer="25">&gt;Name</text>
 <rectangle x1="-0.3" y1="-0.7" x2="0.3" y2="0.7" layer="35"/>
 <rectangle x1="-2.2" y1="-1.05" x2="2.2" y2="1.05" layer="43"/>
-<wire x1="-2.2" y1="-1.05" x2="2.2" y2="-1.05" width="0.0508" layer="255"/>
+<wire x1="-2.2" y1="-1.05" x2="2.2" y2="-1.05" width="0.0508" layer="51"/>
 <wire x1="-2.2" y1="-1.05" x2="2.2" y2="-1.05" width="0.0508" layer="39"/>
 <wire x1="2.2" y1="-1.05" x2="2.2" y2="1.05" width="0.0508" layer="39"/>
 <wire x1="2.2" y1="1.05" x2="-2.2" y2="1.05" width="0.0508" layer="39"/>
 <wire x1="-2.2" y1="1.05" x2="-2.2" y2="-1.05" width="0.0508" layer="39"/>
+<wire x1="-2.2" y1="1.05" x2="2.2" y2="1.05" width="0.0508" layer="255"/>
+<wire x1="2.2" y1="1.05" x2="2.2" y2="-1.05" width="0.0508" layer="255"/>
+<wire x1="-2.2" y1="-1.05" x2="-2.2" y2="1.05" width="0.0508" layer="255"/>
+<wire x1="-2.2" y1="-1.05" x2="2.2" y2="-1.05" width="0.0508" layer="255"/>
 </package>
 <package name="C1210">
 <description>&lt;b&gt;SMD Capacitor&lt;/b&gt;&lt;p&gt;
@@ -1822,15 +1826,19 @@ Pad dimensions from https://www.vishay.com/docs/45017/vjw1bcsoldfootdesign.pdf</
 <wire x1="1.45" y1="0.65" x2="1.45" y2="-0.65" width="0.0508" layer="39"/>
 <wire x1="1.45" y1="-0.65" x2="-1.45" y2="-0.65" width="0.0508" layer="39"/>
 <wire x1="-1.45" y1="-0.65" x2="-1.45" y2="0.65" width="0.0508" layer="39"/>
-<wire x1="1.45" y1="0.65" x2="1.45" y2="-0.65" width="0.0762" layer="255"/>
-<wire x1="1.45" y1="-0.65" x2="-1.45" y2="-0.65" width="0.0762" layer="255"/>
-<wire x1="-1.45" y1="-0.65" x2="-1.45" y2="0.65" width="0.0762" layer="255"/>
-<wire x1="-1.45" y1="0.65" x2="1.45" y2="0.65" width="0.0762" layer="255"/>
+<wire x1="1.45" y1="0.65" x2="1.45" y2="-0.65" width="0.0762" layer="51"/>
+<wire x1="1.45" y1="-0.65" x2="-1.45" y2="-0.65" width="0.0762" layer="51"/>
+<wire x1="-1.45" y1="-0.65" x2="-1.45" y2="0.65" width="0.0762" layer="51"/>
+<wire x1="-1.45" y1="0.65" x2="1.45" y2="0.65" width="0.0762" layer="51"/>
 <smd name="1" x="-0.75" y="0" dx="0.8" dy="0.8" layer="1"/>
 <smd name="2" x="0.75" y="0" dx="0.8" dy="0.8" layer="1"/>
 <text x="-1.25" y="0.759" size="0.6096" layer="25" font="vector">&gt;Name</text>
 <rectangle x1="-0.1999" y1="-0.3" x2="0.1999" y2="0.3" layer="35"/>
 <rectangle x1="-1.45" y1="-0.65" x2="1.45" y2="0.65" layer="43"/>
+<wire x1="1.45" y1="0.65" x2="1.45" y2="-0.65" width="0.0762" layer="255"/>
+<wire x1="1.45" y1="-0.65" x2="-1.45" y2="-0.65" width="0.0762" layer="255"/>
+<wire x1="-1.45" y1="-0.65" x2="-1.45" y2="0.65" width="0.0762" layer="255"/>
+<wire x1="-1.45" y1="0.65" x2="1.45" y2="0.65" width="0.0762" layer="255"/>
 </package>
 <package name="CHIPLED_0603">
 <description>&lt;b&gt;CHIPLED&lt;/b&gt;&lt;p&gt;
@@ -2514,7 +2522,7 @@ SparkFun BigTime Watch Kit&lt;/a&gt;&lt;/li&gt;&lt;/ul&gt;
 </devices>
 </deviceset>
 <deviceset name="FDN340P" prefix="Q">
-<description>SINGLE P-CHANNEL, LOGIC LEVEL, POWERTRENCH MOSFET</description>
+<description>ON Semi SINGLE P-CHANNEL, LOGIC LEVEL, POWERTRENCH MOSFET</description>
 <gates>
 <gate name="G$0" symbol="ON_SEMI_FDN340P_0_0" x="0" y="0"/>
 </gates>
@@ -3632,11 +3640,15 @@ Pad dimensions from https://www.vishay.com/docs/45017/vjw1bcsoldfootdesign.pdf</
 <smd name="2" x="0.95" y="0" dx="0.9" dy="1.3" layer="1"/>
 <text x="-1.22" y="0.983" size="0.6096" layer="25">&gt;Name</text>
 <rectangle x1="-0.1001" y1="-0.4001" x2="0.1001" y2="0.4001" layer="35"/>
+<wire x1="-1.65" y1="-0.9" x2="1.65" y2="-0.9" width="0.0508" layer="51"/>
+<wire x1="1.65" y1="-0.9" x2="1.65" y2="0.9" width="0.0508" layer="51"/>
+<wire x1="1.65" y1="0.9" x2="-1.65" y2="0.9" width="0.0508" layer="51"/>
+<wire x1="-1.65" y1="0.9" x2="-1.65" y2="-0.9" width="0.0508" layer="51"/>
+<rectangle x1="-1.65" y1="-0.9" x2="1.65" y2="0.9" layer="43"/>
 <wire x1="-1.65" y1="-0.9" x2="1.65" y2="-0.9" width="0.0508" layer="255"/>
 <wire x1="1.65" y1="-0.9" x2="1.65" y2="0.9" width="0.0508" layer="255"/>
 <wire x1="1.65" y1="0.9" x2="-1.65" y2="0.9" width="0.0508" layer="255"/>
 <wire x1="-1.65" y1="0.9" x2="-1.65" y2="-0.9" width="0.0508" layer="255"/>
-<rectangle x1="-1.65" y1="-0.9" x2="1.65" y2="0.9" layer="43"/>
 </package>
 </packages>
 <symbols>
@@ -3748,6 +3760,7 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <rectangle x1="-2.975" y1="0.72" x2="-1.445" y2="1.23" layer="29"/>
 <rectangle x1="1.425" y1="-1.23" x2="2.955" y2="-0.72" layer="29"/>
 <rectangle x1="-2.975" y1="-1.23" x2="-1.445" y2="-0.72" layer="29"/>
+<circle x="-2.54" y="1.905" radius="0.254" width="0" layer="21"/>
 </package>
 <package name="OPA357AIDBVTG4">
 <description>TI-OPA35XDBV6</description>
@@ -4761,6 +4774,10 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <smd name="2" x="0.9" y="0" dx="0.8" dy="1.2" layer="1"/>
 <text x="0" y="0.889" size="0.6096" layer="25" font="vector" ratio="20" align="bottom-center">&gt;NAME</text>
 <text x="0" y="-0.889" size="0.6096" layer="27" font="vector" ratio="20" align="top-center">&gt;VALUE</text>
+<wire x1="-1.5" y1="0.8" x2="1.5" y2="0.8" width="0.0508" layer="51"/>
+<wire x1="1.5" y1="0.8" x2="1.5" y2="-0.8" width="0.0508" layer="51"/>
+<wire x1="1.5" y1="-0.8" x2="-1.5" y2="-0.8" width="0.0508" layer="51"/>
+<wire x1="-1.5" y1="-0.8" x2="-1.5" y2="0.8" width="0.0508" layer="51"/>
 <wire x1="-1.5" y1="0.8" x2="1.5" y2="0.8" width="0.0508" layer="39"/>
 <wire x1="1.5" y1="0.8" x2="1.5" y2="-0.8" width="0.0508" layer="39"/>
 <wire x1="1.5" y1="-0.8" x2="-1.5" y2="-0.8" width="0.0508" layer="39"/>
@@ -6933,7 +6950,9 @@ new: Attribute TP_SIGNAL_NAME&lt;br&gt;
 </part>
 <part name="U.IP" library="Processors" deviceset="ATSAM3X8EA" device="AU" value="ATSAM3X8EA-AU">
 <attribute name="MANUFACTURER" value="Atmel"/>
+<attribute name="MP" value="ATSAM3X8EAAU"/>
 <attribute name="MPN" value="ATSAM3X8EAAU"/>
+<attribute name="PART_NO" value="ATSAM3X8EAAU"/>
 </part>
 <part name="GND109" library="Supplies" deviceset="GND" device=""/>
 <part name="L104" library="Inductors" deviceset="MH2029-300Y" device="" value="MH2029-300Y">
@@ -7263,7 +7282,9 @@ new: Attribute TP_SIGNAL_NAME&lt;br&gt;
 <attribute name="PART_NO" value="RC0402JR-07100KL"/>
 </part>
 <part name="S.NRST" library="Switches" deviceset="MOMENTARY-SWITCH-SPST" device="-SMD-5.2MM" value="Momentary">
-<attribute name="MPN" value="EVQP7L01P"/>
+<attribute name="MP" value="RS-187R05A2-DS MT RT"/>
+<attribute name="MPN" value="RS-187R05A2-DS MT RT"/>
+<attribute name="PART_NO" value="RS-187R05A2-DS MT RT"/>
 </part>
 <part name="C28" library="Capacitors" deviceset="C-" device="0402" value="10n">
 <attribute name="MPN" value="C0402C103K8RACTU"/>
@@ -7386,9 +7407,9 @@ new: Attribute TP_SIGNAL_NAME&lt;br&gt;
 <attribute name="PART_NO" value="OPA357AIDBVTG4"/>
 </part>
 <part name="SUPPLY30" library="Supplies" deviceset="+3V3" device=""/>
-<part name="R40" library="Resistors" deviceset="R-" device="0402" value="249k">
-<attribute name="MPN" value="ERA-2AEB2491X"/>
-<attribute name="PART_NO" value="ERA-2AEB2491X"/>
+<part name="R40" library="Resistors" deviceset="R-" device="0603" value="249k">
+<attribute name="MPN" value="ERA-3AEB2493V"/>
+<attribute name="PART_NO" value="ERA-3AEB2493V"/>
 <attribute name="TOL" value="0,1%"/>
 </part>
 <part name="R53" library="Resistors" deviceset="R-" device="0402" value="10k">
@@ -7409,9 +7430,9 @@ new: Attribute TP_SIGNAL_NAME&lt;br&gt;
 <attribute name="PART_NO" value="ERA-2AEB103X"/>
 <attribute name="TOL" value="0.1%"/>
 </part>
-<part name="R56" library="Resistors" deviceset="R-" device="0402" value="249k">
-<attribute name="MPN" value="ERA-2AEB2491X"/>
-<attribute name="PART_NO" value="ERA-2AEB2491X"/>
+<part name="R56" library="Resistors" deviceset="R-" device="0603" value="249k">
+<attribute name="MPN" value="ERA-3AEB2493V"/>
+<attribute name="PART_NO" value="ERA-3AEB2493V"/>
 <attribute name="TOL" value="0.1%"/>
 </part>
 <part name="U$32" library="SparkFun-PowerSymbols" deviceset="AGND" device=""/>
@@ -7459,9 +7480,9 @@ new: Attribute TP_SIGNAL_NAME&lt;br&gt;
 <attribute name="PART_NO" value="OPA357AIDBVTG4"/>
 </part>
 <part name="SUPPLY22" library="Supplies" deviceset="+3V3" device=""/>
-<part name="R24" library="Resistors" deviceset="R-" device="0402" value="249k">
-<attribute name="MPN" value="ERA-2AEB2491X"/>
-<attribute name="PART_NO" value="ERA-2AEB2491X"/>
+<part name="R24" library="Resistors" deviceset="R-" device="0603" value="249k">
+<attribute name="MPN" value="ERA-3AEB2493V"/>
+<attribute name="PART_NO" value="ERA-3AEB2493V"/>
 <attribute name="TOL" value="0,1%"/>
 </part>
 <part name="R33" library="Resistors" deviceset="R-" device="0402" value="10k">
@@ -7482,9 +7503,9 @@ new: Attribute TP_SIGNAL_NAME&lt;br&gt;
 <attribute name="PART_NO" value="ERA-2AEB103X"/>
 <attribute name="TOL" value="0.1%"/>
 </part>
-<part name="R36" library="Resistors" deviceset="R-" device="0402" value="249k">
-<attribute name="MPN" value="ERA-2AEB2491X"/>
-<attribute name="PART_NO" value="ERA-2AEB2491X"/>
+<part name="R36" library="Resistors" deviceset="R-" device="0603" value="249k">
+<attribute name="MPN" value="ERA-3AEB2493V"/>
+<attribute name="PART_NO" value="ERA-3AEB2493V"/>
 <attribute name="TOL" value="0.1%"/>
 </part>
 <part name="U$26" library="SparkFun-PowerSymbols" deviceset="AGND" device=""/>
@@ -7539,9 +7560,9 @@ new: Attribute TP_SIGNAL_NAME&lt;br&gt;
 <attribute name="PART_NO" value="OPA357AIDBVTG4"/>
 </part>
 <part name="SUPPLY19" library="Supplies" deviceset="+3V3" device=""/>
-<part name="R25" library="Resistors" deviceset="R-" device="0402" value="249k">
-<attribute name="MPN" value="ERA-2AEB2491X"/>
-<attribute name="PART_NO" value="ERA-2AEB2491X"/>
+<part name="R25" library="Resistors" deviceset="R-" device="0603" value="249k">
+<attribute name="MPN" value="ERA-3AEB2493V"/>
+<attribute name="PART_NO" value="ERA-3AEB2493V"/>
 <attribute name="TOL" value="0,1%"/>
 </part>
 <part name="R26" library="Resistors" deviceset="R-" device="0402" value="10k">
@@ -7562,9 +7583,9 @@ new: Attribute TP_SIGNAL_NAME&lt;br&gt;
 <attribute name="PART_NO" value="ERA-2AEB103X"/>
 <attribute name="TOL" value="0.1%"/>
 </part>
-<part name="R29" library="Resistors" deviceset="R-" device="0402" value="249k">
-<attribute name="MPN" value="ERA-2AEB2491X"/>
-<attribute name="PART_NO" value="ERA-2AEB2491X"/>
+<part name="R29" library="Resistors" deviceset="R-" device="0603" value="249k">
+<attribute name="MPN" value="ERA-3AEB2493V"/>
+<attribute name="PART_NO" value="ERA-3AEB2493V"/>
 <attribute name="TOL" value="0.1%"/>
 </part>
 <part name="U$21" library="SparkFun-PowerSymbols" deviceset="AGND" device=""/>
@@ -7612,9 +7633,9 @@ new: Attribute TP_SIGNAL_NAME&lt;br&gt;
 <attribute name="PART_NO" value="OPA357AIDBVTG4"/>
 </part>
 <part name="SUPPLY16" library="Supplies" deviceset="+3V3" device=""/>
-<part name="R16" library="Resistors" deviceset="R-" device="0402" value="249k">
-<attribute name="MPN" value="ERA-2AEB2491X"/>
-<attribute name="PART_NO" value="ERA-2AEB2491X"/>
+<part name="R16" library="Resistors" deviceset="R-" device="0603" value="249k">
+<attribute name="MPN" value="ERA-3AEB2493V"/>
+<attribute name="PART_NO" value="ERA-3AEB2493V"/>
 <attribute name="TOL" value="0,1%"/>
 </part>
 <part name="R17" library="Resistors" deviceset="R-" device="0402" value="10k">
@@ -7635,9 +7656,9 @@ new: Attribute TP_SIGNAL_NAME&lt;br&gt;
 <attribute name="PART_NO" value="ERA-2AEB103X"/>
 <attribute name="TOL" value="0.1%"/>
 </part>
-<part name="R20" library="Resistors" deviceset="R-" device="0402" value="249k">
-<attribute name="MPN" value="ERA-2AEB2491X"/>
-<attribute name="PART_NO" value="ERA-2AEB2491X"/>
+<part name="R20" library="Resistors" deviceset="R-" device="0603" value="249k">
+<attribute name="MPN" value="ERA-3AEB2493V"/>
+<attribute name="PART_NO" value="ERA-3AEB2493V"/>
 <attribute name="TOL" value="0.1%"/>
 </part>
 <part name="U$14" library="SparkFun-PowerSymbols" deviceset="AGND" device=""/>
@@ -7686,7 +7707,9 @@ new: Attribute TP_SIGNAL_NAME&lt;br&gt;
 <attribute name="PART_NO" value="TSX-3225 24.0000MF10Z-C3"/>
 </part>
 <part name="S.ERASE" library="Switches" deviceset="MOMENTARY-SWITCH-SPST" device="-SMD-5.2MM" value="Momentary">
-<attribute name="MPN" value="EVQP7L01P"/>
+<attribute name="MP" value="RS-187R05A2-DS MT RT"/>
+<attribute name="MPN" value="RS-187R05A2-DS MT RT"/>
+<attribute name="PART_NO" value="RS-187R05A2-DS MT RT"/>
 </part>
 <part name="MN.UART.TX" library="Connectors" deviceset="JUMPER-SMT_2_NC_PASTE" device="_NO-SILK" package3d_urn="urn:adsk.eagle:package:39283/1"/>
 <part name="MN.UART.RX" library="Connectors" deviceset="JUMPER-SMT_2_NC_PASTE" device="_NO-SILK" package3d_urn="urn:adsk.eagle:package:39283/1"/>
@@ -7725,7 +7748,11 @@ new: Attribute TP_SIGNAL_NAME&lt;br&gt;
 <attribute name="TOL" value="0.5pF"/>
 <attribute name="VOLTAGE" value="10V"/>
 </part>
-<part name="J3" library="Connectors" deviceset="HIROSE-DF40_50-PIN_CONNECTORS" device="-HEADER"/>
+<part name="J3" library="Connectors" deviceset="HIROSE-DF40_50-PIN_CONNECTORS" device="-HEADER">
+<attribute name="MP" value="DF40C-50DP-0.4V(51)"/>
+<attribute name="MPN" value="DF40C-50DP-0.4V(51)"/>
+<attribute name="PART_NO" value="DF40C-50DP-0.4V(51)"/>
+</part>
 <part name="LOW_BAT" library="Diodes" deviceset="LED" device="CHIPLED_0603">
 <attribute name="COLOR" value="Orange"/>
 <attribute name="MP" value="LO Q976-PS-25-0-20-R18"/>
@@ -7820,7 +7847,11 @@ new: Attribute TP_SIGNAL_NAME&lt;br&gt;
 <attribute name="MPN" value="ERJ-2GEJ271X"/>
 <attribute name="PART_NO" value="ERJ-2GEJ271X"/>
 </part>
-<part name="JP1" library="Connectors" deviceset="J-HEADER-1X12" device=""/>
+<part name="JP1" library="Connectors" deviceset="J-HEADER-1X12" device="">
+<attribute name="MP" value="TSW-112-07-T-S"/>
+<attribute name="MPN" value="TSW-112-07-T-S"/>
+<attribute name="PART_NO" value="TSW-112-07-T-S"/>
+</part>
 <part name="SUPPLY11" library="Supplies" deviceset="+3V3" device=""/>
 <part name="GND6" library="Supplies" deviceset="GND" device=""/>
 <part name="CHRG" library="Connectors" deviceset="JUMPER-SMT_2_NC_PASTE" device="_NO-SILK" package3d_urn="urn:adsk.eagle:package:39283/1"/>
@@ -7865,6 +7896,8 @@ new: Attribute TP_SIGNAL_NAME&lt;br&gt;
 <attribute name="MANUFACTURER" x="220.98" y="96.52" size="1.778" layer="96" display="off"/>
 <attribute name="NAME" x="215.9" y="93.98" size="1.778" layer="95"/>
 <attribute name="MPN" x="215.9" y="91.44" size="1.778" layer="96"/>
+<attribute name="MP" x="220.98" y="96.52" size="1.778" layer="96" display="off"/>
+<attribute name="PART_NO" x="220.98" y="96.52" size="1.778" layer="96" display="off"/>
 </instance>
 <instance part="GND109" gate="1" x="246.38" y="261.62" smashed="yes"/>
 <instance part="L104" gate="G$1" x="304.8" y="264.16" smashed="yes">
@@ -8137,6 +8170,8 @@ new: Attribute TP_SIGNAL_NAME&lt;br&gt;
 <instance part="S.NRST" gate="G$1" x="281.94" y="302.26" smashed="yes" rot="R90">
 <attribute name="NAME" x="285.496" y="302.26" size="1.778" layer="95" font="vector" rot="R90" align="bottom-center"/>
 <attribute name="MPN" x="281.94" y="302.26" size="1.778" layer="96" rot="R90" display="off"/>
+<attribute name="MP" x="281.94" y="302.26" size="1.778" layer="96" rot="R90" display="off"/>
+<attribute name="PART_NO" x="281.94" y="302.26" size="1.778" layer="96" rot="R90" display="off"/>
 </instance>
 <instance part="C28" gate="G$1" x="281.94" y="314.96" smashed="yes">
 <attribute name="NAME" x="282.956" y="315.595" size="1.778" layer="95"/>
@@ -8164,6 +8199,8 @@ new: Attribute TP_SIGNAL_NAME&lt;br&gt;
 <instance part="S.ERASE" gate="G$1" x="350.52" y="91.44" smashed="yes" rot="R180">
 <attribute name="NAME" x="350.52" y="94.996" size="1.778" layer="95" font="vector" rot="R180" align="bottom-center"/>
 <attribute name="MPN" x="350.52" y="91.44" size="1.778" layer="96" rot="R180" display="off"/>
+<attribute name="MP" x="350.52" y="91.44" size="1.778" layer="96" rot="R180" display="off"/>
+<attribute name="PART_NO" x="350.52" y="91.44" size="1.778" layer="96" rot="R180" display="off"/>
 </instance>
 <instance part="MN.UART.TX" gate="G$1" x="510.54" y="205.74" smashed="yes">
 <attribute name="NAME" x="510.54" y="208.28" size="1.778" layer="95" font="vector" align="bottom-center"/>
@@ -9518,6 +9555,9 @@ internal pull-ups</text>
 </instance>
 <instance part="J3" gate="G$1" x="508" y="137.16" smashed="yes" rot="R90">
 <attribute name="NAME" x="474.1966" y="129.51801875" size="1.273659375" layer="95" rot="R90"/>
+<attribute name="MPN" x="508" y="137.16" size="1.778" layer="96" rot="R90" display="off"/>
+<attribute name="MP" x="508" y="137.16" size="1.778" layer="96" rot="R90" display="off"/>
+<attribute name="PART_NO" x="508" y="137.16" size="1.778" layer="96" rot="R90" display="off"/>
 </instance>
 <instance part="LOW_BAT" gate="G$1" x="152.4" y="114.3" smashed="yes">
 <attribute name="NAME" x="155.956" y="109.728" size="1.778" layer="95" rot="R90"/>
@@ -9621,6 +9661,9 @@ internal pull-ups</text>
 <instance part="JP1" gate="G$1" x="436.88" y="25.4" smashed="yes">
 <attribute name="NAME" x="427.99" y="43.815" size="1.778" layer="95"/>
 <attribute name="VALUE" x="430.53" y="7.62" size="1.778" layer="96"/>
+<attribute name="MP" x="436.88" y="25.4" size="1.778" layer="96" display="off"/>
+<attribute name="MPN" x="436.88" y="25.4" size="1.778" layer="96" display="off"/>
+<attribute name="PART_NO" x="436.88" y="25.4" size="1.778" layer="96" display="off"/>
 </instance>
 <instance part="SUPPLY11" gate="G$1" x="416.56" y="48.26" smashed="yes"/>
 <instance part="GND6" gate="1" x="416.56" y="5.08" smashed="yes"/>
@@ -10220,8 +10263,8 @@ internal pull-ups</text>
 </net>
 <net name="VSRC_RAW" class="1">
 <segment>
-<wire x1="241.3" y1="124.46" x2="160.02" y2="124.46" width="0.1524" layer="91"/>
-<wire x1="160.02" y1="124.46" x2="76.2" y2="124.46" width="0.1524" layer="91"/>
+<wire x1="241.3" y1="124.46" x2="162.56" y2="124.46" width="0.1524" layer="91"/>
+<wire x1="162.56" y1="124.46" x2="76.2" y2="124.46" width="0.1524" layer="91"/>
 <junction x="241.3" y="124.46"/>
 <pinref part="VREG.SEL" gate="G$1" pin="1"/>
 <wire x1="241.3" y1="124.46" x2="241.3" y2="116.84" width="0.1524" layer="91"/>
@@ -10229,9 +10272,9 @@ internal pull-ups</text>
 <label x="81.28" y="121.92" size="1.778" layer="95"/>
 <wire x1="76.2" y1="124.46" x2="15.24" y2="124.46" width="0.1524" layer="91"/>
 <wire x1="15.24" y1="124.46" x2="12.7" y2="127" width="0.1524" layer="91"/>
-<junction x="160.02" y="124.46"/>
+<junction x="162.56" y="124.46"/>
 <pinref part="LOW_BAT" gate="G$1" pin="A"/>
-<wire x1="160.02" y1="124.46" x2="162.56" y2="119.38" width="0.1524" layer="91"/>
+<wire x1="162.56" y1="124.46" x2="162.56" y2="119.38" width="0.1524" layer="91"/>
 <wire x1="152.4" y1="116.84" x2="152.4" y2="119.38" width="0.1524" layer="91"/>
 <wire x1="152.4" y1="119.38" x2="162.56" y2="119.38" width="0.1524" layer="91"/>
 <pinref part="STAT2" gate="G$1" pin="A"/>
