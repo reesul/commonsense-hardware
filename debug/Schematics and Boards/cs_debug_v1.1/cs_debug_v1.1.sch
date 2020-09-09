@@ -7443,8 +7443,8 @@ new: Attribute TP_SIGNAL_NAME&lt;br&gt;
 <attribute name="TOL" value="1%"/>
 </part>
 <part name="R58" library="Resistors" deviceset="R-" device="0603" value="5.1">
-<attribute name="MPN" value="ERJ-3BQF5R1V"/>
-<attribute name="PART_NO" value="ERJ-3BQF5R1V"/>
+<attribute name="MPN" value="ERJ-U03F5R10V"/>
+<attribute name="PART_NO" value="ERJ-U03F5R10V"/>
 <attribute name="TOL" value="1%"/>
 </part>
 <part name="Q9" library="Switches" deviceset="FDN340P" device="">
@@ -7516,8 +7516,8 @@ new: Attribute TP_SIGNAL_NAME&lt;br&gt;
 <attribute name="TOL" value="1%"/>
 </part>
 <part name="R38" library="Resistors" deviceset="R-" device="0603" value="5.1">
-<attribute name="MPN" value="ERJ-3BQF5R1V"/>
-<attribute name="PART_NO" value="ERJ-3BQF5R1V"/>
+<attribute name="MPN" value="ERJ-U03F5R10V"/>
+<attribute name="PART_NO" value="ERJ-U03F5R10V"/>
 <attribute name="TOL" value="1%"/>
 </part>
 <part name="C13" library="Capacitors" deviceset="C-" device="0402" value="0.1u">
@@ -7535,8 +7535,8 @@ new: Attribute TP_SIGNAL_NAME&lt;br&gt;
 <part name="U$28" library="SparkFun-PowerSymbols" deviceset="AGND" device=""/>
 <part name="U$29" library="SparkFun-PowerSymbols" deviceset="AGND" device=""/>
 <part name="R39" library="Resistors" deviceset="R-" device="0603" value="5.1">
-<attribute name="MPN" value="ERJ-3BQF5R1V"/>
-<attribute name="PART_NO" value="ERJ-3BQF5R1V"/>
+<attribute name="MPN" value="ERJ-U03F5R10V"/>
+<attribute name="PART_NO" value="ERJ-U03F5R10V"/>
 <attribute name="TOL" value="1%"/>
 </part>
 <part name="C14" library="Capacitors" deviceset="C-" device="0402" value="0.1u">
@@ -7596,8 +7596,8 @@ new: Attribute TP_SIGNAL_NAME&lt;br&gt;
 <attribute name="TOL" value="1%"/>
 </part>
 <part name="R31" library="Resistors" deviceset="R-" device="0603" value="5.1">
-<attribute name="MPN" value="ERJ-3BQF5R1V"/>
-<attribute name="PART_NO" value="ERJ-3BQF5R1V"/>
+<attribute name="MPN" value="ERJ-U03F5R10V"/>
+<attribute name="PART_NO" value="ERJ-U03F5R10V"/>
 <attribute name="TOL" value="1%"/>
 </part>
 <part name="Q7" library="Switches" deviceset="FDN340P" device="">
@@ -7609,8 +7609,8 @@ new: Attribute TP_SIGNAL_NAME&lt;br&gt;
 <part name="U$23" library="SparkFun-PowerSymbols" deviceset="AGND" device=""/>
 <part name="U$24" library="SparkFun-PowerSymbols" deviceset="AGND" device=""/>
 <part name="R32" library="Resistors" deviceset="R-" device="0603" value="5.1">
-<attribute name="MPN" value="ERJ-3BQF5R1V"/>
-<attribute name="PART_NO" value="ERJ-3BQF5R1V"/>
+<attribute name="MPN" value="ERJ-U03F5R10V"/>
+<attribute name="PART_NO" value="ERJ-U03F5R10V"/>
 <attribute name="TOL" value="1%"/>
 </part>
 <part name="C11" library="Capacitors" deviceset="C-" device="0402" value="0.1u">
@@ -7669,8 +7669,8 @@ new: Attribute TP_SIGNAL_NAME&lt;br&gt;
 <attribute name="TOL" value="1%"/>
 </part>
 <part name="R22" library="Resistors" deviceset="R-" device="0603" value="5.1">
-<attribute name="MPN" value="ERJ-3BQF5R1V"/>
-<attribute name="PART_NO" value="ERJ-3BQF5R1V"/>
+<attribute name="MPN" value="ERJ-U03F5R10V"/>
+<attribute name="PART_NO" value="ERJ-U03F5R10V"/>
 <attribute name="TOL" value="1%"/>
 </part>
 <part name="Q3" library="Switches" deviceset="FDN340P" device="">
@@ -7682,8 +7682,8 @@ new: Attribute TP_SIGNAL_NAME&lt;br&gt;
 <part name="U$16" library="SparkFun-PowerSymbols" deviceset="AGND" device=""/>
 <part name="U$17" library="SparkFun-PowerSymbols" deviceset="AGND" device=""/>
 <part name="R23" library="Resistors" deviceset="R-" device="0603" value="5.1">
-<attribute name="MPN" value="ERJ-3BQF5R1V"/>
-<attribute name="PART_NO" value="ERJ-3BQF5R1V"/>
+<attribute name="MPN" value="ERJ-U03F5R10V"/>
+<attribute name="PART_NO" value="ERJ-U03F5R10V"/>
 <attribute name="TOL" value="1%"/>
 </part>
 <part name="C8" library="Capacitors" deviceset="C-" device="0402" value="0.1u">
