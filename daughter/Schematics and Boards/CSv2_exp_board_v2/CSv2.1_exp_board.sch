@@ -3792,7 +3792,7 @@ Pad dimensions from http://www.kemet.com/Lists/ProductCatalog/Attachments/53/KEM
 <vertex x="1.5" y="-1.5"/>
 <vertex x="1.5" y="1.5"/>
 </polygon>
-<pad name="PAD" x="0" y="0" drill="0.1524" stop="no" thermals="no"/>
+<pad name="PAD" x="0" y="0" drill="0.2" stop="no" thermals="no"/>
 <polygon width="0" layer="1">
 <vertex x="-0.8" y="0.8"/>
 <vertex x="-0.8" y="-0.8"/>
