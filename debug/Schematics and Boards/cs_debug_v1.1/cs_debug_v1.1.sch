@@ -7309,7 +7309,8 @@ new: Attribute TP_SIGNAL_NAME&lt;br&gt;
 <attribute name="PART_NO" value="CG0603MLC-05E"/>
 </part>
 <part name="J5" library="Connectors" deviceset="J-WURTH-USBC" device="">
-<attribute name="PART_NO" value="632723100011"/>
+<attribute name="MPN" value="632723300011"/>
+<attribute name="PART_NO" value="632723300011"/>
 </part>
 <part name="GND20" library="Supplies" deviceset="GND" device=""/>
 <part name="R42" library="Resistors" deviceset="R-" device="0603" value="5.1k">
@@ -7852,7 +7853,6 @@ new: Attribute TP_SIGNAL_NAME&lt;br&gt;
 <attribute name="MPN" value="TSW-112-07-T-S"/>
 <attribute name="PART_NO" value="TSW-112-07-T-S"/>
 </part>
-<part name="SUPPLY11" library="Supplies" deviceset="+3V3" device=""/>
 <part name="GND6" library="Supplies" deviceset="GND" device=""/>
 <part name="CHRG" library="Connectors" deviceset="JUMPER-SMT_2_NC_PASTE" device="_NO-SILK" package3d_urn="urn:adsk.eagle:package:39283/1"/>
 <part name="R1" library="Resistors" deviceset="R-" device="0402" value="51k">
@@ -9210,6 +9210,7 @@ internal pull-ups</text>
   for main board</text>
 <text x="203.2" y="172.72" size="1.778" layer="91">Mark port 2 
   as removeable</text>
+<text x="457.2" y="226.06" size="1.778" layer="91">double check connection to VCC</text>
 </plain>
 <instances>
 <instance part="GND1" gate="1" x="482.6" y="116.84" smashed="yes"/>
@@ -9665,7 +9666,6 @@ internal pull-ups</text>
 <attribute name="MPN" x="436.88" y="25.4" size="1.778" layer="96" display="off"/>
 <attribute name="PART_NO" x="436.88" y="25.4" size="1.778" layer="96" display="off"/>
 </instance>
-<instance part="SUPPLY11" gate="G$1" x="416.56" y="48.26" smashed="yes"/>
 <instance part="GND6" gate="1" x="416.56" y="5.08" smashed="yes"/>
 <instance part="CHRG" gate="G$1" x="76.2" y="114.3" smashed="yes" rot="R90">
 <attribute name="NAME" x="73.66" y="111.76" size="1.778" layer="95" font="vector" rot="R90"/>
@@ -10035,16 +10035,25 @@ internal pull-ups</text>
 </net>
 <net name="V_SENSE_P" class="0">
 <segment>
-<wire x1="495.3" y1="226.06" x2="444.5" y2="226.06" width="0.1524" layer="91"/>
+<pinref part="J3" gate="G$1" pin="14"/>
+<wire x1="492.76" y1="147.32" x2="492.76" y2="175.26" width="0.1524" layer="91"/>
+<label x="492.76" y="154.94" size="1.778" layer="95" rot="R90"/>
+<wire x1="492.76" y1="175.26" x2="492.76" y2="220.98" width="0.1524" layer="91"/>
+<wire x1="492.76" y1="220.98" x2="490.22" y2="223.52" width="0.1524" layer="91"/>
 <pinref part="J1" gate="G$1" pin="VCC"/>
+<wire x1="492.76" y1="226.06" x2="444.5" y2="226.06" width="0.1524" layer="91"/>
 <wire x1="444.5" y1="251.46" x2="459.74" y2="251.46" width="0.1524" layer="91"/>
 <wire x1="444.5" y1="251.46" x2="444.5" y2="226.06" width="0.1524" layer="91"/>
-</segment>
-<segment>
-<pinref part="J3" gate="G$1" pin="14"/>
-<wire x1="492.76" y1="147.32" x2="492.76" y2="220.98" width="0.1524" layer="91"/>
-<label x="492.76" y="154.94" size="1.778" layer="95" rot="R90"/>
-<wire x1="492.76" y1="220.98" x2="490.22" y2="223.52" width="0.1524" layer="91"/>
+<wire x1="492.76" y1="220.98" x2="492.76" y2="226.06" width="0.1524" layer="91"/>
+<junction x="492.76" y="220.98"/>
+<wire x1="492.76" y1="175.26" x2="467.36" y2="175.26" width="0.1524" layer="91"/>
+<wire x1="467.36" y1="175.26" x2="467.36" y2="45.72" width="0.1524" layer="91"/>
+<junction x="492.76" y="175.26"/>
+<wire x1="467.36" y1="45.72" x2="393.7" y2="45.72" width="0.1524" layer="91"/>
+<wire x1="393.7" y1="45.72" x2="393.7" y2="40.64" width="0.1524" layer="91"/>
+<pinref part="JP1" gate="G$1" pin="1"/>
+<wire x1="393.7" y1="40.64" x2="434.34" y2="40.64" width="0.1524" layer="91"/>
+<label x="439.42" y="45.72" size="1.778" layer="95"/>
 </segment>
 </net>
 <net name="MAIN_USART_TX" class="0">
@@ -10146,13 +10155,6 @@ internal pull-ups</text>
 <wire x1="393.7" y1="76.2" x2="411.48" y2="76.2" width="0.1524" layer="91"/>
 <wire x1="411.48" y1="76.2" x2="411.48" y2="78.74" width="0.1524" layer="91" style="longdash"/>
 <junction x="393.7" y="76.2"/>
-</segment>
-<segment>
-<label x="411.48" y="48.26" size="1.778" layer="95"/>
-<pinref part="SUPPLY11" gate="G$1" pin="+3V3"/>
-<wire x1="416.56" y1="40.64" x2="416.56" y2="45.72" width="0.1524" layer="91"/>
-<pinref part="JP1" gate="G$1" pin="1"/>
-<wire x1="434.34" y1="40.64" x2="416.56" y2="40.64" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="N$4" class="1">
