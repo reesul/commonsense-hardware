@@ -1,6 +1,6 @@
 M48
 ;GenerationSoftware,Autodesk,EAGLE,9.6.1*%
-;CreationDate,2020-09-01T17:36:45Z*%
+;CreationDate,2020-09-11T01:40:59Z*%
 FMAT,2
 ICI,OFF
 METRIC,TZ,000.000
@@ -10,7 +10,7 @@ T5C0.600
 T4C0.950
 T3C1.000
 T2C1.016
-T1C4.191
+T1C2.921
 %
 G90
 M71

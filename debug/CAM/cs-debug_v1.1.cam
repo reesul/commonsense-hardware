@@ -240,8 +240,9 @@
                     },
                     "filename_format": "%PREFIX/%FF.gbr",
                     "layers": [
+                        25,
                         51,
-                        25
+                        21
                     ],
                     "milling": false,
                     "name": "Reference Designators Top",
@@ -263,8 +264,9 @@
                     },
                     "filename_format": "%PREFIX/%FF.gbr",
                     "layers": [
+                        26,
                         52,
-                        26
+                        22
                     ],
                     "milling": false,
                     "name": "Reference Desginators Bottom",
@@ -323,7 +325,7 @@
             ]
         }
     ],
-    "timestamp": "2020-08-28T10:09:40",
+    "timestamp": "2020-09-10T21:40:44",
     "type": "EAGLE CAM job",
     "units": "metric",
     "version": "9.2.0"

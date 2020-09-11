@@ -4777,6 +4777,7 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <part name="+3V3" library="Supplies" deviceset="+3V3" device=""/>
 <part name="GND7" library="Supplies" deviceset="GND" device=""/>
 <part name="R101" library="Resistors" deviceset="R-" device="0402" value="10k">
+<attribute name="MPN" value="ERJ-2GEJ103X"/>
 <attribute name="PART_NO" value="ERJ-2GEJ103X"/>
 </part>
 <part name="R102" library="Resistors" deviceset="R-" device="0402" value="330">
@@ -4873,10 +4874,9 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <attribute name="PART_NO" value="RNCF0603BKC2R21"/>
 <attribute name="TOL" value="0.1%"/>
 </part>
-<part name="R207" library="Resistors" deviceset="R-" device="0603" value="0.51">
-<attribute name="MANUFACTURER" value="Ohmite"/>
-<attribute name="MPN" value="KDV06DR510ET"/>
-<attribute name="PART_NO" value="KDV06DR510ET"/>
+<part name="R207" library="Resistors" deviceset="R-" device="0603" value="0.24">
+<attribute name="MPN" value="ERJ-2BQFR24X"/>
+<attribute name="PART_NO" value="ERJ-2BQFR24X"/>
 <attribute name="TOL" value="0.5%"/>
 </part>
 <part name="BORDER301" library="Graphics" deviceset="BORDER-CMU" device=""/>
@@ -5001,6 +5001,10 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <attribute name="MPN" value="DMG3415U-7"/>
 <attribute name="PART_NO" value="DMG3415U-7"/>
 </part>
+<part name="R3" library="Resistors" deviceset="R-" device="0402" value="100k">
+<attribute name="MPN" value="ERJ-2GEJ104X"/>
+<attribute name="PART_NO" value="ERJ-2GEJ104X"/>
+</part>
 </parts>
 <sheets>
 <sheet>
@@ -5012,6 +5016,10 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <text x="304.8" y="261.62" size="5.08" layer="91">Debugger Tag Connect</text>
 <text x="231.14" y="226.06" size="2.54" layer="91">I2C Pull-ups</text>
 <text x="302.26" y="119.38" size="3.81" layer="91">External FLASH Storage</text>
+<text x="373.38" y="114.3" size="1.778" layer="91">128MB capacity</text>
+<text x="327.66" y="76.2" size="1.778" layer="91">Max CLK Rate: 104MHz</text>
+<text x="302.26" y="53.34" size="1.778" layer="91">Status register 1, bit WP-E, SRP1/0 will set
+ options for Quad SPI and othe basic options</text>
 </plain>
 <instances>
 <instance part="BORDER101" gate="G$1" x="0" y="0" smashed="yes"/>
@@ -5130,6 +5138,7 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <attribute name="NAME" x="181.3814" y="212.09" size="1.778" layer="95" rot="R90"/>
 <attribute name="VALUE" x="186.182" y="212.09" size="1.778" layer="96" rot="R90"/>
 <attribute name="PART_NO" x="182.88" y="215.9" size="1.778" layer="96" rot="R90" display="off"/>
+<attribute name="MPN" x="182.88" y="215.9" size="1.778" layer="96" rot="R90" display="off"/>
 </instance>
 <instance part="R102" gate="G$1" x="198.12" y="208.28" smashed="yes">
 <attribute name="NAME" x="194.31" y="209.7786" size="1.778" layer="95"/>
@@ -5208,6 +5217,12 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <instance part="U2" gate="A" x="365.76" y="88.9" smashed="yes">
 <attribute name="NAME" x="350.6216" y="109.1946" size="2.0828" layer="95" ratio="6" rot="SR0"/>
 <attribute name="VALUE" x="350.4946" y="106.6546" size="2.0828" layer="96" ratio="6" rot="SR0"/>
+</instance>
+<instance part="R3" gate="G$1" x="350.52" y="114.3" smashed="yes" rot="R180">
+<attribute name="NAME" x="354.33" y="112.8014" size="1.778" layer="95" rot="R180"/>
+<attribute name="VALUE" x="354.33" y="117.602" size="1.778" layer="96" rot="R180"/>
+<attribute name="PART_NO" x="350.52" y="114.3" size="1.778" layer="96" rot="R180" display="off"/>
+<attribute name="MPN" x="350.52" y="114.3" size="1.778" layer="96" rot="R180" display="off"/>
 </instance>
 </instances>
 <busses>
@@ -5807,12 +5822,14 @@ You are welcome to use this library for commercial purposes. For attribution, we
 </net>
 <net name="+3V3_STOR" class="1">
 <segment>
-<wire x1="365.76" y1="111.76" x2="365.76" y2="114.3" width="0.1524" layer="91"/>
 <pinref part="+3V9" gate="G$1" pin="+3V3"/>
 <label x="365.76" y="124.46" size="1.778" layer="95"/>
 <pinref part="U2" gate="A" pin="VCC"/>
 <wire x1="365.76" y1="114.3" x2="365.76" y2="119.38" width="0.1524" layer="91"/>
-<wire x1="365.76" y1="109.22" x2="365.76" y2="111.76" width="0.1524" layer="91"/>
+<wire x1="365.76" y1="109.22" x2="365.76" y2="114.3" width="0.1524" layer="91"/>
+<wire x1="355.6" y1="114.3" x2="365.76" y2="114.3" width="0.1524" layer="91"/>
+<junction x="365.76" y="114.3"/>
+<pinref part="R3" gate="G$1" pin="1"/>
 </segment>
 </net>
 <net name="+3V3_PROC" class="0">
@@ -5942,8 +5959,12 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <segment>
 <pinref part="U2" gate="A" pin="/CS"/>
 <wire x1="294.64" y1="86.36" x2="297.18" y2="83.82" width="0.1524" layer="91"/>
-<wire x1="297.18" y1="83.82" x2="350.52" y2="83.82" width="0.1524" layer="91"/>
+<wire x1="297.18" y1="83.82" x2="345.44" y2="83.82" width="0.1524" layer="91"/>
 <label x="320.04" y="83.82" size="1.778" layer="95"/>
+<wire x1="345.44" y1="83.82" x2="350.52" y2="83.82" width="0.1524" layer="91"/>
+<wire x1="345.44" y1="83.82" x2="345.44" y2="114.3" width="0.1524" layer="91"/>
+<junction x="345.44" y="83.82"/>
+<pinref part="R3" gate="G$1" pin="2"/>
 </segment>
 </net>
 <net name="STOR_QSPI_CK" class="0">
@@ -6286,8 +6307,7 @@ Selection</text>
 Sense Resistors</text>
 <text x="198.12" y="86.36" size="2.54" layer="91">Buck-boost</text>
 <text x="15.24" y="12.7" size="1.778" layer="91">Aim for 1 mA output for each LED.
-Green (1) and Blue(3) have forward biases near 3V, 
-so no resistor needed.
+Green (1) and Blue(3) have forward biases near 3V
 Red (2) has forward bias 1.8V.
 
 Outputs of this should be tied to GND by 
@@ -6325,11 +6345,14 @@ A single select line is used to
 <text x="55.88" y="147.32" size="1.778" layer="91">Mechanical switch feeds loadswitch enable
   because low-profile switches with &gt;0.5A
   are seemingly impossible to find.</text>
-<text x="269.24" y="208.28" size="1.778" layer="91">Replace sense resisitor with 0Ω
+<text x="269.24" y="223.52" size="1.778" layer="91">Replace sense resisitor with 0Ω
   for designs where power is essential</text>
 <text x="269.24" y="139.7" size="1.778" layer="91">Replace sense resisitor with 0Ω
   for designs where power is essential</text>
 <text x="337.82" y="162.56" size="1.778" layer="91">Switch has 300-500 mΩ resistance!</text>
+<text x="292.354" y="205.74" size="1.778" layer="91">Switch has 260-350 mΩ resistance
+Estimate typical 260 mΩ for total 0.5Ω
+to account for ~200mA of current</text>
 </plain>
 <instances>
 <instance part="BORDER201" gate="G$1" x="0" y="0" smashed="yes"/>
@@ -7235,7 +7258,7 @@ A single select line is used to
 <attribute name="MPN" x="114.3" y="149.86" size="1.778" layer="96" rot="R90" display="off"/>
 </instance>
 <instance part="J302" gate="G$1" x="289.56" y="149.86" smashed="yes" rot="R90">
-<attribute name="NAME" x="265.9166" y="142.21801875" size="1.273659375" layer="95" rot="R90"/>
+<attribute name="NAME" x="255.7566" y="147.29801875" size="1.273659375" layer="95" rot="R90"/>
 <attribute name="PART_NO" x="289.56" y="149.86" size="1.778" layer="96" rot="R90" display="off"/>
 <attribute name="MPN" x="289.56" y="149.86" size="1.778" layer="96" rot="R90" display="off"/>
 <attribute name="MP" x="289.56" y="149.86" size="1.778" layer="96" rot="R90" display="off"/>
