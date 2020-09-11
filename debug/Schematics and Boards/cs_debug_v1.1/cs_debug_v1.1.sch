@@ -7452,7 +7452,8 @@ new: Attribute TP_SIGNAL_NAME&lt;br&gt;
 <attribute name="PART_NO" value="FDN340P"/>
 </part>
 <part name="Q10" library="Switches" deviceset="2N7002P" device="">
-<attribute name="PART_NO" value="2N7002P"/>
+<attribute name="MPN" value="2N7002P,215"/>
+<attribute name="PART_NO" value="2N7002P,215"/>
 </part>
 <part name="U$34" library="SparkFun-PowerSymbols" deviceset="AGND" device=""/>
 <part name="U$35" library="SparkFun-PowerSymbols" deviceset="AGND" device=""/>
@@ -7531,7 +7532,8 @@ new: Attribute TP_SIGNAL_NAME&lt;br&gt;
 <attribute name="PART_NO" value="FDN340P"/>
 </part>
 <part name="Q6" library="Switches" deviceset="2N7002P" device="">
-<attribute name="PART_NO" value="2N7002P"/>
+<attribute name="MPN" value="2N7002P,215"/>
+<attribute name="PART_NO" value="2N7002P,215"/>
 </part>
 <part name="U$28" library="SparkFun-PowerSymbols" deviceset="AGND" device=""/>
 <part name="U$29" library="SparkFun-PowerSymbols" deviceset="AGND" device=""/>
@@ -7605,7 +7607,8 @@ new: Attribute TP_SIGNAL_NAME&lt;br&gt;
 <attribute name="PART_NO" value="FDN340P"/>
 </part>
 <part name="Q8" library="Switches" deviceset="2N7002P" device="">
-<attribute name="PART_NO" value="2N7002P"/>
+<attribute name="MPN" value="2N7002P,215"/>
+<attribute name="PART_NO" value="2N7002P,215"/>
 </part>
 <part name="U$23" library="SparkFun-PowerSymbols" deviceset="AGND" device=""/>
 <part name="U$24" library="SparkFun-PowerSymbols" deviceset="AGND" device=""/>
@@ -7678,7 +7681,8 @@ new: Attribute TP_SIGNAL_NAME&lt;br&gt;
 <attribute name="PART_NO" value="FDN340P"/>
 </part>
 <part name="Q4" library="Switches" deviceset="2N7002P" device="">
-<attribute name="PART_NO" value="2N7002P"/>
+<attribute name="MPN" value="2N7002P,215"/>
+<attribute name="PART_NO" value="2N7002P,215"/>
 </part>
 <part name="U$16" library="SparkFun-PowerSymbols" deviceset="AGND" device=""/>
 <part name="U$17" library="SparkFun-PowerSymbols" deviceset="AGND" device=""/>

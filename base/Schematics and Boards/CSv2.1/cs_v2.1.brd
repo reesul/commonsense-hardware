@@ -2005,11 +2005,11 @@ design rules under a new name.</description>
 <attribute name="BUILT_BY" value="EMA_Cory" x="9.525" y="6.35" size="1.778" layer="28" rot="MR270" display="off"/>
 <attribute name="COPYRIGHT" value="Copyright (C) 2018 Accelerated Designs. All rights reserved" x="9.525" y="6.35" size="1.778" layer="28" rot="MR270" display="off"/>
 <attribute name="DATASHEET" value="https://www.winbond.com/resource-files/w25n01gv%20revl%20050918%20unsecured.pdf" x="9.525" y="6.35" size="1.778" layer="28" rot="MR270" display="off"/>
-<attribute name="MANUFACTURER_PART_NUMBER" value="W25N01GVZEIG" x="9.525" y="6.35" size="1.778" layer="28" rot="MR270" display="off"/>
-<attribute name="MP" value="W25N01GVZEIG" x="9.525" y="6.35" size="1.778" layer="28" rot="MR270" display="off"/>
-<attribute name="MPN" value="W25N01GVZEIG" x="9.525" y="6.35" size="1.778" layer="28" rot="MR270" display="off"/>
+<attribute name="MANUFACTURER_PART_NUMBER" value="W25N01GVZEIG TR" x="9.525" y="6.35" size="1.778" layer="28" rot="MR270" display="off"/>
+<attribute name="MP" value="W25N01GVZEIG TR" x="9.525" y="6.35" size="1.778" layer="28" rot="MR270" display="off"/>
+<attribute name="MPN" value="W25N01GVZEIG TR" x="9.525" y="6.35" size="1.778" layer="28" rot="MR270" display="off"/>
 <attribute name="NAME" x="9.525" y="5.6134" size="1.27" layer="52" ratio="6" rot="SMR90"/>
-<attribute name="PART_NO" value="W25N01GVZEIG" x="9.525" y="6.35" size="1.778" layer="28" rot="MR270" display="off"/>
+<attribute name="PART_NO" value="W25N01GVZEIG TR" x="9.525" y="6.35" size="1.778" layer="28" rot="MR270" display="off"/>
 <attribute name="SOURCELIBRARY" value="Winbond_2020-02-06" x="9.525" y="6.35" size="1.778" layer="28" rot="MR270" display="off"/>
 <attribute name="VENDOR" value="Winbond" x="9.525" y="6.35" size="1.778" layer="28" rot="MR270" display="off"/>
 </element>

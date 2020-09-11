@@ -4962,7 +4962,12 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <part name="REG.IN" library="SparkFun-Jumpers" deviceset="JUMPER-SMT_3_1-NC_PASTE" device="_NO-SILK" package3d_urn="urn:adsk.eagle:package:39291/1"/>
 <part name="GND6" library="Supplies" deviceset="GND" device=""/>
 <part name="U1" library="Regulators" deviceset="LDO_ONSEMI_NCP708" device="" value="NCP708MU330TAG"/>
-<part name="U2" library="Storage" deviceset="W25N01GVZEIG" device=""/>
+<part name="U2" library="Storage" deviceset="W25N01GVZEIG" device="">
+<attribute name="MANUFACTURER_PART_NUMBER" value="W25N01GVZEIG TR"/>
+<attribute name="MP" value="W25N01GVZEIG TR"/>
+<attribute name="MPN" value="W25N01GVZEIG TR"/>
+<attribute name="PART_NO" value="W25N01GVZEIG TR"/>
+</part>
 <part name="U3" library="Switches" deviceset="TS3A24159YZPR" device="">
 <attribute name="MP" value="TS3A24159YZPR"/>
 <attribute name="MPN" value="TS3A24159YZPR"/>
@@ -5216,7 +5221,7 @@ You are welcome to use this library for commercial purposes. For attribution, we
 </instance>
 <instance part="U2" gate="A" x="365.76" y="88.9" smashed="yes">
 <attribute name="NAME" x="350.6216" y="109.1946" size="2.0828" layer="95" ratio="6" rot="SR0"/>
-<attribute name="VALUE" x="350.4946" y="106.6546" size="2.0828" layer="96" ratio="6" rot="SR0"/>
+<attribute name="VALUE" x="350.4946" y="104.1146" size="2.0828" layer="96" ratio="6" rot="SR0"/>
 </instance>
 <instance part="R3" gate="G$1" x="350.52" y="114.3" smashed="yes" rot="R180">
 <attribute name="NAME" x="354.33" y="112.8014" size="1.778" layer="95" rot="R180"/>
