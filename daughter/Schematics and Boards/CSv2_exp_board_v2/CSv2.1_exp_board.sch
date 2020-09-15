@@ -982,7 +982,7 @@ Because this component has through-hole tabs, it is much less susceptible to bei
 </devices>
 </deviceset>
 <deviceset name="HIROSE-DF40_50-PIN_CONNECTORS" prefix="J">
-<description>Hirose DF40 series 44-pin mezzanine type connectors at 0.4mm pitch.
+<description>Hirose DF40 series 50-pin mezzanine type connectors at 0.4mm pitch.
 &lt;p&gt;
 Specification and Variants: https://www.hirose.com/product/document?clcode=&amp;productname=&amp;series=DF40&amp;documenttype=Catalog&amp;lang=en&amp;documentid=D31649_en</description>
 <gates>
@@ -1284,23 +1284,6 @@ Pad dimensions from http://www.kemet.com/Lists/ProductCatalog/Attachments/53/KEM
 <wire x1="-1.45" y1="-0.65" x2="-1.45" y2="0.65" width="0.0762" layer="255"/>
 <wire x1="-1.45" y1="0.65" x2="1.45" y2="0.65" width="0.0762" layer="255"/>
 </package>
-<package name="C1206">
-<description>&lt;b&gt;SMD Capacitor&lt;/b&gt;&lt;p&gt;
-Pad dimensions from http://www.kemet.com/Lists/ProductCatalog/Attachments/53/KEM_C1002_X7R_SMD.pdf</description>
-<wire x1="-2.2" y1="1.05" x2="2.2" y2="1.05" width="0.0508" layer="255"/>
-<wire x1="2.2" y1="1.05" x2="2.2" y2="-1.05" width="0.0508" layer="255"/>
-<wire x1="-2.2" y1="-1.05" x2="-2.2" y2="1.05" width="0.0508" layer="255"/>
-<smd name="2" x="1.5" y="0" dx="1.15" dy="1.8" layer="1"/>
-<smd name="1" x="-1.5" y="0" dx="1.15" dy="1.8" layer="1"/>
-<text x="-1.2398" y="1.153" size="0.6096" layer="25">&gt;Name</text>
-<rectangle x1="-0.3" y1="-0.7" x2="0.3" y2="0.7" layer="35"/>
-<rectangle x1="-2.2" y1="-1.05" x2="2.2" y2="1.05" layer="43"/>
-<wire x1="-2.2" y1="-1.05" x2="2.2" y2="-1.05" width="0.0508" layer="255"/>
-<wire x1="-2.2" y1="-1.05" x2="2.2" y2="-1.05" width="0.0508" layer="39"/>
-<wire x1="2.2" y1="-1.05" x2="2.2" y2="1.05" width="0.0508" layer="39"/>
-<wire x1="2.2" y1="1.05" x2="-2.2" y2="1.05" width="0.0508" layer="39"/>
-<wire x1="-2.2" y1="1.05" x2="-2.2" y2="-1.05" width="0.0508" layer="39"/>
-</package>
 <package name="C1210">
 <description>&lt;b&gt;SMD Capacitor&lt;/b&gt;&lt;p&gt;
 Pad dimensions from http://www.kemet.com/Lists/ProductCatalog/Attachments/53/KEM_C1002_X7R_SMD.pdf</description>
@@ -1338,6 +1321,27 @@ Pad dimensions from http://www.kemet.com/Lists/ProductCatalog/Attachments/53/KEM
 <wire x1="1.65" y1="-0.9" x2="1.65" y2="0.9" width="0.0508" layer="255"/>
 <wire x1="1.65" y1="0.9" x2="-1.65" y2="0.9" width="0.0508" layer="255"/>
 <wire x1="-1.65" y1="0.9" x2="-1.65" y2="-0.9" width="0.0508" layer="255"/>
+</package>
+<package name="C1206">
+<description>&lt;b&gt;SMD Capacitor&lt;/b&gt;&lt;p&gt;
+Pad dimensions from http://www.kemet.com/Lists/ProductCatalog/Attachments/53/KEM_C1002_X7R_SMD.pdf</description>
+<wire x1="-2.2" y1="1.05" x2="2.2" y2="1.05" width="0.0508" layer="51"/>
+<wire x1="2.2" y1="1.05" x2="2.2" y2="-1.05" width="0.0508" layer="51"/>
+<wire x1="-2.2" y1="-1.05" x2="-2.2" y2="1.05" width="0.0508" layer="51"/>
+<smd name="2" x="1.5" y="0" dx="1.15" dy="1.8" layer="1"/>
+<smd name="1" x="-1.5" y="0" dx="1.15" dy="1.8" layer="1"/>
+<text x="-1.2398" y="1.153" size="0.6096" layer="25">&gt;Name</text>
+<rectangle x1="-0.3" y1="-0.7" x2="0.3" y2="0.7" layer="35"/>
+<rectangle x1="-2.2" y1="-1.05" x2="2.2" y2="1.05" layer="43"/>
+<wire x1="-2.2" y1="-1.05" x2="2.2" y2="-1.05" width="0.0508" layer="51"/>
+<wire x1="-2.2" y1="-1.05" x2="2.2" y2="-1.05" width="0.0508" layer="39"/>
+<wire x1="2.2" y1="-1.05" x2="2.2" y2="1.05" width="0.0508" layer="39"/>
+<wire x1="2.2" y1="1.05" x2="-2.2" y2="1.05" width="0.0508" layer="39"/>
+<wire x1="-2.2" y1="1.05" x2="-2.2" y2="-1.05" width="0.0508" layer="39"/>
+<wire x1="-2.2" y1="1.05" x2="2.2" y2="1.05" width="0.0508" layer="255"/>
+<wire x1="2.2" y1="1.05" x2="2.2" y2="-1.05" width="0.0508" layer="255"/>
+<wire x1="-2.2" y1="-1.05" x2="-2.2" y2="1.05" width="0.0508" layer="255"/>
+<wire x1="-2.2" y1="-1.05" x2="2.2" y2="-1.05" width="0.0508" layer="255"/>
 </package>
 </packages>
 <symbols>
@@ -4997,83 +5001,6 @@ PTH and SMD connector options available.&lt;/p&gt;
 </deviceset>
 </devicesets>
 </library>
-<library name="Sensors">
-<description>CCSG Eagle Library</description>
-<packages>
-<package name="MPL3115A2_PSON125P300X500X120-8N">
-<circle x="-2.2" y="1.9" radius="0.14141875" width="0.2" layer="21"/>
-<wire x1="-1.8" y1="2.8" x2="1.8" y2="2.8" width="0.05" layer="39"/>
-<wire x1="1.8" y1="2.8" x2="1.8" y2="-2.8" width="0.05" layer="39"/>
-<wire x1="1.8" y1="-2.8" x2="-1.8" y2="-2.8" width="0.05" layer="39"/>
-<wire x1="-1.8" y1="-2.8" x2="-1.8" y2="2.8" width="0.05" layer="39"/>
-<smd name="1" x="-1" y="1.875" dx="0.9" dy="0.55" layer="1"/>
-<smd name="2" x="-1" y="0.625" dx="0.9" dy="0.55" layer="1"/>
-<smd name="3" x="-1" y="-0.625" dx="0.9" dy="0.55" layer="1"/>
-<smd name="4" x="-1" y="-1.875" dx="0.9" dy="0.55" layer="1"/>
-<smd name="5" x="1" y="-1.875" dx="0.9" dy="0.55" layer="1"/>
-<smd name="6" x="1" y="-0.625" dx="0.9" dy="0.55" layer="1"/>
-<smd name="7" x="1" y="0.625" dx="0.9" dy="0.55" layer="1"/>
-<smd name="8" x="1" y="1.875" dx="0.9" dy="0.55" layer="1"/>
-<text x="-1.45485" y="3.05598125" size="0.6096" layer="25">&gt;NAME</text>
-<wire x1="-1.6" y1="2.5" x2="1.6" y2="2.5" width="0.1524" layer="21"/>
-<wire x1="1.6" y1="2.5" x2="1.6" y2="-2.5" width="0.1524" layer="21"/>
-<wire x1="1.6" y1="-2.5" x2="-1.6" y2="-2.5" width="0.1524" layer="21"/>
-<wire x1="-1.6" y1="-2.5" x2="-1.6" y2="2.5" width="0.1524" layer="21"/>
-</package>
-</packages>
-<symbols>
-<symbol name="MPL3115A2">
-<wire x1="10.16" y1="10.16" x2="10.16" y2="-10.16" width="0.254" layer="94"/>
-<wire x1="10.16" y1="-10.16" x2="-10.16" y2="-10.16" width="0.254" layer="94"/>
-<wire x1="-10.16" y1="-10.16" x2="-10.16" y2="10.16" width="0.254" layer="94"/>
-<wire x1="-10.16" y1="10.16" x2="10.16" y2="10.16" width="0.254" layer="94"/>
-<pin name="CAP" x="-15.24" y="-2.54" length="middle"/>
-<pin name="GND" x="-15.24" y="-7.62" length="middle" direction="pwr"/>
-<pin name="INT1" x="15.24" y="0" length="middle" direction="out" rot="R180"/>
-<pin name="INT2" x="15.24" y="-2.54" length="middle" direction="out" rot="R180"/>
-<pin name="SCL" x="15.24" y="7.62" length="middle" direction="in" function="clk" rot="R180"/>
-<pin name="SDA" x="15.24" y="5.08" length="middle" rot="R180"/>
-<pin name="V" x="-15.24" y="7.62" length="middle" direction="pwr"/>
-<pin name="VIO" x="-15.24" y="5.08" length="middle" direction="pwr"/>
-<text x="-9.65991875" y="10.931" size="1.271040625" layer="95">&gt;NAME</text>
-<text x="-4.826" y="1.778" size="1.778" layer="94">Pressure</text>
-</symbol>
-</symbols>
-<devicesets>
-<deviceset name="MPL3115A2" prefix="U">
-<description>Pressure Sensor, 50-110kpa, Lga-8</description>
-<gates>
-<gate name="G$1" symbol="MPL3115A2" x="0" y="0"/>
-</gates>
-<devices>
-<device name="" package="MPL3115A2_PSON125P300X500X120-8N">
-<connects>
-<connect gate="G$1" pin="CAP" pad="2"/>
-<connect gate="G$1" pin="GND" pad="3"/>
-<connect gate="G$1" pin="INT1" pad="6"/>
-<connect gate="G$1" pin="INT2" pad="5"/>
-<connect gate="G$1" pin="SCL" pad="8"/>
-<connect gate="G$1" pin="SDA" pad="7"/>
-<connect gate="G$1" pin="V" pad="1"/>
-<connect gate="G$1" pin="VIO" pad="4"/>
-</connects>
-<technologies>
-<technology name="">
-<attribute name="DESCRIPTION" value=" Pressure Sensor, 50-110kpa, Lga-8 "/>
-<attribute name="DIGI-KEY_PART_NUMBER" value="MPL3115A2-ND"/>
-<attribute name="DIGI-KEY_PURCHASE_URL" value="https://www.digikey.com/product-detail/en/nxp-usa-inc/MPL3115A2/MPL3115A2-ND/2817529?utm_source=snapeda&amp;utm_medium=aggregator&amp;utm_campaign=symbol"/>
-<attribute name="MANUFACTURER" value="NXP" constant="no"/>
-<attribute name="MF" value="NXP USA"/>
-<attribute name="MP" value="MPL3115A2"/>
-<attribute name="MPN" value="MPL-3115A2" constant="no"/>
-<attribute name="PACKAGE" value="LGA-8 NXP USA"/>
-</technology>
-</technologies>
-</device>
-</devices>
-</deviceset>
-</devicesets>
-</library>
 <library name="Inductors">
 <description>CCSG Eagle Library</description>
 <packages>
@@ -5254,6 +5181,116 @@ Source: http://www.osram.convergy.de/</description>
 </connects>
 <technologies>
 <technology name=""/>
+</technologies>
+</device>
+</devices>
+</deviceset>
+</devicesets>
+</library>
+<library name="Sensors">
+<description>CCSG Eagle Library</description>
+<packages>
+<package name="MS5637">
+<description>Footprint for MS5637 Pressure Transducer</description>
+<smd name="1" x="-1" y="1" dx="1" dy="1" layer="1"/>
+<smd name="4" x="1" y="1" dx="1" dy="1" layer="1"/>
+<smd name="2" x="-1" y="-1" dx="1" dy="1" layer="1"/>
+<smd name="3" x="1" y="-1" dx="1" dy="1" layer="1"/>
+<circle x="-2" y="1.9" radius="0.2" width="0.127" layer="21"/>
+<text x="0" y="1.946" size="0.6096" layer="25" align="bottom-center">&gt;Name</text>
+<polygon width="0.01" layer="39">
+<vertex x="-1.5" y="0.3"/>
+<vertex x="-0.3" y="0.3"/>
+<vertex x="-0.3" y="1.5"/>
+<vertex x="0.3" y="1.5"/>
+<vertex x="0.3" y="0.3"/>
+<vertex x="1.5" y="0.3"/>
+<vertex x="1.5" y="-0.3"/>
+<vertex x="0.3" y="-0.3"/>
+<vertex x="0.3" y="-1.5"/>
+<vertex x="-0.3" y="-1.5"/>
+<vertex x="-0.3" y="-0.3"/>
+<vertex x="-1.5" y="-0.3"/>
+</polygon>
+<polygon width="0.01" layer="43">
+<vertex x="-1.5" y="0.3"/>
+<vertex x="-0.3" y="0.3"/>
+<vertex x="-0.3" y="1.5"/>
+<vertex x="0.3" y="1.5"/>
+<vertex x="0.3" y="0.3"/>
+<vertex x="1.5" y="0.3"/>
+<vertex x="1.5" y="-0.3"/>
+<vertex x="0.3" y="-0.3"/>
+<vertex x="0.3" y="-1.5"/>
+<vertex x="-0.3" y="-1.5"/>
+<vertex x="-0.3" y="-0.3"/>
+<vertex x="-1.5" y="-0.3"/>
+</polygon>
+<polygon width="0.01" layer="41">
+<vertex x="-1.5" y="0.3"/>
+<vertex x="-0.3" y="0.3"/>
+<vertex x="-0.3" y="1.5"/>
+<vertex x="0.3" y="1.5"/>
+<vertex x="0.3" y="0.3"/>
+<vertex x="1.5" y="0.3"/>
+<vertex x="1.5" y="-0.3"/>
+<vertex x="0.3" y="-0.3"/>
+<vertex x="0.3" y="-1.5"/>
+<vertex x="-0.3" y="-1.5"/>
+<vertex x="-0.3" y="-0.3"/>
+<vertex x="-1.5" y="-0.3"/>
+</polygon>
+</package>
+</packages>
+<symbols>
+<symbol name="MS5637">
+<description>MS5637 I2C Pressure Transducer</description>
+<wire x1="10.16" y1="10.16" x2="10.16" y2="-10.16" width="0.254" layer="94"/>
+<wire x1="10.16" y1="-10.16" x2="-10.16" y2="-10.16" width="0.254" layer="94"/>
+<wire x1="-10.16" y1="-10.16" x2="-10.16" y2="10.16" width="0.254" layer="94"/>
+<wire x1="-10.16" y1="10.16" x2="10.16" y2="10.16" width="0.254" layer="94"/>
+<pin name="GND" x="-15.24" y="-7.62" length="middle" direction="pwr"/>
+<pin name="SCL" x="15.24" y="7.62" length="middle" direction="in" function="clk" rot="R180"/>
+<pin name="SDA" x="15.24" y="5.08" length="middle" rot="R180"/>
+<pin name="VDD" x="-15.24" y="7.62" length="middle" direction="pwr"/>
+<text x="-9.65991875" y="10.931" size="1.271040625" layer="95">&gt;NAME</text>
+<text x="0" y="1.27" size="1.778" layer="94" align="bottom-center">Pressure</text>
+<text x="0" y="-2.54" size="1.27" layer="94" align="bottom-center">MS5637</text>
+</symbol>
+</symbols>
+<devicesets>
+<deviceset name="MS5637" prefix="U">
+<description>&lt;h1&gt;MS5637-02BA03
+Low Voltage Barometric Pressure Sensor&lt;/h1&gt;
+
+&lt;h2&gt;Specifications&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;QFN package 3 x 3 x 0.9 mm3
+&lt;li&gt;High-resolution module, 13 cm
+&lt;li&gt;Supply voltage: 1.5 to 3.6 V
+&lt;li&gt;Fast conversion down to 0.5 ms
+&lt;li&gt;Low power, 0.6 μA (standby ≤ 0.1 μA at 25°C)
+&lt;li&gt;Integrated digital pressure sensor (24 bit ΔΣ ADC)
+&lt;li&gt;Operating range: 300 to 1200 mbar, -40 to +85 °C
+&lt;li&gt;I2C interface -- address &lt;b&gt;1110110x&lt;/b&gt;
+&lt;li&gt;No external components (internal oscillator)
+&lt;/ul&gt;</description>
+<gates>
+<gate name="G$1" symbol="MS5637" x="0" y="0"/>
+</gates>
+<devices>
+<device name="" package="MS5637">
+<connects>
+<connect gate="G$1" pin="GND" pad="4"/>
+<connect gate="G$1" pin="SCL" pad="3"/>
+<connect gate="G$1" pin="SDA" pad="2"/>
+<connect gate="G$1" pin="VDD" pad="1"/>
+</connects>
+<technologies>
+<technology name="">
+<attribute name="MANUFACTURER" value="TE Connectivity" constant="no"/>
+<attribute name="MPN" value="MS5637-02BA03" constant="no"/>
+</technology>
 </technologies>
 </device>
 </devices>
@@ -5628,34 +5665,7 @@ Source: http://www.osram.convergy.de/</description>
 <attribute name="VOLTAGE" value="10V"/>
 <attribute name="Z-HEIGHT" value="0.55mm"/>
 </part>
-<part name="U18" library="Sensors" deviceset="MPL3115A2" device="">
-<attribute name="DESC" value="IC ALTIMETER I2C VERSION 8LGA"/>
-<attribute name="HEIGHT" value="1.1mm"/>
-<attribute name="PARTNO" value="MPL-3115A2"/>
-<attribute name="SIZE" value="8-LGA"/>
-<attribute name="TYPE" value="Altimeter"/>
-</part>
 <part name="GND10" library="Supplies" deviceset="GND" device=""/>
-<part name="C47" library="Capacitors" deviceset="C-" device="0402" value="0.1u">
-<attribute name="DESC" value="CAP CER 0.1UF 16V X7R 0402"/>
-<attribute name="HEIGHT" value="0.55mm"/>
-<attribute name="MPN" value="C0402C104K4RACTU"/>
-<attribute name="PARTNO" value="C0402C104K4RACTU"/>
-<attribute name="SIZE" value="0402"/>
-<attribute name="TYPE" value="Capacitor"/>
-<attribute name="VOLT" value="16V"/>
-<attribute name="VOLTAGE" value="16V"/>
-</part>
-<part name="C48" library="Capacitors" deviceset="C-" device="0402" value="0.1u">
-<attribute name="DESC" value="CAP CER 0.1UF 16V X7R 0402"/>
-<attribute name="HEIGHT" value="0.55mm"/>
-<attribute name="MPN" value="C0402C104K4RACTU"/>
-<attribute name="PARTNO" value="C0402C104K4RACTU"/>
-<attribute name="SIZE" value="0402"/>
-<attribute name="TYPE" value="Capacitor"/>
-<attribute name="VOLT" value="16V"/>
-<attribute name="VOLTAGE" value="16V"/>
-</part>
 <part name="U3" library="CommonSense-DTR-v1" deviceset="TS3A24159DGSR" device="DGS0010A_L" value="Value">
 <attribute name="DESC" value="IC SWITCH SPDT DUAL 10VSSOP"/>
 <attribute name="HEIGHT" value="1.1mm"/>
@@ -5992,6 +6002,7 @@ Source: http://www.osram.convergy.de/</description>
 <part name="GND27" library="Supplies" deviceset="GND" device=""/>
 <part name="GND28" library="Supplies" deviceset="GND" device=""/>
 <part name="C26" library="CommonSense-DTR-v1" deviceset="C0402-ANT" device="0402" value="22p">
+<attribute name="BOM" value="EXCLUDE"/>
 <attribute name="DESC" value="CAP CER 22PF 50V C0G/NP0 0402"/>
 <attribute name="HEIGHT" value="0.55mm"/>
 <attribute name="MPN" value="CBR04C220F5GAC"/>
@@ -6003,6 +6014,7 @@ Source: http://www.osram.convergy.de/</description>
 <attribute name="VOLTAGE" value="50V"/>
 </part>
 <part name="R27" library="CommonSense-DTR-v1" deviceset="C0402-ANT" device="0402" value="0R">
+<attribute name="BOM" value="EXCLUDE"/>
 <attribute name="DESC" value="RES 0 OHM JUMPER 1/16W 0402"/>
 <attribute name="MANUFACTURER" value="Stackpole"/>
 <attribute name="MPN" value="RMCF0402ZT0R00"/>
@@ -6012,6 +6024,7 @@ Source: http://www.osram.convergy.de/</description>
 <attribute name="TYPE" value="Resistor"/>
 </part>
 <part name="R28" library="CommonSense-DTR-v1" deviceset="C0402-ANT" device="0402" value="0R">
+<attribute name="BOM" value="EXCLUDE"/>
 <attribute name="DESC" value="RES 0 OHM JUMPER 1/16W 0402"/>
 <attribute name="MANUFACTURER" value="Stackpole"/>
 <attribute name="MPN" value="RMCF0402ZT0R00"/>
@@ -6021,6 +6034,7 @@ Source: http://www.osram.convergy.de/</description>
 <attribute name="TYPE" value="Resistor"/>
 </part>
 <part name="R30" library="Inductors" deviceset="L0402" device="" value="0R">
+<attribute name="BOM" value="EXCLUDE"/>
 <attribute name="DESC" value="RES 0 OHM JUMPER 1/16W 0402"/>
 <attribute name="HEIGHT" value="0.45mm"/>
 <attribute name="MANUFACTURER" value="Stackpole"/>
@@ -6104,17 +6118,6 @@ Source: http://www.osram.convergy.de/</description>
 <part name="+3V29" library="Supplies" deviceset="+3V3" device=""/>
 <part name="+3V30" library="Supplies" deviceset="+3V3" device=""/>
 <part name="JP4" library="Connectors" deviceset="JUMPER-SMT_2_NC_PASTE" device="_NO-SILK" package3d_urn="urn:adsk.eagle:package:39283/1" technology="LG" value="JUMPER-SMT_2_NC_PASTELG_NO-SILK"/>
-<part name="C40" library="Capacitors" deviceset="C-" device="0603" value="10u">
-<attribute name="DESC" value="CAP CER 10UF 6.3V X5R 0603 "/>
-<attribute name="HEIGHT" value="0.9mm"/>
-<attribute name="MANUFACTURER" value="Murata"/>
-<attribute name="MPN" value="GRM188R60J106KE47D"/>
-<attribute name="PARTNO" value="GRM188R60J106KE47D"/>
-<attribute name="SIZE" value="0603"/>
-<attribute name="TC" value="X5R"/>
-<attribute name="TYPE" value="Capacitor"/>
-<attribute name="VOLT" value="6.3V"/>
-</part>
 <part name="C43" library="Capacitors" deviceset="C-" device="0402" value="0.1u">
 <attribute name="DESC" value="CAP CER 0.1UF 10V X7R 0402"/>
 <attribute name="DESCRIPTION" value="0.1µF ±10% 10V Ceramic Capacitor X7R 0402 (1005 Metric)"/>
@@ -6206,7 +6209,7 @@ Source: http://www.osram.convergy.de/</description>
 <attribute name="MPN" value="C1005X7S1A105K050BC"/>
 <attribute name="PARTNO" value="C1005X7S1A105K050BC"/>
 </part>
-<part name="LED1" library="Diodes" deviceset="LED" device="CHIPLED_0603">
+<part name="RED_LED" library="Diodes" deviceset="LED" device="CHIPLED_0603">
 <attribute name="DESC" value="LED RED CLEAR CHIP SMD"/>
 <attribute name="MANUFACTURER" value="Kingbright"/>
 <attribute name="MPN" value="APT1608SURCK"/>
@@ -6232,7 +6235,7 @@ Source: http://www.osram.convergy.de/</description>
 <attribute name="TYPE" value="Capacitor"/>
 <attribute name="VOLT" value="10V"/>
 </part>
-<part name="LED2" library="Diodes" deviceset="LED" device="CHIPLED_0603">
+<part name="GREEN_LED" library="Diodes" deviceset="LED" device="CHIPLED_0603">
 <attribute name="DESC" value="LED GREEN CLEAR CHIP SMD"/>
 <attribute name="MANUFACTURER" value="Kingbright"/>
 <attribute name="MPN" value="APT1608SGC"/>
@@ -6246,6 +6249,7 @@ Source: http://www.osram.convergy.de/</description>
 <attribute name="TOL" value="1%"/>
 <attribute name="TYPE" value="Resistor"/>
 </part>
+<part name="U206" library="Sensors" deviceset="MS5637" device=""/>
 </parts>
 <sheets>
 <sheet>
@@ -6254,9 +6258,6 @@ Source: http://www.osram.convergy.de/</description>
 <text x="233.68" y="259.08" size="2.54" layer="94">SAMD21</text>
 <text x="111.76" y="93.98" size="2.54" layer="94">ATTINY817</text>
 <text x="76.2" y="187.96" size="2.54" layer="94">MICROPHONE-SPW2430</text>
-<text x="276.86" y="33.02" size="1.778" layer="97" rot="MR0">I2C 7-BIT Address: 0x60
-      8-bit READ: 0xC1
-      8-bit WRITE: 0xC0</text>
 <wire x1="154.94" y1="271.78" x2="154.94" y2="200.66" width="0.1524" layer="94" style="shortdash"/>
 <wire x1="154.94" y1="200.66" x2="154.94" y2="127" width="0.1524" layer="94" style="shortdash"/>
 <wire x1="233.68" y1="127" x2="233.68" y2="2.54" width="0.1524" layer="94" style="shortdash"/>
@@ -6623,38 +6624,8 @@ F_MAX=1000kHz</text>
 <attribute name="VOLT" x="142.24" y="149.86" size="1.778" layer="96" display="off"/>
 <attribute name="Z-HEIGHT" x="142.24" y="149.86" size="1.778" layer="96" display="off"/>
 </instance>
-<instance part="U18" gate="G$1" x="264.16" y="55.88" smashed="yes" rot="MR0">
-<attribute name="NAME" x="273.81991875" y="66.811" size="1.271040625" layer="95" rot="MR0"/>
-<attribute name="PARTNO" x="264.16" y="55.88" size="1.778" layer="96" display="off"/>
-<attribute name="DESC" x="264.16" y="55.88" size="1.778" layer="96" rot="MR0" display="off"/>
-<attribute name="TYPE" x="264.16" y="55.88" size="1.778" layer="96" rot="MR0" display="off"/>
-<attribute name="SIZE" x="264.16" y="55.88" size="1.778" layer="96" rot="MR0" display="off"/>
-<attribute name="HEIGHT" x="264.16" y="55.88" size="1.778" layer="96" rot="MR0" display="off"/>
-</instance>
 <instance part="GND10" gate="1" x="284.48" y="33.02" smashed="yes" rot="MR0">
 <attribute name="VALUE" x="287.02" y="30.48" size="1.778" layer="96" rot="MR0"/>
-</instance>
-<instance part="C47" gate="G$1" x="302.26" y="45.72" smashed="yes" rot="MR0" grouprefs="I">
-<attribute name="NAME" x="301.244" y="47.625" size="1.778" layer="95" rot="MR0"/>
-<attribute name="VALUE" x="301.244" y="42.799" size="1.778" layer="96" rot="MR0"/>
-<attribute name="MPN" x="302.26" y="45.72" size="1.778" layer="96" rot="MR0" display="off"/>
-<attribute name="PARTNO" x="302.26" y="45.72" size="1.778" layer="96" display="off"/>
-<attribute name="DESC" x="302.26" y="45.72" size="1.778" layer="96" rot="MR0" display="off"/>
-<attribute name="TYPE" x="302.26" y="45.72" size="1.778" layer="96" rot="MR0" display="off"/>
-<attribute name="SIZE" x="302.26" y="45.72" size="1.778" layer="96" rot="MR0" display="off"/>
-<attribute name="VOLT" x="302.26" y="45.72" size="1.778" layer="96" rot="MR0" display="off"/>
-<attribute name="HEIGHT" x="302.26" y="45.72" size="1.778" layer="96" rot="MR0" display="off"/>
-</instance>
-<instance part="C48" gate="G$1" x="292.1" y="45.72" smashed="yes" rot="MR0" grouprefs="I">
-<attribute name="NAME" x="291.084" y="47.625" size="1.778" layer="95" rot="MR0"/>
-<attribute name="VALUE" x="291.084" y="42.799" size="1.778" layer="96" rot="MR0"/>
-<attribute name="MPN" x="292.1" y="45.72" size="1.778" layer="96" rot="MR0" display="off"/>
-<attribute name="PARTNO" x="292.1" y="45.72" size="1.778" layer="96" display="off"/>
-<attribute name="DESC" x="292.1" y="45.72" size="1.778" layer="96" rot="MR0" display="off"/>
-<attribute name="TYPE" x="292.1" y="45.72" size="1.778" layer="96" rot="MR0" display="off"/>
-<attribute name="SIZE" x="292.1" y="45.72" size="1.778" layer="96" rot="MR0" display="off"/>
-<attribute name="VOLT" x="292.1" y="45.72" size="1.778" layer="96" rot="MR0" display="off"/>
-<attribute name="HEIGHT" x="292.1" y="45.72" size="1.778" layer="96" rot="MR0" display="off"/>
 </instance>
 <instance part="X1" gate="G$1" x="38.1" y="88.9" smashed="yes" rot="R90">
 <attribute name="NAME" x="34.29" y="86.36" size="1.27" layer="95" font="vector" rot="R90"/>
@@ -6824,6 +6795,7 @@ F_MAX=1000kHz</text>
 <attribute name="SIZE" x="86.36" y="231.14" size="1.778" layer="96" rot="R90" display="off"/>
 <attribute name="VOLT" x="86.36" y="231.14" size="1.778" layer="96" rot="R90" display="off"/>
 <attribute name="HEIGHT" x="86.36" y="231.14" size="1.778" layer="96" rot="R90" display="off"/>
+<attribute name="BOM" x="86.36" y="231.14" size="1.778" layer="96" rot="R90" display="off"/>
 </instance>
 <instance part="R27" gate="G$1" x="96.52" y="224.536" smashed="yes">
 <attribute name="NAME" x="82.296" y="221.361" size="1.778" layer="95"/>
@@ -6834,6 +6806,7 @@ F_MAX=1000kHz</text>
 <attribute name="DESC" x="96.52" y="224.536" size="1.778" layer="96" display="off"/>
 <attribute name="TYPE" x="96.52" y="224.536" size="1.778" layer="96" display="off"/>
 <attribute name="SIZE" x="96.52" y="224.536" size="1.778" layer="96" display="off"/>
+<attribute name="BOM" x="96.52" y="224.536" size="1.778" layer="96" display="off"/>
 </instance>
 <instance part="R28" gate="G$1" x="116.332" y="224.536" smashed="yes">
 <attribute name="NAME" x="117.348" y="226.441" size="1.778" layer="95"/>
@@ -6844,6 +6817,7 @@ F_MAX=1000kHz</text>
 <attribute name="DESC" x="116.332" y="224.536" size="1.778" layer="96" display="off"/>
 <attribute name="TYPE" x="116.332" y="224.536" size="1.778" layer="96" display="off"/>
 <attribute name="SIZE" x="116.332" y="224.536" size="1.778" layer="96" display="off"/>
+<attribute name="BOM" x="116.332" y="224.536" size="1.778" layer="96" display="off"/>
 </instance>
 <instance part="R30" gate="G$1" x="106.68" y="231.14" smashed="yes">
 <attribute name="NAME" x="101.59153125" y="233.04818125" size="1.780959375" layer="95"/>
@@ -6856,20 +6830,9 @@ F_MAX=1000kHz</text>
 <attribute name="MANUFACTURER" x="106.68" y="231.14" size="1.778" layer="96" display="off"/>
 <attribute name="HEIGHT" x="106.68" y="231.14" size="1.778" layer="96" display="off"/>
 <attribute name="MPN" x="106.68" y="231.14" size="1.778" layer="96" display="off"/>
+<attribute name="BOM" x="106.68" y="231.14" size="1.778" layer="96" display="off"/>
 </instance>
-<instance part="C40" gate="G$1" x="309.88" y="48.26" smashed="yes" rot="R180" grouprefs="10UCAP">
-<attribute name="NAME" x="312.17" y="47.01" size="1.27" layer="95" font="vector" rot="R270" align="center"/>
-<attribute name="VALUE" x="307.58" y="47.01" size="1.27" layer="96" font="vector" rot="R270" align="center"/>
-<attribute name="MPN" x="309.88" y="48.26" size="1.778" layer="96" rot="R180" display="off"/>
-<attribute name="PARTNO" x="309.88" y="48.26" size="1.778" layer="96" display="off"/>
-<attribute name="TOL" x="309.88" y="48.26" size="1.778" layer="96" rot="R180" display="off"/>
-<attribute name="DESC" x="309.88" y="48.26" size="1.778" layer="96" rot="R180" display="off"/>
-<attribute name="TYPE" x="309.88" y="48.26" size="1.778" layer="96" rot="R180" display="off"/>
-<attribute name="SIZE" x="309.88" y="48.26" size="1.778" layer="96" rot="R180" display="off"/>
-<attribute name="VOLT" x="309.88" y="48.26" size="1.778" layer="96" rot="R180" display="off"/>
-<attribute name="HEIGHT" x="309.88" y="48.26" size="1.778" layer="96" rot="R180" display="off"/>
-</instance>
-<instance part="LED1" gate="G$1" x="299.72" y="153.67" smashed="yes">
+<instance part="RED_LED" gate="G$1" x="299.72" y="153.67" smashed="yes">
 <attribute name="NAME" x="303.276" y="149.098" size="1.778" layer="95" rot="R90"/>
 <attribute name="VALUE" x="305.435" y="149.098" size="1.778" layer="96" rot="R90"/>
 <attribute name="MPN" x="299.72" y="153.67" size="1.778" layer="96" display="off"/>
@@ -6889,7 +6852,7 @@ F_MAX=1000kHz</text>
 <instance part="GND29" gate="1" x="299.72" y="142.24" smashed="yes" rot="MR0">
 <attribute name="VALUE" x="302.26" y="139.7" size="1.778" layer="96" rot="MR0"/>
 </instance>
-<instance part="LED2" gate="G$1" x="60.96" y="44.45" smashed="yes">
+<instance part="GREEN_LED" gate="G$1" x="60.96" y="44.45" smashed="yes">
 <attribute name="NAME" x="64.516" y="39.878" size="1.778" layer="95" rot="R90"/>
 <attribute name="VALUE" x="66.675" y="39.878" size="1.778" layer="96" rot="R90"/>
 <attribute name="PARTNO" x="60.96" y="44.45" size="1.778" layer="96" display="off"/>
@@ -6905,6 +6868,9 @@ F_MAX=1000kHz</text>
 <attribute name="MPN" x="72.644" y="63.5" size="1.778" layer="96" rot="R180" display="off"/>
 <attribute name="TYPE" x="72.644" y="63.5" size="1.778" layer="96" rot="R180" display="off"/>
 <attribute name="DESC" x="72.644" y="63.5" size="1.778" layer="96" rot="R180" display="off"/>
+</instance>
+<instance part="U206" gate="G$1" x="264.16" y="55.88" smashed="yes" rot="MR0">
+<attribute name="NAME" x="273.81991875" y="66.811" size="1.271040625" layer="95" rot="MR0"/>
 </instance>
 </instances>
 <busses>
@@ -7050,7 +7016,7 @@ F_MAX=1000kHz</text>
 <wire x1="88.9" y1="40.64" x2="96.52" y2="40.64" width="0.1524" layer="91"/>
 <wire x1="96.52" y1="40.64" x2="96.52" y2="33.02" width="0.1524" layer="91"/>
 <junction x="96.52" y="27.94"/>
-<pinref part="LED2" gate="G$1" pin="C"/>
+<pinref part="GREEN_LED" gate="G$1" pin="C"/>
 <wire x1="96.52" y1="33.02" x2="96.52" y2="27.94" width="0.1524" layer="91"/>
 <wire x1="60.96" y1="39.37" x2="60.96" y2="33.02" width="0.1524" layer="91"/>
 <wire x1="60.96" y1="33.02" x2="96.52" y2="33.02" width="0.1524" layer="91"/>
@@ -7130,23 +7096,10 @@ F_MAX=1000kHz</text>
 <pinref part="C7" gate="G$1" pin="2"/>
 </segment>
 <segment>
-<pinref part="GND10" gate="1" pin="GND"/>
-<wire x1="284.48" y1="35.56" x2="284.48" y2="38.1" width="0.1524" layer="91"/>
-<pinref part="U18" gate="G$1" pin="GND"/>
-<wire x1="284.48" y1="38.1" x2="284.48" y2="48.26" width="0.1524" layer="91"/>
 <wire x1="284.48" y1="48.26" x2="279.4" y2="48.26" width="0.1524" layer="91"/>
-<pinref part="C47" gate="G$1" pin="2"/>
-<wire x1="302.26" y1="40.64" x2="302.26" y2="38.1" width="0.1524" layer="91"/>
-<wire x1="302.26" y1="38.1" x2="292.1" y2="38.1" width="0.1524" layer="91"/>
-<junction x="284.48" y="38.1"/>
-<pinref part="C48" gate="G$1" pin="2"/>
-<wire x1="292.1" y1="38.1" x2="284.48" y2="38.1" width="0.1524" layer="91"/>
-<wire x1="292.1" y1="40.64" x2="292.1" y2="38.1" width="0.1524" layer="91"/>
-<junction x="292.1" y="38.1"/>
-<pinref part="C40" gate="G$1" pin="1"/>
-<wire x1="309.88" y1="43.18" x2="309.88" y2="38.1" width="0.1524" layer="91"/>
-<wire x1="309.88" y1="38.1" x2="302.26" y2="38.1" width="0.1524" layer="91"/>
-<junction x="302.26" y="38.1"/>
+<pinref part="GND10" gate="1" pin="GND"/>
+<wire x1="284.48" y1="35.56" x2="284.48" y2="48.26" width="0.1524" layer="91"/>
+<pinref part="U206" gate="G$1" pin="GND"/>
 </segment>
 <segment>
 <pinref part="U11" gate="G$1" pin="GNDIO"/>
@@ -7177,7 +7130,7 @@ F_MAX=1000kHz</text>
 </segment>
 <segment>
 <pinref part="GND29" gate="1" pin="GND"/>
-<pinref part="LED1" gate="G$1" pin="C"/>
+<pinref part="RED_LED" gate="G$1" pin="C"/>
 <wire x1="299.72" y1="144.78" x2="299.72" y2="148.59" width="0.1524" layer="91"/>
 </segment>
 </net>
@@ -7513,14 +7466,6 @@ F_MAX=1000kHz</text>
 <junction x="43.18" y="185.42"/>
 </segment>
 </net>
-<net name="N$10" class="0">
-<segment>
-<pinref part="U18" gate="G$1" pin="CAP"/>
-<wire x1="279.4" y1="53.34" x2="292.1" y2="53.34" width="0.1524" layer="91"/>
-<pinref part="C48" gate="G$1" pin="1"/>
-<wire x1="292.1" y1="53.34" x2="292.1" y2="50.8" width="0.1524" layer="91"/>
-</segment>
-</net>
 <net name="N$22" class="0">
 <segment>
 <pinref part="X1" gate="G$1" pin="P$1"/>
@@ -7594,22 +7539,11 @@ F_MAX=1000kHz</text>
 </net>
 <net name="+3V3_BARO" class="1">
 <segment>
-<pinref part="U18" gate="G$1" pin="V"/>
-<wire x1="302.26" y1="63.5" x2="284.48" y2="63.5" width="0.1524" layer="91"/>
-<wire x1="284.48" y1="63.5" x2="279.4" y2="63.5" width="0.1524" layer="91"/>
-<wire x1="284.48" y1="63.5" x2="284.48" y2="60.96" width="0.1524" layer="91"/>
-<junction x="284.48" y="63.5"/>
-<pinref part="U18" gate="G$1" pin="VIO"/>
-<wire x1="284.48" y1="60.96" x2="279.4" y2="60.96" width="0.1524" layer="91"/>
-<pinref part="C47" gate="G$1" pin="1"/>
-<wire x1="302.26" y1="50.8" x2="302.26" y2="63.5" width="0.1524" layer="91"/>
-<junction x="302.26" y="63.5"/>
 <pinref part="+3V20" gate="G$1" pin="+3V3"/>
 <wire x1="302.26" y1="63.5" x2="302.26" y2="68.58" width="0.1524" layer="91"/>
 <label x="307.34" y="73.66" size="1.778" layer="95" rot="MR0"/>
-<wire x1="302.26" y1="63.5" x2="309.88" y2="63.5" width="0.1524" layer="91"/>
-<pinref part="C40" gate="G$1" pin="2"/>
-<wire x1="309.88" y1="63.5" x2="309.88" y2="53.34" width="0.1524" layer="91"/>
+<pinref part="U206" gate="G$1" pin="VDD"/>
+<wire x1="279.4" y1="63.5" x2="302.26" y2="63.5" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="N$26" class="0">
@@ -7826,7 +7760,7 @@ F_MAX=1000kHz</text>
 <net name="N$20" class="0">
 <segment>
 <pinref part="R11" gate="G$1" pin="1"/>
-<pinref part="LED1" gate="G$1" pin="A"/>
+<pinref part="RED_LED" gate="G$1" pin="A"/>
 <wire x1="299.72" y1="161.036" x2="299.72" y2="156.21" width="0.1524" layer="91"/>
 </segment>
 </net>
@@ -7879,22 +7813,13 @@ F_MAX=1000kHz</text>
 <junction x="119.38" y="160.02"/>
 </segment>
 </net>
-<net name="DTR_BUS2_GPIO0" class="0">
-<segment>
-<pinref part="U18" gate="G$1" pin="INT1"/>
-<wire x1="248.92" y1="55.88" x2="241.3" y2="55.88" width="0.1524" layer="91"/>
-<wire x1="241.3" y1="55.88" x2="241.3" y2="114.3" width="0.1524" layer="91"/>
-<label x="241.3" y="71.12" size="1.778" layer="95" rot="R90"/>
-<wire x1="241.3" y1="114.3" x2="238.76" y2="116.84" width="0.1524" layer="91"/>
-</segment>
-</net>
 <net name="DTR_BUS2_P0/I2C_SDA" class="0">
 <segment>
 <wire x1="241.3" y1="116.84" x2="243.84" y2="114.3" width="0.1524" layer="91"/>
 <wire x1="243.84" y1="114.3" x2="243.84" y2="60.96" width="0.1524" layer="91"/>
 <label x="243.84" y="71.12" size="1.778" layer="95" rot="R90"/>
-<pinref part="U18" gate="G$1" pin="SDA"/>
 <wire x1="248.92" y1="60.96" x2="243.84" y2="60.96" width="0.1524" layer="91"/>
+<pinref part="U206" gate="G$1" pin="SDA"/>
 </segment>
 <segment>
 <pinref part="U11" gate="G$1" pin="SDX"/>
@@ -7913,8 +7838,8 @@ F_MAX=1000kHz</text>
 <wire x1="243.84" y1="116.84" x2="246.38" y2="114.3" width="0.1524" layer="91"/>
 <wire x1="246.38" y1="114.3" x2="246.38" y2="63.5" width="0.1524" layer="91"/>
 <label x="246.38" y="71.12" size="1.778" layer="95" rot="R90"/>
-<pinref part="U18" gate="G$1" pin="SCL"/>
 <wire x1="248.92" y1="63.5" x2="246.38" y2="63.5" width="0.1524" layer="91"/>
+<pinref part="U206" gate="G$1" pin="SCL"/>
 </segment>
 <segment>
 <pinref part="U11" gate="G$1" pin="SCX"/>
@@ -7948,7 +7873,7 @@ F_MAX=1000kHz</text>
 </net>
 <net name="DTR_DETECT_LED" class="0">
 <segment>
-<pinref part="LED2" gate="G$1" pin="A"/>
+<pinref part="GREEN_LED" gate="G$1" pin="A"/>
 <wire x1="60.96" y1="63.5" x2="60.96" y2="46.99" width="0.1524" layer="91"/>
 <wire x1="67.564" y1="63.5" x2="60.96" y2="63.5" width="0.1524" layer="91"/>
 <pinref part="R12" gate="G$1" pin="2"/>
@@ -7967,7 +7892,6 @@ F_MAX=1000kHz</text>
 <junction x="132.08" y="157.48"/>
 <pinref part="R3" gate="G$1" pin="1"/>
 <pinref part="R4" gate="G$1" pin="2"/>
-<label x="127" y="165.1" size="1.778" layer="95"/>
 <pinref part="C8" gate="G$1" pin="1"/>
 </segment>
 </net>
