@@ -6262,13 +6262,16 @@ Low Voltage Barometric Pressure Sensor&lt;/h1&gt;
 <wire x1="154.94" y1="200.66" x2="154.94" y2="127" width="0.1524" layer="94" style="shortdash"/>
 <wire x1="233.68" y1="127" x2="233.68" y2="2.54" width="0.1524" layer="94" style="shortdash"/>
 <wire x1="154.94" y1="127" x2="396.24" y2="127" width="0.1524" layer="94" style="shortdash"/>
-<text x="254" y="76.2" size="2.54" layer="94">PRESSURE SENSOR-MPL3115</text>
+<text x="254" y="76.2" size="2.54" layer="94">PRESSURE SENSOR-MS5637</text>
 <wire x1="154.94" y1="127" x2="2.54" y2="127" width="0.1524" layer="94" style="shortdash"/>
 <wire x1="154.94" y1="200.66" x2="2.54" y2="200.66" width="0.1524" layer="94" style="shortdash"/>
 <text x="360.68" y="17.78" size="1.778" layer="97" rot="MR0">I2C 7-BIT Address: 
 SDO-&gt;GND: 0x68
 SDO-&gt;VDDIO: 0x69
 F_MAX=1000kHz</text>
+<text x="271.78" y="27.94" size="1.778" layer="97" rot="MR0">I2C 7-BIT Address: 
+1110110b (0x76)
+</text>
 </plain>
 <instances>
 <instance part="GND12" gate="1" x="302.26" y="218.44" smashed="yes" rot="MR0">
@@ -7902,6 +7905,7 @@ F_MAX=1000kHz</text>
 <text x="45.72" y="261.62" size="2.54" layer="94">PWR &amp; MEAS</text>
 <text x="180.34" y="261.62" size="2.54" layer="94">ATTINY PWR</text>
 <wire x1="236.22" y1="271.78" x2="236.22" y2="2.54" width="0.1524" layer="94" style="shortdash"/>
+<text x="78.74" y="17.78" size="1.778" layer="97">I2C ADDR: 0001010b (0x0A)</text>
 </plain>
 <instances>
 <instance part="BORDER1" gate="G$1" x="0" y="0" smashed="yes"/>
