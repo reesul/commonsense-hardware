@@ -8,7 +8,7 @@
 </settings>
 <grid distance="25" unitdist="mil" unit="mil" style="lines" multiple="1" display="yes" altdistance="0.5" altunitdist="mil" altunit="mil"/>
 <layers>
-<layer number="1" name="Top" color="4" fill="1" visible="yes" active="yes"/>
+<layer number="1" name="Top" color="4" fill="1" visible="no" active="yes"/>
 <layer number="2" name="Route2" color="42" fill="1" visible="no" active="no"/>
 <layer number="3" name="Route3" color="17" fill="1" visible="no" active="no"/>
 <layer number="4" name="Route4" color="18" fill="1" visible="no" active="no"/>
@@ -28,11 +28,11 @@
 <layer number="18" name="Vias" color="2" fill="1" visible="yes" active="yes"/>
 <layer number="19" name="Unrouted" color="6" fill="1" visible="yes" active="yes"/>
 <layer number="20" name="Dimension" color="24" fill="1" visible="yes" active="yes"/>
-<layer number="21" name="tPlace" color="23" fill="1" visible="yes" active="yes"/>
+<layer number="21" name="tPlace" color="23" fill="1" visible="no" active="yes"/>
 <layer number="22" name="bPlace" color="23" fill="1" visible="yes" active="yes"/>
-<layer number="23" name="tOrigins" color="15" fill="1" visible="yes" active="yes"/>
+<layer number="23" name="tOrigins" color="15" fill="1" visible="no" active="yes"/>
 <layer number="24" name="bOrigins" color="15" fill="1" visible="yes" active="yes"/>
-<layer number="25" name="tNames" color="54" fill="1" visible="yes" active="yes"/>
+<layer number="25" name="tNames" color="54" fill="1" visible="no" active="yes"/>
 <layer number="26" name="bNames" color="54" fill="1" visible="yes" active="yes"/>
 <layer number="27" name="tValues" color="57" fill="1" visible="no" active="yes"/>
 <layer number="28" name="bValues" color="57" fill="1" visible="no" active="yes"/>
@@ -46,19 +46,19 @@
 <layer number="36" name="bGlue" color="7" fill="5" visible="no" active="yes"/>
 <layer number="37" name="tTest" color="7" fill="1" visible="no" active="yes"/>
 <layer number="38" name="bTest" color="7" fill="1" visible="no" active="yes"/>
-<layer number="39" name="tKeepout" color="4" fill="11" visible="yes" active="yes"/>
+<layer number="39" name="tKeepout" color="4" fill="11" visible="no" active="yes"/>
 <layer number="40" name="bKeepout" color="1" fill="11" visible="yes" active="yes"/>
-<layer number="41" name="tRestrict" color="4" fill="10" visible="yes" active="yes"/>
+<layer number="41" name="tRestrict" color="4" fill="10" visible="no" active="yes"/>
 <layer number="42" name="bRestrict" color="1" fill="10" visible="yes" active="yes"/>
 <layer number="43" name="vRestrict" color="2" fill="10" visible="no" active="yes"/>
 <layer number="44" name="Drills" color="7" fill="1" visible="no" active="yes"/>
-<layer number="45" name="Holes" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="45" name="Holes" color="7" fill="1" visible="no" active="yes"/>
 <layer number="46" name="Milling" color="3" fill="1" visible="no" active="yes"/>
 <layer number="47" name="Measures" color="7" fill="1" visible="no" active="yes"/>
 <layer number="48" name="Document" color="7" fill="1" visible="no" active="yes"/>
-<layer number="49" name="Reference" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="49" name="Reference" color="7" fill="1" visible="no" active="yes"/>
 <layer number="50" name="dxf" color="7" fill="1" visible="no" active="no"/>
-<layer number="51" name="tDocu" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="51" name="tDocu" color="7" fill="1" visible="no" active="yes"/>
 <layer number="52" name="bDocu" color="7" fill="1" visible="yes" active="yes"/>
 <layer number="53" name="tGND_GNDA" color="7" fill="9" visible="no" active="no"/>
 <layer number="54" name="bGND_GNDA" color="1" fill="9" visible="no" active="no"/>
@@ -190,25 +190,25 @@
 <wire x1="1.905" y1="0" x2="36.195" y2="0" width="0" layer="20"/>
 <wire x1="36.195" y1="46.99" x2="1.905" y2="46.99" width="0" layer="20"/>
 <wire x1="10.16" y1="28.575" x2="10.16" y2="13.335" width="0" layer="20"/>
-<hole x="3.175" y="43.815" drill="4.191"/>
+<hole x="3.175" y="43.815" drill="2.921"/>
 <wire x1="0" y1="0" x2="38.1" y2="0" width="0.0762" layer="249"/>
 <wire x1="38.1" y1="0" x2="38.1" y2="43.815" width="0.0762" layer="249"/>
 <wire x1="38.1" y1="43.815" x2="0" y2="43.815" width="0.0762" layer="249"/>
 <wire x1="0" y1="0" x2="0" y2="43.815" width="0.0762" layer="249"/>
-<text x="18.4658" y="16.2814" size="0.762" layer="21" font="vector" ratio="20" distance="6" rot="R180">AT RESET</text>
-<text x="24.1808" y="14.1478" size="0.762" layer="21" font="vector" ratio="20" distance="6" rot="R180">AT DBG</text>
-<text x="31.6738" y="37.7952" size="0.762" layer="22" font="vector" ratio="20" distance="6" rot="MR0">SAMD21</text>
-<text x="23.6982" y="45.72" size="0.762" layer="21" font="vector" ratio="20" distance="6">SAMD DEBUG</text>
-<text x="10.9474" y="24.511" size="0.762" layer="21" font="vector" ratio="20" distance="6">SAMD RESET</text>
-<text x="35.433" y="19.9644" size="0.762" layer="21" font="vector" ratio="20" distance="6">U.Fl</text>
-<text x="21.971" y="25.146" size="0.762" layer="22" font="vector" ratio="20" distance="6" rot="MR0">ATTINY817</text>
-<text x="6.8834" y="3.8862" size="0.762" layer="21" font="vector" ratio="20" distance="6">IMU</text>
-<text x="26.7208" y="1.016" size="0.762" layer="21" font="vector" ratio="20" distance="6" rot="R180">MPL3115</text>
-<text x="18.9357" y="43.8404" size="0.762" layer="21" font="vector" ratio="20" distance="6" rot="R180">L</text>
-<text x="9.779" y="43.8404" size="0.762" layer="21" font="vector" ratio="20" distance="6" rot="R180">O</text>
-<text x="13.8176" y="43.1673" size="0.762" layer="21" font="vector" ratio="20" distance="6">S</text>
-<text x="3.0988" y="46.6344" size="0.762" layer="22" font="vector" ratio="20" distance="6" rot="MR180">CommonSense Daughter Board v1
-Eve Hu 7/2/2020</text>
+<text x="18.4658" y="16.2814" size="1.27" layer="21" font="vector" distance="6" rot="R180">ATRST</text>
+<text x="24.1808" y="14.1478" size="1.27" layer="21" font="vector" distance="6" rot="R180">ATDBG</text>
+<text x="32.3977" y="38.0365" size="1.27" layer="22" font="vector" distance="6" rot="MR0">SAMD21</text>
+<text x="21.7932" y="43.18" size="1.27" layer="21" font="vector" distance="6">SAMD DEBUG</text>
+<text x="11.5824" y="23.876" size="1.27" layer="21" font="vector" distance="6">PRST</text>
+<text x="34.798" y="19.9644" size="1.27" layer="21" font="vector" distance="6">U.Fl</text>
+<text x="22.2377" y="25.0952" size="1.27" layer="22" font="vector" distance="6" rot="MR0">ATTINY</text>
+<text x="6.2484" y="3.2512" size="1.27" layer="21" font="vector" distance="6">IMU</text>
+<text x="26.6192" y="0.889" size="1.27" layer="21" font="vector" distance="6">MS5637</text>
+<text x="19.5707" y="43.8404" size="1.27" layer="21" font="vector" distance="6" rot="R180">L</text>
+<text x="9.779" y="43.8404" size="1.27" layer="21" font="vector" distance="6" rot="R180">O</text>
+<text x="14.7574" y="43.8277" size="1.27" layer="21" font="vector" distance="6" rot="R180">S</text>
+<text x="3.7592" y="46.5074" size="1.27" layer="22" font="vector" distance="6" rot="MR180">CS Daughter Card v2
+Eve Hu 9/12/2020</text>
 <wire x1="0" y1="45.085" x2="0" y2="30.48" width="0" layer="20"/>
 <wire x1="0" y1="44.45" x2="0" y2="0" width="0.1524" layer="48"/>
 <wire x1="0" y1="0" x2="38.1" y2="0" width="0.1524" layer="48"/>
@@ -221,9 +221,9 @@ Eve Hu 7/2/2020</text>
 <wire x1="0" y1="9.525" x2="0" y2="1.905" width="0" layer="20"/>
 <wire x1="1.905" y1="0" x2="0" y2="1.905" width="0" layer="20" curve="-90"/>
 <wire x1="0" y1="9.525" x2="1.905" y2="11.43" width="0" layer="20" curve="-90"/>
-<hole x="34.925" y="43.815" drill="4.191"/>
-<hole x="3.175" y="3.175" drill="4.191"/>
-<hole x="34.925" y="3.175" drill="4.191"/>
+<hole x="34.925" y="43.815" drill="2.921"/>
+<hole x="3.175" y="3.175" drill="2.921"/>
+<hole x="34.925" y="3.175" drill="2.921"/>
 <wire x1="38.1" y1="45.085" x2="38.1" y2="1.905" width="0" layer="20"/>
 <wire x1="38.1" y1="1.905" x2="36.195" y2="0" width="0" layer="20" curve="-90"/>
 <wire x1="36.195" y1="46.99" x2="38.1" y2="45.085" width="0" layer="20" curve="-90"/>
@@ -231,7 +231,7 @@ Eve Hu 7/2/2020</text>
 <wire x1="10.16" y1="13.335" x2="8.255" y2="11.43" width="0" layer="20" curve="-90"/>
 <wire x1="0" y1="30.48" x2="8.255" y2="30.48" width="0" layer="20"/>
 <wire x1="8.255" y1="30.48" x2="10.16" y2="28.575" width="0" layer="20" curve="-90"/>
-<text x="15.9639" y="31.9786" size="0.762" layer="21" font="vector" ratio="20" distance="6">SAMD DBG</text>
+<text x="16.8402" y="32.2072" size="1.27" layer="21" font="vector" distance="6">PDBG</text>
 <circle x="3.175" y="43.815" radius="2.54" width="0.1524" layer="49"/>
 <circle x="34.925" y="43.815" radius="2.54" width="0.1524" layer="49"/>
 <circle x="34.925" y="3.175" radius="2.54" width="0.1524" layer="49"/>
@@ -1606,31 +1606,6 @@ Pad dimensions from https://www.vishay.com/docs/45017/vjw1bcsoldfootdesign.pdf</
 </package>
 </packages>
 </library>
-<library name="Sensors">
-<description>CCSG Eagle Library</description>
-<packages>
-<package name="MPL3115A2_PSON125P300X500X120-8N">
-<circle x="-2.2" y="1.9" radius="0.14141875" width="0.2" layer="21"/>
-<wire x1="-1.8" y1="2.8" x2="1.8" y2="2.8" width="0.05" layer="39"/>
-<wire x1="1.8" y1="2.8" x2="1.8" y2="-2.8" width="0.05" layer="39"/>
-<wire x1="1.8" y1="-2.8" x2="-1.8" y2="-2.8" width="0.05" layer="39"/>
-<wire x1="-1.8" y1="-2.8" x2="-1.8" y2="2.8" width="0.05" layer="39"/>
-<smd name="1" x="-1" y="1.875" dx="0.9" dy="0.55" layer="1"/>
-<smd name="2" x="-1" y="0.625" dx="0.9" dy="0.55" layer="1"/>
-<smd name="3" x="-1" y="-0.625" dx="0.9" dy="0.55" layer="1"/>
-<smd name="4" x="-1" y="-1.875" dx="0.9" dy="0.55" layer="1"/>
-<smd name="5" x="1" y="-1.875" dx="0.9" dy="0.55" layer="1"/>
-<smd name="6" x="1" y="-0.625" dx="0.9" dy="0.55" layer="1"/>
-<smd name="7" x="1" y="0.625" dx="0.9" dy="0.55" layer="1"/>
-<smd name="8" x="1" y="1.875" dx="0.9" dy="0.55" layer="1"/>
-<text x="-1.45485" y="3.05598125" size="0.6096" layer="25">&gt;NAME</text>
-<wire x1="-1.6" y1="2.5" x2="1.6" y2="2.5" width="0.1524" layer="21"/>
-<wire x1="1.6" y1="2.5" x2="1.6" y2="-2.5" width="0.1524" layer="21"/>
-<wire x1="1.6" y1="-2.5" x2="-1.6" y2="-2.5" width="0.1524" layer="21"/>
-<wire x1="-1.6" y1="-2.5" x2="-1.6" y2="2.5" width="0.1524" layer="21"/>
-</package>
-</packages>
-</library>
 <library name="Inductors">
 <description>CCSG Eagle Library</description>
 <packages>
@@ -1679,6 +1654,62 @@ Source: http://www.osram.convergy.de/ ... LG_LY Q971.pdf</description>
 <smd name="C" x="0" y="0.75" dx="0.8" dy="0.8" layer="1"/>
 <text x="-0.635" y="-1.27" size="1.27" layer="25" rot="R90">&gt;NAME</text>
 <text x="1.905" y="-1.27" size="1.27" layer="27" rot="R90">&gt;VALUE</text>
+</package>
+</packages>
+</library>
+<library name="Sensors">
+<description>CCSG Eagle Library</description>
+<packages>
+<package name="MS5637">
+<description>Footprint for MS5637 Pressure Transducer</description>
+<smd name="1" x="-1" y="1" dx="1" dy="1" layer="1"/>
+<smd name="4" x="1" y="1" dx="1" dy="1" layer="1"/>
+<smd name="2" x="-1" y="-1" dx="1" dy="1" layer="1"/>
+<smd name="3" x="1" y="-1" dx="1" dy="1" layer="1"/>
+<circle x="-2" y="1.9" radius="0.2" width="0.127" layer="21"/>
+<text x="0" y="1.946" size="0.6096" layer="25" align="bottom-center">&gt;Name</text>
+<polygon width="0.01" layer="39">
+<vertex x="-1.5" y="0.3"/>
+<vertex x="-0.3" y="0.3"/>
+<vertex x="-0.3" y="1.5"/>
+<vertex x="0.3" y="1.5"/>
+<vertex x="0.3" y="0.3"/>
+<vertex x="1.5" y="0.3"/>
+<vertex x="1.5" y="-0.3"/>
+<vertex x="0.3" y="-0.3"/>
+<vertex x="0.3" y="-1.5"/>
+<vertex x="-0.3" y="-1.5"/>
+<vertex x="-0.3" y="-0.3"/>
+<vertex x="-1.5" y="-0.3"/>
+</polygon>
+<polygon width="0.01" layer="43">
+<vertex x="-1.5" y="0.3"/>
+<vertex x="-0.3" y="0.3"/>
+<vertex x="-0.3" y="1.5"/>
+<vertex x="0.3" y="1.5"/>
+<vertex x="0.3" y="0.3"/>
+<vertex x="1.5" y="0.3"/>
+<vertex x="1.5" y="-0.3"/>
+<vertex x="0.3" y="-0.3"/>
+<vertex x="0.3" y="-1.5"/>
+<vertex x="-0.3" y="-1.5"/>
+<vertex x="-0.3" y="-0.3"/>
+<vertex x="-1.5" y="-0.3"/>
+</polygon>
+<polygon width="0.01" layer="41">
+<vertex x="-1.5" y="0.3"/>
+<vertex x="-0.3" y="0.3"/>
+<vertex x="-0.3" y="1.5"/>
+<vertex x="0.3" y="1.5"/>
+<vertex x="0.3" y="0.3"/>
+<vertex x="1.5" y="0.3"/>
+<vertex x="1.5" y="-0.3"/>
+<vertex x="0.3" y="-0.3"/>
+<vertex x="0.3" y="-1.5"/>
+<vertex x="-0.3" y="-1.5"/>
+<vertex x="-0.3" y="-0.3"/>
+<vertex x="-1.5" y="-0.3"/>
+</polygon>
 </package>
 </packages>
 </library>
@@ -1881,21 +1912,23 @@ einem neuen Namen ab.</description>
 </autorouter>
 <elements>
 <element name="U17" library="CommonSense-DTR-v1" package="ATTINY817-MFRQFN24_RX4MC-L_QFN24_4X4MC" value="ATTINY817-MFRQFN24_RX4MC-L_ATTINY817-MFR" x="19.304" y="22.1234" smashed="yes" rot="MR0">
-<attribute name="DESC" value="IC MCU 8BIT 8KB FLASH 24QFN" x="19.304" y="22.1234" size="1.778" layer="27" rot="MR0"/>
-<attribute name="HEIGHT" value="0.85mm" x="19.304" y="22.1234" size="1.778" layer="27" rot="MR0"/>
-<attribute name="MANUFACTURER" value="Microchip" x="19.304" y="22.1234" size="1.778" layer="27" rot="MR0"/>
+<attribute name="DESC" value="IC MCU 8BIT 8KB FLASH 24QFN" x="19.304" y="22.1234" size="0.4064" layer="27" rot="MR0"/>
+<attribute name="HEIGHT" value="0.85mm" x="19.304" y="22.1234" size="0.4064" layer="27" rot="MR0"/>
+<attribute name="MANUFACTURER" value="Microchip" x="19.304" y="22.1234" size="0.4064" layer="27" rot="MR0"/>
 <attribute name="MANUFACTURER_PART_NUMBER" value="ATTINY817MFR" x="-58.166" y="-13.4366" size="1.778" layer="28" rot="MR0" display="off"/>
-<attribute name="MPN" value="ATTINY817MFR" x="19.304" y="22.1234" size="1.778" layer="27" rot="MR0"/>
+<attribute name="MPN" value="ATTINY817MFR" x="19.304" y="22.1234" size="0.4064" layer="27" rot="MR0"/>
+<attribute name="NAME" x="19.8374" y="21.8567" size="0.4064" layer="52" ratio="6" rot="SMR0"/>
 <attribute name="PARTNO" value="ATTINY817MFR" x="19.304" y="22.1234" size="1.778" layer="28" rot="MR0" display="off"/>
-<attribute name="SIZE" value="24-QFN (4x4)" x="19.304" y="22.1234" size="1.778" layer="27" rot="MR0"/>
-<attribute name="TYPE" value="MCU" x="19.304" y="22.1234" size="1.778" layer="27" rot="MR0"/>
+<attribute name="SIZE" value="24-QFN (4x4)" x="19.304" y="22.1234" size="0.4064" layer="27" rot="MR0"/>
+<attribute name="TYPE" value="MCU" x="19.304" y="22.1234" size="0.4064" layer="27" rot="MR0"/>
 <attribute name="VENDOR" value="Microchip" x="-58.166" y="-13.4366" size="1.778" layer="28" rot="MR0" display="off"/>
 </element>
 <element name="C1" library="Capacitors" package="C0402" value="1u" x="29.738884375" y="27.783084375" smashed="yes" rot="MR270">
 <attribute name="DESC" value="CAP CER 1UF 10V X5R 0402" x="29.738884375" y="27.783084375" size="1.778" layer="28" rot="MR270"/>
 <attribute name="MANUFACTURER" value="Kemet" x="107.208878125" y="3.653084375" size="1.778" layer="28" rot="MR270" display="off"/>
 <attribute name="MPN" value="C0402C105M8PACTU" x="29.738884375" y="27.783084375" size="1.778" layer="28" rot="MR270" display="off"/>
-<attribute name="NAME" x="29.61488125" y="27.128084375" size="0.762" layer="48" font="vector" ratio="6" rot="MR270"/>
+<attribute name="NAME" x="29.880184375" y="28.449884375" size="0.4064" layer="52" rot="MR270"/>
+<attribute name="NAME" x="29.880184375" y="28.449884375" size="0.3048" layer="255" rot="MR270"/>
 <attribute name="PARTNO" value="C0402C105M8PACTU" x="29.738884375" y="27.783084375" size="1.778" layer="28" rot="MR270" display="off"/>
 <attribute name="SIZE" value="0402" x="29.738884375" y="27.783084375" size="1.778" layer="28" rot="MR270"/>
 <attribute name="TC" value="X5R" x="107.208878125" y="3.653084375" size="1.778" layer="28" rot="MR270" display="off"/>
@@ -1910,6 +1943,7 @@ einem neuen Namen ab.</description>
 <attribute name="HEIGHT" value="0.55mm" x="26.5049" y="24.003" size="1.778" layer="28" rot="MR90"/>
 <attribute name="MANUFACTURER" value="Yageo" x="-54.7751" y="60.833" size="1.778" layer="28" rot="MR90" display="off"/>
 <attribute name="MPN" value="CC0402KRX5R5BB105" x="-54.7751" y="60.833" size="1.778" layer="28" rot="MR90" display="off"/>
+<attribute name="NAME" x="26.3636" y="23.3362" size="0.4064" layer="52" rot="MR90"/>
 <attribute name="NAME" x="26.3636" y="23.3362" size="0.3048" layer="255" rot="MR90"/>
 <attribute name="PARTNO" value="CC0402KRX5R5BB105" x="26.5049" y="24.003" size="1.778" layer="28" rot="MR90" display="off"/>
 <attribute name="SIZE" value="0402" x="26.5049" y="24.003" size="1.778" layer="28" rot="MR90"/>
@@ -1925,6 +1959,7 @@ einem neuen Namen ab.</description>
 <attribute name="HEIGHT" value="0.55mm" x="28.0289" y="24.7015" size="1.778" layer="28" rot="MR180"/>
 <attribute name="MANUFACTURER" value="Yageo" x="67.3989" y="105.9815" size="1.778" layer="28" rot="MR180" display="off"/>
 <attribute name="MPN" value="CC0402KRX7R6BB104" x="67.3989" y="105.9815" size="1.778" layer="28" rot="MR180" display="off"/>
+<attribute name="NAME" x="27.3621" y="24.8428" size="0.4064" layer="52" rot="MR180"/>
 <attribute name="NAME" x="27.3621" y="24.8428" size="0.3048" layer="255" rot="MR180"/>
 <attribute name="PARTNO" value="CC0402KRX7R6BB104" x="28.0289" y="24.7015" size="1.778" layer="28" rot="MR180" display="off"/>
 <attribute name="SIZE" value="0402" x="28.0289" y="24.7015" size="1.778" layer="28" rot="MR180"/>
@@ -1936,39 +1971,40 @@ einem neuen Namen ab.</description>
 <attribute name="Z-HEIGHT" value="0.55mm" x="28.0289" y="24.7015" size="1.778" layer="28" rot="MR180" display="off"/>
 </element>
 <element name="C12" library="Capacitors" package="C0603" value="4.7u" x="24.1427" y="22.9235" smashed="yes" rot="MR270">
-<attribute name="DESC" value="CAP CER 4.7UF 10V X5R 0603" x="24.1427" y="22.9235" size="1.778" layer="27" rot="MR270"/>
-<attribute name="HEIGHT" value="0.9mm" x="24.1427" y="22.9235" size="1.778" layer="27" rot="MR270"/>
+<attribute name="DESC" value="CAP CER 4.7UF 10V X5R 0603" x="24.1427" y="22.9235" size="0.4064" layer="27" rot="MR270"/>
+<attribute name="HEIGHT" value="0.9mm" x="24.1427" y="22.9235" size="0.4064" layer="27" rot="MR270"/>
 <attribute name="MANUFACTURER" value="Kemet" x="101.6127" y="-24.0665" size="1.778" layer="28" rot="MR270" display="off"/>
 <attribute name="MPN" value="C0603C475K8PACTU" x="101.6127" y="-24.0665" size="1.778" layer="28" rot="MR270" display="off"/>
-<attribute name="NAME" x="25.6129" y="23.7925" size="0.762" layer="48" font="vector" ratio="6" rot="MR270"/>
+<attribute name="NAME" x="24.26" y="23.2845" size="0.4064" layer="52" font="vector" rot="MR270"/>
 <attribute name="PARTNO" value="C0603C475K8PACTU" x="24.1427" y="22.9235" size="1.778" layer="28" rot="MR270" display="off"/>
-<attribute name="SIZE" value="0603" x="24.1427" y="22.9235" size="1.778" layer="27" rot="MR270"/>
+<attribute name="SIZE" value="0603" x="24.1427" y="22.9235" size="0.4064" layer="27" rot="MR270"/>
 <attribute name="TC" value="X5R" x="101.6127" y="-24.0665" size="1.778" layer="28" rot="MR270" display="off"/>
 <attribute name="TOL" value="10%" x="101.6127" y="-24.0665" size="1.778" layer="28" rot="MR270" display="off"/>
-<attribute name="TYPE" value="Capacitor" x="24.1427" y="22.9235" size="1.778" layer="27" rot="MR270"/>
-<attribute name="VOLT" value="10V" x="24.1427" y="22.9235" size="1.778" layer="27" rot="MR270"/>
+<attribute name="TYPE" value="Capacitor" x="24.1427" y="22.9235" size="0.4064" layer="27" rot="MR270"/>
+<attribute name="VOLT" value="10V" x="24.1427" y="22.9235" size="0.4064" layer="27" rot="MR270"/>
 <attribute name="VOLTAGE" value="10V" x="101.6127" y="-24.0665" size="1.778" layer="28" rot="MR270" display="off"/>
 </element>
 <element name="C13" library="Capacitors" package="C0402" value="0.1u" x="22.9362" y="22.6441" smashed="yes" rot="MR270">
-<attribute name="DESC" value="CAP CER 0.1UF 16V X7R 0402" x="22.9362" y="22.6441" size="1.778" layer="27" rot="MR270"/>
-<attribute name="HEIGHT" value="0.55mm" x="22.9362" y="22.6441" size="1.778" layer="27" rot="MR270"/>
+<attribute name="DESC" value="CAP CER 0.1UF 16V X7R 0402" x="22.9362" y="22.6441" size="0.4064" layer="27" rot="MR270"/>
+<attribute name="HEIGHT" value="0.55mm" x="22.9362" y="22.6441" size="0.4064" layer="27" rot="MR270"/>
 <attribute name="MANUFACTURER" value="Kemet" x="104.2162" y="-19.2659" size="1.778" layer="28" rot="MR270" display="off"/>
 <attribute name="MPN" value="C0402C104K4RACTU" x="104.2162" y="-19.2659" size="1.778" layer="28" rot="MR270" display="off"/>
-<attribute name="NAME" x="21.8075" y="23.3109" size="0.762" layer="48" font="vector" rot="MR270"/>
+<attribute name="NAME" x="23.0775" y="23.3109" size="0.4064" layer="52" rot="MR270"/>
 <attribute name="NAME" x="23.0775" y="23.3109" size="0.3048" layer="255" rot="MR270"/>
 <attribute name="PARTNO" value="C0402C104K4RACTU" x="22.9362" y="22.6441" size="1.778" layer="28" rot="MR270" display="off"/>
-<attribute name="SIZE" value="0402" x="22.9362" y="22.6441" size="1.778" layer="27" rot="MR270"/>
+<attribute name="SIZE" value="0402" x="22.9362" y="22.6441" size="0.4064" layer="27" rot="MR270"/>
 <attribute name="TC" value="X7R" x="104.2162" y="-19.2659" size="1.778" layer="28" rot="MR270" display="off"/>
 <attribute name="TOL" value="10%" x="104.2162" y="-19.2659" size="1.778" layer="28" rot="MR270" display="off"/>
-<attribute name="TYPE" value="Capacitor" x="22.9362" y="22.6441" size="1.778" layer="27" rot="MR270"/>
-<attribute name="VOLT" value="16V" x="22.9362" y="22.6441" size="1.778" layer="27" rot="MR270"/>
+<attribute name="TYPE" value="Capacitor" x="22.9362" y="22.6441" size="0.4064" layer="27" rot="MR270"/>
+<attribute name="VOLT" value="16V" x="22.9362" y="22.6441" size="0.4064" layer="27" rot="MR270"/>
 <attribute name="VOLTAGE" value="16V" x="104.2162" y="-19.2659" size="1.778" layer="28" rot="MR270" display="off"/>
 </element>
 <element name="C14" library="Capacitors" package="C0402" value="1u" x="24.06198125" y="31.970415625" smashed="yes" rot="MR0">
 <attribute name="DESC" value="CAP CER 1UF 10V X5R 0402" x="24.06198125" y="31.970415625" size="1.778" layer="28" rot="MR0"/>
 <attribute name="MANUFACTURER" value="Kemet" x="-26.738009375" y="-45.499578125" size="1.778" layer="28" rot="MR0" display="off"/>
 <attribute name="MPN" value="C0402C105M8PACTU" x="24.06198125" y="31.970415625" size="1.778" layer="28" rot="MR0" display="off"/>
-<attribute name="NAME" x="25.31198125" y="32.72941875" size="0.762" layer="48" font="vector" ratio="6" rot="MR90"/>
+<attribute name="NAME" x="24.72878125" y="31.829115625" size="0.4064" layer="52" rot="MR0"/>
+<attribute name="NAME" x="24.72878125" y="31.829115625" size="0.3048" layer="255" rot="MR0"/>
 <attribute name="PARTNO" value="C0402C105M8PACTU" x="24.06198125" y="31.970415625" size="1.778" layer="28" rot="MR0" display="off"/>
 <attribute name="SIZE" value="0402" x="24.06198125" y="31.970415625" size="1.778" layer="28" rot="MR0"/>
 <attribute name="TC" value="X5R" x="-26.738009375" y="-45.499578125" size="1.778" layer="28" rot="MR0" display="off"/>
@@ -1982,13 +2018,13 @@ einem neuen Namen ab.</description>
 <attribute name="BOM" value="EXCLUDE" x="14.478" y="17.0942" size="1.778" layer="28" rot="MR0" display="off"/>
 <attribute name="DESC" value="" x="14.478" y="17.0942" size="1.778" layer="27" rot="MR0"/>
 <attribute name="MANUFACTURER" value="Kemet" x="-29.972" y="-64.1858" size="1.778" layer="28" rot="MR0" display="off"/>
+<attribute name="NAME" x="15.1448" y="16.9529" size="0.4064" layer="52" rot="MR0"/>
 <attribute name="NAME" x="15.1448" y="16.9529" size="0.3048" layer="255" rot="MR0"/>
-<attribute name="NAME" x="15.1448" y="17.5879" size="0.762" layer="48" font="vector" rot="MR0"/>
 <attribute name="PARTNO" value="*" x="14.478" y="17.0942" size="1.778" layer="28" rot="MR0" display="off"/>
 <attribute name="SIZE" value="" x="14.478" y="17.0942" size="1.778" layer="27" rot="MR0"/>
 <attribute name="TC" value="X7R" x="-29.972" y="-64.1858" size="1.778" layer="28" rot="MR0" display="off"/>
 <attribute name="TOL" value="" x="-29.972" y="-64.1858" size="1.778" layer="28" rot="MR0" display="off"/>
-<attribute name="TYPE" value="Capacitor" x="14.478" y="17.0942" size="1.778" layer="27" rot="MR0"/>
+<attribute name="TYPE" value="Capacitor" x="14.478" y="17.0942" size="0.4064" layer="27" rot="MR0"/>
 <attribute name="VOLT" value="" x="14.478" y="17.0942" size="1.778" layer="27" rot="MR0"/>
 <attribute name="VOLTAGE" value="6.3V" x="-29.972" y="-64.1858" size="1.778" layer="28" rot="MR0" display="off"/>
 </element>
@@ -1996,13 +2032,13 @@ einem neuen Namen ab.</description>
 <attribute name="BOM" value="EXCLUDE" x="14.3891" y="21.6535" size="1.778" layer="28" rot="MR180" display="off"/>
 <attribute name="DESC" value="" x="14.3891" y="21.6535" size="1.778" layer="27" rot="MR180"/>
 <attribute name="MANUFACTURER" value="Kemet" x="61.3791" y="102.9335" size="1.778" layer="28" rot="MR180" display="off"/>
+<attribute name="NAME" x="13.7223" y="21.7948" size="0.4064" layer="52" rot="MR180"/>
 <attribute name="NAME" x="13.7223" y="21.7948" size="0.3048" layer="255" rot="MR180"/>
-<attribute name="NAME" x="13.7223" y="23.0648" size="0.762" layer="48" font="vector" rot="MR180"/>
 <attribute name="PARTNO" value="*" x="14.3891" y="21.6535" size="1.778" layer="28" rot="MR180" display="off"/>
 <attribute name="SIZE" value="" x="14.3891" y="21.6535" size="1.778" layer="27" rot="MR180"/>
 <attribute name="TC" value="X7R" x="61.3791" y="102.9335" size="1.778" layer="28" rot="MR180" display="off"/>
 <attribute name="TOL" value="" x="61.3791" y="102.9335" size="1.778" layer="28" rot="MR180" display="off"/>
-<attribute name="TYPE" value="Capacitor" x="14.3891" y="21.6535" size="1.778" layer="27" rot="MR180"/>
+<attribute name="TYPE" value="Capacitor" x="14.3891" y="21.6535" size="0.4064" layer="27" rot="MR180"/>
 <attribute name="VOLT" value="" x="14.3891" y="21.6535" size="1.778" layer="27" rot="MR180"/>
 <attribute name="VOLTAGE" value="6.3V" x="61.3791" y="102.9335" size="1.778" layer="28" rot="MR180" display="off"/>
 </element>
@@ -2011,6 +2047,7 @@ einem neuen Namen ab.</description>
 <attribute name="HEIGHT" value="0.55mm" x="35.2298" y="24.2062" size="1.778" layer="28" rot="MR90"/>
 <attribute name="MANUFACTURER" value="Yageo" x="-46.0502" y="73.7362" size="1.778" layer="28" rot="MR90" display="off"/>
 <attribute name="MPN" value="CC0402KRX5R5BB105" x="-46.0502" y="73.7362" size="1.778" layer="28" rot="MR90" display="off"/>
+<attribute name="NAME" x="35.0885" y="23.5394" size="0.4064" layer="52" rot="MR90"/>
 <attribute name="NAME" x="35.0885" y="23.5394" size="0.3048" layer="255" rot="MR90"/>
 <attribute name="PARTNO" value="CC0402KRX5R5BB105" x="35.2298" y="24.2062" size="1.778" layer="28" rot="MR90" display="off"/>
 <attribute name="SIZE" value="0402" x="35.2298" y="24.2062" size="1.778" layer="28" rot="MR90"/>
@@ -2026,6 +2063,7 @@ einem neuen Namen ab.</description>
 <attribute name="HEIGHT" value="0.55mm" x="32.8168" y="24.0284" size="1.778" layer="28" rot="MR270"/>
 <attribute name="MANUFACTURER" value="Yageo" x="114.0968" y="-28.0416" size="1.778" layer="28" rot="MR270" display="off"/>
 <attribute name="MPN" value="CC0402KRX7R6BB104" x="114.0968" y="-28.0416" size="1.778" layer="28" rot="MR270" display="off"/>
+<attribute name="NAME" x="32.9581" y="24.6952" size="0.4064" layer="52" rot="MR270"/>
 <attribute name="NAME" x="32.9581" y="24.6952" size="0.3048" layer="255" rot="MR270"/>
 <attribute name="PARTNO" value="CC0402KRX7R6BB104" x="32.8168" y="24.0284" size="1.778" layer="28" rot="MR270" display="off"/>
 <attribute name="SIZE" value="0402" x="32.8168" y="24.0284" size="1.778" layer="28" rot="MR270"/>
@@ -2037,24 +2075,26 @@ einem neuen Namen ab.</description>
 <attribute name="Z-HEIGHT" value="0.55mm" x="32.8168" y="24.0284" size="1.778" layer="28" rot="MR270" display="off"/>
 </element>
 <element name="C19" library="Capacitors" package="C0402" value="1u" x="21.4249" y="12.065" smashed="yes" rot="R90">
-<attribute name="DESC" value="CAP CER 1UF 6.3V X5R 0402" x="21.4249" y="12.065" size="1.778" layer="27" rot="R90"/>
-<attribute name="HEIGHT" value="0.55mm" x="21.4249" y="12.065" size="1.778" layer="27" rot="R90"/>
+<attribute name="DESC" value="CAP CER 1UF 6.3V X5R 0402" x="21.4249" y="12.065" size="0.4064" layer="27" rot="R90"/>
+<attribute name="HEIGHT" value="0.55mm" x="21.4249" y="12.065" size="0.4064" layer="27" rot="R90"/>
 <attribute name="MANUFACTURER" value="Yageo" x="102.7049" y="66.675" size="1.778" layer="27" rot="R90" display="off"/>
 <attribute name="MPN" value="CC0402KRX5R5BB105" x="102.7049" y="66.675" size="1.778" layer="27" rot="R90" display="off"/>
+<attribute name="NAME" x="21.5662" y="11.3982" size="0.3048" layer="51" rot="R90"/>
 <attribute name="NAME" x="21.5662" y="11.3982" size="0.3048" layer="255" rot="R90"/>
 <attribute name="PARTNO" value="CC0402KRX5R5BB105" x="21.4249" y="12.065" size="1.778" layer="27" rot="R90" display="off"/>
-<attribute name="SIZE" value="0402" x="21.4249" y="12.065" size="1.778" layer="27" rot="R90"/>
+<attribute name="SIZE" value="0402" x="21.4249" y="12.065" size="0.4064" layer="27" rot="R90"/>
 <attribute name="TC" value="X5R" x="102.7049" y="66.675" size="1.778" layer="27" rot="R90" display="off"/>
 <attribute name="TOL" value="10%" x="102.7049" y="66.675" size="1.778" layer="27" rot="R90" display="off"/>
-<attribute name="TYPE" value="Capacitor" x="21.4249" y="12.065" size="1.778" layer="27" rot="R90"/>
-<attribute name="VOLT" value="6.3V" x="21.4249" y="12.065" size="1.778" layer="27" rot="R90"/>
+<attribute name="TYPE" value="Capacitor" x="21.4249" y="12.065" size="0.4064" layer="27" rot="R90"/>
+<attribute name="VOLT" value="6.3V" x="21.4249" y="12.065" size="0.4064" layer="27" rot="R90"/>
 <attribute name="VOLTAGE" value="6.3V" x="102.7049" y="66.675" size="1.778" layer="27" rot="R90" display="off"/>
 </element>
 <element name="C2" library="Capacitors" package="C0402" value="5.5p" x="22.156984375" y="28.312815625" smashed="yes" rot="MR0">
 <attribute name="DESC" value="CAP CER RF 5.5PF 50V +/-0.1 PF C" x="22.156984375" y="28.312815625" size="1.778" layer="28" rot="MR0"/>
 <attribute name="MANUFACTURER" value="Kemet" x="-5.78301875" y="-49.157178125" size="1.778" layer="28" rot="MR0" display="off"/>
 <attribute name="MPN" value="CBR04C559B5GAC" x="22.156984375" y="28.312815625" size="1.778" layer="28" rot="MR0" display="off"/>
-<attribute name="NAME" x="21.1209875" y="28.513015625" size="0.762" layer="48" font="vector" ratio="6" rot="MR0"/>
+<attribute name="NAME" x="22.823784375" y="28.171515625" size="0.4064" layer="52" rot="MR0"/>
+<attribute name="NAME" x="22.823784375" y="28.171515625" size="0.3048" layer="255" rot="MR0"/>
 <attribute name="PARTNO" value="CBR04C559B5GAC" x="22.156984375" y="28.312815625" size="1.778" layer="28" rot="MR0" display="off"/>
 <attribute name="SIZE" value="0402" x="22.156984375" y="28.312815625" size="1.778" layer="28" rot="MR0"/>
 <attribute name="TC" value="C0G, NP0" x="-5.78301875" y="-49.157178125" size="1.778" layer="28" rot="MR0" display="off"/>
@@ -2065,76 +2105,51 @@ einem neuen Namen ab.</description>
 <attribute name="Z-HEIGHT" value="0.55mm" x="22.156984375" y="28.312815625" size="1.778" layer="28" rot="MR0"/>
 </element>
 <element name="C20" library="Capacitors" package="C0402" value="0.1u" x="23.749" y="12.192" smashed="yes" rot="R90">
-<attribute name="DESC" value="CAP CER 0.1UF 10V X7R 0402" x="23.749" y="12.192" size="1.778" layer="27" rot="R90"/>
+<attribute name="DESC" value="CAP CER 0.1UF 10V X7R 0402" x="23.749" y="12.192" size="0.4064" layer="27" rot="R90"/>
 <attribute name="DESCRIPTION" value="0.1µF ±10% 10V Ceramic Capacitor X7R 0402 (1005 Metric)" x="23.749" y="12.192" size="1.778" layer="27" rot="R90" display="off"/>
-<attribute name="HEIGHT" value="0.55mm" x="23.749" y="12.192" size="1.778" layer="27" rot="R90"/>
+<attribute name="HEIGHT" value="0.55mm" x="23.749" y="12.192" size="0.4064" layer="27" rot="R90"/>
 <attribute name="MANUFACTURER" value="Yageo" x="105.029" y="69.342" size="1.778" layer="27" rot="R90" display="off"/>
 <attribute name="MPN" value="CC0402KRX7R6BB104" x="105.029" y="69.342" size="1.778" layer="27" rot="R90" display="off"/>
+<attribute name="NAME" x="23.8903" y="11.5252" size="0.3048" layer="51" rot="R90"/>
 <attribute name="NAME" x="23.8903" y="11.5252" size="0.3048" layer="255" rot="R90"/>
 <attribute name="PARTNO" value="CC0402KRX7R6BB104" x="23.749" y="12.192" size="1.778" layer="27" rot="R90" display="off"/>
-<attribute name="SIZE" value="0402" x="23.749" y="12.192" size="1.778" layer="27" rot="R90"/>
+<attribute name="SIZE" value="0402" x="23.749" y="12.192" size="0.4064" layer="27" rot="R90"/>
 <attribute name="TC" value="X7R" x="105.029" y="69.342" size="1.778" layer="27" rot="R90" display="off"/>
 <attribute name="TOL" value="10%" x="105.029" y="69.342" size="1.778" layer="27" rot="R90" display="off"/>
-<attribute name="TYPE" value="Capacitor" x="23.749" y="12.192" size="1.778" layer="27" rot="R90"/>
-<attribute name="VOLT" value="10V" x="23.749" y="12.192" size="1.778" layer="27" rot="R90"/>
+<attribute name="TYPE" value="Capacitor" x="23.749" y="12.192" size="0.4064" layer="27" rot="R90"/>
+<attribute name="VOLT" value="10V" x="23.749" y="12.192" size="0.4064" layer="27" rot="R90"/>
 <attribute name="VOLTAGE" value="6.3V" x="105.029" y="69.342" size="1.778" layer="27" rot="R90" display="off"/>
 <attribute name="Z-HEIGHT" value="0.55mm" x="23.749" y="12.192" size="1.778" layer="27" rot="R90" display="off"/>
 </element>
-<element name="C47" library="Capacitors" package="C0402" value="0.1u" x="25.527" y="7.1882" smashed="yes">
-<attribute name="DESC" value="CAP CER 0.1UF 16V X7R 0402" x="25.527" y="7.1882" size="1.778" layer="28"/>
-<attribute name="HEIGHT" value="0.55mm" x="25.527" y="7.1882" size="1.778" layer="28"/>
-<attribute name="MANUFACTURER" value="Kemet" x="83.947" y="-70.2818" size="1.778" layer="27" display="off"/>
-<attribute name="MPN" value="C0402C104K4RACTU" x="25.527" y="7.1882" size="1.778" layer="27" display="off"/>
-<attribute name="NAME" x="26.182" y="8.5822" size="0.762" layer="48" font="vector" ratio="6" rot="R180"/>
-<attribute name="PARTNO" value="C0402C104K4RACTU" x="25.527" y="7.1882" size="1.778" layer="27" display="off"/>
-<attribute name="SIZE" value="0402" x="25.527" y="7.1882" size="1.778" layer="28"/>
-<attribute name="TC" value="X7R" x="83.947" y="-70.2818" size="1.778" layer="27" display="off"/>
-<attribute name="TOL" value="10%" x="83.947" y="-70.2818" size="1.778" layer="27" display="off"/>
-<attribute name="TYPE" value="Capacitor" x="25.527" y="7.1882" size="1.778" layer="28"/>
-<attribute name="VOLT" value="16V" x="25.527" y="7.1882" size="1.778" layer="28"/>
-<attribute name="VOLTAGE" value="16V" x="83.947" y="-70.2818" size="1.778" layer="27" display="off"/>
-</element>
-<element name="C48" library="Capacitors" package="C0402" value="0.1u" x="26.6954" y="2.413" smashed="yes" rot="R270">
-<attribute name="DESC" value="CAP CER 0.1UF 16V X7R 0402" x="26.6954" y="2.413" size="1.778" layer="28" rot="R270"/>
-<attribute name="HEIGHT" value="0.55mm" x="26.6954" y="2.413" size="1.778" layer="28" rot="R270"/>
-<attribute name="MANUFACTURER" value="Kemet" x="-50.7746" y="-59.817" size="1.778" layer="27" rot="R270" display="off"/>
-<attribute name="MPN" value="C0402C104K4RACTU" x="26.6954" y="2.413" size="1.778" layer="27" rot="R270" display="off"/>
-<attribute name="NAME" x="25.3716" y="4.0948" size="0.762" layer="48" font="vector" ratio="6" rot="R270"/>
-<attribute name="PARTNO" value="C0402C104K4RACTU" x="26.6954" y="2.413" size="1.778" layer="27" rot="R270" display="off"/>
-<attribute name="SIZE" value="0402" x="26.6954" y="2.413" size="1.778" layer="28" rot="R270"/>
-<attribute name="TC" value="X7R" x="-50.7746" y="-59.817" size="1.778" layer="27" rot="R270" display="off"/>
-<attribute name="TOL" value="10%" x="-50.7746" y="-59.817" size="1.778" layer="27" rot="R270" display="off"/>
-<attribute name="TYPE" value="Capacitor" x="26.6954" y="2.413" size="1.778" layer="28" rot="R270"/>
-<attribute name="VOLT" value="16V" x="26.6954" y="2.413" size="1.778" layer="28" rot="R270"/>
-<attribute name="VOLTAGE" value="16V" x="-50.7746" y="-59.817" size="1.778" layer="27" rot="R270" display="off"/>
-</element>
 <element name="C21" library="Capacitors" package="C0402" value="1u" x="11.684" y="9.398" smashed="yes" rot="R270">
-<attribute name="DESC" value="CAP CER 1UF 6.3V X5R 0402" x="11.684" y="9.398" size="1.778" layer="27" rot="R270"/>
-<attribute name="HEIGHT" value="0.55mm" x="11.684" y="9.398" size="1.778" layer="27" rot="R270"/>
+<attribute name="DESC" value="CAP CER 1UF 6.3V X5R 0402" x="11.684" y="9.398" size="0.4064" layer="27" rot="R270"/>
+<attribute name="HEIGHT" value="0.55mm" x="11.684" y="9.398" size="0.4064" layer="27" rot="R270"/>
 <attribute name="MANUFACTURER" value="Yageo" x="-69.596" y="-50.292" size="1.778" layer="27" rot="R270" display="off"/>
 <attribute name="MPN" value="CC0402KRX5R5BB105" x="-69.596" y="-50.292" size="1.778" layer="27" rot="R270" display="off"/>
+<attribute name="NAME" x="11.5427" y="10.0648" size="0.3048" layer="51" rot="R270"/>
 <attribute name="NAME" x="11.5427" y="10.0648" size="0.3048" layer="255" rot="R270"/>
 <attribute name="PARTNO" value="CC0402KRX5R5BB105" x="11.684" y="9.398" size="1.778" layer="27" rot="R270" display="off"/>
-<attribute name="SIZE" value="0402" x="11.684" y="9.398" size="1.778" layer="27" rot="R270"/>
+<attribute name="SIZE" value="0402" x="11.684" y="9.398" size="0.4064" layer="27" rot="R270"/>
 <attribute name="TC" value="X5R" x="-69.596" y="-50.292" size="1.778" layer="27" rot="R270" display="off"/>
 <attribute name="TOL" value="10%" x="-69.596" y="-50.292" size="1.778" layer="27" rot="R270" display="off"/>
-<attribute name="TYPE" value="Capacitor" x="11.684" y="9.398" size="1.778" layer="27" rot="R270"/>
-<attribute name="VOLT" value="6.3V" x="11.684" y="9.398" size="1.778" layer="27" rot="R270"/>
+<attribute name="TYPE" value="Capacitor" x="11.684" y="9.398" size="0.4064" layer="27" rot="R270"/>
+<attribute name="VOLT" value="6.3V" x="11.684" y="9.398" size="0.4064" layer="27" rot="R270"/>
 <attribute name="VOLTAGE" value="6.3V" x="-69.596" y="-50.292" size="1.778" layer="27" rot="R270" display="off"/>
 </element>
 <element name="C22" library="Capacitors" package="C0402" value="0.1u" x="9.271" y="9.398" smashed="yes" rot="R270">
-<attribute name="DESC" value="CAP CER 0.1UF 10V X7R 0402" x="9.271" y="9.398" size="1.778" layer="27" rot="R270"/>
+<attribute name="DESC" value="CAP CER 0.1UF 10V X7R 0402" x="9.271" y="9.398" size="0.4064" layer="27" rot="R270"/>
 <attribute name="DESCRIPTION" value="0.1µF ±10% 10V Ceramic Capacitor X7R 0402 (1005 Metric)" x="9.271" y="9.398" size="1.778" layer="27" rot="R270" display="off"/>
-<attribute name="HEIGHT" value="0.55mm" x="9.271" y="9.398" size="1.778" layer="27" rot="R270"/>
+<attribute name="HEIGHT" value="0.55mm" x="9.271" y="9.398" size="0.4064" layer="27" rot="R270"/>
 <attribute name="MANUFACTURER" value="Yageo" x="-72.009" y="-52.832" size="1.778" layer="27" rot="R270" display="off"/>
 <attribute name="MPN" value="CC0402KRX7R6BB104" x="-72.009" y="-52.832" size="1.778" layer="27" rot="R270" display="off"/>
+<attribute name="NAME" x="9.1297" y="10.0648" size="0.3048" layer="51" rot="R270"/>
 <attribute name="NAME" x="9.1297" y="10.0648" size="0.3048" layer="255" rot="R270"/>
 <attribute name="PARTNO" value="CC0402KRX7R6BB104" x="9.271" y="9.398" size="1.778" layer="27" rot="R270" display="off"/>
-<attribute name="SIZE" value="0402" x="9.271" y="9.398" size="1.778" layer="27" rot="R270"/>
+<attribute name="SIZE" value="0402" x="9.271" y="9.398" size="0.4064" layer="27" rot="R270"/>
 <attribute name="TC" value="X7R" x="-72.009" y="-52.832" size="1.778" layer="27" rot="R270" display="off"/>
 <attribute name="TOL" value="10%" x="-72.009" y="-52.832" size="1.778" layer="27" rot="R270" display="off"/>
-<attribute name="TYPE" value="Capacitor" x="9.271" y="9.398" size="1.778" layer="27" rot="R270"/>
-<attribute name="VOLT" value="10V" x="9.271" y="9.398" size="1.778" layer="27" rot="R270"/>
+<attribute name="TYPE" value="Capacitor" x="9.271" y="9.398" size="0.4064" layer="27" rot="R270"/>
+<attribute name="VOLT" value="10V" x="9.271" y="9.398" size="0.4064" layer="27" rot="R270"/>
 <attribute name="VOLTAGE" value="6.3V" x="-72.009" y="-52.832" size="1.778" layer="27" rot="R270" display="off"/>
 <attribute name="Z-HEIGHT" value="0.55mm" x="9.271" y="9.398" size="1.778" layer="27" rot="R270" display="off"/>
 </element>
@@ -2143,6 +2158,7 @@ einem neuen Namen ab.</description>
 <attribute name="HEIGHT" value="0.55mm" x="22.2885" y="35.1917" size="1.778" layer="28" rot="MR0"/>
 <attribute name="MANUFACTURER" value="Yageo" x="-42.4815" y="-46.0883" size="1.778" layer="28" rot="MR0" display="off"/>
 <attribute name="MPN" value="CC0402KRX5R5BB105" x="-42.4815" y="-46.0883" size="1.778" layer="28" rot="MR0" display="off"/>
+<attribute name="NAME" x="22.9553" y="35.0504" size="0.4064" layer="52" rot="MR0"/>
 <attribute name="NAME" x="22.9553" y="35.0504" size="0.3048" layer="255" rot="MR0"/>
 <attribute name="PARTNO" value="CC0402KRX5R5BB105" x="22.2885" y="35.1917" size="1.778" layer="28" rot="MR0" display="off"/>
 <attribute name="SIZE" value="0402" x="22.2885" y="35.1917" size="1.778" layer="28" rot="MR0"/>
@@ -2157,7 +2173,8 @@ einem neuen Namen ab.</description>
 <attribute name="HEIGHT" value="0.55mm" x="23.7871" y="34.3535" size="1.778" layer="28" rot="MR90"/>
 <attribute name="MANUFACTURER" value="Yageo" x="-57.4929" y="101.6635" size="1.778" layer="28" rot="MR90" display="off"/>
 <attribute name="MPN" value="CC0402KRX7R6BB104" x="-57.4929" y="101.6635" size="1.778" layer="28" rot="MR90" display="off"/>
-<attribute name="NAME" x="23.6458" y="33.6867" size="0.3048" layer="255" rot="R270"/>
+<attribute name="NAME" x="23.6458" y="33.6867" size="0.4064" layer="52" rot="MR90"/>
+<attribute name="NAME" x="23.6458" y="33.6867" size="0.3048" layer="255" rot="MR90"/>
 <attribute name="PARTNO" value="CC0402KRX7R6BB104" x="23.7871" y="34.3535" size="1.778" layer="28" rot="MR90" display="off"/>
 <attribute name="SIZE" value="0402" x="23.7871" y="34.3535" size="1.778" layer="28" rot="MR90" display="off"/>
 <attribute name="TC" value="X7R" x="23.7871" y="34.3535" size="1.778" layer="28" rot="MR90"/>
@@ -2172,7 +2189,8 @@ einem neuen Namen ab.</description>
 <attribute name="HEIGHT" value="0.55mm" x="5.4737" y="6.5024" size="1.778" layer="28" rot="R270"/>
 <attribute name="MANUFACTURER" value="Kemet" x="-71.9963" y="-48.1076" size="1.778" layer="27" rot="R270" display="off"/>
 <attribute name="MPN" value="C0402C104K4RACTU" x="5.4737" y="6.5024" size="1.778" layer="27" rot="R270" display="off"/>
-<attribute name="NAME" x="6.2327" y="7.1174" size="0.762" layer="48" font="vector" ratio="6" rot="R270"/>
+<attribute name="NAME" x="5.3324" y="7.1692" size="0.3048" layer="51" rot="R270"/>
+<attribute name="NAME" x="5.3324" y="7.1692" size="0.3048" layer="255" rot="R270"/>
 <attribute name="PARTNO" value="C0402C104K4RACTU" x="5.4737" y="6.5024" size="1.778" layer="27" rot="R270" display="off"/>
 <attribute name="SIZE" value="0402" x="5.4737" y="6.5024" size="1.778" layer="28" rot="R270"/>
 <attribute name="TC" value="X7R" x="-71.9963" y="-48.1076" size="1.778" layer="27" rot="R270" display="off"/>
@@ -2186,7 +2204,7 @@ einem neuen Namen ab.</description>
 <attribute name="HEIGHT" value="0.55mm" x="18.3769" y="24.1046" size="1.778" layer="28" rot="R270"/>
 <attribute name="MANUFACTURER" value="Kemet" x="-59.0931" y="8.8646" size="1.778" layer="27" rot="R270" display="off"/>
 <attribute name="MPN" value="C0402C472K3RACTU" x="18.3769" y="24.1046" size="1.778" layer="27" rot="R270" display="off"/>
-<attribute name="NAME" x="18.2356" y="22.8664" size="0.762" layer="48" font="vector" rot="R270"/>
+<attribute name="NAME" x="18.2356" y="24.7714" size="0.3048" layer="51" rot="R270"/>
 <attribute name="NAME" x="18.2356" y="24.7714" size="0.3048" layer="255" rot="R270"/>
 <attribute name="PARTNO" value="C0402C472K3RACTU" x="18.3769" y="24.1046" size="1.778" layer="27" rot="R270" display="off"/>
 <attribute name="SIZE" value="0402" x="18.3769" y="24.1046" size="1.778" layer="28" rot="R270"/>
@@ -2200,7 +2218,8 @@ einem neuen Namen ab.</description>
 <attribute name="DESC" value="CAP CER RF 5.5PF 50V +/-0.1 PF C" x="22.15698125" y="30.751215625" size="1.778" layer="28" rot="MR0"/>
 <attribute name="MANUFACTURER" value="Kemet" x="-9.593015625" y="-46.718775" size="1.778" layer="28" rot="MR0" display="off"/>
 <attribute name="MPN" value="CBR04C559B5GAC" x="22.15698125" y="30.751215625" size="1.778" layer="28" rot="MR0" display="off"/>
-<attribute name="NAME" x="20.61298125" y="31.256215625" size="0.762" layer="48" font="vector" ratio="6" rot="MR90"/>
+<attribute name="NAME" x="22.82378125" y="30.609915625" size="0.4064" layer="52" rot="MR0"/>
+<attribute name="NAME" x="22.82378125" y="30.609915625" size="0.3048" layer="255" rot="MR0"/>
 <attribute name="PARTNO" value="CBR04C559B5GAC" x="22.15698125" y="30.751215625" size="1.778" layer="28" rot="MR0" display="off"/>
 <attribute name="SIZE" value="0402" x="22.15698125" y="30.751215625" size="1.778" layer="28" rot="MR0"/>
 <attribute name="TC" value="C0G, NP0" x="-9.593015625" y="-46.718775" size="1.778" layer="28" rot="MR0" display="off"/>
@@ -2211,18 +2230,18 @@ einem neuen Namen ab.</description>
 <attribute name="Z-HEIGHT" value="0.55mm" x="22.15698125" y="30.751215625" size="1.778" layer="28" rot="MR0"/>
 </element>
 <element name="C6" library="Capacitors" package="C0402" value="0.68u" x="20.1295" y="33.5788" smashed="yes" rot="MR0">
-<attribute name="DESC" value="CAP CER 0.68UF 6.3V X5R 0402" x="20.1295" y="33.5788" size="1.778" layer="27" rot="MR0"/>
-<attribute name="HEIGHT" value="0.55mm" x="20.1295" y="33.5788" size="1.778" layer="27" rot="MR0"/>
+<attribute name="DESC" value="CAP CER 0.68UF 6.3V X5R 0402" x="20.1295" y="33.5788" size="0.4064" layer="27" rot="MR0"/>
+<attribute name="HEIGHT" value="0.55mm" x="20.1295" y="33.5788" size="0.4064" layer="27" rot="MR0"/>
 <attribute name="MANUFACTURER" value="Yageo" x="-15.4305" y="-43.8912" size="1.778" layer="28" rot="MR0" display="off"/>
 <attribute name="MPN" value="CC0402KRX5R5BB684" x="20.1295" y="33.5788" size="1.778" layer="28" rot="MR0" display="off"/>
-<attribute name="NAME" x="20.4661" y="34.2757" size="0.762" layer="48" font="vector" rot="MR0"/>
+<attribute name="NAME" x="20.7963" y="33.4375" size="0.4064" layer="52" rot="MR0"/>
 <attribute name="NAME" x="20.7963" y="33.4375" size="0.3048" layer="255" rot="MR0"/>
 <attribute name="PARTNO" value="CC0402KRX5R5BB684" x="20.1295" y="33.5788" size="1.778" layer="28" rot="MR0" display="off"/>
-<attribute name="SIZE" value="0402" x="20.1295" y="33.5788" size="1.778" layer="27" rot="MR0"/>
+<attribute name="SIZE" value="0402" x="20.1295" y="33.5788" size="0.4064" layer="27" rot="MR0"/>
 <attribute name="TC" value="X5R" x="-15.4305" y="-43.8912" size="1.778" layer="28" rot="MR0" display="off"/>
 <attribute name="TOL" value="10%" x="-15.4305" y="-43.8912" size="1.778" layer="28" rot="MR0" display="off"/>
-<attribute name="TYPE" value="Capacitor" x="20.1295" y="33.5788" size="1.778" layer="27" rot="MR0"/>
-<attribute name="VOLT" value="6.3V" x="20.1295" y="33.5788" size="1.778" layer="27" rot="MR0"/>
+<attribute name="TYPE" value="Capacitor" x="20.1295" y="33.5788" size="0.4064" layer="27" rot="MR0"/>
+<attribute name="VOLT" value="6.3V" x="20.1295" y="33.5788" size="0.4064" layer="27" rot="MR0"/>
 <attribute name="VOLTAGE" value="6.3V" x="-15.4305" y="-43.8912" size="1.778" layer="28" rot="MR0" display="off"/>
 </element>
 <element name="C7" library="Capacitors" package="C0402" value="0.1u" x="17.7419" y="36.576" smashed="yes" rot="R90">
@@ -2230,7 +2249,8 @@ einem neuen Namen ab.</description>
 <attribute name="HEIGHT" value="0.55mm" x="17.7419" y="36.576" size="1.778" layer="28" rot="R90"/>
 <attribute name="MANUFACTURER" value="Kemet" x="95.2119" y="75.946" size="1.778" layer="27" rot="R90" display="off"/>
 <attribute name="MPN" value="C0402C104K4RACTU" x="17.7419" y="36.576" size="1.778" layer="27" rot="R90" display="off"/>
-<attribute name="NAME" x="18.1767" y="34.3862" size="0.762" layer="48" font="vector" ratio="6" rot="R90"/>
+<attribute name="NAME" x="17.8832" y="35.9092" size="0.3048" layer="51" rot="R90"/>
+<attribute name="NAME" x="17.8832" y="35.9092" size="0.3048" layer="255" rot="R90"/>
 <attribute name="PARTNO" value="C0402C104K4RACTU" x="17.7419" y="36.576" size="1.778" layer="27" rot="R90" display="off"/>
 <attribute name="SIZE" value="0402" x="17.7419" y="36.576" size="1.778" layer="28" rot="R90"/>
 <attribute name="TC" value="X7R" x="95.2119" y="75.946" size="1.778" layer="27" rot="R90" display="off"/>
@@ -2240,25 +2260,26 @@ einem neuen Namen ab.</description>
 <attribute name="VOLTAGE" value="16V" x="95.2119" y="75.946" size="1.778" layer="27" rot="R90" display="off"/>
 </element>
 <element name="C8" library="Capacitors" package="C0402" value="1u" x="17.272" y="33.9217" smashed="yes" rot="MR180">
-<attribute name="DESC" value="CAP CER 1UF 10V X5R 0402" x="17.272" y="33.9217" size="1.778" layer="27" rot="MR180"/>
+<attribute name="DESC" value="CAP CER 1UF 10V X5R 0402" x="17.272" y="33.9217" size="0.4064" layer="27" rot="MR180"/>
 <attribute name="MANUFACTURER" value="Kemet" x="60.452" y="111.3917" size="1.778" layer="28" rot="MR180" display="off"/>
 <attribute name="MPN" value="C0402C105M8PACTU" x="17.272" y="33.9217" size="1.778" layer="28" rot="MR180" display="off"/>
-<attribute name="NAME" x="18.562" y="33.7977" size="0.762" layer="48" font="vector" ratio="6" rot="MR180"/>
+<attribute name="NAME" x="16.6052" y="34.063" size="0.4064" layer="52" rot="MR180"/>
+<attribute name="NAME" x="16.6052" y="34.063" size="0.3048" layer="255" rot="MR180"/>
 <attribute name="PARTNO" value="C0402C105M8PACTU" x="17.272" y="33.9217" size="1.778" layer="28" rot="MR180" display="off"/>
-<attribute name="SIZE" value="0402" x="17.272" y="33.9217" size="1.778" layer="27" rot="MR180"/>
+<attribute name="SIZE" value="0402" x="17.272" y="33.9217" size="0.4064" layer="27" rot="MR180"/>
 <attribute name="TC" value="X5R" x="60.452" y="111.3917" size="1.778" layer="28" rot="MR180" display="off"/>
 <attribute name="TOL" value="20%" x="60.452" y="111.3917" size="1.778" layer="28" rot="MR180" display="off"/>
-<attribute name="TYPE" value="Capacitor" x="17.272" y="33.9217" size="1.778" layer="27" rot="MR180"/>
-<attribute name="VOLT" value="10V" x="17.272" y="33.9217" size="1.778" layer="27" rot="MR180"/>
+<attribute name="TYPE" value="Capacitor" x="17.272" y="33.9217" size="0.4064" layer="27" rot="MR180"/>
+<attribute name="VOLT" value="10V" x="17.272" y="33.9217" size="0.4064" layer="27" rot="MR180"/>
 <attribute name="VOLTAGE" value="10V" x="60.452" y="111.3917" size="1.778" layer="28" rot="MR180" display="off"/>
-<attribute name="Z-HEIGHT" value="0.55mm" x="17.272" y="33.9217" size="1.778" layer="27" rot="MR180"/>
+<attribute name="Z-HEIGHT" value="0.55mm" x="17.272" y="33.9217" size="0.4064" layer="27" rot="MR180"/>
 </element>
 <element name="C9" library="Capacitors" package="C0603" value="10u" x="31.75" y="26.0985" smashed="yes" rot="MR180">
 <attribute name="DESC" value="CAP CER 10UF 6.3V X5R 0603 " x="31.75" y="26.0985" size="1.778" layer="28" rot="MR180"/>
 <attribute name="HEIGHT" value="0.9mm" x="31.75" y="26.0985" size="1.778" layer="28" rot="MR180"/>
 <attribute name="MANUFACTURER" value="Murata" x="80.01" y="98.4885" size="1.778" layer="28" rot="MR180" display="off"/>
 <attribute name="MPN" value="GRM188R60J106KE47D" x="31.75" y="26.0985" size="1.778" layer="28" rot="MR180" display="off"/>
-<attribute name="NAME" x="31.6222" y="25.5981" size="0.762" layer="48" font="vector" ratio="6" rot="MR180"/>
+<attribute name="NAME" x="31.5033" y="26.2412" size="0.4064" layer="52" font="vector" rot="MR180"/>
 <attribute name="PARTNO" value="GRM188R60J106KE47D" x="31.75" y="26.0985" size="1.778" layer="28" rot="MR180" display="off"/>
 <attribute name="SIZE" value="0603" x="31.75" y="26.0985" size="1.778" layer="28" rot="MR180"/>
 <attribute name="TC" value="X5R" x="80.01" y="98.4885" size="1.778" layer="28" rot="MR180" display="off"/>
@@ -2268,42 +2289,48 @@ einem neuen Namen ab.</description>
 <attribute name="VOLTAGE" value="6.3V" x="80.01" y="98.4885" size="1.778" layer="28" rot="MR180" display="off"/>
 </element>
 <element name="J6" library="CommonSense-DTR-v1" package="SAMTECH_FTSH-105-01" value="ATTINY_AVR_DEBUG" x="21.971" y="17.5641" smashed="yes" rot="R180">
-<attribute name="DESC" value="CONN HEADER SMD 10POS 1.27MM" x="21.971" y="17.5641" size="1.778" layer="27" rot="R180"/>
-<attribute name="MANUFACTURER" value="Samtec" x="21.971" y="17.5641" size="1.778" layer="27" rot="R180"/>
+<attribute name="DESC" value="CONN HEADER SMD 10POS 1.27MM" x="21.971" y="17.5641" size="0.4064" layer="27" rot="R180"/>
+<attribute name="MANUFACTURER" value="Samtec" x="21.971" y="17.5641" size="0.4064" layer="27" rot="R180"/>
 <attribute name="MPN" value="FTSH-105-01-L-DV-K" x="-18.669" y="53.1241" size="1.778" layer="27" rot="R180" display="off"/>
+<attribute name="NAME" x="22.0472" y="17.7419" size="0.4064" layer="51" font="vector" ratio="20" rot="R180"/>
 <attribute name="PARTNO" value="FTSH-105-01-L-DV-K" x="21.971" y="17.5641" size="1.778" layer="27" rot="R180" display="off"/>
-<attribute name="TYPE" value="Header" x="21.971" y="17.5641" size="1.778" layer="27" rot="R180"/>
+<attribute name="TYPE" value="Header" x="21.971" y="17.5641" size="0.4064" layer="27" rot="R180"/>
+<attribute name="VALUE" x="23.6728" y="18.5293" size="0.4064" layer="27" font="vector" ratio="20" rot="R180"/>
 </element>
 <element name="J3" library="Debuggers" package="SAMTECH_FTSH-105-01" value="CORTEX_DEBUG_SMD" x="18.9103" y="28.7528" smashed="yes" rot="R270">
-<attribute name="DESC" value="CONN HEADER SMD 10POS 1.27MM" x="18.9103" y="28.7528" size="1.778" layer="27" rot="R270"/>
-<attribute name="MANUFACTURER" value="Samtec" x="18.9103" y="28.7528" size="1.778" layer="27" rot="R270"/>
+<attribute name="DESC" value="CONN HEADER SMD 10POS 1.27MM" x="18.9103" y="28.7528" size="0.4064" layer="27" rot="R270"/>
+<attribute name="MANUFACTURER" value="Samtec" x="18.9103" y="28.7528" size="0.4064" layer="27" rot="R270"/>
 <attribute name="MPN" value="FTSH-105-01-L-DV-K" x="18.9103" y="28.7528" size="1.778" layer="27" rot="R270" display="off"/>
+<attribute name="NAME" x="19.3675" y="30.099" size="0.6096" layer="51" font="vector" ratio="20"/>
 <attribute name="PARTNO" value="FTSH-105-01-L-DV-K" x="18.9103" y="28.7528" size="1.778" layer="27" rot="R270" display="off"/>
-<attribute name="TYPE" value="Header" x="18.9103" y="28.7528" size="1.778" layer="27" rot="R270"/>
+<attribute name="TYPE" value="Header" x="18.9103" y="28.7528" size="0.4064" layer="27" rot="R270"/>
+<attribute name="VALUE" x="17.9451" y="30.4546" size="0.4064" layer="27" font="vector" ratio="20" rot="R270"/>
 </element>
 <element name="J7" library="Connectors" package="USB-THRU-ZX62D-AB-5P8" value="J-USB-HIROSE-MICRO-USB" x="26.797" y="45.3644" smashed="yes" rot="MR270">
 <attribute name="DESC" value="CONN RCPT USB2.0 MICRO AB SMD RA" x="26.797" y="45.3644" size="1.778" layer="28" rot="MR270"/>
 <attribute name="MANUFACTURER" value="Hirose" x="34.417" y="-28.2956" size="1.778" layer="28" rot="MR270" display="off"/>
 <attribute name="MPN" value="ZX62D-AB-5P8(30)" x="34.417" y="-28.2956" size="1.778" layer="28" rot="MR270" display="off"/>
+<attribute name="NAME" x="29.797" y="40.3644" size="0.4064" layer="52" rot="MR0"/>
 <attribute name="PARTNO" value="ZX62D-AB-5P8(30)" x="26.797" y="45.3644" size="1.778" layer="28" rot="MR270" display="off"/>
 <attribute name="TYPE" value="Receptor" x="26.797" y="45.3644" size="1.778" layer="28" rot="MR270"/>
+<attribute name="VALUE" x="33.797" y="47.3644" size="1.27" layer="28" rot="MR270"/>
 </element>
 <element name="JP1" library="Connectors" package="SMT-JUMPER_2_NC_PASTE_NO-SILK" package3d_urn="urn:adsk.eagle:package:39283/1" value="JUMPER-SMT_2_NC_PASTELG_NO-SILK" x="31.0261" y="24.1046" smashed="yes" rot="MR0">
 <attribute name="BOM" value="EXCLUDE" x="31.0261" y="24.1046" size="1.778" layer="28" rot="MR0" display="off"/>
-<attribute name="NAME" x="30.4673" y="22.4028" size="0.762" layer="26" font="vector" ratio="20" rot="MR90" align="bottom-center"/>
+<attribute name="NAME" x="31.0007" y="23.9903" size="0.4064" layer="52" font="vector" rot="MR0" align="bottom-center"/>
 </element>
 <element name="JP12" library="Connectors" package="SMT-JUMPER_2_NC_PASTE_NO-SILK" package3d_urn="urn:adsk.eagle:package:39283/1" value="JUMPER-SMT_2_NC_PASTELG_NO-SILK" x="16.9291" y="14.1605" smashed="yes">
 <attribute name="BOM" value="EXCLUDE" x="16.9291" y="14.1605" size="1.778" layer="27" display="off"/>
-<attribute name="NAME" x="17.8943" y="14.0589" size="0.762" layer="25" font="vector" ratio="20" rot="R270" align="bottom-center"/>
+<attribute name="NAME" x="16.9291" y="13.97" size="0.4064" layer="51" font="vector" align="bottom-center"/>
 </element>
 <element name="JP13" library="Connectors" package="SMT-JUMPER_2_NC_PASTE_NO-SILK" package3d_urn="urn:adsk.eagle:package:39283/1" value="JUMPER-SMT_2_NC_PASTELG_NO-SILK" x="12.9413" y="14.1859" smashed="yes" rot="R270">
 <attribute name="BOM" value="EXCLUDE" x="12.9413" y="14.1859" size="1.778" layer="27" rot="R270" display="off"/>
-<attribute name="NAME" x="12.9413" y="12.5095" size="0.762" layer="25" font="vector" ratio="20" align="bottom-center"/>
+<attribute name="NAME" x="12.7381" y="14.1478" size="0.4064" layer="51" font="vector" rot="R270" align="bottom-center"/>
 </element>
 <element name="JP14" library="Connectors" package="SMT-JUMPER_2_NO_PASTEFREE_NO-SILK" value="JUMPER-SMT_2_NO_PASTEFREE" x="26.2763" y="18.2372" smashed="yes" rot="R90">
 <attribute name="BOM" value="EXCLUDE" x="26.2763" y="18.2372" size="1.778" layer="27" rot="R90" display="off"/>
 <attribute name="DESC" value="" x="26.2763" y="18.2372" size="1.778" layer="27" rot="R90"/>
-<attribute name="NAME" x="28.3083" y="17.6022" size="0.762" layer="48" font="vector" ratio="6" rot="R180" align="bottom-center"/>
+<attribute name="NAME" x="26.4033" y="18.2372" size="0.4064" layer="51" font="vector" rot="R90" align="bottom-center"/>
 <attribute name="PARTNO" value="*" x="26.2763" y="18.2372" size="1.778" layer="27" rot="R90" display="off"/>
 <attribute name="SIZE" value="" x="26.2763" y="18.2372" size="1.778" layer="27" rot="R90"/>
 <attribute name="TOL" value="" x="26.2763" y="18.2372" size="1.778" layer="27" rot="R90"/>
@@ -2312,59 +2339,60 @@ einem neuen Namen ab.</description>
 </element>
 <element name="JP2" library="Connectors" package="SMT-JUMPER_2_NC_PASTE_NO-SILK" package3d_urn="urn:adsk.eagle:package:39283/1" value="JUMPER-SMT_2_NC_PASTELG_NO-SILK" x="27.9654" y="26.4668" smashed="yes" rot="MR180">
 <attribute name="BOM" value="EXCLUDE" x="27.9654" y="26.4668" size="1.778" layer="28" rot="MR180" display="off"/>
-<attribute name="NAME" x="29.5402" y="26.4668" size="0.762" layer="26" font="vector" ratio="20" rot="MR270" align="bottom-center"/>
+<attribute name="NAME" x="28.0289" y="26.5811" size="0.4064" layer="52" font="vector" rot="MR180" align="bottom-center"/>
 </element>
 <element name="JP3" library="Connectors" package="SMT-JUMPER_2_NC_PASTE_NO-SILK" package3d_urn="urn:adsk.eagle:package:39283/1" value="JUMPER-SMT_2_NC_PASTELG_NO-SILK" x="25.5905" y="10.3505" smashed="yes" rot="R270">
 <attribute name="BOM" value="EXCLUDE" x="25.5905" y="10.3505" size="1.778" layer="27" rot="R270" display="off"/>
-<attribute name="NAME" x="24.0157" y="10.2743" size="0.762" layer="25" font="vector" ratio="20" align="bottom-center"/>
+<attribute name="NAME" x="25.4381" y="10.3124" size="0.6096" layer="51" font="vector" rot="R270" align="bottom-center"/>
 </element>
 <element name="JP5" library="Connectors" package="SMT-JUMPER_2_NC_PASTE_NO-SILK" package3d_urn="urn:adsk.eagle:package:39283/1" value="JUMPER-SMT_2_NC_PASTELG_NO-SILK" x="7.4676" y="8.9535" smashed="yes" rot="R270">
 <attribute name="BOM" value="EXCLUDE" x="7.4676" y="8.9535" size="1.778" layer="27" rot="R270" display="off"/>
-<attribute name="NAME" x="5.8674" y="7.7343" size="0.762" layer="25" font="vector" ratio="20" align="bottom-center"/>
+<attribute name="NAME" x="7.3787" y="8.9535" size="0.4064" layer="51" font="vector" rot="R270" align="bottom-center"/>
 </element>
 <element name="JP6" library="Connectors" package="SMT-JUMPER_2_NC_PASTE_NO-SILK" package3d_urn="urn:adsk.eagle:package:39283/1" value="JUMPER-SMT_2_NC_PASTELG_NO-SILK" x="20.6248" y="33.2994" smashed="yes" rot="R180">
 <attribute name="BOM" value="EXCLUDE" x="20.6248" y="33.2994" size="1.778" layer="27" rot="R180" display="off"/>
-<attribute name="NAME" x="20.3708" y="31.623" size="0.762" layer="25" font="vector" ratio="20" rot="R270" align="bottom-center"/>
+<attribute name="NAME" x="20.6248" y="33.1724" size="0.4064" layer="51" font="vector" rot="R180" align="bottom-center"/>
 </element>
 <element name="MK1" library="CommonSense-DTR-v1" package="MIC_SPW2430HR5H-B" value="SPW2430HR5H-B" x="19.9644" y="37.211" smashed="yes" rot="R180">
 <attribute name="AVAILABILITY" value="Unavailable" x="-14.3256" y="74.041" size="1.778" layer="27" rot="R180" display="off"/>
-<attribute name="DESC" value="MAMET MIC ANALOG TOP PORT" x="19.9644" y="37.211" size="1.778" layer="27" rot="R180"/>
+<attribute name="DESC" value="MAMET MIC ANALOG TOP PORT" x="19.9644" y="37.211" size="0.4064" layer="27" rot="R180"/>
 <attribute name="DESCRIPTION" value=" Mic Mems Analog " x="-14.3256" y="74.041" size="1.778" layer="27" rot="R180" display="off"/>
-<attribute name="HEIGHT" value="1.1mm" x="19.9644" y="37.211" size="1.778" layer="27" rot="R180"/>
-<attribute name="MANUFACTURER" value="Knowles" x="19.9644" y="37.211" size="1.778" layer="27" rot="R180"/>
+<attribute name="HEIGHT" value="1.1mm" x="19.9644" y="37.211" size="0.4064" layer="27" rot="R180"/>
+<attribute name="MANUFACTURER" value="Knowles" x="19.9644" y="37.211" size="0.4064" layer="27" rot="R180"/>
 <attribute name="MF" value="Knowles" x="-14.3256" y="74.041" size="1.778" layer="27" rot="R180" display="off"/>
 <attribute name="MP" value="SPW2430HR5H-B" x="-14.3256" y="74.041" size="1.778" layer="27" rot="R180" display="off"/>
 <attribute name="MPN" value="SPW2430HR5H-B" x="-14.3256" y="74.041" size="1.778" layer="27" rot="R180" display="off"/>
-<attribute name="NAME" x="17.8354" y="38.1174" size="0.762" layer="25" font="vector" ratio="20" rot="R270"/>
+<attribute name="NAME" x="20.6294" y="37.711" size="0.4064" layer="51" rot="R180"/>
 <attribute name="OC_NEWARK" value="unknown" x="-14.3256" y="74.041" size="1.778" layer="27" rot="R180" display="off"/>
 <attribute name="PACKAGE" value=" Knowles" x="-14.3256" y="74.041" size="1.778" layer="27" rot="R180" display="off"/>
 <attribute name="PARTNO" value="SPW2430HR5H-B" x="19.9644" y="37.211" size="1.778" layer="27" rot="R180" display="off"/>
 <attribute name="PRICE" value="None" x="-14.3256" y="74.041" size="1.778" layer="27" rot="R180" display="off"/>
-<attribute name="SIZE" value="0.122&quot; L x 0.098&quot; W (3.10mm x 2.50mm)" x="19.9644" y="37.211" size="1.778" layer="27" rot="R180"/>
-<attribute name="TYPE" value="MEMS Microphone" x="19.9644" y="37.211" size="1.778" layer="27" rot="R180"/>
-<attribute name="VOLT" value="1.5V ~ 3.6V" x="19.9644" y="37.211" size="1.778" layer="27" rot="R180"/>
+<attribute name="SIZE" value="0.122&quot; L x 0.098&quot; W (3.10mm x 2.50mm)" x="19.9644" y="37.211" size="0.4064" layer="27" rot="R180"/>
+<attribute name="TYPE" value="MEMS Microphone" x="19.9644" y="37.211" size="0.4064" layer="27" rot="R180"/>
+<attribute name="VALUE" x="21.2644" y="40.411" size="0.4064" layer="27" rot="R180"/>
+<attribute name="VOLT" value="1.5V ~ 3.6V" x="19.9644" y="37.211" size="0.4064" layer="27" rot="R180"/>
 </element>
 <element name="R1" library="Resistors" package="R0402" value="4.99k" x="18.7071" y="33.1216" smashed="yes" rot="MR90">
-<attribute name="DESC" value="RES SMD 4.99KOHM 0.1% 1/16W 0402" x="18.7071" y="33.1216" size="1.778" layer="27" rot="MR90"/>
-<attribute name="HEIGHT" value="0.4mm" x="18.7071" y="33.1216" size="1.778" layer="27" rot="MR90"/>
+<attribute name="DESC" value="RES SMD 4.99KOHM 0.1% 1/16W 0402" x="18.7071" y="33.1216" size="0.4064" layer="27" rot="MR90"/>
+<attribute name="HEIGHT" value="0.4mm" x="18.7071" y="33.1216" size="0.4064" layer="27" rot="MR90"/>
 <attribute name="MANUFACTURER" value="Panasonic" x="-58.7629" y="99.1616" size="1.778" layer="28" rot="MR90" display="off"/>
 <attribute name="MF" value="" x="-58.7629" y="99.1616" size="1.778" layer="28" rot="MR90" display="off"/>
 <attribute name="MPN" value="ERA-2AEB4991X" x="-58.7629" y="99.1616" size="1.778" layer="28" rot="MR90" display="off"/>
-<attribute name="NAME" x="17.2958" y="32.4548" size="0.762" layer="48" font="vector" rot="MR90"/>
-<attribute name="NAME" x="18.5658" y="32.4548" size="0.3048" layer="48" rot="MR90"/>
+<attribute name="NAME" x="18.5658" y="32.4548" size="0.4064" layer="52" rot="MR90"/>
+<attribute name="NAME" x="18.5658" y="32.4548" size="0.4064" layer="52" rot="MR90"/>
 <attribute name="PARTNO" value="ERA-2AEB4991X" x="18.7071" y="33.1216" size="1.778" layer="28" rot="MR90" display="off"/>
-<attribute name="SIZE" value="0402" x="18.7071" y="33.1216" size="1.778" layer="27" rot="MR90"/>
-<attribute name="TC" value="±25ppm/°C" x="18.7071" y="33.1216" size="1.778" layer="27" rot="MR90"/>
+<attribute name="SIZE" value="0402" x="18.7071" y="33.1216" size="0.4064" layer="27" rot="MR90"/>
+<attribute name="TC" value="±25ppm/°C" x="18.7071" y="33.1216" size="0.4064" layer="27" rot="MR90"/>
 <attribute name="TOL" value="0.1%" x="-58.7629" y="99.1616" size="1.778" layer="28" rot="MR90" display="off"/>
-<attribute name="TYPE" value="Resistor" x="18.7071" y="33.1216" size="1.778" layer="27" rot="MR90"/>
+<attribute name="TYPE" value="Resistor" x="18.7071" y="33.1216" size="0.4064" layer="27" rot="MR90"/>
 </element>
 <element name="R10" library="Resistors" package="R0402" value="100k" x="19.9517" y="21.5773" smashed="yes">
 <attribute name="DESC" value="RES SMD 100K OHM 1% 1/10W 0402" x="19.9517" y="21.5773" size="1.778" layer="28"/>
 <attribute name="HEIGHT" value="0.4mm" x="19.9517" y="21.5773" size="1.778" layer="28"/>
 <attribute name="MANUFACTURER" value="Panasonic" x="91.0716875" y="-50.81269375" size="1.778" layer="27" display="off"/>
 <attribute name="MPN" value="ERJ-2RKF1003X" x="19.9517" y="21.5773" size="1.778" layer="27" display="off"/>
-<attribute name="NAME" x="21.1899" y="21.435990625" size="0.762" layer="48" font="vector"/>
-<attribute name="NAME" x="19.284903125" y="21.435990625" size="0.3048" layer="48"/>
+<attribute name="NAME" x="19.2849" y="21.436" size="0.3048" layer="51"/>
+<attribute name="NAME" x="19.2849" y="21.436" size="0.3048" layer="51"/>
 <attribute name="PARTNO" value="ERJ-2RKF1003X" x="19.9517" y="21.5773" size="1.778" layer="27" display="off"/>
 <attribute name="SIZE" value="0402" x="19.9517" y="21.5773" size="1.778" layer="28"/>
 <attribute name="TC" value="±100ppm/°C" x="19.9517" y="21.5773" size="1.778" layer="28"/>
@@ -2372,37 +2400,38 @@ einem neuen Namen ab.</description>
 <attribute name="TYPE" value="Resistor" x="19.9517" y="21.5773" size="1.778" layer="28"/>
 </element>
 <element name="R2" library="Resistors" package="R0402" value="100k" x="20.1295" y="32.5882" smashed="yes" rot="MR0">
-<attribute name="DESC" value="RES SMD 100K OHM 0.1% 1/16W 0402" x="20.1295" y="32.5882" size="1.778" layer="27" rot="MR0"/>
-<attribute name="HEIGHT" value="0.35mm" x="20.1295" y="32.5882" size="1.778" layer="27" rot="MR0"/>
+<attribute name="DESC" value="RES SMD 100K OHM 0.1% 1/16W 0402" x="20.1295" y="32.5882" size="0.4064" layer="27" rot="MR0"/>
+<attribute name="HEIGHT" value="0.35mm" x="20.1295" y="32.5882" size="0.4064" layer="27" rot="MR0"/>
 <attribute name="MANUFACTURER" value="Yageo" x="-49.7205" y="-44.8818" size="1.778" layer="28" rot="MR0" display="off"/>
 <attribute name="MPN" value="RT0402BRD07100KL" x="-49.7205" y="-44.8818" size="1.778" layer="28" rot="MR0" display="off"/>
-<attribute name="NAME" x="20.7963" y="32.4469" size="0.3048" layer="48" rot="MR0"/>
-<attribute name="NAME" x="20.5423" y="33.1581" size="0.762" layer="48" font="vector" rot="MR0"/>
+<attribute name="NAME" x="20.7963" y="32.4469" size="0.4064" layer="52" rot="MR0"/>
+<attribute name="NAME" x="20.7963" y="32.4469" size="0.4064" layer="52" rot="MR0"/>
 <attribute name="PARTNO" value="RT0402BRD07100KL" x="20.1295" y="32.5882" size="1.778" layer="28" rot="MR0" display="off"/>
-<attribute name="SIZE" value="0402" x="20.1295" y="32.5882" size="1.778" layer="27" rot="MR0"/>
-<attribute name="TC" value="±25ppm/°C" x="20.1295" y="32.5882" size="1.778" layer="27" rot="MR0"/>
+<attribute name="SIZE" value="0402" x="20.1295" y="32.5882" size="0.4064" layer="27" rot="MR0"/>
+<attribute name="TC" value="±25ppm/°C" x="20.1295" y="32.5882" size="0.4064" layer="27" rot="MR0"/>
 <attribute name="TOL" value="0.1%" x="-49.7205" y="-44.8818" size="1.778" layer="28" rot="MR0" display="off"/>
-<attribute name="TYPE" value="Resistor" x="20.1295" y="32.5882" size="1.778" layer="27" rot="MR0"/>
+<attribute name="TYPE" value="Resistor" x="20.1295" y="32.5882" size="0.4064" layer="27" rot="MR0"/>
 </element>
 <element name="R3" library="Resistors" package="R0402" value="100k" x="15.8369" y="33.4264" smashed="yes" rot="MR90">
-<attribute name="DESC" value="RES SMD 100K OHM 0.1% 1/16W 0402" x="15.8369" y="33.4264" size="1.778" layer="27" rot="MR90"/>
-<attribute name="HEIGHT" value="0.35mm" x="15.8369" y="33.4264" size="1.778" layer="27" rot="MR90"/>
+<attribute name="DESC" value="RES SMD 100K OHM 0.1% 1/16W 0402" x="15.8369" y="33.4264" size="0.4064" layer="27" rot="MR90"/>
+<attribute name="HEIGHT" value="0.35mm" x="15.8369" y="33.4264" size="0.4064" layer="27" rot="MR90"/>
 <attribute name="MANUFACTURER" value="Yageo" x="-61.6331" y="107.0864" size="1.778" layer="28" rot="MR90" display="off"/>
 <attribute name="MPN" value="RT0402BRD07100KL" x="-61.6331" y="107.0864" size="1.778" layer="28" rot="MR90" display="off"/>
-<attribute name="NAME" x="15.9609" y="34.7164" size="0.762" layer="48" font="vector" ratio="6" rot="MR90"/>
+<attribute name="NAME" x="15.6956" y="32.7596" size="0.4064" layer="52" rot="MR90"/>
+<attribute name="NAME" x="15.6956" y="32.7596" size="0.4064" layer="52" rot="MR90"/>
 <attribute name="PARTNO" value="RT0402BRD07100KL" x="15.8369" y="33.4264" size="1.778" layer="28" rot="MR90" display="off"/>
-<attribute name="SIZE" value="0402" x="15.8369" y="33.4264" size="1.778" layer="27" rot="MR90"/>
-<attribute name="TC" value="±25ppm/°C" x="15.8369" y="33.4264" size="1.778" layer="27" rot="MR90"/>
+<attribute name="SIZE" value="0402" x="15.8369" y="33.4264" size="0.4064" layer="27" rot="MR90"/>
+<attribute name="TC" value="±25ppm/°C" x="15.8369" y="33.4264" size="0.4064" layer="27" rot="MR90"/>
 <attribute name="TOL" value="0.1%" x="-61.6331" y="107.0864" size="1.778" layer="28" rot="MR90" display="off"/>
-<attribute name="TYPE" value="Resistor" x="15.8369" y="33.4264" size="1.778" layer="27" rot="MR90"/>
+<attribute name="TYPE" value="Resistor" x="15.8369" y="33.4264" size="0.4064" layer="27" rot="MR90"/>
 </element>
 <element name="R9" library="Resistors" package="R0402" value="39R" x="17.1831" y="23.1521" smashed="yes" rot="R90">
 <attribute name="DESC" value="RES SMD 39 OHM 1% 1/10W 0402" x="17.1831" y="23.1521" size="1.778" layer="28" rot="R90"/>
 <attribute name="HEIGHT" value="0.4mm" x="17.1831" y="23.1521" size="1.778" layer="28" rot="R90"/>
 <attribute name="MANUFACTURER" value="Panasonic" x="94.6531" y="43.4721" size="1.778" layer="27" rot="R90" display="off"/>
 <attribute name="MPN" value="ERJ-2RKF39R0X" x="17.1831" y="23.1521" size="1.778" layer="27" rot="R90" display="off"/>
-<attribute name="NAME" x="17.3244" y="24.3903" size="0.762" layer="48" font="vector" rot="R90"/>
-<attribute name="NAME" x="17.3244" y="22.4853" size="0.3048" layer="48" rot="R90"/>
+<attribute name="NAME" x="17.3244" y="22.4853" size="0.3048" layer="51" rot="R90"/>
+<attribute name="NAME" x="17.3244" y="22.4853" size="0.3048" layer="51" rot="R90"/>
 <attribute name="PARTNO" value="ERJ-2RKF39R0X" x="17.1831" y="23.1521" size="1.778" layer="27" rot="R90" display="off"/>
 <attribute name="SIZE" value="0402" x="17.1831" y="23.1521" size="1.778" layer="28" rot="R90"/>
 <attribute name="TC" value="±100ppm/°C" x="17.1831" y="23.1521" size="1.778" layer="28" rot="R90"/>
@@ -2410,73 +2439,80 @@ einem neuen Namen ab.</description>
 <attribute name="TYPE" value="Resistor" x="17.1831" y="23.1521" size="1.778" layer="28" rot="R90"/>
 </element>
 <element name="R4" library="Resistors" package="R0402" value="100k" x="17.272" y="32.9565" smashed="yes" rot="MR0">
-<attribute name="DESC" value="RES SMD 100K OHM 0.1% 1/16W 0402" x="17.272" y="32.9565" size="1.778" layer="27" rot="MR0"/>
-<attribute name="HEIGHT" value="0.35mm" x="17.272" y="32.9565" size="1.778" layer="27" rot="MR0"/>
+<attribute name="DESC" value="RES SMD 100K OHM 0.1% 1/16W 0402" x="17.272" y="32.9565" size="0.4064" layer="27" rot="MR0"/>
+<attribute name="HEIGHT" value="0.35mm" x="17.272" y="32.9565" size="0.4064" layer="27" rot="MR0"/>
 <attribute name="MANUFACTURER" value="Yageo" x="-60.198" y="-44.5135" size="1.778" layer="28" rot="MR0" display="off"/>
 <attribute name="MPN" value="RT0402BRD07100KL" x="-60.198" y="-44.5135" size="1.778" layer="28" rot="MR0" display="off"/>
-<attribute name="NAME" x="18.522" y="33.0805" size="0.762" layer="48" font="vector" ratio="6" rot="MR180"/>
+<attribute name="NAME" x="17.9388" y="32.8152" size="0.4064" layer="52" rot="MR0"/>
+<attribute name="NAME" x="17.9388" y="32.8152" size="0.4064" layer="52" rot="MR0"/>
 <attribute name="PARTNO" value="RT0402BRD07100KL" x="17.272" y="32.9565" size="1.778" layer="28" rot="MR0" display="off"/>
-<attribute name="SIZE" value="0402" x="17.272" y="32.9565" size="1.778" layer="27" rot="MR0"/>
-<attribute name="TC" value="±25ppm/°C" x="17.272" y="32.9565" size="1.778" layer="27" rot="MR0"/>
+<attribute name="SIZE" value="0402" x="17.272" y="32.9565" size="0.4064" layer="27" rot="MR0"/>
+<attribute name="TC" value="±25ppm/°C" x="17.272" y="32.9565" size="0.4064" layer="27" rot="MR0"/>
 <attribute name="TOL" value="0.1%" x="-60.198" y="-44.5135" size="1.778" layer="28" rot="MR0" display="off"/>
-<attribute name="TYPE" value="Resistor" x="17.272" y="32.9565" size="1.778" layer="27" rot="MR0"/>
+<attribute name="TYPE" value="Resistor" x="17.272" y="32.9565" size="0.4064" layer="27" rot="MR0"/>
 </element>
 <element name="R5" library="Resistors" package="R0402" value="4.7k" x="20.6121" y="12.6746" smashed="yes" rot="MR270">
-<attribute name="DESC" value="RES SMD 4.7K OHM 1% 1/10W 0402" x="20.6121" y="12.6746" size="1.778" layer="27" rot="MR270"/>
-<attribute name="HEIGHT" value="0.4mm" x="20.6121" y="12.6746" size="1.778" layer="27" rot="MR270"/>
+<attribute name="DESC" value="RES SMD 4.7K OHM 1% 1/10W 0402" x="20.6121" y="12.6746" size="0.4064" layer="27" rot="MR270"/>
+<attribute name="HEIGHT" value="0.4mm" x="20.6121" y="12.6746" size="0.4064" layer="27" rot="MR270"/>
 <attribute name="MANUFACTURER" value="Panasonic" x="93.0021" y="-39.3954" size="1.778" layer="28" rot="MR270" display="off"/>
 <attribute name="MPN" value="ERJ2RKF4701X" x="20.6121" y="12.6746" size="1.778" layer="28" rot="MR270" display="off"/>
-<attribute name="NAME" x="19.9085" y="13.2342" size="0.762" layer="48" font="vector" ratio="6" rot="MR270"/>
+<attribute name="NAME" x="20.7534" y="13.3414" size="0.4064" layer="52" rot="MR270"/>
+<attribute name="NAME" x="20.7534" y="13.3414" size="0.4064" layer="52" rot="MR270"/>
 <attribute name="PARTNO" value="ERJ2RKF4701X" x="20.6121" y="12.6746" size="1.778" layer="28" rot="MR270" display="off"/>
-<attribute name="SIZE" value="0402" x="20.6121" y="12.6746" size="1.778" layer="27" rot="MR270"/>
-<attribute name="TC" value="±100ppm/°C" x="20.6121" y="12.6746" size="1.778" layer="27" rot="MR270"/>
+<attribute name="SIZE" value="0402" x="20.6121" y="12.6746" size="0.4064" layer="27" rot="MR270"/>
+<attribute name="TC" value="±100ppm/°C" x="20.6121" y="12.6746" size="0.4064" layer="27" rot="MR270"/>
 <attribute name="TOL" value="1%" x="93.0021" y="-39.3954" size="1.778" layer="28" rot="MR270" display="off"/>
-<attribute name="TYPE" value="Resistor" x="20.6121" y="12.6746" size="1.778" layer="27" rot="MR270"/>
+<attribute name="TYPE" value="Resistor" x="20.6121" y="12.6746" size="0.4064" layer="27" rot="MR270"/>
 </element>
 <element name="R6" library="Resistors" package="R0402" value="4.7k" x="19.6596" y="12.6746" smashed="yes" rot="MR270">
-<attribute name="DESC" value="RES SMD 4.7K OHM 1% 1/10W 0402" x="19.6596" y="12.6746" size="1.778" layer="27" rot="MR270"/>
-<attribute name="HEIGHT" value="0.4mm" x="19.6596" y="12.6746" size="1.778" layer="27" rot="MR270"/>
+<attribute name="DESC" value="RES SMD 4.7K OHM 1% 1/10W 0402" x="19.6596" y="12.6746" size="0.4064" layer="27" rot="MR270"/>
+<attribute name="HEIGHT" value="0.4mm" x="19.6596" y="12.6746" size="0.4064" layer="27" rot="MR270"/>
 <attribute name="MANUFACTURER" value="Panasonic" x="92.0496" y="-43.2054" size="1.778" layer="28" rot="MR270" display="off"/>
 <attribute name="MPN" value="ERJ2RKF4701X" x="19.6596" y="12.6746" size="1.778" layer="28" rot="MR270" display="off"/>
-<attribute name="NAME" x="18.956" y="13.1834" size="0.762" layer="48" font="vector" ratio="6" rot="MR270"/>
+<attribute name="NAME" x="19.8009" y="13.3414" size="0.4064" layer="52" rot="MR270"/>
+<attribute name="NAME" x="19.8009" y="13.3414" size="0.4064" layer="52" rot="MR270"/>
 <attribute name="PARTNO" value="ERJ2RKF4701X" x="19.6596" y="12.6746" size="1.778" layer="28" rot="MR270" display="off"/>
-<attribute name="SIZE" value="0402" x="19.6596" y="12.6746" size="1.778" layer="27" rot="MR270"/>
-<attribute name="TC" value="±100ppm/°C" x="19.6596" y="12.6746" size="1.778" layer="27" rot="MR270"/>
+<attribute name="SIZE" value="0402" x="19.6596" y="12.6746" size="0.4064" layer="27" rot="MR270"/>
+<attribute name="TC" value="±100ppm/°C" x="19.6596" y="12.6746" size="0.4064" layer="27" rot="MR270"/>
 <attribute name="TOL" value="1%" x="92.0496" y="-43.2054" size="1.778" layer="28" rot="MR270" display="off"/>
-<attribute name="TYPE" value="Resistor" x="19.6596" y="12.6746" size="1.778" layer="27" rot="MR270"/>
+<attribute name="TYPE" value="Resistor" x="19.6596" y="12.6746" size="0.4064" layer="27" rot="MR270"/>
 </element>
 <element name="R_SENSE" library="Resistors" package="R0402" value="1.33R" x="16.3449" y="11.176" smashed="yes" rot="MR90">
-<attribute name="DESC" value="RES SMD 1.33 OHM 1% 1/16W 0402" x="16.3449" y="11.176" size="1.778" layer="27" rot="MR90"/>
-<attribute name="HEIGHT" value="0.4mm" x="16.3449" y="11.176" size="1.778" layer="27" rot="MR90"/>
+<attribute name="DESC" value="RES SMD 1.33 OHM 1% 1/16W 0402" x="16.3449" y="11.176" size="0.4064" layer="27" rot="MR90"/>
+<attribute name="HEIGHT" value="0.4mm" x="16.3449" y="11.176" size="0.4064" layer="27" rot="MR90"/>
 <attribute name="MANUFACTURER" value="Vishay Dale" x="-56.0451" y="92.456" size="1.778" layer="28" rot="MR90" display="off"/>
 <attribute name="MPN" value="CRCW04021R33FKED" x="-56.0451" y="92.456" size="1.778" layer="28" rot="MR90" display="off"/>
-<attribute name="NAME" x="16.1528" y="5.9118" size="0.762" layer="26" font="vector" ratio="20" rot="MR90"/>
-<attribute name="NAME" x="16.2036" y="10.5092" size="0.3048" layer="48" rot="MR90"/>
+<attribute name="NAME" x="16.2036" y="10.5092" size="0.4064" layer="52" rot="MR90"/>
+<attribute name="NAME" x="16.2036" y="10.5092" size="0.4064" layer="52" rot="MR90"/>
 <attribute name="PARTNO" value="CRCW04021R33FKED" x="16.3449" y="11.176" size="1.778" layer="28" rot="MR90" display="off"/>
-<attribute name="SIZE" value="0402" x="16.3449" y="11.176" size="1.778" layer="27" rot="MR90"/>
-<attribute name="TC" value="±100ppm/°C" x="16.3449" y="11.176" size="1.778" layer="27" rot="MR90"/>
+<attribute name="SIZE" value="0402" x="16.3449" y="11.176" size="0.4064" layer="27" rot="MR90"/>
+<attribute name="TC" value="±100ppm/°C" x="16.3449" y="11.176" size="0.4064" layer="27" rot="MR90"/>
 <attribute name="TOL" value="1%" x="-56.0451" y="92.456" size="1.778" layer="28" rot="MR90" display="off"/>
-<attribute name="TYPE" value="Resistor" x="16.3449" y="11.176" size="1.778" layer="27" rot="MR90"/>
+<attribute name="TYPE" value="Resistor" x="16.3449" y="11.176" size="0.4064" layer="27" rot="MR90"/>
 </element>
 <element name="SJ3" library="CommonSense-DTR-v1" package="JUMPER_SJ_2" value="" x="30.8186" y="20.49" smashed="yes" rot="R359.9">
 <attribute name="BOM" value="EXCLUDE" x="30.8186" y="20.49" size="1.778" layer="27" rot="R359.9" display="off"/>
+<attribute name="NAME" x="30.31281875" y="21.764209375" size="0.4064" layer="51" ratio="10" rot="R359.9"/>
 <attribute name="POPULARITY" value="7" x="109.48533125" y="-21.557359375" size="1.778" layer="27" rot="R359.9" display="off"/>
-<attribute name="VALUE" x="30.718496875" y="20.490175" size="0.02" layer="27" rot="R359.9"/>
+<attribute name="VALUE" x="30.7185" y="20.490171875" size="0.02" layer="27" rot="R359.9"/>
 </element>
 <element name="U19" library="CommonSense-DTR-v1" package="MICROBUILDER_TQFN48_7MM" value="ATSAMD21G18_QFN" x="29.754384375" y="33.129784375" smashed="yes" rot="MR90">
 <attribute name="DESC" value="IC MCU 32BIT 256KB FLASH 48QFN" x="29.754384375" y="33.129784375" size="1.778" layer="28" rot="MR90"/>
 <attribute name="HEIGHT" value="0.85mm" x="29.754384375" y="33.129784375" size="1.778" layer="28" rot="MR90"/>
 <attribute name="MANUFACTURER" value="Microchip" x="29.754384375" y="33.129784375" size="1.778" layer="28" rot="MR90"/>
 <attribute name="MPN" value="ATSAMD21G18A-MF" x="29.754384375" y="33.129784375" size="1.778" layer="28" rot="MR90" display="off"/>
+<attribute name="NAME" x="29.836384375" y="32.557784375" size="0.4064" layer="52" ratio="18" rot="MR90"/>
 <attribute name="PARTNO" value="ATSAMD21G18A-MF" x="29.754384375" y="33.129784375" size="1.778" layer="28" rot="MR90" display="off"/>
 <attribute name="SIZE" value="48-QFN (7x7)" x="29.754384375" y="33.129784375" size="1.778" layer="28" rot="MR90"/>
 <attribute name="TYPE" value="MCU" x="29.754384375" y="33.129784375" size="1.778" layer="28" rot="MR90"/>
+<attribute name="VALUE" x="25.054384375" y="30.129784375" size="0.4064" layer="28" ratio="10" rot="MR90"/>
 </element>
 <element name="U1" library="Switches" package="WLCSP6_2X3" value="LOADSWITCH-MIC94164" x="28.0289" y="23.5585" smashed="yes" rot="MR270">
 <attribute name="DESC" value="IC PWR SWITCH P-CHAN 1:1 6WLCSP" x="28.0289" y="23.5585" size="1.778" layer="28" rot="MR270"/>
 <attribute name="HEIGHT" value="0.65mm" x="28.0289" y="23.5585" size="1.778" layer="28" rot="MR270"/>
 <attribute name="MANUFACTURER" value="Microchip Technology" x="109.3089" y="4.5085" size="1.778" layer="28" rot="MR270" display="off"/>
 <attribute name="MPN" value="MIC94164YCS-TR" x="109.3089" y="4.5085" size="1.778" layer="28" rot="MR270" display="off"/>
+<attribute name="NAME" x="28.3375" y="23.4011" size="0.4064" layer="52" rot="MR0"/>
 <attribute name="PARTNO" value="MIC94164YCS-TR" x="28.0289" y="23.5585" size="1.778" layer="28" rot="MR270" display="off"/>
 <attribute name="PART_NUMBER" value="MIC94164" x="109.3089" y="4.5085" size="1.778" layer="28" rot="MR270" display="off"/>
 <attribute name="QUENCH" value="YES" x="109.3089" y="4.5085" size="1.778" layer="28" rot="MR270" display="off"/>
@@ -2489,6 +2525,7 @@ einem neuen Namen ab.</description>
 <attribute name="HEIGHT" value="0.65mm" x="22.2885" y="34.0868" size="1.778" layer="28" rot="MR90"/>
 <attribute name="MANUFACTURER" value="Microchip Technology" x="-58.9915" y="68.3768" size="1.778" layer="28" rot="MR90" display="off"/>
 <attribute name="MPN" value="MIC94164YCS-TR" x="-58.9915" y="68.3768" size="1.778" layer="28" rot="MR90" display="off"/>
+<attribute name="NAME" x="21.8275" y="34.0918" size="0.4064" layer="52" rot="MR180"/>
 <attribute name="PARTNO" value="MIC94164YCS-TR" x="22.2885" y="34.0868" size="1.778" layer="28" rot="MR90" display="off"/>
 <attribute name="PART_NUMBER" value="MIC94164" x="-58.9915" y="68.3768" size="1.778" layer="28" rot="MR90" display="off"/>
 <attribute name="QUENCH" value="YES" x="-58.9915" y="68.3768" size="1.778" layer="28" rot="MR90" display="off"/>
@@ -2506,40 +2543,27 @@ einem neuen Namen ab.</description>
 <attribute name="MF" value="Bosch" x="-48.1457" y="41.7576" size="1.778" layer="27" rot="R180" display="off"/>
 <attribute name="MP" value="BMI160" x="-48.1457" y="41.7576" size="1.778" layer="27" rot="R180" display="off"/>
 <attribute name="MPN" value="BMI160" x="7.7343" y="6.1976" size="1.778" layer="27" rot="R180" display="off"/>
+<attribute name="NAME" x="8.2056" y="6.1978" size="0.4064" layer="51" rot="R180"/>
 <attribute name="PACKAGE" value="LGA-14 Bosch" x="-48.1457" y="41.7576" size="1.778" layer="27" rot="R180" display="off"/>
 <attribute name="PARTNO" value="BMI160" x="7.7343" y="6.1976" size="1.778" layer="27" rot="R180" display="off"/>
 <attribute name="PRICE" value="None" x="-48.1457" y="41.7576" size="1.778" layer="27" rot="R180" display="off"/>
 <attribute name="SIZE" value="14-LGA (2.5x3)" x="7.7343" y="6.1976" size="1.778" layer="28" rot="R180"/>
 <attribute name="TYPE" value="IMU" x="7.7343" y="6.1976" size="1.778" layer="28" rot="R180"/>
+<attribute name="VALUE" x="9.2343" y="8.9976" size="0.4064" layer="27" rot="R180"/>
 </element>
 <element name="U2" library="CommonSense-DTR-v1" package="RJ_6-L" value="ADA4841-1YRJZ-R7RJ_6-L" x="17.9324" y="30.2895" smashed="yes" rot="MR180">
-<attribute name="DESC" value="IC OPAMP VFB 1 CIRCUIT SOT23-6" x="17.9324" y="30.2895" size="1.778" layer="27" rot="MR180"/>
-<attribute name="HEIGHT" value="0.95-1.45mm" x="17.9324" y="30.2895" size="1.778" layer="27" rot="MR180"/>
-<attribute name="MANUFACTURER" value="Analog Devices" x="17.9324" y="30.2895" size="1.778" layer="27" rot="MR180"/>
+<attribute name="DESC" value="IC OPAMP VFB 1 CIRCUIT SOT23-6" x="17.9324" y="30.2895" size="0.4064" layer="27" rot="MR180"/>
+<attribute name="HEIGHT" value="0.95-1.45mm" x="17.9324" y="30.2895" size="0.4064" layer="27" rot="MR180"/>
+<attribute name="MANUFACTURER" value="Analog Devices" x="17.9324" y="30.2895" size="0.4064" layer="27" rot="MR180"/>
 <attribute name="MANUFACTURER_PART_NUMBER" value="ADA48411YRJZR7" x="90.3224" y="73.4695" size="1.778" layer="28" rot="MR180" display="off"/>
 <attribute name="MPN" value="ADA48411YRJZR7" x="90.3224" y="73.4695" size="1.778" layer="28" rot="MR180" display="off"/>
-<attribute name="NAME" x="18.4658" y="32.1945" size="0.762" layer="48" font="vector" ratio="6" rot="SMR0"/>
+<attribute name="NAME" x="17.8308" y="30.2895" size="0.4064" layer="52" ratio="6" rot="SMR180"/>
 <attribute name="PARTNO" value="ADA48411YRJZR7" x="17.9324" y="30.2895" size="1.778" layer="28" rot="MR180" display="off"/>
-<attribute name="SIZE" value="SOT-23-6" x="17.9324" y="30.2895" size="1.778" layer="27" rot="MR180"/>
+<attribute name="SIZE" value="SOT-23-6" x="17.9324" y="30.2895" size="0.4064" layer="27" rot="MR180"/>
 <attribute name="SPICEMODEL" value="ADA4841" x="90.3224" y="73.4695" size="1.778" layer="28" rot="MR180" display="off"/>
 <attribute name="SPICEPREFIX" value="X" x="90.3224" y="73.4695" size="1.778" layer="28" rot="MR180" display="off"/>
-<attribute name="TYPE" value="Opamp" x="17.9324" y="30.2895" size="1.778" layer="27" rot="MR180"/>
+<attribute name="TYPE" value="Opamp" x="17.9324" y="30.2895" size="0.4064" layer="27" rot="MR180"/>
 <attribute name="VENDOR" value="Analog Devices Inc" x="90.3224" y="73.4695" size="1.778" layer="28" rot="MR180" display="off"/>
-</element>
-<element name="U18" library="Sensors" package="MPL3115A2_PSON125P300X500X120-8N" value="MPL3115A2" x="24.3078" y="3.8735" smashed="yes" rot="R180">
-<attribute name="DESC" value="IC ALTIMETER I2C VERSION 8LGA" x="24.3078" y="3.8735" size="1.778" layer="28" rot="R180"/>
-<attribute name="DESCRIPTION" value=" Pressure Sensor, 50-110kpa, Lga-8 " x="-22.6822" y="39.4335" size="1.778" layer="27" rot="R180" display="off"/>
-<attribute name="DIGI-KEY_PART_NUMBER" value="MPL3115A2-ND" x="-22.6822" y="39.4335" size="1.778" layer="27" rot="R180" display="off"/>
-<attribute name="DIGI-KEY_PURCHASE_URL" value="https://www.digikey.com/product-detail/en/nxp-usa-inc/MPL3115A2/MPL3115A2-ND/2817529?utm_source=snapeda&amp;utm_medium=aggregator&amp;utm_campaign=symbol" x="-22.6822" y="39.4335" size="1.778" layer="27" rot="R180" display="off"/>
-<attribute name="HEIGHT" value="1.1mm" x="24.3078" y="3.8735" size="1.778" layer="28" rot="R180"/>
-<attribute name="MANUFACTURER" value="NXP" x="-22.6822" y="39.4335" size="1.778" layer="27" rot="R180" display="off"/>
-<attribute name="MF" value="NXP USA" x="-22.6822" y="39.4335" size="1.778" layer="27" rot="R180" display="off"/>
-<attribute name="MP" value="MPL3115A2" x="-22.6822" y="39.4335" size="1.778" layer="27" rot="R180" display="off"/>
-<attribute name="MPN" value="MPL-3115A2" x="-22.6822" y="39.4335" size="1.778" layer="27" rot="R180" display="off"/>
-<attribute name="PACKAGE" value="LGA-8 NXP USA" x="-22.6822" y="39.4335" size="1.778" layer="27" rot="R180" display="off"/>
-<attribute name="PARTNO" value="MPL-3115A2" x="24.3078" y="3.8735" size="1.778" layer="27" rot="R180" display="off"/>
-<attribute name="SIZE" value="8-LGA" x="24.3078" y="3.8735" size="1.778" layer="28" rot="R180"/>
-<attribute name="TYPE" value="Altimeter" x="24.3078" y="3.8735" size="1.778" layer="28" rot="R180"/>
 </element>
 <element name="U3" library="CommonSense-DTR-v1" package="DGS0010A_L" value="Value" x="20.4724" y="37.3888" smashed="yes" rot="MR180">
 <attribute name="APPLICATION_BUILDNUMBER" value="*" x="43.3324" y="65.3288" size="1.778" layer="28" rot="MR180" display="off"/>
@@ -2549,6 +2573,7 @@ einem neuen Namen ab.</description>
 <attribute name="MANUFACTURER" value="Texas Instruments" x="43.3324" y="65.3288" size="1.778" layer="28" rot="MR180" display="off"/>
 <attribute name="MOUNTTYPE" value="SMT" x="43.3324" y="65.3288" size="1.778" layer="28" rot="MR180" display="off"/>
 <attribute name="MPN" value="TS3A24159DGSR" x="20.4724" y="37.3888" size="1.778" layer="28" rot="MR180" display="off"/>
+<attribute name="NAME" x="19.7358" y="38.0238" size="0.4064" layer="52" ratio="6" rot="SMR180"/>
 <attribute name="PACKAGEREFERENCE" value="DGS0010A" x="43.3324" y="65.3288" size="1.778" layer="28" rot="MR180" display="off"/>
 <attribute name="PARTNO" value="TS3A24159DGSR" x="20.4724" y="37.3888" size="1.778" layer="28" rot="MR180" display="off"/>
 <attribute name="PARTNUMBER" value="TS3A24159DGSR" x="43.3324" y="65.3288" size="1.778" layer="28" rot="MR180" display="off"/>
@@ -2563,24 +2588,26 @@ einem neuen Namen ab.</description>
 <attribute name="FCC" value="2ASEORFM95C" x="21.1074" y="7.6588" size="1.778" layer="27" rot="R270" display="off"/>
 <attribute name="MANUFACTURER" value="HopeRF" x="21.1074" y="7.6588" size="1.778" layer="27" rot="R270" display="off"/>
 <attribute name="MPN" value="RFM95CW" x="21.1074" y="7.6588" size="1.778" layer="27" rot="R270" display="off"/>
+<attribute name="NAME" x="38.4974" y="39.7888" size="0.6096" layer="51" rot="R270"/>
 <attribute name="PARTNO" value="RFM95W" x="29.9974" y="31.7888" size="1.778" layer="27" rot="R270" display="off"/>
 <attribute name="TYPE" value="Radio" x="29.9974" y="31.7888" size="1.778" layer="28" rot="R270"/>
 </element>
 <element name="U5" library="CommonSense-DTR-v1" package="DGS0010A_L" value="Value" x="16.5354" y="10.8204" smashed="yes">
 <attribute name="APPLICATION_BUILDNUMBER" value="*" x="53.3654" y="-17.1196" size="1.778" layer="27" display="off"/>
 <attribute name="COMPTYPE" value="IC" x="53.3654" y="-17.1196" size="1.778" layer="27" display="off"/>
-<attribute name="DESC" value="IC SWITCH SPDT DUAL 10VSSOP" x="16.5354" y="10.8204" size="1.778" layer="27"/>
-<attribute name="HEIGHT" value="1.1mm" x="16.5354" y="10.8204" size="1.778" layer="27"/>
+<attribute name="DESC" value="IC SWITCH SPDT DUAL 10VSSOP" x="16.5354" y="10.8204" size="0.4064" layer="27"/>
+<attribute name="HEIGHT" value="1.1mm" x="16.5354" y="10.8204" size="0.4064" layer="27"/>
 <attribute name="MANUFACTURER" value="Texas Instruments" x="53.3654" y="-17.1196" size="1.778" layer="27" display="off"/>
 <attribute name="MOUNTTYPE" value="SMT" x="53.3654" y="-17.1196" size="1.778" layer="27" display="off"/>
 <attribute name="MPN" value="TS3A24159DGSR" x="16.5354" y="10.8204" size="1.778" layer="27" display="off"/>
+<attribute name="NAME" x="15.7988" y="10.1854" size="0.4064" layer="51" ratio="6" rot="SR0"/>
 <attribute name="PACKAGEREFERENCE" value="DGS0010A" x="53.3654" y="-17.1196" size="1.778" layer="27" display="off"/>
 <attribute name="PARTNO" value="TS3A24159DGSR" x="16.5354" y="10.8204" size="1.778" layer="27" display="off"/>
 <attribute name="PARTNUMBER" value="TS3A24159DGSR" x="53.3654" y="-17.1196" size="1.778" layer="27" display="off"/>
 <attribute name="PIN_COUNT" value="10" x="53.3654" y="-17.1196" size="1.778" layer="27" display="off"/>
 <attribute name="REFDES" value="RefDes" x="53.3654" y="-17.1196" size="1.778" layer="27" display="off"/>
 <attribute name="ROHS" value="Y" x="53.3654" y="-17.1196" size="1.778" layer="27" display="off"/>
-<attribute name="SIZE" value="10-VSSOP" x="16.5354" y="10.8204" size="1.778" layer="27"/>
+<attribute name="SIZE" value="10-VSSOP" x="16.5354" y="10.8204" size="0.4064" layer="27"/>
 <attribute name="TYPE" value="SPDT Switch" x="53.3654" y="-17.1196" size="1.778" layer="27" display="off"/>
 </element>
 <element name="U6" library="CommonSense-DTR-v1" package="DGS0010A_L" value="Value" x="29.4894" y="21.463" smashed="yes" rot="MR180">
@@ -2591,6 +2618,7 @@ einem neuen Namen ab.</description>
 <attribute name="MANUFACTURER" value="Texas Instruments" x="80.2894" y="49.403" size="1.778" layer="28" rot="MR180" display="off"/>
 <attribute name="MOUNTTYPE" value="SMT" x="80.2894" y="49.403" size="1.778" layer="28" rot="MR180" display="off"/>
 <attribute name="MPN" value="TS3A24159DGSR" x="29.4894" y="21.463" size="1.778" layer="28" rot="MR180" display="off"/>
+<attribute name="NAME" x="29.337" y="21.5265" size="0.4064" layer="52" ratio="6" rot="SMR180"/>
 <attribute name="PACKAGEREFERENCE" value="DGS0010A" x="80.2894" y="49.403" size="1.778" layer="28" rot="MR180" display="off"/>
 <attribute name="PARTNO" value="TS3A24159DGSR" x="29.4894" y="21.463" size="1.778" layer="28" rot="MR180" display="off"/>
 <attribute name="PARTNUMBER" value="TS3A24159DGSR" x="80.2894" y="49.403" size="1.778" layer="28" rot="MR180" display="off"/>
@@ -2605,6 +2633,7 @@ einem neuen Namen ab.</description>
 <attribute name="HEIGHT" value="0.65mm" x="34.0868" y="24.1554" size="1.778" layer="28" rot="MR180"/>
 <attribute name="MANUFACTURER" value="Microchip Technology" x="56.9468" y="105.4354" size="1.778" layer="28" rot="MR180" display="off"/>
 <attribute name="MPN" value="MIC94164YCS-TR" x="56.9468" y="105.4354" size="1.778" layer="28" rot="MR180" display="off"/>
+<attribute name="NAME" x="34.2188" y="24.5148" size="0.4064" layer="52" rot="MR270"/>
 <attribute name="PARTNO" value="MIC94164YCS-TR" x="34.0868" y="24.1554" size="1.778" layer="28" rot="MR180" display="off"/>
 <attribute name="PART_NUMBER" value="MIC94164" x="56.9468" y="105.4354" size="1.778" layer="28" rot="MR180" display="off"/>
 <attribute name="QUENCH" value="YES" x="56.9468" y="105.4354" size="1.778" layer="28" rot="MR180" display="off"/>
@@ -2613,36 +2642,40 @@ einem neuen Namen ab.</description>
 <attribute name="TYPE" value="Power Switch" x="34.0868" y="24.1554" size="1.778" layer="28" rot="MR180"/>
 </element>
 <element name="U8" library="Switches" package="WLCSP6_2X3" value="LOADSWITCH-MIC94164" x="22.5679" y="12.065" smashed="yes" rot="R180">
-<attribute name="DESC" value="IC PWR SWITCH P-CHAN 1:1 6WLCSP" x="22.5679" y="12.065" size="1.778" layer="27" rot="R180"/>
-<attribute name="HEIGHT" value="0.65mm" x="22.5679" y="12.065" size="1.778" layer="27" rot="R180"/>
+<attribute name="DESC" value="IC PWR SWITCH P-CHAN 1:1 6WLCSP" x="22.5679" y="12.065" size="0.4064" layer="27" rot="R180"/>
+<attribute name="HEIGHT" value="0.65mm" x="22.5679" y="12.065" size="0.4064" layer="27" rot="R180"/>
 <attribute name="MANUFACTURER" value="Microchip Technology" x="-4.1021" y="93.345" size="1.778" layer="27" rot="R180" display="off"/>
 <attribute name="MPN" value="MIC94164YCS-TR" x="-4.1021" y="93.345" size="1.778" layer="27" rot="R180" display="off"/>
+<attribute name="NAME" x="22.3216" y="12.5133" size="0.6" layer="51" rot="R270"/>
 <attribute name="PARTNO" value="MIC94164YCS-TR" x="22.5679" y="12.065" size="1.778" layer="27" rot="R180" display="off"/>
 <attribute name="PART_NUMBER" value="MIC94164" x="-4.1021" y="93.345" size="1.778" layer="27" rot="R180" display="off"/>
 <attribute name="QUENCH" value="YES" x="-4.1021" y="93.345" size="1.778" layer="27" rot="R180" display="off"/>
-<attribute name="SIZE" value="6-WLCSP (1x1.5)" x="22.5679" y="12.065" size="1.778" layer="27" rot="R180"/>
+<attribute name="SIZE" value="6-WLCSP (1x1.5)" x="22.5679" y="12.065" size="0.4064" layer="27" rot="R180"/>
 <attribute name="SOFTSTART" value="YES" x="-4.1021" y="93.345" size="1.778" layer="27" rot="R180" display="off"/>
-<attribute name="TYPE" value="Power Switch" x="22.5679" y="12.065" size="1.778" layer="27" rot="R180"/>
+<attribute name="TYPE" value="Power Switch" x="22.5679" y="12.065" size="0.4064" layer="27" rot="R180"/>
 </element>
 <element name="U9" library="Switches" package="WLCSP6_2X3" value="LOADSWITCH-MIC94164" x="10.541" y="9.398" smashed="yes">
-<attribute name="DESC" value="IC PWR SWITCH P-CHAN 1:1 6WLCSP" x="10.541" y="9.398" size="1.778" layer="27"/>
-<attribute name="HEIGHT" value="0.65mm" x="10.541" y="9.398" size="1.778" layer="27"/>
+<attribute name="DESC" value="IC PWR SWITCH P-CHAN 1:1 6WLCSP" x="10.541" y="9.398" size="0.4064" layer="27"/>
+<attribute name="HEIGHT" value="0.65mm" x="10.541" y="9.398" size="0.4064" layer="27"/>
 <attribute name="MANUFACTURER" value="Microchip Technology" x="41.021" y="-71.882" size="1.778" layer="27" display="off"/>
 <attribute name="MPN" value="MIC94164YCS-TR" x="41.021" y="-71.882" size="1.778" layer="27" display="off"/>
+<attribute name="NAME" x="10.7365" y="9.064" size="0.4064" layer="51" rot="R90"/>
 <attribute name="PARTNO" value="MIC94164YCS-TR" x="10.541" y="9.398" size="1.778" layer="27" display="off"/>
 <attribute name="PART_NUMBER" value="MIC94164" x="41.021" y="-71.882" size="1.778" layer="27" display="off"/>
 <attribute name="QUENCH" value="YES" x="41.021" y="-71.882" size="1.778" layer="27" display="off"/>
-<attribute name="SIZE" value="6-WLCSP (1x1.5)" x="10.541" y="9.398" size="1.778" layer="27"/>
+<attribute name="SIZE" value="6-WLCSP (1x1.5)" x="10.541" y="9.398" size="0.4064" layer="27"/>
 <attribute name="SOFTSTART" value="YES" x="41.021" y="-71.882" size="1.778" layer="27" display="off"/>
-<attribute name="TYPE" value="Power Switch" x="10.541" y="9.398" size="1.778" layer="27"/>
+<attribute name="TYPE" value="Power Switch" x="10.541" y="9.398" size="0.4064" layer="27"/>
 </element>
 <element name="X1" library="CommonSense-DTR-v1" package="ADAFRUIT2_XTAL3215" value="32.768kHz" x="14.4272" y="19.3548" smashed="yes" rot="MR90">
 <attribute name="BOM" value="EXCLUDE" x="14.4272" y="19.3548" size="1.778" layer="28" rot="MR90" display="off"/>
 <attribute name="DESC" value="" x="14.4272" y="19.3548" size="1.778" layer="27" rot="MR90"/>
+<attribute name="NAME" x="14.3354" y="19.2265" size="0.4064" layer="52" font="vector" rot="MR90"/>
 <attribute name="PARTNO" value="*" x="14.4272" y="19.3548" size="1.778" layer="28" rot="MR90" display="off"/>
 <attribute name="SIZE" value="" x="14.4272" y="19.3548" size="1.778" layer="27" rot="MR90"/>
 <attribute name="TOL" value="" x="14.4272" y="19.3548" size="1.778" layer="27" rot="MR90"/>
 <attribute name="TYPE" value="" x="14.4272" y="19.3548" size="1.778" layer="27" rot="MR90"/>
+<attribute name="VALUE" x="15.6272" y="16.7548" size="1.016" layer="28" font="vector" rot="MR90"/>
 <attribute name="VOLT" value="" x="14.4272" y="19.3548" size="1.778" layer="27" rot="MR90"/>
 </element>
 <element name="X2" library="CommonSense-DTR-v1" package="ADAFRUIT2_XTAL3215" value="32.768kHz" x="24.239784375" y="29.557415625" smashed="yes" rot="MR270">
@@ -2651,190 +2684,202 @@ einem neuen Namen ab.</description>
 <attribute name="LOAD_CAPACITY" value="6pF" x="24.239784375" y="29.557415625" size="1.778" layer="28" rot="MR270" display="off"/>
 <attribute name="MANUFACTURER" value="NDK" x="24.239784375" y="29.557415625" size="1.778" layer="28" rot="MR270" display="off"/>
 <attribute name="MPN" value="NX3215SA-32.768K-STD-MUA-14" x="24.239784375" y="29.557415625" size="1.778" layer="28" rot="MR270" display="off"/>
+<attribute name="NAME" x="24.382384375" y="29.901615625" size="0.4064" layer="52" font="vector" rot="MR270"/>
 <attribute name="PARTNO" value="NX3215SA-32.768K-STD-MUA-14" x="24.239784375" y="29.557415625" size="1.778" layer="28" rot="MR270" display="off"/>
 <attribute name="SIZE" value="0.126&quot; L x 0.059&quot; W (3.20mm x 1.50mm)" x="24.239784375" y="29.557415625" size="1.778" layer="28" rot="MR270"/>
 <attribute name="TOL" value="±20ppm" x="24.239784375" y="29.557415625" size="1.778" layer="28" rot="MR270" display="off"/>
 <attribute name="TYPE" value="Crystal" x="24.239784375" y="29.557415625" size="1.778" layer="28" rot="MR270"/>
+<attribute name="VALUE" x="23.039784375" y="32.157415625" size="1.016" layer="28" font="vector" rot="MR270"/>
 </element>
 <element name="X4" library="Connectors" package="U.FL" value="uFL" x="36.5506" y="20.32" smashed="yes" rot="MR0">
 <attribute name="DESC" value="CONN U.FL RCPT STR 50 OHM SMD" x="36.5506" y="20.32" size="1.778" layer="28" rot="MR0"/>
 <attribute name="HEIGHT" value="1.25mm" x="36.5506" y="20.32" size="1.778" layer="28" rot="MR0"/>
 <attribute name="MEANUFACTURER" value="Hirose" x="36.5506" y="20.32" size="1.778" layer="28" rot="MR0"/>
 <attribute name="MPN" value="U.FL-R-SMT-1(01)" x="36.5506" y="20.32" size="1.778" layer="28" rot="MR0" display="off"/>
+<attribute name="NAME" x="37.4904" y="22.8346" size="0.4064" layer="52" rot="MR0"/>
 <attribute name="PARTNO" value="U.FL-R-SMT-1(01)" x="36.5506" y="20.32" size="1.778" layer="28" rot="MR0" display="off"/>
 <attribute name="SIZE" value="3.1 x 3mm" x="36.5506" y="20.32" size="1.778" layer="28" rot="MR0"/>
 <attribute name="TYPE" value="Connector" x="36.5506" y="20.32" size="1.778" layer="28" rot="MR0"/>
 </element>
 <element name="A1" library="CommonSense-DTR-v1" package="ILA_09_CHIP_ANTENNA" value="ILA09_CHIP_ANTENNA" x="36.2935" y="12.0075" smashed="yes" rot="R270">
-<attribute name="DESC" value="RF ANT 915MHZ CHIP SOLDER SMD" x="36.2935" y="12.0075" size="1.778" layer="27" rot="R270"/>
-<attribute name="MANUFACTURER" value="Taoglas" x="36.2935" y="12.0075" size="1.778" layer="27" rot="R270"/>
+<attribute name="DESC" value="RF ANT 915MHZ CHIP SOLDER SMD" x="36.2935" y="12.0075" size="0.4064" layer="27" rot="R270"/>
+<attribute name="MANUFACTURER" value="Taoglas" x="36.2935" y="12.0075" size="0.4064" layer="27" rot="R270"/>
 <attribute name="MPN" value="ILA.09" x="36.2935" y="12.0075" size="1.778" layer="27" rot="R270" display="off"/>
-<attribute name="NAME" x="34.6935" y="7.8225" size="0.762" layer="48" font="vector" ratio="6"/>
+<attribute name="NAME" x="34.6935" y="8.4575" size="0.4064" layer="51"/>
 <attribute name="PARTNO" value="ILA.09" x="36.2935" y="12.0075" size="1.778" layer="27" rot="R270" display="off"/>
-<attribute name="TYPE" value="Chip Antenna" x="36.2935" y="12.0075" size="1.778" layer="27" rot="R270"/>
-<attribute name="Z-HEIGHT" value="0.5mm" x="36.2935" y="12.0075" size="1.778" layer="27" rot="R270"/>
+<attribute name="TYPE" value="Chip Antenna" x="36.2935" y="12.0075" size="0.4064" layer="27" rot="R270"/>
+<attribute name="Z-HEIGHT" value="0.5mm" x="36.2935" y="12.0075" size="0.4064" layer="27" rot="R270"/>
 </element>
 <element name="C3" library="CommonSense-DTR-v1" package="C0402-S" value="3.9p" x="37.4619" y="6.1024" smashed="yes" rot="R90">
-<attribute name="DESC" value="CAP CER 3.9PF 50V C0G/NP0 0402" x="37.4619" y="6.1024" size="1.778" layer="27" rot="R90"/>
+<attribute name="DESC" value="CAP CER 3.9PF 50V C0G/NP0 0402" x="37.4619" y="6.1024" size="0.4064" layer="27" rot="R90"/>
 <attribute name="MANUFACTURER" value="Murata" x="37.4619" y="6.1024" size="1.778" layer="27" rot="R90" display="off"/>
 <attribute name="MPN" value="GJM1555C1H3R9WB01D" x="37.4619" y="6.1024" size="1.778" layer="27" rot="R90" display="off"/>
+<attribute name="NAME" x="37.6032" y="5.4356" size="0.3048" layer="51" rot="R90"/>
 <attribute name="NAME" x="37.6032" y="5.4356" size="0.3048" layer="255" rot="R90"/>
-<attribute name="NAME" x="35.6474" y="5.2832" size="0.762" layer="48" font="vector" ratio="6"/>
 <attribute name="PARTNO" value="GJM1555C1H3R9WB01D" x="37.4619" y="6.1024" size="1.778" layer="27" rot="R90" display="off"/>
-<attribute name="SIZE" value="0402" x="37.4619" y="6.1024" size="1.778" layer="27" rot="R90"/>
+<attribute name="SIZE" value="0402" x="37.4619" y="6.1024" size="0.4064" layer="27" rot="R90"/>
 <attribute name="TC" value="C0G, NP0" x="37.4619" y="6.1024" size="1.778" layer="27" rot="R90" display="off"/>
 <attribute name="TOL" value="0.05pF" x="37.4619" y="6.1024" size="1.778" layer="27" rot="R90" display="off"/>
-<attribute name="TYPE" value="Capacitor" x="37.4619" y="6.1024" size="1.778" layer="27" rot="R90"/>
-<attribute name="VOLT" value="50V" x="37.4619" y="6.1024" size="1.778" layer="27" rot="R90"/>
+<attribute name="TYPE" value="Capacitor" x="37.4619" y="6.1024" size="0.4064" layer="27" rot="R90"/>
+<attribute name="VOLT" value="50V" x="37.4619" y="6.1024" size="0.4064" layer="27" rot="R90"/>
 <attribute name="VOLTAGE" value="50V" x="37.4619" y="6.1024" size="1.778" layer="27" rot="R90" display="off"/>
-<attribute name="Z-HEIGHT" value="0.55mm" x="37.4619" y="6.1024" size="1.778" layer="27" rot="R90"/>
+<attribute name="Z-HEIGHT" value="0.55mm" x="37.4619" y="6.1024" size="0.4064" layer="27" rot="R90"/>
 </element>
 <element name="C5" library="CommonSense-DTR-v1" package="C0402-S" value="2.2p" x="33.3959" y="7.4984" smashed="yes" rot="R270">
-<attribute name="DESC" value="CAP CER 2.2PF 50V C0G/NP0 0402" x="33.3959" y="7.4984" size="1.778" layer="27" rot="R270"/>
-<attribute name="HEIGHT" value="0.55mm" x="33.3959" y="7.4984" size="1.778" layer="27" rot="R270"/>
+<attribute name="DESC" value="CAP CER 2.2PF 50V C0G/NP0 0402" x="33.3959" y="7.4984" size="0.4064" layer="27" rot="R270"/>
+<attribute name="HEIGHT" value="0.55mm" x="33.3959" y="7.4984" size="0.4064" layer="27" rot="R270"/>
 <attribute name="MANUFACTURER" value="Murata" x="33.3959" y="7.4984" size="1.778" layer="27" rot="R270" display="off"/>
 <attribute name="MPN" value="GJM1555C1H2R2WB01D" x="33.3959" y="7.4984" size="1.778" layer="27" rot="R270" display="off"/>
-<attribute name="NAME" x="31.8576" y="7.1492" size="0.762" layer="48" font="vector" ratio="6"/>
+<attribute name="NAME" x="33.2546" y="8.1652" size="0.3048" layer="51" rot="R270"/>
 <attribute name="NAME" x="33.2546" y="8.1652" size="0.3048" layer="255" rot="R270"/>
 <attribute name="PARTNO" value="GJM1555C1H2R2WB01D" x="33.3959" y="7.4984" size="1.778" layer="27" rot="R270" display="off"/>
-<attribute name="SIZE" value="0402" x="33.3959" y="7.4984" size="1.778" layer="27" rot="R270"/>
+<attribute name="SIZE" value="0402" x="33.3959" y="7.4984" size="0.4064" layer="27" rot="R270"/>
 <attribute name="TC" value="C0G, NP0" x="33.3959" y="7.4984" size="1.778" layer="27" rot="R270" display="off"/>
 <attribute name="TOL" value="0.05pF" x="33.3959" y="7.4984" size="1.778" layer="27" rot="R270" display="off"/>
-<attribute name="TYPE" value="Capacitor" x="33.3959" y="7.4984" size="1.778" layer="27" rot="R270"/>
-<attribute name="VOLT" value="50V" x="33.3959" y="7.4984" size="1.778" layer="27" rot="R270"/>
+<attribute name="TYPE" value="Capacitor" x="33.3959" y="7.4984" size="0.4064" layer="27" rot="R270"/>
+<attribute name="VOLT" value="50V" x="33.3959" y="7.4984" size="0.4064" layer="27" rot="R270"/>
 <attribute name="VOLTAGE" value="50V" x="33.3959" y="7.4984" size="1.778" layer="27" rot="R270" display="off"/>
 </element>
 <element name="SW1" library="CommonSense-DTR-v1" package="KMR2" package3d_urn="urn:adsk.eagle:package:6240885/1" value="SPST_TACT-KMR2" x="16.3576" y="18.6055" smashed="yes" rot="R90">
-<attribute name="DESC" value="SWITCH TACTILE SPST-NO 0.05A 32V" x="16.3576" y="18.6055" size="1.778" layer="27" rot="R90"/>
-<attribute name="HEIGHT" value="1.9mm" x="16.3576" y="18.6055" size="1.778" layer="27" rot="R90"/>
-<attribute name="MANUFACTURER" value="C&amp;K" x="16.3576" y="18.6055" size="1.778" layer="27" rot="R90"/>
+<attribute name="DESC" value="SWITCH TACTILE SPST-NO 0.05A 32V" x="16.3576" y="18.6055" size="0.4064" layer="27" rot="R90"/>
+<attribute name="HEIGHT" value="1.9mm" x="16.3576" y="18.6055" size="0.4064" layer="27" rot="R90"/>
+<attribute name="MANUFACTURER" value="C&amp;K" x="16.3576" y="18.6055" size="0.4064" layer="27" rot="R90"/>
 <attribute name="MPN" value="KMR241NG ULC LFS" x="16.3576" y="18.6055" size="1.778" layer="27" rot="R90" display="off"/>
 <attribute name="PARTNO" value="KMR241NG ULC LFS" x="16.3576" y="18.6055" size="1.778" layer="27" rot="R90" display="off"/>
-<attribute name="SIZE" value="4.60mm x 2.80mm" x="16.3576" y="18.6055" size="1.778" layer="27" rot="R90"/>
-<attribute name="TYPE" value="Switch" x="16.3576" y="18.6055" size="1.778" layer="27" rot="R90"/>
+<attribute name="SIZE" value="4.60mm x 2.80mm" x="16.3576" y="18.6055" size="0.4064" layer="27" rot="R90"/>
+<attribute name="TYPE" value="Switch" x="16.3576" y="18.6055" size="0.4064" layer="27" rot="R90"/>
 </element>
 <element name="SW2" library="CommonSense-DTR-v1" package="KMR2" package3d_urn="urn:adsk.eagle:package:6240885/1" value="SPST_TACT-KMR2" x="13.335" y="27.4828" smashed="yes" rot="R90">
-<attribute name="DESC" value="SWITCH TACTILE SPST-NO 0.05A 32V" x="13.335" y="27.4828" size="1.778" layer="27" rot="R90"/>
-<attribute name="HEIGHT" value="1.9mm" x="13.335" y="27.4828" size="1.778" layer="27" rot="R90"/>
-<attribute name="MANUFACTURER" value="C&amp;K" x="13.335" y="27.4828" size="1.778" layer="27" rot="R90"/>
+<attribute name="DESC" value="SWITCH TACTILE SPST-NO 0.05A 32V" x="13.335" y="27.4828" size="0.4064" layer="27" rot="R90"/>
+<attribute name="HEIGHT" value="1.9mm" x="13.335" y="27.4828" size="0.4064" layer="27" rot="R90"/>
+<attribute name="MANUFACTURER" value="C&amp;K" x="13.335" y="27.4828" size="0.4064" layer="27" rot="R90"/>
 <attribute name="MPN" value="KMR241NG ULC LFS" x="13.335" y="27.4828" size="1.778" layer="27" rot="R90" display="off"/>
 <attribute name="PARTNO" value="KMR241NG ULC LFS" x="13.335" y="27.4828" size="1.778" layer="27" rot="R90" display="off"/>
-<attribute name="SIZE" value="4.60mm x 2.80mm" x="13.335" y="27.4828" size="1.778" layer="27" rot="R90"/>
-<attribute name="TYPE" value="Switch" x="13.335" y="27.4828" size="1.778" layer="27" rot="R90"/>
+<attribute name="SIZE" value="4.60mm x 2.80mm" x="13.335" y="27.4828" size="0.4064" layer="27" rot="R90"/>
+<attribute name="TYPE" value="Switch" x="13.335" y="27.4828" size="0.4064" layer="27" rot="R90"/>
 </element>
 <element name="X3" library="Connectors" package="U.FL" value="uFL" x="8.1153" y="45.6311" smashed="yes" rot="R270">
-<attribute name="DESC" value="CONN U.FL RCPT STR 50 OHM SMD" x="8.1153" y="45.6311" size="1.778" layer="27" rot="R270"/>
-<attribute name="HEIGHT" value="1.25mm" x="8.1153" y="45.6311" size="1.778" layer="27" rot="R270"/>
-<attribute name="MANUFACTURER" value="Hirose" x="8.1153" y="45.6311" size="1.778" layer="27" rot="R270"/>
+<attribute name="DESC" value="CONN U.FL RCPT STR 50 OHM SMD" x="8.1153" y="45.6311" size="0.4064" layer="27" rot="R270"/>
+<attribute name="HEIGHT" value="1.25mm" x="8.1153" y="45.6311" size="0.4064" layer="27" rot="R270"/>
+<attribute name="MANUFACTURER" value="Hirose" x="8.1153" y="45.6311" size="0.4064" layer="27" rot="R270"/>
 <attribute name="MPN" value="U.FL-R-SMT-1(01)" x="8.1153" y="45.6311" size="1.778" layer="27" rot="R270" display="off"/>
+<attribute name="NAME" x="7.4803" y="45.6311" size="0.6096" layer="51"/>
 <attribute name="PARTNO" value="U.FL-R-SMT-1(01)" x="8.1153" y="45.6311" size="1.778" layer="27" rot="R270" display="off"/>
-<attribute name="SIZE" value="3.1 x 3mm" x="8.1153" y="45.6311" size="1.778" layer="27" rot="R270"/>
-<attribute name="TYPE" value="Connector" x="8.1153" y="45.6311" size="1.778" layer="27" rot="R270"/>
+<attribute name="SIZE" value="3.1 x 3mm" x="8.1153" y="45.6311" size="0.4064" layer="27" rot="R270"/>
+<attribute name="TYPE" value="Connector" x="8.1153" y="45.6311" size="0.4064" layer="27" rot="R270"/>
 </element>
 <element name="X5" library="Connectors" package="U.FL" value="uFL" x="12.8143" y="45.6311" smashed="yes" rot="R270">
-<attribute name="DESC" value="CONN U.FL RCPT STR 50 OHM SMD" x="12.8143" y="45.6311" size="1.778" layer="27" rot="R270"/>
-<attribute name="HEIGHT" value="1.25mm" x="12.8143" y="45.6311" size="1.778" layer="27" rot="R270"/>
-<attribute name="MANUFACTURER" value="Hirose" x="12.8143" y="45.6311" size="1.778" layer="27" rot="R270"/>
+<attribute name="DESC" value="CONN U.FL RCPT STR 50 OHM SMD" x="12.8143" y="45.6311" size="0.4064" layer="27" rot="R270"/>
+<attribute name="HEIGHT" value="1.25mm" x="12.8143" y="45.6311" size="0.4064" layer="27" rot="R270"/>
+<attribute name="MANUFACTURER" value="Hirose" x="12.8143" y="45.6311" size="0.4064" layer="27" rot="R270"/>
 <attribute name="MPN" value="U.FL-R-SMT-1(01)" x="12.8143" y="45.6311" size="1.778" layer="27" rot="R270" display="off"/>
+<attribute name="NAME" x="12.1793" y="45.6311" size="0.6096" layer="51"/>
 <attribute name="PARTNO" value="U.FL-R-SMT-1(01)" x="12.8143" y="45.6311" size="1.778" layer="27" rot="R270" display="off"/>
-<attribute name="SIZE" value="3.1 x 3mm" x="12.8143" y="45.6311" size="1.778" layer="27" rot="R270"/>
-<attribute name="TYPE" value="Connector" x="12.8143" y="45.6311" size="1.778" layer="27" rot="R270"/>
+<attribute name="SIZE" value="3.1 x 3mm" x="12.8143" y="45.6311" size="0.4064" layer="27" rot="R270"/>
+<attribute name="TYPE" value="Connector" x="12.8143" y="45.6311" size="0.4064" layer="27" rot="R270"/>
 </element>
 <element name="X6" library="Connectors" package="U.FL" value="uFL" x="17.5133" y="45.6184" smashed="yes" rot="R270">
-<attribute name="DESC" value="CONN U.FL RCPT STR 50 OHM SMD" x="17.5133" y="45.6184" size="1.778" layer="27" rot="R270"/>
-<attribute name="HEIGHT" value="1.25mm" x="17.5133" y="45.6184" size="1.778" layer="27" rot="R270"/>
-<attribute name="MANUFACTURER" value="Hirose" x="17.5133" y="45.6184" size="1.778" layer="27" rot="R270"/>
+<attribute name="DESC" value="CONN U.FL RCPT STR 50 OHM SMD" x="17.5133" y="45.6184" size="0.4064" layer="27" rot="R270"/>
+<attribute name="HEIGHT" value="1.25mm" x="17.5133" y="45.6184" size="0.4064" layer="27" rot="R270"/>
+<attribute name="MANUFACTURER" value="Hirose" x="17.5133" y="45.6184" size="0.4064" layer="27" rot="R270"/>
 <attribute name="MPN" value="U.FL-R-SMT-1(01)" x="17.5133" y="45.6184" size="1.778" layer="27" rot="R270" display="off"/>
+<attribute name="NAME" x="16.8783" y="45.6184" size="0.6096" layer="51"/>
 <attribute name="PARTNO" value="U.FL-R-SMT-1(01)" x="17.5133" y="45.6184" size="1.778" layer="27" rot="R270" display="off"/>
-<attribute name="SIZE" value="3.1 x 3mm" x="17.5133" y="45.6184" size="1.778" layer="27" rot="R270"/>
-<attribute name="TYPE" value="Connector" x="17.5133" y="45.6184" size="1.778" layer="27" rot="R270"/>
+<attribute name="SIZE" value="3.1 x 3mm" x="17.5133" y="45.6184" size="0.4064" layer="27" rot="R270"/>
+<attribute name="TYPE" value="Connector" x="17.5133" y="45.6184" size="0.4064" layer="27" rot="R270"/>
 </element>
 <element name="R7" library="Resistors" package="R0402" value="50R" x="15.8115" y="43.4721" smashed="yes" rot="R180">
-<attribute name="DESC" value="RES SMD 50 OHM 0.1% 1/20W 0402" x="15.8115" y="43.4721" size="1.778" layer="27" rot="R180"/>
-<attribute name="HEIGHT" value="0.84mm" x="15.8115" y="43.4721" size="1.778" layer="27" rot="R180"/>
+<attribute name="DESC" value="RES SMD 50 OHM 0.1% 1/20W 0402" x="15.8115" y="43.4721" size="0.4064" layer="27" rot="R180"/>
+<attribute name="HEIGHT" value="0.84mm" x="15.8115" y="43.4721" size="0.4064" layer="27" rot="R180"/>
 <attribute name="MANUFACTURER" value="Vishay" x="15.8115" y="43.4721" size="1.778" layer="27" rot="R180" display="off"/>
-<attribute name="MPN" value="FC0402E50R0BST1" x="15.8115" y="43.4721" size="1.778" layer="27" rot="R180"/>
-<attribute name="NAME" x="16.3503" y="44.9483" size="0.762" layer="48" font="vector" ratio="6" rot="R180"/>
+<attribute name="MPN" value="FC0402E50R0BST1" x="15.8115" y="43.4721" size="0.4064" layer="27" rot="R180"/>
+<attribute name="NAME" x="16.4783" y="43.6134" size="0.3048" layer="51" rot="R180"/>
+<attribute name="NAME" x="16.4783" y="43.6134" size="0.3048" layer="51" rot="R180"/>
 <attribute name="PARTNO" value="FC0402E50R0BST1" x="15.8115" y="43.4721" size="1.778" layer="27" rot="R180" display="off"/>
-<attribute name="SIZE" value="0402" x="15.8115" y="43.4721" size="1.778" layer="27" rot="R180"/>
-<attribute name="TC" value="±25ppm/°C" x="15.8115" y="43.4721" size="1.778" layer="27" rot="R180"/>
+<attribute name="SIZE" value="0402" x="15.8115" y="43.4721" size="0.4064" layer="27" rot="R180"/>
+<attribute name="TC" value="±25ppm/°C" x="15.8115" y="43.4721" size="0.4064" layer="27" rot="R180"/>
 <attribute name="TOL" value="0.1%" x="15.8115" y="43.4721" size="1.778" layer="27" rot="R180" display="off"/>
-<attribute name="TYPE" value="Resistor" x="15.8115" y="43.4721" size="1.778" layer="27" rot="R180"/>
+<attribute name="TYPE" value="Resistor" x="15.8115" y="43.4721" size="0.4064" layer="27" rot="R180"/>
 <attribute name="Z-HEIGHT" value="0.84mm" x="15.8115" y="43.4721" size="1.778" layer="27" rot="R180" display="off"/>
 </element>
 <element name="C26" library="CommonSense-DTR-v1" package="C0402-S" value="22p" x="30.311134375" y="18.11900625" smashed="yes" rot="R340">
-<attribute name="DESC" value="CAP CER 22PF 50V C0G/NP0 0402" x="30.311134375" y="18.11900625" size="1.778" layer="27" rot="R340"/>
-<attribute name="HEIGHT" value="0.55mm" x="30.311134375" y="18.11900625" size="1.778" layer="27" rot="R340"/>
+<attribute name="BOM" value="EXCLUDE" x="30.311134375" y="18.11900625" size="1.778" layer="27" rot="R340" display="off"/>
+<attribute name="DESC" value="CAP CER 22PF 50V C0G/NP0 0402" x="30.311134375" y="18.11900625" size="0.4064" layer="27" rot="R340"/>
+<attribute name="HEIGHT" value="0.55mm" x="30.311134375" y="18.11900625" size="0.4064" layer="27" rot="R340"/>
 <attribute name="MANUFACTURER" value="Kemet" x="30.311134375" y="18.11900625" size="1.778" layer="27" rot="R340" display="off"/>
 <attribute name="MPN" value="CBR04C220F5GAC" x="30.311134375" y="18.11900625" size="1.778" layer="27" rot="R340" display="off"/>
-<attribute name="NAME" x="30.684484375" y="18.64365" size="0.762" layer="48" font="vector" ratio="6" rot="R70"/>
-<attribute name="NAME" x="29.636215625" y="18.2142875" size="0.3048" layer="255" rot="R340"/>
+<attribute name="NAME" x="29.63621875" y="18.214284375" size="0.3048" layer="255" rot="R340"/>
+<attribute name="NAME" x="29.63621875" y="18.214284375" size="0.3048" layer="51" rot="R340"/>
 <attribute name="PARTNO" value="CBR04C220F5GAC" x="30.311134375" y="18.11900625" size="1.778" layer="27" rot="R340" display="off"/>
-<attribute name="SIZE" value="0402" x="30.311134375" y="18.11900625" size="1.778" layer="27" rot="R340"/>
+<attribute name="SIZE" value="0402" x="30.311134375" y="18.11900625" size="0.4064" layer="27" rot="R340"/>
 <attribute name="TC" value="X7R" x="30.311134375" y="18.11900625" size="1.778" layer="27" rot="R340" display="off"/>
 <attribute name="TOL" value="1%" x="30.311134375" y="18.11900625" size="1.778" layer="27" rot="R340" display="off"/>
-<attribute name="TYPE" value="Capacitor" x="30.311134375" y="18.11900625" size="1.778" layer="27" rot="R340"/>
-<attribute name="VOLT" value="50V" x="30.311134375" y="18.11900625" size="1.778" layer="27" rot="R340"/>
+<attribute name="TYPE" value="Capacitor" x="30.311134375" y="18.11900625" size="0.4064" layer="27" rot="R340"/>
+<attribute name="VOLT" value="50V" x="30.311134375" y="18.11900625" size="0.4064" layer="27" rot="R340"/>
 <attribute name="VOLTAGE" value="50V" x="30.311134375" y="18.11900625" size="1.778" layer="27" rot="R340" display="off"/>
 </element>
 <element name="R27" library="CommonSense-DTR-v1" package="C0402-S" value="0R" x="31.80918125" y="18.104178125" smashed="yes" rot="R70">
-<attribute name="DESC" value="RES 0 OHM JUMPER 1/16W 0402" x="31.80918125" y="18.104178125" size="1.778" layer="27" rot="R70"/>
+<attribute name="BOM" value="EXCLUDE" x="31.80918125" y="18.104178125" size="1.778" layer="27" rot="R70" display="off"/>
+<attribute name="DESC" value="RES 0 OHM JUMPER 1/16W 0402" x="31.80918125" y="18.104178125" size="0.4064" layer="27" rot="R70"/>
 <attribute name="MANUFACTURER" value="Stackpole" x="31.80918125" y="18.104178125" size="1.778" layer="27" rot="R70" display="off"/>
 <attribute name="MPN" value="RMCF0402ZT0R00" x="31.80918125" y="18.104178125" size="1.778" layer="27" rot="R70" display="off"/>
-<attribute name="NAME" x="31.062353125" y="15.639146875" size="0.762" layer="48" font="vector" ratio="6" rot="R70"/>
-<attribute name="NAME" x="31.7139" y="17.429259375" size="0.3048" layer="255" rot="R70"/>
+<attribute name="NAME" x="31.7139" y="17.4292625" size="0.3048" layer="51" rot="R70"/>
+<attribute name="NAME" x="31.7139" y="17.4292625" size="0.3048" layer="255" rot="R70"/>
 <attribute name="PARTNO" value="RMCF0402ZT0R00" x="31.80918125" y="18.104178125" size="1.778" layer="27" rot="R70" display="off"/>
-<attribute name="SIZE" value="0402" x="31.80918125" y="18.104178125" size="1.778" layer="27" rot="R70"/>
+<attribute name="SIZE" value="0402" x="31.80918125" y="18.104178125" size="0.4064" layer="27" rot="R70"/>
 <attribute name="TC" value="X7R" x="31.80918125" y="18.104178125" size="1.778" layer="27" rot="R70" display="off"/>
 <attribute name="TOL" value="Jumper" x="31.80918125" y="18.104178125" size="1.778" layer="27" rot="R70" display="off"/>
-<attribute name="TYPE" value="Resistor" x="31.80918125" y="18.104178125" size="1.778" layer="27" rot="R70"/>
+<attribute name="TYPE" value="Resistor" x="31.80918125" y="18.104178125" size="0.4064" layer="27" rot="R70"/>
 <attribute name="VOLTAGE" value="6.3V" x="31.80918125" y="18.104178125" size="1.778" layer="27" rot="R70" display="off"/>
 </element>
 <element name="R28" library="CommonSense-DTR-v1" package="C0402-S" value="0R" x="34.491015625" y="17.110884375" smashed="yes" rot="R70">
-<attribute name="DESC" value="RES 0 OHM JUMPER 1/16W 0402" x="34.491015625" y="17.110884375" size="1.778" layer="27" rot="R70"/>
+<attribute name="BOM" value="EXCLUDE" x="34.491015625" y="17.110884375" size="1.778" layer="27" rot="R70" display="off"/>
+<attribute name="DESC" value="RES 0 OHM JUMPER 1/16W 0402" x="34.491015625" y="17.110884375" size="0.4064" layer="27" rot="R70"/>
 <attribute name="MANUFACTURER" value="Stackpole" x="34.491015625" y="17.110884375" size="1.778" layer="27" rot="R70" display="off"/>
 <attribute name="MPN" value="RMCF0402ZT0R00" x="34.491015625" y="17.110884375" size="1.778" layer="27" rot="R70" display="off"/>
-<attribute name="NAME" x="34.05228125" y="14.452628125" size="0.762" layer="48" font="vector" ratio="6" rot="R70"/>
+<attribute name="NAME" x="34.395734375" y="16.43596875" size="0.3048" layer="51" rot="R70"/>
 <attribute name="NAME" x="34.395734375" y="16.43596875" size="0.3048" layer="255" rot="R70"/>
 <attribute name="PARTNO" value="RMCF0402ZT0R00" x="34.491015625" y="17.110884375" size="1.778" layer="27" rot="R70" display="off"/>
-<attribute name="SIZE" value="0402" x="34.491015625" y="17.110884375" size="1.778" layer="27" rot="R70"/>
+<attribute name="SIZE" value="0402" x="34.491015625" y="17.110884375" size="0.4064" layer="27" rot="R70"/>
 <attribute name="TC" value="X7R" x="34.491015625" y="17.110884375" size="1.778" layer="27" rot="R70" display="off"/>
 <attribute name="TOL" value="Jumper" x="34.491015625" y="17.110884375" size="1.778" layer="27" rot="R70" display="off"/>
-<attribute name="TYPE" value="Resistor" x="34.491015625" y="17.110884375" size="1.778" layer="27" rot="R70"/>
+<attribute name="TYPE" value="Resistor" x="34.491015625" y="17.110884375" size="0.4064" layer="27" rot="R70"/>
 <attribute name="VOLTAGE" value="6.3V" x="34.491015625" y="17.110884375" size="1.778" layer="27" rot="R70" display="off"/>
 </element>
 <element name="R30" library="Inductors" package="L0402" value="0R" x="32.981071875" y="17.162259375" smashed="yes" rot="R340">
-<attribute name="DESC" value="RES 0 OHM JUMPER 1/16W 0402" x="32.981071875" y="17.162259375" size="1.778" layer="27" rot="R340"/>
-<attribute name="HEIGHT" value="0.45mm" x="32.981071875" y="17.162259375" size="1.778" layer="27" rot="R340"/>
-<attribute name="MANUFACTURER" value="Stackpole" x="32.981071875" y="17.162259375" size="1.778" layer="27" rot="R340"/>
-<attribute name="MPN" value="RMCF0402ZT0R00" x="32.981071875" y="17.162259375" size="1.778" layer="27" rot="R340" display="off"/>
-<attribute name="NAME" x="32.30615625" y="17.25754375" size="0.3048" layer="255" rot="R340"/>
-<attribute name="PARTNO" value="RMCF0402ZT0R00" x="32.981071875" y="17.162259375" size="1.778" layer="27" rot="R340" display="off"/>
-<attribute name="SIZE" value="0402" x="32.981071875" y="17.162259375" size="1.778" layer="27" rot="R340"/>
-<attribute name="TOL" value="Jumper" x="32.981071875" y="17.162259375" size="1.778" layer="27" rot="R340"/>
-<attribute name="TYPE" value="Resistor" x="32.981071875" y="17.162259375" size="1.778" layer="27" rot="R340"/>
+<attribute name="BOM" value="EXCLUDE" x="32.981071875" y="17.162259375" size="0.4064" layer="27" rot="R340" display="off"/>
+<attribute name="DESC" value="RES 0 OHM JUMPER 1/16W 0402" x="32.346071875" y="15.892259375" size="0.4064" layer="27" rot="R340"/>
+<attribute name="HEIGHT" value="0.45mm" x="32.346071875" y="16.527259375" size="0.4064" layer="27" rot="R340"/>
+<attribute name="MANUFACTURER" value="Stackpole" x="32.346071875" y="16.527259375" size="0.4064" layer="27" rot="R340"/>
+<attribute name="MPN" value="RMCF0402ZT0R00" x="32.981071875" y="17.162259375" size="0.4064" layer="27" rot="R340" display="off"/>
+<attribute name="NAME" x="32.30615625" y="17.2575375" size="0.4064" layer="255" rot="R340"/>
+<attribute name="PARTNO" value="RMCF0402ZT0R00" x="32.981071875" y="17.162259375" size="0.4064" layer="27" rot="R340" display="off"/>
+<attribute name="SIZE" value="0402" x="32.981071875" y="17.797259375" size="0.4064" layer="27" rot="R340"/>
+<attribute name="TOL" value="Jumper" x="32.346071875" y="15.892259375" size="0.4064" layer="27" rot="R340"/>
+<attribute name="TYPE" value="Resistor" x="32.346071875" y="16.527259375" size="0.4064" layer="27" rot="R340"/>
 </element>
 <element name="J4" library="CommonSense-DTR-v1" package="CUI_SJ-43514-SMT-TEMP" value="SJ-43514-SMTC" x="8.4328" y="35.8394" smashed="yes">
-<attribute name="DESC" value="CONN JACK 4COND 3.5MM SMD R/A" x="8.4328" y="35.8394" size="1.778" layer="27"/>
-<attribute name="HEIGHT" value="5mm" x="8.4328" y="35.8394" size="1.778" layer="27"/>
-<attribute name="MANUFACTURER" value="CUI Devices" x="8.4328" y="35.8394" size="1.778" layer="27"/>
+<attribute name="DESC" value="CONN JACK 4COND 3.5MM SMD R/A" x="8.4328" y="35.8394" size="0.4064" layer="27"/>
+<attribute name="HEIGHT" value="5mm" x="8.4328" y="35.8394" size="0.4064" layer="27"/>
+<attribute name="MANUFACTURER" value="CUI Devices" x="8.4328" y="35.8394" size="0.4064" layer="27"/>
 <attribute name="MPN" value="SJ-43514-SMT" x="8.4328" y="35.8394" size="1.778" layer="27" display="off"/>
-<attribute name="NAME" x="1.2822" y="31.45581875" size="0.762" layer="48" font="vector" ratio="6"/>
+<attribute name="NAME" x="0.6472" y="41.61581875" size="0.4064" layer="51"/>
 <attribute name="PARTNO" value="SJ-43514-SMT" x="8.4328" y="35.8394" size="1.778" layer="27" display="off"/>
 <attribute name="TYPE" value="Audio Jack" x="8.4328" y="35.8394" size="1.778" layer="27" display="off"/>
+<attribute name="VALUE" x="-0.85168125" y="28.80993125" size="0.4064" layer="27"/>
 <attribute name="Z-HEIGHT" value="5mm" x="8.4328" y="35.8394" size="1.778" layer="27" display="off"/>
 </element>
 <element name="U13" library="CommonSense-DTR-v1" package="KS_6_ADI-L" value="ADG839YKSZ-500RL7KS_6_ADI-L" x="12.5095" y="8.7122" smashed="yes" rot="MR270">
 <attribute name="BUILT_BY" value="EMA_UL_Team" x="12.5095" y="8.7122" size="1.778" layer="28" rot="MR270" display="off"/>
-<attribute name="DESC" value="IC SWITCH SPDT SC70-6" x="12.5095" y="8.7122" size="1.778" layer="27" rot="MR270"/>
-<attribute name="HEIGHT" value="0.9mm" x="12.5095" y="8.7122" size="1.778" layer="27" rot="MR270"/>
+<attribute name="DESC" value="IC SWITCH SPDT SC70-6" x="12.5095" y="8.7122" size="0.4064" layer="27" rot="MR270"/>
+<attribute name="HEIGHT" value="0.9mm" x="12.5095" y="8.7122" size="0.4064" layer="27" rot="MR270"/>
 <attribute name="MANUFACTURER_PART_NUMBER" value="ADG839YKSZ-500RL7" x="12.5095" y="8.7122" size="1.778" layer="28" rot="MR270" display="off"/>
 <attribute name="MPN" value="ADG839YKSZ-500RL7" x="12.5095" y="8.7122" size="1.778" layer="28" rot="MR270" display="off"/>
-<attribute name="NAME" x="14.0081" y="8.001" size="0.762" layer="48" font="vector" ratio="6" rot="SMR90"/>
+<attribute name="NAME" x="12.7889" y="9.2202" size="0.4064" layer="52" ratio="6" rot="SMR270"/>
 <attribute name="PARTNO" value="ADG839YKSZ-500RL7" x="12.5095" y="8.7122" size="1.778" layer="28" rot="MR270" display="off"/>
-<attribute name="SIZE" value="SC-70-6" x="12.5095" y="8.7122" size="1.778" layer="27" rot="MR270"/>
+<attribute name="SIZE" value="SC-70-6" x="12.5095" y="8.7122" size="0.4064" layer="27" rot="MR270"/>
 <attribute name="SOURCELIBRARY" value="Analog_2012-01-01_7" x="12.5095" y="8.7122" size="1.778" layer="28" rot="MR270" display="off"/>
-<attribute name="TYPE" value="SPDT Switch" x="12.5095" y="8.7122" size="1.778" layer="27" rot="MR270"/>
+<attribute name="TYPE" value="SPDT Switch" x="12.5095" y="8.7122" size="0.4064" layer="27" rot="MR270"/>
 <attribute name="VENDOR" value="Analog Devices Inc" x="12.5095" y="8.7122" size="1.778" layer="28" rot="MR270" display="off"/>
 </element>
 <element name="C29" library="Capacitors" package="C0402" value="1u" x="19.7866" y="40.4241" smashed="yes" rot="MR90">
@@ -2842,6 +2887,7 @@ einem neuen Namen ab.</description>
 <attribute name="HEIGHT" value="0.55mm" x="19.7866" y="40.4241" size="1.778" layer="28" rot="MR90"/>
 <attribute name="MANUFACTURER" value="Yageo" x="23.5966" y="37.2491" size="1.778" layer="28" rot="MR90" display="off"/>
 <attribute name="MPN" value="CC0402KRX5R5BB105" x="23.5966" y="37.2491" size="1.778" layer="28" rot="MR90" display="off"/>
+<attribute name="NAME" x="19.6453" y="39.7573" size="0.4064" layer="52" rot="MR90"/>
 <attribute name="NAME" x="19.6453" y="39.7573" size="0.3048" layer="255" rot="MR90"/>
 <attribute name="PARTNO" value="CC0402KRX5R5BB105" x="19.7866" y="40.4241" size="1.778" layer="28" rot="MR90" display="off"/>
 <attribute name="SIZE" value="0402" x="19.7866" y="40.4241" size="1.778" layer="28" rot="MR90"/>
@@ -2857,6 +2903,7 @@ einem neuen Namen ab.</description>
 <attribute name="HEIGHT" value="0.55mm" x="17.4879" y="40.4114" size="1.778" layer="28" rot="MR90"/>
 <attribute name="MANUFACTURER" value="Yageo" x="22.5679" y="40.4114" size="1.778" layer="28" rot="MR90" display="off"/>
 <attribute name="MPN" value="CC0402KRX7R6BB104" x="22.5679" y="40.4114" size="1.778" layer="28" rot="MR90" display="off"/>
+<attribute name="NAME" x="17.3466" y="39.7446" size="0.4064" layer="52" rot="MR90"/>
 <attribute name="NAME" x="17.3466" y="39.7446" size="0.3048" layer="255" rot="MR90"/>
 <attribute name="PARTNO" value="CC0402KRX7R6BB104" x="17.4879" y="40.4114" size="1.778" layer="28" rot="MR90" display="off"/>
 <attribute name="SIZE" value="0402" x="17.4879" y="40.4114" size="1.778" layer="28" rot="MR90"/>
@@ -2872,6 +2919,7 @@ einem neuen Namen ab.</description>
 <attribute name="HEIGHT" value="0.65mm" x="18.6309" y="40.3606" size="1.778" layer="28" rot="MR180"/>
 <attribute name="MANUFACTURER" value="Microchip Technology" x="14.8209" y="37.8206" size="1.778" layer="28" rot="MR180" display="off"/>
 <attribute name="MPN" value="MIC94164YCS-TR" x="14.8209" y="37.8206" size="1.778" layer="28" rot="MR180" display="off"/>
+<attribute name="NAME" x="18.6359" y="40.8216" size="0.4064" layer="52" rot="MR270"/>
 <attribute name="PARTNO" value="MIC94164YCS-TR" x="18.6309" y="40.3606" size="1.778" layer="28" rot="MR180" display="off"/>
 <attribute name="PART_NUMBER" value="MIC94164" x="14.8209" y="37.8206" size="1.778" layer="28" rot="MR180" display="off"/>
 <attribute name="QUENCH" value="YES" x="14.8209" y="37.8206" size="1.778" layer="28" rot="MR180" display="off"/>
@@ -2881,7 +2929,7 @@ einem neuen Namen ab.</description>
 </element>
 <element name="JP15" library="Connectors" package="SMT-JUMPER_2_NC_PASTE_NO-SILK" package3d_urn="urn:adsk.eagle:package:39283/1" value="JUMPER-SMT_2_NC_PASTELG_NO-SILK" x="15.6845" y="40.5257" smashed="yes" rot="R180">
 <attribute name="BOM" value="EXCLUDE" x="18.8595" y="44.3357" size="1.778" layer="27" rot="R180" display="off"/>
-<attribute name="NAME" x="15.6845" y="42.1005" size="0.762" layer="25" font="vector" ratio="20" rot="R180" align="bottom-center"/>
+<attribute name="NAME" x="15.6845" y="40.3987" size="0.4064" layer="51" font="vector" rot="R180" align="bottom-center"/>
 </element>
 <element name="U16" library="CommonSense-DTR-v1" package="SC-82AB_ONS-L" value="NCP553SQ18T1GSC-82AB_ONS-L" x="10.414" y="42.1386" smashed="yes" rot="R90">
 <attribute name="BUILT_BY" value="EMA_Jessica" x="10.414" y="42.1386" size="1.778" layer="27" rot="R90" display="off"/>
@@ -2891,7 +2939,7 @@ einem neuen Namen ab.</description>
 <attribute name="MANUFACTURER" value="ON Semiconductor" x="10.414" y="42.1386" size="1.778" layer="28" rot="R90"/>
 <attribute name="MANUFACTURER_PART_NUMBER" value="NCP553SQ18T1G" x="10.414" y="42.1386" size="1.778" layer="27" rot="R90" display="off"/>
 <attribute name="MPN" value="NCP553SQ18T1G" x="10.414" y="42.1386" size="1.778" layer="27" rot="R90" display="off"/>
-<attribute name="NAME" x="11.176" y="42.2656" size="0.762" layer="48" font="vector" ratio="6" rot="SR180"/>
+<attribute name="NAME" x="9.779" y="42.037" size="0.4064" layer="51" ratio="6" rot="SR0"/>
 <attribute name="PARTNO" value="NCP553SQ18T1G" x="10.414" y="42.1386" size="1.778" layer="27" rot="R90" display="off"/>
 <attribute name="SIZE" value="SC-82AB" x="10.414" y="42.1386" size="1.778" layer="28" rot="R90"/>
 <attribute name="SOURCELIBRARY" value="ON_Semiconductor_2018-03-21" x="10.414" y="42.1386" size="1.778" layer="27" rot="R90" display="off"/>
@@ -2903,8 +2951,8 @@ einem neuen Namen ab.</description>
 <attribute name="HEIGHT" value="0.55mm" x="12.8397" y="42.1894" size="1.778" layer="28" rot="R270"/>
 <attribute name="MANUFACTURER" value="TDK" x="12.8397" y="42.1894" size="1.778" layer="27" rot="R270" display="off"/>
 <attribute name="MPN" value="C1005X7S1A105K050BC" x="12.8397" y="42.1894" size="1.778" layer="27" rot="R270" display="off"/>
+<attribute name="NAME" x="12.6984" y="42.8562" size="0.3048" layer="51" rot="R270"/>
 <attribute name="NAME" x="12.6984" y="42.8562" size="0.3048" layer="255" rot="R270"/>
-<attribute name="NAME" x="14.1208" y="41.3322" size="0.762" layer="48" font="vector" ratio="6" rot="R90"/>
 <attribute name="PARTNO" value="C1005X7S1A105K050BC" x="12.8397" y="42.1894" size="1.778" layer="27" rot="R270" display="off"/>
 <attribute name="SIZE" value="0402" x="12.8397" y="42.1894" size="1.778" layer="28" rot="R270"/>
 <attribute name="TC" value="X7S" x="12.8397" y="42.1894" size="1.778" layer="27" rot="R270" display="off"/>
@@ -2915,21 +2963,7 @@ einem neuen Namen ab.</description>
 </element>
 <element name="JP4" library="Connectors" package="SMT-JUMPER_2_NC_PASTE_NO-SILK" package3d_urn="urn:adsk.eagle:package:39283/1" value="JUMPER-SMT_2_NC_PASTELG_NO-SILK" x="26.1241" y="15.0936" smashed="yes" rot="R90">
 <attribute name="BOM" value="EXCLUDE" x="26.1241" y="15.0936" size="1.778" layer="27" rot="R90" display="off"/>
-<attribute name="NAME" x="26.0479" y="16.7954" size="0.762" layer="25" font="vector" ratio="20" rot="R180" align="bottom-center"/>
-</element>
-<element name="C40" library="Capacitors" package="C0603" value="10u" x="25.8318" y="8.3693" smashed="yes" rot="R180">
-<attribute name="DESC" value="CAP CER 10UF 6.3V X5R 0603 " x="25.8318" y="8.3693" size="1.778" layer="28" rot="R180"/>
-<attribute name="HEIGHT" value="0.9mm" x="25.8318" y="8.3693" size="1.778" layer="28" rot="R180"/>
-<attribute name="MANUFACTURER" value="Murata" x="25.8318" y="8.3693" size="1.778" layer="27" rot="R180" display="off"/>
-<attribute name="MPN" value="GRM188R60J106KE47D" x="25.8318" y="8.3693" size="1.778" layer="27" rot="R180" display="off"/>
-<attribute name="NAME" x="27.0818" y="7.6103" size="0.6096" layer="48" font="vector" rot="R180"/>
-<attribute name="PARTNO" value="GRM188R60J106KE47D" x="25.8318" y="8.3693" size="1.778" layer="27" rot="R180" display="off"/>
-<attribute name="SIZE" value="0603" x="25.8318" y="8.3693" size="1.778" layer="28" rot="R180"/>
-<attribute name="TC" value="X5R" x="25.8318" y="8.3693" size="1.778" layer="27" rot="R180" display="off"/>
-<attribute name="TOL" value="10%" x="25.8318" y="8.3693" size="1.778" layer="27" rot="R180" display="off"/>
-<attribute name="TYPE" value="Capacitor" x="25.8318" y="8.3693" size="1.778" layer="28" rot="R180"/>
-<attribute name="VOLT" value="6.3V" x="25.8318" y="8.3693" size="1.778" layer="28" rot="R180"/>
-<attribute name="VOLTAGE" value="6.3V" x="25.8318" y="8.3693" size="1.778" layer="27" rot="R180" display="off"/>
+<attribute name="NAME" x="26.2003" y="15.0936" size="0.4064" layer="51" font="vector" rot="R90" align="bottom-center"/>
 </element>
 <element name="C43" library="Capacitors" package="C0402" value="0.1u" x="18.9484" y="35.2298" smashed="yes" rot="MR180">
 <attribute name="DESC" value="CAP CER 0.1UF 10V X7R 0402" x="18.9484" y="35.2298" size="1.778" layer="28" rot="MR180"/>
@@ -2937,8 +2971,8 @@ einem neuen Namen ab.</description>
 <attribute name="HEIGHT" value="0.55mm" x="18.9484" y="35.2298" size="1.778" layer="28" rot="MR180"/>
 <attribute name="MANUFACTURER" value="Yageo" x="18.9484" y="35.2298" size="1.778" layer="28" rot="MR180" display="off"/>
 <attribute name="MPN" value="CC0402KRX7R6BB104" x="18.9484" y="35.2298" size="1.778" layer="28" rot="MR180" display="off"/>
+<attribute name="NAME" x="18.2816" y="35.3711" size="0.4064" layer="52" rot="MR180"/>
 <attribute name="NAME" x="18.2816" y="35.3711" size="0.3048" layer="255" rot="MR180"/>
-<attribute name="NAME" x="18.2816" y="35.3711" size="0.3048" layer="48" rot="MR180"/>
 <attribute name="PARTNO" value="CC0402KRX7R6BB104" x="18.9484" y="35.2298" size="1.778" layer="28" rot="MR180" display="off"/>
 <attribute name="SIZE" value="0402" x="18.9484" y="35.2298" size="1.778" layer="28" rot="MR180"/>
 <attribute name="TC" value="X7R" x="18.9484" y="35.2298" size="1.778" layer="28" rot="MR180" display="off"/>
@@ -2949,19 +2983,19 @@ einem neuen Namen ab.</description>
 <attribute name="Z-HEIGHT" value="0.55mm" x="18.9484" y="35.2298" size="1.778" layer="28" rot="MR180" display="off"/>
 </element>
 <element name="C44" library="Capacitors" package="C0402" value="0.1u" x="14.9352" y="13.6271" smashed="yes" rot="R90">
-<attribute name="DESC" value="CAP CER 0.1UF 10V X7R 0402" x="14.9352" y="13.6271" size="1.778" layer="27" rot="R90"/>
+<attribute name="DESC" value="CAP CER 0.1UF 10V X7R 0402" x="14.9352" y="13.6271" size="0.4064" layer="27" rot="R90"/>
 <attribute name="DESCRIPTION" value="0.1µF ±10% 10V Ceramic Capacitor X7R 0402 (1005 Metric)" x="14.9352" y="13.6271" size="1.778" layer="27" rot="R90" display="off"/>
-<attribute name="HEIGHT" value="0.55mm" x="14.9352" y="13.6271" size="1.778" layer="27" rot="R90"/>
+<attribute name="HEIGHT" value="0.55mm" x="14.9352" y="13.6271" size="0.4064" layer="27" rot="R90"/>
 <attribute name="MANUFACTURER" value="Yageo" x="14.9352" y="13.6271" size="1.778" layer="27" rot="R90" display="off"/>
 <attribute name="MPN" value="CC0402KRX7R6BB104" x="14.9352" y="13.6271" size="1.778" layer="27" rot="R90" display="off"/>
+<attribute name="NAME" x="15.0765" y="12.9603" size="0.3048" layer="51" rot="R90"/>
 <attribute name="NAME" x="15.0765" y="12.9603" size="0.3048" layer="255" rot="R90"/>
-<attribute name="NAME" x="15.0765" y="12.9603" size="0.3048" layer="48" rot="R90"/>
 <attribute name="PARTNO" value="CC0402KRX7R6BB104" x="14.9352" y="13.6271" size="1.778" layer="27" rot="R90" display="off"/>
-<attribute name="SIZE" value="0402" x="14.9352" y="13.6271" size="1.778" layer="27" rot="R90"/>
+<attribute name="SIZE" value="0402" x="14.9352" y="13.6271" size="0.4064" layer="27" rot="R90"/>
 <attribute name="TC" value="X7R" x="14.9352" y="13.6271" size="1.778" layer="27" rot="R90" display="off"/>
 <attribute name="TOL" value="10%" x="14.9352" y="13.6271" size="1.778" layer="27" rot="R90" display="off"/>
-<attribute name="TYPE" value="Capacitor" x="14.9352" y="13.6271" size="1.778" layer="27" rot="R90"/>
-<attribute name="VOLT" value="10V" x="14.9352" y="13.6271" size="1.778" layer="27" rot="R90"/>
+<attribute name="TYPE" value="Capacitor" x="14.9352" y="13.6271" size="0.4064" layer="27" rot="R90"/>
+<attribute name="VOLT" value="10V" x="14.9352" y="13.6271" size="0.4064" layer="27" rot="R90"/>
 <attribute name="VOLTAGE" value="6.3V" x="14.9352" y="13.6271" size="1.778" layer="27" rot="R90" display="off"/>
 <attribute name="Z-HEIGHT" value="0.55mm" x="14.9352" y="13.6271" size="1.778" layer="27" rot="R90" display="off"/>
 </element>
@@ -2971,8 +3005,8 @@ einem neuen Namen ab.</description>
 <attribute name="HEIGHT" value="0.55mm" x="27.9781" y="19.5961" size="1.778" layer="28" rot="MR180"/>
 <attribute name="MANUFACTURER" value="Yageo" x="27.9781" y="19.5961" size="1.778" layer="28" rot="MR180" display="off"/>
 <attribute name="MPN" value="CC0402KRX7R6BB104" x="27.9781" y="19.5961" size="1.778" layer="28" rot="MR180" display="off"/>
+<attribute name="NAME" x="27.3113" y="19.7374" size="0.4064" layer="52" rot="MR180"/>
 <attribute name="NAME" x="27.3113" y="19.7374" size="0.3048" layer="255" rot="MR180"/>
-<attribute name="NAME" x="27.3113" y="19.7374" size="0.3048" layer="48" rot="MR180"/>
 <attribute name="PARTNO" value="CC0402KRX7R6BB104" x="27.9781" y="19.5961" size="1.778" layer="28" rot="MR180" display="off"/>
 <attribute name="SIZE" value="0402" x="27.9781" y="19.5961" size="1.778" layer="28" rot="MR180"/>
 <attribute name="TC" value="X7R" x="27.9781" y="19.5961" size="1.778" layer="28" rot="MR180" display="off"/>
@@ -2985,7 +3019,7 @@ einem neuen Namen ab.</description>
 <element name="J1" library="Connectors" package="HRS_DF40C-50DP-0.4V(51)" value="HIROSE-DF40_50-PIN_CONNECTORS-HEADER" x="20.955" y="7.62" smashed="yes" rot="MR180">
 <attribute name="MANUFACTURER" value="Hirose" x="20.955" y="7.62" size="1.778" layer="28" rot="MR180" display="off"/>
 <attribute name="MPN" value="DF40C-50DP-0.4V(51)" x="20.955" y="7.62" size="1.778" layer="28" rot="MR180" display="off"/>
-<attribute name="NAME" x="14.621653125" y="5.51246875" size="0.6117875" layer="26" rot="MR180"/>
+<attribute name="NAME" x="20.781153125" y="7.90006875" size="0.4064" layer="52" rot="MR180"/>
 <attribute name="PARTNO" value="DF40C-50DP-0.4V(51)" x="20.955" y="7.62" size="1.778" layer="28" rot="MR180" display="off"/>
 </element>
 <element name="U$1" library="CommonSense-DTR-v1" package="SGTL5000-QFN20" value="" x="11.43" y="40.005" smashed="yes" rot="MR180">
@@ -2996,7 +3030,7 @@ einem neuen Namen ab.</description>
 <attribute name="DESC" value="CAP CER 0.1UF 10V X7R 0402" x="7.9121" y="40.0558" size="1.778" layer="28" rot="MR0" display="off"/>
 <attribute name="MANUFACTURER" value="Kemet" x="7.9121" y="40.0558" size="1.778" layer="28" rot="MR0" display="off"/>
 <attribute name="MPN" value="CC0402KRX7R6BB104" x="7.9121" y="40.0558" size="1.778" layer="28" rot="MR0" display="off"/>
-<attribute name="NAME" x="8.5789" y="39.9145" size="0.3048" layer="26" rot="MR0"/>
+<attribute name="NAME" x="8.5789" y="39.9145" size="0.4064" layer="52" rot="MR0"/>
 <attribute name="NAME" x="8.5789" y="39.9145" size="0.3048" layer="255" rot="MR0"/>
 <attribute name="PARTNO" value="CC0402KRX7R6BB104" x="7.9121" y="40.0558" size="1.778" layer="28" rot="MR0" display="off"/>
 <attribute name="TC" value="X7R" x="7.9121" y="40.0558" size="1.778" layer="28" rot="MR0" display="off"/>
@@ -3007,7 +3041,7 @@ einem neuen Namen ab.</description>
 <attribute name="DESC" value="CAP CER 0.1UF 10V X7R 0402" x="8.8773" y="41.5163" size="1.778" layer="28" rot="MR0" display="off"/>
 <attribute name="MANUFACTURER" value="Kemet" x="8.8773" y="41.5163" size="1.778" layer="28" rot="MR0" display="off"/>
 <attribute name="MPN" value="CC0402KRX7R6BB104" x="8.8773" y="41.5163" size="1.778" layer="28" rot="MR0" display="off"/>
-<attribute name="NAME" x="9.5441" y="41.375" size="0.3048" layer="26" rot="MR0"/>
+<attribute name="NAME" x="9.5441" y="41.375" size="0.4064" layer="52" rot="MR0"/>
 <attribute name="NAME" x="9.5441" y="41.375" size="0.3048" layer="255" rot="MR0"/>
 <attribute name="PARTNO" value="CC0402KRX7R6BB104" x="8.8773" y="41.5163" size="1.778" layer="28" rot="MR0" display="off"/>
 <attribute name="TC" value="X7R" x="8.8773" y="41.5163" size="1.778" layer="28" rot="MR0" display="off"/>
@@ -3018,7 +3052,7 @@ einem neuen Namen ab.</description>
 <attribute name="DESC" value="CAP CER 0.1UF 10V X7R 0402" x="14.5796" y="40.5765" size="1.778" layer="28" rot="MR180" display="off"/>
 <attribute name="MANUFACTURER" value="Kemet" x="14.5796" y="40.5765" size="1.778" layer="28" rot="MR180" display="off"/>
 <attribute name="MPN" value="CC0402KRX7R6BB104" x="14.5796" y="40.5765" size="1.778" layer="28" rot="MR180" display="off"/>
-<attribute name="NAME" x="13.9128" y="40.7178" size="0.3048" layer="26" rot="MR180"/>
+<attribute name="NAME" x="13.9128" y="40.7178" size="0.4064" layer="52" rot="MR180"/>
 <attribute name="NAME" x="13.9128" y="40.7178" size="0.3048" layer="255" rot="MR180"/>
 <attribute name="PARTNO" value="CC0402KRX7R6BB104" x="14.5796" y="40.5765" size="1.778" layer="28" rot="MR180" display="off"/>
 <attribute name="TC" value="X7R" x="14.5796" y="40.5765" size="1.778" layer="28" rot="MR180" display="off"/>
@@ -3029,7 +3063,7 @@ einem neuen Namen ab.</description>
 <attribute name="DESC" value="CAP CER 0.1UF 10V X7R 0402" x="9.7536" y="37.3634" size="1.778" layer="28" rot="MR270" display="off"/>
 <attribute name="MANUFACTURER" value="Kemet" x="9.7536" y="37.3634" size="1.778" layer="28" rot="MR270" display="off"/>
 <attribute name="MPN" value="CC0402KRX7R6BB104" x="9.7536" y="37.3634" size="1.778" layer="28" rot="MR270" display="off"/>
-<attribute name="NAME" x="9.8949" y="38.0302" size="0.3048" layer="26" rot="MR270"/>
+<attribute name="NAME" x="9.8949" y="38.0302" size="0.4064" layer="52" rot="MR270"/>
 <attribute name="NAME" x="9.8949" y="38.0302" size="0.3048" layer="255" rot="MR270"/>
 <attribute name="PARTNO" value="CC0402KRX7R6BB104" x="9.7536" y="37.3634" size="1.778" layer="28" rot="MR270" display="off"/>
 <attribute name="TC" value="X7R" x="9.7536" y="37.3634" size="1.778" layer="28" rot="MR270" display="off"/>
@@ -3038,13 +3072,13 @@ einem neuen Namen ab.</description>
 </element>
 <element name="JP16" library="Connectors" package="SMT-JUMPER_2_NO_PASTEFREE_NO-SILK" value="JUMPER-SMT_2_NO_PASTEFREE" x="8.255" y="37.465" smashed="yes" rot="MR0">
 <attribute name="BOM" value="EXCLUDE" x="8.255" y="37.465" size="1.778" layer="28" rot="MR0" display="off"/>
-<attribute name="NAME" x="8.255" y="38.227" size="0.6096" layer="26" font="vector" rot="MR0" align="bottom-center"/>
+<attribute name="NAME" x="8.255" y="38.608" size="0.4064" layer="52" font="vector" rot="MR0" align="bottom-center"/>
 </element>
 <element name="C31" library="Capacitors" package="C0402" value="0.1u" x="10.5918" y="42.7228" smashed="yes" rot="MR180">
 <attribute name="DESC" value="CAP CER 0.1UF 10V X7R 0402" x="10.5918" y="42.7228" size="1.778" layer="28" rot="MR180" display="off"/>
 <attribute name="MANUFACTURER" value="Kemet" x="10.5918" y="42.7228" size="1.778" layer="28" rot="MR180" display="off"/>
 <attribute name="MPN" value="CC0402KRX7R6BB104" x="10.5918" y="42.7228" size="1.778" layer="28" rot="MR180" display="off"/>
-<attribute name="NAME" x="9.925" y="42.8641" size="0.3048" layer="25" rot="R180"/>
+<attribute name="NAME" x="9.925" y="42.8641" size="0.4064" layer="52" rot="MR180"/>
 <attribute name="NAME" x="9.925" y="42.8641" size="0.3048" layer="255" rot="MR180"/>
 <attribute name="PARTNO" value="CC0402KRX7R6BB104" x="10.5918" y="42.7228" size="1.778" layer="28" rot="MR180" display="off"/>
 <attribute name="TC" value="X7R" x="10.5918" y="42.7228" size="1.778" layer="28" rot="MR180" display="off"/>
@@ -3054,8 +3088,7 @@ einem neuen Namen ab.</description>
 <element name="R8" library="Resistors" package="R0402" value="0R" x="1.6637" y="35.5346" smashed="yes" rot="MR270">
 <attribute name="MANUFACTURER" value="Panasonic" x="1.6637" y="35.5346" size="1.778" layer="28" rot="MR270" display="off"/>
 <attribute name="MPN" value="RMCF0402ZT0R00" x="1.6637" y="35.5346" size="1.778" layer="28" rot="MR270" display="off"/>
-<attribute name="NAME" x="1.805" y="36.2014" size="0.3048" layer="26" rot="MR270"/>
-<attribute name="NAME" x="1.805" y="36.2014" size="0.3048" layer="52" rot="MR270"/>
+<attribute name="NAME" x="1.805" y="36.2014" size="0.4064" layer="52" rot="MR270"/>
 <attribute name="PARTNO" value="RMCF0402ZT0R00" x="1.6637" y="35.5346" size="1.778" layer="28" rot="MR270" display="off"/>
 <attribute name="TOL" value="5%" x="1.6637" y="35.5346" size="1.778" layer="28" rot="MR270" display="off"/>
 <attribute name="TYPE" value="Resistor" x="1.6637" y="35.5346" size="1.778" layer="28" rot="MR270" display="off"/>
@@ -3064,18 +3097,18 @@ einem neuen Namen ab.</description>
 <attribute name="DESC" value="CAP CER 1UF 10V X7S 0402" x="13.5509" y="42.1259" size="1.778" layer="28" rot="MR0" display="off"/>
 <attribute name="MANUFACTURER" value="TDK" x="13.5509" y="42.1259" size="1.778" layer="28" rot="MR0" display="off"/>
 <attribute name="MPN" value="C1005X7S1A105K050BC" x="13.5509" y="42.1259" size="1.778" layer="28" rot="MR0" display="off"/>
-<attribute name="NAME" x="14.2177" y="41.9846" size="0.3048" layer="26" rot="MR0"/>
+<attribute name="NAME" x="14.2177" y="41.9846" size="0.4064" layer="52" rot="MR0"/>
 <attribute name="NAME" x="14.2177" y="41.9846" size="0.3048" layer="255" rot="MR0"/>
 <attribute name="PARTNO" value="C1005X7S1A105K050BC" x="13.5509" y="42.1259" size="1.778" layer="28" rot="MR0" display="off"/>
 <attribute name="TC" value="X7R" x="13.5509" y="42.1259" size="1.778" layer="28" rot="MR0" display="off"/>
 <attribute name="TOL" value="10%" x="13.5509" y="42.1259" size="1.778" layer="28" rot="MR0" display="off"/>
 <attribute name="VOLTAGE" value="6.3V" x="13.5509" y="42.1259" size="1.778" layer="28" rot="MR0" display="off"/>
 </element>
-<element name="LED1" library="Diodes" package="CHIPLED_0603" value="" x="21.59" y="42.545" smashed="yes">
+<element name="RED_LED" library="Diodes" package="CHIPLED_0603" value="" x="21.59" y="42.545" smashed="yes">
 <attribute name="DESC" value="LED RED CLEAR CHIP SMD" x="21.59" y="42.545" size="1.778" layer="27" display="off"/>
 <attribute name="MANUFACTURER" value="Kingbright" x="21.59" y="42.545" size="1.778" layer="27" display="off"/>
 <attribute name="MPN" value="APT1608SURCK" x="21.59" y="42.545" size="1.778" layer="27" display="off"/>
-<attribute name="NAME" x="20.955" y="41.275" size="1.27" layer="25" rot="R90"/>
+<attribute name="NAME" x="20.955" y="41.275" size="0.4064" layer="51" rot="R90"/>
 <attribute name="PARTNO" value="APT1608SURCK" x="21.59" y="42.545" size="1.778" layer="27" display="off"/>
 <attribute name="TYPE" value="LED" x="21.59" y="42.545" size="1.778" layer="27" display="off"/>
 <attribute name="VALUE" x="23.495" y="41.275" size="1.27" layer="27" rot="R90"/>
@@ -3084,8 +3117,8 @@ einem neuen Namen ab.</description>
 <attribute name="DESC" value="Thick Film Resistors - SMD 0402 1Kohms 1% AEC-Q200" x="24.13" y="40.64" size="1.778" layer="28" rot="MR180" display="off"/>
 <attribute name="MANUFACTURER" value="Panasonic" x="24.13" y="40.64" size="1.778" layer="28" rot="MR180" display="off"/>
 <attribute name="MPN" value="ERJ-2RKF1001X" x="24.13" y="40.64" size="1.778" layer="28" rot="MR180" display="off"/>
-<attribute name="NAME" x="23.4632" y="40.7813" size="0.3048" layer="26" rot="MR180"/>
-<attribute name="NAME" x="23.4632" y="40.7813" size="0.3048" layer="52" rot="MR180"/>
+<attribute name="NAME" x="23.4632" y="40.7813" size="0.4064" layer="52" rot="MR180"/>
+<attribute name="NAME" x="23.4632" y="40.7813" size="0.4064" layer="52" rot="MR180"/>
 <attribute name="PARTNO" value="ERJ-2RKF1001X" x="24.13" y="40.64" size="1.778" layer="28" rot="MR180" display="off"/>
 <attribute name="TOL" value="1%" x="24.13" y="40.64" size="1.778" layer="28" rot="MR180" display="off"/>
 <attribute name="TYPE" value="Resistor" x="24.13" y="40.64" size="1.778" layer="28" rot="MR180" display="off"/>
@@ -3096,7 +3129,7 @@ einem neuen Namen ab.</description>
 <attribute name="HEIGHT" value="0.55mm" x="7.7216" y="42.8117" size="1.778" layer="27" rot="R180" display="off"/>
 <attribute name="MANUFACTURER" value="Yageo" x="7.7216" y="42.8117" size="1.778" layer="27" rot="R180" display="off"/>
 <attribute name="MPN" value="CC0402KRX7R6BB104" x="7.7216" y="42.8117" size="1.778" layer="27" rot="R180" display="off"/>
-<attribute name="NAME" x="8.3884" y="42.953" size="0.3048" layer="25" rot="R180"/>
+<attribute name="NAME" x="8.3884" y="42.953" size="0.3048" layer="51" rot="R180"/>
 <attribute name="NAME" x="8.3884" y="42.953" size="0.3048" layer="255" rot="R180"/>
 <attribute name="PARTNO" value="CC0402KRX7R6BB104" x="7.7216" y="42.8117" size="1.778" layer="27" rot="R180" display="off"/>
 <attribute name="SIZE" value="0402" x="7.7216" y="42.8117" size="1.778" layer="27" rot="R180" display="off"/>
@@ -3106,11 +3139,11 @@ einem neuen Namen ab.</description>
 <attribute name="VOLT" value="10V" x="7.7216" y="42.8117" size="1.778" layer="27" rot="R180" display="off"/>
 <attribute name="VOLTAGE" value="6.3V" x="7.7216" y="42.8117" size="1.778" layer="27" rot="R180" display="off"/>
 </element>
-<element name="LED2" library="Diodes" package="CHIPLED_0603" value="" x="15.1638" y="23.7871" smashed="yes" rot="R90">
+<element name="GREEN_LED" library="Diodes" package="CHIPLED_0603" value="" x="15.1638" y="23.7871" smashed="yes" rot="R90">
 <attribute name="DESC" value="LED GREEN CLEAR CHIP SMD" x="15.1638" y="23.7871" size="1.778" layer="27" rot="R90" display="off"/>
 <attribute name="MANUFACTURER" value="Kingbright" x="15.1638" y="23.7871" size="1.778" layer="27" rot="R90" display="off"/>
 <attribute name="MPN" value="APT1608SGC" x="15.1638" y="23.7871" size="1.778" layer="27" rot="R90" display="off"/>
-<attribute name="NAME" x="16.4338" y="23.1521" size="1.27" layer="25" rot="R180"/>
+<attribute name="NAME" x="16.4338" y="23.1521" size="0.4064" layer="51" rot="R180"/>
 <attribute name="PARTNO" value="APT1608SGC" x="15.1638" y="23.7871" size="1.778" layer="27" rot="R90" display="off"/>
 <attribute name="TYPE" value="LED" x="15.1638" y="23.7871" size="1.778" layer="27" rot="R90" display="off"/>
 <attribute name="VALUE" x="16.4338" y="25.6921" size="1.27" layer="27" rot="R180"/>
@@ -3119,11 +3152,16 @@ einem neuen Namen ab.</description>
 <attribute name="DESC" value="Thick Film Resistors - SMD 0402 1Kohms 1% AEC-Q200" x="16.6624" y="24.9301" size="1.778" layer="28" rot="MR0" display="off"/>
 <attribute name="MANUFACTURER" value="Panasonic" x="16.6624" y="24.9301" size="1.778" layer="28" rot="MR0" display="off"/>
 <attribute name="MPN" value="ERJ-2RKF1001X" x="16.6624" y="24.9301" size="1.778" layer="28" rot="MR0" display="off"/>
-<attribute name="NAME" x="17.3292" y="24.7888" size="0.3048" layer="52" rot="MR0"/>
-<attribute name="NAME" x="17.3292" y="24.7888" size="0.3048" layer="26" rot="MR0"/>
+<attribute name="NAME" x="17.3292" y="24.7888" size="0.4064" layer="52" rot="MR0"/>
+<attribute name="NAME" x="17.3292" y="24.7888" size="0.4064" layer="52" rot="MR0"/>
 <attribute name="PARTNO" value="ERJ-2RKF1001X" x="16.6624" y="24.9301" size="1.778" layer="28" rot="MR0" display="off"/>
 <attribute name="TOL" value="1%" x="16.6624" y="24.9301" size="1.778" layer="28" rot="MR0" display="off"/>
 <attribute name="TYPE" value="Resistor" x="16.6624" y="24.9301" size="1.778" layer="28" rot="MR0" display="off"/>
+</element>
+<element name="U206" library="Sensors" package="MS5637" value="MS5637" x="24.765" y="2.54" smashed="yes" rot="R270">
+<attribute name="MANUFACTURER" value="TE Connectivity" x="29.845" y="6.985" size="1.778" layer="27" rot="R270" display="off"/>
+<attribute name="MPN" value="MS5637-02BA03" x="29.845" y="6.985" size="1.778" layer="27" rot="R270" display="off"/>
+<attribute name="NAME" x="26.711" y="2.54" size="0.4064" layer="51" rot="R270" align="bottom-center"/>
 </element>
 </elements>
 <signals>
@@ -3165,9 +3203,6 @@ einem neuen Namen ab.</description>
 <contactref element="MK1" pad="2"/>
 <contactref element="MK1" pad="3"/>
 <contactref element="C7" pad="2"/>
-<contactref element="U18" pad="3"/>
-<contactref element="C47" pad="2"/>
-<contactref element="C48" pad="2"/>
 <contactref element="U11" pad="6"/>
 <contactref element="U11" pad="7"/>
 <contactref element="U11" pad="1"/>
@@ -3216,14 +3251,13 @@ einem neuen Namen ab.</description>
 <contactref element="C42" pad="2"/>
 <contactref element="U17" pad="25"/>
 <contactref element="J3" pad="9"/>
-<contactref element="C40" pad="1"/>
 <contactref element="C43" pad="2"/>
 <contactref element="C44" pad="2"/>
 <contactref element="C45" pad="2"/>
 <contactref element="J1" pad="1"/>
 <contactref element="J1" pad="5"/>
 <contactref element="J1" pad="3"/>
-<contactref element="LED1" pad="C"/>
+<contactref element="RED_LED" pad="C"/>
 <contactref element="C1" pad="2"/>
 <polygon width="0.254" layer="1">
 <vertex x="38.735" y="47.625"/>
@@ -3271,8 +3305,6 @@ einem neuen Namen ab.</description>
 <wire x1="34.3044" y1="14.4162" x2="34.98994375" y2="14.4162" width="0.2286" layer="1"/>
 <wire x1="33.3959" y1="13.5077" x2="34.3044" y2="14.4162" width="0.2286" layer="1"/>
 <wire x1="7.2343" y1="7.1126" x2="7.2343" y2="7.3707" width="0.2286" layer="1"/>
-<wire x1="7.2343" y1="7.3707" x2="6.985" y2="7.62" width="0.2286" layer="1"/>
-<wire x1="7.7343" y1="7.1126" x2="7.62" y2="7.2269" width="0.2286" layer="1"/>
 <wire x1="16.555003125" y1="6.265" x2="16.155003125" y2="6.265" width="0.2286" layer="16"/>
 <via x="8.509" y="34.4297" extent="1-16" drill="0.2"/>
 <via x="7.874" y="31.8897" extent="1-16" drill="0.2"/>
@@ -3298,7 +3330,6 @@ einem neuen Namen ab.</description>
 <wire x1="21.209" y1="22.2885" x2="21.2725" y2="22.3774" width="0.127" layer="16"/>
 <wire x1="34.183596875" y1="16.884090625" x2="34.13233125" y2="16.743234375" width="0.127" layer="1"/>
 <wire x1="34.183596875" y1="16.884090625" x2="34.320003125" y2="16.6410375" width="0.127" layer="1"/>
-<wire x1="34.6456" y1="17.5514" x2="34.662025" y2="17.580728125" width="0.127" layer="1"/>
 <via x="18.1102" y="41.5671" extent="1-16" drill="0.2"/>
 <via x="11.7983" y="30.5181" extent="1-16" drill="0.2"/>
 <via x="17.907" y="42.8498" extent="1-16" drill="0.2"/>
@@ -3315,7 +3346,6 @@ einem neuen Namen ab.</description>
 <via x="17.5895" y="19.0373" extent="1-16" drill="0.2"/>
 <via x="22.7076" y="27.4701" extent="1-16" drill="0.2"/>
 <via x="26.9621" y="7.2517" extent="1-16" drill="0.2"/>
-<via x="24.0792" y="2.6416" extent="1-16" drill="0.2"/>
 <wire x1="9.271" y1="8.948" x2="10.241" y2="8.948" width="0.1524" layer="1"/>
 <wire x1="10.241" y1="8.948" x2="10.291" y2="8.898" width="0.1524" layer="1"/>
 <via x="30.8991" y="3.8608" extent="1-16" drill="0.2"/>
@@ -3323,9 +3353,7 @@ einem neuen Namen ab.</description>
 <via x="34.4297" y="28.7528" extent="1-16" drill="0.2"/>
 <via x="28.3464" y="18.8595" extent="1-16" drill="0.2"/>
 <via x="12.3063" y="27.0383" extent="1-16" drill="0.2"/>
-<wire x1="14.4272" y1="38.5318" x2="14.4272" y2="38.3032" width="0.127" layer="1"/>
 <wire x1="16.891" y1="30.2895" x2="16.8832" y2="30.2895" width="0.127" layer="16"/>
-<wire x1="16.891" y1="30.2895" x2="16.864778125" y2="30.3079" width="0.127" layer="16"/>
 <via x="16.1925" y="39.2176" extent="1-16" drill="0.2"/>
 <via x="31.9659" y="16.4084" extent="1-16" drill="0.2"/>
 <wire x1="33.40393125" y1="17.00835" x2="33.952690625" y2="17.00835" width="0.1524" layer="1"/>
@@ -3392,8 +3420,9 @@ einem neuen Namen ab.</description>
 <via x="23.241" y="17.7419" extent="1-16" drill="0.2"/>
 <via x="20.955" y="18.1102" extent="1-16" drill="0.2"/>
 <contactref element="C33" pad="2"/>
-<contactref element="LED2" pad="C"/>
+<contactref element="GREEN_LED" pad="C"/>
 <wire x1="14.9225" y1="24.7142" x2="15.0384" y2="24.8301" width="0.2286" layer="16"/>
+<contactref element="U206" pad="4"/>
 </signal>
 <signal name="LORA_MOSI">
 <contactref element="U19" pad="19"/>
@@ -3746,12 +3775,6 @@ einem neuen Namen ab.</description>
 <wire x1="18.9865" y1="32.0675" x2="20.2184" y2="33.2994" width="0.254" layer="1"/>
 <wire x1="17.7673" y1="32.0675" x2="17.7404" y2="32.0675" width="0.2286" layer="16"/>
 </signal>
-<signal name="N$10">
-<contactref element="U18" pad="2"/>
-<contactref element="C48" pad="1"/>
-<wire x1="25.3078" y1="3.2485" x2="26.3099" y2="3.2485" width="0.2286" layer="1"/>
-<wire x1="26.3099" y1="3.2485" x2="26.6954" y2="2.863" width="0.2286" layer="1"/>
-</signal>
 <signal name="N$22">
 <contactref element="X1" pad="P$1"/>
 <contactref element="C16" pad="2"/>
@@ -3999,20 +4022,13 @@ einem neuen Namen ab.</description>
 <wire x1="10.791" y1="8.1828" x2="10.791" y2="8.898" width="0.127" layer="1"/>
 </signal>
 <signal name="+3V3_BARO" class="1">
-<contactref element="U18" pad="1"/>
-<contactref element="U18" pad="4"/>
-<contactref element="C47" pad="1"/>
 <contactref element="JP3" pad="2"/>
-<contactref element="C40" pad="2"/>
-<wire x1="25.3078" y1="5.7485" x2="24.6126" y2="5.0533" width="0.2286" layer="1"/>
-<wire x1="24.6126" y1="2.6937" x2="25.3078" y2="1.9985" width="0.2286" layer="1"/>
-<wire x1="24.6126" y1="5.0533" x2="24.6126" y2="2.6937" width="0.2286" layer="1"/>
-<wire x1="25.3078" y1="5.7485" x2="25.3078" y2="6.9574" width="0.2286" layer="1"/>
-<wire x1="25.3078" y1="6.9574" x2="25.077" y2="7.1882" width="0.2286" layer="1"/>
-<wire x1="25.077" y1="7.1882" x2="25.077" y2="8.3241" width="0.2286" layer="1"/>
-<wire x1="25.077" y1="8.3241" x2="25.0318" y2="8.3693" width="0.2286" layer="1"/>
-<wire x1="25.0318" y1="8.3693" x2="25.0318" y2="9.3854" width="0.2286" layer="1"/>
-<wire x1="25.0318" y1="9.3854" x2="25.5905" y2="9.9441" width="0.2286" layer="1"/>
+<contactref element="U206" pad="1"/>
+<wire x1="25.765" y1="3.54" x2="25.765" y2="4.72581875" width="0.2286" layer="1"/>
+<wire x1="25.765" y1="4.72581875" x2="25.554" y2="4.93681875" width="0.2286" layer="1"/>
+<wire x1="25.554" y1="4.93681875" x2="25.554" y2="5.32478125" width="0.2286" layer="1"/>
+<wire x1="25.554" y1="5.32478125" x2="25.5905" y2="5.36128125" width="0.2286" layer="1"/>
+<wire x1="25.5905" y1="5.36128125" x2="25.5905" y2="9.9441" width="0.2286" layer="1"/>
 </signal>
 <signal name="N$26">
 <contactref element="U4" pad="1P"/>
@@ -4142,25 +4158,26 @@ einem neuen Namen ab.</description>
 <wire x1="16.955003125" y1="8.975" x2="16.9545" y2="8.975" width="0.2286" layer="16"/>
 <wire x1="16.9545" y1="8.975" x2="16.155003125" y2="8.975" width="0.2286" layer="16"/>
 <wire x1="16.155003125" y1="8.975" x2="16.35013125" y2="9.170128125" width="0.2286" layer="16"/>
-<wire x1="16.35013125" y1="9.170128125" x2="16.3492875" y2="10.7216125" width="0.2286" layer="16"/>
+<wire x1="16.35013125" y1="9.170128125" x2="16.3492875" y2="10.7216125" width="0.508" layer="16"/>
 <wire x1="16.3449" y1="10.726" x2="16.3492875" y2="10.7216125" width="0.2286" layer="16"/>
 <wire x1="16.555003125" y1="8.975" x2="16.955003125" y2="8.975" width="0.2286" layer="16"/>
-<via x="15.7353" y="13.0556" extent="1-16" drill="0.2"/>
-<wire x1="15.7607" y1="13.0556" x2="15.7353" y2="13.0556" width="0.2286" layer="16"/>
-<wire x1="16.9545" y1="11.8618" x2="15.7607" y2="13.0556" width="0.2286" layer="16"/>
-<wire x1="16.9545" y1="11.8618" x2="16.9545" y2="8.975" width="0.2286" layer="16"/>
+<via x="15.7099" y="13.1318" extent="1-16" drill="0.2"/>
+<wire x1="16.9545" y1="11.8872" x2="15.7099" y2="13.1318" width="0.2286" layer="16"/>
+<wire x1="16.9545" y1="11.8872" x2="16.9545" y2="8.975" width="0.2286" layer="16"/>
 <via x="20.0279" y="14.2367" extent="1-16" drill="0.2"/>
 <wire x1="20.0279" y1="14.2367" x2="20.6121" y2="13.6525" width="0.2286" layer="16"/>
 <wire x1="20.6121" y1="13.6525" x2="20.6121" y2="13.1246" width="0.2286" layer="16"/>
 <wire x1="20.6121" y1="13.1246" x2="19.6596" y2="13.1246" width="0.2286" layer="16"/>
 <wire x1="26.1241" y1="14.6872" x2="25.6736" y2="14.2367" width="0.2286" layer="1"/>
 <wire x1="25.6736" y1="14.2367" x2="20.0279" y2="14.2367" width="0.2286" layer="1"/>
-<wire x1="15.7353" y1="13.0556" x2="15.0567" y2="13.0556" width="0.2286" layer="1"/>
-<wire x1="15.0567" y1="13.0556" x2="14.9352" y2="13.1771" width="0.2286" layer="1"/>
+<wire x1="15.7099" y1="13.1318" x2="15.7099" y2="13.1445" width="0.2286" layer="1"/>
+<wire x1="15.7099" y1="13.1445" x2="15.6972" y2="13.1572" width="0.2286" layer="1"/>
+<wire x1="15.6972" y1="13.1572" x2="14.9551" y2="13.1572" width="0.2286" layer="1"/>
+<wire x1="14.9551" y1="13.1572" x2="14.9352" y2="13.1771" width="0.2286" layer="1"/>
 <wire x1="14.9352" y1="13.1771" x2="14.9352" y2="12.2452" width="0.2286" layer="1"/>
 <wire x1="14.9352" y1="12.2452" x2="14.5104" y2="11.8204" width="0.2286" layer="1"/>
-<wire x1="15.7353" y1="13.0556" x2="15.7353" y2="13.3731" width="0.2286" layer="1"/>
-<wire x1="15.7353" y1="13.3731" x2="16.5227" y2="14.1605" width="0.2286" layer="1"/>
+<wire x1="15.7099" y1="13.1318" x2="15.7099" y2="13.3477" width="0.2286" layer="1"/>
+<wire x1="15.7099" y1="13.3477" x2="16.5227" y2="14.1605" width="0.2286" layer="1"/>
 <wire x1="16.5227" y1="14.1605" x2="16.7767" y2="14.4145" width="0.2286" layer="1"/>
 <wire x1="16.7767" y1="14.4145" x2="16.7767" y2="14.89545" width="0.2286" layer="1"/>
 <wire x1="16.7767" y1="14.89545" x2="16.91805" y2="15.0368" width="0.2286" layer="1"/>
@@ -4478,8 +4495,9 @@ einem neuen Namen ab.</description>
 <contactref element="R_SENSE" pad="2"/>
 <contactref element="JP13" pad="1"/>
 <via x="13.9319" y="14.5161" extent="1-16" drill="0.2"/>
-<wire x1="16.3449" y1="11.626" x2="13.9319" y2="14.039" width="0.2286" layer="16"/>
-<wire x1="13.9319" y1="14.5161" x2="13.9319" y2="14.039" width="0.2286" layer="16"/>
+<wire x1="16.3449" y1="11.626" x2="14.0081" y2="13.9628" width="0.508" layer="16"/>
+<wire x1="13.9319" y1="14.5161" x2="14.0081" y2="14.4399" width="0.2286" layer="16"/>
+<wire x1="14.0081" y1="14.4399" x2="14.0081" y2="13.9628" width="0.2286" layer="16"/>
 <wire x1="13.589" y1="14.5923" x2="12.9413" y2="14.5923" width="0.2286" layer="1"/>
 <wire x1="13.9319" y1="14.5161" x2="13.6652" y2="14.5161" width="0.2286" layer="1"/>
 <wire x1="13.6652" y1="14.5161" x2="13.589" y2="14.5923" width="0.2286" layer="1"/>
@@ -4976,7 +4994,7 @@ einem neuen Namen ab.</description>
 </signal>
 <signal name="N$20">
 <contactref element="R11" pad="1"/>
-<contactref element="LED1" pad="A"/>
+<contactref element="RED_LED" pad="A"/>
 <via x="21.8821" y="40.9321" extent="1-16" drill="0.2"/>
 <wire x1="23.68" y1="40.64" x2="22.1742" y2="40.64" width="0.2032" layer="16"/>
 <wire x1="22.1742" y1="40.64" x2="21.8821" y2="40.9321" width="0.2032" layer="16"/>
@@ -5146,15 +5164,7 @@ einem neuen Namen ab.</description>
 </signal>
 <signal name="DTR_BUS2_GPIO0">
 <contactref element="J1" pad="27"/>
-<contactref element="U18" pad="6"/>
-<wire x1="21.40585" y1="5.32765" x2="21.40585" y2="6.215821875" width="0.127" layer="16"/>
-<wire x1="21.6916" y1="4.32435" x2="21.40585" y2="4.6101" width="0.127" layer="1"/>
-<wire x1="21.40585" y1="5.32765" x2="21.40585" y2="4.6101" width="0.127" layer="1"/>
-<wire x1="23.1775" y1="4.32435" x2="21.6916" y2="4.32435" width="0.127" layer="1"/>
-<wire x1="23.1775" y1="4.445" x2="23.1775" y2="4.32435" width="0.127" layer="1"/>
 <wire x1="21.40585" y1="6.215821875" x2="21.355003125" y2="6.265" width="0.127" layer="16"/>
-<wire x1="23.1775" y1="4.445" x2="23.3078" y2="4.4985" width="0.127" layer="1"/>
-<via x="21.40585" y="5.32765" extent="1-16" drill="0.2"/>
 </signal>
 <signal name="DTR_BUS2_GPIO1">
 <contactref element="J1" pad="29"/>
@@ -5179,7 +5189,6 @@ einem neuen Namen ab.</description>
 </signal>
 <signal name="DTR_BUS2_P1/I2C_SCL">
 <contactref element="J1" pad="32"/>
-<contactref element="U18" pad="8"/>
 <contactref element="U11" pad="13"/>
 <contactref element="R6" pad="2"/>
 <contactref element="U$1" pad="P$19"/>
@@ -5204,12 +5213,10 @@ einem neuen Namen ab.</description>
 <wire x1="22.155003125" y1="8.975" x2="22.16785" y2="8.987846875" width="0.127" layer="16"/>
 <wire x1="22.16785" y1="9.8552" x2="22.16785" y2="8.987846875" width="0.127" layer="16"/>
 <wire x1="20.3327" y1="11.69035" x2="22.16785" y2="9.8552" width="0.127" layer="16"/>
-<wire x1="22.225" y1="1.905" x2="23.1775" y2="1.905" width="0.127" layer="1"/>
 <wire x1="20.50415" y1="1.96215" x2="20.5613" y2="1.905" width="0.127" layer="16"/>
 <wire x1="22.225" y1="1.905" x2="20.5613" y2="1.905" width="0.127" layer="16"/>
 <wire x1="19.80565" y1="1.26365" x2="20.50415" y2="1.96215" width="0.127" layer="1"/>
 <wire x1="19.80565" y1="1.26365" x2="16.08455" y2="1.26365" width="0.127" layer="1"/>
-<wire x1="23.1775" y1="1.905" x2="23.3078" y2="1.9985" width="0.127" layer="1"/>
 <via x="20.3327" y="11.0363" extent="1-16" drill="0.2"/>
 <via x="10.99185" y="37.20465" extent="1-16" drill="0.2"/>
 <via x="22.225" y="1.905" extent="1-16" drill="0.2"/>
@@ -5220,10 +5227,12 @@ einem neuen Namen ab.</description>
 <wire x1="10.4775" y1="12.3825" x2="8.46455" y2="10.36955" width="0.127" layer="1"/>
 <wire x1="8.46455" y1="9.93775" x2="8.46455" y2="4.33705" width="0.127" layer="16"/>
 <wire x1="8.46455" y1="4.33705" x2="8.43915" y2="4.31165" width="0.127" layer="16"/>
+<contactref element="U206" pad="3"/>
+<wire x1="22.225" y1="1.905" x2="23.4" y2="1.905" width="0.1524" layer="1"/>
+<wire x1="23.4" y1="1.905" x2="23.765" y2="1.54" width="0.1524" layer="1"/>
 </signal>
 <signal name="DTR_BUS2_P0/I2C_SDA">
 <contactref element="J1" pad="34"/>
-<contactref element="U18" pad="7"/>
 <contactref element="U11" pad="14"/>
 <contactref element="R5" pad="2"/>
 <contactref element="U$1" pad="P$18"/>
@@ -5240,12 +5249,8 @@ einem neuen Namen ab.</description>
 <wire x1="12.9159" y1="2.8067" x2="13.1953" y2="2.5273" width="0.127" layer="16"/>
 <wire x1="21.95195" y1="3.0607" x2="21.41855" y2="2.5273" width="0.127" layer="16"/>
 <wire x1="22.2631" y1="3.0607" x2="21.95195" y2="3.0607" width="0.127" layer="16"/>
-<wire x1="23.222528125" y1="3.2004" x2="22.4028" y2="3.2004" width="0.127" layer="1"/>
-<wire x1="22.4028" y1="3.2004" x2="22.2631" y2="3.0607" width="0.127" layer="1"/>
-<wire x1="23.222528125" y1="3.2004" x2="23.3078" y2="3.2485" width="0.127" layer="1"/>
 <wire x1="11.43" y1="37.94125" x2="11.43" y2="38.605" width="0.127" layer="16"/>
-<wire x1="10.541" y1="37.94125" x2="11.43" y2="37.94125" width="0.127" layer="1"/>
-<wire x1="10.541" y1="29.66085" x2="10.541" y2="37.94125" width="0.127" layer="1"/>
+<wire x1="10.541" y1="36.4744" x2="10.541" y2="29.66085" width="0.127" layer="1"/>
 <wire x1="10.541" y1="26.924" x2="10.541" y2="29.66085" width="0.127" layer="16"/>
 <wire x1="10.95375" y1="26.51125" x2="10.541" y2="26.924" width="0.127" layer="16"/>
 <wire x1="10.9728" y1="26.4922" x2="10.95375" y2="26.51125" width="0.127" layer="1"/>
@@ -5258,10 +5263,7 @@ einem neuen Namen ab.</description>
 <wire x1="22.5425" y1="8.4709" x2="22.5425" y2="8.89" width="0.127" layer="16"/>
 <wire x1="23.0632" y1="7.9502" x2="22.5425" y2="8.4709" width="0.127" layer="16"/>
 <wire x1="24.30145" y1="6.71195" x2="23.0632" y2="7.9502" width="0.127" layer="1"/>
-<wire x1="24.30145" y1="4.29895" x2="24.30145" y2="6.71195" width="0.127" layer="1"/>
-<wire x1="23.33625" y1="3.33375" x2="24.30145" y2="4.29895" width="0.127" layer="1"/>
 <wire x1="22.5425" y1="8.89" x2="22.555003125" y2="8.975" width="0.127" layer="16"/>
-<wire x1="23.33625" y1="3.33375" x2="23.3078" y2="3.2485" width="0.127" layer="1"/>
 <via x="12.9159" y="2.8067" extent="1-16" drill="0.2"/>
 <via x="22.2631" y="3.0607" extent="1-16" drill="0.2"/>
 <via x="11.43" y="37.94125" extent="1-16" drill="0.2"/>
@@ -5272,6 +5274,16 @@ einem neuen Namen ab.</description>
 <via x="23.0632" y="7.9502" extent="1-16" drill="0.2"/>
 <wire x1="11.67765" y1="2.8067" x2="11.43" y2="3.05435" width="0.127" layer="1"/>
 <wire x1="12.9159" y1="2.8067" x2="11.67765" y2="2.8067" width="0.127" layer="1"/>
+<wire x1="11.43" y1="37.94125" x2="11.1236" y2="37.63485" width="0.1524" layer="1"/>
+<wire x1="11.1236" y1="37.63485" x2="10.81365" y2="37.63485" width="0.1524" layer="1"/>
+<wire x1="10.81365" y1="37.63485" x2="10.541" y2="37.3622" width="0.1524" layer="1"/>
+<wire x1="10.541" y1="37.3622" x2="10.541" y2="36.4744" width="0.1524" layer="1"/>
+<contactref element="U206" pad="2"/>
+<wire x1="24.13" y1="3.175" x2="24.30145" y2="3.34645" width="0.1524" layer="1"/>
+<wire x1="24.30145" y1="3.34645" x2="24.30145" y2="6.71195" width="0.1524" layer="1"/>
+<wire x1="22.2631" y1="3.0607" x2="22.7424" y2="3.54" width="0.1524" layer="1"/>
+<wire x1="22.7424" y1="3.54" x2="23.765" y2="3.54" width="0.1524" layer="1"/>
+<wire x1="23.765" y1="3.54" x2="24.13" y2="3.175" width="0.1524" layer="1"/>
 </signal>
 <signal name="MIC_BIAS">
 <contactref element="U$1" pad="P$11"/>
@@ -5286,7 +5298,7 @@ einem neuen Namen ab.</description>
 <wire x1="13.1009" y1="42.7664" x2="13.1009" y2="42.1259" width="0.1524" layer="16"/>
 </signal>
 <signal name="DTR_DETECT_LED">
-<contactref element="LED2" pad="A"/>
+<contactref element="GREEN_LED" pad="A"/>
 <contactref element="R12" pad="2"/>
 <via x="15.6083" y="24.6634" extent="1-16" drill="0.2"/>
 <wire x1="16.2124" y1="24.9301" x2="16.1489" y2="24.8666" width="0.2286" layer="16"/>
