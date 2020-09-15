@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!DOCTYPE eagle SYSTEM "eagle.dtd">
-<eagle version="9.6.2">
+<eagle version="9.6.1">
 <drawing>
 <settings>
 <setting alwaysvectorfont="no"/>
@@ -8,7 +8,7 @@
 </settings>
 <grid distance="25" unitdist="mil" unit="mil" style="lines" multiple="1" display="yes" altdistance="0.5" altunitdist="mil" altunit="mil"/>
 <layers>
-<layer number="1" name="Top" color="4" fill="1" visible="no" active="yes"/>
+<layer number="1" name="Top" color="4" fill="1" visible="yes" active="yes"/>
 <layer number="2" name="Route2" color="42" fill="1" visible="no" active="no"/>
 <layer number="3" name="Route3" color="17" fill="1" visible="no" active="no"/>
 <layer number="4" name="Route4" color="18" fill="1" visible="no" active="no"/>
@@ -28,11 +28,11 @@
 <layer number="18" name="Vias" color="2" fill="1" visible="yes" active="yes"/>
 <layer number="19" name="Unrouted" color="6" fill="1" visible="yes" active="yes"/>
 <layer number="20" name="Dimension" color="24" fill="1" visible="yes" active="yes"/>
-<layer number="21" name="tPlace" color="23" fill="1" visible="no" active="yes"/>
+<layer number="21" name="tPlace" color="23" fill="1" visible="yes" active="yes"/>
 <layer number="22" name="bPlace" color="23" fill="1" visible="yes" active="yes"/>
-<layer number="23" name="tOrigins" color="15" fill="1" visible="no" active="yes"/>
+<layer number="23" name="tOrigins" color="15" fill="1" visible="yes" active="yes"/>
 <layer number="24" name="bOrigins" color="15" fill="1" visible="yes" active="yes"/>
-<layer number="25" name="tNames" color="54" fill="1" visible="no" active="yes"/>
+<layer number="25" name="tNames" color="54" fill="1" visible="yes" active="yes"/>
 <layer number="26" name="bNames" color="54" fill="1" visible="yes" active="yes"/>
 <layer number="27" name="tValues" color="57" fill="1" visible="no" active="yes"/>
 <layer number="28" name="bValues" color="57" fill="1" visible="no" active="yes"/>
@@ -46,9 +46,9 @@
 <layer number="36" name="bGlue" color="7" fill="5" visible="no" active="yes"/>
 <layer number="37" name="tTest" color="7" fill="1" visible="no" active="yes"/>
 <layer number="38" name="bTest" color="7" fill="1" visible="no" active="yes"/>
-<layer number="39" name="tKeepout" color="4" fill="11" visible="no" active="yes"/>
+<layer number="39" name="tKeepout" color="4" fill="11" visible="yes" active="yes"/>
 <layer number="40" name="bKeepout" color="1" fill="11" visible="yes" active="yes"/>
-<layer number="41" name="tRestrict" color="4" fill="10" visible="no" active="yes"/>
+<layer number="41" name="tRestrict" color="4" fill="10" visible="yes" active="yes"/>
 <layer number="42" name="bRestrict" color="1" fill="10" visible="yes" active="yes"/>
 <layer number="43" name="vRestrict" color="2" fill="10" visible="no" active="yes"/>
 <layer number="44" name="Drills" color="7" fill="1" visible="no" active="yes"/>
@@ -58,7 +58,7 @@
 <layer number="48" name="Document" color="7" fill="1" visible="no" active="yes"/>
 <layer number="49" name="Reference" color="7" fill="1" visible="no" active="yes"/>
 <layer number="50" name="dxf" color="7" fill="1" visible="no" active="no"/>
-<layer number="51" name="tDocu" color="7" fill="1" visible="no" active="yes"/>
+<layer number="51" name="tDocu" color="7" fill="1" visible="yes" active="yes"/>
 <layer number="52" name="bDocu" color="7" fill="1" visible="yes" active="yes"/>
 <layer number="53" name="tGND_GNDA" color="7" fill="9" visible="no" active="no"/>
 <layer number="54" name="bGND_GNDA" color="1" fill="9" visible="no" active="no"/>
@@ -1927,8 +1927,8 @@ einem neuen Namen ab.</description>
 <attribute name="DESC" value="CAP CER 1UF 10V X5R 0402" x="29.738884375" y="27.783084375" size="1.778" layer="28" rot="MR270"/>
 <attribute name="MANUFACTURER" value="Kemet" x="107.208878125" y="3.653084375" size="1.778" layer="28" rot="MR270" display="off"/>
 <attribute name="MPN" value="C0402C105M8PACTU" x="29.738884375" y="27.783084375" size="1.778" layer="28" rot="MR270" display="off"/>
-<attribute name="NAME" x="29.880184375" y="28.449884375" size="0.4064" layer="52" rot="MR270"/>
 <attribute name="NAME" x="29.880184375" y="28.449884375" size="0.3048" layer="255" rot="MR270"/>
+<attribute name="NAME" x="29.880184375" y="28.449884375" size="0.4064" layer="52" rot="MR270"/>
 <attribute name="PARTNO" value="C0402C105M8PACTU" x="29.738884375" y="27.783084375" size="1.778" layer="28" rot="MR270" display="off"/>
 <attribute name="SIZE" value="0402" x="29.738884375" y="27.783084375" size="1.778" layer="28" rot="MR270"/>
 <attribute name="TC" value="X5R" x="107.208878125" y="3.653084375" size="1.778" layer="28" rot="MR270" display="off"/>
@@ -2003,8 +2003,8 @@ einem neuen Namen ab.</description>
 <attribute name="DESC" value="CAP CER 1UF 10V X5R 0402" x="24.06198125" y="31.970415625" size="1.778" layer="28" rot="MR0"/>
 <attribute name="MANUFACTURER" value="Kemet" x="-26.738009375" y="-45.499578125" size="1.778" layer="28" rot="MR0" display="off"/>
 <attribute name="MPN" value="C0402C105M8PACTU" x="24.06198125" y="31.970415625" size="1.778" layer="28" rot="MR0" display="off"/>
-<attribute name="NAME" x="24.72878125" y="31.829115625" size="0.4064" layer="52" rot="MR0"/>
 <attribute name="NAME" x="24.72878125" y="31.829115625" size="0.3048" layer="255" rot="MR0"/>
+<attribute name="NAME" x="24.72878125" y="31.829115625" size="0.4064" layer="52" rot="MR0"/>
 <attribute name="PARTNO" value="C0402C105M8PACTU" x="24.06198125" y="31.970415625" size="1.778" layer="28" rot="MR0" display="off"/>
 <attribute name="SIZE" value="0402" x="24.06198125" y="31.970415625" size="1.778" layer="28" rot="MR0"/>
 <attribute name="TC" value="X5R" x="-26.738009375" y="-45.499578125" size="1.778" layer="28" rot="MR0" display="off"/>
@@ -2018,8 +2018,8 @@ einem neuen Namen ab.</description>
 <attribute name="BOM" value="EXCLUDE" x="14.478" y="17.0942" size="1.778" layer="28" rot="MR0" display="off"/>
 <attribute name="DESC" value="" x="14.478" y="17.0942" size="1.778" layer="27" rot="MR0"/>
 <attribute name="MANUFACTURER" value="Kemet" x="-29.972" y="-64.1858" size="1.778" layer="28" rot="MR0" display="off"/>
-<attribute name="NAME" x="15.1448" y="16.9529" size="0.4064" layer="52" rot="MR0"/>
 <attribute name="NAME" x="15.1448" y="16.9529" size="0.3048" layer="255" rot="MR0"/>
+<attribute name="NAME" x="15.1448" y="16.9529" size="0.4064" layer="52" rot="MR0"/>
 <attribute name="PARTNO" value="*" x="14.478" y="17.0942" size="1.778" layer="28" rot="MR0" display="off"/>
 <attribute name="SIZE" value="" x="14.478" y="17.0942" size="1.778" layer="27" rot="MR0"/>
 <attribute name="TC" value="X7R" x="-29.972" y="-64.1858" size="1.778" layer="28" rot="MR0" display="off"/>
@@ -2032,8 +2032,8 @@ einem neuen Namen ab.</description>
 <attribute name="BOM" value="EXCLUDE" x="14.3891" y="21.6535" size="1.778" layer="28" rot="MR180" display="off"/>
 <attribute name="DESC" value="" x="14.3891" y="21.6535" size="1.778" layer="27" rot="MR180"/>
 <attribute name="MANUFACTURER" value="Kemet" x="61.3791" y="102.9335" size="1.778" layer="28" rot="MR180" display="off"/>
-<attribute name="NAME" x="13.7223" y="21.7948" size="0.4064" layer="52" rot="MR180"/>
 <attribute name="NAME" x="13.7223" y="21.7948" size="0.3048" layer="255" rot="MR180"/>
+<attribute name="NAME" x="13.7223" y="21.7948" size="0.4064" layer="52" rot="MR180"/>
 <attribute name="PARTNO" value="*" x="14.3891" y="21.6535" size="1.778" layer="28" rot="MR180" display="off"/>
 <attribute name="SIZE" value="" x="14.3891" y="21.6535" size="1.778" layer="27" rot="MR180"/>
 <attribute name="TC" value="X7R" x="61.3791" y="102.9335" size="1.778" layer="28" rot="MR180" display="off"/>
@@ -2093,8 +2093,8 @@ einem neuen Namen ab.</description>
 <attribute name="DESC" value="CAP CER RF 5.5PF 50V +/-0.1 PF C" x="22.156984375" y="28.312815625" size="1.778" layer="28" rot="MR0"/>
 <attribute name="MANUFACTURER" value="Kemet" x="-5.78301875" y="-49.157178125" size="1.778" layer="28" rot="MR0" display="off"/>
 <attribute name="MPN" value="CBR04C559B5GAC" x="22.156984375" y="28.312815625" size="1.778" layer="28" rot="MR0" display="off"/>
-<attribute name="NAME" x="22.823784375" y="28.171515625" size="0.4064" layer="52" rot="MR0"/>
 <attribute name="NAME" x="22.823784375" y="28.171515625" size="0.3048" layer="255" rot="MR0"/>
+<attribute name="NAME" x="22.823784375" y="28.171515625" size="0.4064" layer="52" rot="MR0"/>
 <attribute name="PARTNO" value="CBR04C559B5GAC" x="22.156984375" y="28.312815625" size="1.778" layer="28" rot="MR0" display="off"/>
 <attribute name="SIZE" value="0402" x="22.156984375" y="28.312815625" size="1.778" layer="28" rot="MR0"/>
 <attribute name="TC" value="C0G, NP0" x="-5.78301875" y="-49.157178125" size="1.778" layer="28" rot="MR0" display="off"/>
@@ -2218,8 +2218,8 @@ einem neuen Namen ab.</description>
 <attribute name="DESC" value="CAP CER RF 5.5PF 50V +/-0.1 PF C" x="22.15698125" y="30.751215625" size="1.778" layer="28" rot="MR0"/>
 <attribute name="MANUFACTURER" value="Kemet" x="-9.593015625" y="-46.718775" size="1.778" layer="28" rot="MR0" display="off"/>
 <attribute name="MPN" value="CBR04C559B5GAC" x="22.15698125" y="30.751215625" size="1.778" layer="28" rot="MR0" display="off"/>
-<attribute name="NAME" x="22.82378125" y="30.609915625" size="0.4064" layer="52" rot="MR0"/>
 <attribute name="NAME" x="22.82378125" y="30.609915625" size="0.3048" layer="255" rot="MR0"/>
+<attribute name="NAME" x="22.82378125" y="30.609915625" size="0.4064" layer="52" rot="MR0"/>
 <attribute name="PARTNO" value="CBR04C559B5GAC" x="22.15698125" y="30.751215625" size="1.778" layer="28" rot="MR0" display="off"/>
 <attribute name="SIZE" value="0402" x="22.15698125" y="30.751215625" size="1.778" layer="28" rot="MR0"/>
 <attribute name="TC" value="C0G, NP0" x="-9.593015625" y="-46.718775" size="1.778" layer="28" rot="MR0" display="off"/>
@@ -2263,8 +2263,8 @@ einem neuen Namen ab.</description>
 <attribute name="DESC" value="CAP CER 1UF 10V X5R 0402" x="17.272" y="33.9217" size="0.4064" layer="27" rot="MR180"/>
 <attribute name="MANUFACTURER" value="Kemet" x="60.452" y="111.3917" size="1.778" layer="28" rot="MR180" display="off"/>
 <attribute name="MPN" value="C0402C105M8PACTU" x="17.272" y="33.9217" size="1.778" layer="28" rot="MR180" display="off"/>
-<attribute name="NAME" x="16.6052" y="34.063" size="0.4064" layer="52" rot="MR180"/>
 <attribute name="NAME" x="16.6052" y="34.063" size="0.3048" layer="255" rot="MR180"/>
+<attribute name="NAME" x="16.6052" y="34.063" size="0.4064" layer="52" rot="MR180"/>
 <attribute name="PARTNO" value="C0402C105M8PACTU" x="17.272" y="33.9217" size="1.778" layer="28" rot="MR180" display="off"/>
 <attribute name="SIZE" value="0402" x="17.272" y="33.9217" size="0.4064" layer="27" rot="MR180"/>
 <attribute name="TC" value="X5R" x="60.452" y="111.3917" size="1.778" layer="28" rot="MR180" display="off"/>
@@ -2714,8 +2714,8 @@ einem neuen Namen ab.</description>
 <attribute name="DESC" value="CAP CER 3.9PF 50V C0G/NP0 0402" x="37.4619" y="6.1024" size="0.4064" layer="27" rot="R90"/>
 <attribute name="MANUFACTURER" value="Murata" x="37.4619" y="6.1024" size="1.778" layer="27" rot="R90" display="off"/>
 <attribute name="MPN" value="GJM1555C1H3R9WB01D" x="37.4619" y="6.1024" size="1.778" layer="27" rot="R90" display="off"/>
-<attribute name="NAME" x="37.6032" y="5.4356" size="0.3048" layer="51" rot="R90"/>
 <attribute name="NAME" x="37.6032" y="5.4356" size="0.3048" layer="255" rot="R90"/>
+<attribute name="NAME" x="37.6032" y="5.4356" size="0.3048" layer="51" rot="R90"/>
 <attribute name="PARTNO" value="GJM1555C1H3R9WB01D" x="37.4619" y="6.1024" size="1.778" layer="27" rot="R90" display="off"/>
 <attribute name="SIZE" value="0402" x="37.4619" y="6.1024" size="0.4064" layer="27" rot="R90"/>
 <attribute name="TC" value="C0G, NP0" x="37.4619" y="6.1024" size="1.778" layer="27" rot="R90" display="off"/>
@@ -3030,8 +3030,8 @@ einem neuen Namen ab.</description>
 <attribute name="DESC" value="CAP CER 0.1UF 10V X7R 0402" x="7.9121" y="40.0558" size="1.778" layer="28" rot="MR0" display="off"/>
 <attribute name="MANUFACTURER" value="Kemet" x="7.9121" y="40.0558" size="1.778" layer="28" rot="MR0" display="off"/>
 <attribute name="MPN" value="CC0402KRX7R6BB104" x="7.9121" y="40.0558" size="1.778" layer="28" rot="MR0" display="off"/>
-<attribute name="NAME" x="8.5789" y="39.9145" size="0.4064" layer="52" rot="MR0"/>
 <attribute name="NAME" x="8.5789" y="39.9145" size="0.3048" layer="255" rot="MR0"/>
+<attribute name="NAME" x="8.5789" y="39.9145" size="0.4064" layer="52" rot="MR0"/>
 <attribute name="PARTNO" value="CC0402KRX7R6BB104" x="7.9121" y="40.0558" size="1.778" layer="28" rot="MR0" display="off"/>
 <attribute name="TC" value="X7R" x="7.9121" y="40.0558" size="1.778" layer="28" rot="MR0" display="off"/>
 <attribute name="TOL" value="10%" x="7.9121" y="40.0558" size="1.778" layer="28" rot="MR0" display="off"/>
@@ -3041,8 +3041,8 @@ einem neuen Namen ab.</description>
 <attribute name="DESC" value="CAP CER 0.1UF 10V X7R 0402" x="8.8773" y="41.5163" size="1.778" layer="28" rot="MR0" display="off"/>
 <attribute name="MANUFACTURER" value="Kemet" x="8.8773" y="41.5163" size="1.778" layer="28" rot="MR0" display="off"/>
 <attribute name="MPN" value="CC0402KRX7R6BB104" x="8.8773" y="41.5163" size="1.778" layer="28" rot="MR0" display="off"/>
-<attribute name="NAME" x="9.5441" y="41.375" size="0.4064" layer="52" rot="MR0"/>
 <attribute name="NAME" x="9.5441" y="41.375" size="0.3048" layer="255" rot="MR0"/>
+<attribute name="NAME" x="9.5441" y="41.375" size="0.4064" layer="52" rot="MR0"/>
 <attribute name="PARTNO" value="CC0402KRX7R6BB104" x="8.8773" y="41.5163" size="1.778" layer="28" rot="MR0" display="off"/>
 <attribute name="TC" value="X7R" x="8.8773" y="41.5163" size="1.778" layer="28" rot="MR0" display="off"/>
 <attribute name="TOL" value="10%" x="8.8773" y="41.5163" size="1.778" layer="28" rot="MR0" display="off"/>
@@ -3052,8 +3052,8 @@ einem neuen Namen ab.</description>
 <attribute name="DESC" value="CAP CER 0.1UF 10V X7R 0402" x="14.5796" y="40.5765" size="1.778" layer="28" rot="MR180" display="off"/>
 <attribute name="MANUFACTURER" value="Kemet" x="14.5796" y="40.5765" size="1.778" layer="28" rot="MR180" display="off"/>
 <attribute name="MPN" value="CC0402KRX7R6BB104" x="14.5796" y="40.5765" size="1.778" layer="28" rot="MR180" display="off"/>
-<attribute name="NAME" x="13.9128" y="40.7178" size="0.4064" layer="52" rot="MR180"/>
 <attribute name="NAME" x="13.9128" y="40.7178" size="0.3048" layer="255" rot="MR180"/>
+<attribute name="NAME" x="13.9128" y="40.7178" size="0.4064" layer="52" rot="MR180"/>
 <attribute name="PARTNO" value="CC0402KRX7R6BB104" x="14.5796" y="40.5765" size="1.778" layer="28" rot="MR180" display="off"/>
 <attribute name="TC" value="X7R" x="14.5796" y="40.5765" size="1.778" layer="28" rot="MR180" display="off"/>
 <attribute name="TOL" value="10%" x="14.5796" y="40.5765" size="1.778" layer="28" rot="MR180" display="off"/>
@@ -3063,8 +3063,8 @@ einem neuen Namen ab.</description>
 <attribute name="DESC" value="CAP CER 0.1UF 10V X7R 0402" x="9.7536" y="37.3634" size="1.778" layer="28" rot="MR270" display="off"/>
 <attribute name="MANUFACTURER" value="Kemet" x="9.7536" y="37.3634" size="1.778" layer="28" rot="MR270" display="off"/>
 <attribute name="MPN" value="CC0402KRX7R6BB104" x="9.7536" y="37.3634" size="1.778" layer="28" rot="MR270" display="off"/>
-<attribute name="NAME" x="9.8949" y="38.0302" size="0.4064" layer="52" rot="MR270"/>
 <attribute name="NAME" x="9.8949" y="38.0302" size="0.3048" layer="255" rot="MR270"/>
+<attribute name="NAME" x="9.8949" y="38.0302" size="0.4064" layer="52" rot="MR270"/>
 <attribute name="PARTNO" value="CC0402KRX7R6BB104" x="9.7536" y="37.3634" size="1.778" layer="28" rot="MR270" display="off"/>
 <attribute name="TC" value="X7R" x="9.7536" y="37.3634" size="1.778" layer="28" rot="MR270" display="off"/>
 <attribute name="TOL" value="10%" x="9.7536" y="37.3634" size="1.778" layer="28" rot="MR270" display="off"/>
@@ -3078,8 +3078,8 @@ einem neuen Namen ab.</description>
 <attribute name="DESC" value="CAP CER 0.1UF 10V X7R 0402" x="10.5918" y="42.7228" size="1.778" layer="28" rot="MR180" display="off"/>
 <attribute name="MANUFACTURER" value="Kemet" x="10.5918" y="42.7228" size="1.778" layer="28" rot="MR180" display="off"/>
 <attribute name="MPN" value="CC0402KRX7R6BB104" x="10.5918" y="42.7228" size="1.778" layer="28" rot="MR180" display="off"/>
-<attribute name="NAME" x="9.925" y="42.8641" size="0.4064" layer="52" rot="MR180"/>
 <attribute name="NAME" x="9.925" y="42.8641" size="0.3048" layer="255" rot="MR180"/>
+<attribute name="NAME" x="9.925" y="42.8641" size="0.4064" layer="52" rot="MR180"/>
 <attribute name="PARTNO" value="CC0402KRX7R6BB104" x="10.5918" y="42.7228" size="1.778" layer="28" rot="MR180" display="off"/>
 <attribute name="TC" value="X7R" x="10.5918" y="42.7228" size="1.778" layer="28" rot="MR180" display="off"/>
 <attribute name="TOL" value="10%" x="10.5918" y="42.7228" size="1.778" layer="28" rot="MR180" display="off"/>
@@ -3097,8 +3097,8 @@ einem neuen Namen ab.</description>
 <attribute name="DESC" value="CAP CER 1UF 10V X7S 0402" x="13.5509" y="42.1259" size="1.778" layer="28" rot="MR0" display="off"/>
 <attribute name="MANUFACTURER" value="TDK" x="13.5509" y="42.1259" size="1.778" layer="28" rot="MR0" display="off"/>
 <attribute name="MPN" value="C1005X7S1A105K050BC" x="13.5509" y="42.1259" size="1.778" layer="28" rot="MR0" display="off"/>
-<attribute name="NAME" x="14.2177" y="41.9846" size="0.4064" layer="52" rot="MR0"/>
 <attribute name="NAME" x="14.2177" y="41.9846" size="0.3048" layer="255" rot="MR0"/>
+<attribute name="NAME" x="14.2177" y="41.9846" size="0.4064" layer="52" rot="MR0"/>
 <attribute name="PARTNO" value="C1005X7S1A105K050BC" x="13.5509" y="42.1259" size="1.778" layer="28" rot="MR0" display="off"/>
 <attribute name="TC" value="X7R" x="13.5509" y="42.1259" size="1.778" layer="28" rot="MR0" display="off"/>
 <attribute name="TOL" value="10%" x="13.5509" y="42.1259" size="1.778" layer="28" rot="MR0" display="off"/>
