@@ -729,6 +729,59 @@ JST PH 2-pin thru-home side entry</description>
 <smd name="1" x="-0.4064" y="0" dx="0.635" dy="1.27" layer="1" cream="no"/>
 <smd name="2" x="0.4064" y="0" dx="0.635" dy="1.27" layer="1" cream="no"/>
 </package>
+<package name="USB-THRU-ZX62D-AB-5P8">
+<circle x="0" y="4.5" radius="0.7875" width="0.325" layer="31"/>
+<circle x="0" y="-4.5" radius="0.7875" width="0.325" layer="31"/>
+<circle x="3.125" y="2.225" radius="0.425" width="0.2" layer="31"/>
+<circle x="3.125" y="-2.225" radius="0.425" width="0.2" layer="31"/>
+<wire x1="2.6" y1="1.8" x2="2.6" y2="-1.8" width="0.1" layer="51"/>
+<wire x1="-1.325" y1="-3.75" x2="-1.325" y2="3.75" width="0.1" layer="21"/>
+<wire x1="-1.325" y1="3.75" x2="-1" y2="3.75" width="0.1" layer="21"/>
+<wire x1="-1.325" y1="-3.75" x2="-1" y2="-3.75" width="0.1" layer="21"/>
+<wire x1="1" y1="3.75" x2="2.85" y2="3.75" width="0.1" layer="21"/>
+<wire x1="-1" y1="3.75" x2="1" y2="3.75" width="0.1" layer="51"/>
+<wire x1="-1" y1="-3.75" x2="1" y2="-3.75" width="0.1" layer="51"/>
+<wire x1="1" y1="-3.75" x2="2.85" y2="-3.75" width="0.1" layer="21"/>
+<wire x1="-2.025" y1="-3.75" x2="-2.025" y2="-3.15" width="0.1" layer="51"/>
+<wire x1="-2.025" y1="-3.15" x2="-2.025" y2="-2.5" width="0.1" layer="51"/>
+<wire x1="-2.025" y1="-2.5" x2="-2.025" y2="2.5" width="0.1" layer="51"/>
+<wire x1="-2.025" y1="2.5" x2="-2.025" y2="3.15" width="0.1" layer="51"/>
+<wire x1="-2.025" y1="3.15" x2="-2.025" y2="3.75" width="0.1" layer="51"/>
+<wire x1="-2.625" y1="-2.5" x2="-2.625" y2="2.5" width="0.1" layer="51"/>
+<wire x1="-2.025" y1="3.75" x2="-1.325" y2="3.75" width="0.1" layer="51"/>
+<wire x1="-2.025" y1="-3.75" x2="-1.325" y2="-3.75" width="0.1" layer="51"/>
+<wire x1="-2.325" y1="4.05" x2="-2.025" y2="3.75" width="0.1" layer="51"/>
+<wire x1="-2.625" y1="3.75" x2="-2.025" y2="3.15" width="0.1" layer="51"/>
+<wire x1="-2.325" y1="4.05" x2="-2.625" y2="3.75" width="0.1" layer="51"/>
+<wire x1="-2.325" y1="-4.05" x2="-2.025" y2="-3.75" width="0.1" layer="51"/>
+<wire x1="-2.025" y1="-3.15" x2="-2.625" y2="-3.75" width="0.1" layer="51"/>
+<wire x1="-2.625" y1="-3.75" x2="-2.325" y2="-4.05" width="0.1" layer="51"/>
+<wire x1="-2.625" y1="2.5" x2="-2.025" y2="2.5" width="0.1" layer="51"/>
+<wire x1="-2.625" y1="-2.5" x2="-2.025" y2="-2.5" width="0.1" layer="51"/>
+<rectangle x1="1.775" y1="1.14" x2="3.125" y2="1.46" layer="51"/>
+<rectangle x1="1.775" y1="0.49" x2="3.125" y2="0.81" layer="51"/>
+<rectangle x1="1.775" y1="-0.16" x2="3.125" y2="0.16" layer="51"/>
+<rectangle x1="1.775" y1="-0.81" x2="3.125" y2="-0.49" layer="51"/>
+<rectangle x1="1.775" y1="-1.46" x2="3.125" y2="-1.14" layer="51"/>
+<rectangle x1="-1.325" y1="-3.75" x2="-0.95" y2="3.75" layer="41"/>
+<rectangle x1="0.95" y1="-3.75" x2="1.775" y2="3.75" layer="41"/>
+<rectangle x1="-0.95" y1="2.05" x2="0.95" y2="2.6" layer="41"/>
+<rectangle x1="-0.95" y1="-0.25" x2="0.95" y2="0.25" layer="41"/>
+<rectangle x1="-0.95" y1="-2.6" x2="0.95" y2="-2.05" layer="41"/>
+<rectangle x1="1.775" y1="-3.75" x2="1.975" y2="-1.7" layer="41"/>
+<rectangle x1="1.775" y1="1.7" x2="1.975" y2="3.75" layer="41"/>
+<smd name="D+" x="2.8" y="0" dx="1.35" dy="0.4" layer="1"/>
+<smd name="D-" x="2.8" y="0.65" dx="1.35" dy="0.4" layer="1"/>
+<smd name="GND" x="2.8" y="-1.3" dx="1.35" dy="0.4" layer="1"/>
+<pad name="S1" x="0" y="-4.5" drill="1.25" diameter="1.9"/>
+<pad name="S2" x="0" y="4.5" drill="1.25" diameter="1.9"/>
+<pad name="S3" x="3.125" y="2.225" drill="0.65" diameter="1.05" rot="R180"/>
+<pad name="S4" x="3.125" y="-2.225" drill="0.65" diameter="1.05" rot="R180"/>
+<smd name="USBID" x="2.8" y="-0.65" dx="1.35" dy="0.4" layer="1"/>
+<smd name="VBUS" x="2.8" y="1.3" dx="1.35" dy="0.4" layer="1"/>
+<text x="5" y="-3" size="1.27" layer="25" rot="R90">&gt;NAME</text>
+<text x="-2" y="-7" size="1.27" layer="27">&gt;VALUE</text>
+</package>
 </packages>
 <packages3d>
 <package3d name="SMT-JUMPER_2_NC_PASTE_NO-SILK" urn="urn:adsk.eagle:package:39283/1" type="box">
@@ -997,6 +1050,25 @@ JST PH 2-pin thru-home side entry</description>
 <text x="0" y="2.54" size="1.778" layer="95" font="vector" align="bottom-center">&gt;NAME</text>
 <pin name="2" x="5.08" y="0" visible="off" length="short" direction="pas" swaplevel="1" rot="R180"/>
 <pin name="1" x="-5.08" y="0" visible="off" length="short" direction="pas" swaplevel="1"/>
+</symbol>
+<symbol name="MICRO-USB">
+<wire x1="-5.08" y1="7.62" x2="5.08" y2="7.62" width="0.254" layer="94"/>
+<wire x1="5.08" y1="7.62" x2="5.08" y2="-7.62" width="0.254" layer="94"/>
+<wire x1="5.08" y1="-7.62" x2="-5.08" y2="-7.62" width="0.254" layer="94"/>
+<wire x1="-5.08" y1="-7.62" x2="-5.08" y2="7.62" width="0.254" layer="94"/>
+<pin name="VBUS" x="10.16" y="5.08" visible="off" length="middle" rot="R180"/>
+<pin name="D-" x="10.16" y="2.54" visible="off" length="middle" rot="R180"/>
+<pin name="D+" x="10.16" y="0" visible="off" length="middle" rot="R180"/>
+<pin name="USBID" x="10.16" y="-2.54" visible="off" length="middle" rot="R180"/>
+<pin name="GND" x="10.16" y="-5.08" visible="off" length="middle" rot="R180"/>
+<text x="5.588" y="5.334" size="1.27" layer="97">VBUS</text>
+<text x="5.588" y="2.794" size="1.27" layer="97">D-</text>
+<text x="5.588" y="0.254" size="1.27" layer="97">D+</text>
+<text x="5.588" y="-2.286" size="1.27" layer="97">ID</text>
+<text x="5.588" y="-4.826" size="1.27" layer="97">GND</text>
+<text x="1.016" y="-4.572" size="2.1844" layer="94" rot="R90">USBAB</text>
+<pin name="SHIELD" x="0" y="-12.7" visible="off" length="middle" rot="R90"/>
+<text x="-5.08" y="8.636" size="1.524" layer="95">&gt;NAME</text>
 </symbol>
 </symbols>
 <devicesets>
@@ -1439,6 +1511,32 @@ http://katalog.we-online.de/en/em/COM_3_1_THT_SMT_TYPE_C_RECEPTACLE_HORIZONTAL/6
 </connects>
 <technologies>
 <technology name=""/>
+</technologies>
+</device>
+</devices>
+</deviceset>
+<deviceset name="J-USB-HIROSE-MICRO-USB" prefix="J">
+<description>USB - Hirose ZX62D-AB-5P8(30) micro AB USB 2.0 Receptacle Connector 5 Position Surface Mount, Right Angle; Through Hole
+
+Because this component has through-hole tabs, it is much less susceptible to being ripped off of the board!</description>
+<gates>
+<gate name="G$1" symbol="MICRO-USB" x="2.54" y="-10.16"/>
+</gates>
+<devices>
+<device name="" package="USB-THRU-ZX62D-AB-5P8">
+<connects>
+<connect gate="G$1" pin="D+" pad="D+"/>
+<connect gate="G$1" pin="D-" pad="D-"/>
+<connect gate="G$1" pin="GND" pad="GND"/>
+<connect gate="G$1" pin="SHIELD" pad="S1 S2 S3 S4"/>
+<connect gate="G$1" pin="USBID" pad="USBID"/>
+<connect gate="G$1" pin="VBUS" pad="VBUS"/>
+</connects>
+<technologies>
+<technology name="">
+<attribute name="MANUFACTURER" value="Hirose"/>
+<attribute name="MPN" value="ZX62D-AB-5P8(30)"/>
+</technology>
 </technologies>
 </device>
 </devices>
@@ -6008,106 +6106,6 @@ new: Attribute TP_SIGNAL_NAME&lt;br&gt;
 </deviceset>
 </devicesets>
 </library>
-<library name="ZX62D-AB-5P8">
-<packages>
-<package name="ZX62D-AB-5P8">
-<wire x1="2.6" y1="1.8" x2="2.6" y2="-1.8" width="0.1" layer="51"/>
-<wire x1="-1.325" y1="-3.75" x2="-1.325" y2="3.75" width="0.1" layer="21"/>
-<text x="5" y="-3" size="1.27" layer="25" rot="R90">&gt;NAME</text>
-<text x="-2" y="-7" size="1.27" layer="27">&gt;VALUE</text>
-<rectangle x1="1.775" y1="1.14" x2="3.125" y2="1.46" layer="51"/>
-<rectangle x1="1.775" y1="0.49" x2="3.125" y2="0.81" layer="51"/>
-<rectangle x1="1.775" y1="-0.16" x2="3.125" y2="0.16" layer="51"/>
-<rectangle x1="1.775" y1="-0.81" x2="3.125" y2="-0.49" layer="51"/>
-<rectangle x1="1.775" y1="-1.46" x2="3.125" y2="-1.14" layer="51"/>
-<rectangle x1="-1.325" y1="-3.75" x2="-0.95" y2="3.75" layer="41"/>
-<rectangle x1="0.95" y1="-3.75" x2="1.775" y2="3.75" layer="41"/>
-<rectangle x1="-0.95" y1="2.05" x2="0.95" y2="2.6" layer="41"/>
-<rectangle x1="-0.95" y1="-0.25" x2="0.95" y2="0.25" layer="41"/>
-<rectangle x1="-0.95" y1="-2.6" x2="0.95" y2="-2.05" layer="41"/>
-<wire x1="-1.325" y1="3.75" x2="-1" y2="3.75" width="0.1" layer="21"/>
-<wire x1="-1.325" y1="-3.75" x2="-1" y2="-3.75" width="0.1" layer="21"/>
-<wire x1="1" y1="3.75" x2="2.85" y2="3.75" width="0.1" layer="21"/>
-<wire x1="-1" y1="3.75" x2="1" y2="3.75" width="0.1" layer="51"/>
-<wire x1="-1" y1="-3.75" x2="1" y2="-3.75" width="0.1" layer="51"/>
-<wire x1="1" y1="-3.75" x2="2.85" y2="-3.75" width="0.1" layer="21"/>
-<wire x1="-2.025" y1="-3.75" x2="-2.025" y2="-3.15" width="0.1" layer="51"/>
-<wire x1="-2.025" y1="-3.15" x2="-2.025" y2="-2.5" width="0.1" layer="51"/>
-<wire x1="-2.025" y1="-2.5" x2="-2.025" y2="2.5" width="0.1" layer="51"/>
-<wire x1="-2.025" y1="2.5" x2="-2.025" y2="3.15" width="0.1" layer="51"/>
-<wire x1="-2.025" y1="3.15" x2="-2.025" y2="3.75" width="0.1" layer="51"/>
-<wire x1="-2.625" y1="-2.5" x2="-2.625" y2="2.5" width="0.1" layer="51"/>
-<wire x1="-2.025" y1="3.75" x2="-1.325" y2="3.75" width="0.1" layer="51"/>
-<wire x1="-2.025" y1="-3.75" x2="-1.325" y2="-3.75" width="0.1" layer="51"/>
-<wire x1="-2.325" y1="4.05" x2="-2.025" y2="3.75" width="0.1" layer="51"/>
-<wire x1="-2.625" y1="3.75" x2="-2.025" y2="3.15" width="0.1" layer="51"/>
-<wire x1="-2.325" y1="4.05" x2="-2.625" y2="3.75" width="0.1" layer="51"/>
-<wire x1="-2.325" y1="-4.05" x2="-2.025" y2="-3.75" width="0.1" layer="51"/>
-<wire x1="-2.025" y1="-3.15" x2="-2.625" y2="-3.75" width="0.1" layer="51"/>
-<wire x1="-2.625" y1="-3.75" x2="-2.325" y2="-4.05" width="0.1" layer="51"/>
-<wire x1="-2.625" y1="2.5" x2="-2.025" y2="2.5" width="0.1" layer="51"/>
-<wire x1="-2.625" y1="-2.5" x2="-2.025" y2="-2.5" width="0.1" layer="51"/>
-<rectangle x1="1.775" y1="-3.75" x2="1.975" y2="-1.7" layer="41"/>
-<rectangle x1="1.775" y1="1.7" x2="1.975" y2="3.75" layer="41"/>
-<circle x="0" y="4.5" radius="0.7875" width="0.325" layer="31"/>
-<circle x="0" y="-4.5" radius="0.7875" width="0.325" layer="31"/>
-<circle x="3.125" y="2.225" radius="0.425" width="0.2" layer="31"/>
-<circle x="3.125" y="-2.225" radius="0.425" width="0.2" layer="31"/>
-<smd name="VBUS" x="2.8" y="1.3" dx="1.35" dy="0.4" layer="1"/>
-<smd name="D-" x="2.8" y="0.65" dx="1.35" dy="0.4" layer="1"/>
-<smd name="D+" x="2.8" y="0" dx="1.35" dy="0.4" layer="1"/>
-<smd name="USBID" x="2.8" y="-0.65" dx="1.35" dy="0.4" layer="1"/>
-<smd name="GND" x="2.8" y="-1.3" dx="1.35" dy="0.4" layer="1"/>
-<pad name="S3" x="3.125" y="2.225" drill="0.65" diameter="1.05" rot="R180"/>
-<pad name="S4" x="3.125" y="-2.225" drill="0.65" diameter="1.05" rot="R180"/>
-<pad name="S2" x="0" y="4.5" drill="1.25" diameter="1.9"/>
-<pad name="S1" x="0" y="-4.5" drill="1.25" diameter="1.9"/>
-</package>
-</packages>
-<symbols>
-<symbol name="SHIELD-4">
-<wire x1="-5.08" y1="7.62" x2="5.08" y2="7.62" width="0.254" layer="94"/>
-<wire x1="5.08" y1="7.62" x2="5.08" y2="-7.62" width="0.254" layer="94"/>
-<wire x1="5.08" y1="-7.62" x2="-5.08" y2="-7.62" width="0.254" layer="94"/>
-<wire x1="-5.08" y1="-7.62" x2="-5.08" y2="7.62" width="0.254" layer="94"/>
-<pin name="VBUS" x="10.16" y="5.08" visible="off" length="middle" rot="R180"/>
-<pin name="D-" x="10.16" y="2.54" visible="off" length="middle" rot="R180"/>
-<pin name="D+" x="10.16" y="0" visible="off" length="middle" rot="R180"/>
-<pin name="USBID" x="10.16" y="-2.54" visible="off" length="middle" rot="R180"/>
-<pin name="GND" x="10.16" y="-5.08" visible="off" length="middle" rot="R180"/>
-<text x="5.588" y="5.334" size="1.27" layer="97">VBUS</text>
-<text x="5.588" y="2.794" size="1.27" layer="97">D-</text>
-<text x="5.588" y="0.254" size="1.27" layer="97">D+</text>
-<text x="5.588" y="-2.286" size="1.27" layer="97">ID</text>
-<text x="5.588" y="-4.826" size="1.27" layer="97">GND</text>
-<text x="1.016" y="-4.572" size="2.1844" layer="94" rot="R90">USBAB</text>
-<pin name="SHIELD" x="0" y="-12.7" visible="off" length="middle" rot="R90"/>
-<text x="-7.112" y="-9.906" size="1.27" layer="97">SHIELD</text>
-</symbol>
-</symbols>
-<devicesets>
-<deviceset name="USBABSMTDIP" prefix="J">
-<gates>
-<gate name="G$1" symbol="SHIELD-4" x="2.54" y="-10.16"/>
-</gates>
-<devices>
-<device name="" package="ZX62D-AB-5P8">
-<connects>
-<connect gate="G$1" pin="D+" pad="D+"/>
-<connect gate="G$1" pin="D-" pad="D-"/>
-<connect gate="G$1" pin="GND" pad="GND"/>
-<connect gate="G$1" pin="SHIELD" pad="S1 S2 S3 S4"/>
-<connect gate="G$1" pin="USBID" pad="USBID"/>
-<connect gate="G$1" pin="VBUS" pad="VBUS"/>
-</connects>
-<technologies>
-<technology name=""/>
-</technologies>
-</device>
-</devices>
-</deviceset>
-</devicesets>
-</library>
 </libraries>
 <attributes>
 </attributes>
@@ -7007,7 +7005,7 @@ new: Attribute TP_SIGNAL_NAME&lt;br&gt;
 <part name="SCL" library="TestPoints" deviceset="TP" device="TP10SQ" package3d_urn="urn:adsk.eagle:package:27962/1"/>
 <part name="SDA" library="TestPoints" deviceset="TP" device="TP10SQ" package3d_urn="urn:adsk.eagle:package:27962/1"/>
 <part name="D2" library="Diodes" deviceset="BGX50A" device=""/>
-<part name="J.USB.DBG" library="ZX62D-AB-5P8" deviceset="USBABSMTDIP" device="">
+<part name="J.USB.DBG" library="Connectors" deviceset="J-USB-HIROSE-MICRO-USB" device="">
 <attribute name="MP" value="ZX62D-AB-5P8(30)"/>
 <attribute name="MPN" value="ZX62D-AB-5P8(30)"/>
 <attribute name="PART_NO" value="ZX62D-AB-5P8(30)"/>
@@ -7016,7 +7014,7 @@ new: Attribute TP_SIGNAL_NAME&lt;br&gt;
 <part name="GND209" library="Supplies" deviceset="GND" device=""/>
 <part name="GND207" library="Supplies" deviceset="GND" device=""/>
 <part name="GND210" library="Supplies" deviceset="GND" device=""/>
-<part name="J.USB.MN" library="ZX62D-AB-5P8" deviceset="USBABSMTDIP" device="">
+<part name="J.USB.MN" library="Connectors" deviceset="J-USB-HIROSE-MICRO-USB" device="">
 <attribute name="MP" value="ZX62D-AB-5P8(30)"/>
 <attribute name="MPN" value="ZX62D-AB-5P8(30)"/>
 <attribute name="PAR_NO" value="ZX62D-AB-5P8(30)"/>
