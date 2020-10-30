@@ -984,23 +984,6 @@ Pad dimensions from http://www.kemet.com/Lists/ProductCatalog/Attachments/53/KEM
 <wire x1="1.65" y1="0.9" x2="-1.65" y2="0.9" width="0.0508" layer="255"/>
 <wire x1="-1.65" y1="0.9" x2="-1.65" y2="-0.9" width="0.0508" layer="255"/>
 </package>
-<package name="C1206">
-<description>&lt;b&gt;SMD Capacitor&lt;/b&gt;&lt;p&gt;
-Pad dimensions from http://www.kemet.com/Lists/ProductCatalog/Attachments/53/KEM_C1002_X7R_SMD.pdf</description>
-<wire x1="-2.2" y1="1.05" x2="2.2" y2="1.05" width="0.0508" layer="255"/>
-<wire x1="2.2" y1="1.05" x2="2.2" y2="-1.05" width="0.0508" layer="255"/>
-<wire x1="-2.2" y1="-1.05" x2="-2.2" y2="1.05" width="0.0508" layer="255"/>
-<smd name="2" x="1.5" y="0" dx="1.15" dy="1.8" layer="1"/>
-<smd name="1" x="-1.5" y="0" dx="1.15" dy="1.8" layer="1"/>
-<text x="-1.2398" y="1.153" size="0.6096" layer="25">&gt;Name</text>
-<rectangle x1="-0.3" y1="-0.7" x2="0.3" y2="0.7" layer="35"/>
-<rectangle x1="-2.2" y1="-1.05" x2="2.2" y2="1.05" layer="43"/>
-<wire x1="-2.2" y1="-1.05" x2="2.2" y2="-1.05" width="0.0508" layer="255"/>
-<wire x1="-2.2" y1="-1.05" x2="2.2" y2="-1.05" width="0.0508" layer="39"/>
-<wire x1="2.2" y1="-1.05" x2="2.2" y2="1.05" width="0.0508" layer="39"/>
-<wire x1="2.2" y1="1.05" x2="-2.2" y2="1.05" width="0.0508" layer="39"/>
-<wire x1="-2.2" y1="1.05" x2="-2.2" y2="-1.05" width="0.0508" layer="39"/>
-</package>
 <package name="C1210">
 <description>&lt;b&gt;SMD Capacitor&lt;/b&gt;&lt;p&gt;
 Pad dimensions from http://www.kemet.com/Lists/ProductCatalog/Attachments/53/KEM_C1002_X7R_SMD.pdf</description>
@@ -1017,6 +1000,27 @@ Pad dimensions from http://www.kemet.com/Lists/ProductCatalog/Attachments/53/KEM
 <wire x1="2.25" y1="1.55" x2="-2.25" y2="1.55" width="0.0508" layer="255"/>
 <wire x1="-2.25" y1="1.55" x2="-2.25" y2="-1.55" width="0.0508" layer="255"/>
 <rectangle x1="-2.25" y1="-1.55" x2="2.25" y2="1.55" layer="43"/>
+</package>
+<package name="C1206">
+<description>&lt;b&gt;SMD Capacitor&lt;/b&gt;&lt;p&gt;
+Pad dimensions from http://www.kemet.com/Lists/ProductCatalog/Attachments/53/KEM_C1002_X7R_SMD.pdf</description>
+<wire x1="-2.2" y1="1.05" x2="2.2" y2="1.05" width="0.0508" layer="51"/>
+<wire x1="2.2" y1="1.05" x2="2.2" y2="-1.05" width="0.0508" layer="51"/>
+<wire x1="-2.2" y1="-1.05" x2="-2.2" y2="1.05" width="0.0508" layer="51"/>
+<smd name="2" x="1.5" y="0" dx="1.15" dy="1.8" layer="1"/>
+<smd name="1" x="-1.5" y="0" dx="1.15" dy="1.8" layer="1"/>
+<text x="-1.2398" y="1.153" size="0.6096" layer="25">&gt;Name</text>
+<rectangle x1="-0.3" y1="-0.7" x2="0.3" y2="0.7" layer="35"/>
+<rectangle x1="-2.2" y1="-1.05" x2="2.2" y2="1.05" layer="43"/>
+<wire x1="-2.2" y1="-1.05" x2="2.2" y2="-1.05" width="0.0508" layer="51"/>
+<wire x1="-2.2" y1="-1.05" x2="2.2" y2="-1.05" width="0.0508" layer="39"/>
+<wire x1="2.2" y1="-1.05" x2="2.2" y2="1.05" width="0.0508" layer="39"/>
+<wire x1="2.2" y1="1.05" x2="-2.2" y2="1.05" width="0.0508" layer="39"/>
+<wire x1="-2.2" y1="1.05" x2="-2.2" y2="-1.05" width="0.0508" layer="39"/>
+<wire x1="-2.2" y1="1.05" x2="2.2" y2="1.05" width="0.0508" layer="255"/>
+<wire x1="2.2" y1="1.05" x2="2.2" y2="-1.05" width="0.0508" layer="255"/>
+<wire x1="-2.2" y1="-1.05" x2="-2.2" y2="1.05" width="0.0508" layer="255"/>
+<wire x1="-2.2" y1="-1.05" x2="2.2" y2="-1.05" width="0.0508" layer="255"/>
 </package>
 </packages>
 <symbols>
@@ -1689,8 +1693,8 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <wire x1="1.5" y1="1.5" x2="1.5" y2="-1.5" width="0.127" layer="51"/>
 <wire x1="1.5" y1="-1.5" x2="-1.5" y2="-1.5" width="0.127" layer="51"/>
 <wire x1="-1.5" y1="-1.5" x2="-1.5" y2="1.5" width="0.127" layer="51"/>
-<text x="-1.9967" y="1.426209375" size="1.01686875" layer="25">&gt;NAME</text>
-<circle x="-2.108" y="1.208" radius="0" width="0.254" layer="27"/>
+<text x="-1.4887" y="1.553209375" size="1.01686875" layer="25">&gt;NAME</text>
+<circle x="-1.981" y="1.335" radius="0" width="0.254" layer="21"/>
 <wire x1="-1.5" y1="1.5" x2="1.5" y2="1.5" width="0.127" layer="21"/>
 <wire x1="-1.5" y1="-1.5" x2="-0.6" y2="-1.5" width="0.127" layer="21"/>
 <wire x1="0.6" y1="-1.5" x2="1.5" y2="-1.5" width="0.127" layer="21"/>
@@ -1703,7 +1707,7 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <smd name="4" x="1.35" y="-0.95" dx="0.6" dy="0.45" layer="1" rot="R180"/>
 <smd name="5" x="1.35" y="0" dx="0.6" dy="0.45" layer="1" rot="R180"/>
 <smd name="6" x="1.35" y="0.95" dx="0.6" dy="0.45" layer="1" rot="R180"/>
-<smd name="7" x="0" y="0" dx="1.8" dy="2.6" layer="1" cream="no"/>
+<smd name="7" x="0" y="0" dx="1.8" dy="2.6" layer="1"/>
 </package>
 </packages>
 <symbols>
@@ -2413,7 +2417,7 @@ JST PH 2-pin thru-home side entry</description>
 </devices>
 </deviceset>
 <deviceset name="HIROSE-DF40_50-PIN_CONNECTORS" prefix="J">
-<description>Hirose DF40 series 44-pin mezzanine type connectors at 0.4mm pitch.
+<description>Hirose DF40 series 50-pin mezzanine type connectors at 0.4mm pitch.
 &lt;p&gt;
 Specification and Variants: https://www.hirose.com/product/document?clcode=&amp;productname=&amp;series=DF40&amp;documenttype=Catalog&amp;lang=en&amp;documentid=D31649_en</description>
 <gates>
@@ -4874,9 +4878,10 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <attribute name="PART_NO" value="RNCF0603BKC2R21"/>
 <attribute name="TOL" value="0.1%"/>
 </part>
-<part name="R207" library="Resistors" deviceset="R-" device="0603" value="0.24">
-<attribute name="MPN" value="ERJ-2BQFR24X"/>
-<attribute name="PART_NO" value="ERJ-2BQFR24X"/>
+<part name="R207" library="Resistors" deviceset="R-" device="0402" value="0.24">
+<attribute name="MANUFACTURER" value="Ohmite"/>
+<attribute name="MPN" value="KDV06DR240ET"/>
+<attribute name="PART_NO" value="KDV06DR240ET"/>
 <attribute name="TOL" value="0.5%"/>
 </part>
 <part name="BORDER301" library="Graphics" deviceset="BORDER-CMU" device=""/>
@@ -5002,9 +5007,9 @@ You are welcome to use this library for commercial purposes. For attribution, we
 </part>
 <part name="GND16" library="Supplies" deviceset="GND" device=""/>
 <part name="Q1" library="Switches" deviceset="DMG3415UFY4Q-7" device="F">
-<attribute name="MP" value="DMG3415U-7"/>
-<attribute name="MPN" value="DMG3415U-7"/>
-<attribute name="PART_NO" value="DMG3415U-7"/>
+<attribute name="MP" value="DMG3415UFY4Q-7"/>
+<attribute name="MPN" value="DMG3415UFY4Q-7"/>
+<attribute name="PART_NO" value="DMG3415UFY4Q-7"/>
 </part>
 <part name="R3" library="Resistors" deviceset="R-" device="0402" value="100k">
 <attribute name="MPN" value="ERJ-2GEJ104X"/>
@@ -5792,6 +5797,7 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <pinref part="U101" gate="G$1" pin="PC11"/>
 <wire x1="121.92" y1="71.12" x2="121.92" y2="15.24" width="0.1524" layer="91"/>
 <wire x1="121.92" y1="15.24" x2="119.38" y2="12.7" width="0.1524" layer="91"/>
+<label x="121.92" y="30.48" size="1.778" layer="95" rot="R90"/>
 </segment>
 </net>
 <net name="DTR_BUS1_GPIO1" class="0">
@@ -5799,6 +5805,7 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <pinref part="U101" gate="G$1" pin="PC12"/>
 <wire x1="124.46" y1="71.12" x2="124.46" y2="15.24" width="0.1524" layer="91"/>
 <wire x1="124.46" y1="15.24" x2="121.92" y2="12.7" width="0.1524" layer="91"/>
+<label x="124.46" y="30.48" size="1.778" layer="95" rot="R90"/>
 </segment>
 </net>
 <net name="DBG_GPIO4/SERCOM6_P0" class="0">
@@ -6267,6 +6274,7 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <pinref part="U101" gate="G$1" pin="PC13"/>
 <wire x1="127" y1="71.12" x2="127" y2="15.24" width="0.1524" layer="91"/>
 <wire x1="127" y1="15.24" x2="124.46" y2="12.7" width="0.1524" layer="91"/>
+<label x="127" y="30.48" size="1.778" layer="95" rot="R90"/>
 </segment>
 </net>
 <net name="DTR_BUS2_GPIO1" class="0">
@@ -6274,6 +6282,7 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <pinref part="U101" gate="G$1" pin="PC14"/>
 <wire x1="129.54" y1="71.12" x2="129.54" y2="15.24" width="0.1524" layer="91"/>
 <wire x1="129.54" y1="15.24" x2="127" y2="12.7" width="0.1524" layer="91"/>
+<label x="129.54" y="30.48" size="1.778" layer="95" rot="R90"/>
 </segment>
 </net>
 <net name="DTR_MSTR_GPIO0" class="0">
@@ -6358,6 +6367,8 @@ A single select line is used to
 <text x="292.354" y="205.74" size="1.778" layer="91">Switch has 260-350 mΩ resistance
 Estimate typical 260 mΩ for total 0.5Ω
 to account for ~200mA of current</text>
+<text x="258.318" y="35.56" size="1.778" layer="97">Address 0x40</text>
+<text x="111.76" y="147.32" size="1.778" layer="97">Address 0x36</text>
 </plain>
 <instances>
 <instance part="BORDER201" gate="G$1" x="0" y="0" smashed="yes"/>
