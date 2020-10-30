@@ -4795,7 +4795,7 @@ design rules under a new name.</description>
 <wire x1="-11.2395" y1="49.53" x2="-11.2395" y2="49.7205" width="0.254" layer="1"/>
 <wire x1="-9.525" y1="49.7205" x2="-9.525" y2="49.715" width="0.254" layer="1"/>
 <wire x1="-11.2395" y1="49.53" x2="-11.265" y2="49.53" width="0.254" layer="1"/>
-<wire x1="-2.6035" y1="45.72" x2="-2.54" y2="45.72" width="0.254" layer="1"/>
+<wire x1="-2.54" y1="45.72" x2="-2.6035" y2="45.72" width="0.254" layer="1"/>
 <wire x1="-2.667" y1="45.7835" x2="-2.6035" y2="45.72" width="0.254" layer="1"/>
 <wire x1="-4.0005" y1="45.7835" x2="-2.667" y2="45.7835" width="0.254" layer="1"/>
 <wire x1="-7.874" y1="49.657" x2="-4.0005" y2="45.7835" width="0.254" layer="1"/>
@@ -4864,7 +4864,8 @@ design rules under a new name.</description>
 <via x="1.3335" y="33.528" extent="1-16" drill="0.2"/>
 <via x="-11.2395" y="48.387" extent="1-16" drill="0.2"/>
 <contactref element="D3" pad="A"/>
-<wire x1="-2.54" y1="45.72" x2="-2.54" y2="46.41" width="0" layer="19" extent="1-1"/>
+<wire x1="-2.6035" y1="45.72" x2="-2.6035" y2="46.3465" width="0.254" layer="1"/>
+<wire x1="-2.6035" y1="46.3465" x2="-2.54" y2="46.41" width="0.254" layer="1"/>
 </signal>
 <signal name="3V3_INSTR_PROC" class="1">
 <contactref element="IP.AREF" pad="1"/>
@@ -5054,6 +5055,15 @@ design rules under a new name.</description>
 <via x="14.224" y="34.3535" extent="1-16" drill="0.2"/>
 <wire x1="5.842" y1="40.005" x2="5.6532" y2="40.1938" width="0.254" layer="1"/>
 <wire x1="5.6532" y1="40.1938" x2="3.8608" y2="40.1938" width="0.254" layer="1"/>
+<contactref element="HUB.VDD" pad="1"/>
+<wire x1="-7.17" y1="19.685" x2="-7.17" y2="20.505" width="0.254" layer="1"/>
+<via x="-7.329646875" y="20.664646875" extent="1-16" drill="0.25"/>
+<wire x1="-7.329646875" y1="20.664646875" x2="-6.985" y2="21.00929375" width="0.254" layer="16"/>
+<via x="-6.985" y="21.842" extent="1-16" drill="0.25"/>
+<wire x1="-6.985" y1="21.842" x2="-7.0104" y2="21.8674" width="0.254" layer="1"/>
+<wire x1="-7.0104" y1="21.8674" x2="-7.0104" y2="22.5552" width="0.254" layer="1"/>
+<wire x1="-7.17" y1="20.505" x2="-7.329646875" y2="20.664646875" width="0.254" layer="1"/>
+<wire x1="-6.985" y1="21.00929375" x2="-6.985" y2="21.842" width="0.254" layer="16"/>
 </signal>
 <signal name="XIN32">
 <contactref element="U.IP" pad="48"/>
@@ -7996,13 +8006,14 @@ design rules under a new name.</description>
 </signal>
 <signal name="EXT_VIN" class="1">
 <contactref element="J19" pad="1"/>
-<wire x1="-11.2395" y1="55.6895" x2="-10.795" y2="56.134" width="0.254" layer="1"/>
+<wire x1="-11.2395" y1="55.6895" x2="-10.922" y2="56.007" width="0.254" layer="1"/>
 <wire x1="-14.1605" y1="55.6895" x2="-11.2395" y2="55.6895" width="0.254" layer="1"/>
 <wire x1="-14.224" y1="55.626" x2="-14.1605" y2="55.6895" width="0.254" layer="1"/>
 <wire x1="-15.3035" y1="55.626" x2="-14.224" y2="55.626" width="0.254" layer="1"/>
 <wire x1="-15.3035" y1="55.626" x2="-15.35" y2="55.61" width="0.254" layer="1"/>
 <contactref element="D4" pad="A"/>
-<wire x1="-10.795" y1="56.134" x2="-10.795" y2="57.095" width="0" layer="19" extent="1-1"/>
+<wire x1="-10.922" y1="56.007" x2="-10.795" y2="56.134" width="0.254" layer="1"/>
+<wire x1="-10.795" y1="56.134" x2="-10.795" y2="57.095" width="0.254" layer="1"/>
 </signal>
 <signal name="CHG_VPCC" class="1">
 <contactref element="R202" pad="2"/>
@@ -8362,13 +8373,13 @@ design rules under a new name.</description>
 </signal>
 <signal name="N$15" class="1">
 <contactref element="EXT.SRC" pad="1"/>
-<wire x1="-10.7315" y1="54.4195" x2="-10.795" y2="54.356" width="0.254" layer="1"/>
 <wire x1="-8.0645" y1="54.4195" x2="-10.7315" y2="54.4195" width="0.254" layer="1"/>
 <wire x1="-8.001" y1="54.483" x2="-8.0645" y2="54.4195" width="0.254" layer="1"/>
 <wire x1="-8.001" y1="55.245" x2="-8.001" y2="54.483" width="0.254" layer="1"/>
 <wire x1="-8.001" y1="55.245" x2="-8.0264" y2="55.245" width="0.254" layer="1"/>
 <contactref element="D4" pad="C"/>
-<wire x1="-10.795" y1="53.395" x2="-10.795" y2="54.356" width="0" layer="19" extent="1-1"/>
+<wire x1="-10.7315" y1="54.4195" x2="-10.795" y2="54.356" width="0.254" layer="1"/>
+<wire x1="-10.795" y1="54.356" x2="-10.795" y2="53.395" width="0.254" layer="1"/>
 </signal>
 <signal name="CC3">
 <contactref element="J5" pad="A5"/>
@@ -9163,9 +9174,6 @@ design rules under a new name.</description>
 <wire x1="-5.461" y1="50.165" x2="-5.4864" y2="50.165" width="0.254" layer="1"/>
 <wire x1="-7.239" y1="55.1815" x2="-7.2136" y2="55.245" width="0.254" layer="1"/>
 <via x="-4.699" y="56.134" extent="1-16" drill="0.2"/>
-</signal>
-<signal name="+3V3_INSTR_PROC" class="1">
-<contactref element="HUB.VDD" pad="1"/>
 </signal>
 <signal name="USB_HUB_VDD" class="1">
 <contactref element="C54" pad="1"/>
@@ -9981,13 +9989,13 @@ design rules under a new name.</description>
 </signal>
 <signal name="VUSB_DIODE" class="1">
 <contactref element="USB.VSRC" pad="1"/>
-<wire x1="-2.6035" y1="51.181" x2="-2.54" y2="51.1175" width="0.254" layer="1"/>
+<wire x1="-2.54" y1="51.1175" x2="-2.6035" y2="51.181" width="0.254" layer="1"/>
 <wire x1="-4.6355" y1="51.181" x2="-2.6035" y2="51.181" width="0.254" layer="1"/>
 <wire x1="-4.699" y1="51.1175" x2="-4.6355" y2="51.181" width="0.254" layer="1"/>
 <wire x1="-4.699" y1="50.165" x2="-4.699" y2="51.1175" width="0.254" layer="1"/>
 <wire x1="-4.699" y1="50.165" x2="-4.6736" y2="50.165" width="0.254" layer="1"/>
 <contactref element="D3" pad="C"/>
-<wire x1="-2.54" y1="50.11" x2="-2.54" y2="51.1175" width="0" layer="19" extent="1-1"/>
+<wire x1="-2.54" y1="50.11" x2="-2.54" y2="51.1175" width="0.254" layer="1"/>
 </signal>
 <signal name="N$3">
 <contactref element="HUB.SUSP" pad="C"/>

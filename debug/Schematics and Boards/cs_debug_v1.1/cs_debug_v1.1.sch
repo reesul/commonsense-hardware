@@ -9897,6 +9897,12 @@ internal pull-ups</text>
 <wire x1="220.98" y1="195.58" x2="220.98" y2="200.66" width="0.1524" layer="91"/>
 <junction x="220.98" y="200.66"/>
 </segment>
+<segment>
+<pinref part="SUPPLY26" gate="G$1" pin="+3V3"/>
+<pinref part="HUB.VDD" gate="G$1" pin="1"/>
+<wire x1="114.3" y1="248.92" x2="114.3" y2="254" width="0.1524" layer="91"/>
+<label x="109.22" y="256.54" size="1.778" layer="95"/>
+</segment>
 </net>
 <net name="AGND" class="8">
 <segment>
@@ -10368,14 +10374,6 @@ internal pull-ups</text>
 <junction x="167.64" y="355.6"/>
 <pinref part="USB.VSRC" gate="G$1" pin="2"/>
 <wire x1="160.02" y1="350.52" x2="167.64" y2="350.52" width="0.1524" layer="91"/>
-</segment>
-</net>
-<net name="+3V3_INSTR_PROC" class="1">
-<segment>
-<pinref part="SUPPLY26" gate="G$1" pin="+3V3"/>
-<pinref part="HUB.VDD" gate="G$1" pin="1"/>
-<wire x1="114.3" y1="248.92" x2="114.3" y2="254" width="0.1524" layer="91"/>
-<label x="109.22" y="256.54" size="1.778" layer="95"/>
 </segment>
 </net>
 <net name="USB_HUB_VDD" class="1">
